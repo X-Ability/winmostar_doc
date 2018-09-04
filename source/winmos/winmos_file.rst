@@ -89,9 +89,11 @@ SMILES
 画像
 ^^^^^^^^^^^^
    メインウインドウに表示されている内容をBMPまたはJPG形式で出力します。
+
 VRML
 ^^^^^^^^^^^^
    メインウインドウに表示されている分子構造をVRML形式で出力します。
+
 CHARMM crd File
 ^^^^^^^^^^^^^^^^^^
    メインウインドウに表示されている分子構造をCHARMMのcrd形式で座標を出力します。
@@ -122,9 +124,11 @@ XYZ形式で保存
 読み込み
 ^^^^^^^^^^
    ユーザ設定を :file:`UserPref` フォルダの :file:`winmos_mprof.wmx` と :file:`wmset_myprof.ini` から読み込みます。
+   
 保存
 ^^^^^^^^^
    ユーザ設定を :file:`UserPref` フォルダの :file:`winmos_mprof.wmx` と :file:`wmset_myprof.ini` として保存します。
+
 デフォルトに戻す
 ^^^^^^^^^^^^^^^^^^^
    :file:`UserPref` フォルダの :file:`atoms1.wmx` と :file:`wmset.ini` に記録されているユーザ設定をデフォルト値に戻します。

@@ -30,8 +30,7 @@ Winmostar(TM)を初めて使う方は `ビギナーズガイド <https://winmost
    winmos/winmos_mainmenu
    winmos/winmos_addon
    winmos/winmos_util
-   cygwin_wm/cygwin_wm
-   advanced/commandline
+   advanced/advanced
    knownissues/knownissues
    faq/faq
    
