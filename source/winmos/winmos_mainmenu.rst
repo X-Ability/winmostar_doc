@@ -1,4 +1,4 @@
-メニュー・ウインドウ
+各種メニュー・ウインドウ
 ============================================
 
 .. toctree::
@@ -6,9 +6,13 @@
    
    winmos_file
    winmos_edit
+   winmos_select
    winmos_view
    semiempirical/winmos_mopac
    semiempirical/winmos_cndos
+   qm/winmos_gamess
+   qm/winmos_gaussian
+   qm/winmos_nwchem
    md/winmos_md
    md/winmos_gromacs
    md/winmos_lammps
@@ -16,10 +20,16 @@
    md/winmos_polymer
    md/winmos_interface
    winmos_tools
+   winmos_preferences
+   winmos_window
    winmos_help
    sub/winmos_animation
    sub/winmos_mo
    sub/winmos_cube
    sub/winmos_ir
    sub/winmos_uvvis
+   sub/winmos_nmr
+   sub/winmos_pio
+   util/winmos3d
+   util/winmosjm
    

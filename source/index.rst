@@ -11,11 +11,11 @@ Winmostar :sup:`TM` マニュアル
 本書には、Winmostar(TM)の各機能の動作・操作方法が書かれています。
 本書の最新版は `公式サイト <https://winmostar.com/>`_ から入手可能です。
 
-Winmostar(TM)を初めて使う方は `ビギナーズガイド <https://winmostar.com/jp/tutorials/V8/BeginnersGuide_V8.pdf>`_ をご覧ください。
+Winmostar(TM)を初めて使う方は `ビギナーズガイド <https://winmostar.com/jp/tutorials/V8/BeginnersGuide_V8.pdf>`_ をご一読ください。
 
-ご不明点がある場合、予想通りに動かない場合は、 随時更新されている :ref:`faq_top` をご確認下さい。
+ご不明点がある場合、予想通りに動かない場合は、 随時更新されている :ref:`faq_top` をご確認ください。
 
-化学反応解析、物性の算出、といった具体的な目的ごとの操作方法は、 `各種チュートリアル <https://winmostar.com/jp/manual_jp.html>`_ に書かれています。
+化学反応解析や特定の物性の算出など、目的別の具体的な操作手順は、 `各種チュートリアル <https://winmostar.com/jp/manual_jp.html>`_ に参照してください。
 
 .. toctree::
    :maxdepth: 1
@@ -24,12 +24,11 @@ Winmostar(TM)を初めて使う方は `ビギナーズガイド <https://winmost
    introduction/introduction
    installation/installation
    winmos/winmos_gui
-   operation/createsystem
    operation/calc_import
-   winmos/winmos_remote
+   operation/createsystem
    winmos/winmos_mainmenu
+   winmos/winmos_remote
    winmos/winmos_addon
-   winmos/winmos_util
    advanced/advanced
    knownissues/knownissues
    faq/faq

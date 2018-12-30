@@ -5,31 +5,24 @@
 :menuselection:`半経験QM --> MOPAC` メニュー
 ============================================
 
-   WinmostarにはMOPAC6とMOPAC7が同梱されています。
+   MOPACに関するメニューです。
+   
+   MOPAC6とMOPAC7はWinmostarに同梱されています。
    それ以外のMOPACを利用する場合は、別途代理店よりMOPAC本体を購入し、環境設定ウインドウにてパスを設定してください。
 
-.. _semiempirical_mopac_flow:
-
-MOPAC計算の処理の流れ
-----------------------------
-
-   1) 計算したい分子をメインウインドウで作成します。
-   
-   2) AM1ハミルトニアンでの構造最適化（EF）計算以外を実行する場合は、 :ref:`semiempirical_mopac_keyword` にて計算条件を設定します。
-
-   3) :ref:`semiempirical_mopac6_start` ～ :ref:`semiempirical_mopacx_start` を選んでMOPACの入力ファイル（dat）を保存すると、MOPACが実行されます。計算結果はdatファイルと同名のarc, dat, outファイルに出力されます。また、接尾辞が :file:`_temp` の作業ディレクトリに中間ファイルが収められます。
-   
-   4) :ref:`semiempirical_mopac_mo` など各種の結果処理機能を選択した時に、 :guilabel:`開く` ダイアログでデフォルトで選択されるファイルは、メインウインドウで開かれたファイルに紐づけられた結果ファイルとなります。
-   
 .. _semiempirical_mopac_keyword:
 
 キーワード設定
 ------------------------
 
-   MOPAC計算用のキーワードを設定します。設定後 :guilabel:`Set` ボタンをクリックします。
+   MOPACの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウインドウに戻る場合は :guilabel:`OK` ボタンを押してください。
+   
+   :guilabel:`Reset` ボタンでデフォルトの状態に戻ります。
+   :guilabel:`Save as Default` ボタンで現在の状態をデフォルトの状態として保存します。
+   :menuselection:`Save as Default --> Clear Default Settings` で保存されてデフォルトの状態を出荷時の状態に戻します。
 
    Hamiltonian
-      使用するハミルトニアンを指定します。
+      使用するハミルトニアンを指定します。MOPACの各パージョンがサポートするハミルトニアンは以下の通りです。
    
       .. list-table::
          :header-rows: 1
@@ -142,91 +135,105 @@ MOPAC計算の処理の流れ
       XYZ座標系を用いて計算を行います。
    Others
       その他のキーワードを記入します。
-   Default Keywords
-      Load
-         保存してある設定を読み込みます。
-      Save
-         設定を保存します。
-      Reset
-         初期化します。
+
+キーワード読み込み
+------------------------
+   既存のMOPACの入力ファイルから、キーワード（計算条件）のみを読み込みます。
+
+.. _semiempirical_mopac_start:
+
+(1) MOP6W70実行, (2) MOP7W70実行, (3) MOPACX実行
+----------------------------------------------------
+
+   メインウインドウでMOPACの入力ファイルが開かれている場合は、そのファイルを使ってMOPACを実行します。
+   開かれていない場合は、MOPACの入力ファイルを保存した上でMOPACを実行します。
+   
+   :guilabel:`(1) MOP6W70実行` , :guilabel:`(2) MOP7W70実行`, :guilabel:`(3) MOPACX実行` の違いは、起動するMOPACのプログラムパスです。
+   プログラムパスは、 :menuselection:`ツール --> 環境設定 --> プログラムパス` で変更することができます。
+   デフォルトで設定されている :guilabel:`MOP6W70` はMOPAC6、 :guilabel:`MOP7W70` はMOPAC7で、どちらもWinmostarに内蔵されているものです。
+   :guilabel:`(3) MOPACX実行` にはMOPAC2012などのプログラムを指定して使うことを想定しています。
+   
+   実行に伴い以下のファイルが生成されます。
+   例として入力ファイルが :file:`water.dat` の時のファイル/フォルダ名を併記しています。
+
+      .. list-table::
+         :header-rows: 1
+         :stub-columns: 1
+
+         * - 種類
+           - 説明
+         * - | outファイル
+             | :file:`water.out`
+           - 計算結果の概略をまとめたテキストファイルです。
+         * - | arcファイル
+             | :file:`water.arc`
+           - 詳細な計算結果をまとめたテキストファイルです。
+         * - | mgfファイル
+             | :file:`water.mgf`
+           - | キーワードGRAPHを指定したことで出力されるファイルで、
+             | 分子軌道の描画に使われる情報を含みます。
+         * - | 作業ディレクトリ
+             | :file:`water_temp\\`
+           - | 作業ディレクトリです。
+
+ログを表示 (out)
+---------------------
+
+   outファイルをテキストエディタで開きます。
+
+ログを表示 (out)
+---------------------
+
+   arcファイルをテキストエディタで開きます。
+
+.. _semiempirical_mopac_mo:
+
+分子軌道, 電子密度 (mgf)
+-----------------------------------------------------
+
+   mgfファイルを選択し、分子軌道を表示します。 
+   
+   :ref:`キーワード <semiempirical_mopac_keyword>` で ``GRAPHF`` が設定されている必要があります。
+   サブウインドウの操作方法は :ref:`mo_top` , :ref:`cube_top` を参照してください。
+
+.. _semiempirical_mopac_charge:
+
+電荷 (arc)
+-----------------------------------------------------
+
+   arcファイルを選択し、電荷、ダイポールを表示します。
+   
+   :menuselection:`表示 --> ラベル/電荷 --> Mulliken電荷` を選択すると電荷が表示されます。
+
+アニメーション (arc)
+-----------------------------------------------------
+
+   arcファイルを選択し、分子構造のアニメーションを表示します。
+   
+   アニメーション表示の操作方法は :ref:`animation_top` を参照してください。
+
+アニメーション (IRC,STEP)(out)
+-----------------------------------------------------
+
+   outファイルを選択し、IRC計算のアニメーションを表示します。
+   
+   アニメーション表示の操作方法は :ref:`animation_top` を参照してください。
+
+振動スペクトル (out)
+-----------------------------------------------------
+
+   outファイルを選択し、振動スペクトル（IRスペクトル）を表示します。
+   
+   :ref:`キーワード <semiempirical_mopac_keyword>` で振動計算が設定されている必要があります。
+   サブウインドウの操作方法は :ref:`ir_top` を参照してください。
+
+.. _mopac_use_jm:
 
 ジョブマネージャで実行
 ------------------------
 
-   保存済みのMOPAC形式データから、キーワード部分をインポートします。
-
-キーワード読込
-------------------------
-
-   MOPAC実行時に :ref:`winmosjm_top` を使用するか設定します。
-
-.. _semiempirical_mopac6_start:
-
-(1)MOP6W70実行
-------------------------
-
-   :ref:`semiempirical_mopac_flow` の内容に基づきMOPAC6が実行されます。
-   MOPAC6はWinmostarに内蔵されています。
-
-.. _semiempirical_mopac7_start:
-
-(2)MOP7W70実行
-------------------------
-
-   :ref:`semiempirical_mopac_flow` の内容に基づきMOPAC7が実行されます。
-   MOPAC7はWinmostarに内蔵されています。
-
-.. _semiempirical_mopacx_start:
-
-(3)MOPACX実行
-------------------------
-
-   :ref:`semiempirical_mopac_flow` の内容に基づきMOPACが実行されます。
-   Winmostarに内蔵されていないMOPACに対し、環境設定ウインドウにてパスを通してから使用してください。。
-
-outファイル編集
----------------------
-
-   MOPACのログファイル（ :file:`\*.out` ）をテキストエディタで開きます。
-
-arcファイル編集
----------------------
-
-   MOPACのログのサマリーのファイル（ :file:`\*.arc` ）をテキストエディタで開きます。
-
-.. _semiempirical_mopac_mo:
-
-:menuselection:`インポート --> MO(mgf)`
------------------------------------------------------
-
-   MOPACが出力したmgfファイルを選択し、分子軌道を表示します。 
-   :ref:`キーワード <semiempirical_mopac_keyword>` で ``GRAPHF`` が設定されている必要があります。
-   サブウインドウの操作方法は :ref:`mo_top` を参照してください。
-
-.. _semiempirical_mopac_charge:
-
-:menuselection:`インポート --> Charge,Dipole(arc)`
------------------------------------------------------
-
-   MOPACが出力したarcファイルを選択し、電荷、ダイポールを表示します。
-   :guilabel:`Mulliken Charge` として読み込まれます。
-
-:menuselection:`インポート --> Animation(arc)`
------------------------------------------------------
-
-   MOPACが出力したarcファイルを選択し、分子構造のアニメーションを表示します。
-   アニメーション表示の操作方法は :ref:`animation_top` を参照してください。
-
-:menuselection:`インポート --> IRC,STEP(out)`
------------------------------------------------------
-
-   MOPACが出力したoutファイルを選択し、IRC計算のアニメーションを表示します。
-   アニメーション表示の操作方法は :ref:`animation_top` を参照してください。
-
-:menuselection:`インポート --> Force(out)`
------------------------------------------------------
-
-   MOPACが出力したoutファイルを選択し、振動スペクトル（IRスペクトル）を表示します。
-   :ref:`キーワード <semiempirical_mopac_keyword>` で振動計算が設定されている必要があります。
-   サブウインドウの操作方法は :ref:`animation_top` を参照してください。
-
+   チェックが入っている場合は、MOPACを実行する際に :ref:`winmosjm_top` を使用します。
+   入っていない場合は、MOPACでの計算が終わるまでWinmostarは待ち状態となり、MOPACの出力結果は自動でメインウインドウに読み込まれます。
+   
+   :ref:`preferences_top` からも設定することができます。
+   

@@ -5,30 +5,19 @@
 :menuselection:`半経験QM --> CNDO/S` メニュー
 ==================================================
 
-   日本コンピュータ化学会に登録されている旧JCPEのP083のGUIを提供します。
-   同プログラムのマニュアルは `こちら <https://winmostar.com/jp/manual_third_party/cndos_man.pdf>`_ です。
-   Winmostarで使えるよう微修正し :file:`cndosw.exe` としてWinmostarに同梱されています。
-   :file:`cndosw.exe` はgfortranでコンパイルされています。
-
-.. _semiempirical_cndos_flow:
-
-CNDO/S計算の処理の流れ
-----------------------------
-
-   1) 計算したい分子をメインウインドウで作成します。
+   CNDO/Sプログラムに関するメニューです。
    
-   2) :ref:`semiempirical_cndos_keyword` にて計算条件を設定します。
+   CNDO/SプログラムはWinmostarに同梱されています。
+   CNDO/Sプログラムは旧日本化学プログラム交換機構（JCPE、現在の日本コンピュータ化学会）に登録されていたP083プログラムを、Winmostarに対応させるために微修正したものです。
+   P083のマニュアルは `こちら <https://winmostar.com/jp/manual_third_party/cndos_man.pdf>`_ から入手可能です。
+   CNDO/Sプログラム（ :file:`cndosw.exe` ）はgfortranでコンパイルされています。
 
-   3) :ref:`semiempirical_cndos_start` を選んでCNDO/Sの入力ファイル（cnd）を保存すると、CNDO/Sが実行されます。計算結果はcndファイルと同名のlstファイルに出力されます。また、接尾辞が :file:`.cnd_temp` の作業ディレクトリに中間ファイルが収められます。一部の中間ファイル（ :file:`input_tmp.mgf` , :file:`mo_preplot1.txt` など）はcndファイルと同階層に生成されます。
-   
-   4) :ref:`semiempirical_cndos_uvvis` などを選択した時に、 :guilabel:`開く` ダイアログでデフォルトで選択されるファイルは、メインウインドウで開かれたファイルに紐づけられた結果ファイルとなります。
-   
 .. _semiempirical_cndos_keyword:
 
 キーワード設定
 ------------------------
 
-   CNDO/S計算用のキーワードを設定します。設定後 :guilabel:`Set` ボタンをクリックします。
+   CNDO/Sの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウインドウに戻る場合は :guilabel:`OK` ボタンを押してください。
    
    Method
       計算方法を指定します。（CNDOまたはINDO） 
@@ -65,25 +54,45 @@ CNDO/S計算の処理の流れ
    # of excited states
       結合次数を出力する励起状態の数を指定します。
 
+キーワード読み込み
+------------------------
+   既存のCNDO/Sの入力ファイルから、キーワード（計算条件）のみを読み込みます。
+
 .. _semiempirical_cndos_start:
 
-CNDO/S実行
+実行
 ------------------------
 
-   :ref:`semiempirical_cndos_flow` の内容に基づきCNDO/Sが実行されます。
-   MOPAC6はWinmostarに内蔵されています。
-   計算の終了後 :ref:`semiempirical_cndos_uvvis` が自動で実行されます。
+   メインウインドウでCNDO/Sの入力ファイルが開かれている場合は、そのファイルを使ってCNDO/Sを実行します。
+   開かれていない場合は、CNDO/Sの入力ファイルを保存した上でCNDO/Sを実行します。
+   
+   実行に伴い以下のファイルが生成されます。
+   例として入力ファイルが :file:`water.cnd` の時のファイル/フォルダ名を併記しています。
+
+      .. list-table::
+         :header-rows: 1
+         :stub-columns: 1
+
+         * - 種類
+           - 説明
+         * - | lstファイル
+             | :file:`water.lst`
+           - 計算のログが出力されたテキストファイルです。
+         * - | 作業ディレクトリ
+             | :file:`water.cnd_temp\\`
+           - | 作業ディレクトリです。
+
+ログを表示 (lst)
+---------------------
+
+   lstファイルをテキストエディタで開きます。
 
 .. _semiempirical_cndos_uvvis:
 
 UV-Visスペクトル
 ---------------------
 
-   CNDO/Sが出力したlstファイルを選択し、UV-Visスペクトルと分子軌道を表示します。
-   サブウインドウの操作方法は :ref:`uvvis_top` および :ref:`mo_top` を参照してください。
-
-lstファイル編集
----------------------
-
-   CNDO/Sのログファイル（ :file:`\*.lst` ）をテキストエディタで開きます。
+   lstファイルを選択し、UV-Visスペクトルと分子軌道を表示します。
+   
+   サブウインドウの操作方法は :ref:`uvvis_top` , :ref:`mo_top` , :ref:`cube_top` を参照してください。
 

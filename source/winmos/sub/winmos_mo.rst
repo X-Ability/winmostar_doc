@@ -4,18 +4,13 @@ Energy Level Diagramウインドウ
 ============================================
 
    分子軌道のエネルギーを数値とダイアグラムで表示します。
-   数値の並んだリスト内またはダイアグラム内でクリックすることで分子軌道を選択し、 :ref:`MO Plotウインドウ <cube_top>` にターゲットとする分子軌道を伝えることができます。
-   :guilabel:`HOMO=` にHOMO準位の番号、 :guilabel:`H-L:` にHOMO-LUMOギャップが表示されます。
-
-   Quit
-      ウィンドウを閉じます。
-
-   Excel
-      エネルギー値をCSVファイルに保存して、Excelで開きます。
-
-   a.u./eV
-      単位を切り替えます。
+   数値の並んだリスト内またはダイアグラム内でクリックすることでその分子軌道が選択され、 :ref:`MO Plotウインドウ <cube_top>` の :guilabel:`Selected MO` 欄に反映されます。
+   :guilabel:`HOMO:` にHOMO準位の番号、 :guilabel:`HOMO-LUMO Gap:` にHOMO-LUMOギャップが表示されます。
 
    スライダー
       ダイアグラムの原点と拡大率を調整します。
+   :guilabel:`Excel` ボタン
+      エネルギー値をCSVファイルに保存して、Excelで開きます。
+   :guilabel:`Close` ボタン
+      ウィンドウを閉じます。
 

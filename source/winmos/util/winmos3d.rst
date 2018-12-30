@@ -1,10 +1,10 @@
 
 .. _winmos3d_top:
 
-Winmostar 3D
+Winmostar Viewer
 ============================================
 
-| Winmostar 3Dは分子軌道などを表示する、描画に特化したWinmostarの付属ソフトウェアです。
+| Winmostar Viewerは分子軌道などを表示する、描画に特化したWinmostarの付属ソフトウェアです。
 | MDのような多成分系で特定の成分だけを表示させることも可能です。
 
 --------------
@@ -30,37 +30,30 @@ Fileメニュー
 
 Open
    gld形式およびMOLDA形式のファイルを読み込みます。
-Save(copy) Input
-   現在開いているgld形式で名前を付けて保存します。
-Save Frame
+Save GLD
+   現在開いているGLD形式のファイルを名前を付けて保存します。
+Save MOLDA
    ウインドウに表示されている構造をMOLDA形式で保存します。
-Save Jpeg
+Save JPEG
    ウインドウに表示されている内容をJPEGファイルとして保存します。
-Save Jpeg_L, R
+Save JPEG (Stereo)
    立体視用の左右の画面をJPEGファイルとして保存します。
-StereoPhotomaker
+StereoPhoto Maker
    StereoPhotomakerを起動します。
 Exit
-   Winmsotar 3Dを終了します。
+   Winmsotar Viewerを終了します。
    
 Viewメニュー
 ------------
 
-Model
-   表示するモデルを選択します。
-
-   Ball and Stick
-      球棒モデルを表示します。
-   Space Fill
-      空間充填モデルを表示します。
-   Stick
-      棒モデルを表示します。
-   Wire
-      針金モデルを表示します。
-Background
+Representations
+   描画の詳細な調整を行う :ref:`winmos3d_repre` を表示します。
+Perspective
+   遠近法を使用します。
+Background Color
    背景の色を指定します。
 
-   Winmostar 3D
+   Winmostar Viewer
       背景の色を暗青色にします。
    Winmostar
       背景の色をWinmostarのデフォルトの背景色にします。
@@ -68,89 +61,93 @@ Background
       背景の色を黒にします。
    White
       背景の色を白にします。
-Preferences
-   Preferencesウィンドウを表示します。
-Perspective
-   遠近法を使用します。
-Debug
-   メモリ使用量など、デバッグ用の情報を表示します。
-Animation
-   アニメーションを表示します。
-Clipboard
-   ウインドウに表示されている内容を画像としてクリップボードにコピーします。
+Model
+   表示するモデルを選択します。
+
+   Ball-and-Stick Model
+      球棒モデルを表示します。
+   Space-Filling Model
+      空間充填モデルを表示します。
+   Stick Model
+      棒モデルを表示します。
+   Wire Model
+      ワイヤーモデルを表示します。
+   Show SPace-Filling Model Overlapping
+      空間重点モデルを半透明で重ね合わせ表示する。
+Show Animation Control Panel
+   :ref:`winmos3d_panel` を表示します。
+Copy Image
+   ウインドウに表示されている画像をクリップボードにコピーします。
 
 Helpメニュー
 ------------
 
 Help
    マウスの使い方を表示します。
-About
+About Winmostar Viewer
    バージョンを表示します。
+Debug
+   メモリ使用量など、デバッグ用の情報を表示します。
 
+.. _winmos3d_panel:
 
-------------------
-アニメーション操作
-------------------
+------------------------
+アニメーション操作パネル
+------------------------
 
 Winmostar 3Dでアニメーションを表示すると、Winmostar 3Dのウインドウの左上にアニメーション操作用のUIが表示されます。
 
 スライダー
    フレームを移動します。
-once
-   現在のフレームから最後のフレームまでアニメーションを一度実行するモードに設定します。
-rew. (rewind)
-   最後のフレームの次は最初のフレームに戻ってアニメーションを繰り返すモードに設定します。
-round
-   アニメーションを往復で繰り返すモードに設定します。
-``|>`` または ``||``
-   アニメーションを実行または一時停止
-``*``
-   アニメーションを停止
-``|<``
-   巻き戻し
-``>|``
-   早送り
-Jpeg
-   チェックを入れた状態でアニメーションを再生すると表示されている内容がJpeg形式で保存されます
-gif
-   チェックを入れた状態でアニメーションを再生すると表示されている内容がGif形式で保存されます
+Once
+   最終フレームまで再生が到達したら再生をストップします。
+Loop
+   最終フレームまで再生が到達したら最初のフレームに戻って再生を繰り返します。
+Round
+   再生を往復で繰り返します。
+JPEG
+   チェックを入れた状態で再生すると表示されている内容がJPEG形式で保存されます
+GIF
+   チェックを入れた状態で再生すると表示されている内容がGIF形式で保存されます
 Close
-   アニメーション操作のUIを閉じます。
+   このパネルを閉じます。
 
-----------------------
-Preferencesウインドウ
-----------------------
+.. _winmos3d_repre:
 
-Rotation
+---------------------------
+Representationsウインドウ
+---------------------------
+
+Orbit/Rotation
    左ドラッグで視点を回転させる際の回転方法を指定します。
    
-   Free
+   Orbit
       自由に回転させます。
    X, Y or Z
       画面内水平方向、画面内垂直方向、または画面に垂直方向の軸周りで回転させます。
-Boundary Condition
-   シミュレーションセルの外側に存在する分子の表示方法を指定します。
+Periodic Boundary Condition
+   セルの外側に存在する分子の表示方法を指定します。
    
    None
       元の座標のまま表示します。
    Atom
-      原子単位でシミュレーションセル内に構造が収まるよう表示します。
-   Mol.
-      分子単位でシミュレーションセル内に構造が収まるよう表示します。
+      原子単位でセル内に構造が収まるよう表示します。
+   Mol
+      分子単位でセル内に構造が収まるよう表示します。
+Molecule
+   本ウインドウ中部の :guilabel:`1` から :guilabel:`9` を各分子に割り当てます。
+Composition
+   本ウインドウ中部の :guilabel:`1` から :guilabel:`9` を（分子量が共通する）各分子種に割り当てます。
+1 - 9
+   チェックが付いた項目を表示します。プルダウンメニューの :guilabel:`BS` , :guilabel:`SF` , :guilabel:`ST` , :guilabel:`WI` はそれぞれBall-stick（棒球）モデル（デフォルト）、Space filling（空間充填）モデル、Stick（棒）モデル、ワイヤーモデルを意味します。
 Rainbow
    分子ごとに異なる色で表示します。
 Gold
    分子を金色で表示します。
-By turn
-   :guilabel:`Preferences` ウインドウ中部の :guilabel:`1` から :guilabel:`9` までの数値を、各分子の設定として認識させます。
-Mol.Weight
-   :guilabel:`Preferences` ウインドウ中部の :guilabel:`1` から :guilabel:`9` までの数値を、（分子量が共通する）各分子種の設定として認識させます。
-1 - 9
-   チェックが付いた項目を表示します。プルダウンメニューの :guilabel:`BS` , :guilabel:`SF` , :guilabel:`ST` , :guilabel:`WI` はそれぞれBall-stick（棒球）モデル（デフォルト）、Space filling（空間充填）モデル、Stick（棒）モデル、ワイヤーモデルを意味します。
 Stereo
    立体視表示します。
 Enantiomer
-   元の構造とエナンチオマーを表示します。
+   元の構造とその鏡像体を表示します。
 Para
    平行法で表示します。
 Cross
@@ -159,21 +156,21 @@ Anag
    アナグリフで表示します。（赤青のメガネを使用）
 Shift
    分子間の距離を指定します。
-Rot Factor 
+Rot
    分子の回転する大きさを指定します。
 H
    チェックされている場合は、水素原子を表示します。
-Dum.
+Dummy
    チェックされている場合は、ダミー原子を表示します。
 Backbone
-   チェックされている場合は、バックボーンを表示します。（主にタンパク質向け）
+   チェックされている場合は、バックボーンのみを表示します。（タンパク質向け）
 Atom
    原子の表示倍率を設定します。
 Bond
    結合の表示倍率を設定します。
-Zclip
+Z-Clip
    Z方向のクリッピング位置を指定します。
-MO Format
+Surface Style
    分子軌道などの等値面の表示方法を指定します。
    
    Mesh
@@ -186,5 +183,3 @@ Trans
    等値面の透明度を指定します。 （0: 不透明、1: 透明）
 X, Y, Z
    分子軌道などのメッシュ（スカラー場）情報が読み込まれた場合、チェックを入れた面に対しコンターマップ（等高線）を描画します。コンターマップの位置はスライダーで調整可能です。
-Close
-   :guilabel:`Preferences` ウィンドウを閉じます。
