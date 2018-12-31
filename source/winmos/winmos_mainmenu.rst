@@ -30,6 +30,8 @@
    sub/winmos_uvvis
    sub/winmos_nmr
    sub/winmos_pio
+   sub/winmos_energyplot
+   sub/winmos_chart
    util/winmos3d
    util/winmosjm
    

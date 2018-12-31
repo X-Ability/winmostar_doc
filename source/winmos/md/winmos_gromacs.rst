@@ -5,40 +5,25 @@
 :menuselection:`MD --> Gromacs` メニュー
 ============================================
 
-.. _md_gromacs_flow:
+   Gromacsに関するメニューです。
+   
+   WinmostarではGromacsをCygwin環境上で実行するため、本機能を利用するためには :ref:`cygwin_wmのセットアップ <install_cygwinwm>` が必要です。
 
-Gromacs計算の処理の流れ
-----------------------------
-
-   1) 計算したい分子をメインウインドウで作成しmol2形式で保存します。
-   
-   2) :ref:`md_solvate_buildcell` にてシミュレーションセルを作成します。
-   
-   3) :ref:`md_gromacs_keyword` にて計算条件を設定します。
-   
-      .. note::
-         - 他の環境で作成したgro, topファイルを使用して計算を流す場合は、groファイルをメインウインドウで開き、topファイルを :ref:`md_gromacs_keyword` の :guilabel:`Force Field` で選択します。
-
-   4) :ref:`md_gromacs_start` を選んでGromacs形式の座標（gro）ファイルとトポロジ（top）ファイルを保存すると、自動でgroファイルと同名のshファイルが生成し、そのshファイルが実行されます。トラジェクトリなどの出力ファイルは接尾辞が :file:`_gmx_tmp` の **作業ディレクトリ** に収められます。shファイルの全てのログは同名の outファイルに、MD計算（ :command:`gmx mdrun` ）のみのログは同名の logファイルに出力されます。
-   
-      .. include:: ../winmos_workingdir.rst
-      
-   5) 継続ジョブを実行する場合は、メインウインドウで開かれているgroファイルと同階層に作業ディレクトリが置かれている必要があります。
-   
-      .. note::
-         - 継続ジョブでは、直前のジョブの作業ディレクトリの :file:`gmx_mdrun_tmp.gro` と :file:`gmx_tmp.top` を用いてジョブが開始されます。
-   
-   6) :ref:`md_gromacs_energy` 、 :ref:`md_gromacs_trajectory` など各種の結果処理機能を選択した時に、 :guilabel:`開く` ダイアログでデフォルトで選択されるファイルは、メインウインドウで開かれたファイルに紐づけられた作業ディレクトリの中のファイルとなります。
-   
 .. _md_gromacs_keyword:
 
 キーワード設定
 ------------------------
 
-   Gromacs計算用のキーワードを設定します。設定後 :guilabel:`OK` ボタンをクリックします。
-
+   Gromacsの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウインドウに戻る場合は :guilabel:`OK` ボタンを押してください。
+   
+   :guilabel:`Reset` ボタンでデフォルトの状態に戻ります。
+   :guilabel:`Save` ボタンでForce Fieldを除く設定を保存します。
+   :guilabel:`Load` ボタンで :guilabel:`Save` にて保存した設定を読み込みます。
+   
    Extending Simulation
-      :ref:`継続ジョブ <md_gromacs_flow>` を実行します。
+      継続ジョブを実行します。
+      
+      詳細は :ref:`md_gromacs_start` を参照してください。
    Preset
       計算条件のプリセットを指定します。プリセットの内容は、各キーワードから確認できます。
    # of Threads
@@ -193,9 +178,9 @@ Gromacs計算の処理の流れ
          NPTアンサンブルで計算した後に、設定圧力に近い状態でNVEまたはNVTアンサンブルで計算した場合に使用します。最終構造を、計算中の平均セルサイズにスケーリングします。
    Options
       Make a Backup of Working Directory
-         :ref:`作業ディレクトリ <md_gromacs_flow>` のバックアップを行う際に選択します。
+         :ref:`作業ディレクトリ <md_gromacs_start>` のバックアップを行う際に選択します。
       Restore Working Directory
-         継続ジョブが異常終了時など、:ref:`作業ディレクトリ <md_gromacs_flow>` を実行前の状態に戻す際にクリックします。
+         継続ジョブが異常終了時など、:ref:`作業ディレクトリ <md_gromacs_start>` を実行前の状態に戻す際にクリックします。
       maxwarn
          計算続行を許容するwarning message数の最大値を指定します（0:１つ以上のメッセージで中断）
       Verbose Output
@@ -210,41 +195,124 @@ Gromacs計算の処理の流れ
    
    .. include:: winmos_gromacs_forcefield.rst
    
-   Load
-      Winmostar独自形式(gmxset)で保存された計算条件を読み込みます。
-   Save
-      Winmostar独自形式(gmxset)で計算条件を保存します。
-
 .. _md_gromacs_start:
 
 Gromacs実行
 ------------------------
 
-   :ref:`md_gromacs_flow` の内容に基づきGromacsが実行されます。
+   Gromacsを実行します。
+   状況に応じて実行方法が異なります。
+   
+      - （デフォルト） :guilabel:`Extending Simulation` にチェックがなく、 :menuselection:`Force Fieldタブ -->` :guilabel:`Generate parameters` にチェックが入っている場合
+         座標ファイル(拡張子：gro)とトポロジファイル(拡張子：top)を新規に生成してからジョブを開始します。
+      - :guilabel:`Extending Simulation` にチェックがなく、 :menuselection:`Force Fieldタブ -->` :guilabel:`Load from existing file` にチェックが入っている場合
+         メインウインドウで開かれている座標ファイル(拡張子：gro)と、 :guilabel:`Load from existing file` のところで指定したトポロジファイル(拡張子：top)を使用してジョブを開始します。
+      - :guilabel:`Extending Simulation` にチェックがある場合
+         メインウインドウで開かれている座標ファイル(拡張子：gro)に紐づけられた作業ディレクトリの中にある座標ファイル（ :file:`gmx_mdrun_tmp.gro` ）とトポロジファイル（ :file:`gmx_tmp.top` ）を用いてジョブを開始します。
 
-GROファイル読み込み
----------------------------
+   
+   実行に伴い以下のファイルが生成されます。
+   例として入力ファイルが :file:`water.gro` の時のファイル/フォルダ名を併記しています。
 
-   groファイルを開きます。本機能では、デフォルトで現在の作業ディレクトリ内の :file:`gmx_tmp_mdrun.gro` が選択され、メインウインドウのファイル名が変化しないため、終構造の確認に向いています。
+      .. list-table::
+         :header-rows: 1
+         :stub-columns: 1
+
+         * - 種類
+           - 説明
+         * - | outファイル
+             | :file:`water.out`
+           - :file:`water.sh` の標準出力のテキストファイルです。
+         * - | shファイル
+             | :file:`water.sh`
+           - | Gromacsとそのプリ・ポスト処理を実行するための
+             | シェルスクリプトです。
+         * - | batファイル
+             | :file:`water.gro.bat`
+           - :file:`water.sh` を実行するためのバッチファイルです。
+         * - | punファイル
+             | :file:`water.pun`
+           - | 詳細な結果解析を行うためのpunchファイルです。
+         * - | 作業ディレクトリ
+             | :file:`water_gmx_tmp\\`
+           - | 作業ディレクトリです。
+           
+   作業ディレクトリには以下のファイルが生成されます。
+   ここでは主要なファイルのみ示しています。
+   
+      .. list-table::
+         :header-rows: 1
+         :stub-columns: 1
+         
+         * - 種類
+           - 説明
+         * - | :file:`input.gro`
+           - | 新規ジョブの際に、実行時に指定したgroファイルが
+             | コピーされたものです。
+             | 継続ジョブの際は、前のジョブのファイルとなります。
+         * - | :file:`gmx_tmp.top`
+           - | 新規ジョブの際に、実行時に指定したtopファイルが
+             | コピーされたものです。
+             | 継続ジョブの際は、前のジョブのファイルとなります。
+         * - | :file:`gmx_tmp.mdp`
+           - | 計算条件を指定するファイルです。
+         * - | :file:`gmx_tmp_mdrun.tpr`
+           - | gro, top, mdpファイルから生成する
+             | mdrunの入力ファイルです。
+         * - | :file:`gmx_tmp_mdrun.ndx`
+           - | 結果処理のためのインデックスファイルです。
+         * - | :file:`gmx_tmp_mdrun.edr`
+           - | 温度・圧力・エネルギー等が納められた
+             | エネルギーファイルです。
+         * - | :file:`gmx_tmp_mdrun.gro`
+           - | 最終構造のgroファイルです。
+         * - | :file:`gmx_tmp_mdrun.trr`
+           - | トラジェクトリファイルです。
+         * - | :file:`gmx_tmp_mdrun.xtc`
+           - | 圧縮されたトラジェクトリファイルです。
+         * - | :file:`gmx_tmp_mdrun.log`
+           - | mdrunのログファイルです。
+
+      .. include:: ../winmos_workingdir.rst
+      
+ログを表示 (out)
+---------------------
+
+   Gromacs実行時のシェルスクリプトの標準出力（ :file:`\*.out` ）をテキストエディタで開きます。
+
+ログを表示 (log)
+----------------------------
+
+   :command:`gmx mdrun` のログファイル（ :file:`\*_gmx_tmp\\gmx_tmp_mdrun.log` ）をテキストエディタで開きます。
+
 
 .. _md_gromacs_trajectory:
 
-トラジェクトリ読み込み
+アニメーション
 -----------------------------
 
    groとtrrファイルを選択し、MD計算のトラジェクトリをアニメーション表示します。
+   
    メインウインドウのファイル名は変化しません。
+   
    アニメーション表示の操作方法は :ref:`animation_top` を参照してください。
 
-outファイル編集
+.. _md_gromacs_energy:
+
+エネルギー変化
 ---------------------
 
-   Gromacs実行時の全体の処理のログファイル（ :file:`\*.out` ）をテキストエディタで開きます。
+   Gromacsが出力したedrファイルを選択し、エネルギー、温度、圧力などの各種熱力学量のグラフを表示します。内部的には :command:`gmx energy` コマンドが実行されます。
+   
+   サブウインドウの操作方法は :ref:`energyplot_top` を参照してください。
+   
+最終構造を読み込み
+---------------------------
 
-logファイル編集(mdrun)
-----------------------------
+   :file:`\*_gmx_tmp\\gmx_tmp_mdrun.gro` を開きます。
+   
+   本機能を使うとメインウインドウのファイル名は変化しません。
 
-   :command:`gmx mdrun` のログファイル（ :file:`\*.log` ）をテキストエディタで開きます。
 
 .. _md_gromacs_seq_setup:
 
@@ -258,12 +326,6 @@ logファイル編集(mdrun)
 
    :ref:`md_gromacs_seq_setup` の内容に基づきGromacsを連続実行します。
 
-.. _md_gromacs_energy:
-
-エネルギー変化
----------------------
-
-   Gromacsが出力したedrファイルを選択し、エネルギー、温度、圧力などの各種熱力学量のグラフを表示します。内部的には :command:`gmx energy` コマンドが実行されます。
 
 .. _md_gromacs_rdf:
 
@@ -274,14 +336,12 @@ logファイル編集(mdrun)
    内部的には :command:`gmx rdf` コマンドが実行されます。
    動径分布関数は :guilabel:`Reference Group` と :guilabel:`Target Group` の間でを計算されます。
 
-   .. include:: winmos_gromacs_analysis_common1.rst
-
    Definition
       Atom
          計算対象を原子座標にします。
-      center of geometry
+      Center of geometry
          計算対象を分子の幾何平均座標にします。
-      center of mass
+      Center of mass
          計算対象を分子の重心位置にします。
    Output
       RDF
@@ -289,7 +349,7 @@ logファイル編集(mdrun)
       Cumulative Number RDF
          積算配位数を計算します。
 
-   .. include:: winmos_gromacs_analysis_common2.rst
+   .. include:: winmos_gromacs_analysis_common1.rst
 
 .. _md_gromacs_msd:
 
@@ -299,12 +359,10 @@ logファイル編集(mdrun)
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、平均二乗変位と自己拡散係数を表示します。
    内部的には :command:`gmx msd` コマンドが実行されます。
 
-   .. include:: winmos_gromacs_analysis_common1.rst
-
    Diffusion Constant
       :command:`gmx msd` コマンドを使用して時間-平均二乗変位のグラフの傾きから計算された自己拡散係数を表示します。
 
-   .. include:: winmos_gromacs_analysis_common2.rst
+   .. include:: winmos_gromacs_analysis_common1.rst
 
 .. _md_gromacs_saxs:
 
@@ -314,13 +372,11 @@ logファイル編集(mdrun)
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、散乱関数を表示します。
    内部的には :command:`gmx saxs` コマンドが実行されます。
 
-   .. include:: winmos_gromacs_analysis_common1.rst
-
    Interval
       散乱関数の計算に用いるスナップショットを取得する間隔を指定します。
       小さくしすぎると膨大な計算が必要となるため注意が必要です。
 
-   .. include:: winmos_gromacs_analysis_common2.rst
+   .. include:: winmos_gromacs_analysis_common1.rst
 
 
 速度相関/振動スペクトル
@@ -329,14 +385,12 @@ logファイル編集(mdrun)
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、速度相関関数および振動スペクトルを表示します。
    内部的には :command:`gmx velacc` コマンドが実行されます。
    
-   .. include:: winmos_gromacs_analysis_common1.rst
-
    Velocity Autocorrelation
       速度相関関数を出力します。
    Vibration Spectrum
       振動スペクトルを出力します。
 
-   .. include:: winmos_gromacs_analysis_common2.rst
+   .. include:: winmos_gromacs_analysis_common1.rst
 
 比誘電率
 ---------------
@@ -346,8 +400,6 @@ logファイル編集(mdrun)
 
    .. include:: winmos_gromacs_analysis_common1.rst
 
-   .. include:: winmos_gromacs_analysis_common2.rst
-
 粘度
 ----------
 
@@ -356,20 +408,16 @@ logファイル編集(mdrun)
 
    .. include:: winmos_gromacs_analysis_common1.rst
 
-   .. include:: winmos_gromacs_analysis_common2.rst
-
 密度分布
 -----------------
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、密度分布を表示します。
    内部的には :command:`gmx density` コマンドが実行されます。
 
-   .. include:: winmos_gromacs_analysis_common1.rst
-
    Group
       ここでチェックを入れた成分について密度分布が出力されます。
 
-   .. include:: winmos_gromacs_analysis_common2.rst
+   .. include:: winmos_gromacs_analysis_common1.rst
 
 .. _md_gromacs_hildebrand:
 
@@ -404,37 +452,44 @@ Hildebrand溶解度パラメータ
    Group for SDF
       :guilabel:`Postprocess` にて :guilabel:`Spatial distribution function` (SDF)を選択した際に計算されるSDFをどのグループに対し計算するか指定します。
 
+.. _md_gromacs_editndx:
+
+ndxファイルにグループを追加
+----------------------------
+   結果解析したい原子をメインウインドウでグループ選択し、本機能を選択して既存のndxを選ぶと、グループ選択された原子のグループがndxファイルに新たに追加されます。
+
 RMSD
 -----------
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、RMSD（主にタンパク向け）を表示します。
    内部的には :command:`gmx rms` コマンドが実行されます。
 
-   .. include:: winmos_gromacs_analysis_common1.rst
-
    Group
       ここでチェックを入れた成分について結果が出力されます。通常は :guilabel:`Backbone` を選択します。
 
-   .. include:: winmos_gromacs_analysis_common2.rst
+   .. include:: winmos_gromacs_analysis_common1.rst
 
-回転半径
+慣性半径
 ------------
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、回転半径（主にタンパク向け）を表示します。
    内部的には :command:`gmx gyrate` コマンドが実行されます。
 
-   .. include:: winmos_gromacs_analysis_common1.rst
-
    Group
       ここでチェックを入れた成分について結果が出力されます。通常はBackboneを選択します。
 
-   .. include:: winmos_gromacs_analysis_common2.rst
+   .. include:: winmos_gromacs_analysis_common1.rst
 
 Ramachandoranプロット
 ---------------------------
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、各アミノ酸残基のRamachandoranプロットを表示します。
    内部的には :command:`gmx rama` コマンドが実行されます。
+
+   Residue
+      ここで選択した残基のRamachandoranプロットが出力されます。
+      
+   .. include:: winmos_gromacs_analysis_common1.rst
 
 .. _md_gromacs_er_start:
 
@@ -454,7 +509,7 @@ ER法実行
    5. 同様に :guilabel:`Solute` タブでC. Solute systemのファイルを選択します。xtcファイルを指定した場合は、溶質がフレキシブルモデル、pdbまたはgroファイルを指定した場合は、剛体モデルとして扱われます。
    6. 必要に応じて、 :guilabel:`Options` ボタンから自由エネルギー計算時のMPI並列数など指定します。
    7. 自由エネルギー計算をローカル環境で実施する場合は :guilabel:`Start` ボタンを押します。結果を出力するフォルダを指定すると計算が始まります。Cygwin上で :command:`ermod` が流れます。
-   8. リモート環境で実施する場合は一旦 :guilabel:`Close` ボタンを押します。そして :ref:`md_remote` にて :guilabel:`Program` に ``ermod`` を指定し実行します。リモートサーバ上では、 :command:`ermod` および :command:`slvfe` コマンドに :command:`$PATH` が通っている必要があります。（リモートサーバへのERmodのインストールは `こちら <https://winmostar.com/jp/gmx4wm_jp_linux.html>`_ を参照）計算が終わり、 :ref:`remote_top` で :guilabel:`get` ボタンを押すと、 :file:`winmostar.exe` が置かれたフォルダ以下に :file:`ermod_remote_\*` というフォルダが生成され、結果がリモートサーバから転送されます。
+   8. リモート環境で実施する場合は一旦 :guilabel:`Close` ボタンを押します。そして :ref:`remote_top` にて :guilabel:`Program` に ``ermod`` を指定し実行します。リモートサーバ上では、 :command:`ermod` および :command:`slvfe` コマンドに :command:`$PATH` が通っている必要があります。（リモートサーバへのERmodのインストールは `こちら <https://winmostar.com/jp/gmx4wm_jp_linux.html>`_ を参照）計算が終わり、 :ref:`remote_top` で :guilabel:`get` ボタンを押すと、 :file:`winmostar.exe` が置かれたフォルダ以下に :file:`ermod_remote_\*` というフォルダが生成され、結果がリモートサーバから転送されます。
    9. 自由エネルギー計算終了後、結果の表示するには :ref:`md_gromacs_er_result` メニューを選択します。
 
 .. _md_gromacs_er_result:

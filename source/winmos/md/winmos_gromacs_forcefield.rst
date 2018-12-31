@@ -1,5 +1,5 @@
 Force Field
-   Generate Parameters
+   Generate parameters
       メインウインドウに表示された系に対し、新たに力場パラメータをアサインしトポロジファイル（topファイル）を作成します。
       
       Force field
@@ -24,19 +24,19 @@ Force Field
          (Water)
             水分子の力場を指定します。 :ref:`md_solvate_buildcell` で選択した水モデルを指定する必要があります。内部的にはCygwinにインストールされたGromacsのトポロジのライブラリからパラメータを取得します。
       Charge
-         Assign Charges
+         Assign charges
             :command:`acpype` により算出する電荷を用いてトポロジファイルを作成します。 :guilabel:`Method` にはその方法を指定します。
             
             .. warning::
                ポリマーの場合は :command:`acpype` による電荷の算出に時間がかかるため、あらかじめポリマービルダを用いて系を作成し、 :guilabel:`Use User-defined Charge` にチェックを入れてください。
             
-         Use User-defined Charge
+         Use user-defined charge
             メインウインドウ上で設定されている各原子の点電荷の値を用いてトポロジファイルを作成します。
             
             .. note::
                メインウインドウ上で設定されている点電荷の値は、 :ref:`表示ボタンエリア <gui_main>` のアノテーションボタンから :guilabel:`User Charge` などを選択するか、.mol2形式で保存し :ref:`file_editor` で開くことにより確認できます。
                
-      Add [position_restraints] for Protein
+      Add [position_restraints] for protein
          タンパク質が存在する場合は :guilabel:`Advance` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。タンパク質が存在しない場合は無視されます。
          
       Add [position_restraints] for selected atoms
@@ -54,7 +54,7 @@ Force Field
          - :guilabel:`Load from Existing File` を選択しない場合はソルバの実行時に自動的にトポロジファイルが生成されるため、この操作は必須ではありません。
          - トポロジファイルをエディタ等で編集してカスタマイズしたい場合は、本機能を使用して保存した上で、 :guilabel:`Load from Existing File` にて選択してください。
       
-   Load from Existing File / Use parameters in the file on the main window
+   Load from existing file/Use parameters in the file on the main window
       既に存在しているトポロジファイルを用いてMD計算を実行する場合に選択します。
 
       Edit
