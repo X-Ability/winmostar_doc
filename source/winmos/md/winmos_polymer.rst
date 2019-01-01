@@ -5,6 +5,16 @@
 :menuselection:`MD --> ポリマー` メニュー
 ============================================
 
+ポリマー系を作成する手順は以下のとおりである。
+
+   1. モノマーをモデリングし、 :ref:`md_polymer_register` を実行する。
+   
+   2. 1で登録したモノマーを用いて :ref:`md_polymer_homo` , :ref:`md_polymer_block` , :ref:`md_polymer_random` を用いてポリマーを登録する。
+   
+   3. :ref:`md_polymer_cell` にて、 2. で登録したポリマーを用いてセルを構築する。
+   
+   低分子・ポリマー混合系を作成したい場合は、上記手順でポリマー系を作成した後に :ref:`md_insert_molecules` で低分子を追加する。
+
 .. _md_polymer_register:
 
 モノマー登録

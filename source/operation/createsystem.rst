@@ -13,42 +13,52 @@
 
    - 各種形式のファイルを :ref:`file_open` またはメインウインドウへのドラッグアンドドロップで開く。
    
-   - SMILES形式の文字列を :ref:`file_import` :menuselection:`--> SMILES` から読み込む。
+   - SMILES形式の文字列を :menuselection:`ファイル --> インポート -->` :ref:`file_import_smiles` から読み込む。
    
    - 分子構造をメインウインドウ上で構築する。
    
-      様々な方法が用意されているので、適宜 :ref:`edit_top` から必要な操作を選択する。
+      適宜 :ref:`edit_top` から必要な操作を選択する。
    
-      1. ある程度目的の分子に形状が近づくように、初期構造（炭素原子と水素原子が結合したもの）に対し、部品を置換していく（ :ref:`edit_parts` :menuselection:`--> 部品置換` ）。
+      1. ある程度目的の分子に形状が近づくように、初期構造（炭素原子と水素原子が結合したもの）に対し、 :ref:`edit_parts` を実行する。
       
-      2. 芳香環が隣接した構造は :ref:`edit_aromatic` の操作で作成する。
+      2. 芳香環が隣接した構造は :ref:`edit_aromatic` を実行する。
       
-      3. 不要な部分構造を削除したい箇所では :ref:`edit_partial_edit` :menuselection:`--> 部分削除` の操作を行う。
+      3. 不要な部分構造を削除したい箇所では :ref:`edit_partial_delete`  を実行する。
       
-      4. 水素原子を付加したい箇所では :ref:`edit_hydrogen` :menuselection:`--> 1原子` の操作を行う。
+      4. 水素原子を付加したい箇所では :ref:`edit_addh_1` を実行する。
       
-      5. 原子の種類を変更したい箇所では :ref:`edit_atom` :menuselection:`--> 元素変更` の操作を行う。
+      5. 原子の種類を変更したい箇所では :ref:`edit_attribute_element` を実行する。
       
-      6. 化学結合を作成したい場所では :ref:`edit_bond` :menuselection:`--> 結合付加` の操作を行う。結合の種類の変更も同じ操作で行う。
+      6. 化学結合を作成したい場所では :ref:`edit_addbond` を実行する。結合の種類の変更も同じ操作で行う。
       
-      7. ある程度妥当な原子配置を得るために :ref:`edit_clean` の操作を行う。（原子数が小さい場合に限る）
+      7. ある程度妥当な原子配置に調整するために :ref:`edit_clean` を実行する。（原子数が小さい場合に限る）
       
-      8. 明示的に部分構造を回転させたい場合は :ref:`edit_partial_edit` :menuselection:`--> 部分回転` の操作を行う。
+      8. 明示的に部分構造を回転させたい場合は :ref:`edit_partial_edit` :menuselection:`--> 部分回転` を実行する。
       
-      9. 様々な配座を取りうる分子の場合は :menuselection:`ツール --> 配座探索` を適用し、エネルギーの低い構造を取得する。
+      9. 様々な配座を取りうる分子の場合は :menuselection:`ツール --> ` :ref:`tools_balloon` を実行し、エネルギーの低い構造を選択する。
       
    - ポリマーの場合は、直接分子全体をモデリングしても良いが、 :ref:`md_polymer_top` の方法を使った方が効率が良い。
+   
+   - 結晶構造、スラブモデル、クラスターモデルの作成には、それぞれ :ref:`solid_crystalbuilder` , :ref:`solid_cleaveplane` , :ref:`solid_insertvacuum` , :ref:`solid_buildcluster` を実行する。
    
 .. _create_charge:
 
 点電荷の割り当て
 ----------------------
 
-   MD計算の場合は、 :ref:`create_mole` の方法で1分子を作成した後、以下のいずれかの方法で点電荷を各原子に割り当てる。水分子の場合は、選択した水モデルの電荷が使用されるので点電荷の割り当てを省略できる。
-    
-   - AM1/BCCまたはGasteiger電荷を割り当てる。
+   MD計算の場合は、多くの力場において点電荷を必要とするため、Winmostar上で設定する方法を紹介する。
    
-      - :menuselection:`MD --> 電荷を割り当て -->` :ref:`md_charge_acpype` の手順で割り当てる。イオンの場合は :guilabel:`Total charge [e]` に電荷を入力する。
+   デフォルトのAM1/BCC電荷を用いる場合は明示的に電荷を設定する必要がない。
+   また、水分子には選択した水モデルの電荷の値が無条件で適用される。
+   
+   AM1/BCC以外の電荷を使用する場合は、 :ref:`create_mole` の方法で1分子を作成した後、以下の方法で電荷を割り当てたうえで、各種キーワード設定ウインドウの :guilabel:`Force Field` タブで :guilabel:`Use user-defined charge` を選択する。
+   
+   
+   - Gasteiger電荷を割り当てる。
+   
+      :menuselection:`MD --> 電荷を割り当て -->` :ref:`md_charge_acpype` の手順で割り当てる。イオンの場合は :guilabel:`Total charge [e]` に電荷を入力する。
+      
+      AM1/BCC電荷も同様の手順で明示的に割り当てられる。
       
    - RESP電荷を割り当てる。
       
@@ -56,17 +66,19 @@
       
       2. :guilabel:`Easy Setup` ウインドウを :guilabel:`Quit` ボタンで閉じ、 :guilabel:`GAMESS Setup` ウインドウを :guilabel:`Set` ボタンで閉じる。
       
-      3. GAMESSの計算を実行し、終了したら :menuselection:`QM --> GAMESS --> インポート --> RESP charge from punch` にてRESP電荷を取得する。
+      3. GAMESSの計算を実行し、終了したら :menuselection:`QM --> GAMESS --> インポート -->` :ref:`qm_gamess_resp` にてRESP電荷を取得する。
    
    - MOPAC, GAMESS, Gaussian, NWChem, Quantum ESPRESSOのPopulation解析結果の電荷をメインウインドウに読み込む。
 
       - MOPACの場合は :ref:`semiempirical_mopac_charge` の手順で読み込む。
       
       - Quantum ESPRESSOの場合は :menuselection:`固体 --> Quantum ESPRESSO --> Lowdin電荷` の手順で読み込む。
+      
+      - それ以外の場合は、ログファイルをメインウインドウで開く。
    
    - 元素ごとに値を指定して割り当てる。
    
-      - :menuselection:`MD --> 電荷を割り当て -->` :ref:`md_charge_acpype` の手順で割り当てる。
+      - :menuselection:`MD --> 電荷を割り当て -->` :ref:`md_charge_manual` の手順で割り当てる。
    
    - 選択した原子に値を入力して割り当てる。
    
@@ -77,7 +89,7 @@
 孤立系（気体）の作成
 ---------------------------------
 
-   1. :ref:`create_mole` の方法で1分子を作成する。量子化学計算の場合は周期境界条件を使わないため以降の操作は不要である。
+   1. :ref:`create_mole` の方法で1分子の構造を作成する。量子化学計算の場合は周期境界条件を使わないため以降の操作は不要である。
    
    2. MD計算の場合は :ref:`create_charge` の方法で電荷を割り当てる。
    
@@ -88,7 +100,7 @@
 低分子液体の作成
 -----------------------
 
-   1. :ref:`create_mole` の方法で1分子を作成する。
+   1. :ref:`create_mole` の方法で1分子の構造を作成する。
    
    2. MD計算の場合は :ref:`create_charge` の方法で電荷を割り当てる。
    
@@ -96,9 +108,11 @@
    
    4. 1.から3.の手順を計算したい全ての分子種に対して行う。
    
-   5. :ref:`md_solvate_buildcell` を選択し、 :guilabel:`Put the molecule on main window as solute` のチェックを外す。
+   5. :ref:`md_solvate_buildcell` を選択する。
    
-   6. 水分子の場合は :guilabel:`Add Water` をクリックする。それ以外の場合は :guilabel:`Add mol2 File` をクリックし1.から4.の手順で保存したmol2ファイルを選択する。
+   6. 系内にどの分子を何分子入れるか決める。
+      メインウインドウに表示された分子は :guilabel:`Add Displayed Molecule` , 水分子の場合は :guilabel:`Add Water` をクリックする。
+      それ以外の場合は :guilabel:`Add mol2 File` をクリックし1.から4.の手順で保存したmol2ファイルを選択する。
    
    7. 系内に投入する個数を入力する。
    
@@ -136,6 +150,6 @@
    2. :ref:`edit_createcell` にて :menuselection:`Expand --> Width` の値と :guilabel:`Axis` を設定し :guilabel:`Expand` ボタンを押す。Expandするサイズは、気相のサイズにする。その後、 :guilabel:`OK` ボタンを押す。
    
       .. note::
-         - 液相の構造をMD計算で緩和した後にExpandする場合は、MD計算後の構造においてシミュレーションセルの外の座標を持つ原子が多く存在するため、Expandする前に :ref:`edit_wrap_pbc` を選択する。 :guilabel:`結合を保持しますか？` と尋ねられたら、分子系の場合は :guilabel:`はい` 、無機系では :guilabel:`いいえ` をクリックする。
+         - 液相の構造をMD計算で緩和した後にExpandする場合は、MD計算後の構造においてシミュレーションセルの外の座標を持つ原子が多く存在するため、Expandする前に :ref:`edit_wrap_pbc` を選択する。分子系の場合は :guilabel:`セルの内側に分子単位で再配置` 、無機系では :guilabel:`セルの内側に原子単位で再配置` を選択する。
 
 
