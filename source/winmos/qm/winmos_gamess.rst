@@ -171,7 +171,7 @@ $HESS from punch
            - 説明
          * - | outファイル
              | :file:`water.out`
-           - 計算結果の概略をまとめたテキストファイルです。
+           - 計算のログファイルです。
          * - | batファイル
              | :file:`water.inp.bat`
            - GAMESSを実行するためのバッチファイルです。

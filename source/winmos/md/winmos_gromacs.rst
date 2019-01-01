@@ -230,9 +230,6 @@ Gromacs実行
          * - | batファイル
              | :file:`water.gro.bat`
            - :file:`water.sh` を実行するためのバッチファイルです。
-         * - | punファイル
-             | :file:`water.pun`
-           - | 詳細な結果解析を行うためのpunchファイルです。
          * - | 作業ディレクトリ
              | :file:`water_gmx_tmp\\`
            - | 作業ディレクトリです。

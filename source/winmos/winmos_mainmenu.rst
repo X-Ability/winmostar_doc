@@ -19,6 +19,9 @@
    md/winmos_amber
    md/winmos_polymer
    md/winmos_interface
+   solid/winmos_solid
+   solid/winmos_qe
+   solid/winmos_fdmnes
    winmos_tools
    winmos_preferences
    winmos_window
