@@ -4,41 +4,26 @@
 
 :menuselection:`MD --> LAMMPS` メニュー
 ============================================
+   
+   LAMMPSに関するメニューです。
+   
+   LAMMPSをインストールする方法は :ref:`install_install` に記載しています。
 
-.. _md_lammps_flow:
-
-LAMMPS計算の処理の流れ
-----------------------------
-
-   1) 計算したい分子をメインウインドウで作成しmol2形式で保存します。
-   
-   2) :ref:`md_solvate_buildcell` にてシミュレーションセルを作成します。
-   
-   3) :ref:`md_lammps_keyword` にて計算条件を設定します。
-   
-      .. note::
-         - 他の環境で作成したdataファイルを使用して計算を流す場合は、dataファイルをメインウインドウで開き、:ref:`md_lammps_keyword` の :guilabel:`Force Field` で選択します。
-
-   4) :ref:`md_lammps_start` を選んでLAMMPS形式の座標＆トポロジ（data）ファイルを保存すると、自動でdataファイルと同名のbatファイルが生成し、そのbatファイルが実行されます。計算結果は接尾辞が :file:`_lmp_tmp` の **作業ディレクトリ** に収められます。
-   
-      .. include:: ../winmos_workingdir.rst
-      
-   5) 継続ジョブを実行する場合は、メインウインドウで開かれているdataファイルと同階層に作業ディレクトリが置かれている必要があります。
-   
-      .. note::
-         - 継続ジョブでは、直前のジョブの作業ディレクトリの :file:`lmp_tmp_final.data` を用いてジョブが開始されます。
-   
-   6) :ref:`md_lammps_energy` 、 :ref:`md_lammps_trajectory` など各種の結果処理機能を選択した時に、 :guilabel:`開く` ダイアログでデフォルトで選択されるファイルは、メインウインドウで開かれたファイルに紐づけられた作業ディレクトリの中のファイルとなります。
-   
 .. _md_lammps_keyword:
 
 キーワード設定
 ------------------------
 
-   LAMMPS計算用のキーワードを設定します。設定後 :guilabel:`OK` ボタンをクリックします。
+   LAMMPSの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウインドウに戻る場合は :guilabel:`OK` ボタンを押してください。
+   
+   :guilabel:`Reset` ボタンでデフォルトの状態に戻ります。
+   :guilabel:`Save` ボタンでForce Fieldを除く設定を保存します。
+   :guilabel:`Load` ボタンで :guilabel:`Save` にて保存した設定を読み込みます。
    
    Extending Simulation
-      :ref:`継続ジョブ <md_lammps_flow>` を実行します。
+      継続ジョブを実行します。
+      
+      詳細は :ref:`md_lammps_start` を参照してください。
    Preset
       計算条件のプリセットを指定します。プリセットの内容は、各キーワードから確認できます。
    MPI
@@ -179,62 +164,136 @@ LAMMPS計算の処理の流れ
          NPTアンサンブルで計算した後に、設定圧力に近い状態でNVEまたはNVTアンサンブルで計算した場合に使用します。最終構造を、計算中の平均セルサイズにスケーリングします。
    Options
       Make a Backup of Working Directory
-         :ref:`作業ディレクトリ <md_lammps_flow>` のバックアップを行う際に選択します。
+         作業ディレクトリのバックアップを行う際に選択します。
       Restore Working Directory
-         継続ジョブが異常終了時など、:ref:`作業ディレクトリ <md_lammps_flow>` を実行前の状態に戻す際にクリックします。
+         継続ジョブが異常終了時など、作業ディレクトリを実行前の状態に戻す際にクリックします。
       Dump all files for remote
          Linux環境でのジョブ実行に必要なファイルを出力します。 :ref:`remote_top` 機能で生成されるファイルと同じファイルが出力されます。
 
    .. include:: winmos_gromacs_forcefield.rst
-
-   Load
-      Winmostar独自形式(lmpset)で保存された計算条件を読み込みます。
-   Save
-      Winmostar独自形式(lmpset)で計算条件を保存します。
 
 .. _md_lammps_start:
 
 LAMMPS実行
 ------------------------------
 
-   :ref:`md_lammps_flow` の内容に基づきLAMMPSが実行されます。
+   LAMMPSを実行します。
+   状況に応じて実行方法が異なります。
+
+      - （デフォルト） :guilabel:`Extending Simulation` にチェックがなく、 :menuselection:`Force Fieldタブ -->` :guilabel:`Generate parameters` にチェックが入っている場合
+         dataファイル（座標とトポロジを含むファイル）を新規に生成してからジョブを開始します。
+      - :guilabel:`Extending Simulation` にチェックがなく、 :menuselection:`Force Fieldタブ -->` :guilabel:`Use parameters in displayed file` にチェックが入っている場合
+         メインウインドウで開かれているdataファイルを使用してジョブを開始します。
+      - :guilabel:`Extending Simulation` にチェックがある場合
+         メインウインドウで開かれているdataファイルに紐づけられた作業ディレクトリの中にある :file:`lmp_tmp_final.data` 用いてジョブを開始します。
+
+   実行に伴い以下のファイルが生成されます。
+   例として入力ファイルが :file:`water.data` の時のファイル/フォルダ名を併記しています。
+
+      .. list-table::
+         :header-rows: 1
+         :stub-columns: 1
+
+         * - 種類
+           - 説明
+         * - | outファイル
+             | :file:`water.log`
+           - LAMMPSのログファイルです。
+         * - | batファイル
+             | :file:`water.bat`
+           - | LAMMPSとそのプリ・ポスト処理を実行するための
+             | バッチファイルです。
+         * - | 作業ディレクトリ
+             | :file:`water_lmp_tmp\\`
+           - | 作業ディレクトリです。
+           
+   作業ディレクトリには以下のファイルが生成されます。
+   ここでは主要なファイルのみ示しています。
+   
+      .. list-table::
+         :header-rows: 1
+         :stub-columns: 1
+         
+         * - 種類
+           - 説明
+         * - | :file:`lmp_tmp.data`
+           - | read_dataで指定される計算の初期状態のファイルです。
+         * - | :file:`lmp_tmp.in`
+           - | 計算条件を指定するファイルです。
+         * - | :file:`lmp_tmp.log`
+           - | ログファイルです。
+             | :file:`water.log` と同じものです。
+         * - | :file:`lmp_tmp.dump`
+           - | dump形式のトラジェクトリファイルです。
+         * - | :file:`lmp_tmp.restart`
+           - | 最終状態の情報を含むrestartファイルです。
+         * - | :file:`lmp_tmp_final.data`
+           - | 最終状態の情報を含むdataファイルです。
+             | restartファイルから生成されます。
+         * - | :file:`postproc.sh`
+           - | LAMMPSが生成する :file:`lmp_tmp_final.data` が、
+             | そのままではLAMMPSの実行には不十分なため、
+             | 不十分な情報を補うための処理を行うスクリプトです。
+         * - | :file:`lmp_tmp.xtc`
+           - | 結果処理にGromacsツールを使用するための、
+             | xtc形式のトラジェクトリファイルです。
+         * - | :file:`lmp_tmp.xtc`
+           - | 結果処理にGromacsツールを使用するための、
+             | xtc形式のトラジェクトリファイルです。
+         * - | :file:`lmp_tmp.gro`
+           - | 結果処理にGromacsツールを使用するための、
+             | gro形式の座標ファイルです。
+             | 入力ファイルとして指定されたdataファイルから変換して
+             | 作成されます。
+
+      .. include:: ../winmos_workingdir.rst
 
 .. _md_lammps_trajectory:
 
-トラジェクトリ読み込み
-------------------------------
+アニメーション
+-----------------------------
 
-   dumpファイルを選択し、MD計算のトラジェクトリをアニメーション表示します。
+   dataファイルとdumpファイルを選択し、MD計算のトラジェクトリをアニメーション表示します。
+   
    メインウインドウのファイル名は変化しません。
+   
    アニメーション表示の操作方法は :ref:`animation_top` を参照してください。
-
-logファイル編集
-------------------------------
-
-   LAMMPSのログファイル（ :file:`\*.log` ）をテキストエディタで開きます。
-
+   
 .. _md_lammps_energy:
 
 エネルギー変化
 ------------------------------
 
-   LAMMPSが出力したlogファイルを選択し、エネルギー、温度、圧力などの各種熱力学量のグラフを表示します。
+   ログファイルを選択し、エネルギー、温度、圧力などの各種熱力学量のグラフを表示します。thermo_styleで指定した値をプロットすることができます。
+   
+   サブウインドウの操作方法は :ref:`energyplot_top` を参照してください。
+
+最終構造を読み込み
+---------------------------
+
+   :file:`\*_lmp_tmp\\lmp_tmp_final.gro` を開きます。
+   
+   本機能を使うとメインウインドウのファイル名は変化しません。
+
 
 動径分布関数
 ------------------------------
 
    LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndxファイルを選択し、動径分布関数を表示します。
-   詳細な機能は :ref:`md_gromacs_rdf` を参照してください。
+   
+   詳細は :ref:`md_gromacs_rdf` を参照してください。
 
 平均二乗変位
 ------------------------------
    LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndxファイルを選択し、平均二乗変位と自己拡散係数を表示します。
-   詳細な機能は :ref:`md_gromacs_msd` を参照してください。
+   
+   詳細は :ref:`md_gromacs_msd` を参照してください。
 
 散乱関数
 ------------------------------
    LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndxファイルを選択し、散乱関数を表示します。
-   詳細な機能は :ref:`md_gromacs_saxs` を参照してください。
+   
+   詳細は :ref:`md_gromacs_saxs` を参照してください。
    
 散逸粒子動力学
 ------------------------
@@ -244,8 +303,71 @@ DPDセルビルダ
 
    散逸粒子動力学用のシミュレーションセルを作成します。
 
+   Monomers Available
+      ポリマー鎖を構成するモノマー（粒子）を選択します。
+
+   # of Monomers
+      選択したモノマーの数を指定します。
+   >> Add >>
+      選択したモノマーを追加します。
+   Branch
+      Start
+         分岐開始位置を指定します。
+      End
+         分岐終了位置を指定します。
+   Monomers Used
+      追加したモノマー種と数がリスト表示されます。
+   Clear
+      リストアップされたモノマー種を全て削除します。
+   << Delete <<
+      追加したモノマーを削除します。
+   # of Polymers
+      ポリマー鎖の数を指定します。
+   >> Add >>
+      リストアップされたポリマー鎖を計算対象に追加します。
+   Polymers Used
+      追加したポリマー鎖の構成と本数がリスト表示されます。
+   << Delete <<
+      追加したポリマー鎖を削除します。
+   Density
+      系の密度（無次元）を指定します。
+   Build
+      シミュレーションセルを構築します。
+   Reset
+      すべての設定をデフォルトに戻します。
+   Close
+      ウインドウを閉じます。
+
 ポテンシャル編集
 ^^^^^^^^^^^^^^^^^
 
-   LAMMPSを用いた散逸粒子動力学用のポテンシャルファイルを作成・編集します。
+   Winmostar独自形式の散逸粒子動力学用のポテンシャルファイルを作成・編集します。
+   
+   Potential Files
+      散逸粒子動力学に用いるポテンシャルファイルを選択します。
+   New
+      新たにポテンシャルファイルを作成します。
+   Delete
+      選択したポテンシャルファイルを削除します。
+   Massタブ
+      Species
+         モノマー（粒子）名が表示されます。
+      Mass
+         質量（無次元）を設定します。
+   Bondタブ
+      R_0
+         結合（ボンド）ポテンシャルパラメータR_0（平衡距離、無次元）を設定します。
+      K
+         結合（ボンド）ポテンシャルパラメータK（バネ定数、無次元）を設定します。
+   Nonbondタブ
+      Aij
+         非結合ポテンシャルパラメータAij（無次元）を入力します。
+      Rcut
+         非結合ポテンシャルパラメータRcut（カットオフ半径、無次元）を入力します。
+      Set
+         設定したポテンシャルパラメータがリストに反映されます。
+   OK
+      設定したポテンシャルパラメ-タをポテンシャルファイルに保存してウインドウを閉じます。
+   Close
+      設定内容を破棄してウインドウを閉じます。
 

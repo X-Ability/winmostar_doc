@@ -54,8 +54,9 @@ Force Field
          - :guilabel:`Load from Existing File` を選択しない場合はソルバの実行時に自動的にトポロジファイルが生成されるため、この操作は必須ではありません。
          - トポロジファイルをエディタ等で編集してカスタマイズしたい場合は、本機能を使用して保存した上で、 :guilabel:`Load from Existing File` にて選択してください。
       
-   Load from existing file/Use parameters in the file on the main window
+   Load from existing file/Use parameters in displayed file
       既に存在しているトポロジファイルを用いてMD計算を実行する場合に選択します。
+      LAMMPSの場合は、メインウインドウで既に存在しているdataファイルを用いてMD計算を実行する場合に選択します。
 
       Edit
          選択されたトポロジファイルをテキストエディタで編集する。
