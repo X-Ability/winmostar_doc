@@ -16,6 +16,8 @@
 
    LAMMPSの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウインドウに戻る場合は :guilabel:`OK` ボタンを押してください。
    
+   :guilabel:`Run` をクリックしたときの挙動は :ref:`md_lammps_start` を参照してください。
+   
    :guilabel:`Reset` ボタンでデフォルトの状態に戻ります。
    :guilabel:`Save` ボタンでForce Fieldを除く設定を保存します。
    :guilabel:`Load` ボタンで :guilabel:`Save` にて保存した設定を読み込みます。

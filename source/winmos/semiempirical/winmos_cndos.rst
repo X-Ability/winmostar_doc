@@ -19,6 +19,8 @@
 
    CNDO/Sの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウインドウに戻る場合は :guilabel:`OK` ボタンを押してください。
    
+   :guilabel:`Run` をクリックしたときの挙動は :ref:`semiempirical_cndos_start` を参照してください。
+   
    Method
       計算方法を指定します。（CNDOまたはINDO） 
    Multiplicity

@@ -14,6 +14,8 @@
 
    FDMNESの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウインドウに戻る場合は :guilabel:`OK` ボタンを押してください。
    
+   :guilabel:`Run` をクリックしたときの挙動は :ref:`solid_fdmnes_start` を参照してください。
+   
    :guilabel:`Reset` ボタンでデフォルトの状態に戻ります。
 
    Target Atom
@@ -34,6 +36,8 @@
       局所状態密度（LDOS）を、ファイル名末尾が_sd*.txtとなっているファイルの中に出力します。
    Definition for Energy
       XAFSスペクトルを表示する際の横軸（エネルギー）の定義を指定します。
+
+.. _solid_fdmnes_start:
 
 実行
 ------------------------

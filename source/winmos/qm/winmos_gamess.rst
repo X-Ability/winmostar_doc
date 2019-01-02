@@ -15,6 +15,8 @@
 
    GAMESSの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウインドウに戻る場合は :guilabel:`OK` ボタンを押してください。
    
+   :guilabel:`Run` をクリックしたときの挙動は :ref:`qm_gamess_start` を参照してください。
+   
    :guilabel:`Reset` ボタンでデフォルトの状態に戻ります。
    :guilabel:`Save as Default` ボタンで現在の状態をデフォルトの状態として保存します。
    :menuselection:`Save as Default --> Clear Default Settings` で保存されてデフォルトの状態を出荷時の状態に戻します。
@@ -146,12 +148,15 @@ $HESS from punch
 ^^^^^^^^^^^^^^^^^^
    $HESSをpunchファイルから読み込みます。
 
+.. _qm_gamess_start:
 
 (1) GAMESS実行, (2) GAMESS実行
 ----------------------------------------------------
 
    メインウインドウでGAMESSの入力ファイルが開かれている場合は、そのファイルを使ってGAMESSを実行します。
    開かれていない場合は、GAMESSの入力ファイルを保存した上でGAMESSを実行します。
+   
+   入力ファイルを保存する際に、 :ref:`file_coordinateformat` の選択肢に応じて座標の出力フォーマットが変化します。
    
    :guilabel:`(1) GAMESS実行` , :guilabel:`(2) GAMESS実行` の違いは、起動するGAMESSのプログラムパスです。
    プログラムパスは、 :menuselection:`ツール --> 環境設定 --> プログラムパス` で変更することができます。

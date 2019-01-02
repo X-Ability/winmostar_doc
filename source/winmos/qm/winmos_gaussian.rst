@@ -14,6 +14,8 @@
 
    Gaussianの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウインドウに戻る場合は :guilabel:`OK` ボタンを押してください。
    
+   :guilabel:`Run` をクリックしたときの挙動は :ref:`qm_gaussian_start` を参照してください。
+   
    :guilabel:`Reset` ボタンでデフォルトの状態に戻ります。
    :guilabel:`Save as Default` ボタンで現在の状態をデフォルトの状態として保存します。
    :menuselection:`Save as Default --> Clear Default Settings` で保存されてデフォルトの状態を出荷時の状態に戻します。
@@ -148,11 +150,15 @@
 ------------------------
    既存のGaussianの入力ファイルから、キーワード（計算条件）のみを読み込みます。
 
+.. _qm_gaussian_start:
+
 実行
 ----------------------------------------------------
 
    メインウインドウでGaussianの入力ファイルが開かれている場合は、そのファイルを使ってGaussianを実行します。
    開かれていない場合は、Gaussianの入力ファイルを保存した上でGaussianを実行します。
+   
+   入力ファイルを保存する際に、 :ref:`file_coordinateformat` の選択肢に応じて座標の出力フォーマットが変化します。
    
    Gaussianのプログラムパスは、 :menuselection:`ツール --> 環境設定 --> プログラムパス` で変更することができます。
       
