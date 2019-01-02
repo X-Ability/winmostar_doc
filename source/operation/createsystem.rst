@@ -51,7 +51,7 @@
    デフォルトのAM1/BCC電荷を用いる場合は明示的に電荷を設定する必要がない。
    また、水分子には選択した水モデルの電荷の値が無条件で適用される。
    
-   AM1/BCC以外の電荷を使用する場合は、 :ref:`create_mole` の方法で1分子を作成した後、以下の方法で電荷を割り当てたうえで、各種キーワード設定ウインドウの :guilabel:`Force Field` タブで :guilabel:`Use user-defined charge` を選択する。
+   AM1/BCC以外の電荷を使用する場合は、 :ref:`create_mole` の方法で1分子を作成した後、以下の方法で電荷を割り当てたうえで、各種キーワード設定ウインドウの :guilabel:`Force Field` タブで :guilabel:`Use user-defined charge` を選択する。割り当てた電荷は :menuselection:`表示 -->` :ref:`view_labels_charges` を変更することで表示し確認することができる。
    
    
    - Gasteiger電荷を割り当てる。
@@ -62,11 +62,11 @@
       
    - RESP電荷を割り当てる。
       
-      1. :menuselection:`QM --> GAMESS --> GAMESSキーワード設定 --> EasySetup` にて、計算手法、基底関数を選択し、 :guilabel:`Method` に :guilabel:`ESP/RESP` を選択する。イオンの場合は :guilabel:`ICHARG` に電荷を入力する。
+      1. :menuselection:`QM --> GAMESS --> キーワード設定 --> Easy Setup` にて、計算手法、基底関数を選択し、 :guilabel:`Method` に :guilabel:`ESP/RESP` を選択する。イオンの場合は :guilabel:`ICHARG` に電荷を入力する。
       
-      2. :guilabel:`Easy Setup` ウインドウを :guilabel:`Quit` ボタンで閉じ、 :guilabel:`GAMESS Setup` ウインドウを :guilabel:`Set` ボタンで閉じる。
+      2. :guilabel:`Easy Setup` ウインドウを :guilabel:`Close` ボタンで閉じ、 :guilabel:`GAMESS Setup` ウインドウで :guilabel:`Run` ボタンを押し計算を実行する。
       
-      3. GAMESSの計算を実行し、終了したら :menuselection:`QM --> GAMESS --> インポート -->` :ref:`qm_gamess_resp` にてRESP電荷を取得する。
+      3. GAMESSの計算が終了したら :menuselection:`QM --> GAMESS -->` :ref:`qm_gamess_resp` にてRESP電荷を取得する。
    
    - MOPAC, GAMESS, Gaussian, NWChem, Quantum ESPRESSOのPopulation解析結果の電荷をメインウインドウに読み込む。
 

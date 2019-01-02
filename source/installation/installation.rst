@@ -8,15 +8,17 @@
 対応OS
 ======================
 
-- Windows 7
-- Windows 8
+Winmostarの対応OSは以下の通りです。
+
 - Windows 10
+- Windows 8
+- Windows 7
 
 Windows Serverの場合は、予めトライアル版などで動作検証した上でご使用下さい。
 
 macOS、Linuxの場合は、VirtualBoxなどの仮想マシンでWindows OSをインストールした上でWinmostarを使用してください。これらの環境でネイティブ動作するバージョンは今後開発される予定です。
 
-Winmostarをインストールする端末とは別のマシン（ :ref:`リモートマシン <remote_top>` ）でジョブを実行する場合、 :ref:`セットアップ方法 <install_scheduler>` ではCentOS向けの手順が紹介されていますが、以下の機能を備えていれば基本的にはUbuntuなど、どのOSでも利用可能です。
+Winmostarをインストールする端末とは別のマシン（ :ref:`リモートサーバ <remote_top>` ）でジョブを実行する場合、 :ref:`セットアップ方法 <install_scheduler>` ではCentOS向けの手順が紹介されていますが、以下の機能を備えていれば基本的にはUbuntuなど、どのOSでも利用可能です。
 
    - SSH、SCPを用いた通信が可能で、UNIXコマンドを実行できる
    - :ref:`Winmostarが対応するジョブスケジューラ <remote_scheduler>` が動作する
