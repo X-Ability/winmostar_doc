@@ -31,8 +31,12 @@ Submit Jobウインドウの各機能
 -----------------------------------
 
 Fileメニュー
-   Import External Server Setting File
+   Revert All Changes
+      変更を破棄しサーバ設定ファイルを読み込み直します。
+   Import Setting File
       サーバ設定ファイルを読み込み、その中に含まれているプロファイルを、既存のプロファイルのリストに追加します。
+   Restore Setting File
+      サーバ設定ファイルを出荷時の状態に戻します。
    Close
       このウインドウを閉じます。
 Profileメニュー
