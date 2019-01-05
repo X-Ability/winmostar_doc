@@ -2,6 +2,12 @@
 source以下のrstファイルを編集する。
 
 - Windows10+ WSLでのビルド環境構築
+
+Anacondaをインストールする
+https://www.anaconda.com/download/#linux
+からPython3のインストーラをダウンロードして実行。
+pyenvが入っている場合は以下の手順でも良い。
+
 pyenv install 2.7.15
 pyenv versions
 pyenv global 2.7.15
@@ -10,6 +16,7 @@ pyenv install anaconda3-5.2.0
 pyenv global anaconda3-5.2.0
 pyenv rehash
 echo 'export PATH="$PYENV_ROOT/versions/anaconda3-5.2.0/bin/:$PATH"' >> ~/.bashrc
+
 source ~/.bashrc
 conda update conda
 conda create -n sphinx_env
@@ -18,8 +25,7 @@ conda install Sphinx
 conda install -c conda-forge sphinx-autobuild
 pip install sphinx-intl
 pip install sphinx_rtd_theme
-sudo apt install texlive-lang-cjk xdvik-ja evince
-sudo apt install texlive-full
+sudo apt install texlive-lang-cjk xdvik-ja evince texlive-full
 
 以降、ビルドするためには毎回
 source activate sphinx_env
@@ -36,6 +42,10 @@ build/html以下が生成されたhtmlとなり、index.htmlをブラウザで開くと内容を確認でき
 $ make latexpdf
  
 build/latex/winmostar_usermanual.pdfが生成されたpdfである。
+
+※一部の環境では日本語のPDFの生成に失敗することがある。
+alias latex=platex
+としてから実行すれば通るかもしれない。
 
 - rstファイルを編集している最中に、自動的に日本語のhtmlをビルドする場合
 
