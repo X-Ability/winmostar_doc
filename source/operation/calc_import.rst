@@ -43,7 +43,7 @@
          
          リモートサーバ上でジョブが終了したら :guilabel:`Get All Files` ボタンを押して、WinmostarをインストールしたWindows PC上に計算から出力されたファイルを転送します。
          
-         詳細は :ref:`remote_top` を参照してください。
+         詳細は :ref:`remote_procedure` を参照してください。
 
    (4) ログの確認
    
