@@ -38,11 +38,21 @@ V8.027時点でWinmostarが対応するジョブスケジューラは以下の�
 
    これからインストールする場合は、 :ref:`こちら <install_scheduler>` を参考にしてください。
 
-2. :ref:`calc_import_top` の1, 2の手順に従い初期条件の作成とキーワードの設定を行い、キーワード設定ウインドウを :guilabel:`OK` ボタンを押して閉じる。
+.. _remote_procedure_preparation:
 
-3. ツールバーの :guilabel:`リモートジョブ投入` ボタン |toolbar_submit| をクリックしする。
+2. :ref:`calc_import_top` の1, 2の手順に従い初期条件の作成とキーワードの設定を行い、キーワード設定ウインドウを :guilabel:`OK` ボタンを押して閉じます。
 
-4. :guilabel:`Submit Remote Job` ウインドウにおいて、すでに設定が済んでいる :guilabel:`Profile` が選択されているときは、10に進む。されていない場合は、 :menuselection:`Profile --> Add Profile` メニューを選択する。
+.. _remote_procedure_open:
+
+3. ツールバーの :guilabel:`リモートジョブ投入` ボタン |toolbar_submit| をクリックします。
+
+.. _remote_procedure_addprofile:
+
+4. :guilabel:`Submit Remote Job` ウインドウにおいて、すでに設定が済んでいる :guilabel:`Profile` が選択されているときは、 :ref:`こちら <remote_procedure_sendsub>` に進みます。されていない場合は、 :menuselection:`Manage... --> Add Profile...` を選択します。
+
+   |fig_remote_addprofile|
+
+.. _remote_procedure_editconnection:
 
 5. :guilabel:`Edit Profile` ウインドウ上部にて、以下の内容を入力します。
 
@@ -56,17 +66,27 @@ V8.027時点でWinmostarが対応するジョブスケジューラは以下の�
       - Password
       - SSH Key（必要に応じて設定）
       
+   |fig_remote_editconnection|
+      
    TSUBAME、FOCUSなどに多段SSH接続する方法は `https://winmostar.com/jp/manual_jp.html <https://winmostar.com/jp/manual_jp.html>`_ を参照してください。
       
+.. _remote_procedure_testconnection:
+
 6. 入力後、SSH接続をテストするために、 :guilabel:`Edit Profile` ウインドウ下の :guilabel:`Test Connection` ボタンをクリックします。
 
    黒いターミナルウインドウが開き、初回接続時は、 ``Store key in cache? (y/n)`` と表示される。その場合は、 :kbd:`y` とキー入力する。
 
+   |fig_remote_storekey|
+
    接続に成功した場合は、先ほどの :guilabel:`Submit Remote Job` ウインドウの下部に ``Connection test succeeded.`` と表示されます。
+
+   |fig_remote_testconnection|
 
    ユーザ設定等が間違っている場合はターミナルウインドウで ``Access denied ***@***'s password:`` などど表示されます。その場で正しいパスワードを入力した場合も、再度 :guilabel:`Edit Profile` ウインドウでパスワードを再入力してください。
 
    その他、 :guilabel:`Submit Remote Job` ウインドウの下部に ``ERROR: Connection timed out or an error occurred.`` と表示された場合は、接続設定を見直してください。
+
+.. _remote_procedure_editqueue:
 
 7. :guilabel:`Edit Profile` ウインドウ下部にて、以下の内容を入力します。
 
@@ -77,30 +97,44 @@ V8.027時点でWinmostarが対応するジョブスケジューラは以下の�
       - Shell Script
       - Options（ :command:`qsub` 等のジョブをサブミットするコマンドの引数）
 
+   |fig_remote_editqueue|
+
    まず接続するサーバ上にインストールされたジョブスケジューラを :guilabel:`Queue` を選択し、その上で使用するソルバを :guilabel:`Solver` で選択します。
    次に、 :guilabel:`Shell Script` の :guilabel:`Use Template` をクリックします。
    選択したソルバのテンプレートがない場合は、テンプレートの名前を入力すると、テンプレートがテキストエディタで開かれます。
    ある場合は、 :guilabel:`Use Template` の横のプルダウンメニューで使用したいテンプレートファイルを選択し、その下の :guilabel:`Edit...` ボタンをクリックするとテンプレートファイルがテキストエディタで開きます。
    テンプレートファイルには、 :command:`module load ...` 、 :command:`source ...` 、 :command:`export PATH=...` などのコマンドや、 :command:`mpirun` などの、そのサーバで選択したソルバを使用するための設定を書き入れます。
    
-   利便性を上げるため、テンプレートファイルや :guilabel:`Options` には、個々のジョブに依存する並列数やファイル名などの設定がジョブ実行時に代入されるエイリアスの形で入力することを推奨します。推奨は :ref:`remote_alias` を参照してください。
-   
+   利便性を上げるため、テンプレートファイルや :guilabel:`Options` には、個々のジョブに依存する並列数やファイル名などの設定がジョブ実行時に代入されるエイリアスの形で入力することを推奨します。詳細は :ref:`remote_alias` を参照してください。
+
+.. _remote_procedure_ok:
+
 8. :guilabel:`OK` ボタンを押して :guilabel:`Edit Profile` ウインドウを閉じます。
+
+.. _remote_procedure_qstatq:
 
 9. :guilabel:`Submit Remote Job` ウインドウで、 :menuselection:`Queue --> Show Usage of Each Queues` メニューをクリックし、ウインドウ下部にリモートサーバの情報が表示されることを確認します。
 
-   正常に表示されない場合は、 :menuselection:`Profile --> Edit Profile` で設定を見直します。
+   正常に表示されない場合は、 :menuselection:`Manage... --> Edit Profile...` で設定を見直します。
+
+.. _remote_procedure_sendsub:
 
 10. ジョブを開始するために、 :guilabel:`Send & Submit` ボタンをクリックします。ここでの操作方法は、通常のローカルジョブと同じです。
+
+   |fig_remote_sendsub_button|
 
    ウインドウ下部には、サブミットしたジョブのIDが表示されます。IDはジョブをキャンセル（kill）するときに使用します。
 
    リモートサーバでジョブが実行されたディレクトリは、 :menuselection:`Profile --> Edit Profile` の :guilabel:`Remote Directory` で設定することができ、 実際使用されたものは :guilabel:`Submit Remote Job` ウインドウの :guilabel:`Remote Directory` 欄に表示されます。
 
+.. _remote_procedure_qstat:
+
 11. サブミットしたジョブの状況は、 :menuselection:`Queue --> List Submitted Jobs` で確認してください。全てのジョブが完了した場合は ``---`` と表示されます。
 
    サブミットしたジョブがあまりに早く終了した場合は、サブミットした直後であっても ``---`` と表示されます。
    
+.. _remote_procedure_ls:
+
 12. リモートサーバ上の特定のジョブの状況を確認するときは、以下の操作を行ってください。 
 
    - :guilabel:`ls` ボタン
@@ -109,11 +143,19 @@ V8.027時点でWinmostarが対応するジョブスケジューラは以下の�
    - :guilabel:`tail` ボタン
    - :guilabel:`Get & Open ...` ボタン
    
+   |fig_remote_progress_button|
+   
    操作対象のジョブは、 :guilabel:`Remote Directory` 欄に表示されたものとなります。デフォルトの設定の場合は、メインウインドウで対象としたいジョブの入力ファイルを開き、ジョブ投入時のプロファイルを選択してください。
+
+.. _remote_procedure_get:
 
 13. リモートサーバ上で終了したジョブの結果解析をローカルマシンで実行したい場合は、 :guilabel:`Get All Files` ボタンをクリックします。
 
+   |fig_remote_get_button|
+
    操作対象のジョブは、 :guilabel:`Remote Directory` 欄に表示されたものとなります。デフォルトの設定の場合は、メインウインドウで対象としたいジョブの入力ファイルを開き、ジョブ投入時のプロファイルを選択してください。
+
+.. _remote_procedure_analysis:
 
 14. ファイル取得後は、ローカルジョブと同じ操作方法で結果解析を実施することができます。
 

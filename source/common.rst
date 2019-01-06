@@ -21,3 +21,20 @@
 
 .. |toolbar_submit| image:: /winmos/toolbar_submit.png
 
+.. |fig_remote_addprofile| image:: /winmos/remote/remote_addprofile.png
+
+.. |fig_remote_editconnection| image:: /winmos/remote/remote_editconnection.png
+
+.. |fig_remote_editqueue| image:: /winmos/remote/remote_editqueue.png
+
+.. |fig_remote_get_button| image:: /winmos/remote/remote_get_button.png
+
+.. |fig_remote_progress_button| image:: /winmos/remote/remote_progress_button.png
+
+.. |fig_remote_sendsub_button| image:: /winmos/remote/remote_sendsub_button.png
+
+.. |fig_remote_testconnection| image:: /winmos/remote/remote_testconnection.png
+
+.. |fig_remote_window| image:: /winmos/remote/remote_window.png
+
+.. |fig_remote_storekey| image:: /winmos/remote/remote_storekey.png
