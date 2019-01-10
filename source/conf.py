@@ -45,7 +45,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Winmostar user manual'
+project = u'Winmostar User Manual'
 copyright = u'2008-2019 X-Ability Co., Ltd. All Rights Reserved.'
 author = u'x-ability'
 
