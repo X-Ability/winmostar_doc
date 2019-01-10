@@ -1,0 +1,394 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOT_TRANSLATED"
+"Project-Id-Version: Winmostar user manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 15:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "画面の説明・操作方法"
+msgstr "NOT_TRANSLATED"
+
+msgid "画面の説明"
+msgstr "NOT_TRANSLATED"
+
+msgid "Winmostarを起動して出現するウインドウ（ **メインウインドウ** と呼ぶ）は下図の様な構成となっています。"
+msgstr "NOT_TRANSLATED"
+
+msgid "メインウインドウのタイトルには現在編集中のファイルの名前、使用中のWinmostarのライセンスとバージョンが表示されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "|main_window_JP|"
+msgstr "NOT_TRANSLATED"
+
+msgid "ツールバー"
+msgstr "NOT_TRANSLATED"
+
+msgid "メインメニューの中でよく使われる機能をここでも選択することができます。ポインタを重ねるとそれぞれのボタンの役割を確認できます。また、以下の機能のみ特殊な動作をします。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"上部のツールバーの1行目中央の :guilabel:`ソルバを選択` プルダウンメニュー |solver| （出荷時は ``MOPAC`` "
+"が選ばれるが最後に使ったソルバが表示される）で選ばれているソルバに応じて、その横の :guilabel:`キーワード設定` 、 "
+":guilabel:`実行` などのボタンの役割が変化します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"上部のツールバーの2行目左端の :guilabel:`編集操作で適用される元素を選択` プルダウンメニュー |chg| "
+"で選ばれた元素に応じて、その横の :guilabel:`原子を追加` 、 :guilabel:`元素を変更` ボタンの挙動が変化します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "分子表示エリア"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"現在編集中の分子構造が表示されます。デフォルトでは炭素原子（緑色）と水素原子（黄色）が結合した構造が表示されます。 "
+":menuselection:`表示 --> 表示項目 --> 分子情報` "
+"メニューにチェックがついている場合は、上部と下部には詳細な情報が表示されます。赤丸は **原子選択マーカー** を示します。 **グループ選択**"
+" された状態では、原子が青丸で囲まれます。 :menuselection:`表示 --> ラベル/電荷` "
+"メニューから各原子の横に表示される番号や電荷の値の種類を切り替えることができます。配色は :menuselection:`ツール --> 環境設定"
+" --> 表示` から変更することができます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "キーワード表示エリア"
+msgstr "NOT_TRANSLATED"
+
+msgid "各ソルバのキーワード設定ウインドウで設定した内容が表示されます。デフォルトではMOPACの設定が表示されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "座標表示エリア"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"分子表示エリアに表示されている分子構造の、各原子の座標が表示されます。上部のタブで表示および出力する際の形式を切り替えることができます。デフォルトでは"
+" :guilabel:`Z-Matrix` "
+"が選択されています。グループ選択されていない状態では、座標表示エリアで選ばれた行とマーカー（赤丸）が付いた原子は一致します。 "
+":kbd:`Ctrl+左クリック` または :kbd:`Shift+左クリック` "
+"により複数行を選択することでグループ選択（青丸）することができます。表示されている内容の詳細はポインタを重ねることで確認することができます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "座標入力エリア"
+msgstr "NOT_TRANSLATED"
+
+msgid "マーカー（赤丸）が付いた原子の座標（Z-MatrixまたはXYZ形式）と最適化フラグを入力することができます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "第二キーワード表示エリア"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":guilabel:`キーワード表示エリア` "
+"と基本的には同じですが、ここに記入された内容は、ソルバの入力ファイルの中で座標の後ろに出現します。GAMESS、Quantum "
+"ESPRESSOなどの一部のソルバでのみ使われます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "マウス操作"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"メインウインドウでは下表のようにマウスで操作することができます。 分子・原子を選択する方法の詳細は :ref:`select_top` "
+"に記載しています。"
+msgstr "NOT_TRANSLATED"
+
+msgid "修飾"
+msgstr "NOT_TRANSLATED"
+
+msgid "キー"
+msgstr "NOT_TRANSLATED"
+
+msgid "左クリック"
+msgstr "NOT_TRANSLATED"
+
+msgid "左ドラッグ"
+msgstr "NOT_TRANSLATED"
+
+msgid "右クリック"
+msgstr "NOT_TRANSLATED"
+
+msgid "右ドラッグ／"
+msgstr "NOT_TRANSLATED"
+
+msgid "ホイール操作"
+msgstr "NOT_TRANSLATED"
+
+msgid "なし"
+msgstr "NOT_TRANSLATED"
+
+msgid "マーカーを移動"
+msgstr "NOT_TRANSLATED"
+
+msgid "視点の回転"
+msgstr "NOT_TRANSLATED"
+
+msgid "原子を置換"
+msgstr "NOT_TRANSLATED"
+
+msgid "表示の拡大・縮小"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Shift`"
+msgstr "NOT_TRANSLATED"
+
+msgid "分子単位でグループ選択"
+msgstr "NOT_TRANSLATED"
+
+msgid "または解除"
+msgstr "NOT_TRANSLATED"
+
+msgid "視線の平行移動"
+msgstr "NOT_TRANSLATED"
+
+msgid "原子を削除"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl`"
+msgstr "NOT_TRANSLATED"
+
+msgid "複数原子をグループ選択"
+msgstr "NOT_TRANSLATED"
+
+msgid "矩形でグループ選択"
+msgstr "NOT_TRANSLATED"
+
+msgid "ただし、分子表示エリアの右端を左ドラッグすると、表示を拡大・縮小することができます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ショートカットキー"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"メインウインドウでは下表のショートカットキーを使うことができます。 "
+"下表に記載されている以外にも、メインメニューの各項目の横に記載されたショートカットキーも使用可能です。"
+msgstr "NOT_TRANSLATED"
+
+msgid "基礎的な操作"
+msgstr "NOT_TRANSLATED"
+
+msgid "新規"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+N`"
+msgstr "NOT_TRANSLATED"
+
+msgid "開く"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+O`"
+msgstr "NOT_TRANSLATED"
+
+msgid "上書き保存"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+S`"
+msgstr "NOT_TRANSLATED"
+
+msgid "名前を付けて保存"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Shift+Ctrl+S`"
+msgstr "NOT_TRANSLATED"
+
+msgid "元に戻す"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+Z`"
+msgstr "NOT_TRANSLATED"
+
+msgid "やり直し"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+Y`"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを切り取り"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+X`"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループをコピー"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+C`"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを貼り付け"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+V`"
+msgstr "NOT_TRANSLATED"
+
+msgid "ヘルプ"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`F1`"
+msgstr "NOT_TRANSLATED"
+
+msgid "分子構造の構築"
+msgstr "NOT_TRANSLATED"
+
+msgid "フラグメントで置換"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`F6`"
+msgstr "NOT_TRANSLATED"
+
+msgid "原子を追加（座標を指定）"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`F4`"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Shift+F4`"
+msgstr "NOT_TRANSLATED"
+
+msgid "結合を付加/変更"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`F7`"
+msgstr "NOT_TRANSLATED"
+
+msgid "結合を削除"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`F8`"
+msgstr "NOT_TRANSLATED"
+
+msgid "原子を移動（並進移動）"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`F5`"
+msgstr "NOT_TRANSLATED"
+
+msgid "元素を変更"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Shift+F5`"
+msgstr "NOT_TRANSLATED"
+
+msgid "水素を付加（すべての原子に付加）"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+H`"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを削除"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+D`"
+msgstr "NOT_TRANSLATED"
+
+msgid "環構築"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`F9`"
+msgstr "NOT_TRANSLATED"
+
+msgid "分子構造の微調整"
+msgstr "NOT_TRANSLATED"
+
+msgid "簡易構造最適化"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+G`"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを移動"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+M`"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを軸回転（選択2原子）"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+R`"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを軸回転（選択3原子）"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+A`"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを固定/固定解除"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+I`"
+msgstr "NOT_TRANSLATED"
+
+msgid "結合長を自動調整"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+J`"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを回転（マウス操作）"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+F`"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを簡易構造最適化"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+L`"
+msgstr "NOT_TRANSLATED"
+
+msgid "表示関連の操作"
+msgstr "NOT_TRANSLATED"
+
+msgid "表示の拡大"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`F3`"
+msgstr "NOT_TRANSLATED"
+
+msgid "表示の縮小"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`F2`"
+msgstr "NOT_TRANSLATED"
+
+msgid "表示をウインドウに合わせる"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+4`"
+msgstr "NOT_TRANSLATED"
+
+msgid "表示方向を変更"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+1, 2, 3`"
+msgstr "NOT_TRANSLATED"
+
+msgid "キーワード＆座標表示エリアの表示/非表示"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`F10`"
+msgstr "NOT_TRANSLATED"
+
+msgid "分子表示エリアを画像として保存"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+Alt+I`"
+msgstr "NOT_TRANSLATED"
+
+msgid "分子表示エリアを画像としてコピー"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+Alt+C`"
+msgstr "NOT_TRANSLATED"
+

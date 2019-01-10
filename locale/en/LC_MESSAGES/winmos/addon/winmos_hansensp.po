@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOT_TRANSLATED"
+"Project-Id-Version: Winmostar user manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 15:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "Hansen SP値"
+msgstr "NOT_TRANSLATED"
+
+msgid "ハンセンの溶解度パラメータ（HSP）を計算します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "使用するためにはアドオンの購入が必要です。"
+msgstr "NOT_TRANSLATED"
+
+msgid "HSPを求めたい分子をメインウインドウで作成した後、本メニューをクリックします。ポリマーの場合はリピートユニット（例えばポリエチレンの場合はエタン分子）を作成し、隣のリポートユニットと結合する2か所を続けて左クリックしておきます。この挙動はポリマービルダ機能のモノマー登録と同じです。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"分子の場合は :guilabel:`Calc Hansen SP` ボタン、ポリマーの場合は :guilabel:`Calc Hansen SP "
+"for Polymer` ボタンをクリックします。"
+msgstr "NOT_TRANSLATED"
+
+msgid "HSPが記されたcsvファイルが作成されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"計算されるHSPは原子団寄与法により算出されていて、算出に対応している原子団（官能基）は `こちら "
+"<https://www.pirika.com/NewHP-J/JP2/FunctionalG.html>`_ に記されています。 "
+"総原子数は最大250、水素を除く原子数は120まで計算可能です。"
+msgstr "NOT_TRANSLATED"
+

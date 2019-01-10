@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOT_TRANSLATED"
+"Project-Id-Version: Winmostar user manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 15:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "MO Plotウインドウ"
+msgstr "NOT_TRANSLATED"
+
+msgid "分子軌道、静電ポテンシャル、各種cubeファイルなどのボリュームデータの表示を調整します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":menuselection:`File --> Open` メニュー"
+msgstr "NOT_TRANSLATED"
+
+msgid "描画したいcubeファイルを選びます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":menuselection:`File --> Export VRML` メニュー"
+msgstr "NOT_TRANSLATED"
+
+msgid "VRML形式で出力し、そのファイルを開きます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":menuselection:`File --> Open Jmol` メニュー"
+msgstr "NOT_TRANSLATED"
+
+msgid "Jmolで表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":menuselection:`File --> Close` メニュー"
+msgstr "NOT_TRANSLATED"
+
+msgid "このウィンドウを閉じます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`Quantity` プルダウンメニュー"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"描画する物理量を選択します。 :guilabel:`ESP2` はPopulation解析後の点電荷から算出する静電ポテンシャルのため、 "
+":guilabel:`ESP` よりも高速に動作します。 :guilabel:`Surface` "
+"が付く場合は、分子表面上での物理量の分布を表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`Selected MO`"
+msgstr "NOT_TRANSLATED"
+
+msgid "描画する分子軌道の番号を指定します。 :ref:`mo_top` で分子軌道を選択するとこの場所に値がセットされます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`Show Diagram` ボタン"
+msgstr "NOT_TRANSLATED"
+
+msgid ":ref:`mo_top` を表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`alpha/beta` ボタン"
+msgstr "NOT_TRANSLATED"
+
+msgid "スピンを選択します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`Draw Style` プルダウンメニュー"
+msgstr "NOT_TRANSLATED"
+
+msgid "等値面を格子(Mesh)またはソリッド(Solid)モデルで表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`Transparency`"
+msgstr "NOT_TRANSLATED"
+
+msgid "透明度を指定します。（0: 不透明、1: 透明）"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`Isosurface Value`"
+msgstr "NOT_TRANSLATED"
+
+msgid "描画する等値面の値を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`Points`"
+msgstr "NOT_TRANSLATED"
+
+msgid "各辺の格子点数を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`Scale`"
+msgstr "NOT_TRANSLATED"
+
+msgid "描く範囲を指定するスケーリング係数を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`Draw boundary` チェックボックス"
+msgstr "NOT_TRANSLATED"
+
+msgid "cubeファイルの境界に線を描画します。Quantum ESPRESSO, OpenMXなどのバンド計算で主に使用します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`Draw contour Map` チェックボックス"
+msgstr "NOT_TRANSLATED"
+
+msgid "指定した断面において等高線を描画します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`Dump cube file` チェックボックス"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`Draw` ボタンを押したときに、描画と同時にcubeファイルを出力します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`Draw` ボタン"
+msgstr "NOT_TRANSLATED"
+
+msgid "ボリュームデータを :ref:`winmos3d_top` を用いて描画します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`Draw (2D)` ボタン"
+msgstr "NOT_TRANSLATED"
+
+msgid "ボリュームデータをメインウインドウで描画します。（deprecated）"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`Close` ボタン"
+msgstr "NOT_TRANSLATED"
+

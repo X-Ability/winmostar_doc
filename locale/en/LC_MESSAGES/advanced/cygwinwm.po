@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOT_TRANSLATED"
+"Project-Id-Version: Winmostar user manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 15:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "cygwin_wm"
+msgstr "NOT_TRANSLATED"
+
+msgid "cygwin_wmは、Winmostar向けのCygwinです。本マニュアルで以下のように記載されている処理において、Winmostarから内部的に呼び出されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ <install_cygwinwm>` が必要です。"
+msgstr "NOT_TRANSLATED"
+
+msgid "インストール方法は :ref:`cygwin_wmのセットアップ <install_cygwinwm>` に記載されています。"
+msgstr "NOT_TRANSLATED"
+
+msgid "一部セキュリティ対策ソフトは、cygwin_wm内の正常なモジュールを誤動作により自動で削除または妨害することがあります。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"Winmostar公式HPからcygwin_wmのインストーラをダウンロードしてインストールした場合は、 :menuselection:`ヘルプ "
+"-->` :ref:`help_check_cygwin` "
+"機能を使用することで、cygwin_wm内のファイルの欠落の有無を簡易的に確認できます。（ファイルの有無しか確認しません。）"
+msgstr "NOT_TRANSLATED"
+
+msgid "cygwin_wmを使用する機能で不具合が起きた場合は、セキュリティ対策ソフトの活動レポートもご確認ください。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":menuselection:`ツール --> cygwin_wm起動` を選択すると、cygwin_wmのコンソールを直接起動することが可能です。"
+msgstr "NOT_TRANSLATED"
+

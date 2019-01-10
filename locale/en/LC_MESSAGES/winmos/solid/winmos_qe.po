@@ -1,0 +1,1016 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOT_TRANSLATED"
+"Project-Id-Version: Winmostar user manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 15:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid ":menuselection:`固体 --> Quantum ESPRESSO` メニュー"
+msgstr "NOT_TRANSLATED"
+
+msgid "Quantum ESPRESSOに関するメニューです。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Quantum ESPRESSOをインストールする方法は :ref:`install_install` に記載しています。"
+msgstr "NOT_TRANSLATED"
+
+msgid "キーワード設定"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"Quantum ESPRESSOの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` "
+"ボタン、一旦メインウインドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`solid_qe_start` を参照してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 :guilabel:`Save` ボタンでForce "
+"Fieldを除く設定を保存します。 :guilabel:`Load` ボタンで :guilabel:`Save` にて保存した設定を読み込みます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":ref:`キーワード表示エリア <gui_main>` に表示されているQuantum "
+"ESPRESSOのキーワードと本機能のウインドウに設定された内容が異なる場合は、キーワード表示エリアからキーワードを読み込むか尋ねられます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"本機能を呼び出すときに、メインウインドウに表示された構造がプリミティブセルに変化できる場合は、自動で "
+":ref:`solid_convertcell` が実行されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Output Directory"
+msgstr "NOT_TRANSLATED"
+
+msgid "データの出力先フォルダ(outdir)を指定すると同時に、ジョブの新規・継続実行を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Create"
+msgstr "NOT_TRANSLATED"
+
+msgid "新規にデータの出力先フォルダを作成します。outdirは新規フォルダに設定されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Continue"
+msgstr "NOT_TRANSLATED"
+
+msgid "メイン画面に読み込まれている、直前に実行されたQEのジョブを継続します。outdirは直前に実行されたジョブのoutdirに設定されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Select..."
+msgstr "NOT_TRANSLATED"
+
+msgid "開いたダイアログで指定したフォルダを出力先に指定し、そのフォルダのデータからジョブを継続します。outdirはここで指定したものに設定されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Preset"
+msgstr "NOT_TRANSLATED"
+
+msgid "設定のプリセットを選択します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Use MPI"
+msgstr "NOT_TRANSLATED"
+
+msgid "QEの実行時にMPIを用いて並列計算を実行するか指定します。横の欄にはMPIプロセス数を入力します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Basicタブ"
+msgstr "NOT_TRANSLATED"
+
+msgid "calculation"
+msgstr "NOT_TRANSLATED"
+
+msgid "計算の種類を選択します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Use nbnd"
+msgstr "NOT_TRANSLATED"
+
+msgid "バンド数を指定します。チェックを入れない場合は自動で設定されます。括弧内に選択されたは擬ポテンシャルを使用したときの価電子数が表示される。価電子数の自動計算に失敗した場合はN/Aと表示される。"
+msgstr "NOT_TRANSLATED"
+
+msgid "K_POINTS"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"K点の指定方法をプルダウンから選び、下のテキストボックスにQEの書式でK点を指定します。 gammaの場合はΓ点のみで計算されます。 "
+"automaticの場合は「(kx方向の分割数) (ky方向の分割数) (kz方向の分割数) (kx方向のシフトフラグ) "
+"(ky方向のシフトフラグ) "
+"(kz方向のシフトフラグ)」（スペース区切り）を入力します。シフトフラグは0のときにシフトなし（k点がΓ点を含む）、1のときにシフトあり（k点がΓ点を跨ぐ）となります。"
+" その他詳細はpw.xのマニュアルまたはQEインストールフォルダ以下のdoc/brillouin_zones.pdfをご参照ください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Set default k-path"
+msgstr "NOT_TRANSLATED"
+
+msgid "メインウインドウに表示されている結晶について検出されたブラベー格子（ibrav）のデフォルトのk点パスをUserPref/kpath_default.txtから取得して設定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "nosym"
+msgstr "NOT_TRANSLATED"
+
+msgid "空間対称性の利用の有無を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "noinv"
+msgstr "NOT_TRANSLATED"
+
+msgid "時間反転対称性の利用の有無を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Set ibrav = ... and celldm"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"メインウインドウにプリミティブセルが表示されていて、チェックが入っている場合は、適当なibravとcelldmを設定します。 "
+"チェックが入っていない場合は、ibrav=0とし、CELL_PARAMETERSを設定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ecutwfc"
+msgstr "NOT_TRANSLATED"
+
+msgid "波動関数の計算時の平面波のカットオフエネルギーを指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ecutrho"
+msgstr "NOT_TRANSLATED"
+
+msgid "電子密度およびポテンシャル計算時の平面波のカットオフエネルギーを指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "tot_charge"
+msgstr "NOT_TRANSLATED"
+
+msgid "シミュレーションセル内の系全体の電荷を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "occupations"
+msgstr "NOT_TRANSLATED"
+
+msgid "金属の場合はsmearing, DOS計算の場合はtetrahedronを指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ion_dynamics"
+msgstr "NOT_TRANSLATED"
+
+msgid "イオン（原子核）位置を変化させるアルゴリズムを指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "cell_dynamics"
+msgstr "NOT_TRANSLATED"
+
+msgid "シミュレーションセルを変化させるアルゴリズムを指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "tprnfor"
+msgstr "NOT_TRANSLATED"
+
+msgid "力を計算します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "tstress"
+msgstr "NOT_TRANSLATED"
+
+msgid "圧力テンソルを計算します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Advanceタブ"
+msgstr "NOT_TRANSLATED"
+
+msgid "conv_thr"
+msgstr "NOT_TRANSLATED"
+
+msgid "SCF計算時のエネルギーの許容誤差を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "etot_conv_thr"
+msgstr "NOT_TRANSLATED"
+
+msgid "構造最適化(relax)計算時のエネルギーの許容誤差を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "forc_conv_thr"
+msgstr "NOT_TRANSLATED"
+
+msgid "構造最適化(relax)計算時の力の許容誤差を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "press_conv_thr"
+msgstr "NOT_TRANSLATED"
+
+msgid "セルの構造最適化(relax-vc)計算時の圧力の許容誤差を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "electron_maxstep"
+msgstr "NOT_TRANSLATED"
+
+msgid "SCF計算の最大反復数を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "nstep"
+msgstr "NOT_TRANSLATED"
+
+msgid "構造最適化(relax)計算の最大ステップ数およびMD計算のステップ数を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "upscale"
+msgstr "NOT_TRANSLATED"
+
+msgid "構造最適化(relax)計算の最中にconv_thrを自動的に小さくする際の係数を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "diagonalozation"
+msgstr "NOT_TRANSLATED"
+
+msgid "対角化アルゴリズムを指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "lspinorb"
+msgstr "NOT_TRANSLATED"
+
+msgid "ノンコリニア計算時にスピン軌道相互作用付きの擬ポテンシャルファイルを使えるようにします。"
+msgstr "NOT_TRANSLATED"
+
+msgid "smearing"
+msgstr "NOT_TRANSLATED"
+
+msgid "占有平滑化(smearing)の方法を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "degauss"
+msgstr "NOT_TRANSLATED"
+
+msgid "占有平滑化のパラメータを指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "mixing_beta"
+msgstr "NOT_TRANSLATED"
+
+msgid "SCF計算における新旧のKS軌道の混合比を指定します。1に近いほど予測値の割合が大きくなります。"
+msgstr "NOT_TRANSLATED"
+
+msgid "mixing_mode"
+msgstr "NOT_TRANSLATED"
+
+msgid "新旧のKS軌道の混合アルゴリズムを指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "vdw_corr"
+msgstr "NOT_TRANSLATED"
+
+msgid "ファンデルワールス（分散）力の補正方法を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Use input_dft"
+msgstr "NOT_TRANSLATED"
+
+msgid "チェックを入れた場合は、汎関数の設定を擬ポテンシャルファイルに書かれた設定に対し上書きします。"
+msgstr "NOT_TRANSLATED"
+
+msgid "cell_dofree"
+msgstr "NOT_TRANSLATED"
+
+msgid "シミュレーションセルを動かす際の自由度（方向）を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Use cell_factor"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"擬ポテンシャルテーブルの構築パラメータを明示的に指定します。vc-"
+"relax（セルサイズの変化を伴う構造最適化計算）の際に大きい値を設定した方がいい場合があります。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Spin/DFT+Uタブ"
+msgstr "NOT_TRANSLATED"
+
+msgid "nspin"
+msgstr "NOT_TRANSLATED"
+
+msgid "スピン分極計算の設定をします。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Use tot_magnetization"
+msgstr "NOT_TRANSLATED"
+
+msgid "チェックを入れた場合は、ここで系全体の磁化を指定します。チェックしない場合はstarting_magnetizationを指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "starting_magnetization"
+msgstr "NOT_TRANSLATED"
+
+msgid "各原子種の磁化の初期値を与えます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "lda_plus_u"
+msgstr "NOT_TRANSLATED"
+
+msgid "LDA+U計算を実行します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Hubbard_U/alpha"
+msgstr "NOT_TRANSLATED"
+
+msgid "各原子種のHubbardのUおよびalphaパラメータを指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Phononタブ"
+msgstr "NOT_TRANSLATED"
+
+msgid "Run Phonon Calculation as Postprocess"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"フォノン計算を実行します。 具体的には、pw.xを実行した後にph.xを実行します。 "
+"この項目を有効にするためには、CalculationにSCFまたはrelaxを選ぶ必要があります。 "
+"ph.xなどの入出力ファイルは作業ディレクトリ内に作成されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Threshold"
+msgstr "NOT_TRANSLATED"
+
+msgid "フォノン計算の打ち切り誤差を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Calc Macroscopic Dielectric Constant"
+msgstr "NOT_TRANSLATED"
+
+msgid "フォノン計算から得られる誘電率を計算します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Calc Non-resonant Raman"
+msgstr "NOT_TRANSLATED"
+
+msgid "Ramanスペクトルの計算を含めます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Acoustic Sum Rule"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"フォノン計算後のスペクトル算出時（dynmat.x）のAcoustic Sum "
+"Ruleの与え方を指定します。フォノン計算そのものには影響を与えません。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Calc Phonon Dispersion"
+msgstr "NOT_TRANSLATED"
+
+msgid "フォノン分散を計算します。フォノンバンド構造、フォノン状態密度を取得するためにはこれを指定する必要があります。"
+msgstr "NOT_TRANSLATED"
+
+msgid "K Points (Dispersion)"
+msgstr "NOT_TRANSLATED"
+
+msgid "フォノン分散の計算時のK点の数を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Dynamicsタブ"
+msgstr "NOT_TRANSLATED"
+
+msgid "Simulation Package"
+msgstr "NOT_TRANSLATED"
+
+msgid "MD計算に使用する計算パッケージを指定します。cp.xの場合はCPMD法を使います。"
+msgstr "NOT_TRANSLATED"
+
+msgid "dt"
+msgstr "NOT_TRANSLATED"
+
+msgid "MD計算の時間刻みをatomic unitで指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "tempw"
+msgstr "NOT_TRANSLATED"
+
+msgid "MD計算で温度制御を指定した際の目標温度を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "press"
+msgstr "NOT_TRANSLATED"
+
+msgid "MD計算で圧力制御を指定した際の目標圧力を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ion_temperature"
+msgstr "NOT_TRANSLATED"
+
+msgid "MD計算のイオン（原子核）の温度制御方法を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ion_velocities"
+msgstr "NOT_TRANSLATED"
+
+msgid "MD計算のイオンの初速度を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "tolp"
+msgstr "NOT_TRANSLATED"
+
+msgid "温度制御時の温度の許容値を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "pot_extrapolation"
+msgstr "NOT_TRANSLATED"
+
+msgid "Born-Oppenheimer MD使用時のポテンシャルの外挿方法を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "wfc_extrapolation"
+msgstr "NOT_TRANSLATED"
+
+msgid "Born-Oppenheimer MD使用時の波動関数の外挿方法を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "electron_dynamics"
+msgstr "NOT_TRANSLATED"
+
+msgid "Car-Parrinello MD使用時のKS軌道を変化させるアルゴリズムを指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "electron_velocities"
+msgstr "NOT_TRANSLATED"
+
+msgid "Car-Parrinello MD使用時の電子の初速度を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "emass"
+msgstr "NOT_TRANSLATED"
+
+msgid "Car-Parrinello MD使用時の電子の仮想質量を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "emass_cutoff"
+msgstr "NOT_TRANSLATED"
+
+msgid "Car-Parrinello MD計算時の電子の仮想質量のカットオフ値を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "orthogonalization"
+msgstr "NOT_TRANSLATED"
+
+msgid "行列計算（正規直交化）の方法を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ESMタブ"
+msgstr "NOT_TRANSLATED"
+
+msgid "assume_isolated=esm"
+msgstr "NOT_TRANSLATED"
+
+msgid "ESM(Effective Screening Medium, 有効遮蔽媒質)法を使用する場合はチェックを入れます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "esm_bc"
+msgstr "NOT_TRANSLATED"
+
+msgid "ESM法で使われる境界条件の種類を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "esm_efield"
+msgstr "NOT_TRANSLATED"
+
+msgid "電場を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "lfcpopt"
+msgstr "NOT_TRANSLATED"
+
+msgid "化学ポテンシャル一定(constant mu)計算を実施します。初期の系全体の電荷はBasicタブのtot_chargeで指定されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "fcp_mu"
+msgstr "NOT_TRANSLATED"
+
+msgid "化学ポテンシャル一定計算でのフェルミエネルギーの目標値を設定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Enter Relative Potential..."
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"Target Fermi Energyの入力をサポートします。 "
+"まず、電圧0での計算のログファイルを指定し、電圧0でのフェルミエネルギーを取得します。 次に、印加電圧を入力します。 "
+"これら2つの情報から、Target Fermi Energyを算出します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Otherタブ"
+msgstr "NOT_TRANSLATED"
+
+msgid "QEの入力ファイルの書式（FORTRANのnamelist形式）で、その他の設定を記入します。 記入例は、ポインタを重ねると表示されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Options"
+msgstr "NOT_TRANSLATED"
+
+msgid "Verbosity"
+msgstr "NOT_TRANSLATED"
+
+msgid "QEが出力する情報量を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "atomic_position unit"
+msgstr "NOT_TRANSLATED"
+
+msgid "ATOMIC_POSITIONSおよびCELL_PARAMETERSの単位を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Use max_seconds"
+msgstr "NOT_TRANSLATED"
+
+msgid "チェックを入れた場合、ここに入力した秒数の経過後QEの処理が中断されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Make a Backup of Working Directory"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"Output "
+"DirectoryがCreateの際に、作成される_qe_dataフォルダが既に存在する場合、フォルダ名末尾に数字を付加して既に存在するフォルダをバックアップします。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Dump all files for remote"
+msgstr "NOT_TRANSLATED"
+
+msgid "Linux環境でのジョブ実行に必要なファイルを出力します。リモートジョブ投入機能で生成されるファイルと同じファイルが出力されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Open  k-path file"
+msgstr "NOT_TRANSLATED"
+
+msgid "ibrav（ブラべ格子）の種類ごとにデフォルトで指定するk点パスを記述する設定ファイル（UserPref/kpath_default.txt）を開きます。UserPref/kpath_default.txtが存在しない場合はwmx/kpath_default.txtからコピーされます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Use RISM-enabled QE"
+msgstr "NOT_TRANSLATED"
+
+msgid "RISMが実装されたQEを使う場合にチェックを入れます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Propertiesタブ"
+msgstr "NOT_TRANSLATED"
+
+msgid "Calculate these properties after pw.x"
+msgstr "NOT_TRANSLATED"
+
+msgid "pw.x実行直後に実行されるポスト処理を選択します。ここで選択した処理の各種パラメータは右のParameter/Value欄にて指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Pseudo Potentialsタブ"
+msgstr "NOT_TRANSLATED"
+
+msgid "Mass"
+msgstr "NOT_TRANSLATED"
+
+msgid "各元素の質量を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Default"
+msgstr "NOT_TRANSLATED"
+
+msgid "標準的な質量を設定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Light"
+msgstr "NOT_TRANSLATED"
+
+msgid "全元素の質量を1に設定します。イオンの構造緩和の促進などの目的で使われます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Manual"
+msgstr "NOT_TRANSLATED"
+
+msgid "下のリスト内で、各元素に対し、ユーザーが個別に質量を設定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Pseudo Potential"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"系内の全元素に共通して存在する種類の擬ポテンシャルをプルダウンで選択できます。 "
+"(Manual)を選んだ場合は、下のリスト内で、各元素に対し、ユーザーが個別に擬ポテンシャルを設定します。 擬ポテンシャルファイルは、pseudo"
+" Directoryで指定したフォルダの中から検索されます。 "
+"UserPref/qe_pseudo_priority_list.txtの先頭に書かれたものが優先的に選択されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Reload pseudo Files"
+msgstr "NOT_TRANSLATED"
+
+msgid "pseudo Directoryで指定したフォルダに配置された擬ポテンシャルファイルを再度読み込みます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "pseudo Directory"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"擬ポテンシャルファイルを配置するフォルダを指定します。 :guilabel:`pseudo in QE's directory` "
+"の場合は、QEのインストールディレクトリ以下のpseudoフォルダを用います。 :guilabel:`(select...)` "
+"の場合は、ダイアログで選択したディレクトリを用います。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Open Pseudo Directory"
+msgstr "NOT_TRANSLATED"
+
+msgid "pseudo Directoryで指定したフォルダを開きます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Download Pseudo Files"
+msgstr "NOT_TRANSLATED"
+
+msgid "擬ポテンシャルファイルをダウンロードしてインストールします。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Open Priority List"
+msgstr "NOT_TRANSLATED"
+
+msgid "UserPref/qe_pseudo_priority.txtを開きます。存在しない場合はwmx/qe_pseudo_priority.txtからコピーされます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "実行"
+msgstr "NOT_TRANSLATED"
+
+msgid "Quantum ESPRESSOを実行します。 状況に応じて実行方法が異なります。"
+msgstr "NOT_TRANSLATED"
+
+msgid "CPMDを選択したときは :command:`cp.x` 、それ以外の時は :command:`pw.x` が実行されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"（デフォルト） :guilabel:`Output Directory = Create` "
+"の時は、作業ディレクトリを新規に作成して計算を実行します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":guilabel:`Output Directory = Continue` "
+"の時は、その時メインウインドウで開いている入力ファイルのoutdirを作業ディレクトリとして使用します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":guilabel:`Output Directory = Select` "
+"の時は、選択したフォルダを作業ディレクトリ（outdir）として使用します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`si.pwin` の時のファイル/フォルダ名を併記しています。"
+msgstr "NOT_TRANSLATED"
+
+msgid "種類"
+msgstr "NOT_TRANSLATED"
+
+msgid "説明"
+msgstr "NOT_TRANSLATED"
+
+msgid "pwoutファイル"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`si.pwout`"
+msgstr "NOT_TRANSLATED"
+
+msgid "計算のログファイルです。"
+msgstr "NOT_TRANSLATED"
+
+msgid "batファイル"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`si.bat`"
+msgstr "NOT_TRANSLATED"
+
+msgid "Quantum ESPRESSOを実行するためのバッチファイルです。"
+msgstr "NOT_TRANSLATED"
+
+msgid "作業ディレクトリ"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`si_qe_data\\\\`"
+msgstr "NOT_TRANSLATED"
+
+msgid "作業ディレクトリです。"
+msgstr "NOT_TRANSLATED"
+
+msgid "作業ディレクトリには以下のファイルが生成されます。 ここでは主要なファイルのみ示しています。"
+msgstr "NOT_TRANSLATED"
+
+msgid "擬ポテンシャルファイル"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`\\*.UPF`"
+msgstr "NOT_TRANSLATED"
+
+msgid "計算に使用する擬ポテンシャルファイルは"
+msgstr "NOT_TRANSLATED"
+
+msgid "ここにコピーされ、ESPRESSO_PSEUDO環境変数は"
+msgstr "NOT_TRANSLATED"
+
+msgid "作業ディレクトリに設定されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`gmx_tmp.mdp`"
+msgstr "NOT_TRANSLATED"
+
+msgid "計算条件を指定するファイルです。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`pw_bands.in`"
+msgstr "NOT_TRANSLATED"
+
+msgid "ポスト処理でbands計算を実行する際の入力ファイルです。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`pw_bands.out`"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`pw_bands.in` のログファイルです。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`pw_dos.in`"
+msgstr "NOT_TRANSLATED"
+
+msgid "ポスト処理でdos計算を実行する際の入力ファイルです。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`pw_dos.out`"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`pw_dos.in` のログファイルです。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`ph.in`"
+msgstr "NOT_TRANSLATED"
+
+msgid "ポスト処理で :command:`ph.x` を用いてフォノン計算を"
+msgstr "NOT_TRANSLATED"
+
+msgid "実行する際の入力ファイルです。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`ph.out`"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`ph.in` のログファイルです。"
+msgstr "NOT_TRANSLATED"
+
+msgid "**作業ディレクトリ**"
+msgstr "NOT_TRANSLATED"
+
+msgid "作業ディレクトリとは、メインウインドウで開かれているファイルの名前に接尾辞を加えた名前のフォルダです。"
+msgstr "NOT_TRANSLATED"
+
+msgid "**接尾辞はソルバの種類により変わります。**"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"例えばGromacsの場合は、メインウインドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が "
+":file:`_gmx_tmp` の場合、作業ディレクトリの名前は :file:`aaa_gmx_tmp` となります。"
+msgstr "NOT_TRANSLATED"
+
+msgid "メインウインドウで開かれているファイルと同じ階層に置かれている必要があります。"
+msgstr "NOT_TRANSLATED"
+
+msgid "継続ジョブの時も同名の作業ディレクトリで処理が流れますが、デフォルトでは継続ジョブの実施直前に、直前のジョブの作業ディレクトリのバックアップが作成されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"バックアップの名前は、重複する名前が存在しない範囲で一番小さい番号が付いたものになります。例えば、作業ディレクトリが "
+":file:`aaa_gmx_tmp` のときは :file:`aaa_gmx_tmp1` となります。"
+msgstr "NOT_TRANSLATED"
+
+msgid "**番号が付いていないディレクトリが常に最新のものとなります。**"
+msgstr "NOT_TRANSLATED"
+
+msgid "ログを表示 (pwout)"
+msgstr "NOT_TRANSLATED"
+
+msgid "ログファイルをテキストエディタで開きます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "アニメーション"
+msgstr "NOT_TRANSLATED"
+
+msgid "ログファイルの情報から構造最適化、BOMD計算等のアニメーションを作成し表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "CPMDの場合は :ref:`solid_qe_cpmd_animation` を使用してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "SCFエネルギー変化"
+msgstr "NOT_TRANSLATED"
+
+msgid "ログファイルを選択し、total energyのグラフを表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "CPMDの場合は :ref:`solid_qe_cpmd_energy` を使用してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Draw"
+msgstr "NOT_TRANSLATED"
+
+msgid "グラフを表示します。 必要に応じて結果解析用プログラムが実行されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Close"
+msgstr "NOT_TRANSLATED"
+
+msgid "ウインドウを閉じます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "グラフ描画エリアの操作方法は :ref:`chart_top` を参照してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "電子密度"
+msgstr "NOT_TRANSLATED"
+
+msgid "作業ディレクトリ(outdir)を指定し、等電子密度面を表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "バックグラウンドではpp.xが流れ、cubeファイルが生成されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "サブウインドウの操作方法は :ref:`cube_top` を参照してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Lowdin電荷"
+msgstr "NOT_TRANSLATED"
+
+msgid "作業ディレクトリ(outdir)を指定し、点電荷を算出・表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "バックグラウンドでprojwfc.xが流れます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ポテンシャルエネルギー分布"
+msgstr "NOT_TRANSLATED"
+
+msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、z軸方向のポテンシャルエネルギー分布を表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"SCF計算のログからはフェルミエネルギーを取得します。 "
+"フェルミエネルギーとポテンシャルエネルギー分布の最大値の差を、仕事関数の推定値として表示します。 "
+"バックグラウンドでpp.xとaverage.xが流れます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "バンド構造"
+msgstr "NOT_TRANSLATED"
+
+msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、バンド構造を表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"事前にcalculation=bandsで計算が終了している必要があります。 SCF計算のログファイルからはフェルミエネルギーを取得します。 "
+"バックグラウンドでbands.xが流れます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "状態密度"
+msgstr "NOT_TRANSLATED"
+
+msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、状態密度を表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "SCF計算のログファイルからはフェルミエネルギーを取得します。 バックグラウンドでdos.xが流れます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "部分状態密度"
+msgstr "NOT_TRANSLATED"
+
+msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、部分状態密度(PDOS)を表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "SCF計算のログからはフェルミエネルギーを取得します。 バックグラウンドでprojwfc.xが流れます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "フェルミ面"
+msgstr "NOT_TRANSLATED"
+
+msgid "SCF計算とbands計算のログファイルを指定し、フェルミ面を表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"フェルミ面の表示には `FermiSurfer <http://fermisurfer.osdn.jp/>`_ を使用します。 "
+":guilabel:`# of K Points` にbands計算時のk点分割数を指定し、 :guilabel:`Calc` "
+"ボタンを押すとフェルミ面が表示されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "誘電関数"
+msgstr "NOT_TRANSLATED"
+
+msgid "誘電関数計算後の作業ディレクトリを指定し、誘電関数を表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Direction"
+msgstr "NOT_TRANSLATED"
+
+msgid "取得する誘電関数の方向を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "IR/ラマンスペクトル"
+msgstr "NOT_TRANSLATED"
+
+msgid "フォノン計算後の作業ディレクトリとSCF計算のログを指定し、IRおよびラマンスペクトルを表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "サブウインドウの操作方法は :ref:`ir_top` を参照してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "フォノン分散曲線"
+msgstr "NOT_TRANSLATED"
+
+msgid "フォノン分散計算後の作業ディレクトリを指定し、フォノン分散曲線を表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ASR"
+msgstr "NOT_TRANSLATED"
+
+msgid "適用するAcoustic Sum Ruleの種類を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "K Points"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"取得する分散曲線のパスを指定します。 各行には、x, y, "
+"z成分をそれぞれ2pi/aの単位で記述し、その横に次の点までの間の分割数を記述します。（合計4カラムをスペース区切りで入力）"
+msgstr "NOT_TRANSLATED"
+
+msgid "フォノン状態密度"
+msgstr "NOT_TRANSLATED"
+
+msgid "フォノン分散計算後の作業ディレクトリを指定し、フォノン状態密度を表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "フォノンDOS計算時のK点の分割数を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "電荷/エネルギー分布 (esm1)"
+msgstr "NOT_TRANSLATED"
+
+msgid "ESM計算（assume_isolated=esm）で出力されるesm1ファイルを指定し、z軸方向の電荷またはエネルギーの分布を表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "2つのesm1ファイルの差をプロットすることもできます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "溶媒原子間相関関数 (1drism)"
+msgstr "NOT_TRANSLATED"
+
+msgid "RISM計算（trism=.True.）で出力される1drismファイルを用いてRISM領域の原子間相関関数(動径分布関数)を算出します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "溶媒密度/エネルギー分布(rism1)"
+msgstr "NOT_TRANSLATED"
+
+msgid "RISM計算（trism=.True.）で出力されるrism1ファイルを用いて、DFT領域-RISM領域が接する方向（界面垂直方向）の溶媒密度・エネルギー・電荷を算出します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "CPMDアニメーション(pos)"
+msgstr "NOT_TRANSLATED"
+
+msgid "CPMDのposファイルとcelファイルを指定し、アニメーションを表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "pw.xの結果を表示する場合は :ref:`solid_qe_animation` を使用してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "CPMDエネルギー変化(evp)"
+msgstr "NOT_TRANSLATED"
+
+msgid "CPMDのevpファイルを指定し、各種エネルギーの時間変化を表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "NEBキーワード設定"
+msgstr "NOT_TRANSLATED"
+
+msgid "NEB計算の条件を設定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "始状態と終状態それぞれの構造最適化計算を終えた状態で設定してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "NEB実行"
+msgstr "NOT_TRANSLATED"
+
+msgid "neb.xを用いてNEB計算を実行します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "遷移状態（NEB）"
+msgstr "NOT_TRANSLATED"
+
+msgid "NEB計算後のファイルを指定し、反応座標に沿ったエネルギーと原子構造の変化を表示します。"
+msgstr "NOT_TRANSLATED"
+

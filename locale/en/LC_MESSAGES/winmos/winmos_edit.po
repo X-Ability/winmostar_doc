@@ -1,0 +1,587 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOT_TRANSLATED"
+"Project-Id-Version: Winmostar user manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 15:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "編集メニュー"
+msgstr "NOT_TRANSLATED"
+
+msgid "原子・分子構造のモデリング機能に関するメニューです。"
+msgstr "NOT_TRANSLATED"
+
+msgid "編集の対象とする原子を選択する方法は :ref:`select_top` を参照してください。。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"自動で生成される結合は、原子間距離が（共有結合半径の和）×（係数）より小さい場合に生成されます。係数はデフォルトで ``1.15`` "
+"となっていて、この値は :menuselection:`ツール --> 環境設定` で変更できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":ref:`edit_atom` 、 :ref:`edit_partial_rotate` などのマウス操作を伴う機能は、 :kbd:`Esc` "
+"キーまたは同機能のメニューのチェックを外すことでキャンセルできます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "元に戻す"
+msgstr "NOT_TRANSLATED"
+
+msgid "各種編集操作を元に戻します。50回まで可能です。"
+msgstr "NOT_TRANSLATED"
+
+msgid "やり直し"
+msgstr "NOT_TRANSLATED"
+
+msgid "元に戻した操作をやり直します。50回まで可能です。"
+msgstr "NOT_TRANSLATED"
+
+msgid "テキストを戻す"
+msgstr "NOT_TRANSLATED"
+
+msgid ":ref:`キーワード表示エリア <gui_main>` で編集した内容を元に戻します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "原子を追加"
+msgstr "NOT_TRANSLATED"
+
+msgid "座標を指定"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":ref:`分子表示エリア <gui_main>` にてクリックする位置に原子を追加します。追加される原子の種類は :ref:`ツールバー "
+"<gui_main>` の :guilabel:`編集操作で適用される元素を選択` プルダウンメニュー |chg| で選択します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`F4` または :ref:`ツールバー <gui_main>` からも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "座標と結合関係を指定"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"Z-Matrix形式における結合関係と座標を同時に指定して原子を追加します。 追加される原子の種類は :ref:`ツールバー "
+"<gui_main>` の :guilabel:`編集操作で適用される元素を選択` プルダウンメニュー |chg| "
+"で選択します。まず原子を置く場所をクリックし、次にZ-Matrix表記における3つの接続原子（Na, Nb, Nc）を順番にクリックします。"
+msgstr "NOT_TRANSLATED"
+
+msgid "原子を削除"
+msgstr "NOT_TRANSLATED"
+
+msgid ":ref:`マーカー <edit_top>` が付いた原子を削除します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Shift+F4` または :ref:`ツールバー <gui_main>` でも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "原子を移動"
+msgstr "NOT_TRANSLATED"
+
+msgid "並進移動"
+msgstr "NOT_TRANSLATED"
+
+msgid ":ref:`マーカー <edit_top>` が付いた原子を :ref:`分子表示エリア <gui_main>` 上でドラッグして移動します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`F5` でも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Z-Matrixを保持して並進移動"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":ref:`マーカー <edit_top>` が付いた原子とZ-Matrixで結合関係にある原子を同時に :ref:`分子表示エリア "
+"<gui_main>` 上でドラッグして移動します。官能基単位での移動などに向いています。"
+msgstr "NOT_TRANSLATED"
+
+msgid "二面角を変更"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":ref:`マーカー <edit_top>` が付いた原子を :ref:`分子表示エリア <gui_main>` "
+"上でドラッグして移動します。Z-Matrixの二面角のみが変化します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "属性を変更"
+msgstr "NOT_TRANSLATED"
+
+msgid "元素を変更"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"選択した原子の元素を  :ref:`ツールバー <gui_main>` の :guilabel:`編集操作で適用される元素を選択` "
+"プルダウンメニュー |chg| で選択した元素に変更します。グループ選択されている場合はグループ選択された原子全てが対象となります。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Shift+F5` または :ref:`ツールバー <gui_main>` の :guilabel:`Chg` ボタンでも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":guilabel:`Lp 0` はLone pair、 :guilabel:`Cb 104` "
+"はMOPACで分子構造を切り出すときに使われるCapped bond、 :guilabel:`++ 105` から :guilabel:`- "
+"108` はMOPACのスパークル、 :guilabel:`Tv 109` はMOPACの並進ベクトル、 :guilabel:`Xx 110` "
+"から :guilabel:`Z 112` は各ソルバのダミー原子をそれぞれ意味します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "最適化フラグを変更"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"選択した原子の最適化フラグを変更します。グループ選択されている場合はグループ選択された原子全てが対象となります。 "
+":guilabel:`Solver` で :guilabel:`General` "
+"が選択されている場合は、X,Y,Zそれぞれに選択したフラグがそのまま設定されます。 :guilabel:`Solver` "
+"で具体的なソルバーが選択されている場合は、それぞれ該当するフラグが設定されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"OpenMXの場合は、 :ref:`座標表示エリア <gui_main>` 上で ``0`` と表示されていたらファイル保存時に ``1``, "
+"逆に ``1`` と表示されていたら ``0`` と出力されます。つまり、本機能の ``Variable`` および ``Fixed`` "
+"の表記に従った動作となります。"
+msgstr "NOT_TRANSLATED"
+
+msgid "電荷/スピンを変更"
+msgstr "NOT_TRANSLATED"
+
+msgid "選択した原子の電荷（User電荷）またはスピン密度の値を変更します。グループ選択されている場合はグループ選択された原子全てが対象となります。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"User ChargeまたはSpin Densityをメインウインドウ上で表示したい場合は、 :menuselection:`表示 --> "
+"ラベル/電荷` メニューの :guilabel:`User電荷` または :guilabel:`スピン密度` を選択します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "結合関係を変更"
+msgstr "NOT_TRANSLATED"
+
+msgid "マーカーが付いた原子のZ-Matrixにおける3つの接続原子（Na, Nb, Nc）を順番にクリックして再設定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ダミー原子を追加"
+msgstr "NOT_TRANSLATED"
+
+msgid "ダミー原子を効果的に配置することで、Z-Matrixを用いた構造最適化計算やIRC計算の効率を上げたり、Z-Matrix由来のエラーを回避できることがあります。"
+msgstr "NOT_TRANSLATED"
+
+msgid "選択2原子に沿って追加"
+msgstr "NOT_TRANSLATED"
+
+msgid "マーカー（赤太丸、赤細丸）が付いた2原子を通る直線上にダミー原子を追加します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループの重心に追加"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループ選択された構造の重心の位置にダミー原子を追加します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "結合を付加/変更"
+msgstr "NOT_TRANSLATED"
+
+msgid "マーカー（赤太丸、赤細丸）が付いた2原子間に結合を生成します。すでに生成している場合は、結合の種類が変更されます。結合の種類としては、一重、二重、三重、芳香環（1.5重）、赤色の5つが定義されています。赤色の結合はプレゼンテーション等の用途で使用してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`F7` または :ref:`ツールバー <gui_main>` でも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "結合を削除"
+msgstr "NOT_TRANSLATED"
+
+msgid "マーカー（赤太丸、赤細丸）が付いた2原子間の結合を削除します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`F8` または :ref:`編集ボタンエリア <gui_main>` の :guilabel:`結合削除` ボタンでも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "水素を付加"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"欠落している水素原子を補います。 "
+"結合距離が極端に本来の平衡長から外れたファイル（ChemDrawやPubChemのmol形式など）を読み込んだ場合、水素の付加が正常にできないことがあるため、その場合は事前に"
+" :menuselection:`編集 --> 原子/結合の自動調整 -->` :ref:`edit_auto_bondlength` "
+"をご使用ください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "すべての原子に付加"
+msgstr "NOT_TRANSLATED"
+
+msgid "全ての原子に水素を自動的に付加します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+H` でも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "選択原子に付加（自動）"
+msgstr "NOT_TRANSLATED"
+
+msgid "マーカーが付いた原子に水素原子を1つ付加します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":ref:`ツールバー <gui_main>` の :guilabel:`+H` ボタンでも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "選択原子に付加（1原子）、（2原子）、（3原子）"
+msgstr "NOT_TRANSLATED"
+
+msgid "マーカーが付いた原子に水素が1～3つ付加した状態にします。"
+msgstr "NOT_TRANSLATED"
+
+msgid "pdb2gmxを使用"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"Gromacsの :command:`gmx pdb2gmx` "
+"コマンドを用いて、pdbまたはgroファイルから読み込んだタンパク質に対して水素を自動的に付加します。 "
+"元となるpdbまたはgroファイルにおいて、アミノ残基の情報を持たない原子が存在している場合には、処理に失敗します。 "
+":file:`*_protonate_tmp` という作業フォルダに中間ファイルが生成されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"メインウインドウに表示されている構造にリガンド、溶媒などのタンパク質以外の分子が含まれている場合、:menuselection:`選択 --> "
+"分子種によるグループ選択` および :menuselection:`編集 --> グループ編集 -->` "
+":ref:`edit_partial_delete` 機能を用いて事前に削除してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ <install_cygwinwm>` が必要です。"
+msgstr "NOT_TRANSLATED"
+
+msgid "OpenBabelを使用"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"OpenBabelを用いて水素を自動的に付加します。 主にpdbファイルから切り出したリガンド分子に対して使用します。 "
+":file:`*_protonate_tmp` という作業フォルダに中間ファイルが生成されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "水素を削除"
+msgstr "NOT_TRANSLATED"
+
+msgid "全ての水素原子を削除します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "フラグメントで置換"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"マーカー（太赤丸）が付いた原子を、:ref:`ツールバー <gui_main>` の :guilabel:`フラグメントを選択` "
+"プルダウンメニュー |repl| で選ばれた部品（置換基）で置換します。:guilabel:`フラグメントを選択` プルダウンメニューの中で、 "
+":guilabel:`-CHCH-` と :guilabel:`-CH-` "
+"は多環構造を作るための部品で、置換部品が2番目のマーカー（赤細丸）が付いた原子の方向に向くように生成されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`F6` 、 :guilabel:`Repl` ボタン、または原子を右クリックでも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "環構築"
+msgstr "NOT_TRANSLATED"
+
+msgid "連結した4原子の両端2原子にマーカー（太赤丸、細赤丸）が付いた状態で同機能を選択すると、その4原子を骨格に含む芳香環を生成します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`F9` でも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "例えばベンゼン分子のH-C-C-Hという部分の両端のHにマーカーを移動し、本機能を呼び出すと、ナフタレン分子が作成されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループ編集"
+msgstr "NOT_TRANSLATED"
+
+msgid ":ref:`グループ選択（青丸） <edit_top>` された原子に対して操作を行います。"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを軸回転（選択2原子）"
+msgstr "NOT_TRANSLATED"
+
+msgid ":ref:`2つのマーカー（赤太丸、赤細丸） <edit_top>` が付いた2原子間のベクトルを軸としてグループ選択された構造を回転させます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+R` でも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを軸回転（選択3原子）"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"マーカーが付けられた3原子（ :ref:`分子表示エリア <gui_main>` 左上の :guilabel:`Marked Order:` "
+"で確認することができます）で定義される面の法線ベクトルを軸として、グループ選択された構造を回転させます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+A` でも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを並進移動（マウス操作）"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループ選択された構造を :ref:`分子表示エリア <gui_main>` 内でドラッグして移動させます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+M` でも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを並進移動（数値を指定）"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループ選択された構造を、スライダー操作または数値入力により並進移動させます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを回転（マウス操作）"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループ選択された構造を、 :ref:`マーカー（赤太丸） <edit_top>` が付いた原子を中心に回転させます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+F` でも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを回転（配向を指定）"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"グループ選択された構造を特定軸または特定面に対し配向するよう回転させます。 "
+"マーカーが付けられた2原子（特定軸に配向させる場合）または3原子（特定面に配向させる場合）がグループ選択された構造の中に含まれている必要があります（マーカーが付けられた原子は"
+" :ref:`分子表示エリア <gui_main>` 左上の :guilabel:`Marked Order:` で確認することができます）。"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを簡易構造最適化"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループ選択された構造に対し、分子力場を用いた構造最適化を行います。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+L` でも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを切り取り"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループ選択された構造を、クリップボードに切り取ります。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+X` でも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループをコピー"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループ選択された構造を、クリップボードにコピーします。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+C` でも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを貼り付け"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループ選択された構造を、クリップボードから貼り付けます。貼り付け後、ドラッグして位置を決定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+V` でも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを複製"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループ選択された構造を、一定間隔で複製して配置します。サブウインドウにて各方向の配置間隔と複製数を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを削除"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループ選択された構造、あるいはそれ以外の構造を削除します。分子内の一部の構造を削除した場合は、切断された箇所に水素原子を自動で補います。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+D` でも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "グループを固定/固定解除"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"グループ選択された構造の全成分の最適化フラグを ``0`` （fix）または ``1`` （free）に設定します。より細かい制御をしたい場合は "
+":menuselection:`編集 --> 属性を変更 -->`  :ref:`edit_atom_opt` を選択してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+I` でも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "原子/結合の自動調整"
+msgstr "NOT_TRANSLATED"
+
+msgid "簡易構造最適化"
+msgstr "NOT_TRANSLATED"
+
+msgid "分子力場を用いた構造最適化を行います。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+G` でも操作できます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "結合を再生成"
+msgstr "NOT_TRANSLATED"
+
+msgid "原子間距離から結合の有無と種類を判定し、結合を割り当て直します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "結合長を自動調整"
+msgstr "NOT_TRANSLATED"
+
+msgid "結合長をある程度妥当な値に調整します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "必要に応じて本機能と :ref:`edit_clean` を合わせてご使用ください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Z-Matrixを再生成"
+msgstr "NOT_TRANSLATED"
+
+msgid "Z-Matrixを自動的に再生成します。接続原子も自動で設定されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "芳香環を単結合+2重結合に変換"
+msgstr "NOT_TRANSLATED"
+
+msgid "芳香環結合を単結合と二重結合の組み合わせに変更します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "選択原子間の距離/角度を変更"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"マーカー（赤丸）が付けられた2～4原子間の（ :ref:`分子表示エリア <gui_main>` 左上の :guilabel:`Marked "
+"Order:` で確認することができます）、距離、角度または二面角を入力して変更します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "番号の取り直し/ソート"
+msgstr "NOT_TRANSLATED"
+
+msgid "選択2原子間で交換"
+msgstr "NOT_TRANSLATED"
+
+msgid "マーカーが付いた2つの原子の番号を交換します。主にZ-Matrixの編集時に使われます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "水素とその他でソート"
+msgstr "NOT_TRANSLATED"
+
+msgid "水素以外の原子、水素原子という順番となるように原子の番号を並べ替えます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "分子種でソート"
+msgstr "NOT_TRANSLATED"
+
+msgid "同じ種類の分子が連続するよう原子の順番を並べ替えます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "座標系の取り直し"
+msgstr "NOT_TRANSLATED"
+
+msgid "カメラ座標系に取り直し"
+msgstr "NOT_TRANSLATED"
+
+msgid "現在のカメラの視線の逆方向をZ軸、カメラの上方向をY軸、カメラの右方向をX軸として再定義し、分子を回転させます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "選択3原子で設定"
+msgstr "NOT_TRANSLATED"
+
+msgid "マーカーが付けられた3原子を通る平面の法線方向をZ軸、マーカーが付けられた2原子を通るベクトルをX軸として取り直します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "慣性主軸方向に回転"
+msgstr "NOT_TRANSLATED"
+
+msgid "慣性主軸がX,Y,Z軸と一致するように系全体を回転させます。長軸がX軸となります。"
+msgstr "NOT_TRANSLATED"
+
+msgid "選択原子の位置を原点に設定"
+msgstr "NOT_TRANSLATED"
+
+msgid "マーカーの付いた原子を原点に設定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "セルの下限の端を原点に設定"
+msgstr "NOT_TRANSLATED"
+
+msgid "セルの原点の座標が(0,0,0)となるように座標系を取り直します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "キラリティ"
+msgstr "NOT_TRANSLATED"
+
+msgid "x方向に座標を反転"
+msgstr "NOT_TRANSLATED"
+
+msgid "メインウインドウに表示されている分子構造を鏡像体に変換します。x座標の符号が反転されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "鏡像体を生成"
+msgstr "NOT_TRANSLATED"
+
+msgid "メインウインドウに表示されている分子構造の鏡像体を、現在の構造に隣接して生成します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "セルを作成/編集"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":guilabel:`Create/Edit Cell` "
+"ウインドウが開き、そこでMD計算や平面波DFT計算などのシミュレーションセルを作成または編集します。 セルが存在しない場合は、 "
+":guilabel:`Create` ボタンをクリックすると、メインウインドウに表示されている分子構造の各方向の最小・最大値から "
+":guilabel:`Distance` の距離だけ離れた場所にセルを作成します。 :guilabel:`Expand` "
+"ボタンクリックすると、指定方向にセルサイズを拡張することができます。 :guilabel:`Create/Edit Cell` "
+"ウインドウの右側では直接セルサイズの値を編集することができます。 :guilabel:`Box Vecors` , "
+":guilabel:`Lattice Constants` , :guilabel:`LAMMPS Tilt Factors` "
+"をクリックし、セルサイズの表記方法を変えることができます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":menuselection:`環境設定 --> 表示 --> 表示選択 --> 格子定数` にチェックを入れると :ref:`分子表示エリア "
+"<gui_main>` に格子定数を表示することも可能です。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"本機能でセルサイズを変更しても、原子の座標は変化しないため、セルサイズに合わせて原子の座標も相似的に変化させたい場合は "
+":ref:`edit_change_density` を使用します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "シミュレーションセルの外にある原子を編集前のシミュレーションセルの中に戻したい場合は :ref:`edit_wrap_pbc` 機能を使用します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "周期境界に基づき原子を再配置"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"シミュレーションセルの外に出ている原子の座標を、周期境界を考慮してセル内に戻します。 主に分子系では "
+":guilabel:`セルの内側に分子単位で再配置` 、主に無機系では :guilabel:`セルの内側に原子単位で再配置` を選択します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":menuselection:`表示 --> 周期境界条件の表現形式 --> なし` が選択されていると、座標の変化を確認しやすくなります。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":menuselection:`表示 --> 周期境界条件の表現形式` "
+"機能では、表示のみが変化し座標は変化しませんが、本機能では実際に座標が変化します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "密度を変更"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"密度を変更を指定して、シミュレーションセルと原子座標を相似的に拡大または縮小します。 "
+"各原子の座標は、分子の重心について拡大縮小され、分子内での相対位置は変化しません。"
+msgstr "NOT_TRANSLATED"
+

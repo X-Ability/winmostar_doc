@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOT_TRANSLATED"
+"Project-Id-Version: Winmostar user manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 15:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "PIO解析ウインドウ"
+msgstr "NOT_TRANSLATED"
+
+msgid "GAMESSまたはGaussianによるPIO (Paired Interacting Orbitals) 解析の設定と実行を行います。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Click the fragment..."
+msgstr "NOT_TRANSLATED"
+
+msgid "Set"
+msgstr "NOT_TRANSLATED"
+
+msgid "フラグメントを指定します。Aをクリックして選択した後Bをクリックし、[Set]ボタンをクリックします。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Reset"
+msgstr "NOT_TRANSLATED"
+
+msgid "フラグメントの設定を解除します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Save ab.inp ..."
+msgstr "NOT_TRANSLATED"
+
+msgid "Save"
+msgstr "NOT_TRANSLATED"
+
+msgid "合体系A-Bおよび孤立系A、B用のデータファイルを出力し保存します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Edit"
+msgstr "NOT_TRANSLATED"
+
+msgid "データファイルを編集します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Gamess/GAMESS Exec"
+msgstr "NOT_TRANSLATED"
+
+msgid "Gauss/GAMESS"
+msgstr "NOT_TRANSLATED"
+
+msgid "Gaussian/GAMESSによる計算 を実行します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "GenG"
+msgstr "NOT_TRANSLATED"
+
+msgid "バッチ・ファイルを作成します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "GenP"
+msgstr "NOT_TRANSLATED"
+
+msgid "PIO用のデータファイルを作成します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "PIO"
+msgstr "NOT_TRANSLATED"
+
+msgid "PIO計算を実行します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ISPC"
+msgstr "NOT_TRANSLATED"
+
+msgid "指定した数のピークについて波長と振動子強度の値を図の中に記入します。（長波長側から）"
+msgstr "NOT_TRANSLATED"
+
+msgid "0"
+msgstr "NOT_TRANSLATED"
+
+msgid "A, B 両フラグメントの全分子軌道を使って PIO をつくります。"
+msgstr "NOT_TRANSLATED"
+
+msgid "1"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"A, B 両フラグメントの被占分子軌道のみを使ってPIO をつくります。 両フラグメント間に働く重なり反発(overlap repulsion, "
+"closed-shell repulsion)を表現します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "2"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"Aの被占分子軌道とBの空分子軌道のみを使って PIO をつくります。 AからBへの電子の非局在化(electron "
+"delocalization)を表現します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "3"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"Aの空分子軌道とBの被占分子軌道のみを使って PIO をつくります。 BからAへの電子の非局在化(electron "
+"delocalization)を表現します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "PIOによる出力ファイル(拡張子out)を編集します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Sum."
+msgstr "NOT_TRANSLATED"
+
+msgid "サマリを表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "PIOによる出力ファイル(拡張子log)を編集します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "MO"
+msgstr "NOT_TRANSLATED"
+
+msgid "分子軌道を表示するためのコマンド・ウィンドウを開きます。 分子軌道の表示機能については、 :ref:`cube_top` を参照してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Close"
+msgstr "NOT_TRANSLATED"
+
+msgid "このウィンドウを閉じます。"
+msgstr "NOT_TRANSLATED"
+

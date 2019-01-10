@@ -1,0 +1,268 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOT_TRANSLATED"
+"Project-Id-Version: Winmostar user manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 15:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "初期構造の作成方法"
+msgstr "NOT_TRANSLATED"
+
+msgid "分子構造の作成"
+msgstr "NOT_TRANSLATED"
+
+msgid "以下のいずれかの方法を選択する。"
+msgstr "NOT_TRANSLATED"
+
+msgid "各種形式のファイルを :ref:`file_open` またはメインウインドウへのドラッグアンドドロップで開く。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"SMILES形式の文字列を :menuselection:`ファイル --> インポート -->` "
+":ref:`file_import_smiles` から読み込む。"
+msgstr "NOT_TRANSLATED"
+
+msgid "分子構造をメインウインドウ上で構築する。"
+msgstr "NOT_TRANSLATED"
+
+msgid "適宜 :ref:`edit_top` から必要な操作を選択する。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ある程度目的の分子に形状が近づくように、初期構造（炭素原子と水素原子が結合したもの）に対し、 :ref:`edit_parts` を実行する。"
+msgstr "NOT_TRANSLATED"
+
+msgid "芳香環が隣接した構造は :ref:`edit_aromatic` を実行する。"
+msgstr "NOT_TRANSLATED"
+
+msgid "不要な部分構造を削除したい箇所では :ref:`edit_partial_delete`  を実行する。"
+msgstr "NOT_TRANSLATED"
+
+msgid "水素原子を付加したい箇所では :ref:`edit_addh_1` を実行する。"
+msgstr "NOT_TRANSLATED"
+
+msgid "原子の種類を変更したい箇所では :ref:`edit_attribute_element` を実行する。"
+msgstr "NOT_TRANSLATED"
+
+msgid "化学結合を作成したい場所では :ref:`edit_addbond` を実行する。結合の種類の変更も同じ操作で行う。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ある程度妥当な原子配置に調整するために :ref:`edit_clean` を実行する。（原子数が小さい場合に限る）"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"明示的に部分構造を回転させたい場合は :ref:`edit_partial_edit` :menuselection:`--> 部分回転` "
+"を実行する。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"様々な配座を取りうる分子の場合は :menuselection:`ツール --> ` :ref:`tools_balloon` "
+"を実行し、エネルギーの低い構造を選択する。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ポリマーの場合は、直接分子全体をモデリングしても良いが、 :ref:`md_polymer_top` の方法を使った方が効率が良い。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"結晶構造、スラブモデル、クラスターモデルの作成には、それぞれ :ref:`solid_crystalbuilder` , "
+":ref:`solid_cleaveplane` , :ref:`solid_insertvacuum` , "
+":ref:`solid_buildcluster` を実行する。"
+msgstr "NOT_TRANSLATED"
+
+msgid "点電荷の割り当て"
+msgstr "NOT_TRANSLATED"
+
+msgid "MD計算の場合は、多くの力場において点電荷を必要とするため、Winmostar上で設定する方法を紹介する。"
+msgstr "NOT_TRANSLATED"
+
+msgid "デフォルトのAM1/BCC電荷を用いる場合は明示的に電荷を設定する必要がない。 また、水分子には選択した水モデルの電荷の値が無条件で適用される。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"AM1/BCC以外の電荷を使用する場合は、 :ref:`create_mole` "
+"の方法で1分子を作成した後、以下の方法で電荷を割り当てたうえで、各種キーワード設定ウインドウの :guilabel:`Force Field` "
+"タブで :guilabel:`Use user-defined charge` を選択する。割り当てた電荷は :menuselection:`表示"
+" -->` :ref:`view_labels_charges` を変更することで表示し確認することができる。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Gasteiger電荷を割り当てる。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":menuselection:`MD --> 電荷を割り当て -->` :ref:`md_charge_acpype` "
+"の手順で割り当てる。イオンの場合は :guilabel:`Total charge [e]` に電荷を入力する。"
+msgstr "NOT_TRANSLATED"
+
+msgid "AM1/BCC電荷も同様の手順で明示的に割り当てられる。"
+msgstr "NOT_TRANSLATED"
+
+msgid "RESP電荷を割り当てる。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":menuselection:`QM --> GAMESS --> キーワード設定 --> Easy Setup` "
+"にて、計算手法、基底関数を選択し、 :guilabel:`Method` に :guilabel:`ESP/RESP` を選択する。イオンの場合は"
+" :guilabel:`ICHARG` に電荷を入力する。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":guilabel:`Easy Setup` ウインドウを :guilabel:`Close` ボタンで閉じ、 :guilabel:`GAMESS"
+" Setup` ウインドウで :guilabel:`Run` ボタンを押し計算を実行する。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"GAMESSの計算が終了したら :menuselection:`QM --> GAMESS -->` :ref:`qm_gamess_resp` "
+"にてRESP電荷を取得する。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"MOPAC, GAMESS, Gaussian, NWChem, Quantum "
+"ESPRESSOのPopulation解析結果の電荷をメインウインドウに読み込む。"
+msgstr "NOT_TRANSLATED"
+
+msgid "MOPACの場合は :ref:`semiempirical_mopac_charge` の手順で読み込む。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"Quantum ESPRESSOの場合は :menuselection:`固体 --> Quantum ESPRESSO --> "
+"Lowdin電荷` の手順で読み込む。"
+msgstr "NOT_TRANSLATED"
+
+msgid "それ以外の場合は、ログファイルをメインウインドウで開く。"
+msgstr "NOT_TRANSLATED"
+
+msgid "元素ごとに値を指定して割り当てる。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":menuselection:`MD --> 電荷を割り当て -->` :ref:`md_charge_manual` の手順で割り当てる。"
+msgstr "NOT_TRANSLATED"
+
+msgid "選択した原子に値を入力して割り当てる。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"電荷を入力したい原子を :ref:`分子表示エリア <gui_main>` で :ref:`グループ選択 <gui_mouse>` し、 "
+":ref:`edit_atom` :menuselection:`--> 電荷/スピン変更` から電荷を入力する。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"ポリマーの場合は、直接分子全体のAM1/BCC電荷、RESP電荷などを計算すると時間が掛かるため、 :ref:`md_polymer_top` "
+"の方法を使う。"
+msgstr "NOT_TRANSLATED"
+
+msgid "孤立系（気体）の作成"
+msgstr "NOT_TRANSLATED"
+
+msgid ":ref:`create_mole` の方法で1分子の構造を作成する。量子化学計算の場合は周期境界条件を使わないため以降の操作は不要である。"
+msgstr "NOT_TRANSLATED"
+
+msgid "MD計算の場合は :ref:`create_charge` の方法で電荷を割り当てる。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":ref:`edit_createcell` にて :menuselection:`Create --> Distance` の値を設定し "
+":guilabel:`Create` ボタンを押す。適宜セルのサイズを微調整した上で、 :guilabel:`OK` ボタンを押す。"
+msgstr "NOT_TRANSLATED"
+
+msgid "低分子液体の作成"
+msgstr "NOT_TRANSLATED"
+
+msgid ":ref:`create_mole` の方法で1分子の構造を作成する。"
+msgstr "NOT_TRANSLATED"
+
+msgid "mol2形式で保存する。"
+msgstr "NOT_TRANSLATED"
+
+msgid "1.から3.の手順を計算したい全ての分子種に対して行う。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":ref:`md_solvate_buildcell` を選択する。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"系内にどの分子を何分子入れるか決める。 メインウインドウに表示された分子は :guilabel:`Add Displayed Molecule` "
+", 水分子の場合は :guilabel:`Add Water` をクリックする。 それ以外の場合は :guilabel:`Add mol2 "
+"File` をクリックし1.から4.の手順で保存したmol2ファイルを選択する。"
+msgstr "NOT_TRANSLATED"
+
+msgid "系内に投入する個数を入力する。"
+msgstr "NOT_TRANSLATED"
+
+msgid "6.、7.の手順を計算したい全ての分子種に対して行う。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":guilabel:`Solvate/Build MD Cell` ウインドウ下部の :guilabel:`Simulation Cell` "
+"にてシステムサイズを設定し、 :guilabel:`Build` ボタンを押す。"
+msgstr "NOT_TRANSLATED"
+
+msgid "密度が高いと系の作成に失敗することがあるので、少し低い密度から始め、圧力一定計算で目的の密度、圧力まで徐々に圧縮してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":ref:`cygwinwm_top` がインストールされていない、または :ref:`md_solvate_buildcell` "
+"機能で配置するのが困難な場合は、 :ref:`edit_partial_edit` :menuselection:`--> 部分複製` 、 "
+":ref:`edit_createcell` 、 :ref:`file_append` を組み合わせることでも作成可能です。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ポリマーの作成"
+msgstr "NOT_TRANSLATED"
+
+msgid ":ref:`create_mole` の方法で計算したいポリマーの繰り返し単位（ここではモノマーと呼ぶ）を作成する。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":ref:`分子表示エリア <gui_main>` にて、隣のモノマーと接続する原子を2か所左クリックし、 "
+":ref:`md_polymer_register` の方法でモノマーとして登録する。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"作成したいポリマーの構造に応じて、 :ref:`md_polymer_homo` 、 :ref:`md_polymer_block` 、 "
+":ref:`md_polymer_random` の操作を実行する。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"例えば `-[AAABBB]-` のような構造の場合は、一旦 :ref:`md_polymer_block` を使用して `AAABBB` "
+"を作成し、 :file:`wpo` フォルダに作成されたwpoファイル（実態はmol2形式）を再度 "
+":ref:`md_polymer_register` にてモノマーとして登録し :ref:`md_polymer_homo` を使用する。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":ref:`md_polymer_cell` の操作を実行し、シミュレーションセルを作成する。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"ポリマー中に低分子成分が溶解している場合は、5.の手順で密度を小さめに設定し、 :ref:`create_mole` と "
+":ref:`create_charge` の手順であらかじめ作成しmol2形式で保存した低分子成分を "
+":ref:`md_insert_molecules` にて選択し挿入する。"
+msgstr "NOT_TRANSLATED"
+
+msgid "気液界面の作成"
+msgstr "NOT_TRANSLATED"
+
+msgid ":ref:`create_liquid` の方法で液相を作成する。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":ref:`edit_createcell` にて :menuselection:`Expand --> Width` の値と "
+":guilabel:`Axis` を設定し :guilabel:`Expand` "
+"ボタンを押す。Expandするサイズは、気相のサイズにする。その後、 :guilabel:`OK` ボタンを押す。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"液相の構造をMD計算で緩和した後にExpandする場合は、MD計算後の構造においてシミュレーションセルの外の座標を持つ原子が多く存在するため、Expandする前に"
+" :ref:`edit_wrap_pbc` を選択する。分子系の場合は :guilabel:`セルの内側に分子単位で再配置` 、無機系では "
+":guilabel:`セルの内側に原子単位で再配置` を選択する。"
+msgstr "NOT_TRANSLATED"
+

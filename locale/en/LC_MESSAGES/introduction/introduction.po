@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOT_TRANSLATED"
+"Project-Id-Version: Winmostar user manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 15:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "はじめに"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"Winmostar(TM)は量子化学計算、第一原理計算、分子動力学計算を効率的に操作できるグラフィカルユーザーインターフェースを提供します。 "
+"初期構造の作成、計算の実行から結果解析に至るまで、シミュレーションに必要な一通りの操作をWinmostar(TM)上で実施することができます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "分子のモデリング機能については100,000原子まで動作確認されています。MD計算の機能についてはより大きな系で動作確認されています。"
+msgstr "NOT_TRANSLATED"
+
+msgid "引用について"
+msgstr "NOT_TRANSLATED"
+
+msgid "学会発表、論文などでWinmostar(TM)を使用して作成したデータを発表する際、Winmostar(TM)本体については、例えば以下の様に記載してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "`Winmostar V9, X-Ability Co. Ltd., Tokyo, Japan, 2019.`"
+msgstr "NOT_TRANSLATED"
+
+msgid "Winmostar(TM)が呼び出したソルバや各種補助プログラムの引用については、それぞれのソフトウエアの指示に従って下さい。"
+msgstr "NOT_TRANSLATED"
+
+msgid "本マニュアルの表記規則"
+msgstr "NOT_TRANSLATED"
+
+msgid "本マニュアルは以下の表記規則に従っています:"
+msgstr "NOT_TRANSLATED"
+
+msgid ":kbd:`Ctrl+A`"
+msgstr "NOT_TRANSLATED"
+
+msgid "キーボードのキーまたはキーの組み合せの操作を示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`OK`"
+msgstr "NOT_TRANSLATED"
+
+msgid "ラベル、ボタンなど GUI に表示される文字列を示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":menuselection:`ツール --> 環境設定 --> 基本 --> ライセンスコード`"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"メニュー、タブなどをたどる流れを示します。上記の例は、 メニューから :menuselection:`ツール --> 環境設定` とたどり、 "
+"開いたウインドウの :guilabel:`基本` というタブをクリックし、その中にある :guilabel:`ライセンスコード` "
+"というラベルの付いたGUIのことを意味します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`wmset.ini` , :file:`C\\\\:winmos9\\\\UserPref`"
+msgstr "NOT_TRANSLATED"
+
+msgid "ファイル名やディレクトリ名を示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":command:`ls /usr/local/bin`"
+msgstr "NOT_TRANSLATED"
+
+msgid "コマンドプロンプト、ターミナルで実行するコマンドを示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "``3.14159``"
+msgstr "NOT_TRANSLATED"
+
+msgid "GUI のテキストボックスへの入力を示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "補足事項を示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "注意点を示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "使用しているライブラリ"
+msgstr "NOT_TRANSLATED"
+
+msgid "Winmostarは一部の処理に下記のライブラリを使用しています。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Abbrevia 5.0"
+msgstr "NOT_TRANSLATED"
+
+msgid "TeeChart Standard"
+msgstr "NOT_TRANSLATED"
+

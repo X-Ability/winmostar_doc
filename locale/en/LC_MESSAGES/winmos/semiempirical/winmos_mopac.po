@@ -1,0 +1,476 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOT_TRANSLATED"
+"Project-Id-Version: Winmostar user manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 15:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid ":menuselection:`半経験QM --> MOPAC` メニュー"
+msgstr "NOT_TRANSLATED"
+
+msgid "MOPACに関するメニューです。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"MOPAC6とMOPAC7はWinmostarに同梱されています。 "
+"それ以外のMOPACを利用する場合は、別途代理店よりMOPAC本体を購入し、環境設定ウインドウにてパスを設定してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "キーワード設定"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"MOPACの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウインドウに戻る場合は "
+":guilabel:`OK` ボタンを押してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`semiempirical_mopac_start` を参照してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 :guilabel:`Save as Default` "
+"ボタンで現在の状態をデフォルトの状態として保存します。 :menuselection:`Save as Default --> Clear "
+"Default Settings` で保存されてデフォルトの状態を出荷時の状態に戻します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Hamiltonian"
+msgstr "NOT_TRANSLATED"
+
+msgid "使用するハミルトニアンを指定します。MOPACの各パージョンがサポートするハミルトニアンは以下の通りです。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ハミルトニアン"
+msgstr "NOT_TRANSLATED"
+
+msgid "実装されているMOPACのバージョン"
+msgstr "NOT_TRANSLATED"
+
+msgid "AM1"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"MOPAC 6, MOPAC 7, MOPAC 93, MOPAC 97, MOPAC 2000, MOPAC 2002, MOPAC 2006,"
+" MOPAC 2009, MOPAC 2012"
+msgstr "NOT_TRANSLATED"
+
+msgid "PM3"
+msgstr "NOT_TRANSLATED"
+
+msgid "RM1"
+msgstr "NOT_TRANSLATED"
+
+msgid "MOPAC 2007"
+msgstr "NOT_TRANSLATED"
+
+msgid "AM1 EXTERNAL=RM1.rm1"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"MOPAC 7.1, MOPAC 93, MOPAC 97, MOPAC 2000, MOPAC 2002, MOPAC 2006, MOPAC "
+"2009, MOPAC 2012"
+msgstr "NOT_TRANSLATED"
+
+msgid "PM5"
+msgstr "NOT_TRANSLATED"
+
+msgid "MOPAC 2002, MOPAC 2006"
+msgstr "NOT_TRANSLATED"
+
+msgid "PM6"
+msgstr "NOT_TRANSLATED"
+
+msgid "MOPAC 2007, MOPAC 2009, MOPAC 2012"
+msgstr "NOT_TRANSLATED"
+
+msgid "PM7"
+msgstr "NOT_TRANSLATED"
+
+msgid "MOPAC 2012"
+msgstr "NOT_TRANSLATED"
+
+msgid "MINDO/3"
+msgstr "NOT_TRANSLATED"
+
+msgid "MOPAC 6, MOPAC 7, MOPAC 93, MOPAC 97, MOPAC 2000, MOPAC 2002, MOPAC 2006"
+msgstr "NOT_TRANSLATED"
+
+msgid "MNDO"
+msgstr "NOT_TRANSLATED"
+
+msgid "MNDO-d"
+msgstr "NOT_TRANSLATED"
+
+msgid "MOPAC 97, MOPAC 2000, MOPAC 2002, MOPAC 2006, MOPAC 2009, MOPAC 2012"
+msgstr "NOT_TRANSLATED"
+
+msgid "Method"
+msgstr "NOT_TRANSLATED"
+
+msgid "計算方法を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "EF"
+msgstr "NOT_TRANSLATED"
+
+msgid "EF (Eigen Vector Following)法による構造最適化計算を行います。"
+msgstr "NOT_TRANSLATED"
+
+msgid "TS"
+msgstr "NOT_TRANSLATED"
+
+msgid "遷移状態を求めます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "FORCE"
+msgstr "NOT_TRANSLATED"
+
+msgid "振動解析を行います。"
+msgstr "NOT_TRANSLATED"
+
+msgid "1SCF"
+msgstr "NOT_TRANSLATED"
+
+msgid "1回だけSCF計算を行います。（構造最適化を行いません。）"
+msgstr "NOT_TRANSLATED"
+
+msgid "IRC"
+msgstr "NOT_TRANSLATED"
+
+msgid "固有反応座標計算を行います。エネルギーは保存されません。"
+msgstr "NOT_TRANSLATED"
+
+msgid "IRC=1"
+msgstr "NOT_TRANSLATED"
+
+msgid "1番目の基準振動の逆方向を指定して固有反応座標計算を行います。"
+msgstr "NOT_TRANSLATED"
+
+msgid "IRC=-1"
+msgstr "NOT_TRANSLATED"
+
+msgid "1番目の基準振動の正方向を指定して固有反応座標計算を行います。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Charge"
+msgstr "NOT_TRANSLATED"
+
+msgid "電荷の値を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Multiplicity"
+msgstr "NOT_TRANSLATED"
+
+msgid "多重度を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "OPEN"
+msgstr "NOT_TRANSLATED"
+
+msgid "開殻計算における電子数と軌道数を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "MM"
+msgstr "NOT_TRANSLATED"
+
+msgid "MMOK"
+msgstr "NOT_TRANSLATED"
+
+msgid "CONH結合に分子力学補正を加えます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "NOMM"
+msgstr "NOT_TRANSLATED"
+
+msgid "CONH結合に分子力学補正を加えません。"
+msgstr "NOT_TRANSLATED"
+
+msgid "GNORM"
+msgstr "NOT_TRANSLATED"
+
+msgid "エネルギー勾配ノルムの閾値を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "LARGE"
+msgstr "NOT_TRANSLATED"
+
+msgid "指定したサイクルごとに情報を出力します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "GRAPH"
+msgstr "NOT_TRANSLATED"
+
+msgid "分子軌道をグラフィックス表示するためのファイルを作成します。（GPAGH/GRAPHF)"
+msgstr "NOT_TRANSLATED"
+
+msgid "EXTERNAL"
+msgstr "NOT_TRANSLATED"
+
+msgid "ディスク上のパラメータ・ファイルを読み込みます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "STEP"
+msgstr "NOT_TRANSLATED"
+
+msgid "反応座標計算におけるきざみ幅を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "POINT"
+msgstr "NOT_TRANSLATED"
+
+msgid "反応座標計算における計算点数を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "STEP1/2"
+msgstr "NOT_TRANSLATED"
+
+msgid "グリッド計算におけるきざみ幅を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "POINT1/2"
+msgstr "NOT_TRANSLATED"
+
+msgid "グリッド計算における計算点数を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "AUX"
+msgstr "NOT_TRANSLATED"
+
+msgid "他のプログラムで利用するためのAUXファイルを作成します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "BONDS"
+msgstr "NOT_TRANSLATED"
+
+msgid "最終の結合次数行列を出力します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ENPART"
+msgstr "NOT_TRANSLATED"
+
+msgid "エネルギーを1中心および2中心項に分解するエネルギー分割を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ESP"
+msgstr "NOT_TRANSLATED"
+
+msgid "静電ポテンシャルを計算します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "EXCITED"
+msgstr "NOT_TRANSLATED"
+
+msgid "一重項第一励起状態を最適化します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "GEO-OK"
+msgstr "NOT_TRANSLATED"
+
+msgid "原子が異常に近接している場合のチェックを無視します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "NOINTER"
+msgstr "NOT_TRANSLATED"
+
+msgid "原子間距離を出力しません。"
+msgstr "NOT_TRANSLATED"
+
+msgid "OLDFPC"
+msgstr "NOT_TRANSLATED"
+
+msgid "古いバージョンのMOPACと同じ基準物理量の値を用います。"
+msgstr "NOT_TRANSLATED"
+
+msgid "POLAR"
+msgstr "NOT_TRANSLATED"
+
+msgid "分極率を計算します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "PRECISE"
+msgstr "NOT_TRANSLATED"
+
+msgid "収束判定条件を 100 倍厳しくします。"
+msgstr "NOT_TRANSLATED"
+
+msgid "SYMMETRY"
+msgstr "NOT_TRANSLATED"
+
+msgid "対称性や等価条件を利用して構造を定義します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "UHF"
+msgstr "NOT_TRANSLATED"
+
+msgid "非制限Hartree-Fock計算を実行します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "VECTORS"
+msgstr "NOT_TRANSLATED"
+
+msgid "最終固有ベクトル（波動関数）を出力します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "XYZ"
+msgstr "NOT_TRANSLATED"
+
+msgid "XYZ座標系を用いて計算を行います。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Others"
+msgstr "NOT_TRANSLATED"
+
+msgid "その他のキーワードを記入します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "キーワード読み込み"
+msgstr "NOT_TRANSLATED"
+
+msgid "既存のMOPACの入力ファイルから、キーワード（計算条件）のみを読み込みます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "(1) MOP6W70実行, (2) MOP7W70実行, (3) MOPACX実行"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"メインウインドウでMOPACの入力ファイルが開かれている場合は、そのファイルを使ってMOPACを実行します。 "
+"開かれていない場合は、MOPACの入力ファイルを保存した上でMOPACを実行します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "入力ファイルを保存する際に、 :ref:`file_coordinateformat` の選択肢に応じて座標の出力フォーマットが変化します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":guilabel:`(1) MOP6W70実行` , :guilabel:`(2) MOP7W70実行`, :guilabel:`(3) "
+"MOPACX実行` の違いは、起動するMOPACのプログラムパスです。 プログラムパスは、 :menuselection:`ツール --> "
+"環境設定 --> プログラムパス` で変更することができます。 デフォルトで設定されている :guilabel:`MOP6W70` "
+"はMOPAC6、 :guilabel:`MOP7W70` はMOPAC7で、どちらもWinmostarに内蔵されているものです。 "
+":guilabel:`(3) MOPACX実行` にはMOPAC2012などのプログラムを指定して使うことを想定しています。"
+msgstr "NOT_TRANSLATED"
+
+msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.dat` の時のファイル/フォルダ名を併記しています。"
+msgstr "NOT_TRANSLATED"
+
+msgid "種類"
+msgstr "NOT_TRANSLATED"
+
+msgid "説明"
+msgstr "NOT_TRANSLATED"
+
+msgid "outファイル"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`water.out`"
+msgstr "NOT_TRANSLATED"
+
+msgid "計算結果の概略をまとめたファイルです。"
+msgstr "NOT_TRANSLATED"
+
+msgid "arcファイル"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`water.arc`"
+msgstr "NOT_TRANSLATED"
+
+msgid "計算結果の詳細をまとめたファイルです。"
+msgstr "NOT_TRANSLATED"
+
+msgid "mgfファイル"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`water.mgf`"
+msgstr "NOT_TRANSLATED"
+
+msgid "キーワードGRAPHを指定したことで出力されるファイルで、"
+msgstr "NOT_TRANSLATED"
+
+msgid "分子軌道の描画に使われる情報を含みます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "作業ディレクトリ"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`water_temp\\\\`"
+msgstr "NOT_TRANSLATED"
+
+msgid "作業ディレクトリです。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ログを表示 (out)"
+msgstr "NOT_TRANSLATED"
+
+msgid "outファイルをテキストエディタで開きます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "arcファイルをテキストエディタで開きます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "分子軌道, 電子密度 (mgf)"
+msgstr "NOT_TRANSLATED"
+
+msgid "mgfファイルを選択し、分子軌道を表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":ref:`キーワード <semiempirical_mopac_keyword>` で ``GRAPHF`` が設定されている必要があります。 "
+"サブウインドウの操作方法は :ref:`mo_top` , :ref:`cube_top` を参照してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "電荷 (arc)"
+msgstr "NOT_TRANSLATED"
+
+msgid "arcファイルを選択し、電荷、ダイポールを表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":menuselection:`表示 --> ラベル/電荷 --> Mulliken電荷` を選択すると電荷が表示されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "アニメーション (arc)"
+msgstr "NOT_TRANSLATED"
+
+msgid "arcファイルを選択し、分子構造のアニメーションを表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "アニメーション (IRC,STEP)(out)"
+msgstr "NOT_TRANSLATED"
+
+msgid "outファイルを選択し、IRC計算のアニメーションを表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "振動スペクトル (out)"
+msgstr "NOT_TRANSLATED"
+
+msgid "outファイルを選択し、振動スペクトル（IRスペクトル）を表示します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":ref:`キーワード <semiempirical_mopac_keyword>` で振動計算が設定されている必要があります。 "
+"サブウインドウの操作方法は :ref:`ir_top` を参照してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ジョブマネージャで実行"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"チェックが入っている場合は、MOPACを実行する際に :ref:`winmosjm_top` を使用します。 "
+"入っていない場合は、MOPACでの計算が終わるまでWinmostarは待ち状態となり、MOPACの出力結果は自動でメインウインドウに読み込まれます。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":ref:`preferences_top` からも設定することができます。"
+msgstr "NOT_TRANSLATED"
+

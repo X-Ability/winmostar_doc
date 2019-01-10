@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOT_TRANSLATED"
+"Project-Id-Version: Winmostar user manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 15:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "MDメニュー"
+msgstr "NOT_TRANSLATED"
+
+msgid "分子動力学法に関するメニューです。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"MDメニューの機能を利用するにはMDパックが必要です。 また、ほぼ全ての機能で :ref:`cygwin_wm <cygwinwm_top>` "
+"が必要です。"
+msgstr "NOT_TRANSLATED"
+
+msgid "溶媒を配置/セルを構築"
+msgstr "NOT_TRANSLATED"
+
+msgid "本機能は主に以下の2つの目的で使用されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "メインウインドウに表示されている分子の周りに溶媒分子を並べる"
+msgstr "NOT_TRANSLATED"
+
+msgid "低分子を並べて液相を作成する"
+msgstr "NOT_TRANSLATED"
+
+msgid "並べることが可能な分子は以下の3種類です。"
+msgstr "NOT_TRANSLATED"
+
+msgid "メインウインドウに表示された分子"
+msgstr "NOT_TRANSLATED"
+
+msgid "mol2形式で保存された分子"
+msgstr "NOT_TRANSLATED"
+
+msgid "水分子"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"現在のファイル名の末尾に :file:`_builder_tmp` を付けた作業用フォルダが作成され、その中で処理が行われます。 "
+"内部ではCygwin上で :command:`gmx insert-molecules` または :command:`gmx solvate` "
+"を実行します。 作業用フォルダ以下の :file:`generate.sh`、:file:`generate.log` に詳細が記載されています。"
+" 作業用フォルダ以下の :file:`output.gro` が最終的に生成された分子構造を含むファイルになります。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Add Displayed Molecule"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"メインウインドウに表示されている分子を追加します。ボタンを押した後、追加する分子数を入力します。 "
+"1個しか配置しない場合は、メインウインドウに表示されている分子については座標が固定された状態で他の分子が並べられます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Add Water"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"系に水分子を追加します。ボタンを押した後、追加する分子数を入力します。水分子のモデルは、:guilabel:`Options` タブの "
+":guilabel:`Water Model` から選びます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Add .mol2 File"
+msgstr "NOT_TRANSLATED"
+
+msgid "系にあらかじめ.mol2形式で保存した分子を追加します。ボタンを押した後、.mol2ファイルの場所を指定し、追加する分子数を入力します。追加する分子数が1のときは、その分子を乱数的に配置するか、.mol2ファイルに書かれた座標に固定して配置するか指定します。PDBファイルから切り出したリガンド分子を配置する場合は、通常は固定して配置します。QM計算などから求めた点電荷（RESP電荷など）を用いてMD計算を実行する場合は、ここで指定する.mol2ファイルにその点電荷の情報が記載されている必要があります。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Delete"
+msgstr "NOT_TRANSLATED"
+
+msgid "選択された上のリストの中の項目を削除します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Simulation Cell"
+msgstr "NOT_TRANSLATED"
+
+msgid "Set Density"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"作成されるシミュレーションセルの密度を指定します。大きすぎる場合は分子を十分に挿入できないことがあるため、液相の場合は通常0.5～0.8 g/cm"
+" :sup:`3` 程度に設定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Set Distance from Solute"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":guilabel:`Method` に :guilabel:`Solvate` "
+"を選んでいる際に、メイン画面に表示された分子とシミュレーションセルの間の距離を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Set Box Size"
+msgstr "NOT_TRANSLATED"
+
+msgid "シミュレーションセルのサイズを直接指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Box Type"
+msgstr "NOT_TRANSLATED"
+
+msgid "シミュレーションセルの形状を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Option"
+msgstr "NOT_TRANSLATED"
+
+msgid "Water Model"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":guilabel:`Add Water` "
+"により追加される水モデルを指定します。指定した水モデルの座標データはCygwin上のGromacsにインストールされたトポロジファイルのライブラリから引用されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Reset"
+msgstr "NOT_TRANSLATED"
+
+msgid "このウインドウにおける設定をリセットします。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Build"
+msgstr "NOT_TRANSLATED"
+
+msgid "このウインドウで設定された内容に従いシミュレーションセルを作成します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "分子を挿入"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"mol2形式で保存された分子を複数個、メインウインドウに表示されている構造に追加することができます。 "
+"シミュレーションセルが作成されていない場合は、事前に :ref:`edit_createcell` または "
+":ref:`md_solvate_buildcell` を使用して作成してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "追加する分子について、座標を変えずに1つだけ追加したい場合は、 :ref:`file_append` を選択してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "内部動作は :ref:`md_solvate_buildcell` と同じです。"
+msgstr "NOT_TRANSLATED"
+
+msgid "電荷を割り当て"
+msgstr "NOT_TRANSLATED"
+
+msgid "Acpypeを使用"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"メインウインドウに1分子だけ表示されている状態で本機能を呼び出すと、AM1-BCCまたはGasteigerの方法で点電荷を各原子に対して割り当てます。"
+" 内部的にはCygwin上のAcpypeプログラムを使用しています。 溶質分子の電荷割り当てや、 "
+":ref:`md_solvate_buildcell` または :ref:`md_insert_molecules` "
+"にて挿入するmol2形式のファイルの作成時に使用します。 "
+"中性でない多原子イオンに電荷を割り振る場合は、RESP電荷または本機能を利用する必要があります。 多原子イオンの場合は、 "
+":guilabel:`Total charge [e]` に電荷を入力します。 現在のファイル名の末尾に :file:`_acpype_tmp` "
+"を付けた作業用フォルダが作成され、その中で処理が行われます。 作業用フォルダ以下の :file:`temp.sh`、 "
+":file:`temp.log` に詳細が記載されます。 作業用フォルダ以下の "
+":file:`input.acpype\\input_GMX.itp` に記された電荷の値が結果となります。"
+msgstr "NOT_TRANSLATED"
+
+msgid "マニュアル入力"
+msgstr "NOT_TRANSLATED"
+
+msgid "メインウインドウに表示されている分子（結晶）構造に対し、原子種毎に点電荷の値を直接指定することができます。主に固体系向けの機能です。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ポリマー"
+msgstr "NOT_TRANSLATED"
+
+msgid ":ref:`md_polymer_top` を参照してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "界面ビルダ"
+msgstr "NOT_TRANSLATED"
+
+msgid ":ref:`md_interface_top` を参照してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "水をイオンに置換"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"水分子を単原子イオンに置換します。あらかじめ系内に水分子を配置しておく必要があります。水を配置するためには "
+":ref:`md_solvate_buildcell` "
+"を使用してください。主にタンパク質系において系内の電荷を中和するために使われます。内部ではCygwin上で :command:`gmx "
+"genion` を実行します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Neutral"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+":guilabel:`True` の場合は、系全体の電荷が中性となるようイオンを配置し、 :guilabel:`Number of "
+"Cations` と :guilabel:`Number of Anions` は無視されます。 :guilabel:`False` の場合は、 "
+":guilabel:`Number of Cations` と :guilabel:`Number of Anions` "
+"に記した個数のイオンがそれぞれ配置されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Concentration"
+msgstr "NOT_TRANSLATED"
+
+msgid "置換するイオンの濃度を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Cations/Anions"
+msgstr "NOT_TRANSLATED"
+
+msgid "陽イオンおよび陰イオンの種類をプルダウンから指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Number of Cations/Number of Anions"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"陽イオンおよび陰イオンの個数を指定します。 :guilabel:`Neutral` が :guilabel:`False` "
+"の時に有効な設定となります。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Execute"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"Cygwin上で :command:`gmx genion` を実行します。現在のファイル名の末尾に :file:`_genion_tmp` "
+"を付けた作業用フォルダが作成され、その中で処理が行われます。作業用フォルダ以下の :file:`temp.sh` 、 "
+":file:`temp.log` に詳細が記載されています。途中、系内の分子が不適切な場合に、一時的なトポロジファイル( "
+":file:`temp.top` )の自動生成に失敗することがあります。トポロジファイル作成の詳細は作業フォルダ内の "
+":file:`temp_top_tmp` 内に出力されます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Gromacs"
+msgstr "NOT_TRANSLATED"
+
+msgid ":ref:`md_gromacs_top` を参照してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "LAMMPS"
+msgstr "NOT_TRANSLATED"
+
+msgid ":ref:`md_lammps_top` を参照してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Amber"
+msgstr "NOT_TRANSLATED"
+
+msgid ":ref:`md_amber_top` を参照してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "MODYLAS"
+msgstr "NOT_TRANSLATED"
+
+msgid "MODYLASのキーワード設定、計算の実行、アニメーションの表示、エネルギーの表示を行います。"
+msgstr "NOT_TRANSLATED"
+
+msgid "基本的には :ref:`md_gromacs_top` と類似の挙動を示します。"
+msgstr "NOT_TRANSLATED"
+

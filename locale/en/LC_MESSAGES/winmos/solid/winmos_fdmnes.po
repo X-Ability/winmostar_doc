@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOT_TRANSLATED"
+"Project-Id-Version: Winmostar user manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 15:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid ":menuselection:`固体 --> FDMNES` メニュー"
+msgstr "NOT_TRANSLATED"
+
+msgid "FDMNESに関するメニューです。"
+msgstr "NOT_TRANSLATED"
+
+msgid "FDMNESをインストールする方法は :ref:`install_install` に記載しています。"
+msgstr "NOT_TRANSLATED"
+
+msgid "キーワード設定"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"FDMNESの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウインドウに戻る場合は "
+":guilabel:`OK` ボタンを押してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`solid_fdmnes_start` を参照してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid ":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Target Atom"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"XAFSスペクトルの測定対象の原子(Absorber)を指定します。 :guilabel:`Set Atom` "
+"ボタンをクリックすると、メインウインドウでマーカーが付いた原子が設定されます。。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Edge"
+msgstr "NOT_TRANSLATED"
+
+msgid "取得したいXAFSスペクトルの電子殻を選択します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Range"
+msgstr "NOT_TRANSLATED"
+
+msgid "取得したいXAFSスペクトルの範囲を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Cluster Radius"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"FDMNES内部にてシミュレーションセル（スーパーセル）を展開して作成されるクラスタの半径を指定します。 "
+"この値が大きいほどバルクの状態に近づきますが、処理速度は低下します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Method"
+msgstr "NOT_TRANSLATED"
+
+msgid "計算手法を選択します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Convolution"
+msgstr "NOT_TRANSLATED"
+
+msgid "ローレンツ関数で畳み込みブロードニングしたスペクトルを取得します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Calc LDOS"
+msgstr "NOT_TRANSLATED"
+
+msgid "局所状態密度（LDOS）を、ファイル名末尾が_sd*.txtとなっているファイルの中に出力します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "Definition for Energy"
+msgstr "NOT_TRANSLATED"
+
+msgid "XAFSスペクトルを表示する際の横軸（エネルギー）の定義を指定します。"
+msgstr "NOT_TRANSLATED"
+
+msgid "実行"
+msgstr "NOT_TRANSLATED"
+
+msgid "FDMNESを実行します。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"実行に伴い以下のファイルが生成されます。（主要なファイルのみ表示） 例として入力ファイルが :file:`cu.fdmnes` "
+"の時のファイル/フォルダ名を併記しています。"
+msgstr "NOT_TRANSLATED"
+
+msgid "種類"
+msgstr "NOT_TRANSLATED"
+
+msgid "説明"
+msgstr "NOT_TRANSLATED"
+
+msgid "pwoutファイル"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`cu.log`"
+msgstr "NOT_TRANSLATED"
+
+msgid "計算のログファイルです。"
+msgstr "NOT_TRANSLATED"
+
+msgid "batファイル"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`cu.bat`"
+msgstr "NOT_TRANSLATED"
+
+msgid "FDMNESを実行するためのバッチファイルです。"
+msgstr "NOT_TRANSLATED"
+
+msgid "convファイル"
+msgstr "NOT_TRANSLATED"
+
+msgid ":file:`cu_conv.txt`"
+msgstr "NOT_TRANSLATED"
+
+msgid "XANESスペクトルなどのデータが記録されたテキストファイルです。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ログを表示 (log)"
+msgstr "NOT_TRANSLATED"
+
+msgid "ログファイルをテキストエディタで開きます。"
+msgstr "NOT_TRANSLATED"
+
+msgid "XAFSスペクトル"
+msgstr "NOT_TRANSLATED"
+
+msgid "convファイル（ :file:`\\*_conv.txt` ）を選択し、XAFSスペクトルを表示します。"
+msgstr "NOT_TRANSLATED"
+

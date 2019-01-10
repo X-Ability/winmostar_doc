@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOT_TRANSLATED"
+"Project-Id-Version: Winmostar user manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 15:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "既知の不具合"
+msgstr "NOT_TRANSLATED"
+
+msgid "Winmostarを管理者権限で起動するとドラッグアンドドロップでファイルを開けない。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"現行のWinmostar (Winmostar "
+"V.8)では、Winmostarを管理者権限で起動するとドラッグアンドドロップでファイルを開けません。将来的に修正予定ですが、作業時期は未定です。(2018年5月24日報告)"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"Windowsの\"Use Unicode UTF-8 for worldwide language "
+"support\"オプションを有効にすると一部のソフトが動作しなくなる。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"英語版Windows 10(1803)において、[Control Panel]-[Region]-[Administrative]-[Change"
+" system locate...]-[Use Unicode UTF-8 for worldwide language "
+"support]にチェックが入っていると、FDMNESの実行に失敗するという報告がありました。FDMNES実行時に読まれるfdmfile.txtがBOM付で出力されることによる不具合です。問題が発生したタイミングでWinmostarを順次対応させていますが、他の機能で同様の問題が発生した場合はご連絡ください。（2018年5月25日報告）"
+msgstr "NOT_TRANSLATED"
+
+msgid "Animation、Submit Jobなどの一部のサブウインドウを開き、閉じた後にまた開こうとしても出現しない。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ごく一部の環境で確認されています。出現しない場合は、Alt+スペースキーを押すと[元のサイズに戻す][移動][サイズ変更]...などのメニューが出現するので、[移動]を選択しドラッグ操作するとウインドウが再度出現します。あるいは、Winmostarを再起動することで一旦解消します。現在、よりよい対処方法を検討中です。（2018年6月14日報告）"
+msgstr "NOT_TRANSLATED"
+
+msgid "Animationウインドウ下部のグラフ表示が崩れる。その他UIの表示が崩れる。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"デスクトップのテキストやその他の項目のサイズをデフォルト値（100 %）から変更している場合は、表示が崩れます。 "
+"Windows8の場合は[コントロールパネル]-[デスクトップのカスタマイズ]-[ディスプレイ]-[すべての項目のサイズを変更する]を[小-100%(規定)]に設定してください。"
+" Windows10の場合は[Windowsの設定]-[システム]-[ディスプレイ]-[カスタムスケーリング]を「100」に設定してください。 "
+"（2018年6月26日報告）"
+msgstr "NOT_TRANSLATED"
+
+msgid "ローカルマシンのジョブが流れているコンソールウインドウ内でテキストを範囲選択すると、Job Manager上でそのジョブが終了と認識されてしまう。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"Windows10のコンソールウインドウ上で、実行中のジョブのログのテキストを範囲選択すると、ジョブが終了したと認識されます。これにより不具合が生じる場合は、出力されるログファイルを直接テキストエディタで開き、そこでテキストを範囲選択、コピーなどしてください。範囲選択後、処理が中断する場合は、Enterキーを押すと処理が再開します。Windows10以降で発生します。"
+" （2018年7月20日報告）"
+msgstr "NOT_TRANSLATED"
+
+msgid "Fireflyを使った時にRESP電荷を計算できない。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"WinmostarのRESP電荷算出はGAMESS(US)対象として開発されているため、現状ではFireflyなどを使って構造最適化をした後に、RESP電荷算出時の計算のみGAMESS(US)をお使いください。将来的にはFireflyを使ったRESP電荷計算にも対応予定です。"
+" （2018年7月31日報告）"
+msgstr "NOT_TRANSLATED"
+
+msgid "ローカルマシンでGromacsを実行中にGromacsがフリーズする。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"ごく一部のマシン上で、ローカルマシンでGromacsを実行中にGromacsがフリーズします。MD計算の最中に発生し、標準出力の内容が変化しなくなります。フリーズする箇所に再現性がありません。このような場合は、Gromacsキーワード設定の「#"
+" of "
+"Threads」を1にすると回避できます。無論処理は遅くなるので、本格的な計算を流したい場合はリモートサーバを利用したリモートジョブ投入機能をお使いください。"
+" （2018年7月31日報告）"
+msgstr "NOT_TRANSLATED"
+

@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOT_TRANSLATED"
+"Project-Id-Version: Winmostar user manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 15:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "Winmostar :sup:`TM` マニュアル"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"本書には、Winmostar(TM)の各機能の動作・操作方法が書かれています。 本書の最新版は `公式サイト "
+"<https://winmostar.com/>`_ から入手可能です。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"Winmostar(TM)を初めて使う方は `ビギナーズガイド "
+"<https://winmostar.com/jp/tutorials/V8/BeginnersGuide_V8.pdf>`_ "
+"を参照してください。"
+msgstr "NOT_TRANSLATED"
+
+msgid "ご不明点がある場合、予想通りに動かない場合は、 随時更新されている :ref:`faq_top` をご確認ください。"
+msgstr "NOT_TRANSLATED"
+
+msgid ""
+"化学反応解析や特定の物性の算出など、目的別の具体的な操作手順は、 `各種チュートリアル "
+"<https://winmostar.com/jp/manual_jp.html>`_ に参照してください。"
+msgstr "NOT_TRANSLATED"
+
