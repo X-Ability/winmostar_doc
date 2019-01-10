@@ -195,4 +195,4 @@ epub_exclude_files = ['search.html']
 locale_dirs = ['../locale/']
 gettext_compact = False
 gettext_location = False
-latex_docclass = {'manual': 'jsbook'}
+latex_docclass = {'manual': 'report'}
