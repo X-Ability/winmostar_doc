@@ -27,6 +27,11 @@ pip install sphinx-intl
 pip install sphinx_rtd_theme
 sudo apt install texlive-lang-cjk xdvik-ja evince texlive-full
 
+# to install pdftk...
+sudo add-apt-repository ppa:malteworld/ppa
+sudo apt update
+sudo apt install pdftk
+
 以降、ビルドするためには毎回
 source activate sphinx_env
 が必要だが、面倒な場合は~/.bashrcに書いてしまう。
@@ -61,10 +66,10 @@ $ bash rst2po.sh
 2) locale/en/LC_MESSAGES/*.poを翻訳する。
 
 3) 以下のコマンドで英語版htmlを生成する。
-$ bash po2target.sh
+$ bash po2html.sh
 
 4) 以下のコマンドで英語版pdfを生成する。途中でエラーが出るが、Enterキーを押してスキップする。
-$ bash po2target.sh
+$ bash po2pdf.sh
 
 
 
