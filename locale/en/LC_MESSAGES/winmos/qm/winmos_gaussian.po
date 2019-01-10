@@ -1,0 +1,633 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid ":menuselection:`QM --> Gaussian` メニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "Gaussianに関するメニューです。"
+msgstr "NOTTRANSLATED"
+
+msgid "Gaussianを利用するためには別途Gaussianをインストールする必要があります。"
+msgstr "NOTTRANSLATED"
+
+msgid "キーワード設定"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"Gaussianの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` "
+"ボタン、一旦メインウインドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`qm_gaussian_start` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 :guilabel:`Save as Default` "
+"ボタンで現在の状態をデフォルトの状態として保存します。 :menuselection:`Save as Default --> Clear "
+"Default Settings` で保存されてデフォルトの状態を出荷時の状態に戻します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Easy Setup"
+msgstr "NOTTRANSLATED"
+
+msgid "簡易設定画面を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "%nprocshared"
+msgstr "NOTTRANSLATED"
+
+msgid "並列数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Link0"
+msgstr "NOTTRANSLATED"
+
+msgid "#nproc=n"
+msgstr "NOTTRANSLATED"
+
+msgid "プロセッサ数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "#Chk=file"
+msgstr "NOTTRANSLATED"
+
+msgid "チェックポイントファイルを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "#Mem=n"
+msgstr "NOTTRANSLATED"
+
+msgid "動的メモリ量をワード単位で指定します。KB, MB, GB, KW, MB, GWの単位を指定することもできます。（デフォルト：6MW）"
+msgstr "NOTTRANSLATED"
+
+msgid "Comment"
+msgstr "NOTTRANSLATED"
+
+msgid "コメントを記述します。"
+msgstr "NOTTRANSLATED"
+
+msgid "#"
+msgstr "NOTTRANSLATED"
+
+msgid "ルートセクションの始まりを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "#N"
+msgstr "NOTTRANSLATED"
+
+msgid "標準レベルで出力を行います。（デフォルト）"
+msgstr "NOTTRANSLATED"
+
+msgid "#P"
+msgstr "NOTTRANSLATED"
+
+msgid "詳細な出力を行います。各リンクの開始時と終了時における実行時間などや，SCFの収束に関する情報が出力されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "#T"
+msgstr "NOTTRANSLATED"
+
+msgid "重要な情報と結果のみを出力する簡潔な出力を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Hamiltonian"
+msgstr "NOTTRANSLATED"
+
+msgid "使用するハミルトニアンを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "hf"
+msgstr "NOTTRANSLATED"
+
+msgid "Hartree-Fock計算を行います。明示的に指定されない限り，一重項にはRHFを，それより高次の多重度ではUHFを用います。"
+msgstr "NOTTRANSLATED"
+
+msgid "rhf"
+msgstr "NOTTRANSLATED"
+
+msgid "Restricted Hartree-Fock計算を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid "uhf"
+msgstr "NOTTRANSLATED"
+
+msgid "Unrestricted Hartree-Fock計算を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid "am1"
+msgstr "NOTTRANSLATED"
+
+msgid "AM1ハミルトニアン を用いた半経験的計算を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid "pm3"
+msgstr "NOTTRANSLATED"
+
+msgid "PM3ハミルトニアン を用いた半経験的計算を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid "pm3mm"
+msgstr "NOTTRANSLATED"
+
+msgid "HCON結合に関する分子力学補正が含まれたPM3ハミルトニアン を用いた半経験的計算を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid "b3lyp"
+msgstr "NOTTRANSLATED"
+
+msgid "Becke3汎関数にLYP非局所相関汎関数を組み合わせた密度汎関数法計算を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid "ub3lyp"
+msgstr "NOTTRANSLATED"
+
+msgid "b3lypのUnrestricted版です。"
+msgstr "NOTTRANSLATED"
+
+msgid "mp2"
+msgstr "NOTTRANSLATED"
+
+msgid "Hartree-Fock計算の後に２次までのMoller-Plesset相関エネルギー補正を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid "ump2"
+msgstr "NOTTRANSLATED"
+
+msgid "mp2のUnrestricted版です。"
+msgstr "NOTTRANSLATED"
+
+msgid "mp4"
+msgstr "NOTTRANSLATED"
+
+msgid "Hartree-Fock計算の後に４次までのMoller-Plesset相関エネルギー補正を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid "ump4"
+msgstr "NOTTRANSLATED"
+
+msgid "mp4のUnrestricted版です。"
+msgstr "NOTTRANSLATED"
+
+msgid "cis"
+msgstr "NOTTRANSLATED"
+
+msgid "一電子励起CIを用いて励起状態を計算します。"
+msgstr "NOTTRANSLATED"
+
+msgid "cisd"
+msgstr "NOTTRANSLATED"
+
+msgid "二電子励起CIを用いて励起状態を計算します。（CIと同義）"
+msgstr "NOTTRANSLATED"
+
+msgid "indo"
+msgstr "NOTTRANSLATED"
+
+msgid "INDOハミルトニアンを用いた半経験的計算を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid "cndo"
+msgstr "NOTTRANSLATED"
+
+msgid "CNDOハミルトニアンを用いた半経験的計算を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid "gvb"
+msgstr "NOTTRANSLATED"
+
+msgid "GVB(General Valence Bond; 一般化原子価結合)計算を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid "oniom"
+msgstr "NOTTRANSLATED"
+
+msgid "ONIOM計算を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid "Basis"
+msgstr "NOTTRANSLATED"
+
+msgid "基底関数セットを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Pop"
+msgstr "NOTTRANSLATED"
+
+msgid "分子軌道の出力や電子密度解析及び原子の電荷分布などを制御します。"
+msgstr "NOTTRANSLATED"
+
+msgid "none"
+msgstr "NOTTRANSLATED"
+
+msgid "分子軌道を出力せず，電子密度解析も行いません。"
+msgstr "NOTTRANSLATED"
+
+msgid "minimal"
+msgstr "NOTTRANSLATED"
+
+msgid "原子の電荷と軌道エネルギーを出力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "regular"
+msgstr "NOTTRANSLATED"
+
+msgid "占有軌道と仮想軌道を5つずつ出力します。密度行列とMulliken電子密度解析も出力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "full"
+msgstr "NOTTRANSLATED"
+
+msgid "すべての占有軌道と仮想軌道を出力します。密度行列とMulliken電子密度解析も出力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Calc. Type"
+msgstr "NOTTRANSLATED"
+
+msgid "EF (Eigen Vector Following)法による構造最適化計算を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid "opt"
+msgstr "NOTTRANSLATED"
+
+msgid "構造最適化を実行します。"
+msgstr "NOTTRANSLATED"
+
+msgid "opt=z-matrix"
+msgstr "NOTTRANSLATED"
+
+msgid "内部座標で構造最適化を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid "opt=modredundant"
+msgstr "NOTTRANSLATED"
+
+msgid "redundant内部座標の定義（探索や束縛情報を含む）を追加・削除・修正ます。構造指定の後に入力セクションが必要です。"
+msgstr "NOTTRANSLATED"
+
+msgid "opt=(ts,noeigentest,calcfc)"
+msgstr "NOTTRANSLATED"
+
+msgid "遷移状態に対する最適化を行います。曲率のテストを行いません。初回に力の定数を計算します"
+msgstr "NOTTRANSLATED"
+
+msgid "irc"
+msgstr "NOTTRANSLATED"
+
+msgid "反応経路を追跡します"
+msgstr "NOTTRANSLATED"
+
+msgid "irc=(maxpoint=20, stepsize=20t, calcfc)"
+msgstr "NOTTRANSLATED"
+
+msgid "反応経路を追跡します。経路上の点の個数とステップサイズを指定します。初回に力の定数を計算します"
+msgstr "NOTTRANSLATED"
+
+msgid "MaxCyc"
+msgstr "NOTTRANSLATED"
+
+msgid "最適化ステップの最大数を設定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Freq"
+msgstr "NOTTRANSLATED"
+
+msgid "freq"
+msgstr "NOTTRANSLATED"
+
+msgid "力の定数と振動数の計算を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid "freq=raman"
+msgstr "NOTTRANSLATED"
+
+msgid "IR強度に加えてラマン強度も計算します。"
+msgstr "NOTTRANSLATED"
+
+msgid "freq=vcd"
+msgstr "NOTTRANSLATED"
+
+msgid "通常の振動数解析に加えて振動円二色性(VCD)強度を計算します"
+msgstr "NOTTRANSLATED"
+
+msgid "freq=noraman"
+msgstr "NOTTRANSLATED"
+
+msgid "Hartree-Fock解析的振動数計算でラマン強度を求めません。"
+msgstr "NOTTRANSLATED"
+
+msgid "freq=nraman"
+msgstr "NOTTRANSLATED"
+
+msgid "電場に関する解析的双極子導関数を数値的に微分することによって分極率導関数を求めます。"
+msgstr "NOTTRANSLATED"
+
+msgid "freq=nnraman"
+msgstr "NOTTRANSLATED"
+
+msgid "核座標に関する解析的分極率を数値微分して分極率導関数を求めます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Charge"
+msgstr "NOTTRANSLATED"
+
+msgid "電荷の値を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Multiplicity"
+msgstr "NOTTRANSLATED"
+
+msgid "多重度を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Td"
+msgstr "NOTTRANSLATED"
+
+msgid "td"
+msgstr "NOTTRANSLATED"
+
+msgid "時間依存(time-dependent)Hartree-FockまたはDFT法を用いて励起状態のエネルギー計算を行います"
+msgstr "NOTTRANSLATED"
+
+msgid "td=(nstates=n)"
+msgstr "NOTTRANSLATED"
+
+msgid "n個の状態に対して時間依存計算法を用いて励起状態のエネルギーを求めます。（デフォルト 3）"
+msgstr "NOTTRANSLATED"
+
+msgid "gfinput"
+msgstr "NOTTRANSLATED"
+
+msgid "基底関数系を入力フォーマットと同様な形式で出力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "gfprint"
+msgstr "NOTTRANSLATED"
+
+msgid "基底関数系を表形式で出力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "nosymm"
+msgstr "NOTTRANSLATED"
+
+msgid "座標の再配向を行わず，Z-matrix 配向ですべての計算を実行します。"
+msgstr "NOTTRANSLATED"
+
+msgid "guess=read"
+msgstr "NOTTRANSLATED"
+
+msgid "チェックポイントファイルから初期波動関数を読み込みます"
+msgstr "NOTTRANSLATED"
+
+msgid "geom=check"
+msgstr "NOTTRANSLATED"
+
+msgid "分子指定セクションをチェックポイントファイルから取り出します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Others"
+msgstr "NOTTRANSLATED"
+
+msgid "その他のキーワードを記入します。"
+msgstr "NOTTRANSLATED"
+
+msgid "キーワード読み込み"
+msgstr "NOTTRANSLATED"
+
+msgid "既存のGaussianの入力ファイルから、キーワード（計算条件）のみを読み込みます。"
+msgstr "NOTTRANSLATED"
+
+msgid "実行"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"メインウインドウでGaussianの入力ファイルが開かれている場合は、そのファイルを使ってGaussianを実行します。 "
+"開かれていない場合は、Gaussianの入力ファイルを保存した上でGaussianを実行します。"
+msgstr "NOTTRANSLATED"
+
+msgid "入力ファイルを保存する際に、 :ref:`file_coordinateformat` の選択肢に応じて座標の出力フォーマットが変化します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Gaussianのプログラムパスは、 :menuselection:`ツール --> 環境設定 --> プログラムパス` で変更することができます。"
+msgstr "NOTTRANSLATED"
+
+msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.gjf` の時のファイル/フォルダ名を併記しています。"
+msgstr "NOTTRANSLATED"
+
+msgid "種類"
+msgstr "NOTTRANSLATED"
+
+msgid "説明"
+msgstr "NOTTRANSLATED"
+
+msgid "logファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`water.log`"
+msgstr "NOTTRANSLATED"
+
+msgid "計算のログファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid "batファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`water.gjf.bat`"
+msgstr "NOTTRANSLATED"
+
+msgid "Gaussianを実行するためのバッチファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid "ログを表示 (log/out)"
+msgstr "NOTTRANSLATED"
+
+msgid "logファイルをテキストエディタで開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid "アニメーション"
+msgstr "NOTTRANSLATED"
+
+msgid "logファイルの情報から構造最適化計算のアニメーションを作成し表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "アニメーション (IRC/modred)"
+msgstr "NOTTRANSLATED"
+
+msgid "logファイルの情報からIRC計算のアニメーションを作成し表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "分子軌道, UV-Vis, 電荷, NMR"
+msgstr "NOTTRANSLATED"
+
+msgid "logファイルの情報から分子軌道, UV-Vis, 電荷, NMRの情報を取得し表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"読み込まれた電荷の情報は :menuselection:`表示 --> ラベル/電荷 --> Mulliken電荷` "
+"などを選択することで分子表示エリアに表示することができます。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"サブウインドウの操作方法は :ref:`mo_top` , :ref:`cube_top` , :ref:`uvvis_top` , "
+":ref:`nmr_top` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "IR/ラマンスペクトル"
+msgstr "NOTTRANSLATED"
+
+msgid "logファイルを選択し、振動スペクトル（IRまたはラマンスペクトル）を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "サブウインドウの操作方法は :ref:`ir_top` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "Archive"
+msgstr "NOTTRANSLATED"
+
+msgid "Gaussianの出力のアーカイブ部分の高精度座標を読み込みます。"
+msgstr "NOTTRANSLATED"
+
+msgid "FormChk"
+msgstr "NOTTRANSLATED"
+
+msgid "G09W,G03WユーティリティのFormchkを起動し、.chkファイルから書式付の.fchファイルを作成し、表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Fchkファイル読み込み (Cubegen)"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"G09W,G03WユーティリティのCubegenを起動し、.fchファイルを読込んでCubeファイルを作成します。 "
+"Cubegenがない場合は、Winmostar内臓のOpenCubegenを使います。"
+msgstr "NOTTRANSLATED"
+
+msgid "サブウインドウの操作方法は :ref:`cube_top` と以下を参考にしてください。"
+msgstr "NOTTRANSLATED"
+
+msgid "Property"
+msgstr "NOTTRANSLATED"
+
+msgid "MO"
+msgstr "NOTTRANSLATED"
+
+msgid "分子軌道"
+msgstr "NOTTRANSLATED"
+
+msgid "Density"
+msgstr "NOTTRANSLATED"
+
+msgid "電子密度"
+msgstr "NOTTRANSLATED"
+
+msgid "ESP"
+msgstr "NOTTRANSLATED"
+
+msgid "Spin"
+msgstr "NOTTRANSLATED"
+
+msgid "スピン密度（α - β）"
+msgstr "NOTTRANSLATED"
+
+msgid "Alpha"
+msgstr "NOTTRANSLATED"
+
+msgid "αスピン密度"
+msgstr "NOTTRANSLATED"
+
+msgid "Beta"
+msgstr "NOTTRANSLATED"
+
+msgid "βスピン密度"
+msgstr "NOTTRANSLATED"
+
+msgid "Current Density"
+msgstr "NOTTRANSLATED"
+
+msgid "Shielding Density"
+msgstr "NOTTRANSLATED"
+
+msgid "Type"
+msgstr "NOTTRANSLATED"
+
+msgid "Density キーワードのオプションを指定します。（HF, MP2, CI, QCI）"
+msgstr "NOTTRANSLATED"
+
+msgid "Cube"
+msgstr "NOTTRANSLATED"
+
+msgid "Cubeファイルを出力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Cubeファイル読み込み"
+msgstr "NOTTRANSLATED"
+
+msgid "Cube形式ファイルを読込んで表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "GAMESSのpunファイルの場合は、Cubeファイルに変換します。"
+msgstr "NOTTRANSLATED"
+
+msgid "cube Manipulation"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`File 1` と :guilabel:`File 2` に指定したcubeファイルに対して操作を実行します。"
+msgstr "NOTTRANSLATED"
+
+msgid "map"
+msgstr "NOTTRANSLATED"
+
+msgid "上の欄のデータに下の欄のデータをマッピングします。（例　DensityにESPをマッピングする）"
+msgstr "NOTTRANSLATED"
+
+msgid "subtract"
+msgstr "NOTTRANSLATED"
+
+msgid "2つのcubeファイルのデータの差を対象とします。"
+msgstr "NOTTRANSLATED"
+
+msgid "sub 2"
+msgstr "NOTTRANSLATED"
+
+msgid "2つのcubeファイルのデータの自乗の差を対象とします。"
+msgstr "NOTTRANSLATED"
+
+msgid "add"
+msgstr "NOTTRANSLATED"
+
+msgid "2つのcubeファイルの和を対象とします。"
+msgstr "NOTTRANSLATED"
+
+msgid "Mapで対象としたcubeファイルの演算結果を出力し表示の対象とします。"
+msgstr "NOTTRANSLATED"
+
+msgid "Cubegen"
+msgstr "NOTTRANSLATED"
+
+msgid "Cubegenを起動し、fchファイルを読込んでCubeファイルを作成します。詳細は :ref:`gaussian_fchk` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "PIO解析"
+msgstr "NOTTRANSLATED"
+
+msgid "Paired Interacting Orbitals解析を実行します。 詳細は :ref:`pio_top` を参照してください。"
+msgstr "NOTTRANSLATED"
+

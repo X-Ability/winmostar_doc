@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "基本的な操作の流れ"
+msgstr "NOTTRANSLATED"
+
+msgid "ここでは、Winmostarを用いて量子化学計算、分子動力学計算、あるいは第一原理計算を流す基本的な流れを紹介します。"
+msgstr "NOTTRANSLATED"
+
+msgid "初期構造を作成"
+msgstr "NOTTRANSLATED"
+
+msgid ":ref:`createsystem_top` の手順で、計算したい系を作成します。"
+msgstr "NOTTRANSLATED"
+
+msgid "計算条件（キーワード）の設定"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"上部のツールバーの1行目中央の :guilabel:`ソルバを選択` プルダウンメニュー |solver| で使用したいソルバを選び、 "
+":guilabel:`キーワード設定` ボタン |toolbar_configure| をクリックします。"
+msgstr "NOTTRANSLATED"
+
+msgid "いくつかのソルバでは、キーワードの欄にポインタを重ねると、そのキーワードの意味が出現します。"
+msgstr "NOTTRANSLATED"
+
+msgid "計算の実行"
+msgstr "NOTTRANSLATED"
+
+msgid "WinmostarをインストールしたWindows PC上で計算を実行する場合（ **ローカルジョブ** ）"
+msgstr "NOTTRANSLATED"
+
+msgid "キーワード設定ウインドウが開いた状態で :guilabel:`Run` ボタンを押します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"キーワード設定ウインドウを :guilabel:`OK` ボタンを押して閉じます。 メインウインドウの :ref:`キーワード表示エリア "
+"<gui_main>` にキーワードが反映されるので、キーワードを直接編集したい場合は、この段階でキーワード表示エリアを編集するか、 "
+":ref:`file_editor` から任意のテキストエディタを用いて入力ファイルを編集します。 その後、ツールバーの "
+":guilabel:`実行` ボタン |toolbar_run| をクリックします。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":guilabel:`Run` または :guilabel:`実行` "
+"をクリックした後、入力ファイルが保存されていない場合は入力ファイルの名前を入力すると保存され、続けて :ref:`winmosjm_top` "
+"にジョブが登録されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ":ref:`winmosjm_top` は登録されたジョブを順番に処理します。"
+msgstr "NOTTRANSLATED"
+
+msgid "WinmostarをインストールしたPCにネットワークで接続されたLinuxマシン上で実行する場合（ **リモートジョブ** ）"
+msgstr "NOTTRANSLATED"
+
+msgid "キーワード設定ウインドウを :guilabel:`OK` ボタンを押して閉じます。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"次に、ツールバーの :guilabel:`リモートジョブ投入` ボタン |toolbar_submit| "
+"をクリックしサーバへの接続設定を行います。 その後、 :guilabel:`Submit Remoet Job` ウインドウ上の "
+":guilabel:`Send & Submit` "
+"ボタンを押し、入力ファイルの保存、転送（Send）とリモートサーバでのジョブの登録（Submit）を一度に行います。"
+msgstr "NOTTRANSLATED"
+
+msgid "リモートサーバ上では登録されたジョブが順番に実行されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"リモートサーバ上でジョブが終了したら :guilabel:`Get All Files` "
+"ボタンを押して、WinmostarをインストールしたWindows PC上に計算から出力されたファイルを転送します。"
+msgstr "NOTTRANSLATED"
+
+msgid "詳細は :ref:`remote_procedure` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "ログの確認"
+msgstr "NOTTRANSLATED"
+
+msgid "ツールバーの :guilabel:`ログを表示` ボタン |toolbar_openlog| を選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "どのファイルを開くか聞かれるが、ログを確認したい計算の入力ファイルがメインウインドウに表示されている場合は、デフォルトで選択されるファイルを開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid "ログファイルがテキストエディタで表示されるので、ジョブが正常あるいは異常終了したか確認します。"
+msgstr "NOTTRANSLATED"
+
+msgid "各種物理量の表示、解析"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"ジョブが正常終了している場合は、ツールバーの :guilabel:`結果解析` ボタン |toolbar_analysis| "
+"を押して、表示したい物理量のメニューを選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"どのファイルを開くか聞かれるため、適宜選択します。 複数ファイル選択する場合もあります。 "
+"ログの確認時と同様に、メインウインドウに表示されているファイルに紐づけられたものがデフォルトで選択されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "ファイルを指定すると、結果表示用のウインドウが表示されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"構造最適化の過程やトラジェクトリを可視化する場合はツールバーの :guilabel:`アニメーション` ボタン "
+"|toolbar_animation| を押します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"SCFやMD計算中のエネルギーや温度などの変化をグラフ化する場合は、ツールバーの :guilabel:`エネルギー変化` ボタン "
+"|toolbar_energyplot| を押します。"
+msgstr "NOTTRANSLATED"
+
+msgid "分子形状の解析については、別途 :ref:`tools_top` 以下に機能が用意されています。"
+msgstr "NOTTRANSLATED"
+
+msgid "ジョブの延長、継続"
+msgstr "NOTTRANSLATED"
+
+msgid "ジョブの延長や継続が必要な場合は、再度キーワード設定ウインドウを開き、ジョブを開始します。"
+msgstr "NOTTRANSLATED"
+
+msgid "MDについては、キーワード設定ウインドウで :guilabel:`Extending Simulation` にチェックを入れます。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"Quantum ESPRESSOについては、キーワード設定ウインドウで :guilabel:`Output Direcotory` に "
+":guilabel:`Continue` を指定しますd。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"その他、例えば半経験QM、QMの構造最適化計算の後に計算を流したい場合は、一旦 ツールバーの :guilabel:`アニメーション` ボタン "
+"|toolbar_animation| を押して、最終構造をメインウインドウに表示したうえで、継続ジョブのキーワード設定を行います。"
+msgstr "NOTTRANSLATED"
+

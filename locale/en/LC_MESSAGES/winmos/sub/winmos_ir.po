@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "IR Spectrumウインドウ"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"IRスペクトルおよびラマンスペクトルを表示します。 "
+"左側のリストには振動数、IR強度、ラマン強度、右側のグラフにはそれらがブロードニングされた上で表示されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"GAMESSにおいて、IRスペクトルを読み込んだ状態で追加でラマンスペクトルを読み込むと両方のスペクトルを同時に表示することができます。 "
+"グラフ上でクリックすると、その位置に近いピークの行がリスト内で選択されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Freq. Scaling"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"系統的な誤差を補正するための周波数のスケーリングファクターを選択します。プルダウンメニューから、計算に使用した手法・基底関数の値を選択します。 "
+":guilabel:`Edit` ボタンを押すとスケーリングファクターの一覧を編集することができます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Raman"
+msgstr "NOTTRANSLATED"
+
+msgid "Raman Activity / Depolar (P) / Depolar (U) を選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "IR"
+msgstr "NOTTRANSLATED"
+
+msgid "IRスペクトルを表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Animation"
+msgstr "NOTTRANSLATED"
+
+msgid "選択されたピークの振動状態をアニメーション表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Vector"
+msgstr "NOTTRANSLATED"
+
+msgid "選択されたピークの振動状態をベクトル表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Magnitude"
+msgstr "NOTTRANSLATED"
+
+msgid "アニメーション表示における振幅、ベクトル表示における長さを調整します。"
+msgstr "NOTTRANSLATED"
+
+msgid "X Range"
+msgstr "NOTTRANSLATED"
+
+msgid "横軸の範囲を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Reverse"
+msgstr "NOTTRANSLATED"
+
+msgid "横軸軸を反転して表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Y Scale"
+msgstr "NOTTRANSLATED"
+
+msgid "縦軸の縮尺を変更します。"
+msgstr "NOTTRANSLATED"
+
+msgid "縦軸の上下を反転して表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Broadening"
+msgstr "NOTTRANSLATED"
+
+msgid "ブロードニングの半値幅を設定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Export"
+msgstr "NOTTRANSLATED"
+
+msgid "ファイル出力する形式を選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Open Excel"
+msgstr "NOTTRANSLATED"
+
+msgid "csvファイルを出力して開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Save Image"
+msgstr "NOTTRANSLATED"
+
+msgid "グラフをGIFまたはJPEGで保存します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Copy Image"
+msgstr "NOTTRANSLATED"
+
+msgid "グラフをクリップボードにコピーします。"
+msgstr "NOTTRANSLATED"
+
+msgid "Close"
+msgstr "NOTTRANSLATED"
+
+msgid "このウインドウを閉じます。"
+msgstr "NOTTRANSLATED"
+

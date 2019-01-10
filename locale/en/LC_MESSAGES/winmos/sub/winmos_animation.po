@@ -1,0 +1,173 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "Animationウインドウ"
+msgstr "NOTTRANSLATED"
+
+msgid "ウインドウ左のリストには、各フレームのステップ数、エネルギー、力などを表示します。リストの各行をクリックするとその行に対応するフレームがメインウインドウに表示されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "ウインドウ下部では、リスト内の :guilabel:`Column` プルダウンメニューで選択した列の値がグラフ表示されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"アニメーション（トラジェクトリ）データについて本ウインドウから直接結果解析することも可能で、詳細は :guilabel:`Tools` "
+"メニューを確認してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "Fileメニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "Realod"
+msgstr "NOTTRANSLATED"
+
+msgid "アニメーションを再度元ファイルから読み込みます。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Reload` ボタンからも操作できます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Export GIF Animation"
+msgstr "NOTTRANSLATED"
+
+msgid "GIFアニメーションファイルを書き出します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Export...` ボタンからも操作できます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Export JPEG Images"
+msgstr "NOTTRANSLATED"
+
+msgid "連番JPEGファイルを書き出します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Export Animated GRO File"
+msgstr "NOTTRANSLATED"
+
+msgid "アニメーションgroファイルを出力します。VMD等との連携に使用できます :guilabel:`Export...` ボタンからも操作できます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Close"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"このウインドウを閉じます。 再度開く場合は :ref:`window_top` :menuselection:`--> Animation` "
+"を選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Close` ボタンからも操作できます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Controlメニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "Go to First Frame"
+msgstr "NOTTRANSLATED"
+
+msgid "最初のフレームに移動します。"
+msgstr "NOTTRANSLATED"
+
+msgid "ウインドウ内のボタンからも操作できます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Play/Pause"
+msgstr "NOTTRANSLATED"
+
+msgid "アニメーションを再生/一時停止します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Go to Last Frame"
+msgstr "NOTTRANSLATED"
+
+msgid "最後のフレームに移動します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Toolsメニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "Distance/Angle Change"
+msgstr "NOTTRANSLATED"
+
+msgid "トラジェクトリ内の指定した原子間の結合長・結合角・二面角を解析します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Bond/Angle Change` ウインドウで、 :guilabel:`Type` を選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":guilabel:`Target Atoms` "
+"にコンマ区切りで計算したい結合長・結合角・二面角を定義する原子を列挙します。:guilabel:`Set` "
+"ボタンをクリックすると、メインウインドウでマーカーが付いた原子を自動で入力することができます。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":guilabel:`Plot` において時間変化（ :guilabel:`Time Change` ）またはヒストグラム（ "
+":guilabel:`Histogram` ）のどちらを出力するか選択する。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Draw` ボタンをクリックします。"
+msgstr "NOTTRANSLATED"
+
+msgid "Extract Trajectory for Selected Group"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウでグループ選択した原子のみを取り出したトラジェクトリファイルを作成します。"
+msgstr "NOTTRANSLATED"
+
+msgid "上下スライダー"
+msgstr "NOTTRANSLATED"
+
+msgid "ドラッグするとフレーム間を移動します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Speed` スライダー"
+msgstr "NOTTRANSLATED"
+
+msgid "再生速度を調整します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Loop` チェックボックス"
+msgstr "NOTTRANSLATED"
+
+msgid "チェックされている場合はループ再生されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Dynamics Bond` チェックボックス"
+msgstr "NOTTRANSLATED"
+
+msgid "スナップショットごとに結合を毎回自動生成します。"
+msgstr "NOTTRANSLATED"
+
+msgid "化学結合が組み変わるMD計算（第一原理MD、CPMD、ReaxFF、DCDFTBMDなど）の際に有用です。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Open Viewer` ボタン"
+msgstr "NOTTRANSLATED"
+
+msgid "現在開いているアニメーションを :ref:`winmos3d_top` を用いて表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Excel` ボタン"
+msgstr "NOTTRANSLATED"
+
+msgid "リストの内容をcsv形式で出力し、Excelを起動して読み込みます。"
+msgstr "NOTTRANSLATED"
+

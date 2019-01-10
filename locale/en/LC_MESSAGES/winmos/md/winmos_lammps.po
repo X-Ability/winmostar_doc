@@ -1,0 +1,1067 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid ":menuselection:`MD --> LAMMPS` メニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "LAMMPSに関するメニューです。"
+msgstr "NOTTRANSLATED"
+
+msgid "LAMMPSをインストールする方法は :ref:`install_install` に記載しています。"
+msgstr "NOTTRANSLATED"
+
+msgid "キーワード設定"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"LAMMPSの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウインドウに戻る場合は "
+":guilabel:`OK` ボタンを押してください。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`md_lammps_start` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 :guilabel:`Save` ボタンでForce "
+"Fieldを除く設定を保存します。 :guilabel:`Load` ボタンで :guilabel:`Save` にて保存した設定を読み込みます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Extending Simulation"
+msgstr "NOTTRANSLATED"
+
+msgid "継続ジョブを実行します。"
+msgstr "NOTTRANSLATED"
+
+msgid "詳細は :ref:`md_lammps_start` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "Preset"
+msgstr "NOTTRANSLATED"
+
+msgid "計算条件のプリセットを指定します。プリセットの内容は、各キーワードから確認できます。"
+msgstr "NOTTRANSLATED"
+
+msgid "MPI"
+msgstr "NOTTRANSLATED"
+
+msgid "MPI並列数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Basic"
+msgstr "NOTTRANSLATED"
+
+msgid "Units"
+msgstr "NOTTRANSLATED"
+
+msgid "単位系を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "real"
+msgstr "NOTTRANSLATED"
+
+msgid "主に分子系で指定します(A, fs, Kcal/mol）。"
+msgstr "NOTTRANSLATED"
+
+msgid "metal"
+msgstr "NOTTRANSLATED"
+
+msgid "主に結晶系で指定します(A, ps, eV）。"
+msgstr "NOTTRANSLATED"
+
+msgid "lj"
+msgstr "NOTTRANSLATED"
+
+msgid "主にDPD計算で指定します(無次元単位）。"
+msgstr "NOTTRANSLATED"
+
+msgid "Atom Style"
+msgstr "NOTTRANSLATED"
+
+msgid "計算する系の種類を指定します。 :guilabel:`Units` に応じて変化します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Pair Style"
+msgstr "NOTTRANSLATED"
+
+msgid "相互作用計算の方法を選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Potential File"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"ポテンシャルファイルを選択します。LAMMPS本体をインストールしたフォルダ直下の :file:`Potential` "
+"フォルダ内のファイルをリストアップします。選択肢は :guilabel:`Pair Style` に応じて変わります。"
+msgstr "NOTTRANSLATED"
+
+msgid "Time Step"
+msgstr "NOTTRANSLATED"
+
+msgid "時間積分の刻み幅を指定します。単位は選択した :guilabel:`Unit` により変わります。"
+msgstr "NOTTRANSLATED"
+
+msgid "# of Time Steps"
+msgstr "NOTTRANSLATED"
+
+msgid "時間積分ステップの最大数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Generate Velocity"
+msgstr "NOTTRANSLATED"
+
+msgid "チェックをした場合は初速度が与えられます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Ensemble"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"時間積分の種類を指定します。 ``nvt`` （温度一定のカノニカルアンサンブル）,  ``npt`` （温度、圧力一定のアンサンブル）,  "
+"``nve`` （体積とエネルギー一定のミクロカノニカルアンサンブル）,  ``minimize`` "
+"（CG法によるエネルギー最小化）のいずれかを選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Temperature"
+msgstr "NOTTRANSLATED"
+
+msgid "目標温度を指定します。アニーリング計算時には始状態の温度を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Pressure"
+msgstr "NOTTRANSLATED"
+
+msgid "目標圧力を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Pressure Control"
+msgstr "NOTTRANSLATED"
+
+msgid "圧力制御の際のセルの動かし方を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Constrain Hydrogen"
+msgstr "NOTTRANSLATED"
+
+msgid "水素原子をSHAKE法で拘束します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Advance"
+msgstr "NOTTRANSLATED"
+
+msgid "Boundary X Y Z"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"周期境界条件を指定します。 ``p`` （periodic）, ``f`` （non-periodic and fixed）, ``s`` "
+"（non-periodic and shrink-wrapped）,  ``m`` （non-periodic and shrink-"
+"wrapped with a minimum value）のいずれかを選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Energy Tolerance"
+msgstr "NOTTRANSLATED"
+
+msgid "minimize計算時のエネルギーに関する打ち切り誤差を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Force Tolerance"
+msgstr "NOTTRANSLATED"
+
+msgid "minimize計算時の力に関する打ち切り誤差を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Tdamp"
+msgstr "NOTTRANSLATED"
+
+msgid "温度制御の時定数パラメータを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Pdamp"
+msgstr "NOTTRANSLATED"
+
+msgid "圧力制御の時定数パラメータを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Reset COM Motion"
+msgstr "NOTTRANSLATED"
+
+msgid "MD計算時に系全体の重心の運動を凍結する方法を選びます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Reset Interval"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Reset COM Motion` の頻度をタイムステップで指定します"
+msgstr "NOTTRANSLATED"
+
+msgid "Random Seed"
+msgstr "NOTTRANSLATED"
+
+msgid "初速度発生時の擬似乱数の種を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Tchain"
+msgstr "NOTTRANSLATED"
+
+msgid "Nose-Hoover chainの段数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Pchain"
+msgstr "NOTTRANSLATED"
+
+msgid "圧力制御の段数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "box tilt large"
+msgstr "NOTTRANSLATED"
+
+msgid "シミュレーションセルの変形の許容度合を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "rigid"
+msgstr "NOTTRANSLATED"
+
+msgid "分子を剛体として扱います。"
+msgstr "NOTTRANSLATED"
+
+msgid "SHAKE tolerance"
+msgstr "NOTTRANSLATED"
+
+msgid "SHAKE法の打ち切り誤差を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Output"
+msgstr "NOTTRANSLATED"
+
+msgid "Dump Interval (dump)"
+msgstr "NOTTRANSLATED"
+
+msgid "dump形式で座標を出力する頻度をタイムステップ数で指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Dump Interval (xtc)"
+msgstr "NOTTRANSLATED"
+
+msgid "xtc形式で座標を出力する頻度をタイムステップ数で指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Dump Interval (xyz)"
+msgstr "NOTTRANSLATED"
+
+msgid "xyz形式で座標を出力する頻度をタイムステップ数で指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Log Interval"
+msgstr "NOTTRANSLATED"
+
+msgid "log ファイルにエネルギー変数を書き出す頻度をタイムステップ数で指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Calculate Thermal Conductivity"
+msgstr "NOTTRANSLATED"
+
+msgid "原子の流速の自己相関関数から算出する熱伝導率を出力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Calc Interval"
+msgstr "NOTTRANSLATED"
+
+msgid "熱伝導率計算における自己相関関数の算出頻度を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "ACF Length"
+msgstr "NOTTRANSLATED"
+
+msgid "熱伝導率計算における自己相関関数の長さを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Interaction"
+msgstr "NOTTRANSLATED"
+
+msgid "Cutoff(vdw)"
+msgstr "NOTTRANSLATED"
+
+msgid "vdw(LJ)ポテンシャルのカットオフ半径を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Cutoff(Coulomb)"
+msgstr "NOTTRANSLATED"
+
+msgid "Coulomb(静電)ポテンシャルのカットオフ半径を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Neighbor Search"
+msgstr "NOTTRANSLATED"
+
+msgid "近接粒子探索時のアルゴリズムを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Neighbor Skin"
+msgstr "NOTTRANSLATED"
+
+msgid "近接粒子探索時の探索半径の余分を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Automatically set Nmesh"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":guilabel:`Pair Style` = ``lj/cut/coul/long`` の際に使用されるPPPM法のメッシュ数をK-space"
+" accuracyから自動的に設定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Nmesh for kx, ky, kz"
+msgstr "NOTTRANSLATED"
+
+msgid "PPPM法のメッシュ数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "PPPM Order"
+msgstr "NOTTRANSLATED"
+
+msgid "PPPM法のSpline補間次数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "K-space accuracy"
+msgstr "NOTTRANSLATED"
+
+msgid "PPPM法の許容相対誤差を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Enable Long Range Correction"
+msgstr "NOTTRANSLATED"
+
+msgid "vdwポテンシャルのカットオフ補正項の有無を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Non-equiliibrium (1)"
+msgstr "NOTTRANSLATED"
+
+msgid "Enable Elongation"
+msgstr "NOTTRANSLATED"
+
+msgid "伸長計算を有効にします。 :guilabel:`Ensemble` が ``minimize`` 以外の時に指定できます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Affine Transformation"
+msgstr "NOTTRANSLATED"
+
+msgid "伸長計算時に原子位置をシミュレーションセルに合わせてアフィン（相似）変形するか指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Eng. Strain Rate"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"伸長計算時の伸長速度を工業ひずみで指定します。 :guilabel:`Max Eng. Strain` "
+"には最終ステップにおけるひずみの予測値が表示されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Preserve Volume"
+msgstr "NOTTRANSLATED"
+
+msgid "伸長計算時に、シミュレーションセルの体積を一定に保つよう伸長方向に垂直な方向のセルサイズを変形させます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Enable Simulated Annealing"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"アニーリング計算（温度を一定速度で変化させる計算）を有効にします。 :guilabel:`Ensemble` が ``nvt`` , "
+"``npt`` の時に指定できます。 :guilabel:`Temperature` の値が始状態の温度、 :guilabel:`Final "
+"Temperature` の値が終状態の温度となります。"
+msgstr "NOTTRANSLATED"
+
+msgid "Final Temperature"
+msgstr "NOTTRANSLATED"
+
+msgid "アニーリング計算時の終状態の温度を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Annealing Rate"
+msgstr "NOTTRANSLATED"
+
+msgid "アニーリング計算時の加熱または冷却速度が表示されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Enable Pulling"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"指定した原子群を一定速度で移動させるPull計算を有効にします。 :guilabel:`Ensemble` が ``minimize`` "
+"以外の時に指定できます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Pulled Atoms"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"Pull計算時に、 :ref:`グループ選択 <edit_top>` でPullしたい原子（複数可）を選択した上で :guilabel:`Set`"
+" ボタンをクリックすると、その原子がPullのターゲットとなります。"
+msgstr "NOTTRANSLATED"
+
+msgid "Pulled Velocity"
+msgstr "NOTTRANSLATED"
+
+msgid "Pull計算時の、Pull速度を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Restraint"
+msgstr "NOTTRANSLATED"
+
+msgid "Enable Restraint"
+msgstr "NOTTRANSLATED"
+
+msgid "指定した2原子間の距離を拘束した計算を実施します。:guilabel:`Ensemble` が ``minimize`` 以外の時に指定できます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Restrained Atoms"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"拘束計算時に、2原子を :ref:`グループ選択 <edit_top>` し :guilabel:`Set` "
+"ボタンをクリックすると、その原子が拘束のターゲットとなります。"
+msgstr "NOTTRANSLATED"
+
+msgid "Bond Length"
+msgstr "NOTTRANSLATED"
+
+msgid "拘束計算時の、2原子間の拘束距離を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Initial Strength"
+msgstr "NOTTRANSLATED"
+
+msgid "拘束計算時の、始状態における拘束ポテンシャルのバネ係数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Final Strength"
+msgstr "NOTTRANSLATED"
+
+msgid "拘束計算時の、終状態における拘束ポテンシャルのバネ係数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Enable Position Restraint"
+msgstr "NOTTRANSLATED"
+
+msgid "指定した原子の絶対座標を固定した計算を実施します。"
+msgstr "NOTTRANSLATED"
+
+msgid "絶対座標を固定する原子を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Automatic"
+msgstr "NOTTRANSLATED"
+
+msgid "Rescale velocities to.."
+msgstr "NOTTRANSLATED"
+
+msgid "NVEアンサンブルにおいて目標温度に系の温度を近づけたい時に使います。計算中の平均温度とここで入力した温度からスケーリング係数を算出して、最終構造の各粒子の速度をスケーリングします。"
+msgstr "NOTTRANSLATED"
+
+msgid "Rescale box size to.."
+msgstr "NOTTRANSLATED"
+
+msgid "NPTアンサンブルで計算した後に、設定圧力に近い状態でNVEまたはNVTアンサンブルで計算した場合に使用します。最終構造を、計算中の平均セルサイズにスケーリングします。"
+msgstr "NOTTRANSLATED"
+
+msgid "Options"
+msgstr "NOTTRANSLATED"
+
+msgid "Make a Backup of Working Directory"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリのバックアップを行う際に選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Restore Working Directory"
+msgstr "NOTTRANSLATED"
+
+msgid "継続ジョブが異常終了時など、作業ディレクトリを実行前の状態に戻す際にクリックします。"
+msgstr "NOTTRANSLATED"
+
+msgid "Dump all files for remote"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"Linux環境でのジョブ実行に必要なファイルを出力します。 :ref:`remote_top` "
+"機能で生成されるファイルと同じファイルが出力されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Force Field"
+msgstr "NOTTRANSLATED"
+
+msgid "Generate parameters"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウに表示された系に対し、新たに力場パラメータをアサインしトポロジファイル（topファイル）を作成します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Force field"
+msgstr "NOTTRANSLATED"
+
+msgid "(General)"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"タンパク質、水分子以外の分子の力場を指定します。 内部では、GAFF, OPLS/AA-Lの場合は :command:`acpype` "
+"が、Dreidingの場合は内製プログラムが使用されます。 Dreidingの設定は "
+":file:`polymer/dreiding.lib.txt` に書かれています。"
+msgstr "NOTTRANSLATED"
+
+msgid "Exception"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"特定の分子に対し、(General)にて選択した力場を使わず、ユーザが指定するLJパラメータを割り当てます。 "
+"サブウインドウの左の欄にてLJパラメータを指定したい分子にチェックを入れ、右の欄でLJパラメータを入力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "例えば固液界面系において固相の原子にLJパラメータを割り振りたい時などに使用します。"
+msgstr "NOTTRANSLATED"
+
+msgid "(Protein)"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"タンパク質の力場を指定します。ここで、PDBやgroフォーマットにおいてアミノ酸残基の名前が割り当てられている原子がタンパク質として認識されます。内部的には"
+" :command:`gmx pdb2gmx` が使用されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "残基名を含まないファイルから分子構造を読み込んだ場合は本機能を使用できません。"
+msgstr "NOTTRANSLATED"
+
+msgid "(Water)"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"水分子の力場を指定します。 :ref:`md_solvate_buildcell` "
+"で選択した水モデルを指定する必要があります。内部的にはCygwinにインストールされたGromacsのトポロジのライブラリからパラメータを取得します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Charge"
+msgstr "NOTTRANSLATED"
+
+msgid "Assign charges"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":command:`acpype` により算出する電荷を用いてトポロジファイルを作成します。 :guilabel:`Method` "
+"にはその方法を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"ポリマーの場合は :command:`acpype` による電荷の算出に時間がかかるため、あらかじめポリマービルダを用いて系を作成し、 "
+":guilabel:`Use User-defined Charge` にチェックを入れてください。"
+msgstr "NOTTRANSLATED"
+
+msgid "Use user-defined charge"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウ上で設定されている各原子の点電荷の値を用いてトポロジファイルを作成します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"メインウインドウ上で設定されている点電荷の値は、 :ref:`表示ボタンエリア <gui_main>` のアノテーションボタンから "
+":guilabel:`User Charge` などを選択するか、.mol2形式で保存し :ref:`file_editor` "
+"で開くことにより確認できます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Add [position_restraints] for protein"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"タンパク質が存在する場合は :guilabel:`Advance` タブにおける :guilabel:`-POSRES` "
+"で位置を拘束するための情報（ ``[position_restraints]`` "
+"セクション）をトポロジファイルに書き込みます。タンパク質が存在しない場合は無視されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Add [position_restraints] for selected atoms"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` "
+"で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。 "
+"例えば固液界面系に於いて固相を固定する場合などに使用します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Add [distance/angle/dihedral_restraints] for selected atoms"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` "
+"で距離・角度・二面角を拘束するための情報をトポロジファイルに書き込みます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Dump Now"
+msgstr "NOTTRANSLATED"
+
+msgid "現在の設定に基づき、トポロジファイルを生成します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":guilabel:`Load from Existing File` "
+"を選択しない場合はソルバの実行時に自動的にトポロジファイルが生成されるため、この操作は必須ではありません。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"トポロジファイルをエディタ等で編集してカスタマイズしたい場合は、本機能を使用して保存した上で、 :guilabel:`Load from "
+"Existing File` にて選択してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "Load from existing file/Use parameters in displayed file"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"既に存在しているトポロジファイルを用いてMD計算を実行する場合に選択します。 "
+"LAMMPSの場合は、メインウインドウで既に存在しているdataファイルを用いてMD計算を実行する場合に選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Edit"
+msgstr "NOTTRANSLATED"
+
+msgid "選択されたトポロジファイルをテキストエディタで編集する。"
+msgstr "NOTTRANSLATED"
+
+msgid "Generate Simulation Cell"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"メインウインドウにおいてシミュレーションセルが定義されていない場合のみ設定が有効となる。チェックが入っている場合は、メインウインドウに表示された分子の周囲に"
+" :guilabel:`Distance` で指定された距離だけ離れた場所にシミュレーションセルを自動発生させる。"
+msgstr "NOTTRANSLATED"
+
+msgid "LAMMPS実行"
+msgstr "NOTTRANSLATED"
+
+msgid "LAMMPSを実行します。 状況に応じて実行方法が異なります。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"（デフォルト） :guilabel:`Extending Simulation` にチェックがなく、 :menuselection:`Force "
+"Fieldタブ -->` :guilabel:`Generate parameters` にチェックが入っている場合"
+msgstr "NOTTRANSLATED"
+
+msgid "dataファイル（座標とトポロジを含むファイル）を新規に生成してからジョブを開始します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":guilabel:`Extending Simulation` にチェックがなく、 :menuselection:`Force Fieldタブ "
+"-->` :guilabel:`Use parameters in displayed file` にチェックが入っている場合"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウで開かれているdataファイルを使用してジョブを開始します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Extending Simulation` にチェックがある場合"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"メインウインドウで開かれているdataファイルに紐づけられた作業ディレクトリの中にある :file:`lmp_tmp_final.data` "
+"用いてジョブを開始します。"
+msgstr "NOTTRANSLATED"
+
+msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.data` の時のファイル/フォルダ名を併記しています。"
+msgstr "NOTTRANSLATED"
+
+msgid "種類"
+msgstr "NOTTRANSLATED"
+
+msgid "説明"
+msgstr "NOTTRANSLATED"
+
+msgid "outファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`water.log`"
+msgstr "NOTTRANSLATED"
+
+msgid "LAMMPSのログファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid "batファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`water.bat`"
+msgstr "NOTTRANSLATED"
+
+msgid "LAMMPSとそのプリ・ポスト処理を実行するための"
+msgstr "NOTTRANSLATED"
+
+msgid "バッチファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリ"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`water_lmp_tmp\\\\`"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリです。"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリには以下のファイルが生成されます。 ここでは主要なファイルのみ示しています。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`lmp_tmp.data`"
+msgstr "NOTTRANSLATED"
+
+msgid "read_dataで指定される計算の初期状態のファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`lmp_tmp.in`"
+msgstr "NOTTRANSLATED"
+
+msgid "計算条件を指定するファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`lmp_tmp.log`"
+msgstr "NOTTRANSLATED"
+
+msgid "ログファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`water.log` と同じものです。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`lmp_tmp.dump`"
+msgstr "NOTTRANSLATED"
+
+msgid "dump形式のトラジェクトリファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`lmp_tmp.restart`"
+msgstr "NOTTRANSLATED"
+
+msgid "最終状態の情報を含むrestartファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`lmp_tmp_final.data`"
+msgstr "NOTTRANSLATED"
+
+msgid "最終状態の情報を含むdataファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid "restartファイルから生成されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`postproc.sh`"
+msgstr "NOTTRANSLATED"
+
+msgid "LAMMPSが生成する :file:`lmp_tmp_final.data` が、"
+msgstr "NOTTRANSLATED"
+
+msgid "そのままではLAMMPSの実行には不十分なため、"
+msgstr "NOTTRANSLATED"
+
+msgid "不十分な情報を補うための処理を行うスクリプトです。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`lmp_tmp.xtc`"
+msgstr "NOTTRANSLATED"
+
+msgid "結果処理にGromacsツールを使用するための、"
+msgstr "NOTTRANSLATED"
+
+msgid "xtc形式のトラジェクトリファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`lmp_tmp.gro`"
+msgstr "NOTTRANSLATED"
+
+msgid "gro形式の座標ファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid "入力ファイルとして指定されたdataファイルから変換して"
+msgstr "NOTTRANSLATED"
+
+msgid "作成されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "**作業ディレクトリ**"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリとは、メインウインドウで開かれているファイルの名前に接尾辞を加えた名前のフォルダです。"
+msgstr "NOTTRANSLATED"
+
+msgid "**接尾辞はソルバの種類により変わります。**"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"例えばGromacsの場合は、メインウインドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が "
+":file:`_gmx_tmp` の場合、作業ディレクトリの名前は :file:`aaa_gmx_tmp` となります。"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウで開かれているファイルと同じ階層に置かれている必要があります。"
+msgstr "NOTTRANSLATED"
+
+msgid "継続ジョブの時も同名の作業ディレクトリで処理が流れますが、デフォルトでは継続ジョブの実施直前に、直前のジョブの作業ディレクトリのバックアップが作成されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"バックアップの名前は、重複する名前が存在しない範囲で一番小さい番号が付いたものになります。例えば、作業ディレクトリが "
+":file:`aaa_gmx_tmp` のときは :file:`aaa_gmx_tmp1` となります。"
+msgstr "NOTTRANSLATED"
+
+msgid "**番号が付いていないディレクトリが常に最新のものとなります。**"
+msgstr "NOTTRANSLATED"
+
+msgid "アニメーション"
+msgstr "NOTTRANSLATED"
+
+msgid "dataファイルとdumpファイルを選択し、MD計算のトラジェクトリをアニメーション表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウのファイル名は変化しません。"
+msgstr "NOTTRANSLATED"
+
+msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "エネルギー変化"
+msgstr "NOTTRANSLATED"
+
+msgid "ログファイルを選択し、エネルギー、温度、圧力などの各種熱力学量のグラフを表示します。thermo_styleで指定した値をプロットすることができます。"
+msgstr "NOTTRANSLATED"
+
+msgid "サブウインドウの操作方法は :ref:`energyplot_top` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "最終構造を読み込み"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`\\*_lmp_tmp\\\\lmp_tmp_final.gro` を開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid "本機能を使うとメインウインドウのファイル名は変化しません。"
+msgstr "NOTTRANSLATED"
+
+msgid "動径分布関数"
+msgstr "NOTTRANSLATED"
+
+msgid "LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndxファイルを選択し、動径分布関数を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "詳細は :ref:`md_gromacs_rdf` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "平均二乗変位"
+msgstr "NOTTRANSLATED"
+
+msgid "LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndxファイルを選択し、平均二乗変位と自己拡散係数を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "詳細は :ref:`md_gromacs_msd` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "散乱関数"
+msgstr "NOTTRANSLATED"
+
+msgid "LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndxファイルを選択し、散乱関数を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "詳細は :ref:`md_gromacs_saxs` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "散逸粒子動力学"
+msgstr "NOTTRANSLATED"
+
+msgid "DPDセルビルダ"
+msgstr "NOTTRANSLATED"
+
+msgid "散逸粒子動力学用のシミュレーションセルを作成します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Monomers Available"
+msgstr "NOTTRANSLATED"
+
+msgid "ポリマー鎖を構成するモノマー（粒子）を選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "# of Monomers"
+msgstr "NOTTRANSLATED"
+
+msgid "選択したモノマーの数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid ">> Add >>"
+msgstr "NOTTRANSLATED"
+
+msgid "選択したモノマーを追加します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Branch"
+msgstr "NOTTRANSLATED"
+
+msgid "Start"
+msgstr "NOTTRANSLATED"
+
+msgid "分岐開始位置を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "End"
+msgstr "NOTTRANSLATED"
+
+msgid "分岐終了位置を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Monomers Used"
+msgstr "NOTTRANSLATED"
+
+msgid "追加したモノマー種と数がリスト表示されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Clear"
+msgstr "NOTTRANSLATED"
+
+msgid "リストアップされたモノマー種を全て削除します。"
+msgstr "NOTTRANSLATED"
+
+msgid "<< Delete <<"
+msgstr "NOTTRANSLATED"
+
+msgid "追加したモノマーを削除します。"
+msgstr "NOTTRANSLATED"
+
+msgid "# of Polymers"
+msgstr "NOTTRANSLATED"
+
+msgid "ポリマー鎖の数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "リストアップされたポリマー鎖を計算対象に追加します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Polymers Used"
+msgstr "NOTTRANSLATED"
+
+msgid "追加したポリマー鎖の構成と本数がリスト表示されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "追加したポリマー鎖を削除します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Density"
+msgstr "NOTTRANSLATED"
+
+msgid "系の密度（無次元）を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Build"
+msgstr "NOTTRANSLATED"
+
+msgid "シミュレーションセルを構築します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Reset"
+msgstr "NOTTRANSLATED"
+
+msgid "すべての設定をデフォルトに戻します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Close"
+msgstr "NOTTRANSLATED"
+
+msgid "ウインドウを閉じます。"
+msgstr "NOTTRANSLATED"
+
+msgid "ポテンシャル編集"
+msgstr "NOTTRANSLATED"
+
+msgid "Winmostar独自形式の散逸粒子動力学用のポテンシャルファイルを作成・編集します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Potential Files"
+msgstr "NOTTRANSLATED"
+
+msgid "散逸粒子動力学に用いるポテンシャルファイルを選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "New"
+msgstr "NOTTRANSLATED"
+
+msgid "新たにポテンシャルファイルを作成します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Delete"
+msgstr "NOTTRANSLATED"
+
+msgid "選択したポテンシャルファイルを削除します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Massタブ"
+msgstr "NOTTRANSLATED"
+
+msgid "Species"
+msgstr "NOTTRANSLATED"
+
+msgid "モノマー（粒子）名が表示されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Mass"
+msgstr "NOTTRANSLATED"
+
+msgid "質量（無次元）を設定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Bondタブ"
+msgstr "NOTTRANSLATED"
+
+msgid "R_0"
+msgstr "NOTTRANSLATED"
+
+msgid "結合（ボンド）ポテンシャルパラメータR_0（平衡距離、無次元）を設定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "K"
+msgstr "NOTTRANSLATED"
+
+msgid "結合（ボンド）ポテンシャルパラメータK（バネ定数、無次元）を設定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Nonbondタブ"
+msgstr "NOTTRANSLATED"
+
+msgid "Aij"
+msgstr "NOTTRANSLATED"
+
+msgid "非結合ポテンシャルパラメータAij（無次元）を入力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Rcut"
+msgstr "NOTTRANSLATED"
+
+msgid "非結合ポテンシャルパラメータRcut（カットオフ半径、無次元）を入力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Set"
+msgstr "NOTTRANSLATED"
+
+msgid "設定したポテンシャルパラメータがリストに反映されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "OK"
+msgstr "NOTTRANSLATED"
+
+msgid "設定したポテンシャルパラメ-タをポテンシャルファイルに保存してウインドウを閉じます。"
+msgstr "NOTTRANSLATED"
+
+msgid "設定内容を破棄してウインドウを閉じます。"
+msgstr "NOTTRANSLATED"
+

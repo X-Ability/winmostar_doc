@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "MO Plotウインドウ"
+msgstr "NOTTRANSLATED"
+
+msgid "分子軌道、静電ポテンシャル、各種cubeファイルなどのボリュームデータの表示を調整します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":menuselection:`File --> Open` メニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "描画したいcubeファイルを選びます。"
+msgstr "NOTTRANSLATED"
+
+msgid ":menuselection:`File --> Export VRML` メニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "VRML形式で出力し、そのファイルを開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid ":menuselection:`File --> Open Jmol` メニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "Jmolで表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":menuselection:`File --> Close` メニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "このウィンドウを閉じます。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Quantity` プルダウンメニュー"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"描画する物理量を選択します。 :guilabel:`ESP2` はPopulation解析後の点電荷から算出する静電ポテンシャルのため、 "
+":guilabel:`ESP` よりも高速に動作します。 :guilabel:`Surface` "
+"が付く場合は、分子表面上での物理量の分布を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Selected MO`"
+msgstr "NOTTRANSLATED"
+
+msgid "描画する分子軌道の番号を指定します。 :ref:`mo_top` で分子軌道を選択するとこの場所に値がセットされます。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Show Diagram` ボタン"
+msgstr "NOTTRANSLATED"
+
+msgid ":ref:`mo_top` を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`alpha/beta` ボタン"
+msgstr "NOTTRANSLATED"
+
+msgid "スピンを選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Draw Style` プルダウンメニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "等値面を格子(Mesh)またはソリッド(Solid)モデルで表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Transparency`"
+msgstr "NOTTRANSLATED"
+
+msgid "透明度を指定します。（0: 不透明、1: 透明）"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Isosurface Value`"
+msgstr "NOTTRANSLATED"
+
+msgid "描画する等値面の値を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Points`"
+msgstr "NOTTRANSLATED"
+
+msgid "各辺の格子点数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Scale`"
+msgstr "NOTTRANSLATED"
+
+msgid "描く範囲を指定するスケーリング係数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Draw boundary` チェックボックス"
+msgstr "NOTTRANSLATED"
+
+msgid "cubeファイルの境界に線を描画します。Quantum ESPRESSO, OpenMXなどのバンド計算で主に使用します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Draw contour Map` チェックボックス"
+msgstr "NOTTRANSLATED"
+
+msgid "指定した断面において等高線を描画します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Dump cube file` チェックボックス"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Draw` ボタンを押したときに、描画と同時にcubeファイルを出力します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Draw` ボタン"
+msgstr "NOTTRANSLATED"
+
+msgid "ボリュームデータを :ref:`winmos3d_top` を用いて描画します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Draw (2D)` ボタン"
+msgstr "NOTTRANSLATED"
+
+msgid "ボリュームデータをメインウインドウで描画します。（deprecated）"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Close` ボタン"
+msgstr "NOTTRANSLATED"
+

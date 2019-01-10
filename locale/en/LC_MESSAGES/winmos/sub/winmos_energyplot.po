@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "Energy Plotウインドウ"
+msgstr "NOTTRANSLATED"
+
+msgid "分子動力学計算の各種エネルギー、温度、圧力等の熱力学量の時間変化を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "ソルバによって出現するUIは異なります。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Energy Terms` で項目を選択し、 :guilabel:`Draw` ボタンをクリックするとグラフが表示されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "グラフ描画エリアの操作方法は :ref:`chart_top` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "Block Average"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Size` で指定したサイズでブロック平均した値をプロットします。瞬時値の揺らぎが大きい物理量をプロットする際に有用です。"
+msgstr "NOTTRANSLATED"
+
+msgid "Normalize by Nmol"
+msgstr "NOTTRANSLATED"
+
+msgid "分子数でエネルギーを規格化します。分子数を取得するために、座標ファイルを選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Calc Ave"
+msgstr "NOTTRANSLATED"
+
+msgid "各項目の平均値をテキストファイルで出力します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"Gromacsの場合は、 :command:`gmx energy` を実行し、比熱、bulk "
+"modulusなどの揺らぎから求める物性も出力されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Draw"
+msgstr "NOTTRANSLATED"
+
+msgid "グラフを描画します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Gromacsの場合は、 :command:`gmx energy` を実行します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Close"
+msgstr "NOTTRANSLATED"
+
+msgid "ウィンドウを閉じます。"
+msgstr "NOTTRANSLATED"
+

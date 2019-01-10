@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "Force Field"
+msgstr "NOTTRANSLATED"
+
+msgid "Generate parameters"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウに表示された系に対し、新たに力場パラメータをアサインしトポロジファイル（topファイル）を作成します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Force field"
+msgstr "NOTTRANSLATED"
+
+msgid "(General)"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"タンパク質、水分子以外の分子の力場を指定します。 内部では、GAFF, OPLS/AA-Lの場合は :command:`acpype` "
+"が、Dreidingの場合は内製プログラムが使用されます。 Dreidingの設定は "
+":file:`polymer/dreiding.lib.txt` に書かれています。"
+msgstr "NOTTRANSLATED"
+
+msgid "Exception"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"特定の分子に対し、(General)にて選択した力場を使わず、ユーザが指定するLJパラメータを割り当てます。 "
+"サブウインドウの左の欄にてLJパラメータを指定したい分子にチェックを入れ、右の欄でLJパラメータを入力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "例えば固液界面系において固相の原子にLJパラメータを割り振りたい時などに使用します。"
+msgstr "NOTTRANSLATED"
+
+msgid "(Protein)"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"タンパク質の力場を指定します。ここで、PDBやgroフォーマットにおいてアミノ酸残基の名前が割り当てられている原子がタンパク質として認識されます。内部的には"
+" :command:`gmx pdb2gmx` が使用されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "残基名を含まないファイルから分子構造を読み込んだ場合は本機能を使用できません。"
+msgstr "NOTTRANSLATED"
+
+msgid "(Water)"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"水分子の力場を指定します。 :ref:`md_solvate_buildcell` "
+"で選択した水モデルを指定する必要があります。内部的にはCygwinにインストールされたGromacsのトポロジのライブラリからパラメータを取得します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Charge"
+msgstr "NOTTRANSLATED"
+
+msgid "Assign charges"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":command:`acpype` により算出する電荷を用いてトポロジファイルを作成します。 :guilabel:`Method` "
+"にはその方法を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"ポリマーの場合は :command:`acpype` による電荷の算出に時間がかかるため、あらかじめポリマービルダを用いて系を作成し、 "
+":guilabel:`Use User-defined Charge` にチェックを入れてください。"
+msgstr "NOTTRANSLATED"
+
+msgid "Use user-defined charge"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウ上で設定されている各原子の点電荷の値を用いてトポロジファイルを作成します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"メインウインドウ上で設定されている点電荷の値は、 :ref:`表示ボタンエリア <gui_main>` のアノテーションボタンから "
+":guilabel:`User Charge` などを選択するか、.mol2形式で保存し :ref:`file_editor` "
+"で開くことにより確認できます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Add [position_restraints] for protein"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"タンパク質が存在する場合は :guilabel:`Advance` タブにおける :guilabel:`-POSRES` "
+"で位置を拘束するための情報（ ``[position_restraints]`` "
+"セクション）をトポロジファイルに書き込みます。タンパク質が存在しない場合は無視されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Add [position_restraints] for selected atoms"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` "
+"で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。 "
+"例えば固液界面系に於いて固相を固定する場合などに使用します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Add [distance/angle/dihedral_restraints] for selected atoms"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` "
+"で距離・角度・二面角を拘束するための情報をトポロジファイルに書き込みます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Dump Now"
+msgstr "NOTTRANSLATED"
+
+msgid "現在の設定に基づき、トポロジファイルを生成します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":guilabel:`Load from Existing File` "
+"を選択しない場合はソルバの実行時に自動的にトポロジファイルが生成されるため、この操作は必須ではありません。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"トポロジファイルをエディタ等で編集してカスタマイズしたい場合は、本機能を使用して保存した上で、 :guilabel:`Load from "
+"Existing File` にて選択してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "Load from existing file/Use parameters in displayed file"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"既に存在しているトポロジファイルを用いてMD計算を実行する場合に選択します。 "
+"LAMMPSの場合は、メインウインドウで既に存在しているdataファイルを用いてMD計算を実行する場合に選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Edit"
+msgstr "NOTTRANSLATED"
+
+msgid "選択されたトポロジファイルをテキストエディタで編集する。"
+msgstr "NOTTRANSLATED"
+
+msgid "Generate Simulation Cell"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"メインウインドウにおいてシミュレーションセルが定義されていない場合のみ設定が有効となる。チェックが入っている場合は、メインウインドウに表示された分子の周囲に"
+" :guilabel:`Distance` で指定された距離だけ離れた場所にシミュレーションセルを自動発生させる。"
+msgstr "NOTTRANSLATED"
+

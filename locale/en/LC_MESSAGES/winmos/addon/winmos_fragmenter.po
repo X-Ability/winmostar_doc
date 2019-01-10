@@ -1,0 +1,415 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "Frangment ER"
+msgstr "NOTTRANSLATED"
+
+msgid "Fragment ER法を使用してタンパク-リガンド間の相対結合自由エネルギーを計算します。"
+msgstr "NOTTRANSLATED"
+
+msgid "使用するためにはアドオンの購入が必要です。"
+msgstr "NOTTRANSLATED"
+
+msgid "分子動力学法のソルバーにはNAMDを使います。"
+msgstr "NOTTRANSLATED"
+
+msgid "Fragment ER画面"
+msgstr "NOTTRANSLATED"
+
+msgid "Fileメニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "New Project"
+msgstr "NOTTRANSLATED"
+
+msgid "プロジェクトを初期化します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Open Project"
+msgstr "NOTTRANSLATED"
+
+msgid "プロジェクトを開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Save Project"
+msgstr "NOTTRANSLATED"
+
+msgid "プロジェクトを上書き保存します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Save Project As"
+msgstr "NOTTRANSLATED"
+
+msgid "プロジェクトを名前をつけて保存します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Close"
+msgstr "NOTTRANSLATED"
+
+msgid "Fragment ER画面を閉じます。"
+msgstr "NOTTRANSLATED"
+
+msgid "MDメニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "NAMD Keywords Setup"
+msgstr "NOTTRANSLATED"
+
+msgid ":ref:`fer_namdkeyword` を開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Run NAMD"
+msgstr "NOTTRANSLATED"
+
+msgid "NAMDをローカル実行します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Run NAMD On Remote Server"
+msgstr "NOTTRANSLATED"
+
+msgid "NAMDのリモートサーバでの実行のために、リモートジョブ実行画面を開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Edit .log File"
+msgstr "NOTTRANSLATED"
+
+msgid "NAMD実行時のログファイルをテキストエディタで開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Energy Plot"
+msgstr "NOTTRANSLATED"
+
+msgid "NAMD実行時のログファイルからエネルギー変化のグラフを描画します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Import NAMD Trajectory"
+msgstr "NOTTRANSLATED"
+
+msgid "MDのトラジェクトリを開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Clear NAMD Output Files"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"NAMD実行でできた出力ファイルを削除します。 RunNAMD.bat, RunNAMD.log, 各種dcd, log, coor, namd,"
+" vel, xsc, xstファイル等を削除します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Analysisメニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "Calculate Free Energy"
+msgstr "NOTTRANSLATED"
+
+msgid "自由エネルギーを計算します。"
+msgstr "NOTTRANSLATED"
+
+msgid "自由エネルギー計算時のログファイルをテキストエディタで開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Import Result"
+msgstr "NOTTRANSLATED"
+
+msgid "自由エネルギー計算結果をインポートして :ref:`fer_summary` に表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Clear Analysis Output Files"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"自由エネルギー計算でできた出力ファイルを削除します。 FreeEnergy.sh, FreeEnergy.log, "
+"calc_PdP_kai2.out, parameters_feファイル, refs, solnフォルダ等を削除します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Toolsメニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "Preference"
+msgstr "NOTTRANSLATED"
+
+msgid ":ref:`fer_pref` を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Solution"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":guilabel:`...` ボタンをクリックして溶液系のPDBファイルを指定します。 "
+"複数のリガンド分子が存在する場合は、リガンド分子を指定します。 ビューにリガンド分子表示されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Set Core"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"初期リガンドからフラグメント部分の原子をクリックで指定し、:guilabel:`Set Core` "
+"ボタンをクリックすると、残りの部分を母核として設定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Add"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"新規フラグメントをコンボボックスで選択してから、 :guilabel:`Add` "
+"ボタンをクリックすると、新規フラグメントを母核に付加したリガンドを最終リガンドリストに追加します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Configure"
+msgstr "NOTTRANSLATED"
+
+msgid ":ref:`fer_configuration` を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Check"
+msgstr "NOTTRANSLATED"
+
+msgid "各種リガンドの母核部分の原子タイプが一致しているかチェックします。 同時にリガンドの力場も生成します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Setup"
+msgstr "NOTTRANSLATED"
+
+msgid "NAMDの入力ファイル(PDB,PSFファイル)を生成します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Fragment ER 設定画面"
+msgstr "NOTTRANSLATED"
+
+msgid "Fragment ERの計算の設定をします。 設定内容はプロジェクトファイルに記録されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Solvation"
+msgstr "NOTTRANSLATED"
+
+msgid "Drop water and solvate for In-protein"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"In-protein系の計算で水分子を再配置するか設定します。 これを行わない場合ははじめに読み込んだ溶液系の水分子が溶媒として使用されます。 "
+"これを行わない場合は周期境界セルが設定されている必要があります。"
+msgstr "NOTTRANSLATED"
+
+msgid "Drop water and solvate for In-aqua"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"In-aqua系の計算で水分子を再配置するか設定します。 これを行わない場合ははじめに読み込んだ溶液系の水分子が溶媒として使用されます。 "
+"これを行わない場合は周期境界セルが設定されている必要があります。"
+msgstr "NOTTRANSLATED"
+
+msgid "Distance from solute to cell boundary"
+msgstr "NOTTRANSLATED"
+
+msgid "溶質から周期境界セルまでの距離を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Forcefield for Ligands"
+msgstr "NOTTRANSLATED"
+
+msgid "リガンドに使用する力場の種類を選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "N-terminal modification"
+msgstr "NOTTRANSLATED"
+
+msgid "タンパクのN末端修飾を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "C-terminal modification"
+msgstr "NOTTRANSLATED"
+
+msgid "タンパクのC末端修飾を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Import trajectory Interval"
+msgstr "NOTTRANSLATED"
+
+msgid "トラジェクトリのインポート時にどのくらいの頻度で間引くか指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "ERmod"
+msgstr "NOTTRANSLATED"
+
+msgid "# of bins for binding energy"
+msgstr "NOTTRANSLATED"
+
+msgid "結合エネルギーの分割数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "# of insersions for solute (maxins)"
+msgstr "NOTTRANSLATED"
+
+msgid "ermod実行時のmaxinsを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "# of division of the simulation (engdiv)"
+msgstr "NOTTRANSLATED"
+
+msgid "ermod実行時のengdivを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "# of OpenMP threads (for local run)"
+msgstr "NOTTRANSLATED"
+
+msgid "ermodローカル実行時のOpenMPスレッド数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "# of MPI processes (for remote run)"
+msgstr "NOTTRANSLATED"
+
+msgid "ermodリモート実行時のMPIプロセス数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "OK"
+msgstr "NOTTRANSLATED"
+
+msgid "設定を保存して画面を閉じます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Cancel"
+msgstr "NOTTRANSLATED"
+
+msgid "設定を保存せず画面を閉じます。"
+msgstr "NOTTRANSLATED"
+
+msgid "NAMDキーワード設定画面"
+msgstr "NOTTRANSLATED"
+
+msgid "NAMDによるMD計算の設定をします。 設定内容はプロジェクトファイルに記録されます。 チェックボックスで計算する系を選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Conf"
+msgstr "NOTTRANSLATED"
+
+msgid "各系のNAMD計算に入力ファイルの設定をします。"
+msgstr "NOTTRANSLATED"
+
+msgid "numdcd"
+msgstr "NOTTRANSLATED"
+
+msgid "トラジェクトリの出力間隔を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "numlog"
+msgstr "NOTTRANSLATED"
+
+msgid "ログファイルの出力間隔を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "temperature"
+msgstr "NOTTRANSLATED"
+
+msgid "温度を指定します。 In-proteinの平衡化計算では段階昇温のはじめの段階の温度になります。"
+msgstr "NOTTRANSLATED"
+
+msgid "timestep"
+msgstr "NOTTRANSLATED"
+
+msgid "MDの1ステップの時間刻みを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "numstep"
+msgstr "NOTTRANSLATED"
+
+msgid "MDのステップ数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Number of Therad"
+msgstr "NOTTRANSLATED"
+
+msgid "NAMD実行時のスレッド数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Generate Conf Files"
+msgstr "NOTTRANSLATED"
+
+msgid "入力ファイル(namdファイル)を出力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Run"
+msgstr "NOTTRANSLATED"
+
+msgid "入力ファイルを出力してNAMDをローカル実行します。"
+msgstr "NOTTRANSLATED"
+
+msgid "NAMDキーワード設定画面を閉じます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Load Default"
+msgstr "NOTTRANSLATED"
+
+msgid "デフォルト設定条件を読み込みます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Save Default"
+msgstr "NOTTRANSLATED"
+
+msgid "現在の設定条件をデフォルト設定として保存します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Reset Default"
+msgstr "NOTTRANSLATED"
+
+msgid "デフォルト設定条件を初期状態に戻します。"
+msgstr "NOTTRANSLATED"
+
+msgid "結果表示画面"
+msgstr "NOTTRANSLATED"
+
+msgid "Summaryに結果の要約が表示されます。 エネルギー分布関数のグラフが表示されます。 どの系を表示するか選択することができます。"
+msgstr "NOTTRANSLATED"
+
+msgid "log"
+msgstr "NOTTRANSLATED"
+
+msgid "ログファイルをテキストエディタで開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Excel"
+msgstr "NOTTRANSLATED"
+
+msgid "グラフ表示されているデータをCSVファイルに保存し、アプリケーションで開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid "結果表示画面を閉じます。"
+msgstr "NOTTRANSLATED"
+
+msgid "環境設定画面"
+msgstr "NOTTRANSLATED"
+
+msgid "NAMD Path"
+msgstr "NOTTRANSLATED"
+
+msgid "NAMD実行ファイルのパスを設定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Protein Topology Path"
+msgstr "NOTTRANSLATED"
+
+msgid "タンパクのトポロジーファイルを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Protein parameter Path"
+msgstr "NOTTRANSLATED"
+
+msgid "タンパクのパラメータファイルを指定します。"
+msgstr "NOTTRANSLATED"
+

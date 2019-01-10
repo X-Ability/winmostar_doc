@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid ":menuselection:`半経験QM --> CNDO/S` メニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "CNDO/Sプログラムに関するメニューです。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"CNDO/SプログラムはWinmostarに同梱されています。 "
+"CNDO/Sプログラムは旧日本化学プログラム交換機構（JCPE、現在の日本コンピュータ化学会）に登録されていたP083プログラムを、Winmostarに対応させるために微修正したものです。"
+" P083のマニュアルは `こちら "
+"<https://winmostar.com/jp/manual_third_party/cndos_man.pdf>`_ から入手可能です。 "
+"CNDO/Sプログラム（ :file:`cndosw.exe` ）はgfortranでコンパイルされています。"
+msgstr "NOTTRANSLATED"
+
+msgid "キーワード設定"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"CNDO/Sの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウインドウに戻る場合は "
+":guilabel:`OK` ボタンを押してください。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`semiempirical_cndos_start` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "Method"
+msgstr "NOTTRANSLATED"
+
+msgid "計算方法を指定します。（CNDOまたはINDO）"
+msgstr "NOTTRANSLATED"
+
+msgid "Multiplicity"
+msgstr "NOTTRANSLATED"
+
+msgid "多重度を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Basis set"
+msgstr "NOTTRANSLATED"
+
+msgid "基底関数を指定します。（SPまたはSPD）"
+msgstr "NOTTRANSLATED"
+
+msgid "BONDS"
+msgstr "NOTTRANSLATED"
+
+msgid "結合次数を出力することを指定します"
+msgstr "NOTTRANSLATED"
+
+msgid "NOINTER"
+msgstr "NOTTRANSLATED"
+
+msgid "チェックを入れた場合は原子間距離を出力しません。"
+msgstr "NOTTRANSLATED"
+
+msgid "SHORT"
+msgstr "NOTTRANSLATED"
+
+msgid "簡略化されたログを出力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "OUTMO"
+msgstr "NOTTRANSLATED"
+
+msgid "MOLMOL2用のファィルを出力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Repulsion integral"
+msgstr "NOTTRANSLATED"
+
+msgid "反発積分の式を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Pariser"
+msgstr "NOTTRANSLATED"
+
+msgid "大野"
+msgstr "NOTTRANSLATED"
+
+msgid "西本-又賀"
+msgstr "NOTTRANSLATED"
+
+msgid "理論式"
+msgstr "NOTTRANSLATED"
+
+msgid "Nuclear repulsion energy"
+msgstr "NOTTRANSLATED"
+
+msgid "核間反発エネルギーの式を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Za * Zb / 1"
+msgstr "NOTTRANSLATED"
+
+msgid "Za * Zb * γab"
+msgstr "NOTTRANSLATED"
+
+msgid "PKAPPA"
+msgstr "NOTTRANSLATED"
+
+msgid "p電子に対するkappaの値を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "DKAPPA"
+msgstr "NOTTRANSLATED"
+
+msgid "d電子に対するkappaの値を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Charge"
+msgstr "NOTTRANSLATED"
+
+msgid "電荷を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "# of CI"
+msgstr "NOTTRANSLATED"
+
+msgid "励起状態のCI 計算に含める状態の数を指定します。（上限 500）"
+msgstr "NOTTRANSLATED"
+
+msgid "# of excited states"
+msgstr "NOTTRANSLATED"
+
+msgid "結合次数を出力する励起状態の数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "キーワード読み込み"
+msgstr "NOTTRANSLATED"
+
+msgid "既存のCNDO/Sの入力ファイルから、キーワード（計算条件）のみを読み込みます。"
+msgstr "NOTTRANSLATED"
+
+msgid "実行"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"メインウインドウでCNDO/Sの入力ファイルが開かれている場合は、そのファイルを使ってCNDO/Sを実行します。 "
+"開かれていない場合は、CNDO/Sの入力ファイルを保存した上でCNDO/Sを実行します。"
+msgstr "NOTTRANSLATED"
+
+msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.cnd` の時のファイル/フォルダ名を併記しています。"
+msgstr "NOTTRANSLATED"
+
+msgid "種類"
+msgstr "NOTTRANSLATED"
+
+msgid "説明"
+msgstr "NOTTRANSLATED"
+
+msgid "lstファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`water.lst`"
+msgstr "NOTTRANSLATED"
+
+msgid "計算のログファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリ"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`water.cnd_temp\\\\`"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリです。"
+msgstr "NOTTRANSLATED"
+
+msgid "ログを表示 (lst)"
+msgstr "NOTTRANSLATED"
+
+msgid "lstファイルをテキストエディタで開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid "UV-Visスペクトル"
+msgstr "NOTTRANSLATED"
+
+msgid "lstファイルを選択し、UV-Visスペクトルと分子軌道を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"サブウインドウの操作方法は :ref:`uvvis_top` , :ref:`mo_top` , :ref:`cube_top` "
+"を参照してください。"
+msgstr "NOTTRANSLATED"
+

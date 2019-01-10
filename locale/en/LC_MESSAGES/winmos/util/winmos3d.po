@@ -1,0 +1,449 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "Winmostar Viewer"
+msgstr "NOTTRANSLATED"
+
+msgid "Winmostar Viewerは分子軌道などを表示する、描画に特化したWinmostarの付属ソフトウェアです。"
+msgstr "NOTTRANSLATED"
+
+msgid "MDのような多成分系で特定の成分だけを表示させることも可能です。"
+msgstr "NOTTRANSLATED"
+
+msgid "マウスの使い方"
+msgstr "NOTTRANSLATED"
+
+msgid "左ボタン+ドラッグ"
+msgstr "NOTTRANSLATED"
+
+msgid "視点を回転させます。"
+msgstr "NOTTRANSLATED"
+
+msgid "ドラッグしながらマウスボタンを離すと回転し続けます。"
+msgstr "NOTTRANSLATED"
+
+msgid "右ボタン+上下ドラッグ"
+msgstr "NOTTRANSLATED"
+
+msgid "縮小・拡大します。"
+msgstr "NOTTRANSLATED"
+
+msgid "左ボタン+右ボタン+ドラッグ"
+msgstr "NOTTRANSLATED"
+
+msgid "上下･左右に移動します。"
+msgstr "NOTTRANSLATED"
+
+msgid "メニュー操作"
+msgstr "NOTTRANSLATED"
+
+msgid "Fileメニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "Open"
+msgstr "NOTTRANSLATED"
+
+msgid "gld形式およびMOLDA形式のファイルを読み込みます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Save GLD"
+msgstr "NOTTRANSLATED"
+
+msgid "現在開いているGLD形式のファイルを名前を付けて保存します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Save MOLDA"
+msgstr "NOTTRANSLATED"
+
+msgid "ウインドウに表示されている構造をMOLDA形式で保存します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Save JPEG"
+msgstr "NOTTRANSLATED"
+
+msgid "ウインドウに表示されている内容をJPEGファイルとして保存します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Save JPEG (Stereo)"
+msgstr "NOTTRANSLATED"
+
+msgid "立体視用の左右の画面をJPEGファイルとして保存します。"
+msgstr "NOTTRANSLATED"
+
+msgid "StereoPhoto Maker"
+msgstr "NOTTRANSLATED"
+
+msgid "StereoPhotomakerを起動します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Exit"
+msgstr "NOTTRANSLATED"
+
+msgid "Winmsotar Viewerを終了します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Viewメニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "Representations"
+msgstr "NOTTRANSLATED"
+
+msgid "描画の詳細な調整を行う :ref:`winmos3d_repre` を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Perspective"
+msgstr "NOTTRANSLATED"
+
+msgid "遠近法を使用します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Background Color"
+msgstr "NOTTRANSLATED"
+
+msgid "背景の色を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "背景の色を暗青色にします。"
+msgstr "NOTTRANSLATED"
+
+msgid "Winmostar"
+msgstr "NOTTRANSLATED"
+
+msgid "背景の色をWinmostarのデフォルトの背景色にします。"
+msgstr "NOTTRANSLATED"
+
+msgid "Black"
+msgstr "NOTTRANSLATED"
+
+msgid "背景の色を黒にします。"
+msgstr "NOTTRANSLATED"
+
+msgid "White"
+msgstr "NOTTRANSLATED"
+
+msgid "背景の色を白にします。"
+msgstr "NOTTRANSLATED"
+
+msgid "Model"
+msgstr "NOTTRANSLATED"
+
+msgid "表示するモデルを選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Ball-and-Stick Model"
+msgstr "NOTTRANSLATED"
+
+msgid "球棒モデルを表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Space-Filling Model"
+msgstr "NOTTRANSLATED"
+
+msgid "空間充填モデルを表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Stick Model"
+msgstr "NOTTRANSLATED"
+
+msgid "棒モデルを表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Wire Model"
+msgstr "NOTTRANSLATED"
+
+msgid "ワイヤーモデルを表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Show SPace-Filling Model Overlapping"
+msgstr "NOTTRANSLATED"
+
+msgid "空間重点モデルを半透明で重ね合わせ表示する。"
+msgstr "NOTTRANSLATED"
+
+msgid "Show Animation Control Panel"
+msgstr "NOTTRANSLATED"
+
+msgid ":ref:`winmos3d_panel` を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Copy Image"
+msgstr "NOTTRANSLATED"
+
+msgid "ウインドウに表示されている画像をクリップボードにコピーします。"
+msgstr "NOTTRANSLATED"
+
+msgid "Helpメニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "Help"
+msgstr "NOTTRANSLATED"
+
+msgid "マウスの使い方を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "About Winmostar Viewer"
+msgstr "NOTTRANSLATED"
+
+msgid "バージョンを表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Debug"
+msgstr "NOTTRANSLATED"
+
+msgid "メモリ使用量など、デバッグ用の情報を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "アニメーション操作パネル"
+msgstr "NOTTRANSLATED"
+
+msgid "Winmostar 3Dでアニメーションを表示すると、Winmostar 3Dのウインドウの左上にアニメーション操作用のUIが表示されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "スライダー"
+msgstr "NOTTRANSLATED"
+
+msgid "フレームを移動します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Once"
+msgstr "NOTTRANSLATED"
+
+msgid "最終フレームまで再生が到達したら再生をストップします。"
+msgstr "NOTTRANSLATED"
+
+msgid "Loop"
+msgstr "NOTTRANSLATED"
+
+msgid "最終フレームまで再生が到達したら最初のフレームに戻って再生を繰り返します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Round"
+msgstr "NOTTRANSLATED"
+
+msgid "再生を往復で繰り返します。"
+msgstr "NOTTRANSLATED"
+
+msgid "JPEG"
+msgstr "NOTTRANSLATED"
+
+msgid "チェックを入れた状態で再生すると表示されている内容がJPEG形式で保存されます"
+msgstr "NOTTRANSLATED"
+
+msgid "GIF"
+msgstr "NOTTRANSLATED"
+
+msgid "チェックを入れた状態で再生すると表示されている内容がGIF形式で保存されます"
+msgstr "NOTTRANSLATED"
+
+msgid "Close"
+msgstr "NOTTRANSLATED"
+
+msgid "このパネルを閉じます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Representationsウインドウ"
+msgstr "NOTTRANSLATED"
+
+msgid "Orbit/Rotation"
+msgstr "NOTTRANSLATED"
+
+msgid "左ドラッグで視点を回転させる際の回転方法を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Orbit"
+msgstr "NOTTRANSLATED"
+
+msgid "自由に回転させます。"
+msgstr "NOTTRANSLATED"
+
+msgid "X, Y or Z"
+msgstr "NOTTRANSLATED"
+
+msgid "画面内水平方向、画面内垂直方向、または画面に垂直方向の軸周りで回転させます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Periodic Boundary Condition"
+msgstr "NOTTRANSLATED"
+
+msgid "セルの外側に存在する分子の表示方法を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "None"
+msgstr "NOTTRANSLATED"
+
+msgid "元の座標のまま表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Atom"
+msgstr "NOTTRANSLATED"
+
+msgid "原子単位でセル内に構造が収まるよう表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Mol"
+msgstr "NOTTRANSLATED"
+
+msgid "分子単位でセル内に構造が収まるよう表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Molecule"
+msgstr "NOTTRANSLATED"
+
+msgid "本ウインドウ中部の :guilabel:`1` から :guilabel:`9` を各分子に割り当てます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Composition"
+msgstr "NOTTRANSLATED"
+
+msgid "本ウインドウ中部の :guilabel:`1` から :guilabel:`9` を（分子量が共通する）各分子種に割り当てます。"
+msgstr "NOTTRANSLATED"
+
+msgid "1 - 9"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"チェックが付いた項目を表示します。プルダウンメニューの :guilabel:`BS` , :guilabel:`SF` , "
+":guilabel:`ST` , :guilabel:`WI` はそれぞれBall-stick（棒球）モデル（デフォルト）、Space "
+"filling（空間充填）モデル、Stick（棒）モデル、ワイヤーモデルを意味します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Rainbow"
+msgstr "NOTTRANSLATED"
+
+msgid "分子ごとに異なる色で表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Gold"
+msgstr "NOTTRANSLATED"
+
+msgid "分子を金色で表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Stereo"
+msgstr "NOTTRANSLATED"
+
+msgid "立体視表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Enantiomer"
+msgstr "NOTTRANSLATED"
+
+msgid "元の構造とその鏡像体を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Para"
+msgstr "NOTTRANSLATED"
+
+msgid "平行法で表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Cross"
+msgstr "NOTTRANSLATED"
+
+msgid "交差法で表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Anag"
+msgstr "NOTTRANSLATED"
+
+msgid "アナグリフで表示します。（赤青のメガネを使用）"
+msgstr "NOTTRANSLATED"
+
+msgid "Shift"
+msgstr "NOTTRANSLATED"
+
+msgid "分子間の距離を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Rot"
+msgstr "NOTTRANSLATED"
+
+msgid "分子の回転する大きさを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "H"
+msgstr "NOTTRANSLATED"
+
+msgid "チェックされている場合は、水素原子を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Dummy"
+msgstr "NOTTRANSLATED"
+
+msgid "チェックされている場合は、ダミー原子を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Backbone"
+msgstr "NOTTRANSLATED"
+
+msgid "チェックされている場合は、バックボーンのみを表示します。（タンパク質向け）"
+msgstr "NOTTRANSLATED"
+
+msgid "原子の表示倍率を設定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Bond"
+msgstr "NOTTRANSLATED"
+
+msgid "結合の表示倍率を設定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Z-Clip"
+msgstr "NOTTRANSLATED"
+
+msgid "Z方向のクリッピング位置を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Surface Style"
+msgstr "NOTTRANSLATED"
+
+msgid "分子軌道などの等値面の表示方法を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Mesh"
+msgstr "NOTTRANSLATED"
+
+msgid "等値面をメッシュ（格子）モデルで表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Solid"
+msgstr "NOTTRANSLATED"
+
+msgid "等値面をソリッドモデルで表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "SmoothSolid"
+msgstr "NOTTRANSLATED"
+
+msgid "等値面を滑らかなソリッドモデルで表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Trans"
+msgstr "NOTTRANSLATED"
+
+msgid "等値面の透明度を指定します。 （0: 不透明、1: 透明）"
+msgstr "NOTTRANSLATED"
+
+msgid "X, Y, Z"
+msgstr "NOTTRANSLATED"
+
+msgid "分子軌道などのメッシュ（スカラー場）情報が読み込まれた場合、チェックを入れた面に対しコンターマップ（等高線）を描画します。コンターマップの位置はスライダーで調整可能です。"
+msgstr "NOTTRANSLATED"
+

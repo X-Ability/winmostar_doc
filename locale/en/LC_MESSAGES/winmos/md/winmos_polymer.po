@@ -1,0 +1,381 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid ":menuselection:`MD --> ポリマー` メニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "ポリマー系を作成する手順は以下のとおりである。"
+msgstr "NOTTRANSLATED"
+
+msgid "モノマーをモデリングし、 :ref:`md_polymer_register` を実行する。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"1で登録したモノマーを用いて :ref:`md_polymer_homo` , :ref:`md_polymer_block` , "
+":ref:`md_polymer_random` を用いてポリマーを登録する。"
+msgstr "NOTTRANSLATED"
+
+msgid ":ref:`md_polymer_cell` にて、 2. で登録したポリマーを用いてセルを構築する。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"低分子・ポリマー混合系を作成したい場合は、上記手順でポリマー系を作成した後に :ref:`md_insert_molecules` "
+"で低分子を追加する。"
+msgstr "NOTTRANSLATED"
+
+msgid "モノマー登録"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":ref:`md_polymer_homo` 、 :ref:`md_polymer_block` 、 "
+":ref:`md_polymer_random` で使用するためのモノマーを登録します。 :ref:`md_polymer_pref` "
+"で設定したモノマーファイルの保存先に、 :file:`wmo` という拡張子で保存されます。 :file:`wmo` "
+"ファイルはWinmostar独自のコメントが付加したmol2ファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウにおいて登録したいモノマー（繰り返し単位）の構造を作成します。"
+msgstr "NOTTRANSLATED"
+
+msgid "HeadとTailの2原子を左クリックして、赤丸の :ref:`マーカー <edit_top>` が付いた状態にし、本機能を呼び出します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Head], [Tail]"
+msgstr "NOTTRANSLATED"
+
+msgid "選択したHead原子とTail原子の番号が表示されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Name]"
+msgstr "NOTTRANSLATED"
+
+msgid "登録するモノマーの名前を入力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[OK]"
+msgstr "NOTTRANSLATED"
+
+msgid "モノマーを登録しウインドウを閉じます。モノマーファイルが作成されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Cancel]"
+msgstr "NOTTRANSLATED"
+
+msgid "設定を破棄してモノマー登録画面を閉じます。"
+msgstr "NOTTRANSLATED"
+
+msgid "ホモポリマービルダ"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":ref:`md_polymer_cell` で使用するためのホモポリマーを、 :ref:`md_polymer_register` "
+"で登録されたモノマーから作成し登録します。 :ref:`md_polymer_pref` で設定したポリマーファイルの保存先に、 "
+":file:`wpo` という拡張子で保存されます。 :file:`wpo` "
+"ファイルはWinmostar独自のコメントが付加したmol2ファイルです。 "
+"ポリマー全体の電荷は、使用したモノマー（繰り返し単位）の電荷と重合度の積になります。 "
+"重合により削除された原子の分の電荷はポリマー全体の原子に均等に割り当てられます。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Polymer Name]"
+msgstr "NOTTRANSLATED"
+
+msgid "登録するポリマーの名前を入力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Polymerization Degree]"
+msgstr "NOTTRANSLATED"
+
+msgid "重合度を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Monomer List]"
+msgstr "NOTTRANSLATED"
+
+msgid "使用するモノマーを選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Display]"
+msgstr "NOTTRANSLATED"
+
+msgid "選択したモノマーをメインウインドウに表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Delete]"
+msgstr "NOTTRANSLATED"
+
+msgid "選択したモノマーファイルを削除します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Tacticity]"
+msgstr "NOTTRANSLATED"
+
+msgid "[Isotactic]"
+msgstr "NOTTRANSLATED"
+
+msgid "アイソタクチックポリマーを作成します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Syndiotactic]"
+msgstr "NOTTRANSLATED"
+
+msgid "シンジオタクチックポリマーを作成します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Atactic]"
+msgstr "NOTTRANSLATED"
+
+msgid "アタクチックポリマーを作成します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Racemo Ratio]"
+msgstr "NOTTRANSLATED"
+
+msgid "アタクチックポリマー選択の際、ラセモ率(0 < x < 1.0)を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Head/Tail Configulation]"
+msgstr "NOTTRANSLATED"
+
+msgid "[Head to Tail]"
+msgstr "NOTTRANSLATED"
+
+msgid "モノマーのHead原子とTail原子を重ねて結合します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Head to Head]"
+msgstr "NOTTRANSLATED"
+
+msgid "モノマーのHead原子とHead原子を重ねて結合します。また、モノマーのTail原子とTail原子を重ねて結合します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Build]"
+msgstr "NOTTRANSLATED"
+
+msgid "ポリマーを登録します。ポリマーファイルが作成されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Close]"
+msgstr "NOTTRANSLATED"
+
+msgid "ウインドウを閉じます。"
+msgstr "NOTTRANSLATED"
+
+msgid "ブロックポリマービルダ"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":ref:`md_polymer_cell` で使用するためのブロックポリマーを、 :ref:`md_polymer_register` "
+"で登録されたモノマーから作成し登録します。 :ref:`md_polymer_pref` で設定したポリマーファイルの保存先に、 "
+":file:`wpo` という拡張子で保存されます。 :file:`wpo` "
+"ファイルはWinmostar独自のコメントが付加したmol2ファイルです。 電荷の割り当て方は :ref:`md_polymer_homo` "
+"と同じです。"
+msgstr "NOTTRANSLATED"
+
+msgid "[First Monomer]"
+msgstr "NOTTRANSLATED"
+
+msgid "先頭モノマーをモノマーリストから選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Last Monomer]"
+msgstr "NOTTRANSLATED"
+
+msgid "末尾モノマーをモノマーリストから選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Internal Monomer]"
+msgstr "NOTTRANSLATED"
+
+msgid "中間のモノマーをモノマーリストから選択します。[Number]にモノマー数を入力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Number]"
+msgstr "NOTTRANSLATED"
+
+msgid "中間のモノマー数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Add]"
+msgstr "NOTTRANSLATED"
+
+msgid "設定した中間モノマー名と数をInternal Monomer Listに反映させます。"
+msgstr "NOTTRANSLATED"
+
+msgid "設定した中間モノマーをメインウインドウに表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Delete wmo File]"
+msgstr "NOTTRANSLATED"
+
+msgid "指定したモノマーファイルを削除します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Delete From List]"
+msgstr "NOTTRANSLATED"
+
+msgid "リスト内で選択された中間モノマーをリストから削除します。"
+msgstr "NOTTRANSLATED"
+
+msgid "ランダムポリマービルダ"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":ref:`md_polymer_cell` で使用するためのランダムポリマーを、 :ref:`md_polymer_register` "
+"で登録されたモノマーから作成し登録します。 :ref:`md_polymer_pref` で設定したポリマーファイルの保存先に、 "
+":file:`wpo` という拡張子で保存されます。 :file:`wpo` "
+"ファイルはWinmostar独自のコメントが付加したmol2ファイルです。 電荷の割り当て方は :ref:`md_polymer_homo` "
+"と同じです。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Ratio]"
+msgstr "NOTTRANSLATED"
+
+msgid "選択した中間モノマーの出現率(0 < x < 1.0)を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "設定した中間モノマー名と出現率をInternal Monomer Listに反映させます。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Sum of Ration]"
+msgstr "NOTTRANSLATED"
+
+msgid "Internal Monomer ListにリストアップされたRatioの合計値が表示されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Internal Monomer List内で選択した中間モノマーをリストから削除します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Definition of Ratio]"
+msgstr "NOTTRANSLATED"
+
+msgid "[Probability of Each Monomer]"
+msgstr "NOTTRANSLATED"
+
+msgid "出現率[Add]に従って中間モノマー発生させます。最終的な中間モノマーの比率は出現率に一致するとは限りません。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Proportion in Total Monomers]"
+msgstr "NOTTRANSLATED"
+
+msgid "最終的に得られる中間モノマーの比率は出現率[Add]に比例します。"
+msgstr "NOTTRANSLATED"
+
+msgid "ポリマーセルビルダ"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":ref:`md_polymer_homo` 、 :ref:`md_polymer_block` 、 "
+":ref:`md_polymer_random` において登録したポリマーを用いてシミュレーションセルを構築します。 "
+":ref:`md_solvate_buildcell` "
+"を用いると各分子を剛体的にシミュレーションセルに配置するため高密度で作成することが困難ですが、本機能を使用するとLAMMPSを使用してエネルギー最小化計算を実行しながら配置するため比較的高密度で作成することができます。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Box Configulation]"
+msgstr "NOTTRANSLATED"
+
+msgid "[Density]"
+msgstr "NOTTRANSLATED"
+
+msgid "密度を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[X-Axis Length]"
+msgstr "NOTTRANSLATED"
+
+msgid "直方体セルのX方向の長さをÅ単位で指定します。または長さがÅ単位で表示されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Y-Axis Length]"
+msgstr "NOTTRANSLATED"
+
+msgid "直方体セルのY方向の長さをÅ単位で指定します。または長さがÅ単位で表示されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Z-Axis Length]"
+msgstr "NOTTRANSLATED"
+
+msgid "直方体セルのZ方向の長さがÅ単位で表示されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Cubic Cell]"
+msgstr "NOTTRANSLATED"
+
+msgid "立方体セルを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Periodic Boundary Condition]"
+msgstr "NOTTRANSLATED"
+
+msgid "[X],[Y],[Z]"
+msgstr "NOTTRANSLATED"
+
+msgid "周期境界条件を課す方向にトグルを入れます。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Polymer Available]"
+msgstr "NOTTRANSLATED"
+
+msgid "選択したポリマーの本数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "選択したポリマーをメインウインドウに表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "指定したポリマーのファイル削除します。"
+msgstr "NOTTRANSLATED"
+
+msgid "選択したポリマーをPolymers Usedリストに反映させます。"
+msgstr "NOTTRANSLATED"
+
+msgid "選択したポリマーをPolymers Usedリストから削除します。"
+msgstr "NOTTRANSLATED"
+
+msgid "シミュレーションセルを作成します。"
+msgstr "NOTTRANSLATED"
+
+msgid "モノマー割り付け"
+msgstr "NOTTRANSLATED"
+
+msgid "DPD粒子に対し登録したモノマーを割り付け、全原子MDの分子構造を取得します。"
+msgstr "NOTTRANSLATED"
+
+msgid "設定"
+msgstr "NOTTRANSLATED"
+
+msgid "モノマーおよびポリマーを登録するフォルダを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Monomer(\\*.wmo)Folder]"
+msgstr "NOTTRANSLATED"
+
+msgid "モノマーファイルの保存先フォルダを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "[Polymer(\\*.wpo)Folder]"
+msgstr "NOTTRANSLATED"
+
+msgid "ポリマーファイルの保存先フォルダを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "設定内容を保存してウインドウを閉じます。"
+msgstr "NOTTRANSLATED"
+
+msgid "設定内容を破棄してウインドウを閉じます。"
+msgstr "NOTTRANSLATED"
+

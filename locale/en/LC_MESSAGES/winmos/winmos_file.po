@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid ":menuselection:`ファイル` メニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "新規"
+msgstr "NOTTRANSLATED"
+
+msgid "起動直後の状態に戻ります。"
+msgstr "NOTTRANSLATED"
+
+msgid ":kbd:`Ctrl+N` でも操作できます。"
+msgstr "NOTTRANSLATED"
+
+msgid "開く"
+msgstr "NOTTRANSLATED"
+
+msgid "ファイルから分子構造をメインウインドウに読み込みます。各種ソフトのフォーマットに対応しています。"
+msgstr "NOTTRANSLATED"
+
+msgid ":kbd:`Ctrl+O` でも操作できます。"
+msgstr "NOTTRANSLATED"
+
+msgid "最近使ったファイル"
+msgstr "NOTTRANSLATED"
+
+msgid "最近開かれたファイルを開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid "履歴をクリア"
+msgstr "NOTTRANSLATED"
+
+msgid "最近開かれたファイルの履歴を空にします。"
+msgstr "NOTTRANSLATED"
+
+msgid "再度読み込み"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウのタイトルに表示されているファイルを再度読み込みます。"
+msgstr "NOTTRANSLATED"
+
+msgid "追加読み込み"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウに表示されている分子構造に、選択したファイルの分子構造を追加します。"
+msgstr "NOTTRANSLATED"
+
+msgid "上書き保存"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウに表示されている分子構造を上書き保存します。"
+msgstr "NOTTRANSLATED"
+
+msgid "詳細は :ref:`file_saveas` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid ":kbd:`Ctrl+S` でも操作できます。"
+msgstr "NOTTRANSLATED"
+
+msgid "名前を付けて保存"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウに表示されている分子構造を別名で保存します。"
+msgstr "NOTTRANSLATED"
+
+msgid "ファイル名およびファイルを含むフォルダ名（上位階層全て）は半角英数のみで記入することを推奨します。"
+msgstr "NOTTRANSLATED"
+
+msgid "全角英数、日本語などのマルチバイト文字、スペースが含まれる場合は、一部の処理で不具合がでることがあります。"
+msgstr "NOTTRANSLATED"
+
+msgid "アンダースコアは使用可能です。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"各種ソルバの入力ファイルを保存する場合は、 :ref:`キーワード表示エリア <gui_main>` と :ref:`座標表示エリア "
+"<gui_main>` の内容を基にファイルが作成されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"キーワード表示エリアに、保存したいソルバのキーワードが表示されていない場合は、キーワード設定ウインドウが自動で開きます。 "
+"また、MOPAC、GAMESS、Gaussian、NWChemの場合は :menuselection:`ファイル -->` "
+":ref:`file_coordinateformat` で選択されたフォーマットで座標が出力されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ":kbd:`Shift+Ctrl+S` でも操作できます。"
+msgstr "NOTTRANSLATED"
+
+msgid "インポート"
+msgstr "NOTTRANSLATED"
+
+msgid "特定の形式の分子構造と、一部の計算結果ファイルを読み込みます。"
+msgstr "NOTTRANSLATED"
+
+msgid "SMILES"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"SMILES形式の文字列から分子構造を生成し、メインウインドウに読み込みます。 :guilabel:`Import SMILES` "
+"ウインドウが開いたら、テキストボックスにSMILES形式の文字列を入力し、 :guilabel:`Convert` "
+"を押してください。内部的には同時にBolloonによる配座探索も実行されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "エクスポート"
+msgstr "NOTTRANSLATED"
+
+msgid "選択した形式でメインウインドウに表示されている内容を出力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウに表示されている分子構造をSMILES形式の文字列で出力します。メインウインドウに複数分子表示されている場合は使用できません。Cygwin上でOpenBabelを使用します。"
+msgstr "NOTTRANSLATED"
+
+msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ <install_cygwinwm>` が必要です。"
+msgstr "NOTTRANSLATED"
+
+msgid "構造式"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウに表示されている分子構造の構造式の画像をSVG形式で出力します。メインウインドウに複数分子表示されている場合は使用できません。Cygwin上でOpenBabelを使用します。"
+msgstr "NOTTRANSLATED"
+
+msgid "画像"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウに表示されている内容をBMPまたはJPG形式で出力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "VRML"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウに表示されている分子構造をVRML形式で出力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "CHARMM crd File"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウに表示されている分子構造をCHARMMのcrd形式で座標を出力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "テキストエディタで開く"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウのタイトルに表示されるファイルを、環境設定ウインドウにて選択したテキストエディタで開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid "テキストエディタで編集後、:ref:`file_reload_file` を選択すると、変更をメインウインドウに反映することができます。"
+msgstr "NOTTRANSLATED"
+
+msgid "エクスプローラで表示"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウのタイトルに表示されているファイルの一階層上のディレクトリを開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid "座標出力形式を切り替え"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":ref:`座標表示エリア <gui_main>` "
+"での表示形式と、MOPAC、GAMESS、Gaussian、NWChem形式でファイルを保存する際の座標形式を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":ref:`座標表示エリア <gui_main>` 上部のタブでも切り替えることができます。"
+msgstr "NOTTRANSLATED"
+
+msgid "終了"
+msgstr "NOTTRANSLATED"
+
+msgid "Winmostarを終了します。"
+msgstr "NOTTRANSLATED"
+

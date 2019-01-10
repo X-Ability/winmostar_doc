@@ -1,0 +1,1016 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid ":menuselection:`固体 --> Quantum ESPRESSO` メニュー"
+msgstr "NOTTRANSLATED"
+
+msgid "Quantum ESPRESSOに関するメニューです。"
+msgstr "NOTTRANSLATED"
+
+msgid "Quantum ESPRESSOをインストールする方法は :ref:`install_install` に記載しています。"
+msgstr "NOTTRANSLATED"
+
+msgid "キーワード設定"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"Quantum ESPRESSOの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` "
+"ボタン、一旦メインウインドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`solid_qe_start` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 :guilabel:`Save` ボタンでForce "
+"Fieldを除く設定を保存します。 :guilabel:`Load` ボタンで :guilabel:`Save` にて保存した設定を読み込みます。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":ref:`キーワード表示エリア <gui_main>` に表示されているQuantum "
+"ESPRESSOのキーワードと本機能のウインドウに設定された内容が異なる場合は、キーワード表示エリアからキーワードを読み込むか尋ねられます。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"本機能を呼び出すときに、メインウインドウに表示された構造がプリミティブセルに変化できる場合は、自動で "
+":ref:`solid_convertcell` が実行されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Output Directory"
+msgstr "NOTTRANSLATED"
+
+msgid "データの出力先フォルダ(outdir)を指定すると同時に、ジョブの新規・継続実行を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Create"
+msgstr "NOTTRANSLATED"
+
+msgid "新規にデータの出力先フォルダを作成します。outdirは新規フォルダに設定されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Continue"
+msgstr "NOTTRANSLATED"
+
+msgid "メイン画面に読み込まれている、直前に実行されたQEのジョブを継続します。outdirは直前に実行されたジョブのoutdirに設定されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Select..."
+msgstr "NOTTRANSLATED"
+
+msgid "開いたダイアログで指定したフォルダを出力先に指定し、そのフォルダのデータからジョブを継続します。outdirはここで指定したものに設定されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Preset"
+msgstr "NOTTRANSLATED"
+
+msgid "設定のプリセットを選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Use MPI"
+msgstr "NOTTRANSLATED"
+
+msgid "QEの実行時にMPIを用いて並列計算を実行するか指定します。横の欄にはMPIプロセス数を入力します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Basicタブ"
+msgstr "NOTTRANSLATED"
+
+msgid "calculation"
+msgstr "NOTTRANSLATED"
+
+msgid "計算の種類を選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Use nbnd"
+msgstr "NOTTRANSLATED"
+
+msgid "バンド数を指定します。チェックを入れない場合は自動で設定されます。括弧内に選択されたは擬ポテンシャルを使用したときの価電子数が表示される。価電子数の自動計算に失敗した場合はN/Aと表示される。"
+msgstr "NOTTRANSLATED"
+
+msgid "K_POINTS"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"K点の指定方法をプルダウンから選び、下のテキストボックスにQEの書式でK点を指定します。 gammaの場合はΓ点のみで計算されます。 "
+"automaticの場合は「(kx方向の分割数) (ky方向の分割数) (kz方向の分割数) (kx方向のシフトフラグ) "
+"(ky方向のシフトフラグ) "
+"(kz方向のシフトフラグ)」（スペース区切り）を入力します。シフトフラグは0のときにシフトなし（k点がΓ点を含む）、1のときにシフトあり（k点がΓ点を跨ぐ）となります。"
+" その他詳細はpw.xのマニュアルまたはQEインストールフォルダ以下のdoc/brillouin_zones.pdfをご参照ください。"
+msgstr "NOTTRANSLATED"
+
+msgid "Set default k-path"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウに表示されている結晶について検出されたブラベー格子（ibrav）のデフォルトのk点パスをUserPref/kpath_default.txtから取得して設定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "nosym"
+msgstr "NOTTRANSLATED"
+
+msgid "空間対称性の利用の有無を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "noinv"
+msgstr "NOTTRANSLATED"
+
+msgid "時間反転対称性の利用の有無を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Set ibrav = ... and celldm"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"メインウインドウにプリミティブセルが表示されていて、チェックが入っている場合は、適当なibravとcelldmを設定します。 "
+"チェックが入っていない場合は、ibrav=0とし、CELL_PARAMETERSを設定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "ecutwfc"
+msgstr "NOTTRANSLATED"
+
+msgid "波動関数の計算時の平面波のカットオフエネルギーを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "ecutrho"
+msgstr "NOTTRANSLATED"
+
+msgid "電子密度およびポテンシャル計算時の平面波のカットオフエネルギーを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "tot_charge"
+msgstr "NOTTRANSLATED"
+
+msgid "シミュレーションセル内の系全体の電荷を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "occupations"
+msgstr "NOTTRANSLATED"
+
+msgid "金属の場合はsmearing, DOS計算の場合はtetrahedronを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "ion_dynamics"
+msgstr "NOTTRANSLATED"
+
+msgid "イオン（原子核）位置を変化させるアルゴリズムを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "cell_dynamics"
+msgstr "NOTTRANSLATED"
+
+msgid "シミュレーションセルを変化させるアルゴリズムを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "tprnfor"
+msgstr "NOTTRANSLATED"
+
+msgid "力を計算します。"
+msgstr "NOTTRANSLATED"
+
+msgid "tstress"
+msgstr "NOTTRANSLATED"
+
+msgid "圧力テンソルを計算します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Advanceタブ"
+msgstr "NOTTRANSLATED"
+
+msgid "conv_thr"
+msgstr "NOTTRANSLATED"
+
+msgid "SCF計算時のエネルギーの許容誤差を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "etot_conv_thr"
+msgstr "NOTTRANSLATED"
+
+msgid "構造最適化(relax)計算時のエネルギーの許容誤差を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "forc_conv_thr"
+msgstr "NOTTRANSLATED"
+
+msgid "構造最適化(relax)計算時の力の許容誤差を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "press_conv_thr"
+msgstr "NOTTRANSLATED"
+
+msgid "セルの構造最適化(relax-vc)計算時の圧力の許容誤差を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "electron_maxstep"
+msgstr "NOTTRANSLATED"
+
+msgid "SCF計算の最大反復数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "nstep"
+msgstr "NOTTRANSLATED"
+
+msgid "構造最適化(relax)計算の最大ステップ数およびMD計算のステップ数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "upscale"
+msgstr "NOTTRANSLATED"
+
+msgid "構造最適化(relax)計算の最中にconv_thrを自動的に小さくする際の係数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "diagonalozation"
+msgstr "NOTTRANSLATED"
+
+msgid "対角化アルゴリズムを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "lspinorb"
+msgstr "NOTTRANSLATED"
+
+msgid "ノンコリニア計算時にスピン軌道相互作用付きの擬ポテンシャルファイルを使えるようにします。"
+msgstr "NOTTRANSLATED"
+
+msgid "smearing"
+msgstr "NOTTRANSLATED"
+
+msgid "占有平滑化(smearing)の方法を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "degauss"
+msgstr "NOTTRANSLATED"
+
+msgid "占有平滑化のパラメータを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "mixing_beta"
+msgstr "NOTTRANSLATED"
+
+msgid "SCF計算における新旧のKS軌道の混合比を指定します。1に近いほど予測値の割合が大きくなります。"
+msgstr "NOTTRANSLATED"
+
+msgid "mixing_mode"
+msgstr "NOTTRANSLATED"
+
+msgid "新旧のKS軌道の混合アルゴリズムを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "vdw_corr"
+msgstr "NOTTRANSLATED"
+
+msgid "ファンデルワールス（分散）力の補正方法を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Use input_dft"
+msgstr "NOTTRANSLATED"
+
+msgid "チェックを入れた場合は、汎関数の設定を擬ポテンシャルファイルに書かれた設定に対し上書きします。"
+msgstr "NOTTRANSLATED"
+
+msgid "cell_dofree"
+msgstr "NOTTRANSLATED"
+
+msgid "シミュレーションセルを動かす際の自由度（方向）を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Use cell_factor"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"擬ポテンシャルテーブルの構築パラメータを明示的に指定します。vc-"
+"relax（セルサイズの変化を伴う構造最適化計算）の際に大きい値を設定した方がいい場合があります。"
+msgstr "NOTTRANSLATED"
+
+msgid "Spin/DFT+Uタブ"
+msgstr "NOTTRANSLATED"
+
+msgid "nspin"
+msgstr "NOTTRANSLATED"
+
+msgid "スピン分極計算の設定をします。"
+msgstr "NOTTRANSLATED"
+
+msgid "Use tot_magnetization"
+msgstr "NOTTRANSLATED"
+
+msgid "チェックを入れた場合は、ここで系全体の磁化を指定します。チェックしない場合はstarting_magnetizationを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "starting_magnetization"
+msgstr "NOTTRANSLATED"
+
+msgid "各原子種の磁化の初期値を与えます。"
+msgstr "NOTTRANSLATED"
+
+msgid "lda_plus_u"
+msgstr "NOTTRANSLATED"
+
+msgid "LDA+U計算を実行します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Hubbard_U/alpha"
+msgstr "NOTTRANSLATED"
+
+msgid "各原子種のHubbardのUおよびalphaパラメータを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Phononタブ"
+msgstr "NOTTRANSLATED"
+
+msgid "Run Phonon Calculation as Postprocess"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"フォノン計算を実行します。 具体的には、pw.xを実行した後にph.xを実行します。 "
+"この項目を有効にするためには、CalculationにSCFまたはrelaxを選ぶ必要があります。 "
+"ph.xなどの入出力ファイルは作業ディレクトリ内に作成されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Threshold"
+msgstr "NOTTRANSLATED"
+
+msgid "フォノン計算の打ち切り誤差を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Calc Macroscopic Dielectric Constant"
+msgstr "NOTTRANSLATED"
+
+msgid "フォノン計算から得られる誘電率を計算します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Calc Non-resonant Raman"
+msgstr "NOTTRANSLATED"
+
+msgid "Ramanスペクトルの計算を含めます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Acoustic Sum Rule"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"フォノン計算後のスペクトル算出時（dynmat.x）のAcoustic Sum "
+"Ruleの与え方を指定します。フォノン計算そのものには影響を与えません。"
+msgstr "NOTTRANSLATED"
+
+msgid "Calc Phonon Dispersion"
+msgstr "NOTTRANSLATED"
+
+msgid "フォノン分散を計算します。フォノンバンド構造、フォノン状態密度を取得するためにはこれを指定する必要があります。"
+msgstr "NOTTRANSLATED"
+
+msgid "K Points (Dispersion)"
+msgstr "NOTTRANSLATED"
+
+msgid "フォノン分散の計算時のK点の数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Dynamicsタブ"
+msgstr "NOTTRANSLATED"
+
+msgid "Simulation Package"
+msgstr "NOTTRANSLATED"
+
+msgid "MD計算に使用する計算パッケージを指定します。cp.xの場合はCPMD法を使います。"
+msgstr "NOTTRANSLATED"
+
+msgid "dt"
+msgstr "NOTTRANSLATED"
+
+msgid "MD計算の時間刻みをatomic unitで指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "tempw"
+msgstr "NOTTRANSLATED"
+
+msgid "MD計算で温度制御を指定した際の目標温度を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "press"
+msgstr "NOTTRANSLATED"
+
+msgid "MD計算で圧力制御を指定した際の目標圧力を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "ion_temperature"
+msgstr "NOTTRANSLATED"
+
+msgid "MD計算のイオン（原子核）の温度制御方法を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "ion_velocities"
+msgstr "NOTTRANSLATED"
+
+msgid "MD計算のイオンの初速度を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "tolp"
+msgstr "NOTTRANSLATED"
+
+msgid "温度制御時の温度の許容値を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "pot_extrapolation"
+msgstr "NOTTRANSLATED"
+
+msgid "Born-Oppenheimer MD使用時のポテンシャルの外挿方法を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "wfc_extrapolation"
+msgstr "NOTTRANSLATED"
+
+msgid "Born-Oppenheimer MD使用時の波動関数の外挿方法を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "electron_dynamics"
+msgstr "NOTTRANSLATED"
+
+msgid "Car-Parrinello MD使用時のKS軌道を変化させるアルゴリズムを指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "electron_velocities"
+msgstr "NOTTRANSLATED"
+
+msgid "Car-Parrinello MD使用時の電子の初速度を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "emass"
+msgstr "NOTTRANSLATED"
+
+msgid "Car-Parrinello MD使用時の電子の仮想質量を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "emass_cutoff"
+msgstr "NOTTRANSLATED"
+
+msgid "Car-Parrinello MD計算時の電子の仮想質量のカットオフ値を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "orthogonalization"
+msgstr "NOTTRANSLATED"
+
+msgid "行列計算（正規直交化）の方法を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "ESMタブ"
+msgstr "NOTTRANSLATED"
+
+msgid "assume_isolated=esm"
+msgstr "NOTTRANSLATED"
+
+msgid "ESM(Effective Screening Medium, 有効遮蔽媒質)法を使用する場合はチェックを入れます。"
+msgstr "NOTTRANSLATED"
+
+msgid "esm_bc"
+msgstr "NOTTRANSLATED"
+
+msgid "ESM法で使われる境界条件の種類を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "esm_efield"
+msgstr "NOTTRANSLATED"
+
+msgid "電場を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "lfcpopt"
+msgstr "NOTTRANSLATED"
+
+msgid "化学ポテンシャル一定(constant mu)計算を実施します。初期の系全体の電荷はBasicタブのtot_chargeで指定されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "fcp_mu"
+msgstr "NOTTRANSLATED"
+
+msgid "化学ポテンシャル一定計算でのフェルミエネルギーの目標値を設定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Enter Relative Potential..."
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"Target Fermi Energyの入力をサポートします。 "
+"まず、電圧0での計算のログファイルを指定し、電圧0でのフェルミエネルギーを取得します。 次に、印加電圧を入力します。 "
+"これら2つの情報から、Target Fermi Energyを算出します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Otherタブ"
+msgstr "NOTTRANSLATED"
+
+msgid "QEの入力ファイルの書式（FORTRANのnamelist形式）で、その他の設定を記入します。 記入例は、ポインタを重ねると表示されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Options"
+msgstr "NOTTRANSLATED"
+
+msgid "Verbosity"
+msgstr "NOTTRANSLATED"
+
+msgid "QEが出力する情報量を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "atomic_position unit"
+msgstr "NOTTRANSLATED"
+
+msgid "ATOMIC_POSITIONSおよびCELL_PARAMETERSの単位を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Use max_seconds"
+msgstr "NOTTRANSLATED"
+
+msgid "チェックを入れた場合、ここに入力した秒数の経過後QEの処理が中断されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Make a Backup of Working Directory"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"Output "
+"DirectoryがCreateの際に、作成される_qe_dataフォルダが既に存在する場合、フォルダ名末尾に数字を付加して既に存在するフォルダをバックアップします。"
+msgstr "NOTTRANSLATED"
+
+msgid "Dump all files for remote"
+msgstr "NOTTRANSLATED"
+
+msgid "Linux環境でのジョブ実行に必要なファイルを出力します。リモートジョブ投入機能で生成されるファイルと同じファイルが出力されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Open  k-path file"
+msgstr "NOTTRANSLATED"
+
+msgid "ibrav（ブラべ格子）の種類ごとにデフォルトで指定するk点パスを記述する設定ファイル（UserPref/kpath_default.txt）を開きます。UserPref/kpath_default.txtが存在しない場合はwmx/kpath_default.txtからコピーされます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Use RISM-enabled QE"
+msgstr "NOTTRANSLATED"
+
+msgid "RISMが実装されたQEを使う場合にチェックを入れます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Propertiesタブ"
+msgstr "NOTTRANSLATED"
+
+msgid "Calculate these properties after pw.x"
+msgstr "NOTTRANSLATED"
+
+msgid "pw.x実行直後に実行されるポスト処理を選択します。ここで選択した処理の各種パラメータは右のParameter/Value欄にて指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Pseudo Potentialsタブ"
+msgstr "NOTTRANSLATED"
+
+msgid "Mass"
+msgstr "NOTTRANSLATED"
+
+msgid "各元素の質量を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Default"
+msgstr "NOTTRANSLATED"
+
+msgid "標準的な質量を設定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Light"
+msgstr "NOTTRANSLATED"
+
+msgid "全元素の質量を1に設定します。イオンの構造緩和の促進などの目的で使われます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Manual"
+msgstr "NOTTRANSLATED"
+
+msgid "下のリスト内で、各元素に対し、ユーザーが個別に質量を設定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Pseudo Potential"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"系内の全元素に共通して存在する種類の擬ポテンシャルをプルダウンで選択できます。 "
+"(Manual)を選んだ場合は、下のリスト内で、各元素に対し、ユーザーが個別に擬ポテンシャルを設定します。 擬ポテンシャルファイルは、pseudo"
+" Directoryで指定したフォルダの中から検索されます。 "
+"UserPref/qe_pseudo_priority_list.txtの先頭に書かれたものが優先的に選択されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Reload pseudo Files"
+msgstr "NOTTRANSLATED"
+
+msgid "pseudo Directoryで指定したフォルダに配置された擬ポテンシャルファイルを再度読み込みます。"
+msgstr "NOTTRANSLATED"
+
+msgid "pseudo Directory"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"擬ポテンシャルファイルを配置するフォルダを指定します。 :guilabel:`pseudo in QE's directory` "
+"の場合は、QEのインストールディレクトリ以下のpseudoフォルダを用います。 :guilabel:`(select...)` "
+"の場合は、ダイアログで選択したディレクトリを用います。"
+msgstr "NOTTRANSLATED"
+
+msgid "Open Pseudo Directory"
+msgstr "NOTTRANSLATED"
+
+msgid "pseudo Directoryで指定したフォルダを開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Download Pseudo Files"
+msgstr "NOTTRANSLATED"
+
+msgid "擬ポテンシャルファイルをダウンロードしてインストールします。"
+msgstr "NOTTRANSLATED"
+
+msgid "Open Priority List"
+msgstr "NOTTRANSLATED"
+
+msgid "UserPref/qe_pseudo_priority.txtを開きます。存在しない場合はwmx/qe_pseudo_priority.txtからコピーされます。"
+msgstr "NOTTRANSLATED"
+
+msgid "実行"
+msgstr "NOTTRANSLATED"
+
+msgid "Quantum ESPRESSOを実行します。 状況に応じて実行方法が異なります。"
+msgstr "NOTTRANSLATED"
+
+msgid "CPMDを選択したときは :command:`cp.x` 、それ以外の時は :command:`pw.x` が実行されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"（デフォルト） :guilabel:`Output Directory = Create` "
+"の時は、作業ディレクトリを新規に作成して計算を実行します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":guilabel:`Output Directory = Continue` "
+"の時は、その時メインウインドウで開いている入力ファイルのoutdirを作業ディレクトリとして使用します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":guilabel:`Output Directory = Select` "
+"の時は、選択したフォルダを作業ディレクトリ（outdir）として使用します。"
+msgstr "NOTTRANSLATED"
+
+msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`si.pwin` の時のファイル/フォルダ名を併記しています。"
+msgstr "NOTTRANSLATED"
+
+msgid "種類"
+msgstr "NOTTRANSLATED"
+
+msgid "説明"
+msgstr "NOTTRANSLATED"
+
+msgid "pwoutファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`si.pwout`"
+msgstr "NOTTRANSLATED"
+
+msgid "計算のログファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid "batファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`si.bat`"
+msgstr "NOTTRANSLATED"
+
+msgid "Quantum ESPRESSOを実行するためのバッチファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリ"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`si_qe_data\\\\`"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリです。"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリには以下のファイルが生成されます。 ここでは主要なファイルのみ示しています。"
+msgstr "NOTTRANSLATED"
+
+msgid "擬ポテンシャルファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`\\*.UPF`"
+msgstr "NOTTRANSLATED"
+
+msgid "計算に使用する擬ポテンシャルファイルは"
+msgstr "NOTTRANSLATED"
+
+msgid "ここにコピーされ、ESPRESSO_PSEUDO環境変数は"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリに設定されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`gmx_tmp.mdp`"
+msgstr "NOTTRANSLATED"
+
+msgid "計算条件を指定するファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`pw_bands.in`"
+msgstr "NOTTRANSLATED"
+
+msgid "ポスト処理でbands計算を実行する際の入力ファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`pw_bands.out`"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`pw_bands.in` のログファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`pw_dos.in`"
+msgstr "NOTTRANSLATED"
+
+msgid "ポスト処理でdos計算を実行する際の入力ファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`pw_dos.out`"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`pw_dos.in` のログファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`ph.in`"
+msgstr "NOTTRANSLATED"
+
+msgid "ポスト処理で :command:`ph.x` を用いてフォノン計算を"
+msgstr "NOTTRANSLATED"
+
+msgid "実行する際の入力ファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`ph.out`"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`ph.in` のログファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid "**作業ディレクトリ**"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリとは、メインウインドウで開かれているファイルの名前に接尾辞を加えた名前のフォルダです。"
+msgstr "NOTTRANSLATED"
+
+msgid "**接尾辞はソルバの種類により変わります。**"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"例えばGromacsの場合は、メインウインドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が "
+":file:`_gmx_tmp` の場合、作業ディレクトリの名前は :file:`aaa_gmx_tmp` となります。"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウインドウで開かれているファイルと同じ階層に置かれている必要があります。"
+msgstr "NOTTRANSLATED"
+
+msgid "継続ジョブの時も同名の作業ディレクトリで処理が流れますが、デフォルトでは継続ジョブの実施直前に、直前のジョブの作業ディレクトリのバックアップが作成されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"バックアップの名前は、重複する名前が存在しない範囲で一番小さい番号が付いたものになります。例えば、作業ディレクトリが "
+":file:`aaa_gmx_tmp` のときは :file:`aaa_gmx_tmp1` となります。"
+msgstr "NOTTRANSLATED"
+
+msgid "**番号が付いていないディレクトリが常に最新のものとなります。**"
+msgstr "NOTTRANSLATED"
+
+msgid "ログを表示 (pwout)"
+msgstr "NOTTRANSLATED"
+
+msgid "ログファイルをテキストエディタで開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid "アニメーション"
+msgstr "NOTTRANSLATED"
+
+msgid "ログファイルの情報から構造最適化、BOMD計算等のアニメーションを作成し表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "CPMDの場合は :ref:`solid_qe_cpmd_animation` を使用してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "SCFエネルギー変化"
+msgstr "NOTTRANSLATED"
+
+msgid "ログファイルを選択し、total energyのグラフを表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "CPMDの場合は :ref:`solid_qe_cpmd_energy` を使用してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "Draw"
+msgstr "NOTTRANSLATED"
+
+msgid "グラフを表示します。 必要に応じて結果解析用プログラムが実行されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Close"
+msgstr "NOTTRANSLATED"
+
+msgid "ウインドウを閉じます。"
+msgstr "NOTTRANSLATED"
+
+msgid "グラフ描画エリアの操作方法は :ref:`chart_top` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "電子密度"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリ(outdir)を指定し、等電子密度面を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "バックグラウンドではpp.xが流れ、cubeファイルが生成されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "サブウインドウの操作方法は :ref:`cube_top` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "Lowdin電荷"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリ(outdir)を指定し、点電荷を算出・表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "バックグラウンドでprojwfc.xが流れます。"
+msgstr "NOTTRANSLATED"
+
+msgid "ポテンシャルエネルギー分布"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、z軸方向のポテンシャルエネルギー分布を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"SCF計算のログからはフェルミエネルギーを取得します。 "
+"フェルミエネルギーとポテンシャルエネルギー分布の最大値の差を、仕事関数の推定値として表示します。 "
+"バックグラウンドでpp.xとaverage.xが流れます。"
+msgstr "NOTTRANSLATED"
+
+msgid "バンド構造"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、バンド構造を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"事前にcalculation=bandsで計算が終了している必要があります。 SCF計算のログファイルからはフェルミエネルギーを取得します。 "
+"バックグラウンドでbands.xが流れます。"
+msgstr "NOTTRANSLATED"
+
+msgid "状態密度"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、状態密度を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "SCF計算のログファイルからはフェルミエネルギーを取得します。 バックグラウンドでdos.xが流れます。"
+msgstr "NOTTRANSLATED"
+
+msgid "部分状態密度"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、部分状態密度(PDOS)を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "SCF計算のログからはフェルミエネルギーを取得します。 バックグラウンドでprojwfc.xが流れます。"
+msgstr "NOTTRANSLATED"
+
+msgid "フェルミ面"
+msgstr "NOTTRANSLATED"
+
+msgid "SCF計算とbands計算のログファイルを指定し、フェルミ面を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"フェルミ面の表示には `FermiSurfer <http://fermisurfer.osdn.jp/>`_ を使用します。 "
+":guilabel:`# of K Points` にbands計算時のk点分割数を指定し、 :guilabel:`Calc` "
+"ボタンを押すとフェルミ面が表示されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "誘電関数"
+msgstr "NOTTRANSLATED"
+
+msgid "誘電関数計算後の作業ディレクトリを指定し、誘電関数を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Direction"
+msgstr "NOTTRANSLATED"
+
+msgid "取得する誘電関数の方向を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "IR/ラマンスペクトル"
+msgstr "NOTTRANSLATED"
+
+msgid "フォノン計算後の作業ディレクトリとSCF計算のログを指定し、IRおよびラマンスペクトルを表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "サブウインドウの操作方法は :ref:`ir_top` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "フォノン分散曲線"
+msgstr "NOTTRANSLATED"
+
+msgid "フォノン分散計算後の作業ディレクトリを指定し、フォノン分散曲線を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "ASR"
+msgstr "NOTTRANSLATED"
+
+msgid "適用するAcoustic Sum Ruleの種類を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "K Points"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"取得する分散曲線のパスを指定します。 各行には、x, y, "
+"z成分をそれぞれ2pi/aの単位で記述し、その横に次の点までの間の分割数を記述します。（合計4カラムをスペース区切りで入力）"
+msgstr "NOTTRANSLATED"
+
+msgid "フォノン状態密度"
+msgstr "NOTTRANSLATED"
+
+msgid "フォノン分散計算後の作業ディレクトリを指定し、フォノン状態密度を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "フォノンDOS計算時のK点の分割数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "電荷/エネルギー分布 (esm1)"
+msgstr "NOTTRANSLATED"
+
+msgid "ESM計算（assume_isolated=esm）で出力されるesm1ファイルを指定し、z軸方向の電荷またはエネルギーの分布を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "2つのesm1ファイルの差をプロットすることもできます。"
+msgstr "NOTTRANSLATED"
+
+msgid "溶媒原子間相関関数 (1drism)"
+msgstr "NOTTRANSLATED"
+
+msgid "RISM計算（trism=.True.）で出力される1drismファイルを用いてRISM領域の原子間相関関数(動径分布関数)を算出します。"
+msgstr "NOTTRANSLATED"
+
+msgid "溶媒密度/エネルギー分布(rism1)"
+msgstr "NOTTRANSLATED"
+
+msgid "RISM計算（trism=.True.）で出力されるrism1ファイルを用いて、DFT領域-RISM領域が接する方向（界面垂直方向）の溶媒密度・エネルギー・電荷を算出します。"
+msgstr "NOTTRANSLATED"
+
+msgid "CPMDアニメーション(pos)"
+msgstr "NOTTRANSLATED"
+
+msgid "CPMDのposファイルとcelファイルを指定し、アニメーションを表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "pw.xの結果を表示する場合は :ref:`solid_qe_animation` を使用してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "CPMDエネルギー変化(evp)"
+msgstr "NOTTRANSLATED"
+
+msgid "CPMDのevpファイルを指定し、各種エネルギーの時間変化を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "NEBキーワード設定"
+msgstr "NOTTRANSLATED"
+
+msgid "NEB計算の条件を設定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "始状態と終状態それぞれの構造最適化計算を終えた状態で設定してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "NEB実行"
+msgstr "NOTTRANSLATED"
+
+msgid "neb.xを用いてNEB計算を実行します。"
+msgstr "NOTTRANSLATED"
+
+msgid "遷移状態（NEB）"
+msgstr "NOTTRANSLATED"
+
+msgid "NEB計算後のファイルを指定し、反応座標に沿ったエネルギーと原子構造の変化を表示します。"
+msgstr "NOTTRANSLATED"
+
