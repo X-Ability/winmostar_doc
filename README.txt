@@ -52,15 +52,19 @@ alias latex=platex
 $ sphinx-autobuild -b html source build/html
 をTerminalで実行しておく。
 
-- To edit and build English version,
+- 英語版の作成方法
 
-1) Write documents in Japanese on source/*.rst.
+1) 各種rstファイルに変更が加わったら、locale/en/LC_MESSAGES/*.poを作成するために
+$ bash rst2po.sh
+とする。
 
-2) "make html" to generate Japanese websites.
+2) locale/en/LC_MESSAGES/*.poを翻訳する。
 
-3) "bash rst2po.sh" to create locale/en/LC_MESSAGES/*.po.
+3) 以下のコマンドで英語版htmlを生成する。
+$ bash po2target.sh
 
-4) Translate at locale/en/LC_MESSAGES/*.po.
+4) 以下のコマンドで英語版pdfを生成する。途中でエラーが出るが、Enterキーを押してスキップする。
+$ bash po2target.sh
 
-5) "bash po2target.sh" to generate English websites.
+
 
