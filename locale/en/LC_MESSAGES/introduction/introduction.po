@@ -19,12 +19,12 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "はじめに"
-msgstr "NOTTRANSLATED"
+msgstr "Introduction"
 
 msgid ""
 "Winmostar(TM)は量子化学計算、第一原理計算、分子動力学計算を効率的に操作できるグラフィカルユーザーインターフェースを提供します。 "
 "初期構造の作成、計算の実行から結果解析に至るまで、シミュレーションに必要な一通りの操作をWinmostar(TM)上で実施することができます。"
-msgstr "NOTTRANSLATED"
+msgstr "Winmostar provides graphical user interfaces for quantum chemical, solid physics and molecular dynamics simulations."
 
 msgid "分子のモデリング機能については100,000原子まで動作確認されています。MD計算の機能についてはより大きな系で動作確認されています。"
 msgstr "NOTTRANSLATED"
@@ -93,14 +93,14 @@ msgid "注意点を示します。"
 msgstr "NOTTRANSLATED"
 
 msgid "使用しているライブラリ"
-msgstr "NOTTRANSLATED"
+msgstr "Acknowledgments"
 
 msgid "Winmostarは一部の処理に下記のライブラリを使用しています。"
-msgstr "NOTTRANSLATED"
+msgstr "Portions of this software may utilize the following copyrighted materials, the use of which is hereby acknowledged."
 
 msgid "Abbrevia 5.0"
-msgstr "NOTTRANSLATED"
+msgstr "Abbrevia 5.0"
 
 msgid "TeeChart Standard"
-msgstr "NOTTRANSLATED"
+msgstr "TeeChart Standard"
 

@@ -6,7 +6,7 @@
 #
 #, fuzzy
 msgid ""
-msgstr "NOTTRANSLATED"
+msgstr ""
 "Project-Id-Version: Winmostar User Manual 9.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-10 23:32+0900\n"
@@ -19,5 +19,5 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "Table Of Contents"
-msgstr "NOTTRANSLATED"
+msgstr "Table Of Contents"
 
