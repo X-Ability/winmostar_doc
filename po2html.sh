@@ -23,5 +23,24 @@ find build_en/html -name '*.html' -print0 | \
     "$file"; done
 
 find build_en/html -name '*.html' -print0 | \
+    while read -r -d '' file; do cp "$file" "$file".bak; done
+
+find build_en/html -name '*.html' -print0 | \
+    while read -r -d '' file; do grep -v '^$' "$file".bak > "$file"; done
+
+
+# Delete empty blocks
+
+find build_en/html -name '*.html' -print0 | \
+    while read -r -d '' file; do sed -i.bak \
+   ':lbl1;N;s|<div class="admonition note">\n<p class="first admonition-title">Note</p>\n</div>\n||;b lbl1;' \
+    "$file"; done
+
+find build_en/html -name '*.html' -print0 | \
+    while read -r -d '' file; do sed -i.bak \
+   ':lbl1;N;s|<div class="admonition warning">\n<p class="first admonition-title">Warning</p>\n</div>\n||;b lbl1;' \
+    "$file"; done
+
+find build_en/html -name '*.html' -print0 | \
     while read -r -d '' file; do rm "$file".bak ; done
 
