@@ -20,7 +20,7 @@ echo 'export PATH="$PYENV_ROOT/versions/anaconda3-5.2.0/bin/:$PATH"' >> ~/.bashr
 source ~/.bashrc
 conda update conda
 conda create -n sphinx_env
-source activate sphinx-env
+source activate sphinx_env
 conda install Sphinx
 conda install -c conda-forge sphinx-autobuild
 pip install sphinx-intl
@@ -47,10 +47,6 @@ build/html以下が生成されたhtmlとなり、index.htmlをブラウザで開くと内容を確認でき
 $ make latexpdf
  
 build/latex/winmostar_usermanual.pdfが生成されたpdfである。
-
-※一部の環境では日本語のPDFの生成に失敗することがある。
-alias latex=platex
-としてから実行すれば通るかもしれない。
 
 - rstファイルを編集している最中に、自動的に日本語のhtmlをビルドする場合
 
