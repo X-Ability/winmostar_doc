@@ -331,5 +331,13 @@ Profileメニュー
    * - %WM_NUM_PARALLEL%
      - %WM_NUM_PROC%と%WM_NUM_THREAD%の積
 
+リモートジョブの設定ファイル
+-----------------------------------
+
+プロファイルの設定は、Winmostarのインストールフォルダの :file:`UserPref\\winmos_profile.ini` に保存されます。
+読み込む際には、V8以前の旧バージョンとの互換性維持のため、以下の優先順位で読み込まれます。
+
+:file:`UserPref\\winmos_profile.ini` > :file:`UserPref\\winmos_server.ini` > :file:`wm_system\\RemoteJob\default_profile.ini`
+
 
          
