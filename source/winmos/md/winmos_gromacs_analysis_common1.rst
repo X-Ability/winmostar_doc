@@ -6,9 +6,9 @@ Reference Group
 Create Group
    groファイルに書かれている原子名から新たなグループを登録します。
    
-   メインウインドウでグループ選択されている原子をグループとして定義する場合は :menuselection:`MD --> Gromacs -->` :ref:`md_gromacs_editndx` を使用してください。
+   メインウィンドウでグループ選択されている原子をグループとして定義する場合は :menuselection:`MD --> Gromacs -->` :ref:`md_gromacs_editndx` を使用してください。
    
-   :guilabel:`Create Group` ウインドウでは、 :guilabel:`Extracted Atom Names` にチェックを入れて :guilabel:`New group Name` を入力し :guilabel:`Create` ボタンを押すと、ndxファイルにグループが追加されます。
+   :guilabel:`Create Group` ウィンドウでは、 :guilabel:`Extracted Atom Names` にチェックを入れて :guilabel:`New group Name` を入力し :guilabel:`Create` ボタンを押すと、ndxファイルにグループが追加されます。
    :guilabel:`Close` ボタンを押すと :guilabel:`Target Group` や :guilabel:`Reference Group` に追加したグループが追加されます。
 First Frame
    トラジェクトリを読み込む際の開始時間をps単位で指定します。

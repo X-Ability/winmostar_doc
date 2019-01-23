@@ -1,6 +1,6 @@
 .. _pio_top:
 
-PIO解析ウインドウ
+PIO解析ウィンドウ
 ============================================
 
    GAMESSまたはGaussianによるPIO (Paired Interacting Orbitals) 解析の設定と実行を行います。

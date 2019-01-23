@@ -115,7 +115,7 @@ Q. 作製した分子モデル等を学会発表や論文に用いることは�
 
 .. _faq_cygwin_error:
 
-Q. Cygwinを使う処理が異常終了します。／ :menuselection:`ツール --> cygwin_wmを診断` 機能で `... ERROR ...` と表示されます。／Cygwinの黒いウインドウに `child_info_fork::abort: ... Loaded to different address: parent ... != child ...` などと表示されます。
+Q. Cygwinを使う処理が異常終了します。／ :menuselection:`ツール --> cygwin_wmを診断` 機能で `... ERROR ...` と表示されます。／Cygwinの黒いウィンドウに `child_info_fork::abort: ... Loaded to different address: parent ... != child ...` などと表示されます。
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A. 
@@ -148,7 +148,7 @@ Q. 化学結合の種類（一重、二重など）を変更する方法を教�
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 | A. 例えば以下に示す方法で変更できます。
-| 1) :menuselection:`編集 --> 結合 --> 結合付加` またはメインウインドウ上部のk :guilabel:`結合付加` ボタンを複数回押すことで、結合の種類を変更できます。
+| 1) :menuselection:`編集 --> 結合 --> 結合付加` またはメインウィンドウ上部のk :guilabel:`結合付加` ボタンを複数回押すことで、結合の種類を変更できます。
 | 2) :menuselection:`編集 --> 結合 --> 結合再生成` を選択すると原子間距離から判定された結合次数で自動的に化学結合の種類が変更されます。予め :menuselection:`編集 --> クリーン` により構造最適化しておくと、より妥当に自動変更されることがあります。
 | 3) 小さい分子が一つだけしか表示されていない場合は、MOPAC計算を実行することで、Population解析結果を用いて自動的に結合次数が変更されます。
 
@@ -271,7 +271,7 @@ Q. MOPACのログに `ATOMS  **,  **, AND  ** ARE WITHIN  .**** ANGSTROMS OF A S
 | 
 | A.
 | 角度が180°近くになる角度がZ-Matrixに含まれている場合に表示されます。
-| メインウインドウ右下の座標編集機能で、接続先の原子を変更し、Z-Matrixから180°に近い角度がなくなるようにしてください。
+| メインウィンドウ右下の座標編集機能で、接続先の原子を変更し、Z-Matrixから180°に近い角度がなくなるようにしてください。
 | Z-Matrixに慣れていない場合は、これ以外の方法として、キーワードに"XYZ"を追加すると、このエラーを回避できることもあります。
 | あるいは、3原子が直線に並ぶ線上から外れた位置に、原子種XXのダミー原子を追加し、直線に並ぶ原子のZ-Matrix上の接続先として指定することで,
 | エラーを回避できることもあります。
@@ -315,7 +315,7 @@ Q. GAMESSにおいて、1原子だけの系の計算で「WARNING. NUMBER OF INT
 
 | A. 原子が1個だけの系においてZ-matrixを使うことによる不具合を示すメッセージになります。
 | この場合は直交座標を使う（COORD=UNIQUEにする）ことで解消します。
-| WimostarのGAMESSキーワード設定ウインドウにおいて、COORDをUNIQUEに変更してください。
+| WimostarのGAMESSキーワード設定ウィンドウにおいて、COORDをUNIQUEに変更してください。
 
 Q. GAMESSのログに「 `**** ERROR **** PCM SPHERE(S) MUST HAVE A POSITIVE RADIUS` 」と表示され異常終了します。
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -340,7 +340,7 @@ Q. Gaussianのoutファイルを読み込んだのですが、軌道(固有)エ�
 Q. Gaussianでchkファイルを読み込んだ計算を実施する方法を教えてください。
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-| A. リモートジョブの場合はSubmitJobウインドウで[Advance]のチェックを入れ、[Delete \*.chk]のチェックを外すとchkファイルが残され、その上でchkファイルを生成した時と同じ名前でジョブを流すとchkファイルを読み込んで計算が流れます。
+| A. リモートジョブの場合はSubmitJobウィンドウで[Advance]のチェックを入れ、[Delete \*.chk]のチェックを外すとchkファイルが残され、その上でchkファイルを生成した時と同じ名前でジョブを流すとchkファイルを読み込んで計算が流れます。
 |  `--Link1--` を使う方法の方が設定自体は簡便なため、こちらの使用もご検討ください。
 
 Gromacs, LAMMPSに関して
@@ -362,9 +362,9 @@ Q. GromacsのER法結果読み込みを実行しても結果が表示できま�
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 | A. ER法を実行する際に指定した出力先ディレクトリに生成されるermod.outの内容を確認してください。
-| ermod.outの中に「 The minimum of the energy coordinate is too large; the ecdmin parameter needs to be smaller」と書かれている場合は、ER法実行ウインドウの[Options]ボタンを押し、[For Solution System]のと[minimum value of the solute-solvent energy (ecdmin)]の値を小さくしてください。
+| ermod.outの中に「 The minimum of the energy coordinate is too large; the ecdmin parameter needs to be smaller」と書かれている場合は、ER法実行ウィンドウの[Options]ボタンを押し、[For Solution System]のと[minimum value of the solute-solvent energy (ecdmin)]の値を小さくしてください。
 | 具体的な値の設定方法など、詳しくは `ERmodのwikiのFAQ <https://sourceforge.net/p/ermod/wiki/TooLargeMinimum/>`_ を参照してください。
-| また、同様にermod.outの内容と `ERmodのwikiのFAQ全般 <https://sourceforge.net/p/ermod/wiki/FAQ_running/>`_ の内容を照らし合わせ、ermodの設定の変更が必要な場合はER法実行ウインドウの[Options]で設定してください。
+| また、同様にermod.outの内容と `ERmodのwikiのFAQ全般 <https://sourceforge.net/p/ermod/wiki/FAQ_running/>`_ の内容を照らし合わせ、ermodの設定の変更が必要な場合はER法実行ウィンドウの[Options]で設定してください。
 
 Quantum ESPRESSO, OpenMXに関して
 --------------------------------------

@@ -11,11 +11,11 @@
 
    以下のいずれかの方法を選択する。
 
-   - 各種形式のファイルを :ref:`file_open` またはメインウインドウへのドラッグアンドドロップで開く。
+   - 各種形式のファイルを :ref:`file_open` またはメインウィンドウへのドラッグアンドドロップで開く。
    
    - SMILES形式の文字列を :menuselection:`ファイル --> インポート -->` :ref:`file_import_smiles` から読み込む。
    
-   - 分子構造をメインウインドウ上で構築する。
+   - 分子構造をメインウィンドウ上で構築する。
    
       適宜 :ref:`edit_top` から必要な操作を選択する。
    
@@ -51,7 +51,7 @@
    デフォルトのAM1/BCC電荷を用いる場合は明示的に電荷を設定する必要がない。
    また、水分子には選択した水モデルの電荷の値が無条件で適用される。
    
-   AM1/BCC以外の電荷を使用する場合は、 :ref:`create_mole` の方法で1分子を作成した後、以下の方法で電荷を割り当てたうえで、各種キーワード設定ウインドウの :guilabel:`Force Field` タブで :guilabel:`Use user-defined charge` を選択する。割り当てた電荷は :menuselection:`表示 -->` :ref:`view_labels_charges` を変更することで表示し確認することができる。
+   AM1/BCC以外の電荷を使用する場合は、 :ref:`create_mole` の方法で1分子を作成した後、以下の方法で電荷を割り当てたうえで、各種キーワード設定ウィンドウの :guilabel:`Force Field` タブで :guilabel:`Use user-defined charge` を選択する。割り当てた電荷は :menuselection:`表示 -->` :ref:`view_labels_charges` を変更することで表示し確認することができる。
    
    
    - Gasteiger電荷を割り当てる。
@@ -64,17 +64,17 @@
       
       1. :menuselection:`QM --> GAMESS --> キーワード設定 --> Easy Setup` にて、計算手法、基底関数を選択し、 :guilabel:`Method` に :guilabel:`ESP/RESP` を選択する。イオンの場合は :guilabel:`ICHARG` に電荷を入力する。
       
-      2. :guilabel:`Easy Setup` ウインドウを :guilabel:`Close` ボタンで閉じ、 :guilabel:`GAMESS Setup` ウインドウで :guilabel:`Run` ボタンを押し計算を実行する。
+      2. :guilabel:`Easy Setup` ウィンドウを :guilabel:`Close` ボタンで閉じ、 :guilabel:`GAMESS Setup` ウィンドウで :guilabel:`Run` ボタンを押し計算を実行する。
       
       3. GAMESSの計算が終了したら :menuselection:`QM --> GAMESS -->` :ref:`qm_gamess_resp` にてRESP電荷を取得する。
    
-   - MOPAC, GAMESS, Gaussian, NWChem, Quantum ESPRESSOのPopulation解析結果の電荷をメインウインドウに読み込む。
+   - MOPAC, GAMESS, Gaussian, NWChem, Quantum ESPRESSOのPopulation解析結果の電荷をメインウィンドウに読み込む。
 
       - MOPACの場合は :ref:`semiempirical_mopac_charge` の手順で読み込む。
       
       - Quantum ESPRESSOの場合は :menuselection:`固体 --> Quantum ESPRESSO --> Lowdin電荷` の手順で読み込む。
       
-      - それ以外の場合は、ログファイルをメインウインドウで開く。
+      - それ以外の場合は、ログファイルをメインウィンドウで開く。
    
    - 元素ごとに値を指定して割り当てる。
    
@@ -111,14 +111,14 @@
    5. :ref:`md_solvate_buildcell` を選択する。
    
    6. 系内にどの分子を何分子入れるか決める。
-      メインウインドウに表示された分子は :guilabel:`Add Displayed Molecule` , 水分子の場合は :guilabel:`Add Water` をクリックする。
+      メインウィンドウに表示された分子は :guilabel:`Add Displayed Molecule` , 水分子の場合は :guilabel:`Add Water` をクリックする。
       それ以外の場合は :guilabel:`Add mol2 File` をクリックし1.から4.の手順で保存したmol2ファイルを選択する。
    
    7. 系内に投入する個数を入力する。
    
    8. 6.、7.の手順を計算したい全ての分子種に対して行う。
    
-   9. :guilabel:`Solvate/Build MD Cell` ウインドウ下部の :guilabel:`Simulation Cell` にてシステムサイズを設定し、 :guilabel:`Build` ボタンを押す。
+   9. :guilabel:`Solvate/Build MD Cell` ウィンドウ下部の :guilabel:`Simulation Cell` にてシステムサイズを設定し、 :guilabel:`Build` ボタンを押す。
    
    .. note::
       - 密度が高いと系の作成に失敗することがあるので、少し低い密度から始め、圧力一定計算で目的の密度、圧力まで徐々に圧縮してください。

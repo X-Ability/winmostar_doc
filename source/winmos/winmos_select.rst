@@ -25,25 +25,25 @@
 
 分子種によるグループ選択
 -------------------------------------
-   :guilabel:`Select by` ウインドウの :guilabel:`Use List` タブが :guilabel:`Molecular Species` にチェックされた状態で開きます。 
-   :guilabel:`Select by` ウインドウ内のリストの各行をクリックすると、対応する分子種がグループ選択されます。
+   :guilabel:`Select by` ウィンドウの :guilabel:`Use List` タブが :guilabel:`Molecular Species` にチェックされた状態で開きます。 
+   :guilabel:`Select by` ウィンドウ内のリストの各行をクリックすると、対応する分子種がグループ選択されます。
 
    .. note::
       タンパク質のpdbファイルから計算する際に本機能を使用するとタンパク・リガンド・結合水・緩衝剤などを抜き出すことができます。
 
 分子によるグループ選択
 -------------------------------------
-   :guilabel:`Select by` ウインドウの :guilabel:`Use List` タブが :guilabel:`Molecules` にチェックされた状態で開きます。 
-   :guilabel:`Select by` ウインドウ内のリストの各行をクリックすると、対応する分子がグループ選択されます。
+   :guilabel:`Select by` ウィンドウの :guilabel:`Use List` タブが :guilabel:`Molecules` にチェックされた状態で開きます。 
+   :guilabel:`Select by` ウィンドウ内のリストの各行をクリックすると、対応する分子がグループ選択されます。
 
 元素によるグループ選択
 -------------------------------------
-   :guilabel:`Select by` ウインドウの :guilabel:`Use List` タブが :guilabel:`Elements` にチェックされた状態で開きます。 
-   :guilabel:`Select by` ウインドウ内のリストの各行をクリックすると、対応する元素がグループ選択されます。
+   :guilabel:`Select by` ウィンドウの :guilabel:`Use List` タブが :guilabel:`Elements` にチェックされた状態で開きます。 
+   :guilabel:`Select by` ウィンドウ内のリストの各行をクリックすると、対応する元素がグループ選択されます。
 
 選択記述言語によるグループ選択
 -------------------------------------
-   :guilabel:`Select by` ウインドウの :guilabel:`Use Selection Language` タブが開きます。 
+   :guilabel:`Select by` ウィンドウの :guilabel:`Use Selection Language` タブが開きます。 
    テキストボックスに選択記述言語で選択方法を記述した後に、 :guilabel:`Apply` ボタンをクリックすると、対応する原子がグループ選択されます。
    選択記述言語では以下の構文がサポートされています。
    

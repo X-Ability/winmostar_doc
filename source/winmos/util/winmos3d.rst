@@ -33,9 +33,9 @@ Open
 Save GLD
    現在開いているGLD形式のファイルを名前を付けて保存します。
 Save MOLDA
-   ウインドウに表示されている構造をMOLDA形式で保存します。
+   ウィンドウに表示されている構造をMOLDA形式で保存します。
 Save JPEG
-   ウインドウに表示されている内容をJPEGファイルとして保存します。
+   ウィンドウに表示されている内容をJPEGファイルとして保存します。
 Save JPEG (Stereo)
    立体視用の左右の画面をJPEGファイルとして保存します。
 StereoPhoto Maker
@@ -77,7 +77,7 @@ Model
 Show Animation Control Panel
    :ref:`winmos3d_panel` を表示します。
 Copy Image
-   ウインドウに表示されている画像をクリップボードにコピーします。
+   ウィンドウに表示されている画像をクリップボードにコピーします。
 
 Helpメニュー
 ------------
@@ -95,7 +95,7 @@ Debug
 アニメーション操作パネル
 ------------------------
 
-Winmostar 3Dでアニメーションを表示すると、Winmostar 3Dのウインドウの左上にアニメーション操作用のUIが表示されます。
+Winmostar 3Dでアニメーションを表示すると、Winmostar 3Dのウィンドウの左上にアニメーション操作用のUIが表示されます。
 
 スライダー
    フレームを移動します。
@@ -115,7 +115,7 @@ Close
 .. _winmos3d_repre:
 
 ---------------------------
-Representationsウインドウ
+Representationsウィンドウ
 ---------------------------
 
 Orbit/Rotation
@@ -135,9 +135,9 @@ Periodic Boundary Condition
    Mol
       分子単位でセル内に構造が収まるよう表示します。
 Molecule
-   本ウインドウ中部の :guilabel:`1` から :guilabel:`9` を各分子に割り当てます。
+   本ウィンドウ中部の :guilabel:`1` から :guilabel:`9` を各分子に割り当てます。
 Composition
-   本ウインドウ中部の :guilabel:`1` から :guilabel:`9` を（分子量が共通する）各分子種に割り当てます。
+   本ウィンドウ中部の :guilabel:`1` から :guilabel:`9` を（分子量が共通する）各分子種に割り当てます。
 1 - 9
    チェックが付いた項目を表示します。プルダウンメニューの :guilabel:`BS` , :guilabel:`SF` , :guilabel:`ST` , :guilabel:`WI` はそれぞれBall-stick（棒球）モデル（デフォルト）、Space filling（空間充填）モデル、Stick（棒）モデル、ワイヤーモデルを意味します。
 Rainbow

@@ -40,7 +40,7 @@ V8.027時点でWinmostarが対応するジョブスケジューラは以下の�
 
 .. _remote_procedure_preparation:
 
-2. :ref:`calc_import_top` の1, 2の手順に従い初期条件の作成とキーワードの設定を行い、キーワード設定ウインドウを :guilabel:`OK` ボタンを押して閉じます。
+2. :ref:`calc_import_top` の1, 2の手順に従い初期条件の作成とキーワードの設定を行い、キーワード設定ウィンドウを :guilabel:`OK` ボタンを押して閉じます。
 
 .. _remote_procedure_open:
 
@@ -48,13 +48,13 @@ V8.027時点でWinmostarが対応するジョブスケジューラは以下の�
 
 .. _remote_procedure_addprofile:
 
-4. :guilabel:`Submit Remote Job` ウインドウにおいて、すでに設定が済んでいる :guilabel:`Profile` が選択されているときは、 :ref:`こちら <remote_procedure_sendsub>` に進みます。されていない場合は、 :menuselection:`Manage... --> Add Profile...` を選択します。
+4. :guilabel:`Submit Remote Job` ウィンドウにおいて、すでに設定が済んでいる :guilabel:`Profile` が選択されているときは、 :ref:`こちら <remote_procedure_sendsub>` に進みます。されていない場合は、 :menuselection:`Manage... --> Add Profile...` を選択します。
 
    |fig_remote_addprofile|
 
 .. _remote_procedure_editconnection:
 
-5. :guilabel:`Edit Profile` ウインドウ上部にて、以下の内容を入力します。
+5. :guilabel:`Edit Profile` ウィンドウ上部にて、以下の内容を入力します。
 
    - Profile Name
    - Connection
@@ -72,23 +72,23 @@ V8.027時点でWinmostarが対応するジョブスケジューラは以下の�
       
 .. _remote_procedure_testconnection:
 
-6. 入力後、SSH接続をテストするために、 :guilabel:`Edit Profile` ウインドウ下の :guilabel:`Test Connection` ボタンをクリックします。
+6. 入力後、SSH接続をテストするために、 :guilabel:`Edit Profile` ウィンドウ下の :guilabel:`Test Connection` ボタンをクリックします。
 
-   黒いターミナルウインドウが開き、初回接続時は、 ``Store key in cache? (y/n)`` と表示される。その場合は、 :kbd:`y` とキー入力する。
+   黒いターミナルウィンドウが開き、初回接続時は、 ``Store key in cache? (y/n)`` と表示される。その場合は、 :kbd:`y` とキー入力する。
 
    |fig_remote_storekey|
 
-   接続に成功した場合は、先ほどの :guilabel:`Submit Remote Job` ウインドウの下部に ``Connection test succeeded.`` と表示されます。
+   接続に成功した場合は、先ほどの :guilabel:`Submit Remote Job` ウィンドウの下部に ``Connection test succeeded.`` と表示されます。
 
    |fig_remote_testconnection|
 
-   ユーザ設定等が間違っている場合はターミナルウインドウで ``Access denied ***@***'s password:`` などど表示されます。その場で正しいパスワードを入力した場合も、再度 :guilabel:`Edit Profile` ウインドウでパスワードを再入力してください。
+   ユーザ設定等が間違っている場合はターミナルウィンドウで ``Access denied ***@***'s password:`` などど表示されます。その場で正しいパスワードを入力した場合も、再度 :guilabel:`Edit Profile` ウィンドウでパスワードを再入力してください。
 
-   その他、 :guilabel:`Submit Remote Job` ウインドウの下部に ``ERROR: Connection timed out or an error occurred.`` と表示された場合は、接続設定を見直してください。
+   その他、 :guilabel:`Submit Remote Job` ウィンドウの下部に ``ERROR: Connection timed out or an error occurred.`` と表示された場合は、接続設定を見直してください。
 
 .. _remote_procedure_editqueue:
 
-7. :guilabel:`Edit Profile` ウインドウ下部にて、以下の内容を入力します。
+7. :guilabel:`Edit Profile` ウィンドウ下部にて、以下の内容を入力します。
 
    - Queue & Solver
       
@@ -109,11 +109,11 @@ V8.027時点でWinmostarが対応するジョブスケジューラは以下の�
 
 .. _remote_procedure_ok:
 
-8. :guilabel:`OK` ボタンを押して :guilabel:`Edit Profile` ウインドウを閉じます。
+8. :guilabel:`OK` ボタンを押して :guilabel:`Edit Profile` ウィンドウを閉じます。
 
 .. _remote_procedure_qstatq:
 
-9. :guilabel:`Submit Remote Job` ウインドウで、 :menuselection:`Queue --> Show Usage of Each Queues` メニューをクリックし、ウインドウ下部にリモートサーバの情報が表示されることを確認します。
+9. :guilabel:`Submit Remote Job` ウィンドウで、 :menuselection:`Queue --> Show Usage of Each Queues` メニューをクリックし、ウィンドウ下部にリモートサーバの情報が表示されることを確認します。
 
    正常に表示されない場合は、 :menuselection:`Manage... --> Edit Profile...` で設定を見直します。
 
@@ -123,9 +123,9 @@ V8.027時点でWinmostarが対応するジョブスケジューラは以下の�
 
    |fig_remote_sendsub_button|
 
-   ウインドウ下部には、サブミットしたジョブのIDが表示されます。IDはジョブをキャンセル（kill）するときに使用します。
+   ウィンドウ下部には、サブミットしたジョブのIDが表示されます。IDはジョブをキャンセル（kill）するときに使用します。
 
-   リモートサーバでジョブが実行されたディレクトリは、 :menuselection:`Profile --> Edit Profile` の :guilabel:`Remote Directory` で設定することができ、 実際使用されたものは :guilabel:`Submit Remote Job` ウインドウの :guilabel:`Remote Directory` 欄に表示されます。
+   リモートサーバでジョブが実行されたディレクトリは、 :menuselection:`Profile --> Edit Profile` の :guilabel:`Remote Directory` で設定することができ、 実際使用されたものは :guilabel:`Submit Remote Job` ウィンドウの :guilabel:`Remote Directory` 欄に表示されます。
 
 .. _remote_procedure_qstat:
 
@@ -145,7 +145,7 @@ V8.027時点でWinmostarが対応するジョブスケジューラは以下の�
    
    |fig_remote_progress_button|
    
-   操作対象のジョブは、 :guilabel:`Remote Directory` 欄に表示されたものとなります。デフォルトの設定の場合は、メインウインドウで対象としたいジョブの入力ファイルを開き、ジョブ投入時のプロファイルを選択してください。
+   操作対象のジョブは、 :guilabel:`Remote Directory` 欄に表示されたものとなります。デフォルトの設定の場合は、メインウィンドウで対象としたいジョブの入力ファイルを開き、ジョブ投入時のプロファイルを選択してください。
 
 .. _remote_procedure_get:
 
@@ -153,7 +153,7 @@ V8.027時点でWinmostarが対応するジョブスケジューラは以下の�
 
    |fig_remote_get_button|
 
-   操作対象のジョブは、 :guilabel:`Remote Directory` 欄に表示されたものとなります。デフォルトの設定の場合は、メインウインドウで対象としたいジョブの入力ファイルを開き、ジョブ投入時のプロファイルを選択してください。
+   操作対象のジョブは、 :guilabel:`Remote Directory` 欄に表示されたものとなります。デフォルトの設定の場合は、メインウィンドウで対象としたいジョブの入力ファイルを開き、ジョブ投入時のプロファイルを選択してください。
 
 .. _remote_procedure_analysis:
 
@@ -161,7 +161,7 @@ V8.027時点でWinmostarが対応するジョブスケジューラは以下の�
 
 .. _remote_submitjob:
 
-Submit Jobウインドウの各機能
+Submit Jobウィンドウの各機能
 -----------------------------------
 
 Fileメニュー
@@ -172,17 +172,17 @@ Fileメニュー
    Restore Setting File
       サーバ設定ファイルを出荷時の状態に戻します。
    Close
-      このウインドウを閉じます。
+      このウィンドウを閉じます。
 Profileメニュー
    Add Profile, Duplicate Profile, Remove Profile
       サーバ接続のプロファイルを追加、複製、削除します。
-      ウインドウ内の :guilabel:`Manage` ボタンからも同様の操作が可能です。
+      ウィンドウ内の :guilabel:`Manage` ボタンからも同様の操作が可能です。
    Edit Profile
       サーバ接続のプロファイルを編集します。
-      一部の設定はSubmit Jobウインドウ内で直接編集できます。
+      一部の設定はSubmit Jobウィンドウ内で直接編集できます。
       
       Profile name
-         Submit Jobウインドウで表示されるプロファイル名を指定します。
+         Submit Jobウィンドウで表示されるプロファイル名を指定します。
       Hostname
          リモートサーバのホスト名またはIPアドレスを指定します。
       Port
@@ -200,7 +200,7 @@ Profileメニュー
       Solver
          このプロファイルにおいて使用するプログラムを選択します。
          
-         ウインドウ内でも変更可能です。
+         ウィンドウ内でも変更可能です。
       Shell Script
          デフォルトのシェルスクリプトを使用して計算を実行する場合は :guilabel:`Use Default` 、シェルスクリプトをカスタマイズする場合は :guilabel:`Use Template` をチェックします。 :guilabel:`Use Template` の場合はその横のプルダウンメニューで使用するテンプレートファイルを選択し、またテンプレートファイルを追加、編集、削除する場合はその下の :guilabel:`Add` , :guilabel:`Edit`  :guilabel:`Remove` ボタンをクリックします。
          
@@ -208,13 +208,13 @@ Profileメニュー
          
          テンプレートファイルはWinmostarのインストールフォルダの :file:`UserPref` の中に保存されます。
          
-         ウインドウ内でも変更可能です。
+         ウィンドウ内でも変更可能です。
       Options
          ジョブ投入コマンド(qsubなど)の後ろに与える引数を設定します。
          
          本項目には :ref:`remote_alias` を使用可能です。
          
-         ウインドウ内でも変更可能です。
+         ウィンドウ内でも変更可能です。
       Remote Directory
          リモートサーバの作業ディレクトリを指定します。空の場合はホームディレクトリからIDdir/プログラム名/ファイル名が作業ディレクトリになります。
          :command:`'/work/dir'` のようにシングルクォーテーションで囲うと、指定したディレクトリから :file:`IDdir/プログラム名/ファイル名` を作成します。
@@ -230,67 +230,67 @@ Profileメニュー
       Test Connection Using SFTP
          SSHの接続テストを行います。
          
-         ウインドウ内の :guilabel:`Test Connection` ボタンでも同様の操作が可能です。
+         ウィンドウ内の :guilabel:`Test Connection` ボタンでも同様の操作が可能です。
       Share SSH Connection Once Established
          SSH接続を持続させるときに使用します。
          SSH接続を伴う操作の前に一度実行しておくと、それ以降の操作が軽快になります。
       Open Putty
-         Puttyの設定ウインドウを開き、接続に関する詳細な設定を行います。
+         Puttyの設定ウィンドウを開き、接続に関する詳細な設定を行います。
    Jobメニュー
       Send Local Files & Submit Job
          計算に必要な入力ファイルを生成し、SFTPでリモートサーバに転送した後、ジョブスケジューラにサブミットします。
          サブミットした後ジョブのIDが表示されます。
          
-         ウインドウ内の :guilabel:`Send & Submit` ボタンでも同様の操作が可能です。
+         ウィンドウ内の :guilabel:`Send & Submit` ボタンでも同様の操作が可能です。
       Submit Job
          計算に必要な入力ファイルを生成し、SFTPでリモートサーバに転送します。
       List Files at Remote Directory
          Remote Directory内のファイル一覧を取得します。
          
-         ウインドウ内の :guilabel:`ls` ボタンでも同様の操作が可能です。
+         ウィンドウ内の :guilabel:`ls` ボタンでも同様の操作が可能です。
       Display Remote File
          Remote Directory内の選択したファイルの内容を取得します。
          
-         ウインドウ内の :guilabel:`cat` ボタンでも同様の操作が可能です。
+         ウィンドウ内の :guilabel:`cat` ボタンでも同様の操作が可能です。
       Display Last Part of Remote Log File
          Remote Directory内のログファイルの末尾を取得します。
          
-         ウインドウ内の :guilabel:`tail` ボタンでも同様の操作が可能です。
+         ウィンドウ内の :guilabel:`tail` ボタンでも同様の操作が可能です。
       Search String in Remote Log File
          Remote Directory内のログファイルの中から文字列を検索します。
          
-         ウインドウ内の :guilabel:`grep` ボタンでも同様の操作が可能です。
+         ウィンドウ内の :guilabel:`grep` ボタンでも同様の操作が可能です。
       Get Remote File and ...
          Remote Directory内の特定ファイルをgetして可視化します。
          
-         ウインドウ内の :guilabel:`Get File & ...` ボタンでも同様の操作が可能です。
+         ウィンドウ内の :guilabel:`Get File & ...` ボタンでも同様の操作が可能です。
    Queueメニュー
       各メニュー名に括弧書きで、選択されたジョブスケジューラにおける具体的なコマンド名が表示されます。
       
       List Submitted Jobs
          ジョブスケジューラに登録されたジョブの一覧を取得します。
          
-         ウインドウ内の同じコマンド名のボタンでも同様の操作が可能です。
+         ウィンドウ内の同じコマンド名のボタンでも同様の操作が可能です。
       Kill Submitted Job
          ジョブスケジューラに登録されたジョブを中断します。サブミットした直後に表示されたジョブのIDを入力する必要があります。
          
-         ウインドウ内の同じコマンド名のボタンでも同様の操作が可能です。
+         ウィンドウ内の同じコマンド名のボタンでも同様の操作が可能です。
       List Submitted Jobs in Detail
          ジョブスケジューラに登録されたジョブの詳細な一覧を取得します。
          
-         ウインドウ内の同じコマンド名のボタンでも同様の操作が可能です。
+         ウィンドウ内の同じコマンド名のボタンでも同様の操作が可能です。
       Show Information of Each Queue
          ジョブスケジューラが管理するキューの一覧を取得します。
          
-         ウインドウ内の同じコマンド名のボタンでも同様の操作が可能です。
+         ウィンドウ内の同じコマンド名のボタンでも同様の操作が可能です。
       Show Usage of Each Queue
          各キューの使用状況を取得します。
          
-         ウインドウ内の同じコマンド名のボタンでも同様の操作が可能です。
+         ウィンドウ内の同じコマンド名のボタンでも同様の操作が可能です。
       Show Information of All Nodes
          ジョブスケジューラが管理する全マシンの情報を取得します。
          
-         ウインドウ内の同じコマンド名のボタンでも同様の操作が可能です。
+         ウィンドウ内の同じコマンド名のボタンでも同様の操作が可能です。
       その他のメニュー
          項目名と同じコマンドがリモートサーバ上で実行されます。
    Optionsメニュー
