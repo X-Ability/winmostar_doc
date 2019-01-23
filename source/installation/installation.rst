@@ -14,7 +14,7 @@ Winmostarの対応OSは以下の通りです。
 - Windows 8
 - Windows 7
 
-Windows Serverの場合は、予めトライアル版などで動作検証した上でご使用下さい。
+Windows Serverの場合は、予め無償版またはトライアルをご入手頂き、動作検証した上でご使用下さい。
 
 macOS、Linuxの場合は、VirtualBoxなどの仮想マシンでWindows OSをインストールした上でWinmostarを使用してください。これらの環境でネイティブ動作するバージョンは今後開発される予定です。
 
@@ -66,8 +66,8 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
 
    - `無償版 <https://winmostar.com/jp/index.php>`_
    - `学生版 <https://winmostar.com/jp/index.php>`_
-   - `プロフェッショナル版（トライアル） <https://winmostar.com/jp/dlTrialFormJP.php>`_
    - `プロフェッショナル版 <https://winmostar.com/jp/purchase_jp.html>`_
+   - `プロフェッショナル版（トライアル） <https://winmostar.com/jp/dlTrialFormJP.php>`_
 
 ..
 
