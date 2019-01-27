@@ -59,7 +59,7 @@ $ ./autobuild_html_jp.sh
 $ bash rst2po.sh
 とする。
 
-2) locale/en/LC_MESSAGES/*.poを翻訳する。fuzzyと表示された部分は、元文章において変更された部分で、poファイル内で目で見て確認して「#fuzzy」を削除する必要がある。
+2) locale/en/LC_MESSAGES/*.poを翻訳する。「#, fuzzy」と表示された部分は、元文章において変更された部分で、poファイル内で目で見て確認して「#, fuzzy」の行を削除する必要がある。
 
 3) 以下のコマンドで英語版htmlを生成する。
 $ bash po2html.sh
