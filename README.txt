@@ -50,8 +50,8 @@ build/latex/winmostar_usermanual.pdfが生成されたpdfである。
 
 - rstファイルを編集している最中に、自動的に日本語のhtmlをビルドする場合
 
-$ sphinx-autobuild -b html source build/html
-をTerminalで実行しておく。
+$ ./autobuild_html_jp.sh
+をTerminalでずっと実行しておく。
 
 - 英語版の作成方法
 
