@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,8 +32,9 @@ msgstr "NOTTRANSLATED"
 msgid "キーワード設定"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"Gromacsの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウインドウに戻る場合は"
+"Gromacsの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は"
 " :guilabel:`OK` ボタンを押してください。"
 msgstr "NOTTRANSLATED"
 
@@ -550,7 +551,8 @@ msgstr "NOTTRANSLATED"
 msgid "Generate parameters"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウに表示された系に対し、新たに力場パラメータをアサインしトポロジファイル（topファイル）を作成します。"
+#, fuzzy
+msgid "メインウィンドウに表示された系に対し、新たに力場パラメータをアサインしトポロジファイル（topファイル）を作成します。"
 msgstr "NOTTRANSLATED"
 
 msgid "Force field"
@@ -568,9 +570,10 @@ msgstr "NOTTRANSLATED"
 msgid "Exception"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 "特定の分子に対し、(General)にて選択した力場を使わず、ユーザが指定するLJパラメータを割り当てます。 "
-"サブウインドウの左の欄にてLJパラメータを指定したい分子にチェックを入れ、右の欄でLJパラメータを入力します。"
+"サブウィンドウの左の欄にてLJパラメータを指定したい分子にチェックを入れ、右の欄でLJパラメータを入力します。"
 msgstr "NOTTRANSLATED"
 
 msgid "例えば固液界面系において固相の原子にLJパラメータを割り振りたい時などに使用します。"
@@ -614,11 +617,13 @@ msgstr "NOTTRANSLATED"
 msgid "Use user-defined charge"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウ上で設定されている各原子の点電荷の値を用いてトポロジファイルを作成します。"
+#, fuzzy
+msgid "メインウィンドウ上で設定されている各原子の点電荷の値を用いてトポロジファイルを作成します。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"メインウインドウ上で設定されている点電荷の値は、 :ref:`表示ボタンエリア <gui_main>` のアノテーションボタンから "
+"メインウィンドウ上で設定されている点電荷の値は、 :ref:`表示ボタンエリア <gui_main>` のアノテーションボタンから "
 ":guilabel:`User Charge` などを選択するか、.mol2形式で保存し :ref:`file_editor` "
 "で開くことにより確認できます。"
 msgstr "NOTTRANSLATED"
@@ -668,9 +673,10 @@ msgstr "NOTTRANSLATED"
 msgid "Load from existing file/Use parameters in displayed file"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 "既に存在しているトポロジファイルを用いてMD計算を実行する場合に選択します。 "
-"LAMMPSの場合は、メインウインドウで既に存在しているdataファイルを用いてMD計算を実行する場合に選択します。"
+"LAMMPSの場合は、メインウィンドウで既に存在しているdataファイルを用いてMD計算を実行する場合に選択します。"
 msgstr "NOTTRANSLATED"
 
 msgid "Edit"
@@ -682,8 +688,9 @@ msgstr "NOTTRANSLATED"
 msgid "Generate Simulation Cell"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"メインウインドウにおいてシミュレーションセルが定義されていない場合のみ設定が有効となる。チェックが入っている場合は、メインウインドウに表示された分子の周囲に"
+"メインウィンドウにおいてシミュレーションセルが定義されていない場合のみ設定が有効となる。チェックが入っている場合は、メインウィンドウに表示された分子の周囲に"
 " :guilabel:`Distance` で指定された距離だけ離れた場所にシミュレーションセルを自動発生させる。"
 msgstr "NOTTRANSLATED"
 
@@ -706,16 +713,18 @@ msgid ""
 "-->` :guilabel:`Load from existing file` にチェックが入っている場合"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"メインウインドウで開かれている座標ファイル(拡張子：gro)と、 :guilabel:`Load from existing file` "
+"メインウィンドウで開かれている座標ファイル(拡張子：gro)と、 :guilabel:`Load from existing file` "
 "のところで指定したトポロジファイル(拡張子：top)を使用してジョブを開始します。"
 msgstr "NOTTRANSLATED"
 
 msgid ":guilabel:`Extending Simulation` にチェックがある場合"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"メインウインドウで開かれている座標ファイル(拡張子：gro)に紐づけられた作業ディレクトリの中にある座標ファイル（ "
+"メインウィンドウで開かれている座標ファイル(拡張子：gro)に紐づけられた作業ディレクトリの中にある座標ファイル（ "
 ":file:`gmx_mdrun_tmp.gro` ）とトポロジファイル（ :file:`gmx_tmp.top` ）を用いてジョブを開始します。"
 msgstr "NOTTRANSLATED"
 
@@ -845,18 +854,21 @@ msgstr "NOTTRANSLATED"
 msgid "**作業ディレクトリ**"
 msgstr "NOTTRANSLATED"
 
-msgid "作業ディレクトリとは、メインウインドウで開かれているファイルの名前に接尾辞を加えた名前のフォルダです。"
+#, fuzzy
+msgid "作業ディレクトリとは、メインウィンドウで開かれているファイルの名前に接尾辞を加えた名前のフォルダです。"
 msgstr "NOTTRANSLATED"
 
 msgid "**接尾辞はソルバの種類により変わります。**"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"例えばGromacsの場合は、メインウインドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が "
+"例えばGromacsの場合は、メインウィンドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が "
 ":file:`_gmx_tmp` の場合、作業ディレクトリの名前は :file:`aaa_gmx_tmp` となります。"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウで開かれているファイルと同じ階層に置かれている必要があります。"
+#, fuzzy
+msgid "メインウィンドウで開かれているファイルと同じ階層に置かれている必要があります。"
 msgstr "NOTTRANSLATED"
 
 msgid "継続ジョブの時も同名の作業ディレクトリで処理が流れますが、デフォルトでは継続ジョブの実施直前に、直前のジョブの作業ディレクトリのバックアップが作成されます。"
@@ -890,7 +902,8 @@ msgstr "NOTTRANSLATED"
 msgid "groファイルとtrrファイルを選択し、MD計算のトラジェクトリをアニメーション表示します。"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウのファイル名は変化しません。"
+#, fuzzy
+msgid "メインウィンドウのファイル名は変化しません。"
 msgstr "NOTTRANSLATED"
 
 msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
@@ -904,7 +917,8 @@ msgid ""
 ":command:`gmx energy` コマンドが実行されます。"
 msgstr "NOTTRANSLATED"
 
-msgid "サブウインドウの操作方法は :ref:`energyplot_top` を参照してください。"
+#, fuzzy
+msgid "サブウィンドウの操作方法は :ref:`energyplot_top` を参照してください。"
 msgstr "NOTTRANSLATED"
 
 msgid "最終構造を読み込み"
@@ -913,7 +927,8 @@ msgstr "NOTTRANSLATED"
 msgid ":file:`\\*_gmx_tmp\\\\gmx_tmp_mdrun.gro` を開きます。"
 msgstr "NOTTRANSLATED"
 
-msgid "本機能を使うとメインウインドウのファイル名は変化しません。"
+#, fuzzy
+msgid "本機能を使うとメインウィンドウのファイル名は変化しません。"
 msgstr "NOTTRANSLATED"
 
 msgid "連続ジョブ設定"
@@ -992,13 +1007,15 @@ msgstr "NOTTRANSLATED"
 msgid "groファイルに書かれている原子名から新たなグループを登録します。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"メインウインドウでグループ選択されている原子をグループとして定義する場合は :menuselection:`MD --> Gromacs -->`"
+"メインウィンドウでグループ選択されている原子をグループとして定義する場合は :menuselection:`MD --> Gromacs -->`"
 " :ref:`md_gromacs_editndx` を使用してください。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-":guilabel:`Create Group` ウインドウでは、 :guilabel:`Extracted Atom Names` "
+":guilabel:`Create Group` ウィンドウでは、 :guilabel:`Extracted Atom Names` "
 "にチェックを入れて :guilabel:`New group Name` を入力し :guilabel:`Create` "
 "ボタンを押すと、ndxファイルにグループが追加されます。 :guilabel:`Close` ボタンを押すと :guilabel:`Target "
 "Group` や :guilabel:`Reference Group` に追加したグループが追加されます。"
@@ -1169,7 +1186,8 @@ msgstr "NOTTRANSLATED"
 msgid "ndxファイルにグループを追加"
 msgstr "NOTTRANSLATED"
 
-msgid "結果解析したい原子をメインウインドウでグループ選択し、本機能を選択して既存のndxを選ぶと、グループ選択された原子のグループがndxファイルに新たに追加されます。"
+#, fuzzy
+msgid "結果解析したい原子をメインウィンドウでグループ選択し、本機能を選択して既存のndxを選ぶと、グループ選択された原子のグループがndxファイルに新たに追加されます。"
 msgstr "NOTTRANSLATED"
 
 msgid "RMSD"

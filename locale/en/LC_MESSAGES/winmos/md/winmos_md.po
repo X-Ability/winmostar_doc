@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,7 +35,8 @@ msgstr "NOTTRANSLATED"
 msgid "本機能は主に以下の2つの目的で使用されます。"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウに表示されている分子の周りに溶媒分子を並べる"
+#, fuzzy
+msgid "メインウィンドウに表示されている分子の周りに溶媒分子を並べる"
 msgstr "NOTTRANSLATED"
 
 msgid "低分子を並べて液相を作成する"
@@ -44,7 +45,8 @@ msgstr "NOTTRANSLATED"
 msgid "並べることが可能な分子は以下の3種類です。"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウに表示された分子"
+#, fuzzy
+msgid "メインウィンドウに表示された分子"
 msgstr "NOTTRANSLATED"
 
 msgid "mol2形式で保存された分子"
@@ -63,9 +65,10 @@ msgstr "NOTTRANSLATED"
 msgid "Add Displayed Molecule"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"メインウインドウに表示されている分子を追加します。ボタンを押した後、追加する分子数を入力します。 "
-"1個しか配置しない場合は、メインウインドウに表示されている分子については座標が固定された状態で他の分子が並べられます。"
+"メインウィンドウに表示されている分子を追加します。ボタンを押した後、追加する分子数を入力します。 "
+"1個しか配置しない場合は、メインウィンドウに表示されている分子については座標が固定された状態で他の分子が並べられます。"
 msgstr "NOTTRANSLATED"
 
 msgid "Add Water"
@@ -133,20 +136,23 @@ msgstr "NOTTRANSLATED"
 msgid "Reset"
 msgstr "NOTTRANSLATED"
 
-msgid "このウインドウにおける設定をリセットします。"
+#, fuzzy
+msgid "このウィンドウにおける設定をリセットします。"
 msgstr "NOTTRANSLATED"
 
 msgid "Build"
 msgstr "NOTTRANSLATED"
 
-msgid "このウインドウで設定された内容に従いシミュレーションセルを作成します。"
+#, fuzzy
+msgid "このウィンドウで設定された内容に従いシミュレーションセルを作成します。"
 msgstr "NOTTRANSLATED"
 
 msgid "分子を挿入"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"mol2形式で保存された分子を複数個、メインウインドウに表示されている構造に追加することができます。 "
+"mol2形式で保存された分子を複数個、メインウィンドウに表示されている構造に追加することができます。 "
 "シミュレーションセルが作成されていない場合は、事前に :ref:`edit_createcell` または "
 ":ref:`md_solvate_buildcell` を使用して作成してください。"
 msgstr "NOTTRANSLATED"
@@ -163,8 +169,9 @@ msgstr "NOTTRANSLATED"
 msgid "Acpypeを使用"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"メインウインドウに1分子だけ表示されている状態で本機能を呼び出すと、AM1-BCCまたはGasteigerの方法で点電荷を各原子に対して割り当てます。"
+"メインウィンドウに1分子だけ表示されている状態で本機能を呼び出すと、AM1-BCCまたはGasteigerの方法で点電荷を各原子に対して割り当てます。"
 " 内部的にはCygwin上のAcpypeプログラムを使用しています。 溶質分子の電荷割り当てや、 "
 ":ref:`md_solvate_buildcell` または :ref:`md_insert_molecules` "
 "にて挿入するmol2形式のファイルの作成時に使用します。 "
@@ -178,7 +185,8 @@ msgstr "NOTTRANSLATED"
 msgid "マニュアル入力"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウに表示されている分子（結晶）構造に対し、原子種毎に点電荷の値を直接指定することができます。主に固体系向けの機能です。"
+#, fuzzy
+msgid "メインウィンドウに表示されている分子（結晶）構造に対し、原子種毎に点電荷の値を直接指定することができます。主に固体系向けの機能です。"
 msgstr "NOTTRANSLATED"
 
 msgid "ポリマー"

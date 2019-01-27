@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,8 +35,9 @@ msgstr "NOTTRANSLATED"
 msgid "キーワード設定"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"CNDO/Sの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウインドウに戻る場合は "
+"CNDO/Sの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は "
 ":guilabel:`OK` ボタンを押してください。"
 msgstr "NOTTRANSLATED"
 
@@ -154,8 +155,9 @@ msgstr "NOTTRANSLATED"
 msgid "実行"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"メインウインドウでCNDO/Sの入力ファイルが開かれている場合は、そのファイルを使ってCNDO/Sを実行します。 "
+"メインウィンドウでCNDO/Sの入力ファイルが開かれている場合は、そのファイルを使ってCNDO/Sを実行します。 "
 "開かれていない場合は、CNDO/Sの入力ファイルを保存した上でCNDO/Sを実行します。"
 msgstr "NOTTRANSLATED"
 
@@ -198,8 +200,9 @@ msgstr "NOTTRANSLATED"
 msgid "lstファイルを選択し、UV-Visスペクトルと分子軌道を表示します。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"サブウインドウの操作方法は :ref:`uvvis_top` , :ref:`mo_top` , :ref:`cube_top` "
+"サブウィンドウの操作方法は :ref:`uvvis_top` , :ref:`mo_top` , :ref:`cube_top` "
 "を参照してください。"
 msgstr "NOTTRANSLATED"
 

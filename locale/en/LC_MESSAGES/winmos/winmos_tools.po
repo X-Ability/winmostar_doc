@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,7 +24,8 @@ msgstr "NOTTRANSLATED"
 msgid "環境設定"
 msgstr "NOTTRANSLATED"
 
-msgid "環境設定ウインドウを開きます。 詳細は :ref:`preferences_top` を参照してください。"
+#, fuzzy
+msgid "環境設定ウィンドウを開きます。 詳細は :ref:`preferences_top` を参照してください。"
 msgstr "NOTTRANSLATED"
 
 msgid "フラグメントを登録/削除"
@@ -33,7 +34,8 @@ msgstr "NOTTRANSLATED"
 msgid "フラグメントを登録"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウに表示されている分子構造を部品として登録します。マーカー（太赤丸）の付いた原子が置換時に接続部分に設定されます。"
+#, fuzzy
+msgid "メインウィンドウに表示されている分子構造を部品として登録します。マーカー（太赤丸）の付いた原子が置換時に接続部分に設定されます。"
 msgstr "NOTTRANSLATED"
 
 msgid "フラグメントを削除"
@@ -209,8 +211,9 @@ msgstr "NOTTRANSLATED"
 msgid "Sterimolパラメータ"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"メインウインドウ上でグループ選択した部分構造に対して、Sterimolパラメータを計算します。 :guilabel:`Calculate` "
+"メインウィンドウ上でグループ選択した部分構造に対して、Sterimolパラメータを計算します。 :guilabel:`Calculate` "
 "ボタンをクリックすると計算が開始されます。"
 msgstr "NOTTRANSLATED"
 
@@ -220,16 +223,17 @@ msgstr "NOTTRANSLATED"
 msgid "ローカルジョブを管理するWinmostar Job Managerを起動します。"
 msgstr "NOTTRANSLATED"
 
+msgid "リモートジョブ投入"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid "リモートジョブの実行、管理を行うウィンドウを開きます。詳細は :ref:`remote_submitjob` を参照してください。"
+msgstr "NOTTRANSLATED"
+
 msgid "Cygwin"
 msgstr "NOTTRANSLATED"
 
 msgid ":ref:`cygwinwm_top` の端末画面（ターミナル）を起動します。"
-msgstr "NOTTRANSLATED"
-
-msgid "リモートジョブ投入"
-msgstr "NOTTRANSLATED"
-
-msgid "リモートジョブの実行、管理を行うウインドウを開きます。詳細は :ref:`remote_submitjob` を参照してください。"
 msgstr "NOTTRANSLATED"
 
 msgid "文字列を検索"
@@ -265,10 +269,11 @@ msgstr "NOTTRANSLATED"
 msgid "複数の分子を重ね合わせて表示します。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 "まず、:guilabel:`Add` "
 "ボタンでファイルを選択して、重ね合わせる分子を選択します。ファイルの種類はWinmostarで読み込める各種入力ファイルとMOPAC、GAMESS、NWChem、Gaussianの出力ファイルです。複数のファイルを同時に選択することもできます。ドラッグ＆ドロップでファイルを読み込ませることもできます。"
-" :guilabel:`Import From Main Window` ボタンではメインウインドウに表示されている分子を取り込むことができます。"
+" :guilabel:`Import From Main Window` ボタンではメインウィンドウに表示されている分子を取り込むことができます。"
 msgstr "NOTTRANSLATED"
 
 msgid "リストに表示されたファイル名を選択するとその分子が青くハイライトされます。"

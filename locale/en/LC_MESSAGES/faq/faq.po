@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-28 00:39+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -111,8 +111,9 @@ msgstr "NOTTRANSLATED"
 msgid ":ref:`インストール時の注意事項 <intall_installwm>` を確認する。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"使用中のWinmostarが無償版、学生版、トライアル版、プロフェッショナル版のいずれに該当するか確認し、問題を起こしている機能がその版で使用可能か"
+"使用中のWinmostarが無償版、学生版、プロフェッショナル版、プロフェッショナル版（トライアル）のいずれに該当するか確認し、問題を起こしている機能がその版で使用可能か"
 " `機能表 <https://winmostar.com/jp/function_jp.html>`_ を見て確認する。"
 msgstr "NOTTRANSLATED"
 
@@ -210,9 +211,10 @@ msgstr "NOTTRANSLATED"
 msgid "A. 使用いただいて問題ありません。発表される際には :ref:`intro_citation` の通りに引用してください。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 "Q. Cygwinを使う処理が異常終了します。／ :menuselection:`ツール --> cygwin_wmを診断` 機能で `... "
-"ERROR ...` と表示されます。／Cygwinの黒いウインドウに `child_info_fork::abort: ... Loaded "
+"ERROR ...` と表示されます。／Cygwinの黒いウィンドウに `child_info_fork::abort: ... Loaded "
 "to different address: parent ... != child ...` などと表示されます。"
 msgstr "NOTTRANSLATED"
 
@@ -274,8 +276,9 @@ msgstr "NOTTRANSLATED"
 msgid "A. 例えば以下に示す方法で変更できます。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"1) :menuselection:`編集 --> 結合 --> 結合付加` またはメインウインドウ上部のk :guilabel:`結合付加` "
+"1) :menuselection:`編集 --> 結合 --> 結合付加` またはメインウィンドウ上部のk :guilabel:`結合付加` "
 "ボタンを複数回押すことで、結合の種類を変更できます。"
 msgstr "NOTTRANSLATED"
 
@@ -497,7 +500,8 @@ msgstr "NOTTRANSLATED"
 msgid "角度が180°近くになる角度がZ-Matrixに含まれている場合に表示されます。"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウ右下の座標編集機能で、接続先の原子を変更し、Z-Matrixから180°に近い角度がなくなるようにしてください。"
+#, fuzzy
+msgid "メインウィンドウ右下の座標編集機能で、接続先の原子を変更し、Z-Matrixから180°に近い角度がなくなるようにしてください。"
 msgstr "NOTTRANSLATED"
 
 msgid "Z-Matrixに慣れていない場合は、これ以外の方法として、キーワードに\"XYZ\"を追加すると、このエラーを回避できることもあります。"
@@ -572,7 +576,8 @@ msgstr "NOTTRANSLATED"
 msgid "この場合は直交座標を使う（COORD=UNIQUEにする）ことで解消します。"
 msgstr "NOTTRANSLATED"
 
-msgid "WimostarのGAMESSキーワード設定ウインドウにおいて、COORDをUNIQUEに変更してください。"
+#, fuzzy
+msgid "WimostarのGAMESSキーワード設定ウィンドウにおいて、COORDをUNIQUEに変更してください。"
 msgstr "NOTTRANSLATED"
 
 msgid ""
@@ -615,8 +620,9 @@ msgstr "NOTTRANSLATED"
 msgid "Q. Gaussianでchkファイルを読み込んだ計算を実施する方法を教えてください。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"A. リモートジョブの場合はSubmitJobウインドウで[Advance]のチェックを入れ、[Delete "
+"A. リモートジョブの場合はSubmitJobウィンドウで[Advance]のチェックを入れ、[Delete "
 "\\*.chk]のチェックを外すとchkファイルが残され、その上でchkファイルを生成した時と同じ名前でジョブを流すとchkファイルを読み込んで計算が流れます。"
 msgstr "NOTTRANSLATED"
 
@@ -659,10 +665,11 @@ msgstr "NOTTRANSLATED"
 msgid "A. ER法を実行する際に指定した出力先ディレクトリに生成されるermod.outの内容を確認してください。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 "ermod.outの中に「 The minimum of the energy coordinate is too large; the "
 "ecdmin parameter needs to be "
-"smaller」と書かれている場合は、ER法実行ウインドウの[Options]ボタンを押し、[For Solution "
+"smaller」と書かれている場合は、ER法実行ウィンドウの[Options]ボタンを押し、[For Solution "
 "System]のと[minimum value of the solute-solvent energy "
 "(ecdmin)]の値を小さくしてください。"
 msgstr "NOTTRANSLATED"
@@ -672,10 +679,11 @@ msgid ""
 "<https://sourceforge.net/p/ermod/wiki/TooLargeMinimum/>`_ を参照してください。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 "また、同様にermod.outの内容と `ERmodのwikiのFAQ全般 "
 "<https://sourceforge.net/p/ermod/wiki/FAQ_running/>`_ "
-"の内容を照らし合わせ、ermodの設定の変更が必要な場合はER法実行ウインドウの[Options]で設定してください。"
+"の内容を照らし合わせ、ermodの設定の変更が必要な場合はER法実行ウィンドウの[Options]で設定してください。"
 msgstr "NOTTRANSLATED"
 
 msgid "Quantum ESPRESSO, OpenMXに関して"

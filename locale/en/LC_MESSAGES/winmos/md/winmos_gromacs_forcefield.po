@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,7 +24,8 @@ msgstr "NOTTRANSLATED"
 msgid "Generate parameters"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウに表示された系に対し、新たに力場パラメータをアサインしトポロジファイル（topファイル）を作成します。"
+#, fuzzy
+msgid "メインウィンドウに表示された系に対し、新たに力場パラメータをアサインしトポロジファイル（topファイル）を作成します。"
 msgstr "NOTTRANSLATED"
 
 msgid "Force field"
@@ -42,9 +43,10 @@ msgstr "NOTTRANSLATED"
 msgid "Exception"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 "特定の分子に対し、(General)にて選択した力場を使わず、ユーザが指定するLJパラメータを割り当てます。 "
-"サブウインドウの左の欄にてLJパラメータを指定したい分子にチェックを入れ、右の欄でLJパラメータを入力します。"
+"サブウィンドウの左の欄にてLJパラメータを指定したい分子にチェックを入れ、右の欄でLJパラメータを入力します。"
 msgstr "NOTTRANSLATED"
 
 msgid "例えば固液界面系において固相の原子にLJパラメータを割り振りたい時などに使用します。"
@@ -88,11 +90,13 @@ msgstr "NOTTRANSLATED"
 msgid "Use user-defined charge"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウ上で設定されている各原子の点電荷の値を用いてトポロジファイルを作成します。"
+#, fuzzy
+msgid "メインウィンドウ上で設定されている各原子の点電荷の値を用いてトポロジファイルを作成します。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"メインウインドウ上で設定されている点電荷の値は、 :ref:`表示ボタンエリア <gui_main>` のアノテーションボタンから "
+"メインウィンドウ上で設定されている点電荷の値は、 :ref:`表示ボタンエリア <gui_main>` のアノテーションボタンから "
 ":guilabel:`User Charge` などを選択するか、.mol2形式で保存し :ref:`file_editor` "
 "で開くことにより確認できます。"
 msgstr "NOTTRANSLATED"
@@ -142,9 +146,10 @@ msgstr "NOTTRANSLATED"
 msgid "Load from existing file/Use parameters in displayed file"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 "既に存在しているトポロジファイルを用いてMD計算を実行する場合に選択します。 "
-"LAMMPSの場合は、メインウインドウで既に存在しているdataファイルを用いてMD計算を実行する場合に選択します。"
+"LAMMPSの場合は、メインウィンドウで既に存在しているdataファイルを用いてMD計算を実行する場合に選択します。"
 msgstr "NOTTRANSLATED"
 
 msgid "Edit"
@@ -156,8 +161,9 @@ msgstr "NOTTRANSLATED"
 msgid "Generate Simulation Cell"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"メインウインドウにおいてシミュレーションセルが定義されていない場合のみ設定が有効となる。チェックが入っている場合は、メインウインドウに表示された分子の周囲に"
+"メインウィンドウにおいてシミュレーションセルが定義されていない場合のみ設定が有効となる。チェックが入っている場合は、メインウィンドウに表示された分子の周囲に"
 " :guilabel:`Distance` で指定された距離だけ離れた場所にシミュレーションセルを自動発生させる。"
 msgstr "NOTTRANSLATED"
 

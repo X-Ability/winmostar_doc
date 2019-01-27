@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,13 +72,15 @@ msgstr "NOTTRANSLATED"
 msgid "Save MOLDA"
 msgstr "NOTTRANSLATED"
 
-msgid "ウインドウに表示されている構造をMOLDA形式で保存します。"
+#, fuzzy
+msgid "ウィンドウに表示されている構造をMOLDA形式で保存します。"
 msgstr "NOTTRANSLATED"
 
 msgid "Save JPEG"
 msgstr "NOTTRANSLATED"
 
-msgid "ウインドウに表示されている内容をJPEGファイルとして保存します。"
+#, fuzzy
+msgid "ウィンドウに表示されている内容をJPEGファイルとして保存します。"
 msgstr "NOTTRANSLATED"
 
 msgid "Save JPEG (Stereo)"
@@ -186,7 +188,8 @@ msgstr "NOTTRANSLATED"
 msgid "Copy Image"
 msgstr "NOTTRANSLATED"
 
-msgid "ウインドウに表示されている画像をクリップボードにコピーします。"
+#, fuzzy
+msgid "ウィンドウに表示されている画像をクリップボードにコピーします。"
 msgstr "NOTTRANSLATED"
 
 msgid "Helpメニュー"
@@ -213,7 +216,8 @@ msgstr "NOTTRANSLATED"
 msgid "アニメーション操作パネル"
 msgstr "NOTTRANSLATED"
 
-msgid "Winmostar 3Dでアニメーションを表示すると、Winmostar 3Dのウインドウの左上にアニメーション操作用のUIが表示されます。"
+#, fuzzy
+msgid "Winmostar 3Dでアニメーションを表示すると、Winmostar 3Dのウィンドウの左上にアニメーション操作用のUIが表示されます。"
 msgstr "NOTTRANSLATED"
 
 msgid "スライダー"
@@ -258,7 +262,8 @@ msgstr "NOTTRANSLATED"
 msgid "このパネルを閉じます。"
 msgstr "NOTTRANSLATED"
 
-msgid "Representationsウインドウ"
+#, fuzzy
+msgid "Representationsウィンドウ"
 msgstr "NOTTRANSLATED"
 
 msgid "Orbit/Rotation"
@@ -306,13 +311,15 @@ msgstr "NOTTRANSLATED"
 msgid "Molecule"
 msgstr "NOTTRANSLATED"
 
-msgid "本ウインドウ中部の :guilabel:`1` から :guilabel:`9` を各分子に割り当てます。"
+#, fuzzy
+msgid "本ウィンドウ中部の :guilabel:`1` から :guilabel:`9` を各分子に割り当てます。"
 msgstr "NOTTRANSLATED"
 
 msgid "Composition"
 msgstr "NOTTRANSLATED"
 
-msgid "本ウインドウ中部の :guilabel:`1` から :guilabel:`9` を（分子量が共通する）各分子種に割り当てます。"
+#, fuzzy
+msgid "本ウィンドウ中部の :guilabel:`1` から :guilabel:`9` を（分子量が共通する）各分子種に割り当てます。"
 msgstr "NOTTRANSLATED"
 
 msgid "1 - 9"

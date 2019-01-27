@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -119,9 +119,10 @@ msgstr "NOTTRANSLATED"
 msgid "MOPACをジョブマネージャで実行"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 "チェックが入っている場合は、MOPACを実行する際に :ref:`winmosjm_top` を使用します。 "
-"入っていない場合は、MOPACでの計算が終わるまでWinmostarは待ち状態となり、MOPACの出力結果は自動でメインウインドウに読み込まれます。"
+"入っていない場合は、MOPACでの計算が終わるまでWinmostarは待ち状態となり、MOPACの出力結果は自動でメインウィンドウに読み込まれます。"
 msgstr "NOTTRANSLATED"
 
 msgid ":ref:`mopac_use_jm` からも設定することができます。"
@@ -161,10 +162,12 @@ msgstr "NOTTRANSLATED"
 msgid "チェックした場合は各ソルバを実行する際に、確認ダイアログを表示します。"
 msgstr "NOTTRANSLATED"
 
-msgid "新しいリモートジョブ投入ウインドウ(V9)を使用"
+#, fuzzy
+msgid "新しいリモートジョブ投入ウィンドウ(V9)を使用"
 msgstr "NOTTRANSLATED"
 
-msgid "V9から採用されたリモートジョブ投入ウインドウを使用します。"
+#, fuzzy
+msgid "V9から採用されたリモートジョブ投入ウィンドウを使用します。"
 msgstr "NOTTRANSLATED"
 
 msgid "表示タブ"

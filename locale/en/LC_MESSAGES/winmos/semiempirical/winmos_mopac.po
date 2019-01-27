@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,16 +24,18 @@ msgstr "NOTTRANSLATED"
 msgid "MOPACに関するメニューです。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 "MOPAC6とMOPAC7はWinmostarに同梱されています。 "
-"それ以外のMOPACを利用する場合は、別途代理店よりMOPAC本体を購入し、環境設定ウインドウにてパスを設定してください。"
+"それ以外のMOPACを利用する場合は、別途代理店よりMOPAC本体を購入し、環境設定ウィンドウにてパスを設定してください。"
 msgstr "NOTTRANSLATED"
 
 msgid "キーワード設定"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"MOPACの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウインドウに戻る場合は "
+"MOPACの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は "
 ":guilabel:`OK` ボタンを押してください。"
 msgstr "NOTTRANSLATED"
 
@@ -344,8 +346,9 @@ msgstr "NOTTRANSLATED"
 msgid "(1) MOP6W70実行, (2) MOP7W70実行, (3) MOPACX実行"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"メインウインドウでMOPACの入力ファイルが開かれている場合は、そのファイルを使ってMOPACを実行します。 "
+"メインウィンドウでMOPACの入力ファイルが開かれている場合は、そのファイルを使ってMOPACを実行します。 "
 "開かれていない場合は、MOPACの入力ファイルを保存した上でMOPACを実行します。"
 msgstr "NOTTRANSLATED"
 
@@ -423,9 +426,10 @@ msgstr "NOTTRANSLATED"
 msgid "mgfファイルを選択し、分子軌道を表示します。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 ":ref:`キーワード <semiempirical_mopac_keyword>` で ``GRAPHF`` が設定されている必要があります。 "
-"サブウインドウの操作方法は :ref:`mo_top` , :ref:`cube_top` を参照してください。"
+"サブウィンドウの操作方法は :ref:`mo_top` , :ref:`cube_top` を参照してください。"
 msgstr "NOTTRANSLATED"
 
 msgid "電荷 (arc)"
@@ -458,17 +462,19 @@ msgstr "NOTTRANSLATED"
 msgid "outファイルを選択し、振動スペクトル（IRスペクトル）を表示します。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 ":ref:`キーワード <semiempirical_mopac_keyword>` で振動計算が設定されている必要があります。 "
-"サブウインドウの操作方法は :ref:`ir_top` を参照してください。"
+"サブウィンドウの操作方法は :ref:`ir_top` を参照してください。"
 msgstr "NOTTRANSLATED"
 
 msgid "ジョブマネージャで実行"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 "チェックが入っている場合は、MOPACを実行する際に :ref:`winmosjm_top` を使用します。 "
-"入っていない場合は、MOPACでの計算が終わるまでWinmostarは待ち状態となり、MOPACの出力結果は自動でメインウインドウに読み込まれます。"
+"入っていない場合は、MOPACでの計算が終わるまでWinmostarは待ち状態となり、MOPACの出力結果は自動でメインウィンドウに読み込まれます。"
 msgstr "NOTTRANSLATED"
 
 msgid ":ref:`preferences_top` からも設定することができます。"

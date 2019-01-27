@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,9 +30,10 @@ msgstr "NOTTRANSLATED"
 msgid "キーワード設定"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 "Gaussianの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` "
-"ボタン、一旦メインウインドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
+"ボタン、一旦メインウィンドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
 msgstr "NOTTRANSLATED"
 
 msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`qm_gaussian_start` を参照してください。"
@@ -416,8 +417,9 @@ msgstr "NOTTRANSLATED"
 msgid "実行"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"メインウインドウでGaussianの入力ファイルが開かれている場合は、そのファイルを使ってGaussianを実行します。 "
+"メインウィンドウでGaussianの入力ファイルが開かれている場合は、そのファイルを使ってGaussianを実行します。 "
 "開かれていない場合は、Gaussianの入力ファイルを保存した上でGaussianを実行します。"
 msgstr "NOTTRANSLATED"
 
@@ -486,8 +488,9 @@ msgid ""
 "などを選択することで分子表示エリアに表示することができます。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"サブウインドウの操作方法は :ref:`mo_top` , :ref:`cube_top` , :ref:`uvvis_top` , "
+"サブウィンドウの操作方法は :ref:`mo_top` , :ref:`cube_top` , :ref:`uvvis_top` , "
 ":ref:`nmr_top` を参照してください。"
 msgstr "NOTTRANSLATED"
 
@@ -497,7 +500,8 @@ msgstr "NOTTRANSLATED"
 msgid "logファイルを選択し、振動スペクトル（IRまたはラマンスペクトル）を表示します。"
 msgstr "NOTTRANSLATED"
 
-msgid "サブウインドウの操作方法は :ref:`ir_top` を参照してください。"
+#, fuzzy
+msgid "サブウィンドウの操作方法は :ref:`ir_top` を参照してください。"
 msgstr "NOTTRANSLATED"
 
 msgid "Archive"
@@ -520,7 +524,8 @@ msgid ""
 "Cubegenがない場合は、Winmostar内臓のOpenCubegenを使います。"
 msgstr "NOTTRANSLATED"
 
-msgid "サブウインドウの操作方法は :ref:`cube_top` と以下を参考にしてください。"
+#, fuzzy
+msgid "サブウィンドウの操作方法は :ref:`cube_top` と以下を参考にしてください。"
 msgstr "NOTTRANSLATED"
 
 msgid "Property"

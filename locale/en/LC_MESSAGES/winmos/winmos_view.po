@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,7 +24,8 @@ msgstr "NOTTRANSLATED"
 msgid "キーワード&座標表示エリアを表示"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウでキーワード表示エリアと座標表示エリアの表示・非表示を切り替えます。"
+#, fuzzy
+msgid "メインウィンドウでキーワード表示エリアと座標表示エリアの表示・非表示を切り替えます。"
 msgstr "NOTTRANSLATED"
 
 msgid "三面図を表示"
@@ -66,7 +67,8 @@ msgstr "NOTTRANSLATED"
 msgid "平行移動"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウで左ドラッグすると、視線が平行移動します。"
+#, fuzzy
+msgid "メインウィンドウで左ドラッグすると、視線が平行移動します。"
 msgstr "NOTTRANSLATED"
 
 msgid "回転"
@@ -75,19 +77,22 @@ msgstr "NOTTRANSLATED"
 msgid "自由回転"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウで左ドラッグすると、注視点を中心にカメラが回転します。"
+#, fuzzy
+msgid "メインウィンドウで左ドラッグすると、注視点を中心にカメラが回転します。"
 msgstr "NOTTRANSLATED"
 
 msgid "X, Y, Z軸周りで回転"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウで左ドラッグすると、各軸の周りでカメラが回転します。"
+#, fuzzy
+msgid "メインウィンドウで左ドラッグすると、各軸の周りでカメラが回転します。"
 msgstr "NOTTRANSLATED"
 
 msgid "表示を回転"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウで左ドラッグすると、表示が回転します。"
+#, fuzzy
+msgid "メインウィンドウで左ドラッグすると、表示が回転します。"
 msgstr "NOTTRANSLATED"
 
 msgid "遠近法を使用"

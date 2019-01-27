@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,8 @@ msgid ""
 "ファイルはWinmostar独自のコメントが付加したmol2ファイルです。"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウにおいて登録したいモノマー（繰り返し単位）の構造を作成します。"
+#, fuzzy
+msgid "メインウィンドウにおいて登録したいモノマー（繰り返し単位）の構造を作成します。"
 msgstr "NOTTRANSLATED"
 
 msgid "HeadとTailの2原子を左クリックして、赤丸の :ref:`マーカー <edit_top>` が付いた状態にし、本機能を呼び出します。"
@@ -71,7 +72,8 @@ msgstr "NOTTRANSLATED"
 msgid "[OK]"
 msgstr "NOTTRANSLATED"
 
-msgid "モノマーを登録しウインドウを閉じます。モノマーファイルが作成されます。"
+#, fuzzy
+msgid "モノマーを登録しウィンドウを閉じます。モノマーファイルが作成されます。"
 msgstr "NOTTRANSLATED"
 
 msgid "[Cancel]"
@@ -113,7 +115,8 @@ msgstr "NOTTRANSLATED"
 msgid "[Display]"
 msgstr "NOTTRANSLATED"
 
-msgid "選択したモノマーをメインウインドウに表示します。"
+#, fuzzy
+msgid "選択したモノマーをメインウィンドウに表示します。"
 msgstr "NOTTRANSLATED"
 
 msgid "[Delete]"
@@ -173,7 +176,8 @@ msgstr "NOTTRANSLATED"
 msgid "[Close]"
 msgstr "NOTTRANSLATED"
 
-msgid "ウインドウを閉じます。"
+#, fuzzy
+msgid "ウィンドウを閉じます。"
 msgstr "NOTTRANSLATED"
 
 msgid "ブロックポリマービルダ"
@@ -217,7 +221,8 @@ msgstr "NOTTRANSLATED"
 msgid "設定した中間モノマー名と数をInternal Monomer Listに反映させます。"
 msgstr "NOTTRANSLATED"
 
-msgid "設定した中間モノマーをメインウインドウに表示します。"
+#, fuzzy
+msgid "設定した中間モノマーをメインウィンドウに表示します。"
 msgstr "NOTTRANSLATED"
 
 msgid "[Delete wmo File]"
@@ -334,7 +339,8 @@ msgstr "NOTTRANSLATED"
 msgid "選択したポリマーの本数を指定します。"
 msgstr "NOTTRANSLATED"
 
-msgid "選択したポリマーをメインウインドウに表示します。"
+#, fuzzy
+msgid "選択したポリマーをメインウィンドウに表示します。"
 msgstr "NOTTRANSLATED"
 
 msgid "指定したポリマーのファイル削除します。"
@@ -373,9 +379,11 @@ msgstr "NOTTRANSLATED"
 msgid "ポリマーファイルの保存先フォルダを指定します。"
 msgstr "NOTTRANSLATED"
 
-msgid "設定内容を保存してウインドウを閉じます。"
+#, fuzzy
+msgid "設定内容を保存してウィンドウを閉じます。"
 msgstr "NOTTRANSLATED"
 
-msgid "設定内容を破棄してウインドウを閉じます。"
+#, fuzzy
+msgid "設定内容を破棄してウィンドウを閉じます。"
 msgstr "NOTTRANSLATED"
 

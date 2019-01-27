@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,10 +24,12 @@ msgstr "NOTTRANSLATED"
 msgid "画面の説明"
 msgstr "NOTTRANSLATED"
 
-msgid "Winmostarを起動して出現するウインドウ（ **メインウインドウ** と呼ぶ）は下図の様な構成となっています。"
+#, fuzzy
+msgid "Winmostarを起動して出現するウィンドウ（ **メインウィンドウ** と呼ぶ）は下図の様な構成となっています。"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウのタイトルには現在編集中のファイルの名前、使用中のWinmostarのライセンスとバージョンが表示されます。"
+#, fuzzy
+msgid "メインウィンドウのタイトルには現在編集中のファイルの名前、使用中のWinmostarのライセンスとバージョンが表示されます。"
 msgstr "NOTTRANSLATED"
 
 msgid "|main_window_JP|"
@@ -65,7 +67,8 @@ msgstr "NOTTRANSLATED"
 msgid "キーワード表示エリア"
 msgstr "NOTTRANSLATED"
 
-msgid "各ソルバのキーワード設定ウインドウで設定した内容が表示されます。デフォルトではMOPACの設定が表示されます。"
+#, fuzzy
+msgid "各ソルバのキーワード設定ウィンドウで設定した内容が表示されます。デフォルトではMOPACの設定が表示されます。"
 msgstr "NOTTRANSLATED"
 
 msgid "座標表示エリア"
@@ -97,8 +100,9 @@ msgstr "NOTTRANSLATED"
 msgid "マウス操作"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"メインウインドウでは下表のようにマウスで操作することができます。 分子・原子を選択する方法の詳細は :ref:`select_top` "
+"メインウィンドウでは下表のようにマウスで操作することができます。 分子・原子を選択する方法の詳細は :ref:`select_top` "
 "に記載しています。"
 msgstr "NOTTRANSLATED"
 
@@ -168,8 +172,9 @@ msgstr "NOTTRANSLATED"
 msgid "ショートカットキー"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"メインウインドウでは下表のショートカットキーを使うことができます。 "
+"メインウィンドウでは下表のショートカットキーを使うことができます。 "
 "下表に記載されている以外にも、メインメニューの各項目の横に記載されたショートカットキーも使用可能です。"
 msgstr "NOTTRANSLATED"
 
@@ -362,7 +367,8 @@ msgstr "NOTTRANSLATED"
 msgid ":kbd:`F2`"
 msgstr "NOTTRANSLATED"
 
-msgid "表示をウインドウに合わせる"
+#, fuzzy
+msgid "表示をウィンドウに合わせる"
 msgstr "NOTTRANSLATED"
 
 msgid ":kbd:`Ctrl+4`"

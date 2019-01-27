@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,8 +30,9 @@ msgstr "NOTTRANSLATED"
 msgid "キーワード設定"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"FDMNESの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウインドウに戻る場合は "
+"FDMNESの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は "
 ":guilabel:`OK` ボタンを押してください。"
 msgstr "NOTTRANSLATED"
 
@@ -44,9 +45,10 @@ msgstr "NOTTRANSLATED"
 msgid "Target Atom"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 "XAFSスペクトルの測定対象の原子(Absorber)を指定します。 :guilabel:`Set Atom` "
-"ボタンをクリックすると、メインウインドウでマーカーが付いた原子が設定されます。。"
+"ボタンをクリックすると、メインウィンドウでマーカーが付いた原子が設定されます。。"
 msgstr "NOTTRANSLATED"
 
 msgid "Edge"
@@ -110,7 +112,8 @@ msgstr "NOTTRANSLATED"
 msgid "説明"
 msgstr "NOTTRANSLATED"
 
-msgid "pwoutファイル"
+#, fuzzy
+msgid "logファイル"
 msgstr "NOTTRANSLATED"
 
 msgid ":file:`cu.log`"
@@ -148,4 +151,7 @@ msgstr "NOTTRANSLATED"
 
 msgid "convファイル（ :file:`\\*_conv.txt` ）を選択し、XAFSスペクトルを表示します。"
 msgstr "NOTTRANSLATED"
+
+#~ msgid "pwoutファイル"
+#~ msgstr "NOTTRANSLATED"
 

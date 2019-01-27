@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,13 +40,16 @@ msgid ""
 "support]にチェックが入っていると、FDMNESの実行に失敗するという報告がありました。FDMNES実行時に読まれるfdmfile.txtがBOM付で出力されることによる不具合です。問題が発生したタイミングでWinmostarを順次対応させていますが、他の機能で同様の問題が発生した場合はご連絡ください。（2018年5月25日報告）"
 msgstr "NOTTRANSLATED"
 
-msgid "Animation、Submit Jobなどの一部のサブウインドウを開き、閉じた後にまた開こうとしても出現しない。"
+#, fuzzy
+msgid "Animation、Submit Jobなどの一部のサブウィンドウを開き、閉じた後にまた開こうとしても出現しない。"
 msgstr "NOTTRANSLATED"
 
-msgid "ごく一部の環境で確認されています。出現しない場合は、Alt+スペースキーを押すと[元のサイズに戻す][移動][サイズ変更]...などのメニューが出現するので、[移動]を選択しドラッグ操作するとウインドウが再度出現します。あるいは、Winmostarを再起動することで一旦解消します。現在、よりよい対処方法を検討中です。（2018年6月14日報告）"
+#, fuzzy
+msgid "ごく一部の環境で確認されています。出現しない場合は、Alt+スペースキーを押すと[元のサイズに戻す][移動][サイズ変更]...などのメニューが出現するので、[移動]を選択しドラッグ操作するとウィンドウが再度出現します。あるいは、Winmostarを再起動することで一旦解消します。現在、よりよい対処方法を検討中です。（2018年6月14日報告）"
 msgstr "NOTTRANSLATED"
 
-msgid "Animationウインドウ下部のグラフ表示が崩れる。その他UIの表示が崩れる。"
+#, fuzzy
+msgid "Animationウィンドウ下部のグラフ表示が崩れる。その他UIの表示が崩れる。"
 msgstr "NOTTRANSLATED"
 
 msgid ""
@@ -56,11 +59,13 @@ msgid ""
 "（2018年6月26日報告）"
 msgstr "NOTTRANSLATED"
 
-msgid "ローカルマシンのジョブが流れているコンソールウインドウ内でテキストを範囲選択すると、Job Manager上でそのジョブが終了と認識されてしまう。"
+#, fuzzy
+msgid "ローカルマシンのジョブが流れているコンソールウィンドウ内でテキストを範囲選択すると、Job Manager上でそのジョブが終了と認識されてしまう。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"Windows10のコンソールウインドウ上で、実行中のジョブのログのテキストを範囲選択すると、ジョブが終了したと認識されます。これにより不具合が生じる場合は、出力されるログファイルを直接テキストエディタで開き、そこでテキストを範囲選択、コピーなどしてください。範囲選択後、処理が中断する場合は、Enterキーを押すと処理が再開します。Windows10以降で発生します。"
+"Windows10のコンソールウィンドウ上で、実行中のジョブのログのテキストを範囲選択すると、ジョブが終了したと認識されます。これにより不具合が生じる場合は、出力されるログファイルを直接テキストエディタで開き、そこでテキストを範囲選択、コピーなどしてください。範囲選択後、処理が中断する場合は、Enterキーを押すと処理が再開します。Windows10以降で発生します。"
 " （2018年7月20日報告）"
 msgstr "NOTTRANSLATED"
 

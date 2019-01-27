@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -158,8 +158,9 @@ msgstr "NOTTRANSLATED"
 msgid "選択した原子の電荷（User電荷）またはスピン密度の値を変更します。グループ選択されている場合はグループ選択された原子全てが対象となります。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"User ChargeまたはSpin Densityをメインウインドウ上で表示したい場合は、 :menuselection:`表示 --> "
+"User ChargeまたはSpin Densityをメインウィンドウ上で表示したい場合は、 :menuselection:`表示 --> "
 "ラベル/電荷` メニューの :guilabel:`User電荷` または :guilabel:`スピン密度` を選択します。"
 msgstr "NOTTRANSLATED"
 
@@ -249,8 +250,9 @@ msgid ""
 ":file:`*_protonate_tmp` という作業フォルダに中間ファイルが生成されます。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"メインウインドウに表示されている構造にリガンド、溶媒などのタンパク質以外の分子が含まれている場合、:menuselection:`選択 --> "
+"メインウィンドウに表示されている構造にリガンド、溶媒などのタンパク質以外の分子が含まれている場合、:menuselection:`選択 --> "
 "分子種によるグループ選択` および :menuselection:`編集 --> グループ編集 -->` "
 ":ref:`edit_partial_delete` 機能を用いて事前に削除してください。"
 msgstr "NOTTRANSLATED"
@@ -395,7 +397,8 @@ msgstr "NOTTRANSLATED"
 msgid "グループを複製"
 msgstr "NOTTRANSLATED"
 
-msgid "グループ選択された構造を、一定間隔で複製して配置します。サブウインドウにて各方向の配置間隔と複製数を指定します。"
+#, fuzzy
+msgid "グループ選択された構造を、一定間隔で複製して配置します。サブウィンドウにて各方向の配置間隔と複製数を指定します。"
 msgstr "NOTTRANSLATED"
 
 msgid "グループを削除"
@@ -525,25 +528,28 @@ msgstr "NOTTRANSLATED"
 msgid "x方向に座標を反転"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウに表示されている分子構造を鏡像体に変換します。x座標の符号が反転されます。"
+#, fuzzy
+msgid "メインウィンドウに表示されている分子構造を鏡像体に変換します。x座標の符号が反転されます。"
 msgstr "NOTTRANSLATED"
 
 msgid "鏡像体を生成"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウに表示されている分子構造の鏡像体を、現在の構造に隣接して生成します。"
+#, fuzzy
+msgid "メインウィンドウに表示されている分子構造の鏡像体を、現在の構造に隣接して生成します。"
 msgstr "NOTTRANSLATED"
 
 msgid "セルを作成/編集"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 ":guilabel:`Create/Edit Cell` "
-"ウインドウが開き、そこでMD計算や平面波DFT計算などのシミュレーションセルを作成または編集します。 セルが存在しない場合は、 "
-":guilabel:`Create` ボタンをクリックすると、メインウインドウに表示されている分子構造の各方向の最小・最大値から "
+"ウィンドウが開き、そこでMD計算や平面波DFT計算などのシミュレーションセルを作成または編集します。 セルが存在しない場合は、 "
+":guilabel:`Create` ボタンをクリックすると、メインウィンドウに表示されている分子構造の各方向の最小・最大値から "
 ":guilabel:`Distance` の距離だけ離れた場所にセルを作成します。 :guilabel:`Expand` "
 "ボタンクリックすると、指定方向にセルサイズを拡張することができます。 :guilabel:`Create/Edit Cell` "
-"ウインドウの右側では直接セルサイズの値を編集することができます。 :guilabel:`Box Vecors` , "
+"ウィンドウの右側では直接セルサイズの値を編集することができます。 :guilabel:`Box Vecors` , "
 ":guilabel:`Lattice Constants` , :guilabel:`LAMMPS Tilt Factors` "
 "をクリックし、セルサイズの表記方法を変えることができます。"
 msgstr "NOTTRANSLATED"

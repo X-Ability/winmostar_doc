@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,7 +74,8 @@ msgstr "NOTTRANSLATED"
 msgid "|JMwindow_JP|"
 msgstr "NOTTRANSLATED"
 
-msgid "MOPACに対しては、Winmostar本体の環境設定でJMの使用の有無を選択できます。JMを使わない場合はMOPAC計算後に自動的に計算結果がWinmostarのメインウインドウに読み込まれますが、JMを使う場合はジョブの終了後にユーザが明示的に計算結果をWinmostar上で読み込ませる必要があります。"
+#, fuzzy
+msgid "MOPACに対しては、Winmostar本体の環境設定でJMの使用の有無を選択できます。JMを使わない場合はMOPAC計算後に自動的に計算結果がWinmostarのメインウィンドウに読み込まれますが、JMを使う場合はジョブの終了後にユーザが明示的に計算結果をWinmostar上で読み込ませる必要があります。"
 msgstr "NOTTRANSLATED"
 
 msgid "ジョブを強制終了・キャンセルする方法"
@@ -99,8 +100,9 @@ msgstr "NOTTRANSLATED"
 msgid "開始時刻の指定して実行する方法"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"ウインドウに表示される開始時刻は、 :guilabel:`wait` の時は実行キューに登録された時刻ですが、 :guilabel:`run` "
+"ウィンドウに表示される開始時刻は、 :guilabel:`wait` の時は実行キューに登録された時刻ですが、 :guilabel:`run` "
 "になった時にその時刻に変更されます。"
 msgstr "NOTTRANSLATED"
 

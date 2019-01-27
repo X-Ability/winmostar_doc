@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -254,7 +254,8 @@ msgstr "NOTTRANSLATED"
 msgid "座標ファイル読み込み"
 msgstr "NOTTRANSLATED"
 
-msgid "Amber形式の座標（crd）ファイルとトポロジ（prmtop）ファイルを読み込みメインウインドウに表示します。"
+#, fuzzy
+msgid "Amber形式の座標（crd）ファイルとトポロジ（prmtop）ファイルを読み込みメインウィンドウに表示します。"
 msgstr "NOTTRANSLATED"
 
 msgid "トラジェクトリ読み込み"
@@ -272,6 +273,7 @@ msgstr "NOTTRANSLATED"
 msgid "計算結果のlogファイルからエネルギーのグラフを表示します。"
 msgstr "NOTTRANSLATED"
 
-msgid "サブウインドウの操作方法は :ref:`energyplot_top` を参照してください。"
+#, fuzzy
+msgid "サブウィンドウの操作方法は :ref:`energyplot_top` を参照してください。"
 msgstr "NOTTRANSLATED"
 

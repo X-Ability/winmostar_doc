@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,9 +30,10 @@ msgstr "NOTTRANSLATED"
 msgid "キーワード設定"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 "Quantum ESPRESSOの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` "
-"ボタン、一旦メインウインドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
+"ボタン、一旦メインウィンドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
 msgstr "NOTTRANSLATED"
 
 msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`solid_qe_start` を参照してください。"
@@ -43,13 +44,15 @@ msgid ""
 "Fieldを除く設定を保存します。 :guilabel:`Load` ボタンで :guilabel:`Save` にて保存した設定を読み込みます。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 ":ref:`キーワード表示エリア <gui_main>` に表示されているQuantum "
-"ESPRESSOのキーワードと本機能のウインドウに設定された内容が異なる場合は、キーワード表示エリアからキーワードを読み込むか尋ねられます。"
+"ESPRESSOのキーワードと本機能のウィンドウに設定された内容が異なる場合は、キーワード表示エリアからキーワードを読み込むか尋ねられます。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"本機能を呼び出すときに、メインウインドウに表示された構造がプリミティブセルに変化できる場合は、自動で "
+"本機能を呼び出すときに、メインウィンドウに表示された構造がプリミティブセルに変化できる場合は、自動で "
 ":ref:`solid_convertcell` が実行されます。"
 msgstr "NOTTRANSLATED"
 
@@ -118,7 +121,8 @@ msgstr "NOTTRANSLATED"
 msgid "Set default k-path"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウに表示されている結晶について検出されたブラベー格子（ibrav）のデフォルトのk点パスをUserPref/kpath_default.txtから取得して設定します。"
+#, fuzzy
+msgid "メインウィンドウに表示されている結晶について検出されたブラベー格子（ibrav）のデフォルトのk点パスをUserPref/kpath_default.txtから取得して設定します。"
 msgstr "NOTTRANSLATED"
 
 msgid "nosym"
@@ -136,8 +140,9 @@ msgstr "NOTTRANSLATED"
 msgid "Set ibrav = ... and celldm"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"メインウインドウにプリミティブセルが表示されていて、チェックが入っている場合は、適当なibravとcelldmを設定します。 "
+"メインウィンドウにプリミティブセルが表示されていて、チェックが入っている場合は、適当なibravとcelldmを設定します。 "
 "チェックが入っていない場合は、ibrav=0とし、CELL_PARAMETERSを設定します。"
 msgstr "NOTTRANSLATED"
 
@@ -654,9 +659,10 @@ msgid ""
 "の時は、作業ディレクトリを新規に作成して計算を実行します。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 ":guilabel:`Output Directory = Continue` "
-"の時は、その時メインウインドウで開いている入力ファイルのoutdirを作業ディレクトリとして使用します。"
+"の時は、その時メインウィンドウで開いている入力ファイルのoutdirを作業ディレクトリとして使用します。"
 msgstr "NOTTRANSLATED"
 
 msgid ""
@@ -766,18 +772,21 @@ msgstr "NOTTRANSLATED"
 msgid "**作業ディレクトリ**"
 msgstr "NOTTRANSLATED"
 
-msgid "作業ディレクトリとは、メインウインドウで開かれているファイルの名前に接尾辞を加えた名前のフォルダです。"
+#, fuzzy
+msgid "作業ディレクトリとは、メインウィンドウで開かれているファイルの名前に接尾辞を加えた名前のフォルダです。"
 msgstr "NOTTRANSLATED"
 
 msgid "**接尾辞はソルバの種類により変わります。**"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"例えばGromacsの場合は、メインウインドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が "
+"例えばGromacsの場合は、メインウィンドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が "
 ":file:`_gmx_tmp` の場合、作業ディレクトリの名前は :file:`aaa_gmx_tmp` となります。"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウで開かれているファイルと同じ階層に置かれている必要があります。"
+#, fuzzy
+msgid "メインウィンドウで開かれているファイルと同じ階層に置かれている必要があります。"
 msgstr "NOTTRANSLATED"
 
 msgid "継続ジョブの時も同名の作業ディレクトリで処理が流れますが、デフォルトでは継続ジョブの実施直前に、直前のジョブの作業ディレクトリのバックアップが作成されます。"
@@ -827,7 +836,8 @@ msgstr "NOTTRANSLATED"
 msgid "Close"
 msgstr "NOTTRANSLATED"
 
-msgid "ウインドウを閉じます。"
+#, fuzzy
+msgid "ウィンドウを閉じます。"
 msgstr "NOTTRANSLATED"
 
 msgid "グラフ描画エリアの操作方法は :ref:`chart_top` を参照してください。"
@@ -842,7 +852,8 @@ msgstr "NOTTRANSLATED"
 msgid "バックグラウンドではpp.xが流れ、cubeファイルが生成されます。"
 msgstr "NOTTRANSLATED"
 
-msgid "サブウインドウの操作方法は :ref:`cube_top` を参照してください。"
+#, fuzzy
+msgid "サブウィンドウの操作方法は :ref:`cube_top` を参照してください。"
 msgstr "NOTTRANSLATED"
 
 msgid "Lowdin電荷"
@@ -925,7 +936,8 @@ msgstr "NOTTRANSLATED"
 msgid "フォノン計算後の作業ディレクトリとSCF計算のログを指定し、IRおよびラマンスペクトルを表示します。"
 msgstr "NOTTRANSLATED"
 
-msgid "サブウインドウの操作方法は :ref:`ir_top` を参照してください。"
+#, fuzzy
+msgid "サブウィンドウの操作方法は :ref:`ir_top` を参照してください。"
 msgstr "NOTTRANSLATED"
 
 msgid "フォノン分散曲線"

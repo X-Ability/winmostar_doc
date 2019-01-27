@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-28 00:39+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,8 +29,9 @@ msgstr "NOTTRANSLATED"
 msgid "対応するジョブスケジューラ"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"V8.027時点でWinmostarが対応するジョブスケジューラは以下の通りです。カスタマイズサービス `Winmostar for you "
+"V9.0.1時点でWinmostarが対応するジョブスケジューラは以下の通りです。カスタマイズサービス `Winmostar for you "
 "<https://x-ability.co.jp/wm4u.pdf>`_ においてご希望のジョブスケジューラに追加対応させることも可能です。"
 msgstr "NOTTRANSLATED"
 
@@ -64,9 +65,19 @@ msgstr "NOTTRANSLATED"
 msgid "Rescale"
 msgstr "NOTTRANSLATED"
 
+msgid "TSUBAME3.0を利用する場合はSGEを選択する。"
+msgstr "NOTTRANSLATED"
+
+msgid "対応するジョブスケジューラがリモートサーバにインストールされていない場合は、以下の方法でリモートジョブを実行することができます。"
+msgstr "NOTTRANSLATED"
+
 msgid ""
-"また、ジョブスケジューラがインストールされていない環境でも、直接ソルバを起動したり、 :command:`qsub` , "
-":command:`qstat` などのコマンドを模倣するコマンド、スクリプトを用意することで、一部機能を利用することができます。"
+":command:`qsub` , :command:`qstat` "
+"などのコマンドを模倣するコマンド、スクリプトを用意し、必要に応じてそれらのコマンドの接頭辞を :guilabel:`Prefix for "
+"Queueing Commands` で指定する。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Queue` の設定で ``Run`` を選択する。"
 msgstr "NOTTRANSLATED"
 
 msgid "リモートジョブの実行手順"
@@ -82,15 +93,22 @@ msgid "これからインストールする場合は、 :ref:`こちら <install
 msgstr "NOTTRANSLATED"
 
 msgid ""
-":ref:`calc_import_top` の1, 2の手順に従い初期条件の作成とキーワードの設定を行い、キーワード設定ウインドウを "
+"ジョブのスケジューリングを使わずにジョブを実行する場合、ジョブスケジューラのセットアップは不要で、 :guilabel:`Queue` "
+"の設定において ``Run`` を選択してください。"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid ""
+":ref:`calc_import_top` の1, 2の手順に従い初期条件の作成とキーワードの設定を行い、キーワード設定ウィンドウを "
 ":guilabel:`OK` ボタンを押して閉じます。"
 msgstr "NOTTRANSLATED"
 
 msgid "ツールバーの :guilabel:`リモートジョブ投入` ボタン |toolbar_submit| をクリックします。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-":guilabel:`Submit Remote Job` ウインドウにおいて、すでに設定が済んでいる :guilabel:`Profile` "
+":guilabel:`Submit Remote Job` ウィンドウにおいて、すでに設定が済んでいる :guilabel:`Profile` "
 "が選択されているときは、 :ref:`こちら <remote_procedure_sendsub>` に進みます。されていない場合は、 "
 ":menuselection:`Manage... --> Add Profile...` を選択します。"
 msgstr "NOTTRANSLATED"
@@ -98,7 +116,8 @@ msgstr "NOTTRANSLATED"
 msgid "|fig_remote_addprofile|"
 msgstr "NOTTRANSLATED"
 
-msgid ":guilabel:`Edit Profile` ウインドウ上部にて、以下の内容を入力します。"
+#, fuzzy
+msgid ":guilabel:`Edit Profile` ウィンドウ上部にて、以下の内容を入力します。"
 msgstr "NOTTRANSLATED"
 
 msgid "Profile Name"
@@ -133,39 +152,45 @@ msgid ""
 "<https://winmostar.com/jp/manual_jp.html>`_ を参照してください。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"入力後、SSH接続をテストするために、 :guilabel:`Edit Profile` ウインドウ下の :guilabel:`Test "
+"入力後、SSH接続をテストするために、 :guilabel:`Edit Profile` ウィンドウ下の :guilabel:`Test "
 "Connection` ボタンをクリックします。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"黒いターミナルウインドウが開き、初回接続時は、 ``Store key in cache? (y/n)`` と表示される。その場合は、 "
+"黒いターミナルウィンドウが開き、初回接続時は、 ``Store key in cache? (y/n)`` と表示される。その場合は、 "
 ":kbd:`y` とキー入力する。"
 msgstr "NOTTRANSLATED"
 
 msgid "|fig_remote_storekey|"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"接続に成功した場合は、先ほどの :guilabel:`Submit Remote Job` ウインドウの下部に ``Connection test"
+"接続に成功した場合は、先ほどの :guilabel:`Submit Remote Job` ウィンドウの下部に ``Connection test"
 " succeeded.`` と表示されます。"
 msgstr "NOTTRANSLATED"
 
 msgid "|fig_remote_testconnection|"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"ユーザ設定等が間違っている場合はターミナルウインドウで ``Access denied ***@***'s password:`` "
+"ユーザ設定等が間違っている場合はターミナルウィンドウで ``Access denied ***@***'s password:`` "
 "などど表示されます。その場で正しいパスワードを入力した場合も、再度 :guilabel:`Edit Profile` "
-"ウインドウでパスワードを再入力してください。"
+"ウィンドウでパスワードを再入力してください。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"その他、 :guilabel:`Submit Remote Job` ウインドウの下部に ``ERROR: Connection timed "
+"その他、 :guilabel:`Submit Remote Job` ウィンドウの下部に ``ERROR: Connection timed "
 "out or an error occurred.`` と表示された場合は、接続設定を見直してください。"
 msgstr "NOTTRANSLATED"
 
-msgid ":guilabel:`Edit Profile` ウインドウ下部にて、以下の内容を入力します。"
+#, fuzzy
+msgid ":guilabel:`Edit Profile` ウィンドウ下部にて、以下の内容を入力します。"
 msgstr "NOTTRANSLATED"
 
 msgid "Queue & Solver"
@@ -203,12 +228,14 @@ msgid ""
 ":ref:`remote_alias` を参照してください。"
 msgstr "NOTTRANSLATED"
 
-msgid ":guilabel:`OK` ボタンを押して :guilabel:`Edit Profile` ウインドウを閉じます。"
+#, fuzzy
+msgid ":guilabel:`OK` ボタンを押して :guilabel:`Edit Profile` ウィンドウを閉じます。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-":guilabel:`Submit Remote Job` ウインドウで、 :menuselection:`Queue --> Show "
-"Usage of Each Queues` メニューをクリックし、ウインドウ下部にリモートサーバの情報が表示されることを確認します。"
+":guilabel:`Submit Remote Job` ウィンドウで、 :menuselection:`Queue --> Show "
+"Usage of Each Queues` メニューをクリックし、ウィンドウ下部にリモートサーバの情報が表示されることを確認します。"
 msgstr "NOTTRANSLATED"
 
 msgid "正常に表示されない場合は、 :menuselection:`Manage... --> Edit Profile...` で設定を見直します。"
@@ -222,13 +249,15 @@ msgstr "NOTTRANSLATED"
 msgid "|fig_remote_sendsub_button|"
 msgstr "NOTTRANSLATED"
 
-msgid "ウインドウ下部には、サブミットしたジョブのIDが表示されます。IDはジョブをキャンセル（kill）するときに使用します。"
+#, fuzzy
+msgid "ウィンドウ下部には、サブミットしたジョブのIDが表示されます。IDはジョブをキャンセル（kill）するときに使用します。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 "リモートサーバでジョブが実行されたディレクトリは、 :menuselection:`Profile --> Edit Profile` の "
 ":guilabel:`Remote Directory` で設定することができ、 実際使用されたものは :guilabel:`Submit "
-"Remote Job` ウインドウの :guilabel:`Remote Directory` 欄に表示されます。"
+"Remote Job` ウィンドウの :guilabel:`Remote Directory` 欄に表示されます。"
 msgstr "NOTTRANSLATED"
 
 msgid ""
@@ -260,9 +289,10 @@ msgstr "NOTTRANSLATED"
 msgid "|fig_remote_progress_button|"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 "操作対象のジョブは、 :guilabel:`Remote Directory` "
-"欄に表示されたものとなります。デフォルトの設定の場合は、メインウインドウで対象としたいジョブの入力ファイルを開き、ジョブ投入時のプロファイルを選択してください。"
+"欄に表示されたものとなります。デフォルトの設定の場合は、メインウィンドウで対象としたいジョブの入力ファイルを開き、ジョブ投入時のプロファイルを選択してください。"
 msgstr "NOTTRANSLATED"
 
 msgid ""
@@ -276,7 +306,8 @@ msgstr "NOTTRANSLATED"
 msgid "ファイル取得後は、ローカルジョブと同じ操作方法で結果解析を実施することができます。"
 msgstr "NOTTRANSLATED"
 
-msgid "Submit Jobウインドウの各機能"
+#, fuzzy
+msgid "Submit Jobウィンドウの各機能"
 msgstr "NOTTRANSLATED"
 
 msgid "Fileメニュー"
@@ -303,7 +334,8 @@ msgstr "NOTTRANSLATED"
 msgid "Close"
 msgstr "NOTTRANSLATED"
 
-msgid "このウインドウを閉じます。"
+#, fuzzy
+msgid "このウィンドウを閉じます。"
 msgstr "NOTTRANSLATED"
 
 msgid "Profileメニュー"
@@ -312,19 +344,22 @@ msgstr "NOTTRANSLATED"
 msgid "Add Profile, Duplicate Profile, Remove Profile"
 msgstr "NOTTRANSLATED"
 
-msgid "サーバ接続のプロファイルを追加、複製、削除します。 ウインドウ内の :guilabel:`Manage` ボタンからも同様の操作が可能です。"
+#, fuzzy
+msgid "サーバ接続のプロファイルを追加、複製、削除します。 ウィンドウ内の :guilabel:`Manage` ボタンからも同様の操作が可能です。"
 msgstr "NOTTRANSLATED"
 
 msgid "Edit Profile"
 msgstr "NOTTRANSLATED"
 
-msgid "サーバ接続のプロファイルを編集します。 一部の設定はSubmit Jobウインドウ内で直接編集できます。"
+#, fuzzy
+msgid "サーバ接続のプロファイルを編集します。 一部の設定はSubmit Jobウィンドウ内で直接編集できます。"
 msgstr "NOTTRANSLATED"
 
 msgid "Profile name"
 msgstr "NOTTRANSLATED"
 
-msgid "Submit Jobウインドウで表示されるプロファイル名を指定します。"
+#, fuzzy
+msgid "Submit Jobウィンドウで表示されるプロファイル名を指定します。"
 msgstr "NOTTRANSLATED"
 
 msgid "リモートサーバのホスト名またはIPアドレスを指定します。"
@@ -360,7 +395,8 @@ msgstr "NOTTRANSLATED"
 msgid "このプロファイルにおいて使用するプログラムを選択します。"
 msgstr "NOTTRANSLATED"
 
-msgid "ウインドウ内でも変更可能です。"
+#, fuzzy
+msgid "ウィンドウ内でも変更可能です。"
 msgstr "NOTTRANSLATED"
 
 msgid ""
@@ -389,11 +425,15 @@ msgstr "NOTTRANSLATED"
 msgid "Remote Directory"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"リモートサーバの作業ディレクトリを指定します。空の場合はホームディレクトリからIDdir/プログラム名/ファイル名が作業ディレクトリになります。 "
-":command:`'/work/dir'` のようにシングルクォーテーションで囲うと、指定したディレクトリから "
-":file:`IDdir/プログラム名/ファイル名` を作成します。 また、 :command:`''/work/dir''` "
-"のようにシングルクォーテーションを2個づつで囲むと、IDdirは作成されません。"
+"リモートサーバの作業ディレクトリを指定します。空の場合はホームディレクトリから(Local User "
+"ID)/(プログラム名)/(ファイル名)が作業ディレクトリになります。 Local User "
+"IDは操作中のWindowsにおけるユーザ名で、Submit Remote Jobウィンドウのタイトルに表示されます。Local User "
+"IDに全角文字や半角スペースが含まれている場合は、内部的に半角英数文字に変換されてディレクトリ名が設定されます。 "
+":command:`'/work/dir'` のようにシングルクォーテーションで囲うと、指定したディレクトリから :file:`(Local "
+"User ID)/(プログラム名)/(ファイル名)` を作成します。 また、 :command:`''/work/dir''` "
+"のようにシングルクォーテーションを2個づつで囲むと、(Local User ID)のディレクトリは作成されません。"
 msgstr "NOTTRANSLATED"
 
 msgid "Prefix for Queueing Commands"
@@ -417,7 +457,8 @@ msgstr "NOTTRANSLATED"
 msgid "SSHの接続テストを行います。"
 msgstr "NOTTRANSLATED"
 
-msgid "ウインドウ内の :guilabel:`Test Connection` ボタンでも同様の操作が可能です。"
+#, fuzzy
+msgid "ウィンドウ内の :guilabel:`Test Connection` ボタンでも同様の操作が可能です。"
 msgstr "NOTTRANSLATED"
 
 msgid "Share SSH Connection Once Established"
@@ -429,7 +470,8 @@ msgstr "NOTTRANSLATED"
 msgid "Open Putty"
 msgstr "NOTTRANSLATED"
 
-msgid "Puttyの設定ウインドウを開き、接続に関する詳細な設定を行います。"
+#, fuzzy
+msgid "Puttyの設定ウィンドウを開き、接続に関する詳細な設定を行います。"
 msgstr "NOTTRANSLATED"
 
 msgid "Jobメニュー"
@@ -438,10 +480,14 @@ msgstr "NOTTRANSLATED"
 msgid "Send Local Files & Submit Job"
 msgstr "NOTTRANSLATED"
 
-msgid "計算に必要な入力ファイルを生成し、SFTPでリモートサーバに転送した後、ジョブスケジューラにサブミットします。"
+#, fuzzy
+msgid ""
+"計算に必要な入力ファイルを生成し、SFTPでリモートサーバに転送した後、ジョブスケジューラにサブミットします。 "
+"サブミットした後ジョブのIDが表示されます。"
 msgstr "NOTTRANSLATED"
 
-msgid "ウインドウ内の :guilabel:`Send & Submit` ボタンでも同様の操作が可能です。"
+#, fuzzy
+msgid "ウィンドウ内の :guilabel:`Send & Submit` ボタンでも同様の操作が可能です。"
 msgstr "NOTTRANSLATED"
 
 msgid "Submit Job"
@@ -456,7 +502,8 @@ msgstr "NOTTRANSLATED"
 msgid "Remote Directory内のファイル一覧を取得します。"
 msgstr "NOTTRANSLATED"
 
-msgid "ウインドウ内の :guilabel:`ls` ボタンでも同様の操作が可能です。"
+#, fuzzy
+msgid "ウィンドウ内の :guilabel:`ls` ボタンでも同様の操作が可能です。"
 msgstr "NOTTRANSLATED"
 
 msgid "Display Remote File"
@@ -465,7 +512,8 @@ msgstr "NOTTRANSLATED"
 msgid "Remote Directory内の選択したファイルの内容を取得します。"
 msgstr "NOTTRANSLATED"
 
-msgid "ウインドウ内の :guilabel:`cat` ボタンでも同様の操作が可能です。"
+#, fuzzy
+msgid "ウィンドウ内の :guilabel:`cat` ボタンでも同様の操作が可能です。"
 msgstr "NOTTRANSLATED"
 
 msgid "Display Last Part of Remote Log File"
@@ -474,7 +522,8 @@ msgstr "NOTTRANSLATED"
 msgid "Remote Directory内のログファイルの末尾を取得します。"
 msgstr "NOTTRANSLATED"
 
-msgid "ウインドウ内の :guilabel:`tail` ボタンでも同様の操作が可能です。"
+#, fuzzy
+msgid "ウィンドウ内の :guilabel:`tail` ボタンでも同様の操作が可能です。"
 msgstr "NOTTRANSLATED"
 
 msgid "Search String in Remote Log File"
@@ -483,7 +532,8 @@ msgstr "NOTTRANSLATED"
 msgid "Remote Directory内のログファイルの中から文字列を検索します。"
 msgstr "NOTTRANSLATED"
 
-msgid "ウインドウ内の :guilabel:`grep` ボタンでも同様の操作が可能です。"
+#, fuzzy
+msgid "ウィンドウ内の :guilabel:`grep` ボタンでも同様の操作が可能です。"
 msgstr "NOTTRANSLATED"
 
 msgid "Get Remote File and ..."
@@ -492,7 +542,8 @@ msgstr "NOTTRANSLATED"
 msgid "Remote Directory内の特定ファイルをgetして可視化します。"
 msgstr "NOTTRANSLATED"
 
-msgid "ウインドウ内の :guilabel:`Get File & ...` ボタンでも同様の操作が可能です。"
+#, fuzzy
+msgid "ウィンドウ内の :guilabel:`Get File & ...` ボタンでも同様の操作が可能です。"
 msgstr "NOTTRANSLATED"
 
 msgid "Queueメニュー"
@@ -507,10 +558,14 @@ msgstr "NOTTRANSLATED"
 msgid "ジョブスケジューラに登録されたジョブの一覧を取得します。"
 msgstr "NOTTRANSLATED"
 
-msgid "ウインドウ内の同じコマンド名のボタンでも同様の操作が可能です。"
+#, fuzzy
+msgid "ウィンドウ内の同じコマンド名のボタンでも同様の操作が可能です。"
 msgstr "NOTTRANSLATED"
 
 msgid "Kill Submitted Job"
+msgstr "NOTTRANSLATED"
+
+msgid "ジョブスケジューラに登録されたジョブを中断します。サブミットした直後に表示されたジョブのIDを入力する必要があります。"
 msgstr "NOTTRANSLATED"
 
 msgid "List Submitted Jobs in Detail"
@@ -608,4 +663,25 @@ msgstr "NOTTRANSLATED"
 
 msgid "%WM_NUM_PROC%と%WM_NUM_THREAD%の積"
 msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid "リモートジョブの設定ファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"プロファイルの設定は、Winmostarのインストールフォルダの :file:`UserPref\\\\winmos_profile.ini` "
+"に保存されます。 読み込む際には、V8以前の旧バージョンとの互換性維持のため、以下の優先順位で読み込まれます。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+":file:`UserPref\\\\winmos_profile.ini` > "
+":file:`UserPref\\\\winmos_server.ini` > "
+":file:`wm_system\\\\RemoteJob\\default_profile.ini`"
+msgstr "NOTTRANSLATED"
+
+#~ msgid ""
+#~ "また、ジョブスケジューラがインストールされていない環境でも、直接ソルバを起動したり、 :command:`qsub` "
+#~ ", :command:`qstat` "
+#~ "などのコマンドを模倣するコマンド、スクリプトを用意することで、一部機能を利用することができます。"
+#~ msgstr "NOTTRANSLATED"
 

@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,8 @@ msgstr "NOTTRANSLATED"
 msgid "以下のいずれかの方法を選択する。"
 msgstr "NOTTRANSLATED"
 
-msgid "各種形式のファイルを :ref:`file_open` またはメインウインドウへのドラッグアンドドロップで開く。"
+#, fuzzy
+msgid "各種形式のファイルを :ref:`file_open` またはメインウィンドウへのドラッグアンドドロップで開く。"
 msgstr "NOTTRANSLATED"
 
 msgid ""
@@ -35,7 +36,8 @@ msgid ""
 ":ref:`file_import_smiles` から読み込む。"
 msgstr "NOTTRANSLATED"
 
-msgid "分子構造をメインウインドウ上で構築する。"
+#, fuzzy
+msgid "分子構造をメインウィンドウ上で構築する。"
 msgstr "NOTTRANSLATED"
 
 msgid "適宜 :ref:`edit_top` から必要な操作を選択する。"
@@ -90,9 +92,10 @@ msgstr "NOTTRANSLATED"
 msgid "デフォルトのAM1/BCC電荷を用いる場合は明示的に電荷を設定する必要がない。 また、水分子には選択した水モデルの電荷の値が無条件で適用される。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 "AM1/BCC以外の電荷を使用する場合は、 :ref:`create_mole` "
-"の方法で1分子を作成した後、以下の方法で電荷を割り当てたうえで、各種キーワード設定ウインドウの :guilabel:`Force Field` "
+"の方法で1分子を作成した後、以下の方法で電荷を割り当てたうえで、各種キーワード設定ウィンドウの :guilabel:`Force Field` "
 "タブで :guilabel:`Use user-defined charge` を選択する。割り当てた電荷は :menuselection:`表示"
 " -->` :ref:`view_labels_charges` を変更することで表示し確認することができる。"
 msgstr "NOTTRANSLATED"
@@ -117,9 +120,10 @@ msgid ""
 " :guilabel:`ICHARG` に電荷を入力する。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-":guilabel:`Easy Setup` ウインドウを :guilabel:`Close` ボタンで閉じ、 :guilabel:`GAMESS"
-" Setup` ウインドウで :guilabel:`Run` ボタンを押し計算を実行する。"
+":guilabel:`Easy Setup` ウィンドウを :guilabel:`Close` ボタンで閉じ、 :guilabel:`GAMESS"
+" Setup` ウィンドウで :guilabel:`Run` ボタンを押し計算を実行する。"
 msgstr "NOTTRANSLATED"
 
 msgid ""
@@ -127,9 +131,10 @@ msgid ""
 "にてRESP電荷を取得する。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
 "MOPAC, GAMESS, Gaussian, NWChem, Quantum "
-"ESPRESSOのPopulation解析結果の電荷をメインウインドウに読み込む。"
+"ESPRESSOのPopulation解析結果の電荷をメインウィンドウに読み込む。"
 msgstr "NOTTRANSLATED"
 
 msgid "MOPACの場合は :ref:`semiempirical_mopac_charge` の手順で読み込む。"
@@ -140,7 +145,8 @@ msgid ""
 "Lowdin電荷` の手順で読み込む。"
 msgstr "NOTTRANSLATED"
 
-msgid "それ以外の場合は、ログファイルをメインウインドウで開く。"
+#, fuzzy
+msgid "それ以外の場合は、ログファイルをメインウィンドウで開く。"
 msgstr "NOTTRANSLATED"
 
 msgid "元素ごとに値を指定して割り当てる。"
@@ -191,8 +197,9 @@ msgstr "NOTTRANSLATED"
 msgid ":ref:`md_solvate_buildcell` を選択する。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-"系内にどの分子を何分子入れるか決める。 メインウインドウに表示された分子は :guilabel:`Add Displayed Molecule` "
+"系内にどの分子を何分子入れるか決める。 メインウィンドウに表示された分子は :guilabel:`Add Displayed Molecule` "
 ", 水分子の場合は :guilabel:`Add Water` をクリックする。 それ以外の場合は :guilabel:`Add mol2 "
 "File` をクリックし1.から4.の手順で保存したmol2ファイルを選択する。"
 msgstr "NOTTRANSLATED"
@@ -203,8 +210,9 @@ msgstr "NOTTRANSLATED"
 msgid "6.、7.の手順を計算したい全ての分子種に対して行う。"
 msgstr "NOTTRANSLATED"
 
+#, fuzzy
 msgid ""
-":guilabel:`Solvate/Build MD Cell` ウインドウ下部の :guilabel:`Simulation Cell` "
+":guilabel:`Solvate/Build MD Cell` ウィンドウ下部の :guilabel:`Simulation Cell` "
 "にてシステムサイズを設定し、 :guilabel:`Build` ボタンを押す。"
 msgstr "NOTTRANSLATED"
 

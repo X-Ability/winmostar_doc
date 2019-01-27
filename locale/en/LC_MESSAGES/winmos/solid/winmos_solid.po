@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -206,22 +206,26 @@ msgstr "NOTTRANSLATED"
 msgid "OK"
 msgstr "NOTTRANSLATED"
 
-msgid "作成した結晶構造をメインウインドウに読み込みます。"
+#, fuzzy
+msgid "作成した結晶構造をメインウィンドウに読み込みます。"
 msgstr "NOTTRANSLATED"
 
-msgid "読み込みを取り消したい場合は、メインウインドウで :menuselection:`編集 --> 元に戻る` をクリックしてください。"
+#, fuzzy
+msgid "読み込みを取り消したい場合は、メインウィンドウで :menuselection:`編集 --> 元に戻る` をクリックしてください。"
 msgstr "NOTTRANSLATED"
 
 msgid "Cancel"
 msgstr "NOTTRANSLATED"
 
-msgid "結晶ビルダで入力した構造を破棄しメインウインドウに戻ります。"
+#, fuzzy
+msgid "結晶ビルダで入力した構造を破棄しメインウィンドウに戻ります。"
 msgstr "NOTTRANSLATED"
 
 msgid "スーパーセルを作成"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウで表示されているセルを複製しスーパーセルを作成します。"
+#, fuzzy
+msgid "メインウィンドウで表示されているセルを複製しスーパーセルを作成します。"
 msgstr "NOTTRANSLATED"
 
 msgid ""
@@ -381,7 +385,8 @@ msgstr "NOTTRANSLATED"
 msgid "格子を変換"
 msgstr "NOTTRANSLATED"
 
-msgid "メインウインドウで表示されているセルについて、プリミティブセル-コンベンショナルセル間の変換を行います。"
+#, fuzzy
+msgid "メインウィンドウで表示されているセルについて、プリミティブセル-コンベンショナルセル間の変換を行います。"
 msgstr "NOTTRANSLATED"
 
 msgid "Quantum ESPRESSO"
