@@ -19,75 +19,70 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid ":menuselection:`ファイル` メニュー"
-msgstr "NOTTRANSLATED"
+msgstr "File Menu"
 
 msgid "新規"
-msgstr "NOTTRANSLATED"
+msgstr "New"
 
 msgid "起動直後の状態に戻ります。"
-msgstr "NOTTRANSLATED"
+msgstr "It returns to the state immediately after startup."
 
 msgid ":kbd:`Ctrl+N` でも操作できます。"
-msgstr "NOTTRANSLATED"
+msgstr "The shortcut is :kbd:`Ctrl+N` ."
 
 msgid "開く"
-msgstr "NOTTRANSLATED"
+msgstr "Open"
 
-#, fuzzy
 msgid "ファイルから分子構造をメインウィンドウに読み込みます。各種ソフトのフォーマットに対応しています。"
-msgstr "NOTTRANSLATED"
+msgstr "Read the molecular structure from file into the main window. It corresponds to the format of various software."
 
 msgid ":kbd:`Ctrl+O` でも操作できます。"
-msgstr "NOTTRANSLATED"
+msgstr "The shortcut is :kbd:`Ctrl+O` ."
 
 msgid "最近使ったファイル"
-msgstr "NOTTRANSLATED"
+msgstr "Open Recent"
 
 msgid "最近開かれたファイルを開きます。"
-msgstr "NOTTRANSLATED"
+msgstr "Open the recently opened file."
 
 msgid "履歴をクリア"
-msgstr "NOTTRANSLATED"
+msgstr "Clear History"
 
 msgid "最近開かれたファイルの履歴を空にします。"
-msgstr "NOTTRANSLATED"
+msgstr "Empty the history of recently opened files."
 
 msgid "再度読み込み"
-msgstr "NOTTRANSLATED"
+msgstr "Reload"
 
-#, fuzzy
 msgid "メインウィンドウのタイトルに表示されているファイルを再度読み込みます。"
-msgstr "NOTTRANSLATED"
+msgstr "Load the file displayed in the title of the main window again."
 
 msgid "追加読み込み"
-msgstr "NOTTRANSLATED"
+msgstr "Append"
 
-#, fuzzy
 msgid "メインウィンドウに表示されている分子構造に、選択したファイルの分子構造を追加します。"
-msgstr "NOTTRANSLATED"
+msgstr "Add the molecular structure of the selected file to the molecular structure displayed in the main window."
 
 msgid "上書き保存"
-msgstr "NOTTRANSLATED"
+msgstr "Save"
 
-#, fuzzy
 msgid "メインウィンドウに表示されている分子構造を上書き保存します。"
-msgstr "NOTTRANSLATED"
+msgstr "Overwrite and save the molecular structure displayed in the main window."
 
 msgid "詳細は :ref:`file_saveas` を参照してください。"
-msgstr "NOTTRANSLATED"
+msgstr "For details, see :ref:`file_saveas` ."
 
 msgid ":kbd:`Ctrl+S` でも操作できます。"
-msgstr "NOTTRANSLATED"
+msgstr "The shortcut is :kbd:`Ctrl+S` ."
 
 msgid "名前を付けて保存"
-msgstr "NOTTRANSLATED"
+msgstr "Save As"
 
-#, fuzzy
 msgid "メインウィンドウに表示されている分子構造を別名で保存します。"
-msgstr "NOTTRANSLATED"
+msgstr "Save the molecular structure displayed in the main window as a different name."
 
 msgid "ファイル名およびファイルを含むフォルダ名（上位階層全て）は半角英数のみで記入することを推奨します。"
-msgstr "NOTTRANSLATED"
+msgstr "It is recommended that you enter the file name and the folder name including all files (all upper layers) with one-byte alphanumeric characters only."
 
 msgid "全角英数、日本語などのマルチバイト文字、スペースが含まれる場合は、一部の処理で不具合がでることがあります。"
 msgstr "NOTTRANSLATED"
@@ -98,108 +93,99 @@ msgstr "NOTTRANSLATED"
 msgid ""
 "各種ソルバの入力ファイルを保存する場合は、 :ref:`キーワード表示エリア <gui_main>` と :ref:`座標表示エリア "
 "<gui_main>` の内容を基にファイルが作成されます。"
-msgstr "NOTTRANSLATED"
+msgstr "When saving an input file of various solvers, a file is created based on the contents of :ref:`Keyword Editor <gui_main>` and :ref:`Coordinate Viewer <gui_main>`."
 
-#, fuzzy
 msgid ""
 "キーワード表示エリアに、保存したいソルバのキーワードが表示されていない場合は、キーワード設定ウィンドウが自動で開きます。 "
 "また、MOPAC、GAMESS、Gaussian、NWChemの場合は :menuselection:`ファイル -->` "
 ":ref:`file_coordinateformat` で選択されたフォーマットで座標が出力されます。"
-msgstr "NOTTRANSLATED"
+msgstr "If the keyword of the solver you want to save is not displayed in Keyword Editor, Configuration window will open automatically."
+"For MOPAC, GAMESS, Gaussian, NWChem, the coordinates are output in the format selected in :menuselection:`File -->` "
+":ref:`file_coordinateformat`."
 
 msgid ":kbd:`Shift+Ctrl+S` でも操作できます。"
-msgstr "NOTTRANSLATED"
+msgstr "The shortcut is :kbd:`Shift+Ctrl+S`"
 
 msgid "インポート"
-msgstr "NOTTRANSLATED"
+msgstr "Import"
 
 msgid "特定の形式の分子構造と、一部の計算結果ファイルを読み込みます。"
-msgstr "NOTTRANSLATED"
+msgstr "It reads a specific type of molecular structure."
 
 msgid "SMILES"
-msgstr "NOTTRANSLATED"
+msgstr "SMILES"
 
-#, fuzzy
 msgid ""
 "SMILES形式の文字列から分子構造を生成し、メインウィンドウに読み込みます。 :guilabel:`Import SMILES` "
 "ウィンドウが開いたら、テキストボックスにSMILES形式の文字列を入力し、 :guilabel:`Convert` "
 "を押してください。内部的には同時にBolloonによる配座探索も実行されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Molecular structure is generated from SMILES format string and read into the main window. When :guilabel:`Import SMILES` window opens, enter the SMILES format string in the text box and press :guilabel:`Convert` button. Internally, conformational search by Bolloon is also executed at the same time."
 
 msgid "エクスポート"
-msgstr "NOTTRANSLATED"
+msgstr "Export"
 
-#, fuzzy
 msgid "選択した形式でメインウィンドウに表示されている内容を出力します。"
-msgstr "NOTTRANSLATED"
+msgstr "Outputs the contents displayed in the main window in the selected format."
 
-#, fuzzy
 msgid "メインウィンドウに表示されている分子構造をSMILES形式の文字列で出力します。メインウィンドウに複数分子表示されている場合は使用できません。Cygwin上でOpenBabelを使用します。"
-msgstr "NOTTRANSLATED"
+msgstr "It outputs the molecular structure displayed in the main window as SMILES formatted character string. It can not be used when multiple molecules are displayed in the main window. I use OpenBabel on Cygwin."
 
 msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ <install_cygwinwm>` が必要です。"
-msgstr "NOTTRANSLATED"
+msgstr "In order to use this function you need to set up :ref:`cygwin_wm <install_cygwinwm>`."
 
 msgid "構造式"
-msgstr "NOTTRANSLATED"
+msgstr "Structural Formula"
 
-#, fuzzy
 msgid "メインウィンドウに表示されている分子構造の構造式の画像をSVG形式で出力します。メインウィンドウに複数分子表示されている場合は使用できません。Cygwin上でOpenBabelを使用します。"
-msgstr "NOTTRANSLATED"
+msgstr "The image of the structural formula of the molecular structure displayed in the main window is output in SVG format. It can not be used when multiple molecules are displayed in the main window. I use OpenBabel on Cygwin."
 
 msgid "画像"
-msgstr "NOTTRANSLATED"
+msgstr "Image"
 
-#, fuzzy
 msgid "メインウィンドウに表示されている内容をBMPまたはJPG形式で出力します。"
-msgstr "NOTTRANSLATED"
+msgstr "Outputs the contents displayed in the main window in BMP or JPG format."
 
 msgid "VRML"
-msgstr "NOTTRANSLATED"
+msgstr "VRML"
 
-#, fuzzy
 msgid "メインウィンドウに表示されている分子構造をVRML形式で出力します。"
-msgstr "NOTTRANSLATED"
+msgstr "Outputs the contents displayed in the main window in VRML format."
 
 msgid "CHARMM crd File"
-msgstr "NOTTRANSLATED"
+msgstr "CHARMM crd File"
 
-#, fuzzy
 msgid "メインウィンドウに表示されている分子構造をCHARMMのcrd形式で座標を出力します。"
-msgstr "NOTTRANSLATED"
+msgstr "Outputs the contents displayed in the main window in crd format for CHARMM."
 
 msgid "テキストエディタで開く"
-msgstr "NOTTRANSLATED"
+msgstr "Open in Text Editor"
 
-#, fuzzy
 msgid "メインウィンドウのタイトルに表示されるファイルを、環境設定ウィンドウにて選択したテキストエディタで開きます。"
-msgstr "NOTTRANSLATED"
+msgstr "Open the file displayed in the title of the main window with the text editor selected in the configuration window."
 
-#, fuzzy
 msgid "テキストエディタで編集後、:ref:`file_reload_file` を選択すると、変更をメインウィンドウに反映することができます。"
-msgstr "NOTTRANSLATED"
+msgstr "After editing with the text editor, selecting :ref:`file_reload_file` , you can reflect the change on the main window."
 
 msgid "エクスプローラで表示"
-msgstr "NOTTRANSLATED"
+msgstr "Show in Explorer"
 
-#, fuzzy
 msgid "メインウィンドウのタイトルに表示されているファイルの一階層上のディレクトリを開きます。"
-msgstr "NOTTRANSLATED"
+msgstr "Open the directory one level higher than the file displayed in the title of the main window."
 
 msgid "座標出力形式を切り替え"
-msgstr "NOTTRANSLATED"
+msgstr "Coordinate Format"
 
 msgid ""
 ":ref:`座標表示エリア <gui_main>` "
 "での表示形式と、MOPAC、GAMESS、Gaussian、NWChem形式でファイルを保存する際の座標形式を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the display format in :ref:`Coordinate Viewer <gui_main>` and the coordinate format when saving the file in MOPAC, GAMESS, Gaussian, NWChem format."
 
 msgid ":ref:`座標表示エリア <gui_main>` 上部のタブでも切り替えることができます。"
-msgstr "NOTTRANSLATED"
+msgstr "You can also switch on tabs at the top of :ref:`Coordinate Viewer <gui_main>`."
 
 msgid "終了"
-msgstr "NOTTRANSLATED"
+msgstr "Exit"
 
 msgid "Winmostarを終了します。"
-msgstr "NOTTRANSLATED"
+msgstr "Quit Winmostar."
 

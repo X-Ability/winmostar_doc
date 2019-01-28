@@ -19,5 +19,5 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "各種メニュー・ウィンドウ"
-msgstr "NOTTRANSLATED"
+msgstr "Main Menu and Subwindows"
 

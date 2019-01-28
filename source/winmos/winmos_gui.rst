@@ -19,6 +19,8 @@
 
    .. |main_window_JP| image:: main_window_jp.png
 
+   .. |main_window_EN| image:: main_window_en.png
+
    ツールバー
       メインメニューの中でよく使われる機能をここでも選択することができます。ポインタを重ねるとそれぞれのボタンの役割を確認できます。また、以下の機能のみ特殊な動作をします。
       
