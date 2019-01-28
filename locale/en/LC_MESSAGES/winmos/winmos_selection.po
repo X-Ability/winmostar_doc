@@ -19,7 +19,7 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "**原子の選択方法**"
-msgstr "NOTTRANSLATED"
+msgstr "**How to select atoms**"
 
 msgid "原子を選択する方法には、 **赤丸のマーカーを用いる方法** と、 **青丸のグループ選択を用いる方法** があります。"
 msgstr "NOTTRANSLATED"

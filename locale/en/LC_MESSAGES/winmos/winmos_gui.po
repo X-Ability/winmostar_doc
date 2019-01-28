@@ -105,7 +105,7 @@ msgid ""
 msgstr "It is basically the same as :guilabel:`Keyword Editor`, but the contents entered here will appear after the coordinates in the input file of the solver. It is used only for some solvers such as GAMESS and Quantum ESPRESSO."
 
 msgid "マウス操作"
-msgstr "Mouse Controls"
+msgstr "Mouse controls"
 
 msgid ""
 "メインウィンドウでは下表のようにマウスで操作することができます。 分子・原子を選択する方法の詳細は :ref:`select_top` "

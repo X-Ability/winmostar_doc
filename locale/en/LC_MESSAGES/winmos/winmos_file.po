@@ -19,7 +19,7 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid ":menuselection:`ファイル` メニュー"
-msgstr "File Menu"
+msgstr "File menu"
 
 msgid "新規"
 msgstr "New"

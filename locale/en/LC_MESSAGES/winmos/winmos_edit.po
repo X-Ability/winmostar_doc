@@ -19,10 +19,10 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "編集メニュー"
-msgstr "NOTTRANSLATED"
+msgstr "Edit menu"
 
 msgid "原子・分子構造のモデリング機能に関するメニューです。"
-msgstr "NOTTRANSLATED"
+msgstr "It is a menu related to modeling function of atomic or molecular structure."
 
 msgid "編集の対象とする原子を選択する方法は :ref:`select_top` を参照してください。。"
 msgstr "NOTTRANSLATED"
