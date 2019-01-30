@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for file in `find . -type f -name "*.po" | head -n 70`; do
+for file in `find . -type f -name "*.po"`; do
     do_translate="False"
     if [ ! -f ${file}.auto ]; then
 	do_translate="True"
