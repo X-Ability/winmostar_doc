@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -18,7 +18,7 @@ msgstr "NOTTRANSLATED"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#, fuzzy
+
 msgid "MO Plotウィンドウ"
 msgstr "MO Plot window"
 
@@ -133,7 +133,7 @@ msgstr "Draw the volume data using: ref: `winmos3d_top`."
 msgid ":guilabel:`Draw (2D)` ボタン"
 msgstr ": guilabel: `Draw (2D)` button"
 
-#, fuzzy
+
 msgid "ボリュームデータをメインウィンドウで描画します。（deprecated）"
 msgstr "Draw volume data in the main window. (Deprecated)"
 

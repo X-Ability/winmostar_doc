@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -27,7 +27,7 @@ msgstr "Molecular structure creation"
 msgid "以下のいずれかの方法を選択する。"
 msgstr "Select one of the following methods."
 
-#, fuzzy
+
 msgid "各種形式のファイルを :ref:`file_open` またはメインウィンドウへのドラッグアンドドロップで開く。"
 msgstr "Drag and drop various format files to: ref: `file_open` or main window."
 
@@ -36,7 +36,7 @@ msgid ""
 ":ref:`file_import_smiles` から読み込む。"
 msgstr "Read SMILES format string from: menuselection: `file -&gt; import -&gt;`: ref: `file_import_smiles`."
 
-#, fuzzy
+
 msgid "分子構造をメインウィンドウ上で構築する。"
 msgstr "Molecular structure is built on the main window."
 
@@ -92,7 +92,7 @@ msgstr "In the case of MD calculation, since point charge is required in many fo
 msgid "デフォルトのAM1/BCC電荷を用いる場合は明示的に電荷を設定する必要がない。 また、水分子には選択した水モデルの電荷の値が無条件で適用される。"
 msgstr "When using the default AM1 / BCC charge, it is not necessary to explicitly set charge. Also, for water molecules, the charge value of the selected water model is unconditionally applied."
 
-#, fuzzy
+
 msgid ""
 "AM1/BCC以外の電荷を使用する場合は、 :ref:`create_mole` "
 "の方法で1分子を作成した後、以下の方法で電荷を割り当てたうえで、各種キーワード設定ウィンドウの :guilabel:`Force Field` "
@@ -120,7 +120,7 @@ msgid ""
 " :guilabel:`ICHARG` に電荷を入力する。"
 msgstr ": menuselection: `QM -&gt; GAMESS -&gt; keyword setting -&gt; Easy Setup`, select the calculation method and basis function and select: guilabel:` ESP / RESP` for: guilabel: `Method` . In the case of ions: enter the charge into guilabel: `ICHARG`."
 
-#, fuzzy
+
 msgid ""
 ":guilabel:`Easy Setup` ウィンドウを :guilabel:`Close` ボタンで閉じ、 :guilabel:`GAMESS"
 " Setup` ウィンドウで :guilabel:`Run` ボタンを押し計算を実行する。"
@@ -131,7 +131,7 @@ msgid ""
 "にてRESP電荷を取得する。"
 msgstr "When GAMESS calculation is finished: Get RESP charge with menuselection: `QM -&gt; GAMESS -&gt;`: ref: `qm_gamess_resp`."
 
-#, fuzzy
+
 msgid ""
 "MOPAC, GAMESS, Gaussian, NWChem, Quantum "
 "ESPRESSOのPopulation解析結果の電荷をメインウィンドウに読み込む。"
@@ -145,7 +145,7 @@ msgid ""
 "Lowdin電荷` の手順で読み込む。"
 msgstr "For Quantum ESPRESSO: menuselection: `solid-&gt; Quantum ESPRESSO -&gt; Lowdin charge &#39;procedure to read."
 
-#, fuzzy
+
 msgid "それ以外の場合は、ログファイルをメインウィンドウで開く。"
 msgstr "Otherwise, open the log file in the main window."
 
@@ -197,7 +197,7 @@ msgstr "Procedures 1 to 3 are performed for all molecular species to be calculat
 msgid ":ref:`md_solvate_buildcell` を選択する。"
 msgstr "Select: ref: `md_solvate_buildcell`."
 
-#, fuzzy
+
 msgid ""
 "系内にどの分子を何分子入れるか決める。 メインウィンドウに表示された分子は :guilabel:`Add Displayed Molecule` "
 ", 水分子の場合は :guilabel:`Add Water` をクリックする。 それ以外の場合は :guilabel:`Add mol2 "
@@ -210,7 +210,7 @@ msgstr "Enter the number to be inserted into the system."
 msgid "6.、7.の手順を計算したい全ての分子種に対して行う。"
 msgstr "6. Perform the procedure of 7 for all molecular species you want to calculate."
 
-#, fuzzy
+
 msgid ""
 ":guilabel:`Solvate/Build MD Cell` ウィンドウ下部の :guilabel:`Simulation Cell` "
 "にてシステムサイズを設定し、 :guilabel:`Build` ボタンを押す。"

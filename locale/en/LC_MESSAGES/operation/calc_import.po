@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -47,11 +47,11 @@ msgstr "Perform calculation"
 msgid "WinmostarをインストールしたWindows PC上で計算を実行する場合（ **ローカルジョブ** ）"
 msgstr "To execute calculations on Windows PC with Winmostar installed (** local job **)"
 
-#, fuzzy
+
 msgid "キーワード設定ウィンドウが開いた状態で :guilabel:`Run` ボタンを押します。"
 msgstr "With the keyword setting window open, press the guilabel: `Run` button."
 
-#, fuzzy
+
 msgid ""
 "キーワード設定ウィンドウを :guilabel:`OK` ボタンを押して閉じます。 メインウィンドウの :ref:`キーワード表示エリア "
 "<gui_main>` にキーワードが反映されるので、キーワードを直接編集したい場合は、この段階でキーワード表示エリアを編集するか、 "
@@ -71,11 +71,11 @@ msgstr ": ref: `winmosjm_top` will process the registered jobs in order."
 msgid "WinmostarをインストールしたPCにネットワークで接続されたLinuxマシン上で実行する場合（ **リモートジョブ** ）"
 msgstr "When running on a Linux machine connected to the network on Winmostar installed PC (** remote job **)"
 
-#, fuzzy
+
 msgid "キーワード設定ウィンドウを :guilabel:`OK` ボタンを押して閉じます。"
 msgstr "Press the guilabel: `OK` button to close the keyword setting window."
 
-#, fuzzy
+
 msgid ""
 "次に、ツールバーの :guilabel:`リモートジョブ投入` ボタン |toolbar_submit| "
 "をクリックしサーバへの接続設定を行います。 その後、 :guilabel:`Submit Remoet Job` ウィンドウ上の "
@@ -100,7 +100,7 @@ msgstr "Confirm log"
 msgid "ツールバーの :guilabel:`ログを表示` ボタン |toolbar_openlog| を選択します。"
 msgstr "Select the: guilabel: `display logs` button | toolbar_openlog | on the toolbar."
 
-#, fuzzy
+
 msgid "どのファイルを開くか聞かれるが、ログを確認したい計算の入力ファイルがメインウィンドウに表示されている場合は、デフォルトで選択されるファイルを開きます。"
 msgstr "If you are asked which file to open, but the input file of the calculation you want to check the log is displayed in the main window, open the file selected by default."
 
@@ -115,13 +115,13 @@ msgid ""
 "を押して、表示したい物理量のメニューを選択します。"
 msgstr "If the job has ended normally, press the: guilabel: `Result Analysis` button | toolbar_analysis | on the toolbar and select the menu of physical quantities you want to display."
 
-#, fuzzy
+
 msgid ""
 "どのファイルを開くか聞かれるため、適宜選択します。 複数ファイル選択する場合もあります。 "
 "ログの確認時と同様に、メインウィンドウに表示されているファイルに紐づけられたものがデフォルトで選択されます。"
 msgstr "You will be asked which file to open, so choose as appropriate. Multiple files may be selected. As with log checking, the one associated with the file displayed in the main window is selected by default."
 
-#, fuzzy
+
 msgid "ファイルを指定すると、結果表示用のウィンドウが表示されます。"
 msgstr "When you specify a file, a window for the result display is displayed."
 
@@ -141,21 +141,21 @@ msgstr "For analysis of molecular shape, a separate function is provided below: 
 msgid "ジョブの延長、継続"
 msgstr "Job extension, continuation"
 
-#, fuzzy
+
 msgid "ジョブの延長や継続が必要な場合は、再度キーワード設定ウィンドウを開き、ジョブを開始します。"
 msgstr "If it is necessary to extend or continue the job, open the keyword setting window again and start the job."
 
-#, fuzzy
+
 msgid "MDについては、キーワード設定ウィンドウで :guilabel:`Extending Simulation` にチェックを入れます。"
 msgstr "For MD, check: guilabel: `Extending Simulation` in the keyword setting window."
 
-#, fuzzy
+
 msgid ""
 "Quantum ESPRESSOについては、キーワード設定ウィンドウで :guilabel:`Output Direcotory` に "
 ":guilabel:`Continue` を指定しますd。"
 msgstr "For Quantum ESPRESSO, specify: guilabel: `Continue` in guilabel:` Output Direcotory` in the keyword setting window d."
 
-#, fuzzy
+
 msgid ""
 "その他、例えば半経験QM、QMの構造最適化計算の後に計算を流したい場合は、一旦 ツールバーの :guilabel:`アニメーション` ボタン "
 "|toolbar_animation| を押して、最終構造をメインウィンドウに表示したうえで、継続ジョブのキーワード設定を行います。"

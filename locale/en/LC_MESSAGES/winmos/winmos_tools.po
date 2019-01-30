@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -24,7 +24,7 @@ msgstr "Tool menu"
 msgid "環境設定"
 msgstr "Environmental setting"
 
-#, fuzzy
+
 msgid "環境設定ウィンドウを開きます。 詳細は :ref:`preferences_top` を参照してください。"
 msgstr "Open the Preferences window. For details, see: ref: `preferences_top`."
 
@@ -34,7 +34,7 @@ msgstr "Create / delete fragment"
 msgid "フラグメントを登録"
 msgstr "Create fragment"
 
-#, fuzzy
+
 msgid "メインウィンドウに表示されている分子構造を部品として登録します。マーカー（太赤丸）の付いた原子が置換時に接続部分に設定されます。"
 msgstr "Register the molecular structure displayed in the main window as a part. Atom replaced with marker (heavy red circle) is set as the connection part when replacing."
 
@@ -211,7 +211,7 @@ msgstr "Calculate the inertial radius of the molecule."
 msgid "Sterimolパラメータ"
 msgstr "Sterimol parameter"
 
-#, fuzzy
+
 msgid ""
 "メインウィンドウ上でグループ選択した部分構造に対して、Sterimolパラメータを計算します。 :guilabel:`Calculate` "
 "ボタンをクリックすると計算が開始されます。"
@@ -226,7 +226,7 @@ msgstr "Start Winmostar Job Manager that manages local jobs."
 msgid "リモートジョブ投入"
 msgstr "Remote Job submission"
 
-#, fuzzy
+
 msgid "リモートジョブの実行、管理を行うウィンドウを開きます。詳細は :ref:`remote_submitjob` を参照してください。"
 msgstr "Opens a window for executing and managing remote jobs. For details, see: ref: `remote_submitjob`."
 
@@ -269,7 +269,7 @@ msgstr "Overlay display of molecules"
 msgid "複数の分子を重ね合わせて表示します。"
 msgstr "Multiple molecules are superimposed and displayed."
 
-#, fuzzy
+
 msgid ""
 "まず、:guilabel:`Add` "
 "ボタンでファイルを選択して、重ね合わせる分子を選択します。ファイルの種類はWinmostarで読み込める各種入力ファイルとMOPAC、GAMESS、NWChem、Gaussianの出力ファイルです。複数のファイルを同時に選択することもできます。ドラッグ＆ドロップでファイルを読み込ませることもできます。"

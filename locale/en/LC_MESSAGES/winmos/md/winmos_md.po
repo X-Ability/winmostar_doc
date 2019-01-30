@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -35,7 +35,7 @@ msgstr "Place solvent / build cell"
 msgid "本機能は主に以下の2つの目的で使用されます。"
 msgstr "This function is mainly used for the following two purposes."
 
-#, fuzzy
+
 msgid "メインウィンドウに表示されている分子の周りに溶媒分子を並べる"
 msgstr "Arrange solvent molecules around the molecules displayed in the main window"
 
@@ -45,7 +45,7 @@ msgstr "Create liquid phase by arranging low molecules"
 msgid "並べることが可能な分子は以下の3種類です。"
 msgstr "There are three kinds of molecules that can be arranged as follows."
 
-#, fuzzy
+
 msgid "メインウィンドウに表示された分子"
 msgstr "Molecule displayed in the main window"
 
@@ -65,7 +65,7 @@ msgstr "A working folder with the file: `_builder_tmp` at the end of the current
 msgid "Add Displayed Molecule"
 msgstr "Add Displayed Molecule"
 
-#, fuzzy
+
 msgid ""
 "メインウィンドウに表示されている分子を追加します。ボタンを押した後、追加する分子数を入力します。 "
 "1個しか配置しない場合は、メインウィンドウに表示されている分子については座標が固定された状態で他の分子が並べられます。"
@@ -136,21 +136,21 @@ msgstr ": guilabel: Specify the water model added by `Add Water`. The coordinate
 msgid "Reset"
 msgstr "Reset"
 
-#, fuzzy
+
 msgid "このウィンドウにおける設定をリセットします。"
 msgstr "Resets the settings in this window."
 
 msgid "Build"
 msgstr "Build"
 
-#, fuzzy
+
 msgid "このウィンドウで設定された内容に従いシミュレーションセルを作成します。"
 msgstr "Create a simulation cell according to the contents set in this window."
 
 msgid "分子を挿入"
 msgstr "Insert molecule"
 
-#, fuzzy
+
 msgid ""
 "mol2形式で保存された分子を複数個、メインウィンドウに表示されている構造に追加することができます。 "
 "シミュレーションセルが作成されていない場合は、事前に :ref:`edit_createcell` または "
@@ -169,7 +169,7 @@ msgstr "Assign charge"
 msgid "Acpypeを使用"
 msgstr "Use Acpype"
 
-#, fuzzy
+
 msgid ""
 "メインウィンドウに1分子だけ表示されている状態で本機能を呼び出すと、AM1-BCCまたはGasteigerの方法で点電荷を各原子に対して割り当てます。"
 " 内部的にはCygwin上のAcpypeプログラムを使用しています。 溶質分子の電荷割り当てや、 "
@@ -185,7 +185,7 @@ msgstr "Calling this function while only one molecule is displayed in the main w
 msgid "マニュアル入力"
 msgstr "Manual input"
 
-#, fuzzy
+
 msgid "メインウィンドウに表示されている分子（結晶）構造に対し、原子種毎に点電荷の値を直接指定することができます。主に固体系向けの機能です。"
 msgstr "You can directly specify the point charge value for each atom type for the molecular (crystal) structure displayed in the main window. It is mainly for solid system."
 

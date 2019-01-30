@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -119,7 +119,7 @@ msgstr "Calculation tab"
 msgid "MOPACをジョブマネージャで実行"
 msgstr "Run MOPAC in Job Manager"
 
-#, fuzzy
+
 msgid ""
 "チェックが入っている場合は、MOPACを実行する際に :ref:`winmosjm_top` を使用します。 "
 "入っていない場合は、MOPACでの計算が終わるまでWinmostarは待ち状態となり、MOPACの出力結果は自動でメインウィンドウに読み込まれます。"
@@ -162,11 +162,11 @@ msgstr "Display confirmation before starting calculation"
 msgid "チェックした場合は各ソルバを実行する際に、確認ダイアログを表示します。"
 msgstr "If checked, a confirmation dialog will be displayed when executing each solver."
 
-#, fuzzy
+
 msgid "新しいリモートジョブ投入ウィンドウ(V9)を使用"
 msgstr "Use the new remote job submission window (V9)"
 
-#, fuzzy
+
 msgid "V9から採用されたリモートジョブ投入ウィンドウを使用します。"
 msgstr "We will use the remote job submission window adopted from V9."
 

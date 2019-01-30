@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -254,7 +254,7 @@ msgstr "Run sander. (Crd filename excluding extension) Create a working folder n
 msgid "座標ファイル読み込み"
 msgstr "Read coordinate file"
 
-#, fuzzy
+
 msgid "Amber形式の座標（crd）ファイルとトポロジ（prmtop）ファイルを読み込みメインウィンドウに表示します。"
 msgstr "Load Amber coordinates (crd) file and topology (prmtop) file and display them in the main window."
 
@@ -273,7 +273,7 @@ msgstr "Energy change"
 msgid "計算結果のlogファイルからエネルギーのグラフを表示します。"
 msgstr "Display the energy graph from the calculated log file."
 
-#, fuzzy
+
 msgid "サブウィンドウの操作方法は :ref:`energyplot_top` を参照してください。"
 msgstr "Please see: ref: `energyplot_top` for how to operate subwindow."
 

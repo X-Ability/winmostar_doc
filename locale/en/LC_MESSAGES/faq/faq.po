@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -111,7 +111,7 @@ msgstr "First, please perform the following basic checks."
 msgid ":ref:`インストール時の注意事項 <intall_installwm>` を確認する。"
 msgstr ": ref: `Installation notes <intall_installwm> `."
 
-#, fuzzy
+
 msgid ""
 "使用中のWinmostarが無償版、学生版、プロフェッショナル版、プロフェッショナル版（トライアル）のいずれに該当するか確認し、問題を起こしている機能がその版で使用可能か"
 " `機能表 <https://winmostar.com/jp/function_jp.html>`_ を見て確認する。"
@@ -211,7 +211,7 @@ msgstr "Q. Is it possible to use the created molecular model etc for academic pr
 msgid "A. 使用いただいて問題ありません。発表される際には :ref:`intro_citation` の通りに引用してください。"
 msgstr "A. No problem with using it. When announcing it please quote as per: ref: `intro_citation`."
 
-#, fuzzy
+
 msgid ""
 "Q. Cygwinを使う処理が異常終了します。／ :menuselection:`ツール --> cygwin_wmを診断` 機能で `... "
 "ERROR ...` と表示されます。／Cygwinの黒いウィンドウに `child_info_fork::abort: ... Loaded "
@@ -276,7 +276,7 @@ msgstr "Q. How do I change the type of chemical bond (single, double etc.)?"
 msgid "A. 例えば以下に示す方法で変更できます。"
 msgstr "A. You can change it by the following method, for example."
 
-#, fuzzy
+
 msgid ""
 "1) :menuselection:`編集 --> 結合 --> 結合付加` またはメインウィンドウ上部のk :guilabel:`結合付加` "
 "ボタンを複数回押すことで、結合の種類を変更できます。"
@@ -500,7 +500,7 @@ msgstr "I will come out."
 msgid "角度が180°近くになる角度がZ-Matrixに含まれている場合に表示されます。"
 msgstr "It is displayed when the angle at which the angle is close to 180 ° is included in Z - Matrix."
 
-#, fuzzy
+
 msgid "メインウィンドウ右下の座標編集機能で、接続先の原子を変更し、Z-Matrixから180°に近い角度がなくなるようにしてください。"
 msgstr "Please change the atom of the connection destination by the coordinate editing function in the lower right of the main window so that there is no angle close to 180 ° from Z - Matrix."
 
@@ -576,7 +576,7 @@ msgstr "A. This is a message indicating a problem caused by using Z-matrix in a 
 msgid "この場合は直交座標を使う（COORD=UNIQUEにする）ことで解消します。"
 msgstr "In this case, rectangular coordinates are used (COORD = UNIQUE) to solve it."
 
-#, fuzzy
+
 msgid "WimostarのGAMESSキーワード設定ウィンドウにおいて、COORDをUNIQUEに変更してください。"
 msgstr "In Wimostar&#39;s GAMESS keyword setting window, change COORD to UNIQUE."
 
@@ -620,7 +620,7 @@ msgstr "A. It is not displayed if pop = full or pop = regular is missing in the 
 msgid "Q. Gaussianでchkファイルを読み込んだ計算を実施する方法を教えてください。"
 msgstr "Q. How do I calculate the chk file read in Gaussian?"
 
-#, fuzzy
+
 msgid ""
 "A. リモートジョブの場合はSubmitJobウィンドウで[Advance]のチェックを入れ、[Delete "
 "\\*.chk]のチェックを外すとchkファイルが残され、その上でchkファイルを生成した時と同じ名前でジョブを流すとchkファイルを読み込んで計算が流れます。"
@@ -665,7 +665,7 @@ msgstr "Q. Even if Gromacs ER method result loading is executed, the result can 
 msgid "A. ER法を実行する際に指定した出力先ディレクトリに生成されるermod.outの内容を確認してください。"
 msgstr "A. Please check the contents of ermod.out generated in the output destination directory specified when executing the ER method."
 
-#, fuzzy
+
 msgid ""
 "ermod.outの中に「 The minimum of the energy coordinate is too large; the "
 "ecdmin parameter needs to be "
@@ -679,7 +679,7 @@ msgid ""
 "<https://sourceforge.net/p/ermod/wiki/TooLargeMinimum/>`_ を参照してください。"
 msgstr "For details on how to set concrete values, please see &#39;ERmod&#39;s wiki FAQ <https://sourceforge.net/p/ermod/wiki/TooLargeMinimum/> See `_."
 
-#, fuzzy
+
 msgid ""
 "また、同様にermod.outの内容と `ERmodのwikiのFAQ全般 "
 "<https://sourceforge.net/p/ermod/wiki/FAQ_running/>`_ "

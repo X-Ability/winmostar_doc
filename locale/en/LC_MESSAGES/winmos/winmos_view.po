@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -24,7 +24,7 @@ msgstr "Display Menu"
 msgid "キーワード&座標表示エリアを表示"
 msgstr "Display keyword &amp; coordinate display area"
 
-#, fuzzy
+
 msgid "メインウィンドウでキーワード表示エリアと座標表示エリアの表示・非表示を切り替えます。"
 msgstr "Switch display / non-display of keyword display area and coordinate display area on the main window."
 
@@ -67,7 +67,7 @@ msgstr "Specify atom attached with marker (thick red circle) as gaze point."
 msgid "平行移動"
 msgstr "Translation"
 
-#, fuzzy
+
 msgid "メインウィンドウで左ドラッグすると、視線が平行移動します。"
 msgstr "Drag left on the main window to move the line of sight in parallel."
 
@@ -77,21 +77,21 @@ msgstr "rotation"
 msgid "自由回転"
 msgstr "Free rotation"
 
-#, fuzzy
+
 msgid "メインウィンドウで左ドラッグすると、注視点を中心にカメラが回転します。"
 msgstr "Drag left in the main window to rotate the camera around the point of interest."
 
 msgid "X, Y, Z軸周りで回転"
 msgstr "Rotate around X, Y, Z axis"
 
-#, fuzzy
+
 msgid "メインウィンドウで左ドラッグすると、各軸の周りでカメラが回転します。"
 msgstr "Drag left in the main window to rotate the camera around each axis."
 
 msgid "表示を回転"
 msgstr "Rotate display"
 
-#, fuzzy
+
 msgid "メインウィンドウで左ドラッグすると、表示が回転します。"
 msgstr "Drag left in the main window to rotate the display."
 

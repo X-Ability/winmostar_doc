@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -30,7 +30,7 @@ msgstr "The way to install Quantum ESPRESSO is described in: ref: `install_insta
 msgid "キーワード設定"
 msgstr "Keyword setting"
 
-#, fuzzy
+
 msgid ""
 "Quantum ESPRESSOの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` "
 "ボタン、一旦メインウィンドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
@@ -44,13 +44,13 @@ msgid ""
 "Fieldを除く設定を保存します。 :guilabel:`Load` ボタンで :guilabel:`Save` にて保存した設定を読み込みます。"
 msgstr ": guilabel: `Reset` button to return to the default state. : guilabel: Save the setting except Force Field with `Save` button. : guilabel: Load the setting saved by: guilabel: `Save` with the` Load` button."
 
-#, fuzzy
+
 msgid ""
 ":ref:`キーワード表示エリア <gui_main>` に表示されているQuantum "
 "ESPRESSOのキーワードと本機能のウィンドウに設定された内容が異なる場合は、キーワード表示エリアからキーワードを読み込むか尋ねられます。"
 msgstr ": ref: `keyword display area <gui_main> `Quantum ESPRESSO &#39;s keywords displayed in the window of this function are different from what is set, you are asked if you want to load keywords from the keyword display area."
 
-#, fuzzy
+
 msgid ""
 "本機能を呼び出すときに、メインウィンドウに表示された構造がプリミティブセルに変化できる場合は、自動で "
 ":ref:`solid_convertcell` が実行されます。"
@@ -121,7 +121,7 @@ msgstr "Select the specification method of point K from the pull-down and specif
 msgid "Set default k-path"
 msgstr "Set default k-path"
 
-#, fuzzy
+
 msgid "メインウィンドウに表示されている結晶について検出されたブラベー格子（ibrav）のデフォルトのk点パスをUserPref/kpath_default.txtから取得して設定します。"
 msgstr "The default k-point path of the Bravo lattice (ibrav) detected for the crystal displayed in the main window is acquired from UserPref / kpath_default.txt and set."
 
@@ -140,7 +140,7 @@ msgstr "Specify whether time reversal symmetry is used or not."
 msgid "Set ibrav = ... and celldm"
 msgstr "Set ibrav = ... and celldm"
 
-#, fuzzy
+
 msgid ""
 "メインウィンドウにプリミティブセルが表示されていて、チェックが入っている場合は、適当なibravとcelldmを設定します。 "
 "チェックが入っていない場合は、ibrav=0とし、CELL_PARAMETERSを設定します。"
@@ -659,7 +659,7 @@ msgid ""
 "の時は、作業ディレクトリを新規に作成して計算を実行します。"
 msgstr "(Default): When guilabel: `Output Directory = Create`, create a new working directory and execute the calculation."
 
-#, fuzzy
+
 msgid ""
 ":guilabel:`Output Directory = Continue` "
 "の時は、その時メインウィンドウで開いている入力ファイルのoutdirを作業ディレクトリとして使用します。"
@@ -772,20 +772,20 @@ msgstr "This is the log file of: file: `ph.in`."
 msgid "**作業ディレクトリ**"
 msgstr "** Working directory **"
 
-#, fuzzy
+
 msgid "作業ディレクトリとは、メインウィンドウで開かれているファイルの名前に接尾辞を加えた名前のフォルダです。"
 msgstr "A working directory is a folder whose name is the name of the file opened in the main window plus a suffix."
 
 msgid "**接尾辞はソルバの種類により変わります。**"
 msgstr "** The suffix varies depending on the type of solver. **"
 
-#, fuzzy
+
 msgid ""
 "例えばGromacsの場合は、メインウィンドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が "
 ":file:`_gmx_tmp` の場合、作業ディレクトリの名前は :file:`aaa_gmx_tmp` となります。"
 msgstr "For example, in the case of Gromacs, if the file opened in the main window is: file: `aaa.gro` and the suffix is: file:` _ gmx_tmp`, the working directory will be named: file: `aaa_gmx_tmp` ."
 
-#, fuzzy
+
 msgid "メインウィンドウで開かれているファイルと同じ階層に置かれている必要があります。"
 msgstr "It must be in the same hierarchy as the file opened in the main window."
 
@@ -836,7 +836,7 @@ msgstr "Display the graph. The result analysis program is executed as necessary.
 msgid "Close"
 msgstr "Close"
 
-#, fuzzy
+
 msgid "ウィンドウを閉じます。"
 msgstr "Close the window."
 
@@ -852,7 +852,7 @@ msgstr "Specify working directory (outdir) and display isoelectric density surfa
 msgid "バックグラウンドではpp.xが流れ、cubeファイルが生成されます。"
 msgstr "In the background, pp.x flows, and a cube file is generated."
 
-#, fuzzy
+
 msgid "サブウィンドウの操作方法は :ref:`cube_top` を参照してください。"
 msgstr "Refer to: ref: `cube_top` for how to operate subwindow."
 
@@ -936,7 +936,7 @@ msgstr "IR / Raman spectrum"
 msgid "フォノン計算後の作業ディレクトリとSCF計算のログを指定し、IRおよびラマンスペクトルを表示します。"
 msgstr "Specify the working directory after phonon calculation and log of SCF calculation and display IR and Raman spectrum."
 
-#, fuzzy
+
 msgid "サブウィンドウの操作方法は :ref:`ir_top` を参照してください。"
 msgstr "Refer to: ref: `ir_top` for how to operate the subwindow."
 

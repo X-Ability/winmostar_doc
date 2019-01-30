@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -27,7 +27,7 @@ msgstr "Calculate the solubility parameter (HSP) of Hansen."
 msgid "使用するためにはアドオンの購入が必要です。"
 msgstr "Purchase of add-on is necessary for using."
 
-#, fuzzy
+
 msgid "HSPを求めたい分子をメインウィンドウで作成した後、本メニューをクリックします。ポリマーの場合はリピートユニット（例えばポリエチレンの場合はエタン分子）を作成し、隣のリポートユニットと結合する2か所を続けて左クリックしておきます。この挙動はポリマービルダ機能のモノマー登録と同じです。"
 msgstr "After creating the molecule for which HSP is desired in the main window, click this menu. In the case of a polymer, make a repeat unit (eg ethane molecule in case of polyethylene) and left click on two points to be combined with the next report unit. This behavior is the same as monomer registration of polymer builder function."
 

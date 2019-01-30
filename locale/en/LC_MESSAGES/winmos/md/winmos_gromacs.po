@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -32,7 +32,7 @@ msgstr "Because Winmostar runs Gromacs on the Cygwin environment, in order to us
 msgid "キーワード設定"
 msgstr "Keyword setting"
 
-#, fuzzy
+
 msgid ""
 "Gromacsの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は"
 " :guilabel:`OK` ボタンを押してください。"
@@ -551,7 +551,7 @@ msgstr "Force Field"
 msgid "Generate parameters"
 msgstr "Generate parameters"
 
-#, fuzzy
+
 msgid "メインウィンドウに表示された系に対し、新たに力場パラメータをアサインしトポロジファイル（topファイル）を作成します。"
 msgstr "Assign new force field parameters to the system displayed in the main window and create a topology file (top file)."
 
@@ -570,7 +570,7 @@ msgstr "Specify the force field of molecules other than proteins and water molec
 msgid "Exception"
 msgstr "Exception"
 
-#, fuzzy
+
 msgid ""
 "特定の分子に対し、(General)にて選択した力場を使わず、ユーザが指定するLJパラメータを割り当てます。 "
 "サブウィンドウの左の欄にてLJパラメータを指定したい分子にチェックを入れ、右の欄でLJパラメータを入力します。"
@@ -617,11 +617,11 @@ msgstr "In the case of polymers, it takes time to calculate the charge by comman
 msgid "Use user-defined charge"
 msgstr "Use user-defined charge"
 
-#, fuzzy
+
 msgid "メインウィンドウ上で設定されている各原子の点電荷の値を用いてトポロジファイルを作成します。"
 msgstr "Create a topology file using the value of point charge of each atom set on the main window."
 
-#, fuzzy
+
 msgid ""
 "メインウィンドウ上で設定されている点電荷の値は、 :ref:`表示ボタンエリア <gui_main>` のアノテーションボタンから "
 ":guilabel:`User Charge` などを選択するか、.mol2形式で保存し :ref:`file_editor` "
@@ -673,7 +673,7 @@ msgstr "If you want to edit the topology file with an editor etc. and customize 
 msgid "Load from existing file/Use parameters in displayed file"
 msgstr "Load from existing file/Use parameters in displayed file"
 
-#, fuzzy
+
 msgid ""
 "既に存在しているトポロジファイルを用いてMD計算を実行する場合に選択します。 "
 "LAMMPSの場合は、メインウィンドウで既に存在しているdataファイルを用いてMD計算を実行する場合に選択します。"
@@ -688,7 +688,7 @@ msgstr "Edit the selected topology file with a text editor."
 msgid "Generate Simulation Cell"
 msgstr "Generate Simulation Cell"
 
-#, fuzzy
+
 msgid ""
 "メインウィンドウにおいてシミュレーションセルが定義されていない場合のみ設定が有効となる。チェックが入っている場合は、メインウィンドウに表示された分子の周囲に"
 " :guilabel:`Distance` で指定された距離だけ離れた場所にシミュレーションセルを自動発生させる。"
@@ -713,7 +713,7 @@ msgid ""
 "-->` :guilabel:`Load from existing file` にチェックが入っている場合"
 msgstr ": guilabel: `Extending Simulation` is unchecked and:: menuselection:` Force Field tab -&gt; `: guilabel:` Load from existing file` is checked"
 
-#, fuzzy
+
 msgid ""
 "メインウィンドウで開かれている座標ファイル(拡張子：gro)と、 :guilabel:`Load from existing file` "
 "のところで指定したトポロジファイル(拡張子：top)を使用してジョブを開始します。"
@@ -722,7 +722,7 @@ msgstr "Start the job using the coordinate file (extension: gro) opened in the m
 msgid ":guilabel:`Extending Simulation` にチェックがある場合"
 msgstr ": guilabel: When &#39;Extending Simulation` is checked"
 
-#, fuzzy
+
 msgid ""
 "メインウィンドウで開かれている座標ファイル(拡張子：gro)に紐づけられた作業ディレクトリの中にある座標ファイル（ "
 ":file:`gmx_mdrun_tmp.gro` ）とトポロジファイル（ :file:`gmx_tmp.top` ）を用いてジョブを開始します。"
@@ -854,20 +854,20 @@ msgstr "This is the log file of mdrun."
 msgid "**作業ディレクトリ**"
 msgstr "** Working directory **"
 
-#, fuzzy
+
 msgid "作業ディレクトリとは、メインウィンドウで開かれているファイルの名前に接尾辞を加えた名前のフォルダです。"
 msgstr "A working directory is a folder whose name is the name of the file opened in the main window plus a suffix."
 
 msgid "**接尾辞はソルバの種類により変わります。**"
 msgstr "** The suffix varies depending on the type of solver. **"
 
-#, fuzzy
+
 msgid ""
 "例えばGromacsの場合は、メインウィンドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が "
 ":file:`_gmx_tmp` の場合、作業ディレクトリの名前は :file:`aaa_gmx_tmp` となります。"
 msgstr "For example, in the case of Gromacs, if the file opened in the main window is: file: `aaa.gro` and the suffix is: file:` _ gmx_tmp`, the working directory will be named: file: `aaa_gmx_tmp` ."
 
-#, fuzzy
+
 msgid "メインウィンドウで開かれているファイルと同じ階層に置かれている必要があります。"
 msgstr "It must be in the same hierarchy as the file opened in the main window."
 
@@ -902,7 +902,7 @@ msgstr "animation"
 msgid "groファイルとtrrファイルを選択し、MD計算のトラジェクトリをアニメーション表示します。"
 msgstr "Select the gro file and trr file, and animate the MD calculation trajectory."
 
-#, fuzzy
+
 msgid "メインウィンドウのファイル名は変化しません。"
 msgstr "The file name of the main window does not change."
 
@@ -917,7 +917,7 @@ msgid ""
 ":command:`gmx energy` コマンドが実行されます。"
 msgstr "Select the edr file output by Gromacs and display a graph of various thermodynamic quantities such as energy, temperature and pressure. Internally the: command: `gmx energy` command is executed."
 
-#, fuzzy
+
 msgid "サブウィンドウの操作方法は :ref:`energyplot_top` を参照してください。"
 msgstr "Please see: ref: `energyplot_top` for how to operate subwindow."
 
@@ -927,7 +927,7 @@ msgstr "Read final structure"
 msgid ":file:`\\*_gmx_tmp\\\\gmx_tmp_mdrun.gro` を開きます。"
 msgstr ": file: `\\ * _ gmx_tmp \\\\ gmx_tmp_mdrun.gro`."
 
-#, fuzzy
+
 msgid "本機能を使うとメインウィンドウのファイル名は変化しません。"
 msgstr "When using this function, the file name of the main window does not change."
 
@@ -1007,13 +1007,13 @@ msgstr "Create Group"
 msgid "groファイルに書かれている原子名から新たなグループを登録します。"
 msgstr "Register a new group from the atom name written in the gro file."
 
-#, fuzzy
+
 msgid ""
 "メインウィンドウでグループ選択されている原子をグループとして定義する場合は :menuselection:`MD --> Gromacs -->`"
 " :ref:`md_gromacs_editndx` を使用してください。"
 msgstr "To define atoms selected as a group in the main window as a group, use: menuselection: `MD -&gt; Gromacs -&gt;`: ref: `md_gromacs_editndx`."
 
-#, fuzzy
+
 msgid ""
 ":guilabel:`Create Group` ウィンドウでは、 :guilabel:`Extracted Atom Names` "
 "にチェックを入れて :guilabel:`New group Name` を入力し :guilabel:`Create` "
@@ -1186,7 +1186,7 @@ msgstr ": guilabel: `Postprocess`: Specify to which group the SDF calculated whe
 msgid "ndxファイルにグループを追加"
 msgstr "Add group to ndx file"
 
-#, fuzzy
+
 msgid "結果解析したい原子をメインウィンドウでグループ選択し、本機能を選択して既存のndxを選ぶと、グループ選択された原子のグループがndxファイルに新たに追加されます。"
 msgstr "Result When you select a group on the main window in the main window, select this function, and select an existing ndx, a group of atoms selected as a group is newly added to the ndx file."
 

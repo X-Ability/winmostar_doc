@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -24,7 +24,7 @@ msgstr ": menuselection: `semi-experience QM -&gt; MOPAC` menu"
 msgid "MOPACに関するメニューです。"
 msgstr "It is a menu related to MOPAC."
 
-#, fuzzy
+
 msgid ""
 "MOPAC6とMOPAC7はWinmostarに同梱されています。 "
 "それ以外のMOPACを利用する場合は、別途代理店よりMOPAC本体を購入し、環境設定ウィンドウにてパスを設定してください。"
@@ -33,7 +33,7 @@ msgstr "MOPAC 6 and MOPAC 7 are bundled with Winmostar. When using other MOPAC p
 msgid "キーワード設定"
 msgstr "Keyword setting"
 
-#, fuzzy
+
 msgid ""
 "MOPACの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は "
 ":guilabel:`OK` ボタンを押してください。"
@@ -346,7 +346,7 @@ msgstr "Only keywords (calculation conditions) are read from the existing MOPAC 
 msgid "(1) MOP6W70実行, (2) MOP7W70実行, (3) MOPACX実行"
 msgstr "(1) MOP 6W 70 execution, (2) MOP 7 W 70 execution, (3) MOPACX execution"
 
-#, fuzzy
+
 msgid ""
 "メインウィンドウでMOPACの入力ファイルが開かれている場合は、そのファイルを使ってMOPACを実行します。 "
 "開かれていない場合は、MOPACの入力ファイルを保存した上でMOPACを実行します。"
@@ -426,7 +426,7 @@ msgstr "Molecular orbital, electron density (mgf)"
 msgid "mgfファイルを選択し、分子軌道を表示します。"
 msgstr "Select the mgf file and display the molecular orbital."
 
-#, fuzzy
+
 msgid ""
 ":ref:`キーワード <semiempirical_mopac_keyword>` で ``GRAPHF`` が設定されている必要があります。 "
 "サブウィンドウの操作方法は :ref:`mo_top` , :ref:`cube_top` を参照してください。"
@@ -462,7 +462,7 @@ msgstr "Vibration spectrum (out)"
 msgid "outファイルを選択し、振動スペクトル（IRスペクトル）を表示します。"
 msgstr "Select the out file and display the vibration spectrum (IR spectrum)."
 
-#, fuzzy
+
 msgid ""
 ":ref:`キーワード <semiempirical_mopac_keyword>` で振動計算が設定されている必要があります。 "
 "サブウィンドウの操作方法は :ref:`ir_top` を参照してください。"
@@ -471,7 +471,7 @@ msgstr ": ref: `keyword <semiempirical_mopac_keyword> `Must be set for vibration
 msgid "ジョブマネージャで実行"
 msgstr "Run in Job Manager"
 
-#, fuzzy
+
 msgid ""
 "チェックが入っている場合は、MOPACを実行する際に :ref:`winmosjm_top` を使用します。 "
 "入っていない場合は、MOPACでの計算が終わるまでWinmostarは待ち状態となり、MOPACの出力結果は自動でメインウィンドウに読み込まれます。"

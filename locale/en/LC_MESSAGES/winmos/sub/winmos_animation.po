@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -18,19 +18,19 @@ msgstr "NOTTRANSLATED"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#, fuzzy
+
 msgid "Animationウィンドウ"
 msgstr "Animation window"
 
-#, fuzzy
+
 msgid "ウィンドウ左のリストには、各フレームのステップ数、エネルギー、力などを表示します。リストの各行をクリックするとその行に対応するフレームがメインウィンドウに表示されます。"
 msgstr "In the list on the left side of the window, the number of steps, energy, power, etc. of each frame are displayed. Clicking each line in the list will display the frame corresponding to that line in the main window."
 
-#, fuzzy
+
 msgid "ウィンドウ下部では、リスト内の :guilabel:`Column` プルダウンメニューで選択した列の値がグラフ表示されます。"
 msgstr "At the bottom of the window, the values of the selected column in the list are displayed in a graph: guilabel: `Column` pull-down menu."
 
-#, fuzzy
+
 msgid ""
 "アニメーション（トラジェクトリ）データについて本ウィンドウから直接結果解析することも可能で、詳細は :guilabel:`Tools` "
 "メニューを確認してください。"
@@ -72,7 +72,7 @@ msgstr "Output animation gro file. It can be used for linking with VMD etc: You 
 msgid "Close"
 msgstr "Close"
 
-#, fuzzy
+
 msgid ""
 "このウィンドウを閉じます。 再度開く場合は :ref:`window_top` :menuselection:`--> Animation` "
 "を選択します。"
@@ -90,7 +90,7 @@ msgstr "Go to First Frame"
 msgid "最初のフレームに移動します。"
 msgstr "Move to the first frame."
 
-#, fuzzy
+
 msgid "ウィンドウ内のボタンからも操作できます。"
 msgstr "You can also operate from the buttons in the window."
 
@@ -115,11 +115,11 @@ msgstr "Distance/Angle Change"
 msgid "トラジェクトリ内の指定した原子間の結合長・結合角・二面角を解析します。"
 msgstr "Analyze the bond length, bonding angle, dihedral angle between specified atoms in the trajectory."
 
-#, fuzzy
+
 msgid ":guilabel:`Bond/Angle Change` ウィンドウで、 :guilabel:`Type` を選択します。"
 msgstr ": guilabel: `Bond / Angle Change` window, select: guilabel:` Type`."
 
-#, fuzzy
+
 msgid ""
 ":guilabel:`Target Atoms` "
 "にコンマ区切りで計算したい結合長・結合角・二面角を定義する原子を列挙します。:guilabel:`Set` "
@@ -137,7 +137,7 @@ msgstr ": guilabel: Click the `Draw` button."
 msgid "Extract Trajectory for Selected Group"
 msgstr "Extract Trajectory for Selected Group"
 
-#, fuzzy
+
 msgid "メインウィンドウでグループ選択した原子のみを取り出したトラジェクトリファイルを作成します。"
 msgstr "In the main window, create a trajectory file extracting only the atoms selected from the group."
 

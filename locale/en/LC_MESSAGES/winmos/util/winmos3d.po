@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -72,14 +72,14 @@ msgstr "Save the currently open GLD format file with a name."
 msgid "Save MOLDA"
 msgstr "Save MOLDA"
 
-#, fuzzy
+
 msgid "ウィンドウに表示されている構造をMOLDA形式で保存します。"
 msgstr "Save the structure displayed in the window in MOLDA format."
 
 msgid "Save JPEG"
 msgstr "Save JPEG"
 
-#, fuzzy
+
 msgid "ウィンドウに表示されている内容をJPEGファイルとして保存します。"
 msgstr "Save the contents displayed in the window as a JPEG file."
 
@@ -188,7 +188,7 @@ msgstr ": ref: `winmos3d_panel` is displayed."
 msgid "Copy Image"
 msgstr "Copy Image"
 
-#, fuzzy
+
 msgid "ウィンドウに表示されている画像をクリップボードにコピーします。"
 msgstr "Copy the image displayed in the window to the clipboard."
 
@@ -216,7 +216,7 @@ msgstr "Displays debugging information such as memory usage."
 msgid "アニメーション操作パネル"
 msgstr "Animation operation panel"
 
-#, fuzzy
+
 msgid "Winmostar 3Dでアニメーションを表示すると、Winmostar 3Dのウィンドウの左上にアニメーション操作用のUIが表示されます。"
 msgstr "When you display animation in Winmostar 3D, the UI for animation operation appears in the upper left corner of Winmostar 3D window."
 
@@ -262,7 +262,7 @@ msgstr "Close"
 msgid "このパネルを閉じます。"
 msgstr "Close this panel."
 
-#, fuzzy
+
 msgid "Representationsウィンドウ"
 msgstr "Representations window"
 
@@ -311,14 +311,14 @@ msgstr "Displays the structure so that the structure fits within the cell in mol
 msgid "Molecule"
 msgstr "Molecule"
 
-#, fuzzy
+
 msgid "本ウィンドウ中部の :guilabel:`1` から :guilabel:`9` を各分子に割り当てます。"
 msgstr "From the guilabel: `1` in the middle of this window: guilabel:` 9` is assigned to each molecule."
 
 msgid "Composition"
 msgstr "Composition"
 
-#, fuzzy
+
 msgid "本ウィンドウ中部の :guilabel:`1` から :guilabel:`9` を（分子量が共通する）各分子種に割り当てます。"
 msgstr "Assign guilabel: `9` from guilabel:` 1` in the middle of this window to each molecular species (with the same molecular weight)."
 

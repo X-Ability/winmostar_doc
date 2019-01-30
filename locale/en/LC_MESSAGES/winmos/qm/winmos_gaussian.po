@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -30,7 +30,7 @@ msgstr "In order to use Gaussian you need to install Gaussian separately."
 msgid "キーワード設定"
 msgstr "Keyword setting"
 
-#, fuzzy
+
 msgid ""
 "Gaussianの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` "
 "ボタン、一旦メインウィンドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
@@ -417,7 +417,7 @@ msgstr "Only keywords (calculation conditions) are read from the existing Gaussi
 msgid "実行"
 msgstr "Execution"
 
-#, fuzzy
+
 msgid ""
 "メインウィンドウでGaussianの入力ファイルが開かれている場合は、そのファイルを使ってGaussianを実行します。 "
 "開かれていない場合は、Gaussianの入力ファイルを保存した上でGaussianを実行します。"
@@ -488,7 +488,7 @@ msgid ""
 "などを選択することで分子表示エリアに表示することができます。"
 msgstr "Information on the charge read can be displayed in the molecular display area by selecting: menuselection: `display -&gt; label / charge -&gt; Mulliken charge &#39;and so on."
 
-#, fuzzy
+
 msgid ""
 "サブウィンドウの操作方法は :ref:`mo_top` , :ref:`cube_top` , :ref:`uvvis_top` , "
 ":ref:`nmr_top` を参照してください。"
@@ -500,7 +500,7 @@ msgstr "IR / Raman spectrum"
 msgid "logファイルを選択し、振動スペクトル（IRまたはラマンスペクトル）を表示します。"
 msgstr "Select the log file and display the vibration spectrum (IR or Raman spectrum)."
 
-#, fuzzy
+
 msgid "サブウィンドウの操作方法は :ref:`ir_top` を参照してください。"
 msgstr "Refer to: ref: `ir_top` for how to operate the subwindow."
 
@@ -524,7 +524,7 @@ msgid ""
 "Cubegenがない場合は、Winmostar内臓のOpenCubegenを使います。"
 msgstr "G09W, G03W Start Cubegen of the utility, read the .fch file and create the Cube file. If you do not have Cubegen, use OpenCubegen from Winmostar."
 
-#, fuzzy
+
 msgid "サブウィンドウの操作方法は :ref:`cube_top` と以下を参考にしてください。"
 msgstr "For how to operate the subwindow, please refer to: ref: `cube_top` and the following."
 

@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -158,7 +158,7 @@ msgstr "Change charge / spin"
 msgid "選択した原子の電荷（User電荷）またはスピン密度の値を変更します。グループ選択されている場合はグループ選択された原子全てが対象となります。"
 msgstr "Changes the charge (User charge) or spin density value of the selected atom. If a group is selected, all the atoms selected in the group will be covered."
 
-#, fuzzy
+
 msgid ""
 "User ChargeまたはSpin Densityをメインウィンドウ上で表示したい場合は、 :menuselection:`表示 --> "
 "ラベル/電荷` メニューの :guilabel:`User電荷` または :guilabel:`スピン密度` を選択します。"
@@ -250,7 +250,7 @@ msgid ""
 ":file:`*_protonate_tmp` という作業フォルダに中間ファイルが生成されます。"
 msgstr "Gromacs&#39; command: `gmx pdb 2 gmx` command is used to automatically add hydrogen to proteins read from pdb or gro files. In the original pdb or gro file, processing will fail if atoms with no amino residue information are present. An intermediate file is created in the working folder named: file: `* _protonate_tmp`."
 
-#, fuzzy
+
 msgid ""
 "メインウィンドウに表示されている構造にリガンド、溶媒などのタンパク質以外の分子が含まれている場合、:menuselection:`選択 --> "
 "分子種によるグループ選択` および :menuselection:`編集 --> グループ編集 -->` "
@@ -397,7 +397,7 @@ msgstr "You can also operate with: kbd: `Ctrl + V`."
 msgid "グループを複製"
 msgstr "Duplicate group"
 
-#, fuzzy
+
 msgid "グループ選択された構造を、一定間隔で複製して配置します。サブウィンドウにて各方向の配置間隔と複製数を指定します。"
 msgstr "Group Duplicate and arrange selected structures at regular intervals. Specify the arrangement interval and number of copies in each direction in the subwindow."
 
@@ -528,21 +528,21 @@ msgstr "Chirality"
 msgid "x方向に座標を反転"
 msgstr "Reverse coordinate in x direction"
 
-#, fuzzy
+
 msgid "メインウィンドウに表示されている分子構造を鏡像体に変換します。x座標の符号が反転されます。"
 msgstr "Convert the molecular structure displayed in the main window to an enantiomer. The sign of the x coordinate is inverted."
 
 msgid "鏡像体を生成"
 msgstr "Generate enantiomer"
 
-#, fuzzy
+
 msgid "メインウィンドウに表示されている分子構造の鏡像体を、現在の構造に隣接して生成します。"
 msgstr "Generate an enantiomer of the molecular structure displayed in the main window adjacent to the current structure."
 
 msgid "セルを作成/編集"
 msgstr "Create / edit cell"
 
-#, fuzzy
+
 msgid ""
 ":guilabel:`Create/Edit Cell` "
 "ウィンドウが開き、そこでMD計算や平面波DFT計算などのシミュレーションセルを作成または編集します。 セルが存在しない場合は、 "

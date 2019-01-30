@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -50,7 +50,7 @@ msgid ""
 "ファイルはWinmostar独自のコメントが付加したmol2ファイルです。"
 msgstr ": ref: `md_polymer_homo`,: ref:` md_polymer_block`,: ref: `md_polymer_random`. It is saved in the save destination of the monomer file set with: ref: `md_polymer_pref` with: file:` wmo` extension. The file: `wmo` file is a mol2 file with Winmostar&#39;s own comment added."
 
-#, fuzzy
+
 msgid "メインウィンドウにおいて登録したいモノマー（繰り返し単位）の構造を作成します。"
 msgstr "Create the structure of the monomer (repeating unit) you want to register in the main window."
 
@@ -72,7 +72,7 @@ msgstr "Enter the name of the monomer to be registered."
 msgid "[OK]"
 msgstr "[OK]"
 
-#, fuzzy
+
 msgid "モノマーを登録しウィンドウを閉じます。モノマーファイルが作成されます。"
 msgstr "Register the monomer and close the window. A monomer file is created."
 
@@ -115,7 +115,7 @@ msgstr "Select the monomer to use."
 msgid "[Display]"
 msgstr "[Display]"
 
-#, fuzzy
+
 msgid "選択したモノマーをメインウィンドウに表示します。"
 msgstr "The selected monomers are displayed in the main window."
 
@@ -176,7 +176,7 @@ msgstr "Register the polymer. A polymer file is created."
 msgid "[Close]"
 msgstr "[Close]"
 
-#, fuzzy
+
 msgid "ウィンドウを閉じます。"
 msgstr "Close the window."
 
@@ -221,7 +221,7 @@ msgstr "[Add]"
 msgid "設定した中間モノマー名と数をInternal Monomer Listに反映させます。"
 msgstr "Reflect the set intermediate monomer name and number in the Internal Monomer List."
 
-#, fuzzy
+
 msgid "設定した中間モノマーをメインウィンドウに表示します。"
 msgstr "Display the set intermediate monomer on the main window."
 
@@ -339,7 +339,7 @@ msgstr "[Polymer Available]"
 msgid "選択したポリマーの本数を指定します。"
 msgstr "Specify the number of selected polymers."
 
-#, fuzzy
+
 msgid "選択したポリマーをメインウィンドウに表示します。"
 msgstr "The selected polymer is displayed on the main window."
 
@@ -379,11 +379,11 @@ msgstr "[Polymer(\\*.wpo)Folder]"
 msgid "ポリマーファイルの保存先フォルダを指定します。"
 msgstr "Specify the folder to save the polymer file."
 
-#, fuzzy
+
 msgid "設定内容を保存してウィンドウを閉じます。"
 msgstr "Save the settings and close the window."
 
-#, fuzzy
+
 msgid "設定内容を破棄してウィンドウを閉じます。"
 msgstr "Discard the settings and close the window."
 

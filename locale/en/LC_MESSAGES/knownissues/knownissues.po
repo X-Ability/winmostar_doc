@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -40,15 +40,15 @@ msgid ""
 "support]にチェックが入っていると、FDMNESの実行に失敗するという報告がありました。FDMNES実行時に読まれるfdmfile.txtがBOM付で出力されることによる不具合です。問題が発生したタイミングでWinmostarを順次対応させていますが、他の機能で同様の問題が発生した場合はご連絡ください。（2018年5月25日報告）"
 msgstr "In English version Windows 10 (1803), if the check box is checked in [Control Panel] - [Region] - [Administrative] - [Change system locate ...] - [Use Unicode UTF - 8 for worldwide language support] There was a report that FDMNES execution failed. This is a problem caused by fdmfile.txt being read at FDMNES execution being output with BOM. Winmostar is sequentially corresponded at the timing of the problem, but please contact us if similar problems occur with other functions. (Reported on May 25, 2018)"
 
-#, fuzzy
+
 msgid "Animation、Submit Jobなどの一部のサブウィンドウを開き、閉じた後にまた開こうとしても出現しない。"
 msgstr "Opening some subwindows such as Animation, Submit Job and so on, it will not appear even if you try to open again after closing."
 
-#, fuzzy
+
 msgid "ごく一部の環境で確認されています。出現しない場合は、Alt+スペースキーを押すと[元のサイズに戻す][移動][サイズ変更]...などのメニューが出現するので、[移動]を選択しドラッグ操作するとウィンドウが再度出現します。あるいは、Winmostarを再起動することで一旦解消します。現在、よりよい対処方法を検討中です。（2018年6月14日報告）"
 msgstr "It has been confirmed in only a few environments. If it does not appear, a menu such as [Return to original size] [Move] [Size change] ... will appear when you press Alt + Space key, so when selecting [Move] and dragging it, the window reappears I will. Alternatively, it can be resolved by restarting Winmostar. We are currently considering better countermeasures. (Reported on 14th June 2018)"
 
-#, fuzzy
+
 msgid "Animationウィンドウ下部のグラフ表示が崩れる。その他UIの表示が崩れる。"
 msgstr "The graph display at the bottom of the Animation window collapses. Other UI display collapses."
 
@@ -59,11 +59,11 @@ msgid ""
 "（2018年6月26日報告）"
 msgstr "If you change the size of desktop text or other items from the default value (100%), the display will collapse. For Windows 8, set [Control Panel] - [Customize Desktop] - [Display] - [Change the size of all items] to Small -100% (prescribed). For Windows 10, set [Windows setting] - [system] - [display] - [custom scaling] to &quot;100&quot;. (Reported on June 26, 2018)"
 
-#, fuzzy
+
 msgid "ローカルマシンのジョブが流れているコンソールウィンドウ内でテキストを範囲選択すると、Job Manager上でそのジョブが終了と認識されてしまう。"
 msgstr "If you select a range of text in the console window where the job of the local machine is flowing, the job is recognized as terminating on Job Manager."
 
-#, fuzzy
+
 msgid ""
 "Windows10のコンソールウィンドウ上で、実行中のジョブのログのテキストを範囲選択すると、ジョブが終了したと認識されます。これにより不具合が生じる場合は、出力されるログファイルを直接テキストエディタで開き、そこでテキストを範囲選択、コピーなどしてください。範囲選択後、処理が中断する場合は、Enterキーを押すと処理が再開します。Windows10以降で発生します。"
 " （2018年7月20日報告）"

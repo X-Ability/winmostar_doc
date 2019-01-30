@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -24,7 +24,7 @@ msgstr "Force Field"
 msgid "Generate parameters"
 msgstr "Generate parameters"
 
-#, fuzzy
+
 msgid "メインウィンドウに表示された系に対し、新たに力場パラメータをアサインしトポロジファイル（topファイル）を作成します。"
 msgstr "Assign new force field parameters to the system displayed in the main window and create a topology file (top file)."
 
@@ -43,7 +43,7 @@ msgstr "Specify the force field of molecules other than proteins and water molec
 msgid "Exception"
 msgstr "Exception"
 
-#, fuzzy
+
 msgid ""
 "特定の分子に対し、(General)にて選択した力場を使わず、ユーザが指定するLJパラメータを割り当てます。 "
 "サブウィンドウの左の欄にてLJパラメータを指定したい分子にチェックを入れ、右の欄でLJパラメータを入力します。"
@@ -90,11 +90,11 @@ msgstr "In the case of polymers, it takes time to calculate the charge by comman
 msgid "Use user-defined charge"
 msgstr "Use user-defined charge"
 
-#, fuzzy
+
 msgid "メインウィンドウ上で設定されている各原子の点電荷の値を用いてトポロジファイルを作成します。"
 msgstr "Create a topology file using the value of point charge of each atom set on the main window."
 
-#, fuzzy
+
 msgid ""
 "メインウィンドウ上で設定されている点電荷の値は、 :ref:`表示ボタンエリア <gui_main>` のアノテーションボタンから "
 ":guilabel:`User Charge` などを選択するか、.mol2形式で保存し :ref:`file_editor` "
@@ -146,7 +146,7 @@ msgstr "If you want to edit the topology file with an editor etc. and customize 
 msgid "Load from existing file/Use parameters in displayed file"
 msgstr "Load from existing file/Use parameters in displayed file"
 
-#, fuzzy
+
 msgid ""
 "既に存在しているトポロジファイルを用いてMD計算を実行する場合に選択します。 "
 "LAMMPSの場合は、メインウィンドウで既に存在しているdataファイルを用いてMD計算を実行する場合に選択します。"
@@ -161,7 +161,7 @@ msgstr "Edit the selected topology file with a text editor."
 msgid "Generate Simulation Cell"
 msgstr "Generate Simulation Cell"
 
-#, fuzzy
+
 msgid ""
 "メインウィンドウにおいてシミュレーションセルが定義されていない場合のみ設定が有効となる。チェックが入っている場合は、メインウィンドウに表示された分子の周囲に"
 " :guilabel:`Distance` で指定された距離だけ離れた場所にシミュレーションセルを自動発生させる。"

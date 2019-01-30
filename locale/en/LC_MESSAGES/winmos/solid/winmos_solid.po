@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -206,25 +206,25 @@ msgstr "We set the atomic site with the fractional coordinate (fractional coordi
 msgid "OK"
 msgstr "OK"
 
-#, fuzzy
+
 msgid "作成した結晶構造をメインウィンドウに読み込みます。"
 msgstr "Load the created crystal structure into the main window."
 
-#, fuzzy
+
 msgid "読み込みを取り消したい場合は、メインウィンドウで :menuselection:`編集 --> 元に戻る` をクリックしてください。"
 msgstr "If you want to cancel the import, please click: menuselection: `edit -&gt; return to original &#39;on the main window."
 
 msgid "Cancel"
 msgstr "Cancel"
 
-#, fuzzy
+
 msgid "結晶ビルダで入力した構造を破棄しメインウィンドウに戻ります。"
 msgstr "Discard the structure entered in the crystal builder and return to the main window."
 
 msgid "スーパーセルを作成"
 msgstr "Create super cell"
 
-#, fuzzy
+
 msgid "メインウィンドウで表示されているセルを複製しスーパーセルを作成します。"
 msgstr "Duplicate the cell displayed in the main window and create a super cell."
 
@@ -385,7 +385,7 @@ msgstr "Hydrogen"
 msgid "格子を変換"
 msgstr "Convert grid"
 
-#, fuzzy
+
 msgid "メインウィンドウで表示されているセルについて、プリミティブセル-コンベンショナルセル間の変換を行います。"
 msgstr "For cells displayed in the main window, perform conversion between primitive cells and conventional cells."
 

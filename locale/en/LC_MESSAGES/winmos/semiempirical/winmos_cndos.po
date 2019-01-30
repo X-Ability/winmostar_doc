@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -35,7 +35,7 @@ msgstr "The CNDO / S program is bundled with Winmostar. The CNDO / S program is 
 msgid "キーワード設定"
 msgstr "Keyword setting"
 
-#, fuzzy
+
 msgid ""
 "CNDO/Sの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は "
 ":guilabel:`OK` ボタンを押してください。"
@@ -155,7 +155,7 @@ msgstr "Only keywords (calculation conditions) are read from the existing CNDO /
 msgid "実行"
 msgstr "Execution"
 
-#, fuzzy
+
 msgid ""
 "メインウィンドウでCNDO/Sの入力ファイルが開かれている場合は、そのファイルを使ってCNDO/Sを実行します。 "
 "開かれていない場合は、CNDO/Sの入力ファイルを保存した上でCNDO/Sを実行します。"
@@ -200,7 +200,7 @@ msgstr "UV-Vis spectrum"
 msgid "lstファイルを選択し、UV-Visスペクトルと分子軌道を表示します。"
 msgstr "Select lst file and display UV-Vis spectrum and molecular orbital."
 
-#, fuzzy
+
 msgid ""
 "サブウィンドウの操作方法は :ref:`uvvis_top` , :ref:`mo_top` , :ref:`cube_top` "
 "を参照してください。"

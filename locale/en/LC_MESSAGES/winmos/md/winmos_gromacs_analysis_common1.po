@@ -4,7 +4,7 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
+
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
@@ -38,13 +38,13 @@ msgstr "Create Group"
 msgid "groファイルに書かれている原子名から新たなグループを登録します。"
 msgstr "Register a new group from the atom name written in the gro file."
 
-#, fuzzy
+
 msgid ""
 "メインウィンドウでグループ選択されている原子をグループとして定義する場合は :menuselection:`MD --> Gromacs -->`"
 " :ref:`md_gromacs_editndx` を使用してください。"
 msgstr "To define atoms selected as a group in the main window as a group, use: menuselection: `MD -&gt; Gromacs -&gt;`: ref: `md_gromacs_editndx`."
 
-#, fuzzy
+
 msgid ""
 ":guilabel:`Create Group` ウィンドウでは、 :guilabel:`Extracted Atom Names` "
 "にチェックを入れて :guilabel:`New group Name` を入力し :guilabel:`Create` "
