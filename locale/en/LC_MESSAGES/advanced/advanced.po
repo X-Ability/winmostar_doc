@@ -18,5 +18,5 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "その他のトピック"
-msgstr "NOTTRANSLATED"
+msgstr "Special Topics"
 
