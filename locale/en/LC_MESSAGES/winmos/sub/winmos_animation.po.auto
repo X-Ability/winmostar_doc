@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+
+#, fuzzy
+msgid "Animationウィンドウ"
+msgstr "Animation window"
+
+#, fuzzy
+msgid "ウィンドウ左のリストには、各フレームのステップ数、エネルギー、力などを表示します。リストの各行をクリックするとその行に対応するフレームがメインウィンドウに表示されます。"
+msgstr "In the list on the left side of the window, the number of steps, energy, power, etc. of each frame are displayed. Clicking each line in the list will display the frame corresponding to that line in the main window."
+
+#, fuzzy
+msgid "ウィンドウ下部では、リスト内の :guilabel:`Column` プルダウンメニューで選択した列の値がグラフ表示されます。"
+msgstr "At the bottom of the window, the values of the selected column in the list are displayed in a graph: guilabel: `Column` pull-down menu."
+
+#, fuzzy
+msgid ""
+"アニメーション（トラジェクトリ）データについて本ウィンドウから直接結果解析することも可能で、詳細は :guilabel:`Tools` "
+"メニューを確認してください。"
+msgstr "About animation (trajectory) data It is also possible to analyze results directly from this window. For details, please refer to the: guilabel: `Tools` menu."
+
+msgid "Fileメニュー"
+msgstr "File menu"
+
+msgid "Realod"
+msgstr "Realod"
+
+msgid "アニメーションを再度元ファイルから読み込みます。"
+msgstr "Read the animation from the original file again."
+
+msgid ":guilabel:`Reload` ボタンからも操作できます。"
+msgstr "You can also operate from the: guilabel: `Reload` button."
+
+msgid "Export GIF Animation"
+msgstr "Export GIF Animation"
+
+msgid "GIFアニメーションファイルを書き出します。"
+msgstr "Write a GIF animation file."
+
+msgid ":guilabel:`Export...` ボタンからも操作できます。"
+msgstr ": You can also operate from the guilabel: `Export ...` button."
+
+msgid "Export JPEG Images"
+msgstr "Export JPEG Images"
+
+msgid "連番JPEGファイルを書き出します。"
+msgstr "Export serial number JPEG file."
+
+msgid "Export Animated GRO File"
+msgstr "Export Animated GRO File"
+
+msgid "アニメーションgroファイルを出力します。VMD等との連携に使用できます :guilabel:`Export...` ボタンからも操作できます。"
+msgstr "Output animation gro file. It can be used for linking with VMD etc: You can also operate from the guilabel: `Export ...` button."
+
+msgid "Close"
+msgstr "Close"
+
+#, fuzzy
+msgid ""
+"このウィンドウを閉じます。 再度開く場合は :ref:`window_top` :menuselection:`--> Animation` "
+"を選択します。"
+msgstr "Close this window. To reopen it, select: ref: `window_top`: menuselection:` -&gt; Animation`."
+
+msgid ":guilabel:`Close` ボタンからも操作できます。"
+msgstr ": You can also operate from the guilabel: `Close` button."
+
+msgid "Controlメニュー"
+msgstr "Control menu"
+
+msgid "Go to First Frame"
+msgstr "Go to First Frame"
+
+msgid "最初のフレームに移動します。"
+msgstr "Move to the first frame."
+
+#, fuzzy
+msgid "ウィンドウ内のボタンからも操作できます。"
+msgstr "You can also operate from the buttons in the window."
+
+msgid "Play/Pause"
+msgstr "Play/Pause"
+
+msgid "アニメーションを再生/一時停止します。"
+msgstr "Play / pause the animation."
+
+msgid "Go to Last Frame"
+msgstr "Go to Last Frame"
+
+msgid "最後のフレームに移動します。"
+msgstr "Move to the last frame."
+
+msgid "Toolsメニュー"
+msgstr "Tools menu"
+
+msgid "Distance/Angle Change"
+msgstr "Distance/Angle Change"
+
+msgid "トラジェクトリ内の指定した原子間の結合長・結合角・二面角を解析します。"
+msgstr "Analyze the bond length, bonding angle, dihedral angle between specified atoms in the trajectory."
+
+#, fuzzy
+msgid ":guilabel:`Bond/Angle Change` ウィンドウで、 :guilabel:`Type` を選択します。"
+msgstr ": guilabel: `Bond / Angle Change` window, select: guilabel:` Type`."
+
+#, fuzzy
+msgid ""
+":guilabel:`Target Atoms` "
+"にコンマ区切りで計算したい結合長・結合角・二面角を定義する原子を列挙します。:guilabel:`Set` "
+"ボタンをクリックすると、メインウィンドウでマーカーが付いた原子を自動で入力することができます。"
+msgstr ": guilabel: `Target Atoms` enumerates the atoms that define the bond length, bond angle, dihedral angle you want to calculate with a comma separator. : guilabel: By clicking `Set` button you can automatically enter atoms with markers in the main window."
+
+msgid ""
+":guilabel:`Plot` において時間変化（ :guilabel:`Time Change` ）またはヒストグラム（ "
+":guilabel:`Histogram` ）のどちらを出力するか選択する。"
+msgstr "In: guilabel: `Plot`, choose whether to output time change (: guilabel:` Time Change`) or histogram (: guilabel: `Histogram`)."
+
+msgid ":guilabel:`Draw` ボタンをクリックします。"
+msgstr ": guilabel: Click the `Draw` button."
+
+msgid "Extract Trajectory for Selected Group"
+msgstr "Extract Trajectory for Selected Group"
+
+#, fuzzy
+msgid "メインウィンドウでグループ選択した原子のみを取り出したトラジェクトリファイルを作成します。"
+msgstr "In the main window, create a trajectory file extracting only the atoms selected from the group."
+
+msgid "上下スライダー"
+msgstr "Up / down slider"
+
+msgid "ドラッグするとフレーム間を移動します。"
+msgstr "Drag to move between frames."
+
+msgid ":guilabel:`Speed` スライダー"
+msgstr ": guilabel: `Speed` slider"
+
+msgid "再生速度を調整します。"
+msgstr "Adjust the playback speed."
+
+msgid ":guilabel:`Loop` チェックボックス"
+msgstr ": guilabel: `Loop` check box"
+
+msgid "チェックされている場合はループ再生されます。"
+msgstr "If it is checked, the loop will be played."
+
+msgid ":guilabel:`Dynamics Bond` チェックボックス"
+msgstr ": guilabel: `Dynamics Bond` check box"
+
+msgid "スナップショットごとに結合を毎回自動生成します。"
+msgstr "Automatically generates joins for each snapshot every time."
+
+msgid "化学結合が組み変わるMD計算（第一原理MD、CPMD、ReaxFF、DCDFTBMDなど）の際に有用です。"
+msgstr "It is useful for MD calculations in which chemical bonds are recombined (first principle MD, CPMD, ReaxFF, DCDFTBMD, etc.)."
+
+msgid ":guilabel:`Open Viewer` ボタン"
+msgstr ": guilabel: `Open Viewer` button"
+
+msgid "現在開いているアニメーションを :ref:`winmos3d_top` を用いて表示します。"
+msgstr "Display the currently open animation using: ref: `winmos3d_top`."
+
+msgid ":guilabel:`Excel` ボタン"
+msgstr ": guilabel: `Excel` button"
+
+msgid "リストの内容をcsv形式で出力し、Excelを起動して読み込みます。"
+msgstr "Output the contents of the list in csv format, start Excel and load it."
+

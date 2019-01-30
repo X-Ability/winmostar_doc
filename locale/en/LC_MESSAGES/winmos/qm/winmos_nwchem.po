@@ -19,346 +19,346 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid ":menuselection:`QM --> NWChem` メニュー"
-msgstr "NOTTRANSLATED"
+msgstr ": menuselection: `QM -&gt; NWChem` menu"
 
 msgid "NWChemに関するメニューです。"
-msgstr "NOTTRANSLATED"
+msgstr "It is a menu related to NWChem."
 
 msgid ""
 "NWChemを利用するためには別途NWChemをインストールする必要があります。 NWChemをインストールする方法は "
 ":ref:`install_install` に記載しています。"
-msgstr "NOTTRANSLATED"
+msgstr "In order to use NWChem, you need to install NWChem separately. The method of installing NWChem is described in: ref: `install_install`."
 
 msgid "キーワード設定"
-msgstr "NOTTRANSLATED"
+msgstr "Keyword setting"
 
 #, fuzzy
 msgid ""
 "NWChemの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は "
 ":guilabel:`OK` ボタンを押してください。"
-msgstr "NOTTRANSLATED"
+msgstr "Set calculation conditions of NWChem. To set up the calculations immediately after setting: guilabel: `Run` button, once to return to the main window please press: guilabel:` OK` button."
 
 msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`qm_nwchem_start` を参照してください。"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: Behavior when clicking `Run` is see: ref:` qm_nwchem_start`."
 
 msgid ":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `Reset` button to return to the default state."
 
 msgid "Easy Setup"
-msgstr "NOTTRANSLATED"
+msgstr "Easy Setup"
 
 msgid "簡易設定画面を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Displays the simple setting screen."
 
 msgid "Use MPI"
-msgstr "NOTTRANSLATED"
+msgstr "Use MPI"
 
 msgid "チェックを入れるとMPIを用います。 並列数はチェックボックスの横に入力します。"
-msgstr "NOTTRANSLATED"
+msgstr "When checked, MPI is used. Enter the parallel number next to the checkbox."
 
 msgid "Basicタブ"
-msgstr "NOTTRANSLATED"
+msgstr "Basic Tab"
 
 msgid "Title"
-msgstr "NOTTRANSLATED"
+msgstr "Title"
 
 msgid "タイトルを指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the title."
 
 msgid "Basis"
-msgstr "NOTTRANSLATED"
+msgstr "Basis"
 
 msgid "基底関数系を指定します。 cartesian/sphericalを選択します。 一部原子の例外をExceptionで指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the basis function system. Choose cartesian / spherical. Specify exception for some atoms with Exception."
 
 msgid "Task"
-msgstr "NOTTRANSLATED"
+msgstr "Task"
 
 msgid "計算手法(theory)と計算目的(operation)を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the calculation method (theory) and calculation purpose (operation)."
 
 msgid "Charge"
-msgstr "NOTTRANSLATED"
+msgstr "Charge"
 
 msgid "電荷を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the charge."
 
 msgid "DFT"
-msgstr "NOTTRANSLATED"
+msgstr "DFT"
 
 msgid "Multiplicity"
-msgstr "NOTTRANSLATED"
+msgstr "Multiplicity"
 
 msgid "DFTのスピン多重度を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the DFT spin multiplicity."
 
 msgid "Exchange"
-msgstr "NOTTRANSLATED"
+msgstr "Exchange"
 
 msgid "DFTの交換関数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the exchange function of DFT."
 
 msgid "Correlation"
-msgstr "NOTTRANSLATED"
+msgstr "Correlation"
 
 msgid "DFTの相関関数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the DFT correlation function."
 
 msgid "SCF"
-msgstr "NOTTRANSLATED"
+msgstr "SCF"
 
 msgid "SCFの多重度を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the SCF multiplicity."
 
 msgid "Wave Function"
-msgstr "NOTTRANSLATED"
+msgstr "Wave Function"
 
 msgid "SCFの計算理論を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the calculation theory of SCF."
 
 msgid "Property"
-msgstr "NOTTRANSLATED"
+msgstr "Property"
 
 msgid "Mulliken"
-msgstr "NOTTRANSLATED"
+msgstr "Mulliken"
 
 msgid "Mulliken電荷を出力するか選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Mulliken Select whether to output electric charge."
 
 msgid "Shielding"
-msgstr "NOTTRANSLATED"
+msgstr "Shielding"
 
 msgid "NMR計算を行うか選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select whether to perform NMR calculation."
 
 msgid "Dipole"
-msgstr "NOTTRANSLATED"
+msgstr "Dipole"
 
 msgid "ダイポールモーメントを出力するか選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select whether to output dipole moment."
 
 msgid "NEB/String タブ"
-msgstr "NOTTRANSLATED"
+msgstr "NEB / String tab"
 
 msgid "TaskのOperationにnebかstringを指定したときに有効になります。"
-msgstr "NOTTRANSLATED"
+msgstr "It becomes effective when neb or string is specified as Operation of Task."
 
 msgid "NBeads"
-msgstr "NOTTRANSLATED"
+msgstr "NBeads"
 
 msgid "ビーズの数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the number of beads."
 
 msgid "KBeads"
-msgstr "NOTTRANSLATED"
+msgstr "KBeads"
 
 msgid "NEBのバネ定数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the spring constant of NEB."
 
 msgid "MaxIter"
-msgstr "NOTTRANSLATED"
+msgstr "MaxIter"
 
 msgid "最適化の最大繰り返し数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the maximum number of iterations for optimization."
 
 msgid "StepSize"
-msgstr "NOTTRANSLATED"
+msgstr "StepSize"
 
 msgid "最適化のステップサイズを指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the optimization step size."
 
 msgid "NHist"
-msgstr "NOTTRANSLATED"
+msgstr "NHist"
 
 msgid "準ニュートン法で使用するヒストリーの数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the number of histories to use in the quasi-Newton method."
 
 msgid "Freeze1"
-msgstr "NOTTRANSLATED"
+msgstr "Freeze1"
 
 msgid "ZTSで最初のビーズを固定するか設定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Set whether to fix the first bead with ZTS."
 
 msgid "FreezeN"
-msgstr "NOTTRANSLATED"
+msgstr "FreezeN"
 
 msgid "ZTSで最後のビーズを固定するか設定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Set whether to fix the last bead with ZTS."
 
 msgid "Convergence"
-msgstr "NOTTRANSLATED"
+msgstr "Convergence"
 
 msgid "収束条件をloose/default/tightから選びます。"
-msgstr "NOTTRANSLATED"
+msgstr "Choose the convergence condition from loose / default / tight."
 
 msgid "XYZ_Path"
-msgstr "NOTTRANSLATED"
+msgstr "XYZ_Path"
 
 msgid "初期パスのファイルを指定します。計算のリスタートなどで使用します。      Print_Shift 指定したステップ毎にパスを出力します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the file of the initial path. It is used for restarting calculations. Print_Shift Prints the path for each specified step."
 
 msgid "EndGeom"
-msgstr "NOTTRANSLATED"
+msgstr "EndGeom"
 
 msgid ""
 "最後のビーズの座標を指定します。 Loadボタンでファイルを指定して読み込めます。 "
 "Winmostarで読み込めるフォーマットをXYZ形式で読み込みます。 また、Editボタンで編集することができます。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the coordinates of the last bead. You can specify a file by loading it with the Load button. Load format that can be read with Winmostar in XYZ format. You can also edit with the Edit button."
 
 msgid "Advance タブ"
-msgstr "NOTTRANSLATED"
+msgstr "Advance tab"
 
 msgid "Memory"
-msgstr "NOTTRANSLATED"
+msgstr "Memory"
 
 msgid "メモリ使用量を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the memory usage."
 
 msgid "Set tolguess"
-msgstr "NOTTRANSLATED"
+msgstr "Set tolguess"
 
 msgid "initial guessの精度を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the precision of initial guess."
 
 msgid "ECP"
-msgstr "NOTTRANSLATED"
+msgstr "ECP"
 
 msgid "ECPのポテンシャルを指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the potential of ECP."
 
 msgid "Geometry"
-msgstr "NOTTRANSLATED"
+msgstr "Geometry"
 
 msgid "noautoz"
-msgstr "NOTTRANSLATED"
+msgstr "noautoz"
 
 msgid "内部座標の変換を行わないように設定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Set not to convert internal coordinates."
 
 msgid "Other Settings"
-msgstr "NOTTRANSLATED"
+msgstr "Other Settings"
 
 msgid "その他の入力要素を記述します。"
-msgstr "NOTTRANSLATED"
+msgstr "Describe other input elements."
 
 msgid "キーワード読み込み"
-msgstr "NOTTRANSLATED"
+msgstr "Keyword loading"
 
 msgid "既存のNWChemの入力ファイルから、キーワード（計算条件）のみを読み込みます。"
-msgstr "NOTTRANSLATED"
+msgstr "Only the keyword (calculation condition) is read from the existing NWChem input file."
 
 msgid "実行"
-msgstr "NOTTRANSLATED"
+msgstr "Execution"
 
 #, fuzzy
 msgid ""
 "メインウィンドウでNWChemの入力ファイルが開かれている場合は、そのファイルを使ってNWChemを実行します。 "
 "開かれていない場合は、NWChemの入力ファイルを保存した上でNWChemを実行します。"
-msgstr "NOTTRANSLATED"
+msgstr "If NWChem&#39;s input file is open in the main window, use NWChem to execute the file. If it is not open, save the input file of NWChem and run NWChem."
 
 msgid "入力ファイルを保存する際に、 :ref:`file_coordinateformat` の選択肢に応じて座標の出力フォーマットが変化します。"
-msgstr "NOTTRANSLATED"
+msgstr "When saving the input file, the output format of the coordinates changes according to the choices of: ref: `file_coordinateformat`."
 
 msgid "NWChemのプログラムパスは、 :menuselection:`ツール --> 環境設定 --> プログラムパス` で変更することができます。"
-msgstr "NOTTRANSLATED"
+msgstr "The program path of NWChem can be changed with:: menuselection: `tools -&gt; environment setting -&gt; program path`."
 
 msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.nw` の時のファイル/フォルダ名を併記しています。"
-msgstr "NOTTRANSLATED"
+msgstr "Following file will be generated with execution. For example, the file / folder name when the input file is: file: `water.nw` is shown together."
 
 msgid "種類"
-msgstr "NOTTRANSLATED"
+msgstr "type"
 
 msgid "説明"
-msgstr "NOTTRANSLATED"
+msgstr "Description"
 
 msgid "outファイル"
-msgstr "NOTTRANSLATED"
+msgstr "out file"
 
 msgid ":file:`water.out`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`water.out`"
 
 msgid "計算のログファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "Calculation log file."
 
 msgid "movecsファイル"
-msgstr "NOTTRANSLATED"
+msgstr "movecs file"
 
 msgid ":file:`water.movecs`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`water.movecs`"
 
 msgid "計算の詳細情報をまとめたファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "It is a file that summarizes detailed information of calculation."
 
 msgid "batファイル"
-msgstr "NOTTRANSLATED"
+msgstr "bat file"
 
 msgid ":file:`water.bat`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`water.bat`"
 
 msgid "NWChemを実行するためのバッチファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "It is a batch file for running NWChem."
 
 msgid "作業ディレクトリ"
-msgstr "NOTTRANSLATED"
+msgstr "Working Directory"
 
 msgid ":file:`water.nw_temp\\\\`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`water.nw_temp\\\\`"
 
 msgid "作業ディレクトリです。"
-msgstr "NOTTRANSLATED"
+msgstr "Working directory."
 
 msgid "ログを表示 (out)"
-msgstr "NOTTRANSLATED"
+msgstr "Display log (out)"
 
 msgid "outファイルをテキストエディタで開きます。"
-msgstr "NOTTRANSLATED"
+msgstr "out Open the file in a text editor."
 
 msgid "アニメーション (構造最適化)"
-msgstr "NOTTRANSLATED"
+msgstr "Animation (structure optimization)"
 
 msgid "outファイルの情報から構造最適化等のアニメーションを作成し表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "out Creates and displays animation such as structure optimization from file information."
 
 msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
-msgstr "NOTTRANSLATED"
+msgstr "For the animation display operation method, see: ref: `animation_top`."
 
 msgid "アニメーション (NEB/String)"
-msgstr "NOTTRANSLATED"
+msgstr "Animation (NEB / String)"
 
 msgid "xyzファイルの情報からNEB, String計算のアニメーションを作成し表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Creates and displays NEB, String calculation animation from xyz file information."
 
 msgid "分子軌道, UV-Vis, 電荷, NMR"
-msgstr "NOTTRANSLATED"
+msgstr "Molecular orbitals, UV-Vis, charge, NMR"
 
 msgid "outファイルの情報から分子軌道, UV-Vis, 電荷, NMRの情報を取得し表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "out Obtain information on molecular orbital, UV-Vis, charge, NMR from the file information and display it."
 
 msgid ""
 "読み込まれた電荷の情報は :menuselection:`表示 --> ラベル/電荷 --> Mulliken電荷` "
 "などを選択することで分子表示エリアに表示することができます。"
-msgstr "NOTTRANSLATED"
+msgstr "Information on the charge read can be displayed in the molecular display area by selecting: menuselection: `display -&gt; label / charge -&gt; Mulliken charge &#39;and so on."
 
 #, fuzzy
 msgid ""
 "サブウィンドウの操作方法は :ref:`mo_top` , :ref:`cube_top` , :ref:`uvvis_top` , "
 ":ref:`nmr_top` を参照してください。"
-msgstr "NOTTRANSLATED"
+msgstr "Refer to: ref: `mo_top`,: ref:` cube_top`,: ref: `uvvis_top`,: ref:` nmr_top` for how to operate the subwindow."
 
 msgid "IR/ラマンスペクトル"
-msgstr "NOTTRANSLATED"
+msgstr "IR / Raman spectrum"
 
 msgid "outファイルを選択し、振動スペクトル（IRまたはラマンスペクトル）を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "out Select the file and display the vibration spectrum (IR or Raman spectrum)."
 
 #, fuzzy
 msgid ""
 ":command:`RUNTYP=HESSIAN` のoutファイルからIRスペクトルを読み込ませた後、続けて本メニューで "
 ":command:`RUNTYP=RAMAN` "
 "のoutラマンスペクトルを読み込ませると、両方のスペクトルを同時にサブウィンドウに表示することができます。"
-msgstr "NOTTRANSLATED"
+msgstr "After loading the IR spectrum from the out file of: command: `RUNTYP = HESSIAN`, if you subsequently read the out Raman spectrum of: command:` RUNTYP = RAMAN` in this menu, both spectra are displayed simultaneously in the subwindow can."
 
 #, fuzzy
 msgid "サブウィンドウの操作方法は :ref:`ir_top` を参照してください。"
-msgstr "NOTTRANSLATED"
+msgstr "Refer to: ref: `ir_top` for how to operate the subwindow."
 

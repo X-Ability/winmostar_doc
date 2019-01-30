@@ -19,67 +19,67 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "NMRウィンドウ"
-msgstr "NOTTRANSLATED"
+msgstr "NMR Window"
 
 msgid "NMRスペクトルを表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "The NMR spectrum is displayed."
 
 msgid "Element"
-msgstr "NOTTRANSLATED"
+msgstr "Element"
 
 msgid "NMRスペクトルを表示させたい原子を選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the atoms for which you want to display the NMR spectrum."
 
 msgid "Reference"
-msgstr "NOTTRANSLATED"
+msgstr "Reference"
 
 msgid ""
 "化学シフトを計算する際のレファレンスを指定します。 :guilabel:`Element` がAllの時は選択肢が出現しません。 "
 "レファレンスのリストはUserPrefフォルダのwm_nmr.refファイルで管理されています。 :guilabel:`Edit` "
 "ボタンを押すと、レファレンスを追加することができます。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify references for calculating chemical shifts. : guilabel: When `Element` is All, no choice appears. The list of references is managed in the wm_nmr.ref file in the UserPref folder. : guilabel: `Edit` button, you can add a reference."
 
 msgid "Shielding"
-msgstr "NOTTRANSLATED"
+msgstr "Shielding"
 
 msgid ":guilabel:`Reference` で選択したレファレンスの値を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `Reference` displays the value of the selected reference."
 
 msgid "Selected"
-msgstr "NOTTRANSLATED"
+msgstr "Selected"
 
 msgid "スペクトルのグラフ内でクリックして選択したスペクトルの値を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Click in the spectrum graph to display the value of the selected spectrum."
 
 msgid "Degeneracy Tolerance"
-msgstr "NOTTRANSLATED"
+msgstr "Degeneracy Tolerance"
 
 msgid "スペクトルを縮退しているとみなしてグルーピングする際の閾値です。"
-msgstr "NOTTRANSLATED"
+msgstr "It is a threshold when grouping by assuming that spectrum is degenerate."
 
 msgid "Export"
-msgstr "NOTTRANSLATED"
+msgstr "Export"
 
 msgid "ファイル出力する形式を選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the format to output the file."
 
 msgid "Open Excel"
-msgstr "NOTTRANSLATED"
+msgstr "Open Excel"
 
 msgid "csvファイルを出力して開きます。"
-msgstr "NOTTRANSLATED"
+msgstr "Output the csv file and open it."
 
 msgid "Copy Image"
-msgstr "NOTTRANSLATED"
+msgstr "Copy Image"
 
 msgid "グラフをクリップボードにコピーします。"
-msgstr "NOTTRANSLATED"
+msgstr "Copy the graph to the clipboard."
 
 msgid "Close"
-msgstr "NOTTRANSLATED"
+msgstr "Close"
 
 msgid "ウィンドウを閉じます。"
-msgstr "NOTTRANSLATED"
+msgstr "Close the window."
 
 #~ msgid "NMRウインドウ"
 #~ msgstr "NOTTRANSLATED"

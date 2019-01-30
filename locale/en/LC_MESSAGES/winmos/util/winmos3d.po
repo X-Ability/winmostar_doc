@@ -19,438 +19,438 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "Winmostar Viewer"
-msgstr "NOTTRANSLATED"
+msgstr "Winmostar Viewer"
 
 msgid "Winmostar Viewerは分子軌道などを表示する、描画に特化したWinmostarの付属ソフトウェアです。"
-msgstr "NOTTRANSLATED"
+msgstr "Winmostar Viewer is software attached to Winmostar specialized for drawing, displaying molecular orbital etc."
 
 msgid "MDのような多成分系で特定の成分だけを表示させることも可能です。"
-msgstr "NOTTRANSLATED"
+msgstr "It is also possible to display only specific ingredients in a multicomponent system like MD."
 
 msgid "マウスの使い方"
-msgstr "NOTTRANSLATED"
+msgstr "How to use the mouse"
 
 msgid "左ボタン+ドラッグ"
-msgstr "NOTTRANSLATED"
+msgstr "Left button + drag"
 
 msgid "視点を回転させます。"
-msgstr "NOTTRANSLATED"
+msgstr "Rotate the viewpoint."
 
 msgid "ドラッグしながらマウスボタンを離すと回転し続けます。"
-msgstr "NOTTRANSLATED"
+msgstr "As you drag and release the mouse button it will continue to rotate."
 
 msgid "右ボタン+上下ドラッグ"
-msgstr "NOTTRANSLATED"
+msgstr "Right button + up and down drag"
 
 msgid "縮小・拡大します。"
-msgstr "NOTTRANSLATED"
+msgstr "Reduce / enlarge."
 
 msgid "左ボタン+右ボタン+ドラッグ"
-msgstr "NOTTRANSLATED"
+msgstr "Left button + right button + drag"
 
 msgid "上下･左右に移動します。"
-msgstr "NOTTRANSLATED"
+msgstr "It moves vertically and horizontally."
 
 msgid "メニュー操作"
-msgstr "NOTTRANSLATED"
+msgstr "Menu operation"
 
 msgid "Fileメニュー"
-msgstr "NOTTRANSLATED"
+msgstr "File menu"
 
 msgid "Open"
-msgstr "NOTTRANSLATED"
+msgstr "Open"
 
 msgid "gld形式およびMOLDA形式のファイルを読み込みます。"
-msgstr "NOTTRANSLATED"
+msgstr "Read gld and MOLDA format files."
 
 msgid "Save GLD"
-msgstr "NOTTRANSLATED"
+msgstr "Save GLD"
 
 msgid "現在開いているGLD形式のファイルを名前を付けて保存します。"
-msgstr "NOTTRANSLATED"
+msgstr "Save the currently open GLD format file with a name."
 
 msgid "Save MOLDA"
-msgstr "NOTTRANSLATED"
+msgstr "Save MOLDA"
 
 #, fuzzy
 msgid "ウィンドウに表示されている構造をMOLDA形式で保存します。"
-msgstr "NOTTRANSLATED"
+msgstr "Save the structure displayed in the window in MOLDA format."
 
 msgid "Save JPEG"
-msgstr "NOTTRANSLATED"
+msgstr "Save JPEG"
 
 #, fuzzy
 msgid "ウィンドウに表示されている内容をJPEGファイルとして保存します。"
-msgstr "NOTTRANSLATED"
+msgstr "Save the contents displayed in the window as a JPEG file."
 
 msgid "Save JPEG (Stereo)"
-msgstr "NOTTRANSLATED"
+msgstr "Save JPEG (Stereo)"
 
 msgid "立体視用の左右の画面をJPEGファイルとして保存します。"
-msgstr "NOTTRANSLATED"
+msgstr "Save the left and right screens for stereoscopic viewing as a JPEG file."
 
 msgid "StereoPhoto Maker"
-msgstr "NOTTRANSLATED"
+msgstr "StereoPhoto Maker"
 
 msgid "StereoPhotomakerを起動します。"
-msgstr "NOTTRANSLATED"
+msgstr "Start StereoPhotomaker."
 
 msgid "Exit"
-msgstr "NOTTRANSLATED"
+msgstr "Exit"
 
 msgid "Winmsotar Viewerを終了します。"
-msgstr "NOTTRANSLATED"
+msgstr "Quit Winmsotar Viewer."
 
 msgid "Viewメニュー"
-msgstr "NOTTRANSLATED"
+msgstr "View menu"
 
 msgid "Representations"
-msgstr "NOTTRANSLATED"
+msgstr "Representations"
 
 msgid "描画の詳細な調整を行う :ref:`winmos3d_repre` を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Perform detailed drawing adjustment: ref: `winmos3d_repre` is displayed."
 
 msgid "Perspective"
-msgstr "NOTTRANSLATED"
+msgstr "Perspective"
 
 msgid "遠近法を使用します。"
-msgstr "NOTTRANSLATED"
+msgstr "I use perspective."
 
 msgid "Background Color"
-msgstr "NOTTRANSLATED"
+msgstr "Background Color"
 
 msgid "背景の色を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the color of the background."
 
 msgid "背景の色を暗青色にします。"
-msgstr "NOTTRANSLATED"
+msgstr "Make the background color dark blue."
 
 msgid "Winmostar"
-msgstr "NOTTRANSLATED"
+msgstr "Winmostar"
 
 msgid "背景の色をWinmostarのデフォルトの背景色にします。"
-msgstr "NOTTRANSLATED"
+msgstr "Make the background color the default background color of Winmostar."
 
 msgid "Black"
-msgstr "NOTTRANSLATED"
+msgstr "Black"
 
 msgid "背景の色を黒にします。"
-msgstr "NOTTRANSLATED"
+msgstr "Make the background color black."
 
 msgid "White"
-msgstr "NOTTRANSLATED"
+msgstr "White"
 
 msgid "背景の色を白にします。"
-msgstr "NOTTRANSLATED"
+msgstr "Set the background color to white."
 
 msgid "Model"
-msgstr "NOTTRANSLATED"
+msgstr "Model"
 
 msgid "表示するモデルを選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the model to display."
 
 msgid "Ball-and-Stick Model"
-msgstr "NOTTRANSLATED"
+msgstr "Ball-and-Stick Model"
 
 msgid "球棒モデルを表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Display the spherical bar model."
 
 msgid "Space-Filling Model"
-msgstr "NOTTRANSLATED"
+msgstr "Space-Filling Model"
 
 msgid "空間充填モデルを表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Display space filling model."
 
 msgid "Stick Model"
-msgstr "NOTTRANSLATED"
+msgstr "Stick Model"
 
 msgid "棒モデルを表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Displays the bar model."
 
 msgid "Wire Model"
-msgstr "NOTTRANSLATED"
+msgstr "Wire Model"
 
 msgid "ワイヤーモデルを表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Display wire model."
 
 msgid "Show SPace-Filling Model Overlapping"
-msgstr "NOTTRANSLATED"
+msgstr "Show SPace-Filling Model Overlapping"
 
 msgid "空間重点モデルを半透明で重ね合わせ表示する。"
-msgstr "NOTTRANSLATED"
+msgstr "Display superimposed spatial priority models translucently."
 
 msgid "Show Animation Control Panel"
-msgstr "NOTTRANSLATED"
+msgstr "Show Animation Control Panel"
 
 msgid ":ref:`winmos3d_panel` を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr ": ref: `winmos3d_panel` is displayed."
 
 msgid "Copy Image"
-msgstr "NOTTRANSLATED"
+msgstr "Copy Image"
 
 #, fuzzy
 msgid "ウィンドウに表示されている画像をクリップボードにコピーします。"
-msgstr "NOTTRANSLATED"
+msgstr "Copy the image displayed in the window to the clipboard."
 
 msgid "Helpメニュー"
-msgstr "NOTTRANSLATED"
+msgstr "Help menu"
 
 msgid "Help"
-msgstr "NOTTRANSLATED"
+msgstr "Help"
 
 msgid "マウスの使い方を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "It shows how to use the mouse."
 
 msgid "About Winmostar Viewer"
-msgstr "NOTTRANSLATED"
+msgstr "About Winmostar Viewer"
 
 msgid "バージョンを表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Display version."
 
 msgid "Debug"
-msgstr "NOTTRANSLATED"
+msgstr "Debug"
 
 msgid "メモリ使用量など、デバッグ用の情報を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Displays debugging information such as memory usage."
 
 msgid "アニメーション操作パネル"
-msgstr "NOTTRANSLATED"
+msgstr "Animation operation panel"
 
 #, fuzzy
 msgid "Winmostar 3Dでアニメーションを表示すると、Winmostar 3Dのウィンドウの左上にアニメーション操作用のUIが表示されます。"
-msgstr "NOTTRANSLATED"
+msgstr "When you display animation in Winmostar 3D, the UI for animation operation appears in the upper left corner of Winmostar 3D window."
 
 msgid "スライダー"
-msgstr "NOTTRANSLATED"
+msgstr "slider"
 
 msgid "フレームを移動します。"
-msgstr "NOTTRANSLATED"
+msgstr "Move the frame."
 
 msgid "Once"
-msgstr "NOTTRANSLATED"
+msgstr "Once"
 
 msgid "最終フレームまで再生が到達したら再生をストップします。"
-msgstr "NOTTRANSLATED"
+msgstr "When playback reaches the last frame, playback stops."
 
 msgid "Loop"
-msgstr "NOTTRANSLATED"
+msgstr "Loop"
 
 msgid "最終フレームまで再生が到達したら最初のフレームに戻って再生を繰り返します。"
-msgstr "NOTTRANSLATED"
+msgstr "When playback reaches the last frame, return to the first frame and repeat playback."
 
 msgid "Round"
-msgstr "NOTTRANSLATED"
+msgstr "Round"
 
 msgid "再生を往復で繰り返します。"
-msgstr "NOTTRANSLATED"
+msgstr "Repeat playback in round trip."
 
 msgid "JPEG"
-msgstr "NOTTRANSLATED"
+msgstr "JPEG"
 
 msgid "チェックを入れた状態で再生すると表示されている内容がJPEG形式で保存されます"
-msgstr "NOTTRANSLATED"
+msgstr "When playing with checked, the displayed contents are saved in JPEG format"
 
 msgid "GIF"
-msgstr "NOTTRANSLATED"
+msgstr "GIF"
 
 msgid "チェックを入れた状態で再生すると表示されている内容がGIF形式で保存されます"
-msgstr "NOTTRANSLATED"
+msgstr "When you play with the checked, the displayed contents are saved in GIF format"
 
 msgid "Close"
-msgstr "NOTTRANSLATED"
+msgstr "Close"
 
 msgid "このパネルを閉じます。"
-msgstr "NOTTRANSLATED"
+msgstr "Close this panel."
 
 #, fuzzy
 msgid "Representationsウィンドウ"
-msgstr "NOTTRANSLATED"
+msgstr "Representations window"
 
 msgid "Orbit/Rotation"
-msgstr "NOTTRANSLATED"
+msgstr "Orbit/Rotation"
 
 msgid "左ドラッグで視点を回転させる際の回転方法を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the rotation method when rotating the viewpoint with left drag."
 
 msgid "Orbit"
-msgstr "NOTTRANSLATED"
+msgstr "Orbit"
 
 msgid "自由に回転させます。"
-msgstr "NOTTRANSLATED"
+msgstr "Rotate freely."
 
 msgid "X, Y or Z"
-msgstr "NOTTRANSLATED"
+msgstr "X, Y or Z"
 
 msgid "画面内水平方向、画面内垂直方向、または画面に垂直方向の軸周りで回転させます。"
-msgstr "NOTTRANSLATED"
+msgstr "Rotate around the horizontal direction within the screen, the vertical direction within the screen, or the direction perpendicular to the screen."
 
 msgid "Periodic Boundary Condition"
-msgstr "NOTTRANSLATED"
+msgstr "Periodic Boundary Condition"
 
 msgid "セルの外側に存在する分子の表示方法を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify how to display molecules that are outside the cell."
 
 msgid "None"
-msgstr "NOTTRANSLATED"
+msgstr "None"
 
 msgid "元の座標のまま表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Display the original coordinates as they are."
 
 msgid "Atom"
-msgstr "NOTTRANSLATED"
+msgstr "Atom"
 
 msgid "原子単位でセル内に構造が収まるよう表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "It displays the structure so that it fits within the cell in atomic units."
 
 msgid "Mol"
-msgstr "NOTTRANSLATED"
+msgstr "Mol"
 
 msgid "分子単位でセル内に構造が収まるよう表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Displays the structure so that the structure fits within the cell in molecule units."
 
 msgid "Molecule"
-msgstr "NOTTRANSLATED"
+msgstr "Molecule"
 
 #, fuzzy
 msgid "本ウィンドウ中部の :guilabel:`1` から :guilabel:`9` を各分子に割り当てます。"
-msgstr "NOTTRANSLATED"
+msgstr "From the guilabel: `1` in the middle of this window: guilabel:` 9` is assigned to each molecule."
 
 msgid "Composition"
-msgstr "NOTTRANSLATED"
+msgstr "Composition"
 
 #, fuzzy
 msgid "本ウィンドウ中部の :guilabel:`1` から :guilabel:`9` を（分子量が共通する）各分子種に割り当てます。"
-msgstr "NOTTRANSLATED"
+msgstr "Assign guilabel: `9` from guilabel:` 1` in the middle of this window to each molecular species (with the same molecular weight)."
 
 msgid "1 - 9"
-msgstr "NOTTRANSLATED"
+msgstr "1 - 9"
 
 msgid ""
 "チェックが付いた項目を表示します。プルダウンメニューの :guilabel:`BS` , :guilabel:`SF` , "
 ":guilabel:`ST` , :guilabel:`WI` はそれぞれBall-stick（棒球）モデル（デフォルト）、Space "
 "filling（空間充填）モデル、Stick（棒）モデル、ワイヤーモデルを意味します。"
-msgstr "NOTTRANSLATED"
+msgstr "The checked items are displayed. In the pull-down menu: guilabel: `BS`,: guilabel:` SF`,: guilabel: `ST`,: guilabel:` WI` are Ball-stick model (default), Space filling , Stick (rod) model, wire model."
 
 msgid "Rainbow"
-msgstr "NOTTRANSLATED"
+msgstr "Rainbow"
 
 msgid "分子ごとに異なる色で表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "It displays in different colors for each molecule."
 
 msgid "Gold"
-msgstr "NOTTRANSLATED"
+msgstr "Gold"
 
 msgid "分子を金色で表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "The molecule is displayed in gold color."
 
 msgid "Stereo"
-msgstr "NOTTRANSLATED"
+msgstr "Stereo"
 
 msgid "立体視表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "It displays stereoscopically."
 
 msgid "Enantiomer"
-msgstr "NOTTRANSLATED"
+msgstr "Enantiomer"
 
 msgid "元の構造とその鏡像体を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Display the original structure and its mirror image."
 
 msgid "Para"
-msgstr "NOTTRANSLATED"
+msgstr "For"
 
 msgid "平行法で表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Display in parallel method."
 
 msgid "Cross"
-msgstr "NOTTRANSLATED"
+msgstr "Cross"
 
 msgid "交差法で表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "It displays by the intersection method."
 
 msgid "Anag"
-msgstr "NOTTRANSLATED"
+msgstr "Anag"
 
 msgid "アナグリフで表示します。（赤青のメガネを使用）"
-msgstr "NOTTRANSLATED"
+msgstr "It displays with anaglyph. (Red and blue glasses are used)"
 
 msgid "Shift"
-msgstr "NOTTRANSLATED"
+msgstr "Shift"
 
 msgid "分子間の距離を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the distance between molecules."
 
 msgid "Rot"
-msgstr "NOTTRANSLATED"
+msgstr "red"
 
 msgid "分子の回転する大きさを指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the size of the molecule to rotate."
 
 msgid "H"
-msgstr "NOTTRANSLATED"
+msgstr "H"
 
 msgid "チェックされている場合は、水素原子を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "If checked, hydrogen atoms are displayed."
 
 msgid "Dummy"
-msgstr "NOTTRANSLATED"
+msgstr "Dummy"
 
 msgid "チェックされている場合は、ダミー原子を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "When checked, dummy atoms are displayed."
 
 msgid "Backbone"
-msgstr "NOTTRANSLATED"
+msgstr "Backbone"
 
 msgid "チェックされている場合は、バックボーンのみを表示します。（タンパク質向け）"
-msgstr "NOTTRANSLATED"
+msgstr "If checked, only the backbone will be displayed. (For proteins)"
 
 msgid "原子の表示倍率を設定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Sets the display magnification of atoms."
 
 msgid "Bond"
-msgstr "NOTTRANSLATED"
+msgstr "Bond"
 
 msgid "結合の表示倍率を設定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Sets the display magnification of the join."
 
 msgid "Z-Clip"
-msgstr "NOTTRANSLATED"
+msgstr "Z-Clip"
 
 msgid "Z方向のクリッピング位置を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the clipping position in the Z direction."
 
 msgid "Surface Style"
-msgstr "NOTTRANSLATED"
+msgstr "Surface Style"
 
 msgid "分子軌道などの等値面の表示方法を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify how to display isosurface such as molecular orbital."
 
 msgid "Mesh"
-msgstr "NOTTRANSLATED"
+msgstr "Mesh"
 
 msgid "等値面をメッシュ（格子）モデルで表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "We display the isosurface in mesh (lattice) model."
 
 msgid "Solid"
-msgstr "NOTTRANSLATED"
+msgstr "Solid"
 
 msgid "等値面をソリッドモデルで表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Displays the isosurface in a solid model."
 
 msgid "SmoothSolid"
-msgstr "NOTTRANSLATED"
+msgstr "SmoothSolid"
 
 msgid "等値面を滑らかなソリッドモデルで表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Display the isosurface in a smooth solid model."
 
 msgid "Trans"
-msgstr "NOTTRANSLATED"
+msgstr "Trans"
 
 msgid "等値面の透明度を指定します。 （0: 不透明、1: 透明）"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the transparency of the isosurface. (0: opaque, 1: transparent)"
 
 msgid "X, Y, Z"
-msgstr "NOTTRANSLATED"
+msgstr "X, Y, Z"
 
 msgid "分子軌道などのメッシュ（スカラー場）情報が読み込まれた場合、チェックを入れた面に対しコンターマップ（等高線）を描画します。コンターマップの位置はスライダーで調整可能です。"
-msgstr "NOTTRANSLATED"
+msgstr "When mesh (scalar field) information such as molecular orbital is read, draw contour map (contour line) against the checked surface. The position of the contour map can be adjusted with the slider."
 

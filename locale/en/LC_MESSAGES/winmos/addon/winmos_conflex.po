@@ -19,8 +19,8 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "CONFLEX"
-msgstr "NOTTRANSLATED"
+msgstr "CONFLEX"
 
 msgid "CONFLEXの計算条件を設定し実行します。"
-msgstr "NOTTRANSLATED"
+msgstr "Set and execute the calculation condition of CONFLEX."
 

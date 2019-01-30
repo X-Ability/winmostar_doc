@@ -1,0 +1,269 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+
+msgid ":menuselection:`MD --> Amber` メニュー"
+msgstr ": menuselection: `MD -&gt; Amber` menu"
+
+msgid "Amberに関するメニューです。"
+msgstr "It is a menu related to Amber."
+
+msgid ""
+"WinmostarではAmberをCygwin環境上で実行するため、本機能を利用するためには :ref:`cygwin_wmのセットアップ "
+"<install_cygwinwm>` が必要です。"
+msgstr "Since Winmostar runs Amber on the Cygwin environment, in order to use this function, you need to set up: ref: `cygwin_wm <install_cygwinwm> `Is required."
+
+msgid "LEaPキーワード設定"
+msgstr "LEaP keyword setting"
+
+msgid ""
+"tLEaPを用いて座標（crd）、トポロジ（prmtop）ファイルを作成する条件を設定します。 "
+"各項目を選択して指定し、[OK]ボタンをクリックします。"
+msgstr "Use tLEaP to set conditions for creating coordinate (crd) and topology (prmtop) files. Select each item, specify it, and click the [OK] button."
+
+msgid "Force Field"
+msgstr "Force Field"
+
+msgid "力場の種類を選択します。"
+msgstr "Select the type of force field."
+
+msgid "Add Na+"
+msgstr "Add Na +"
+
+msgid "Naイオンを追加するか指定し、その数を指定します。"
+msgstr "Specify whether to add Na ion, and specify the number."
+
+msgid "Add Cl-"
+msgstr "Add Cl-"
+
+msgid "Clイオンを追加するか指定し、その数を指定します。"
+msgstr "Specify whether to add Cl ions and specify the number."
+
+msgid "Solvate"
+msgstr "Solvate"
+
+msgid "水分子を追加するか指定します。"
+msgstr "Specify whether to add water molecules."
+
+msgid "Box/Octahedron"
+msgstr "Box/Octahedron"
+
+msgid "ボックスタイプを指定します。"
+msgstr "Specify the box type."
+
+msgid "Solvent"
+msgstr "Solvent"
+
+msgid "溶媒の種類を指定します。"
+msgstr "Specify the type of solvent."
+
+msgid "Distance"
+msgstr "Distance"
+
+msgid "溶質とボックス境界の距離を指定します。"
+msgstr "Specify the distance between the solute and the box boundary."
+
+msgid "Other LEaP Commands"
+msgstr "Other LEaP Commands"
+
+msgid "その他のLEaPコマンドを記述します。"
+msgstr "Write other LEaP commands."
+
+msgid "LEaP実行"
+msgstr "Execute LEaP"
+
+msgid ""
+"tLEaPを用いて座標（crd）ファイルおよびトポロジ（prmtop）ファイルを作成します。 "
+"（拡張子を除くcrdファイル名）_leap_tmpという名前の作業フォルダを作成して、そのフォルダで処理が行われます。"
+msgstr "Create coordinates (crd) file and topology (prmtop) file using tLEaP. (Crd file name except extension) Create a working folder named _leap_tmp, and processing will be done in that folder."
+
+msgid "sanderキーワード設定"
+msgstr "sander keyword setting"
+
+msgid "sanderによる計算を実行するための条件を設定します。 各項目を選択して指定し、[OK]ボタンをクリックします。"
+msgstr "Set conditions for executing calculation by sander. Select each item, specify it, and click the [OK] button."
+
+msgid "Basic"
+msgstr "Basic"
+
+msgid "imin"
+msgstr "imin"
+
+msgid "エネルギー最小化を行うか指定します。"
+msgstr "Specify whether to perform energy minimization."
+
+msgid "igb"
+msgstr "igb"
+
+msgid "溶媒モデルを指定します。"
+msgstr "Specify the solvent model."
+
+msgid "ntb"
+msgstr "ntb"
+
+msgid "周期境界条件かどうか指定します。"
+msgstr "Specify whether it is a periodic boundary condition or not."
+
+msgid "ntt"
+msgstr "ntt"
+
+msgid "温度スケーリングを指定します。"
+msgstr "Specify temperature scaling."
+
+msgid "tempi"
+msgstr "times"
+
+msgid "初期温度を指定します。"
+msgstr "Specify the initial temperature."
+
+msgid "temp0"
+msgstr "temp0"
+
+msgid "参照温度を指定します。"
+msgstr "Specify the reference temperature."
+
+msgid "nstlim"
+msgstr "I NSTL"
+
+msgid "MDステップの数を指定します。"
+msgstr "Specify the number of MD steps."
+
+msgid "Advance"
+msgstr "Advance"
+
+msgid "maxcyc"
+msgstr "maxcyc"
+
+msgid "最大サイクル数を指定します。"
+msgstr "Specify the maximum number of cycles."
+
+msgid "ncyc"
+msgstr "NCYC"
+
+msgid "最大勾配法のアルゴリズムを使用するサイクル数を指定します。"
+msgstr "Specify the number of cycles using the maximum gradient algorithm."
+
+msgid "gamma_ln"
+msgstr "gamma_ln"
+
+msgid "衝突頻度γを指定します。"
+msgstr "Specify the collision frequency γ."
+
+msgid "dt"
+msgstr "DT"
+
+msgid "時間ステップを指定します。"
+msgstr "Specify a time step."
+
+msgid "cut"
+msgstr "cut"
+
+msgid "カットオフ距離を指定します。"
+msgstr "Specify the cutoff distance."
+
+msgid "ntpr"
+msgstr "ntpr"
+
+msgid "エネルギー値、温度などの出力頻度を指定します。"
+msgstr "Specify output frequency such as energy value, temperature."
+
+msgid "ntwx"
+msgstr "ntwx"
+
+msgid "座標をトラジェクトリファイルに出力する頻度を指定します。"
+msgstr "Specify how often the coordinates are output to the trajectory file."
+
+msgid "QM/MM"
+msgstr "QM / MM"
+
+msgid "Use qmmm"
+msgstr "Use qmmm"
+
+msgid "ifqnt=1にし、&qmmm namelistを加え、QM/MM/MD計算のための設定を有効にします。"
+msgstr "Set ifqnt = 1, add &amp; qmmm namelist, and enable the setting for QM / MM / MD calculation."
+
+msgid "qm_theory"
+msgstr "qm_theory"
+
+msgid "QM領域で用いる計算手法を選択します。"
+msgstr "Select the calculation method used in the QM region."
+
+msgid "qmcharge"
+msgstr "qmcharge"
+
+msgid "QM領域のnet chargeを指定します。"
+msgstr "Specify the net charge of the QM area."
+
+msgid "qmshake"
+msgstr "qmshake"
+
+msgid "QM領域のH原子へのSHAKE法の適用を指定します。"
+msgstr "Specify the application of the SHAKE method to the H atom in the QM region."
+
+msgid "qm_ewald"
+msgstr "qm_ewald"
+
+msgid "QM領域へのEwald法の適用を指定します。"
+msgstr "Specify the application of the Ewald method to the QM region."
+
+msgid "qm_pme"
+msgstr "qm_pme"
+
+msgid "QM領域へのPME法の適用を指定します。"
+msgstr "Specify the application of the PME method to the QM region."
+
+msgid "qmmask"
+msgstr "qmmask"
+
+msgid ""
+"[Set]ボタンを押すと、メイン画面で選択された原子をQM領域として設定します。 "
+"メイン画面においてCtrl＋ドラッグにより選択された青色の原子が対象となります。"
+msgstr "When you press the [Set] button, the atom selected on the main screen is set as the QM area. Blue atoms selected by Ctrl + drag on the main screen are targeted."
+
+msgid "Misc"
+msgstr "Misc"
+
+msgid "Other Settings"
+msgstr "Other Settings"
+
+msgid "その他の設定を記述します。"
+msgstr "Write the other settings."
+
+msgid "sander実行"
+msgstr "Run sander"
+
+msgid "sanderを実行します。 （拡張子を除くcrdファイル名）_amb_tmpという名前の作業フォルダを作成して、そのフォルダで処理が行われます。"
+msgstr "Run sander. (Crd filename excluding extension) Create a working folder named _amb_tmp, and processing will be done in that folder."
+
+msgid "座標ファイル読み込み"
+msgstr "Read coordinate file"
+
+#, fuzzy
+msgid "Amber形式の座標（crd）ファイルとトポロジ（prmtop）ファイルを読み込みメインウィンドウに表示します。"
+msgstr "Load Amber coordinates (crd) file and topology (prmtop) file and display them in the main window."
+
+msgid "トラジェクトリ読み込み"
+msgstr "Trajectory reading"
+
+msgid "mdcrdファイルをptrajで変換したPDBファイルからトラジェクトリの座標をインポートします。"
+msgstr "Import the coordinates of the trajectory from the PDB file converted from mdcrd file with ptraj."
+
+msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
+msgstr "For the animation display operation method, see: ref: `animation_top`."
+
+msgid "エネルギー変化"
+msgstr "Energy change"
+
+msgid "計算結果のlogファイルからエネルギーのグラフを表示します。"
+msgstr "Display the energy graph from the calculated log file."
+
+#, fuzzy
+msgid "サブウィンドウの操作方法は :ref:`energyplot_top` を参照してください。"
+msgstr "Please see: ref: `energyplot_top` for how to operate subwindow."
+

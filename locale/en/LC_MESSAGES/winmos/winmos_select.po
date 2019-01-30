@@ -192,30 +192,30 @@ msgid "残基名、原子名はPDBまたはgro形式のファイルを開いた�
 msgstr "The residue name and atom name can be used when PDB or gro format file is opened."
 
 msgid "論理演算子を用いた複合的な構文"
-msgstr "NOTTRANSLATED"
+msgstr "Composite syntax using logical operators"
 
 msgid "``(compid 1) and (site 1)``"
-msgstr "NOTTRANSLATED"
+msgstr "``(compid 1) and (site 1)``"
 
 msgid "CompIDが1の分子種で、かつ分子内の1番目のサイトを選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "It is a molecular species whose CompID is 1 and the first site in the molecule is selected."
 
 msgid "``(current) and (element H)``"
-msgstr "NOTTRANSLATED"
+msgstr "``(current) and (element H)``"
 
 msgid "現在グループ選択されている原子の中で水素原子だけを選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select only hydrogen atom among atoms currently selected in the group."
 
 msgid "``(resname GLY) and (not (element H))``"
-msgstr "NOTTRANSLATED"
+msgstr "``(resname GLY) and (not (element H))``"
 
 msgid "残基名がGLYで、かつ水素以外の原子を選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the atom whose residue name is GLY and other than hydrogen."
 
 msgid ""
 "``and`` 、 ``not`` 以外に ``or`` と ``xor`` を使用可能です。 "
 "これらの論理演算子を使用する際には上記の例のように丸括弧 ``()`` を使用してください。"
-msgstr "NOTTRANSLATED"
+msgstr "In addition to `` and``, `` not`` you can use `` or`` and `` xor``. When using these logical operators, use the parentheses `` () `` as in the example above."
 
 msgid "マーカーで分断される部分構造をグループ選択"
 msgstr "Select Partial Structure Split by 2 Marked Atoms"

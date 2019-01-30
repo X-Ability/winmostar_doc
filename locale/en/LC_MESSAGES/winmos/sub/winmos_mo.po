@@ -20,7 +20,7 @@ msgstr "NOTTRANSLATED"
 
 #, fuzzy
 msgid "Energy Level Diagramウィンドウ"
-msgstr "NOTTRANSLATED"
+msgstr "Energy Level Diagram window"
 
 #, fuzzy
 msgid ""
@@ -28,23 +28,23 @@ msgid ""
 ":ref:`MO Plotウィンドウ <cube_top>` の :guilabel:`Selected MO` 欄に反映されます。 "
 ":guilabel:`HOMO:` にHOMO準位の番号、 :guilabel:`HOMO-LUMO Gap:` にHOMO-"
 "LUMOギャップが表示されます。"
-msgstr "NOTTRANSLATED"
+msgstr "We display energy of molecular orbital in numerical value and diagram. By clicking in the list of numerical values or in the diagram, its molecular orbital is selected and the: ref: `MO Plot window <cube_top> It is reflected in `: guilabel:` Selected MO`. : guilabel: HOMO - LUMO gap is displayed on the number of the HOMO level in `HOMO:`,: guilabel: `HOMO - LUMO Gap:`."
 
 msgid "スライダー"
-msgstr "NOTTRANSLATED"
+msgstr "slider"
 
 msgid "ダイアグラムの原点と拡大率を調整します。"
-msgstr "NOTTRANSLATED"
+msgstr "Adjust the origin and magnification of the diagram."
 
 msgid ":guilabel:`Excel` ボタン"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `Excel` button"
 
 msgid "エネルギー値をCSVファイルに保存して、Excelで開きます。"
-msgstr "NOTTRANSLATED"
+msgstr "Save the energy value in a CSV file and open it in Excel."
 
 msgid ":guilabel:`Close` ボタン"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `Close` button"
 
 msgid "ウィンドウを閉じます。"
-msgstr "NOTTRANSLATED"
+msgstr "Close the window."
 

@@ -19,237 +19,237 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "表示メニュー"
-msgstr "NOTTRANSLATED"
+msgstr "Display Menu"
 
 msgid "キーワード&座標表示エリアを表示"
-msgstr "NOTTRANSLATED"
+msgstr "Display keyword &amp; coordinate display area"
 
 #, fuzzy
 msgid "メインウィンドウでキーワード表示エリアと座標表示エリアの表示・非表示を切り替えます。"
-msgstr "NOTTRANSLATED"
+msgstr "Switch display / non-display of keyword display area and coordinate display area on the main window."
 
 msgid "三面図を表示"
-msgstr "NOTTRANSLATED"
+msgstr "Show three view"
 
 msgid "分子表示エリアを三面図表示にします。"
-msgstr "NOTTRANSLATED"
+msgstr "Make the molecule display area three-sided."
 
 msgid "表示をリセット"
-msgstr "NOTTRANSLATED"
+msgstr "Reset display"
 
 msgid "カメラをデフォルト位置に戻します。"
-msgstr "NOTTRANSLATED"
+msgstr "Return the camera to the default position."
 
 msgid "表示方向を変更"
-msgstr "NOTTRANSLATED"
+msgstr "Change display direction"
 
 msgid "カメラの視線の方向を変更します。"
-msgstr "NOTTRANSLATED"
+msgstr "Change the direction of the line of sight of the camera."
 
 msgid "拡大/縮小"
-msgstr "NOTTRANSLATED"
+msgstr "Scaling"
 
 msgid "視野を拡大または縮小します。"
-msgstr "NOTTRANSLATED"
+msgstr "Expand or reduce the field of view."
 
 msgid "常に中心を注視"
-msgstr "NOTTRANSLATED"
+msgstr "Always looking at the center"
 
 msgid "ここにチェックが入っている場合は、表示されている分子構造が変化しても、常にその時点での重心がカメラの注視点となります。入っていない場合は、明示的に視線を変更しない限り注視点が変化しません。"
-msgstr "NOTTRANSLATED"
+msgstr "If checked here, even if the displayed molecular structure changes, the center of gravity at that point will always be the gaze point of the camera. If it is not entered, gaze point will not change unless explicit gaze change."
 
 msgid "選択原子を注視"
-msgstr "NOTTRANSLATED"
+msgstr "Focus on selected atoms"
 
 msgid "マーカー（太赤丸）で付いた原子を注視点に指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify atom attached with marker (thick red circle) as gaze point."
 
 msgid "平行移動"
-msgstr "NOTTRANSLATED"
+msgstr "Translation"
 
 #, fuzzy
 msgid "メインウィンドウで左ドラッグすると、視線が平行移動します。"
-msgstr "NOTTRANSLATED"
+msgstr "Drag left on the main window to move the line of sight in parallel."
 
 msgid "回転"
-msgstr "NOTTRANSLATED"
+msgstr "rotation"
 
 msgid "自由回転"
-msgstr "NOTTRANSLATED"
+msgstr "Free rotation"
 
 #, fuzzy
 msgid "メインウィンドウで左ドラッグすると、注視点を中心にカメラが回転します。"
-msgstr "NOTTRANSLATED"
+msgstr "Drag left in the main window to rotate the camera around the point of interest."
 
 msgid "X, Y, Z軸周りで回転"
-msgstr "NOTTRANSLATED"
+msgstr "Rotate around X, Y, Z axis"
 
 #, fuzzy
 msgid "メインウィンドウで左ドラッグすると、各軸の周りでカメラが回転します。"
-msgstr "NOTTRANSLATED"
+msgstr "Drag left in the main window to rotate the camera around each axis."
 
 msgid "表示を回転"
-msgstr "NOTTRANSLATED"
+msgstr "Rotate display"
 
 #, fuzzy
 msgid "メインウィンドウで左ドラッグすると、表示が回転します。"
-msgstr "NOTTRANSLATED"
+msgstr "Drag left in the main window to rotate the display."
 
 msgid "遠近法を使用"
-msgstr "NOTTRANSLATED"
+msgstr "Use Perspective"
 
 msgid "ここにチェックが入っている場合は、分子表示エリアに遠近法が適用されます。"
-msgstr "NOTTRANSLATED"
+msgstr "If checked here, perspective is applied to the molecular display area."
 
 msgid "表示項目"
-msgstr "NOTTRANSLATED"
+msgstr "Representation project"
 
 msgid "分子表示エリアに表示する項目にチェックを入れます。"
-msgstr "NOTTRANSLATED"
+msgstr "Check the items to be displayed in the molecular display area."
 
 msgid "ラベル/電荷"
-msgstr "NOTTRANSLATED"
+msgstr "Label / Charge"
 
 msgid "分子表示エリアにおいて、各原子の脇にラベル（注釈）と、電荷の大きさを示す球を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "In the molecular display area, a label (annotation) and a sphere showing the magnitude of the charge are displayed beside each atom."
 
 msgid "(ラベル/電荷を隠す)"
-msgstr "NOTTRANSLATED"
+msgstr "(Label / Hide charge)"
 
 msgid "ラベルと電荷の表示を隠します。（初期状態）"
-msgstr "NOTTRANSLATED"
+msgstr "Hides the label and charge display. (initial state)"
 
 msgid "番号&元素"
-msgstr "NOTTRANSLATED"
+msgstr "Number &amp; element"
 
 msgid "原子の通し番号と元素名を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "It displays the serial number of the atom and the element name."
 
 msgid "Mulliken電荷"
-msgstr "NOTTRANSLATED"
+msgstr "Mulliken charge"
 
 msgid "各種ログファイルを開いた際に読み込まれるMulliken電荷を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Displays the Mulliken charge read when various log files are opened."
 
 msgid "ESP電荷"
-msgstr "NOTTRANSLATED"
+msgstr "ESP charge"
 
 msgid "各種ログファイルを開いた際に読み込まれるESPまたはRESP電荷を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Displays ESP or RESP charge read when various log files are opened."
 
 msgid "Lowdin電荷"
-msgstr "NOTTRANSLATED"
+msgstr "Lowdin charge"
 
 msgid "各種ログファイルを開いた際に読み込まれるLowdin電荷を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Displays Lowdin charge read when various log files are opened."
 
 msgid "User電荷"
-msgstr "NOTTRANSLATED"
+msgstr "User charge"
 
 msgid ":menuselection:`編集 --> 属性を変更 -->` :ref:`edit_property_charge` や"
-msgstr "NOTTRANSLATED"
+msgstr ": menuselection: `edit -&gt; change attributes -&gt;`: ref: `edit_property_charge` and"
 
 msgid ":menuselection:`MD --> 電荷を割り当て` などの機能でユーザが割り当てた電荷を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr ": menuselection: `MD -&gt; charge allocation` and other functions to display the charge assigned by the user."
 
 msgid "スピン密度"
-msgstr "NOTTRANSLATED"
+msgstr "Spin density"
 
 msgid "各種ログファイルを開いた際に読み込まれるスピン密度や"
-msgstr "NOTTRANSLATED"
+msgstr "Spin density read when various log files are opened"
 
 msgid ""
 ":menuselection:`編集 --> 属性を変更 -->` :ref:`edit_property_charge` "
 "で割り当てたスピン密度を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr ": menuselection: `Edit -&gt; Change Attributes -&gt; Display the spin density assigned by`: ref: `edit_property_charge`."
 
 msgid "双極子/遷移モーメント"
-msgstr "NOTTRANSLATED"
+msgstr "Dipole / transition moment"
 
 msgid "双極子/遷移モーメントを表示"
-msgstr "NOTTRANSLATED"
+msgstr "Display dipole / transition moment"
 
 msgid "各種ログファイルを開いた際に読み込まれる双極子モーメントまたは遷移モーメントを表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Displays the dipole moment or transition moment read when various log files are opened."
 
 msgid "遷移モーメントを選択"
-msgstr "NOTTRANSLATED"
+msgstr "Select transition moment"
 
 msgid "表示する遷移モーメントを選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the transition moment to be displayed."
 
 msgid "スケールを変更"
-msgstr "NOTTRANSLATED"
+msgstr "Change scale"
 
 msgid "双極子/遷移モーメントを表示する際の大きさを指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the magnitude when displaying dipole / transition moment."
 
 msgid "分子の表現形式"
-msgstr "NOTTRANSLATED"
+msgstr "Molecular expression form"
 
 msgid "分子の表現方法（モデル）を選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the expression method (model) of the molecule."
 
 msgid "周期境界条件の表現形式"
-msgstr "NOTTRANSLATED"
+msgstr "Representation format of periodic boundary condition"
 
 msgid ""
 "セルが作成されている状態で、原子座標がセルの上端・下端よりも小さい値の場合の表示方法を示します。本機能で座標の値そのものは変化しません。 "
 ":menuselection:`編集 -->` :ref:`edit_wrap_pbc` "
 "を使うと本機能で表示されている原子の位置に座標の値を設定することができます。"
-msgstr "NOTTRANSLATED"
+msgstr "The display method when the atomic coordinates are smaller than the top and bottom of the cell while the cell is being created is shown below. The coordinate value itself does not change with this function. : menuselection: `edit -&gt;`: ref: `edit_wrap_pbc`, you can set the value of the coordinates to the position of the atom displayed in this function."
 
 msgid "Winmostar Viewer"
-msgstr "NOTTRANSLATED"
+msgstr "Winmostar Viewer"
 
 msgid "分子表示エリアで表示している構造を :ref:`winmos3d_top` を用いて表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Display the structure displayed in the molecular display area using: ref: `winmos3d_top`."
 
 msgid "外部ビューア"
-msgstr "NOTTRANSLATED"
+msgstr "External viewer"
 
 msgid "分子表示エリアで表示している構造を各種の外部プログラムで表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Displays the structure displayed in the molecular display area with various external programs."
 
 msgid "Jmol"
-msgstr "NOTTRANSLATED"
+msgstr "Jmol"
 
 msgid "Jmolを起動します。"
-msgstr "NOTTRANSLATED"
+msgstr "Start Jmol."
 
 msgid "VRML"
-msgstr "NOTTRANSLATED"
+msgstr "VRML"
 
 msgid "VRML形式のファイルを出力し、VRMLビューアを起動します。"
-msgstr "NOTTRANSLATED"
+msgstr "Output the VRML format file and start the VRML viewer."
 
 msgid "Mercury"
-msgstr "NOTTRANSLATED"
+msgstr "Mercury"
 
 msgid "Mercuryを起動します。読込み中のファイルがCIFの場合はそのファイルを使用します。"
-msgstr "NOTTRANSLATED"
+msgstr "Start Mercury. If the file being read is CIF, use that file."
 
 msgid "ChemscapeChime"
-msgstr "NOTTRANSLATED"
+msgstr "ChemscapeChime"
 
 msgid "MDL Chimeを起動します。"
-msgstr "NOTTRANSLATED"
+msgstr "Start MDL Chime."
 
 msgid "レイトレーシング(POV-Ray)"
-msgstr "NOTTRANSLATED"
+msgstr "Ray tracing (POV - Ray)"
 
 msgid "POV-Ray形式のファイルを出力し、POV-Rayを用いてレンダリングします。"
-msgstr "NOTTRANSLATED"
+msgstr "It outputs a file in POV - Ray format and renders it using POV - Ray."
 
 msgid "OpenSCAD"
-msgstr "NOTTRANSLATED"
+msgstr "OpenSCAD"
 
 msgid "OpenSCAD形式のファイルを出力し、OpenSCADを起動します。 3Dプリンタ用のデータを作成できます。"
-msgstr "NOTTRANSLATED"
+msgstr "Output the OpenSCAD format file and start OpenSCAD. You can create data for 3D printers."
 
 msgid "画像をコピー"
-msgstr "NOTTRANSLATED"
+msgstr "Copy image"
 
 msgid "分子表示エリアの画像をクリップボードにコピーします。"
-msgstr "NOTTRANSLATED"
+msgstr "Copy the image of the molecule display area to the clipboard."
 

@@ -19,999 +19,999 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid ":menuselection:`MD --> Gromacs` メニュー"
-msgstr "NOTTRANSLATED"
+msgstr ": menuselection: `MD -&gt; Gromacs` menu"
 
 msgid "Gromacsに関するメニューです。"
-msgstr "NOTTRANSLATED"
+msgstr "It is a menu about Gromacs."
 
 msgid ""
 "WinmostarではGromacsをCygwin環境上で実行するため、本機能を利用するためには :ref:`cygwin_wmのセットアップ "
 "<install_cygwinwm>` が必要です。"
-msgstr "NOTTRANSLATED"
+msgstr "Because Winmostar runs Gromacs on the Cygwin environment, in order to use this function, please set up: ref: `cygwin_wm <install_cygwinwm> `Is required."
 
 msgid "キーワード設定"
-msgstr "NOTTRANSLATED"
+msgstr "Keyword setting"
 
 #, fuzzy
 msgid ""
 "Gromacsの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は"
 " :guilabel:`OK` ボタンを押してください。"
-msgstr "NOTTRANSLATED"
+msgstr "Set calculation conditions of Gromacs. To set up the calculations immediately after setting: guilabel: `Run` button, once to return to the main window please press: guilabel:` OK` button."
 
 msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`md_gromacs_start` を参照してください。"
-msgstr "NOTTRANSLATED"
+msgstr "See: ref: `md_gromacs_start` for the behavior when clicking guilabel:` Run`."
 
 msgid ""
 ":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 :guilabel:`Save` ボタンでForce "
 "Fieldを除く設定を保存します。 :guilabel:`Load` ボタンで :guilabel:`Save` にて保存した設定を読み込みます。"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `Reset` button to return to the default state. : guilabel: Save the setting except Force Field with `Save` button. : guilabel: Load the setting saved by: guilabel: `Save` with the` Load` button."
 
 msgid "Extending Simulation"
-msgstr "NOTTRANSLATED"
+msgstr "Extending Simulation"
 
 msgid "継続ジョブを実行します。"
-msgstr "NOTTRANSLATED"
+msgstr "Execute a continuous job."
 
 msgid "詳細は :ref:`md_gromacs_start` を参照してください。"
-msgstr "NOTTRANSLATED"
+msgstr "For details, see: ref: `md_gromacs_start`."
 
 msgid "Preset"
-msgstr "NOTTRANSLATED"
+msgstr "Preset"
 
 msgid "計算条件のプリセットを指定します。プリセットの内容は、各キーワードから確認できます。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the preset of the calculation condition. The preset contents can be confirmed from each keyword."
 
 msgid "# of Threads"
-msgstr "NOTTRANSLATED"
+msgstr "# of Threads"
 
 msgid "スレッド並列数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the thread parallel number."
 
 msgid "MPI (for Remote Job)"
-msgstr "NOTTRANSLATED"
+msgstr "MPI (for Remote Job)"
 
 msgid "MPI並列数を指定します。 リモートジョブ投入で実行するときのみ反映されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify MPI parallel number. It is reflected only when executing by remote job submission."
 
 msgid "Basic"
-msgstr "NOTTRANSLATED"
+msgstr "Basic"
 
 msgid "Run Control"
-msgstr "NOTTRANSLATED"
+msgstr "Run Control"
 
 msgid "dt"
-msgstr "NOTTRANSLATED"
+msgstr "DT"
 
 msgid "数値積分における1ステップの時間刻みを指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify one step increment in numerical integration."
 
 msgid "nsteps"
-msgstr "NOTTRANSLATED"
+msgstr "nsteps"
 
 msgid "計算するステップ数の最大値を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the maximum number of steps to calculate."
 
 msgid "integrator"
-msgstr "NOTTRANSLATED"
+msgstr "integrator"
 
 msgid "計算アルゴリズムを指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the calculation algorithm."
 
 msgid "Velocity Generation"
-msgstr "NOTTRANSLATED"
+msgstr "Velocity Generation"
 
 msgid "gen-vel"
-msgstr "NOTTRANSLATED"
+msgstr "gene-well"
 
 msgid "初速度を生成するか指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify whether to generate the initial speed."
 
 msgid "Fix random seed"
-msgstr "NOTTRANSLATED"
+msgstr "Fix random seed"
 
 msgid "チェックを入れるとgen-seedを使用します。"
-msgstr "NOTTRANSLATED"
+msgstr "When checked, gen-seed will be used."
 
 msgid "gen-seed"
-msgstr "NOTTRANSLATED"
+msgstr "gen-seed"
 
 msgid "初速度のrandom seedを指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the initial speed random seed."
 
 msgid "Explicitly set gen-temp"
-msgstr "NOTTRANSLATED"
+msgstr "Explicitly set gen-temp"
 
 msgid "チェックを入れた場合はここで初速度の温度をしていします。入れない場合はref-tが初速度の温度となります。"
-msgstr "NOTTRANSLATED"
+msgstr "If checked, I will do the initial speed temperature here. If you do not enter ref - t will be the initial speed temperature."
 
 msgid "Temperature Coupling"
-msgstr "NOTTRANSLATED"
+msgstr "Temperature Coupling"
 
 msgid "tcoupl"
-msgstr "NOTTRANSLATED"
+msgstr "tcoupl"
 
 msgid "温度制御のアルゴリズムを選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the temperature control algorithm."
 
 msgid "tc-grps"
-msgstr "NOTTRANSLATED"
+msgstr "tc-grps"
 
 msgid "温度制御対象のグループを指定します（スペース区切りで複数設定可）。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the group to be temperature controlled (more than one can be set with a space delimiter)."
 
 msgid "ref-t"
-msgstr "NOTTRANSLATED"
+msgstr "ref-t"
 
 msgid "設定温度を指定します（スペース区切りで複数設定可）。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the set temperature (Multiple settings can be set with a space delimiter)."
 
 msgid "tau-t"
-msgstr "NOTTRANSLATED"
+msgstr "year-t"
 
 msgid "温度制御の時定数を指定します（スペース区切りで複数設定可）。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the time constant for temperature control (more than one can be set with a space delimiter)."
 
 msgid "Pressure Coupling"
-msgstr "NOTTRANSLATED"
+msgstr "Pressure Coupling"
 
 msgid "pcoupl"
-msgstr "NOTTRANSLATED"
+msgstr "pcoupl"
 
 msgid "圧力制御のアルゴリズムを選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select pressure control algorithm."
 
 msgid "pcoupltype"
-msgstr "NOTTRANSLATED"
+msgstr "pcoupltype"
 
 msgid "圧力制御におけるセルの動かし方を示します。"
-msgstr "NOTTRANSLATED"
+msgstr "It shows how to move cells in pressure control."
 
 msgid "ref-p"
-msgstr "NOTTRANSLATED"
+msgstr "ref-p"
 
 msgid "設定圧力を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify set pressure."
 
 msgid "tau-p"
-msgstr "NOTTRANSLATED"
+msgstr "year-p"
 
 msgid "圧力制御の時定数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the time constant for pressure control."
 
 msgid "compressibility"
-msgstr "NOTTRANSLATED"
+msgstr "compressibility"
 
 msgid "系全体の圧縮率を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the compression ratio of the whole system."
 
 msgid "Constraints"
-msgstr "NOTTRANSLATED"
+msgstr "Constraints"
 
 msgid "constraints"
-msgstr "NOTTRANSLATED"
+msgstr "constraints"
 
 msgid "拘束条件を選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the constraint condition."
 
 msgid "Advance"
-msgstr "NOTTRANSLATED"
+msgstr "Advance"
 
 msgid "Boundary Condition"
-msgstr "NOTTRANSLATED"
+msgstr "Boundary Condition"
 
 msgid "pbc"
-msgstr "NOTTRANSLATED"
+msgstr "pbc"
 
 msgid "周期境界条件を選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the periodic boundary condition."
 
 msgid "Energy Minimization"
-msgstr "NOTTRANSLATED"
+msgstr "Energy Minimization"
 
 msgid "emtol"
-msgstr "NOTTRANSLATED"
+msgstr "emtol"
 
 msgid "エネルギー最小化計算の収束条件であるforceの最大値を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the maximum force which is the convergence condition of energy minimization calculation."
 
 msgid "emstep"
-msgstr "NOTTRANSLATED"
+msgstr "emstep"
 
 msgid "エネルギー最小化計算における粒子を動かすステップ幅の初期値を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the initial value of step width to move particles in energy minimization calculation."
 
 msgid "comm-mode"
-msgstr "NOTTRANSLATED"
+msgstr "comm-mode"
 
 msgid "系全体の運動量の除去方法を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify how to remove the momentum of the whole system."
 
 msgid "nstcomm"
-msgstr "NOTTRANSLATED"
+msgstr "nstcomm"
 
 msgid "系全体の運動量を除去する頻度を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the frequency of removing the momentum of the whole system."
 
 msgid "Temperature/Pressure Coupling"
-msgstr "NOTTRANSLATED"
+msgstr "Temperature/Pressure Coupling"
 
 msgid "nh-chain-length"
-msgstr "NOTTRANSLATED"
+msgstr "nh-chain-length"
 
 msgid "Nose-Hoover法で温度制御した際のNose-Hoover chainの段数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the number of stages of Nose-Hoover chain when temperature is controlled by the Nose-Hoover method."
 
 msgid "nsttcouple"
-msgstr "NOTTRANSLATED"
+msgstr "nsttcouple"
 
 msgid "温度制御の頻度を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the frequency of temperature control."
 
 msgid "nstpcouple"
-msgstr "NOTTRANSLATED"
+msgstr "nstpcouple"
 
 msgid "refcoord-scaling"
-msgstr "NOTTRANSLATED"
+msgstr "refcoord-scaling"
 
 msgid "温度制御時のposition restraintの基準座標のスケーリングについて指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the scaling of the reference coordinates of position restraint during temperature control."
 
 msgid "constraint-algorithm"
-msgstr "NOTTRANSLATED"
+msgstr "constraint-algorithm"
 
 msgid "拘束アルゴリズムを選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the constraint algorithm."
 
 msgid "continuation"
-msgstr "NOTTRANSLATED"
+msgstr "continuation"
 
 msgid "親ジョブから拘束距離を引き継ぐか指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify whether to inherit the constraint distance from the parent job."
 
 msgid "lincs-order"
-msgstr "NOTTRANSLATED"
+msgstr "lincs-order"
 
 msgid "LINCS法の次数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the order of the LINCS method."
 
 msgid "lincs-iter"
-msgstr "NOTTRANSLATED"
+msgstr "Lines-way"
 
 msgid "LINCS法における反復回数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the number of iterations in the LINCS method."
 
 msgid "shake-tol"
-msgstr "NOTTRANSLATED"
+msgstr "shake-tol"
 
 msgid "SHAKE法の収束判定に用いる打ち切り誤差パラメータを指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the truncation error parameter used for the convergence judgment of the SHAKE method."
 
 msgid "Misc."
-msgstr "NOTTRANSLATED"
+msgstr "Misc."
 
 msgid "print-nose-hoover-chain-variables"
-msgstr "NOTTRANSLATED"
+msgstr "print-nose-hoover-chain-variables"
 
 msgid "温度・圧力制御パラメータを子ジョブに引き継ぐ場合に指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify this parameter when transferring temperature / pressure control parameters to a child job."
 
 msgid "define -DFLEXIBLE"
-msgstr "NOTTRANSLATED"
+msgstr "define -DFLEXIBLE"
 
 msgid "水分子をflexibleにする場合に選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select to make water molecule flexible."
 
 msgid "define -DPOSRES"
-msgstr "NOTTRANSLATED"
+msgstr "define -DPOSRES"
 
 msgid "特定分子の位置を拘束する場合に選択します。（posres.itpをincludeする）"
-msgstr "NOTTRANSLATED"
+msgstr "Select this to constrain the position of a specific molecule. (Include posres.itp)"
 
 msgid "Output"
-msgstr "NOTTRANSLATED"
+msgstr "Output"
 
 msgid "Output Control"
-msgstr "NOTTRANSLATED"
+msgstr "Output Control"
 
 msgid "nstxout"
-msgstr "NOTTRANSLATED"
+msgstr "nstxout"
 
 msgid "原子の座標を出力する頻度をステップ数で指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the frequency of atomic coordinates output in steps."
 
 msgid "nstvout"
-msgstr "NOTTRANSLATED"
+msgstr "nstvout"
 
 msgid "原子の速度を出力する頻度をステップ数で指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the frequency of atomic velocity output in steps."
 
 msgid "nstenergy"
-msgstr "NOTTRANSLATED"
+msgstr "nstenergy"
 
 msgid "エネルギーなどの系全体の統計量をedrファイル（エネルギーファイル）に出力する頻度をステップ数で指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the frequency of outputting system-wide statistics such as energy to edr file (energy file) in steps."
 
 msgid "nstxout-compressed"
-msgstr "NOTTRANSLATED"
+msgstr "nstxout-compressed"
 
 msgid "ファイルサイズを節約できるxtc形式で原子の座標を出力する頻度をステップ数で指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the frequency of atomic coordinates output in xtc format which can save file size by the step number."
 
 msgid "compressed-x-grps"
-msgstr "NOTTRANSLATED"
+msgstr "compressed-x-grps"
 
 msgid "xtc形式で出力するグループを指定します。デフォルトでは系全体が対象となります。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the group to output in xtc format. By default, the entire system is targeted."
 
 msgid "Interaction"
-msgstr "NOTTRANSLATED"
+msgstr "Interaction"
 
 msgid "Neighbor Searching"
-msgstr "NOTTRANSLATED"
+msgstr "Neighbor Searching"
 
 msgid "nstlist"
-msgstr "NOTTRANSLATED"
+msgstr "nstlist"
 
 msgid "neighbor listを更新する頻度を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify how often to update the neighbor list."
 
 msgid "ns-type"
-msgstr "NOTTRANSLATED"
+msgstr "ns-type"
 
 msgid "neighbor listを作成する方法を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify how to create the neighbor list."
 
 msgid "cutoff-shceme"
-msgstr "NOTTRANSLATED"
+msgstr "cutoff-shceme"
 
 msgid "neighbor listに含める原子の選択方法を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the method of selecting atoms to be included in the neighbor list."
 
 msgid "Use buffer-tolerance"
-msgstr "NOTTRANSLATED"
+msgstr "Use buffer-tolerance"
 
 msgid ""
 "neighbor listのカットオフ距離を自動設定する際のパラメータである、二体ポテンシャルエネルギーの打ち切り誤差を指定します。 "
 "チェックを外すとrlistの値がカットオフ距離として設定されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the truncation error of binary potential energy, which is a parameter for automatically setting the cutoff distance of the neighbor list. When unchecked, the value of rlist is set as the cutoff distance."
 
 msgid "rlist"
-msgstr "NOTTRANSLATED"
+msgstr "rlist"
 
 msgid "neighbor listのカットオフ距離を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the cutoff distance of the neighbor list."
 
 msgid "VdW"
-msgstr "NOTTRANSLATED"
+msgstr "VdW"
 
 msgid "vdwtype"
-msgstr "NOTTRANSLATED"
+msgstr "vdwtype"
 
 msgid "ファンデルワールスポテンシャルの計算手法を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the calculation method of van der Waals potential."
 
 msgid "rvdw-switch"
-msgstr "NOTTRANSLATED"
+msgstr "rvdw switch"
 
 msgid "ファンデルワールスポテンシャル計算にSwitchingを選択した際に、Switchingが始まる距離を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "When Switching is selected for Van der Waals potential calculation, specify the distance at which Switching starts."
 
 msgid "rvdw"
-msgstr "NOTTRANSLATED"
+msgstr "rvdw"
 
 msgid "ファンデルワールスポテンシャル計算のカットオフ距離を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the cutoff distance of van der Waals potential calculation."
 
 msgid "DispCorr"
-msgstr "NOTTRANSLATED"
+msgstr "DispCorr"
 
 msgid "カットオフに伴うエネルギーおよび圧力の長距離補正の有無を選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select whether long-distance correction of energy and pressure accompany cutoff."
 
 msgid "vdw-modifier"
-msgstr "NOTTRANSLATED"
+msgstr "vdw-change"
 
 msgid "ファンデルワールスポテンシャルのカットオフ時のSwitching/Shiftなどの設定を選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select settings such as Switching / Shift when Van der Waals potential cutoff."
 
 msgid "Electrostatics"
-msgstr "NOTTRANSLATED"
+msgstr "Electrostatics"
 
 msgid "coulombtype"
-msgstr "NOTTRANSLATED"
+msgstr "coulombtype"
 
 msgid "クーロンポテンシャルの計算手法を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the calculation method of coulomb potential."
 
 msgid "rcoulomb-switch"
-msgstr "NOTTRANSLATED"
+msgstr "rcoulomb-switch"
 
 msgid "クーロンポテンシャル計算にSwitchingを選択した際に、Switchingが始まる距離を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "When Switching is selected for Coulomb Potential Calculation, specify the distance at which Switching starts."
 
 msgid "rcoulomb"
-msgstr "NOTTRANSLATED"
+msgstr "rcoulomb"
 
 msgid "クーロンポテンシャル計算の実空間カットオフ距離を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the real space cutoff distance of Coulomb potential calculation."
 
 msgid "coulomb-modifier"
-msgstr "NOTTRANSLATED"
+msgstr "Coulomb-change"
 
 msgid "クーロンポテンシャルのカットオフ時のSwitching/Shiftなどの設定を選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the setting such as Switching / Shift at the cutoff of Coulomb potential."
 
 msgid "Ewald"
-msgstr "NOTTRANSLATED"
+msgstr "Ewald"
 
 msgid "Set # of grids for fourier space"
-msgstr "NOTTRANSLATED"
+msgstr "Set # of grids for fourier space"
 
 msgid "チェックを入れた場合はfourier-spacingを使用します。入れない場合はfourier-nx, ny, nzを使用します。"
-msgstr "NOTTRANSLATED"
+msgstr "If checked, use fourier-spacing. If you do not want to use it, use fourier-nx, ny, nz."
 
 msgid "fourier-spacing"
-msgstr "NOTTRANSLATED"
+msgstr "fourier-spacing"
 
 msgid "Ewald, PMEまたはPPPM法における波数空間のメッシュサイズを指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Ewald, PME or PPPM method in wave number space mesh size."
 
 msgid "fourier-nx, ny, nz"
-msgstr "NOTTRANSLATED"
+msgstr "fourier-nx, ny, nz"
 
 msgid "Ewald, PMEまたはPPPM法における波数空間のカットオフ距離またはメッシュ数（それぞれx, y, z成分）を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Ewald, PME or PPPM method to specify the cutoff distance or mesh number (x, y, z component, respectively) of wave number space."
 
 msgid "pme-order"
-msgstr "NOTTRANSLATED"
+msgstr "pme-order"
 
 msgid "PME法における外挿関数の次数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specifies the order of the extrapolation function in the PME method."
 
 msgid "ewald-rtol"
-msgstr "NOTTRANSLATED"
+msgstr "ewald-rtol"
 
 msgid "Ewald, PMEまたはPPPM法の精度パラメータを指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Ewald, PME or PPPM method accuracy parameters."
 
 msgid "Other"
-msgstr "NOTTRANSLATED"
+msgstr "Other"
 
 msgid "Other Parameters"
-msgstr "NOTTRANSLATED"
+msgstr "Other Parameters"
 
 msgid "その他の設定をmdpファイルの記述に基づき指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify other settings based on the description of the mdp file."
 
 msgid "Automatic"
-msgstr "NOTTRANSLATED"
+msgstr "Automatic"
 
 msgid "Rescale velocities to.."
-msgstr "NOTTRANSLATED"
+msgstr "Rescale velocities to.."
 
 msgid "NVEアンサンブルにおいて目標温度に系の温度を近づけたい時に使います。計算中の平均温度とここで入力した温度からスケーリング係数を算出して、最終構造の各粒子の速度をスケーリングします。"
-msgstr "NOTTRANSLATED"
+msgstr "Use it when you want to bring the system temperature closer to the target temperature in the NVE ensemble. Calculate the scaling factor from the average temperature under calculation and the temperature entered here and scale the velocity of each particle in the final structure."
 
 msgid "Rescale box size to.."
-msgstr "NOTTRANSLATED"
+msgstr "Rescale box size to.."
 
 msgid "NPTアンサンブルで計算した後に、設定圧力に近い状態でNVEまたはNVTアンサンブルで計算した場合に使用します。最終構造を、計算中の平均セルサイズにスケーリングします。"
-msgstr "NOTTRANSLATED"
+msgstr "It is used when calculating with the NVE or NVT ensemble in the state close to the set pressure after calculating with the NPT ensemble. Scale the final structure to the average cell size under calculation."
 
 msgid "Options"
-msgstr "NOTTRANSLATED"
+msgstr "Options"
 
 msgid "Make a Backup of Working Directory"
-msgstr "NOTTRANSLATED"
+msgstr "Make a Backup of Working Directory"
 
 msgid ":ref:`作業ディレクトリ <md_gromacs_start>` のバックアップを行う際に選択します。"
-msgstr "NOTTRANSLATED"
+msgstr ": ref: `working directory <md_gromacs_start> `For backup purposes."
 
 msgid "Restore Working Directory"
-msgstr "NOTTRANSLATED"
+msgstr "Restore Working Directory"
 
 msgid "継続ジョブが異常終了時など、:ref:`作業ディレクトリ <md_gromacs_start>` を実行前の状態に戻す際にクリックします。"
-msgstr "NOTTRANSLATED"
+msgstr "When the continuation job ends abnormally, such as: ref: `working directory <md_gromacs_start> `To return to the state before execution."
 
 msgid "maxwarn"
-msgstr "NOTTRANSLATED"
+msgstr "maxwarn"
 
 msgid "計算続行を許容するwarning message数の最大値を指定します（0:１つ以上のメッセージで中断）"
-msgstr "NOTTRANSLATED"
+msgstr "Allow continuation of calculation warning message Specify the maximum number of messages (0: suspend with one or more messages)"
 
 msgid "Verbose Output"
-msgstr "NOTTRANSLATED"
+msgstr "Verbose Output"
 
 msgid "計算中のステップを表示させる際に指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify this when displaying the step under calculation."
 
 msgid "Concatenate .edr and .trr files"
-msgstr "NOTTRANSLATED"
+msgstr "Concatenate .edr and .trr files"
 
 msgid ""
 "実行済の.edr ファイル及び.trrファイルとファイル結合する際にクリックします。 ファイル結合はExtending "
 "Simulationの後処理として実行されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Click to merge with the executed .edr file and .trr file. File binding is performed as postprocessing of Extending Simulation."
 
 msgid "Unwrap Atoms (trjconv -pbc nojump)"
-msgstr "NOTTRANSLATED"
+msgstr "Unwrap Atoms (trjconv -pbc nojump)"
 
 msgid "計算結果の.gro ファイル及び.trrファイルを周期境界で折り返さない(unwrapped)座標で出力します。"
-msgstr "NOTTRANSLATED"
+msgstr "Output the calculated .gro and .trr files at coordinates that do not wrap around at periodic boundaries (unwrapped)."
 
 msgid "Enable Double Precision"
-msgstr "NOTTRANSLATED"
+msgstr "Enable Double Precision"
 
 msgid "倍精度版のGromacsのバイナリでMD計算およびプリポスト処理を実行します。"
-msgstr "NOTTRANSLATED"
+msgstr "Execute MD calculation and pre-post processing with double precision version of Gromacs binary."
 
 msgid "Force Field"
-msgstr "NOTTRANSLATED"
+msgstr "Force Field"
 
 msgid "Generate parameters"
-msgstr "NOTTRANSLATED"
+msgstr "Generate parameters"
 
 #, fuzzy
 msgid "メインウィンドウに表示された系に対し、新たに力場パラメータをアサインしトポロジファイル（topファイル）を作成します。"
-msgstr "NOTTRANSLATED"
+msgstr "Assign new force field parameters to the system displayed in the main window and create a topology file (top file)."
 
 msgid "Force field"
-msgstr "NOTTRANSLATED"
+msgstr "Force field"
 
 msgid "(General)"
-msgstr "NOTTRANSLATED"
+msgstr "(General)"
 
 msgid ""
 "タンパク質、水分子以外の分子の力場を指定します。 内部では、GAFF, OPLS/AA-Lの場合は :command:`acpype` "
 "が、Dreidingの場合は内製プログラムが使用されます。 Dreidingの設定は "
 ":file:`polymer/dreiding.lib.txt` に書かれています。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the force field of molecules other than proteins and water molecules. Internally, command: `acpype` is used for GAFF, OPLS / AA-L, in-house program is used for Dreiding. The setting of Dreiding is written in: file: `polymer / dreiding.lib.txt`."
 
 msgid "Exception"
-msgstr "NOTTRANSLATED"
+msgstr "Exception"
 
 #, fuzzy
 msgid ""
 "特定の分子に対し、(General)にて選択した力場を使わず、ユーザが指定するLJパラメータを割り当てます。 "
 "サブウィンドウの左の欄にてLJパラメータを指定したい分子にチェックを入れ、右の欄でLJパラメータを入力します。"
-msgstr "NOTTRANSLATED"
+msgstr "For specific molecules, assign the user specified LJ parameters without using the force field selected in (General). In the left column of the subwindow, check the molecule you want to specify the LJ parameter and enter the LJ parameter in the right column."
 
 msgid "例えば固液界面系において固相の原子にLJパラメータを割り振りたい時などに使用します。"
-msgstr "NOTTRANSLATED"
+msgstr "For example, when you want to allocate LJ parameters to solid phase atoms in a solid-liquid interface system."
 
 msgid "(Protein)"
-msgstr "NOTTRANSLATED"
+msgstr "(Protein)"
 
 msgid ""
 "タンパク質の力場を指定します。ここで、PDBやgroフォーマットにおいてアミノ酸残基の名前が割り当てられている原子がタンパク質として認識されます。内部的には"
 " :command:`gmx pdb2gmx` が使用されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the force field of the protein. At this point, atoms assigned amino acid residue names in PDB and gro format are recognized as proteins. Internally: command: `gmx pdb 2 gmx` is used."
 
 msgid "残基名を含まないファイルから分子構造を読み込んだ場合は本機能を使用できません。"
-msgstr "NOTTRANSLATED"
+msgstr "This function can not be used when reading the molecular structure from a file not including residue name."
 
 msgid "(Water)"
-msgstr "NOTTRANSLATED"
+msgstr "(Water)"
 
 msgid ""
 "水分子の力場を指定します。 :ref:`md_solvate_buildcell` "
 "で選択した水モデルを指定する必要があります。内部的にはCygwinにインストールされたGromacsのトポロジのライブラリからパラメータを取得します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the force field of the water molecule. You must specify the selected water model with: ref: `md_solvate_buildcell`. Internally we get the parameters from the library of Gromacs topology installed in Cygwin."
 
 msgid "Charge"
-msgstr "NOTTRANSLATED"
+msgstr "Charge"
 
 msgid "Assign charges"
-msgstr "NOTTRANSLATED"
+msgstr "Assign charges"
 
 msgid ""
 ":command:`acpype` により算出する電荷を用いてトポロジファイルを作成します。 :guilabel:`Method` "
 "にはその方法を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Create a topology file using the charge calculated by: command: `acpype`. : guilabel: `Method` specifies its method."
 
 msgid ""
 "ポリマーの場合は :command:`acpype` による電荷の算出に時間がかかるため、あらかじめポリマービルダを用いて系を作成し、 "
 ":guilabel:`Use User-defined Charge` にチェックを入れてください。"
-msgstr "NOTTRANSLATED"
+msgstr "In the case of polymers, it takes time to calculate the charge by command: `acpype`, so create a system with the polymer builder in advance and check: guilabel:` Use User-defined Charge`."
 
 msgid "Use user-defined charge"
-msgstr "NOTTRANSLATED"
+msgstr "Use user-defined charge"
 
 #, fuzzy
 msgid "メインウィンドウ上で設定されている各原子の点電荷の値を用いてトポロジファイルを作成します。"
-msgstr "NOTTRANSLATED"
+msgstr "Create a topology file using the value of point charge of each atom set on the main window."
 
 #, fuzzy
 msgid ""
 "メインウィンドウ上で設定されている点電荷の値は、 :ref:`表示ボタンエリア <gui_main>` のアノテーションボタンから "
 ":guilabel:`User Charge` などを選択するか、.mol2形式で保存し :ref:`file_editor` "
 "で開くことにより確認できます。"
-msgstr "NOTTRANSLATED"
+msgstr "The value of the point charge set on the main window is: ref: `display button area <gui_main> `Annotation button: guilabel:` User Charge` etc. or save it in .mol2 format and open it with: ref: `file_editor`."
 
 msgid "Add [position_restraints] for protein"
-msgstr "NOTTRANSLATED"
+msgstr "Add [position_restraints] for protein"
 
 msgid ""
 "タンパク質が存在する場合は :guilabel:`Advance` タブにおける :guilabel:`-POSRES` "
 "で位置を拘束するための情報（ ``[position_restraints]`` "
 "セクション）をトポロジファイルに書き込みます。タンパク質が存在しない場合は無視されます。"
-msgstr "NOTTRANSLATED"
+msgstr "If a protein exists: Write information (`` [position_restraints] `` section) to constrain the position in the topology file with: guilabel: `-POSRES` on the guilabel:` Advance` tab. Ignored when protein is absent."
 
 msgid "Add [position_restraints] for selected atoms"
-msgstr "NOTTRANSLATED"
+msgstr "Add [position_restraints] for selected atoms"
 
 msgid ""
 "ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` "
 "で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。 "
 "例えば固液界面系に於いて固相を固定する場合などに使用します。"
-msgstr "NOTTRANSLATED"
+msgstr "For the molecule specified by the user, write information (`` [position_restraints] `` section) to constrain the position in the topology file with: guilabel: `-POSRES` on the: guilabel:` Advance` tab. For example, when fixing solid phase in solid-liquid interface system."
 
 msgid "Add [distance/angle/dihedral_restraints] for selected atoms"
-msgstr "NOTTRANSLATED"
+msgstr "Add [distance/angle/dihedral_restraints] for selected atoms"
 
 msgid ""
 "ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` "
 "で距離・角度・二面角を拘束するための情報をトポロジファイルに書き込みます。"
-msgstr "NOTTRANSLATED"
+msgstr "For the molecule specified by the user, write information to constrain distance, angle, dihedral angle to topology file by: guilabel: `-POSRES` on the: guilabel:` Advance` tab."
 
 msgid "Dump Now"
-msgstr "NOTTRANSLATED"
+msgstr "Dump Now"
 
 msgid "現在の設定に基づき、トポロジファイルを生成します。"
-msgstr "NOTTRANSLATED"
+msgstr "Based on the current settings, generate a topology file."
 
 msgid ""
 ":guilabel:`Load from Existing File` "
 "を選択しない場合はソルバの実行時に自動的にトポロジファイルが生成されるため、この操作は必須ではありません。"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: If you do not select `Load from Existing File`, this operation is not required, as the topology file is generated automatically when the solver is executed."
 
 msgid ""
 "トポロジファイルをエディタ等で編集してカスタマイズしたい場合は、本機能を使用して保存した上で、 :guilabel:`Load from "
 "Existing File` にて選択してください。"
-msgstr "NOTTRANSLATED"
+msgstr "If you want to edit the topology file with an editor etc. and customize it, save it using this function and select it with: guilabel: `Load from Existing File`."
 
 msgid "Load from existing file/Use parameters in displayed file"
-msgstr "NOTTRANSLATED"
+msgstr "Load from existing file/Use parameters in displayed file"
 
 #, fuzzy
 msgid ""
 "既に存在しているトポロジファイルを用いてMD計算を実行する場合に選択します。 "
 "LAMMPSの場合は、メインウィンドウで既に存在しているdataファイルを用いてMD計算を実行する場合に選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select this when executing MD calculation using topology file which already exists. In the case of LAMMPS, select this when executing MD calculation using the existing data file in the main window."
 
 msgid "Edit"
-msgstr "NOTTRANSLATED"
+msgstr "Edit"
 
 msgid "選択されたトポロジファイルをテキストエディタで編集する。"
-msgstr "NOTTRANSLATED"
+msgstr "Edit the selected topology file with a text editor."
 
 msgid "Generate Simulation Cell"
-msgstr "NOTTRANSLATED"
+msgstr "Generate Simulation Cell"
 
 #, fuzzy
 msgid ""
 "メインウィンドウにおいてシミュレーションセルが定義されていない場合のみ設定が有効となる。チェックが入っている場合は、メインウィンドウに表示された分子の周囲に"
 " :guilabel:`Distance` で指定された距離だけ離れた場所にシミュレーションセルを自動発生させる。"
-msgstr "NOTTRANSLATED"
+msgstr "The setting is valid only when simulation cells are not defined in the main window. If checked, simulation cells are automatically generated around the molecule displayed in the main window at a distance specified by: guilabel: `Distance`."
 
 msgid "Gromacs実行"
-msgstr "NOTTRANSLATED"
+msgstr "Run Gromacs"
 
 msgid "Gromacsを実行します。 状況に応じて実行方法が異なります。"
-msgstr "NOTTRANSLATED"
+msgstr "Run Gromacs. The execution method differs depending on the situation."
 
 msgid ""
 "（デフォルト） :guilabel:`Extending Simulation` にチェックがなく、 :menuselection:`Force "
 "Fieldタブ -->` :guilabel:`Generate parameters` にチェックが入っている場合"
-msgstr "NOTTRANSLATED"
+msgstr "(Default): If guilabel: `Extending Simulation` is unchecked and:: menuselection:` Force Field tab -&gt; `: guilabel:` Generate parameters` is checked"
 
 msgid "座標ファイル(拡張子：gro)とトポロジファイル(拡張子：top)を新規に生成してからジョブを開始します。"
-msgstr "NOTTRANSLATED"
+msgstr "Create a new coordinate file (extension: gro) and topology file (extension: top) before starting the job."
 
 msgid ""
 ":guilabel:`Extending Simulation` にチェックがなく、 :menuselection:`Force Fieldタブ "
 "-->` :guilabel:`Load from existing file` にチェックが入っている場合"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `Extending Simulation` is unchecked and:: menuselection:` Force Field tab -&gt; `: guilabel:` Load from existing file` is checked"
 
 #, fuzzy
 msgid ""
 "メインウィンドウで開かれている座標ファイル(拡張子：gro)と、 :guilabel:`Load from existing file` "
 "のところで指定したトポロジファイル(拡張子：top)を使用してジョブを開始します。"
-msgstr "NOTTRANSLATED"
+msgstr "Start the job using the coordinate file (extension: gro) opened in the main window and the topology file (extension: top) specified at: guilabel: `Load from existing file`."
 
 msgid ":guilabel:`Extending Simulation` にチェックがある場合"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: When &#39;Extending Simulation` is checked"
 
 #, fuzzy
 msgid ""
 "メインウィンドウで開かれている座標ファイル(拡張子：gro)に紐づけられた作業ディレクトリの中にある座標ファイル（ "
 ":file:`gmx_mdrun_tmp.gro` ）とトポロジファイル（ :file:`gmx_tmp.top` ）を用いてジョブを開始します。"
-msgstr "NOTTRANSLATED"
+msgstr "The coordinate file (: file: `gmx_mdrun_tmp.gro`) and the topology file (: file:` gmx_tmp.top`) in the working directory linked to the coordinate file (extension: gro) ) To start the job."
 
 msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.gro` の時のファイル/フォルダ名を併記しています。"
-msgstr "NOTTRANSLATED"
+msgstr "Following file will be generated with execution. As an example, the file / folder name when the input file is: file: `water.gro` is also shown."
 
 msgid "種類"
-msgstr "NOTTRANSLATED"
+msgstr "type"
 
 msgid "説明"
-msgstr "NOTTRANSLATED"
+msgstr "Description"
 
 msgid "outファイル"
-msgstr "NOTTRANSLATED"
+msgstr "out file"
 
 msgid ":file:`water.out`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`water.out`"
 
 msgid ":file:`water.sh` の標準出力のテキストファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr ": file: `water.sh` standard output text file."
 
 msgid "shファイル"
-msgstr "NOTTRANSLATED"
+msgstr "sh file"
 
 msgid ":file:`water.sh`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`water.sh`"
 
 msgid "Gromacsとそのプリ・ポスト処理を実行するための"
-msgstr "NOTTRANSLATED"
+msgstr "For running Gromacs and its pre / post processing"
 
 msgid "シェルスクリプトです。"
-msgstr "NOTTRANSLATED"
+msgstr "Shell script."
 
 msgid "batファイル"
-msgstr "NOTTRANSLATED"
+msgstr "bat file"
 
 msgid ":file:`water.gro.bat`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`water.gro.bat`"
 
 msgid ":file:`water.sh` を実行するためのバッチファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "This is a batch file for executing: file: `water.sh`."
 
 msgid "作業ディレクトリ"
-msgstr "NOTTRANSLATED"
+msgstr "Working Directory"
 
 msgid ":file:`water_gmx_tmp\\\\`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`water_gmx_tmp\\\\`"
 
 msgid "作業ディレクトリです。"
-msgstr "NOTTRANSLATED"
+msgstr "Working directory."
 
 msgid "作業ディレクトリには以下のファイルが生成されます。 ここでは主要なファイルのみ示しています。"
-msgstr "NOTTRANSLATED"
+msgstr "The following files are generated in the working directory. Only the main files are shown here."
 
 msgid ":file:`input.gro`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`input.gro`"
 
 msgid "新規ジョブの場合は、実行時に指定したgroファイルが"
-msgstr "NOTTRANSLATED"
+msgstr "In the case of a new job, the gro file specified at the time of execution is"
 
 msgid "コピーされたものです。"
-msgstr "NOTTRANSLATED"
+msgstr "It is copied."
 
 msgid "継続ジョブの場合は、前のジョブのファイルとなります。"
-msgstr "NOTTRANSLATED"
+msgstr "In case of continuous job, it becomes the file of the previous job."
 
 msgid ":file:`gmx_tmp.top`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`gmx_tmp.top`"
 
 msgid "新規ジョブの場合は、実行時に指定したtopファイルが"
-msgstr "NOTTRANSLATED"
+msgstr "In the case of a new job, the top file specified at the time of execution is"
 
 msgid ":file:`gmx_tmp.mdp`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`gmx_tmp.mdp`"
 
 msgid "計算条件を指定するファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "It is a file that specifies calculation conditions."
 
 msgid ":file:`gmx_tmp_mdrun.tpr`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`gmx_tmp_mdrun.tpr`"
 
 msgid "gro, top, mdpファイルから生成する"
-msgstr "NOTTRANSLATED"
+msgstr "Generate from gro, top, mdp file"
 
 msgid "mdrunの入力ファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "It is an input file of mdrun."
 
 msgid ":file:`gmx_tmp_mdrun.ndx`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`gmx_tmp_mdrun.ndx`"
 
 msgid "結果処理のためのインデックスファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "Index file for result processing."
 
 msgid ":file:`gmx_tmp_mdrun.edr`"
-msgstr "NOTTRANSLATED"
+msgstr ": file: `gmx_tmp_mdrun.edr`"
 
 msgid "温度・圧力・エネルギー等が納められた"
-msgstr "NOTTRANSLATED"
+msgstr "Temperature, pressure, energy etc. were stored"
 
 msgid "エネルギーファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "It is an energy file."
 
 msgid ":file:`gmx_tmp_mdrun.gro`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`gmx_tmp_mdrun.gro`"
 
 msgid "最終構造のgroファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "It is a gro file of the final structure."
 
 msgid ":file:`gmx_tmp_mdrun.trr`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`gmx_tmp_mdrun.trr`"
 
 msgid "トラジェクトリファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "It is a trajectory file."
 
 msgid ":file:`gmx_tmp_mdrun.xtc`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`gmx_tmp_mdrun.xtc`"
 
 msgid "圧縮されたトラジェクトリファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "Compressed trajectory file."
 
 msgid ":file:`gmx_tmp_mdrun.log`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`gmx_tmp_mdrun.log`"
 
 msgid "mdrunのログファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "This is the log file of mdrun."
 
 msgid "**作業ディレクトリ**"
-msgstr "NOTTRANSLATED"
+msgstr "** Working directory **"
 
 #, fuzzy
 msgid "作業ディレクトリとは、メインウィンドウで開かれているファイルの名前に接尾辞を加えた名前のフォルダです。"
-msgstr "NOTTRANSLATED"
+msgstr "A working directory is a folder whose name is the name of the file opened in the main window plus a suffix."
 
 msgid "**接尾辞はソルバの種類により変わります。**"
-msgstr "NOTTRANSLATED"
+msgstr "** The suffix varies depending on the type of solver. **"
 
 #, fuzzy
 msgid ""
 "例えばGromacsの場合は、メインウィンドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が "
 ":file:`_gmx_tmp` の場合、作業ディレクトリの名前は :file:`aaa_gmx_tmp` となります。"
-msgstr "NOTTRANSLATED"
+msgstr "For example, in the case of Gromacs, if the file opened in the main window is: file: `aaa.gro` and the suffix is: file:` _ gmx_tmp`, the working directory will be named: file: `aaa_gmx_tmp` ."
 
 #, fuzzy
 msgid "メインウィンドウで開かれているファイルと同じ階層に置かれている必要があります。"
-msgstr "NOTTRANSLATED"
+msgstr "It must be in the same hierarchy as the file opened in the main window."
 
 msgid "継続ジョブの時も同名の作業ディレクトリで処理が流れますが、デフォルトでは継続ジョブの実施直前に、直前のジョブの作業ディレクトリのバックアップが作成されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Processing continues in the working directory of the same name even when continuing jobs, but by default the backup of the working directory of the previous job is created just before the continuation job is executed."
 
 msgid ""
 "バックアップの名前は、重複する名前が存在しない範囲で一番小さい番号が付いたものになります。例えば、作業ディレクトリが "
 ":file:`aaa_gmx_tmp` のときは :file:`aaa_gmx_tmp1` となります。"
-msgstr "NOTTRANSLATED"
+msgstr "The name of the backup will be the one with the smallest number in the range where duplicate names do not exist. For example, if the working directory is: file: `aaa_gmx_tmp`, it is: file:` aaa_gmx_tmp1`."
 
 msgid "**番号が付いていないディレクトリが常に最新のものとなります。**"
-msgstr "NOTTRANSLATED"
+msgstr "** Directories without numbers are always up to date. **"
 
 msgid "ログを表示 (out)"
-msgstr "NOTTRANSLATED"
+msgstr "Display log (out)"
 
 msgid "Gromacs実行時のシェルスクリプトの標準出力（ :file:`\\*.out` ）をテキストエディタで開きます。"
-msgstr "NOTTRANSLATED"
+msgstr "Open the standard output (: file: `\\ *. Out`) of the shell script when running Gromacs with a text editor."
 
 msgid "ログを表示 (log)"
-msgstr "NOTTRANSLATED"
+msgstr "Display log (log)"
 
 msgid ""
 ":command:`gmx mdrun` のログファイル（ :file:`\\*_gmx_tmp\\\\gmx_tmp_mdrun.log` "
 "）をテキストエディタで開きます。"
-msgstr "NOTTRANSLATED"
+msgstr "Open the log file (: file: `\\ * _ gmx_tmp \\ \\ gmx_tmp_mdrun.log`) of: command:` gmx mdrun` with a text editor."
 
 msgid "アニメーション"
-msgstr "NOTTRANSLATED"
+msgstr "animation"
 
 msgid "groファイルとtrrファイルを選択し、MD計算のトラジェクトリをアニメーション表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the gro file and trr file, and animate the MD calculation trajectory."
 
 #, fuzzy
 msgid "メインウィンドウのファイル名は変化しません。"
-msgstr "NOTTRANSLATED"
+msgstr "The file name of the main window does not change."
 
 msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
-msgstr "NOTTRANSLATED"
+msgstr "For the animation display operation method, see: ref: `animation_top`."
 
 msgid "エネルギー変化"
-msgstr "NOTTRANSLATED"
+msgstr "Energy change"
 
 msgid ""
 "Gromacsが出力したedrファイルを選択し、エネルギー、温度、圧力などの各種熱力学量のグラフを表示します。内部的には "
 ":command:`gmx energy` コマンドが実行されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the edr file output by Gromacs and display a graph of various thermodynamic quantities such as energy, temperature and pressure. Internally the: command: `gmx energy` command is executed."
 
 #, fuzzy
 msgid "サブウィンドウの操作方法は :ref:`energyplot_top` を参照してください。"
-msgstr "NOTTRANSLATED"
+msgstr "Please see: ref: `energyplot_top` for how to operate subwindow."
 
 msgid "最終構造を読み込み"
-msgstr "NOTTRANSLATED"
+msgstr "Read final structure"
 
 msgid ":file:`\\*_gmx_tmp\\\\gmx_tmp_mdrun.gro` を開きます。"
-msgstr "NOTTRANSLATED"
+msgstr ": file: `\\ * _ gmx_tmp \\\\ gmx_tmp_mdrun.gro`."
 
 #, fuzzy
 msgid "本機能を使うとメインウィンドウのファイル名は変化しません。"
-msgstr "NOTTRANSLATED"
+msgstr "When using this function, the file name of the main window does not change."
 
 msgid "連続ジョブ設定"
-msgstr "NOTTRANSLATED"
+msgstr "Continuous job setting"
 
 msgid ""
 "Gromacsを連続実行するための設定を行います。プリセット以外の設定で実行したい場合は、あらかじめ実行したい計算条件を "
 ":ref:`md_gromacs_keyword` にて入力し :guilabel:`Save` ボタンでgmxset形式で保存してください。"
-msgstr "NOTTRANSLATED"
+msgstr "Configure settings to run Gromacs continuously. If you want to execute with settings other than preset, enter the calculation conditions you want to execute in advance in: ref: `md_gromacs_keyword` and save it in gmxset format with the guilabel:` Save` button."
 
 msgid "連続ジョブ実行"
-msgstr "NOTTRANSLATED"
+msgstr "Continuous job execution"
 
 msgid ":ref:`md_gromacs_seq_setup` の内容に基づきGromacsを連続実行します。"
-msgstr "NOTTRANSLATED"
+msgstr "Execute Gromacs continuously based on the contents of: ref: `md_gromacs_seq_setup`."
 
 msgid "動径分布関数"
-msgstr "NOTTRANSLATED"
+msgstr "Radial distribution function"
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、動径分布関数を表示します。 内部的には :command:`gmx rdf` "
 "コマンドが実行されます。 動径分布関数は :guilabel:`Reference Group` と :guilabel:`Target "
 "Group` の間でを計算されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the trr, tpr, ndx file output by Gromacs and display the radial distribution function. Internally the: command: `gmx rdf` command is executed. The radial distribution function is calculated between: guilabel: `Reference Group` and: guilabel:` Target Group`."
 
 msgid "Definition"
-msgstr "NOTTRANSLATED"
+msgstr "Definition"
 
 msgid "Atom"
-msgstr "NOTTRANSLATED"
+msgstr "Atom"
 
 msgid "計算対象を原子座標にします。"
-msgstr "NOTTRANSLATED"
+msgstr "Set the calculation target to atomic coordinates."
 
 msgid "Center of geometry"
-msgstr "NOTTRANSLATED"
+msgstr "Center of geometry"
 
 msgid "計算対象を分子の幾何平均座標にします。"
-msgstr "NOTTRANSLATED"
+msgstr "Make the calculation target geometric mean coordinates of the molecule."
 
 msgid "Center of mass"
-msgstr "NOTTRANSLATED"
+msgstr "Center of mass"
 
 msgid "計算対象を分子の重心位置にします。"
-msgstr "NOTTRANSLATED"
+msgstr "Make the calculation target the molecular centroid position."
 
 msgid "RDF"
-msgstr "NOTTRANSLATED"
+msgstr "RDF"
 
 msgid "動径分布関数を計算します。"
-msgstr "NOTTRANSLATED"
+msgstr "Calculate radial distribution function."
 
 msgid "Cumulative Number RDF"
-msgstr "NOTTRANSLATED"
+msgstr "Cumulative Number RDF"
 
 msgid "積算配位数を計算します。"
-msgstr "NOTTRANSLATED"
+msgstr "Calculate the integrated coordination number."
 
 msgid "Target Group"
-msgstr "NOTTRANSLATED"
+msgstr "Target Group"
 
 msgid "ここで選択したグループに属する分子・原子に対して物理量を計算します。開いたndxファイルに書かれているグループがここで選択可能です。"
-msgstr "NOTTRANSLATED"
+msgstr "Calculate the physical quantity for molecules / atoms belonging to the selected group here. A group written in the opened ndx file can be selected here."
 
 msgid "Reference Group"
-msgstr "NOTTRANSLATED"
+msgstr "Reference Group"
 
 msgid ""
 "動径分布関数などの原子対について計算する物理量の場合だけ出現します。 :guilabel:`Target Group` と "
 ":guilabel:`Reference Group` の間で物理量が計算されます。"
-msgstr "NOTTRANSLATED"
+msgstr "It only appears for physical quantities to be calculated for atom pairs such as radial distribution functions. The physical quantity is calculated between: guilabel: `Target Group` and: guilabel:` Reference Group`."
 
 msgid "Create Group"
-msgstr "NOTTRANSLATED"
+msgstr "Create Group"
 
 msgid "groファイルに書かれている原子名から新たなグループを登録します。"
-msgstr "NOTTRANSLATED"
+msgstr "Register a new group from the atom name written in the gro file."
 
 #, fuzzy
 msgid ""
 "メインウィンドウでグループ選択されている原子をグループとして定義する場合は :menuselection:`MD --> Gromacs -->`"
 " :ref:`md_gromacs_editndx` を使用してください。"
-msgstr "NOTTRANSLATED"
+msgstr "To define atoms selected as a group in the main window as a group, use: menuselection: `MD -&gt; Gromacs -&gt;`: ref: `md_gromacs_editndx`."
 
 #, fuzzy
 msgid ""
@@ -1019,255 +1019,255 @@ msgid ""
 "にチェックを入れて :guilabel:`New group Name` を入力し :guilabel:`Create` "
 "ボタンを押すと、ndxファイルにグループが追加されます。 :guilabel:`Close` ボタンを押すと :guilabel:`Target "
 "Group` や :guilabel:`Reference Group` に追加したグループが追加されます。"
-msgstr "NOTTRANSLATED"
+msgstr ": In the guilabel: `Create Group` window, check: guilabel:` Extracted Atom Names` and enter: guilabel: `New group Name` and press the guilabel:` Create` button, the group is added to the ndx file It will be added. : guilabel: When you press the `Close` button, the groups added to: guilabel:` Target Group` and: guilabel: `Reference Group` are added."
 
 msgid "First Frame"
-msgstr "NOTTRANSLATED"
+msgstr "First Frame"
 
 msgid "トラジェクトリを読み込む際の開始時間をps単位で指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the start time when trajectory is read in ps units."
 
 msgid "Draw"
-msgstr "NOTTRANSLATED"
+msgstr "Draw"
 
 msgid "結果解析用プログラムを実行してグラフを表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Execute the result analysis program and display the graph."
 
 msgid "グラフ描画エリアの操作方法は :ref:`chart_top` を参照してください。"
-msgstr "NOTTRANSLATED"
+msgstr "For how to operate the graph drawing area, see: ref: `chart_top`."
 
 msgid "平均二乗変位"
-msgstr "NOTTRANSLATED"
+msgstr "Mean square displacement"
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、平均二乗変位と自己拡散係数を表示します。 内部的には "
 ":command:`gmx msd` コマンドが実行されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Select trr, tpr, ndx files output by Gromacs and display mean square displacement and self diffusion coefficient. Internally the: command: `gmx msd` command is executed."
 
 msgid "Diffusion Constant"
-msgstr "NOTTRANSLATED"
+msgstr "Diffusion Constant"
 
 msgid ":command:`gmx msd` コマンドを使用して時間-平均二乗変位のグラフの傾きから計算された自己拡散係数を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Use the: command: `gmx msd` command to display the self-diffusion coefficient calculated from the slope of the time-mean square displacement graph."
 
 msgid "散乱関数"
-msgstr "NOTTRANSLATED"
+msgstr "Scattering function"
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、散乱関数を表示します。 内部的には :command:`gmx saxs` "
 "コマンドが実行されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the trr, tpr, ndx file output by Gromacs and display the scattering function. Internally the: command: `gmx saxs` command is executed."
 
 msgid "Interval"
-msgstr "NOTTRANSLATED"
+msgstr "Interval"
 
 msgid "散乱関数の計算に用いるスナップショットを取得する間隔を指定します。 小さくしすぎると膨大な計算が必要となるため注意が必要です。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the interval at which to acquire the snapshot used to calculate the scattering function. Attention is necessary because enormous calculation is necessary if it is too small."
 
 msgid "速度相関/振動スペクトル"
-msgstr "NOTTRANSLATED"
+msgstr "Velocity correlation / vibration spectrum"
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、速度相関関数および振動スペクトルを表示します。 内部的には "
 ":command:`gmx velacc` コマンドが実行されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Select trr, tpr, ndx files output by Gromacs, and display speed correlation function and vibration spectrum. Internally the: command: `gmx velacc` command is executed."
 
 msgid "Velocity Autocorrelation"
-msgstr "NOTTRANSLATED"
+msgstr "Velocity Autocorrelation"
 
 msgid "速度相関関数を出力します。"
-msgstr "NOTTRANSLATED"
+msgstr "Output speed correlation function."
 
 msgid "Vibration Spectrum"
-msgstr "NOTTRANSLATED"
+msgstr "Vibration Spectrum"
 
 msgid "振動スペクトルを出力します。"
-msgstr "NOTTRANSLATED"
+msgstr "Output vibration spectrum."
 
 msgid "比誘電率"
-msgstr "NOTTRANSLATED"
+msgstr "Specific rate"
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、比誘電率を表示します。 内部的には :command:`gmx "
 "dipoles` コマンドが実行されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Select trr, tpr, ndx file output by Gromacs and display relative dielectric constant. Internally the: command: `gmx dipoles` command is executed."
 
 msgid "粘度"
-msgstr "NOTTRANSLATED"
+msgstr "viscosity"
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、粘度を表示します。 内部的には :command:`gmx tcaf` "
 "コマンドが実行されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the trr, tpr, ndx file output by Gromacs and display the viscosity. Internally the: command: `gmx tcaf` command is executed."
 
 msgid "密度分布"
-msgstr "NOTTRANSLATED"
+msgstr "Density distribution"
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、密度分布を表示します。 内部的には :command:`gmx "
 "density` コマンドが実行されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Select trr, tpr, ndx files output by Gromacs and display the density distribution. Internally the: command: `gmx density` command is executed."
 
 msgid "Group"
-msgstr "NOTTRANSLATED"
+msgstr "Group"
 
 msgid "ここでチェックを入れた成分について密度分布が出力されます。"
-msgstr "NOTTRANSLATED"
+msgstr "The density distribution is output for the components that are checked here."
 
 msgid "Hildebrand溶解度パラメータ"
-msgstr "NOTTRANSLATED"
+msgstr "Hildebrand solubility parameter"
 
 msgid ""
 "Gromacsが出力したedr, groファイルから、Hildebrand溶解度パラメータを算出します。気相と液相それぞれの計算結果が必要です。 "
 "Hildebrand溶解度パラメータの算出に必要な凝集エネルギー、密度（比体積）、圧縮率の取得には、 :command:`gmx energy` "
 "コマンドが実行されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Calculate the Hildebrand solubility parameter from the edr, gro file output by Gromacs. Calculation results of gas phase and liquid phase are required. Hildebrand The: command: `gmx energy` command is executed to obtain the cohesion energy, density (specific volume) and compression rate necessary for calculating the solubility parameter."
 
 msgid "χ/DPDパラメータ"
-msgstr "NOTTRANSLATED"
+msgstr "χ / DPD parameter"
 
 msgid ""
 "Gromacsが出力したedr, groファイルから、χパラメータ・DPD "
 "aijパラメータを算出します。2つの成分の気相と液相それぞれの計算結果が必要です。 内部的には "
 ":ref:`md_gromacs_hildebrand` で計算した値を用います。"
-msgstr "NOTTRANSLATED"
+msgstr "Calculate the χ parameter · DPD aij parameter from the edr, gro file output by Gromacs. It is necessary to calculate the gas phase and liquid phase of each of the two components. Internally use the value calculated by: ref: `md_gromacs_hildebrand`."
 
 msgid "トラジェクトリを編集"
-msgstr "NOTTRANSLATED"
+msgstr "Edit trajectory"
 
 msgid ""
 "Gromacsが出力したtrrまたはxtcファイルのトラジェクトリデータについて、間引き、回転、空間分布関数の算出などの操作を行います。 "
 "内部的には :command:`gmx trjconv` コマンドが実行されます。 :guilabel:`Execute` "
 "ボタンで処理を開始します。"
-msgstr "NOTTRANSLATED"
+msgstr "For trajectory data of trr or xtc file output by Gromacs, perform operations such as thinning, rotation, calculation of spatial distribution function, etc. Internally the: command: `gmx trjconv` command is executed. : guilabel: Start processing with `Execute` button."
 
 msgid "Output interval"
-msgstr "NOTTRANSLATED"
+msgstr "Output interval"
 
 msgid "トラジェクトリを間引いて何フレームごとに出力するか指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify how many frames to output by thinning the trajectory."
 
 msgid "Postprocess"
-msgstr "NOTTRANSLATED"
+msgstr "Postprocess"
 
 msgid ""
 "処理後の動作を指定します。 :guilabel:`Spatial distribution function` を選択した場合は "
 ":command:`gmx spatial` を使います。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the operation after processing. : guilabel: If `Spatial distribution function` is selected use: command:` gmx spatial`."
 
 msgid "Target group"
-msgstr "NOTTRANSLATED"
+msgstr "Target group"
 
 msgid "出力するグループを指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the group to output."
 
 msgid "Rotate and Trans"
-msgstr "NOTTRANSLATED"
+msgstr "Rotate and Trans"
 
 msgid ""
 ":guilabel:`Reference group` で指定したグループが固定されるよう:guilabel:`Target group` "
 "で指定したグループを回転・並進移動させます。"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `Reference group` so that the specified group is fixed: rotate / translate the group specified by guilabel:` Target group`."
 
 msgid "Reference group"
-msgstr "NOTTRANSLATED"
+msgstr "Reference group"
 
 msgid ":guilabel:`Roate and Trans` におけるrefernceを指定します。"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: Specify refernce in `Roate and Trans`."
 
 msgid "Group for SDF"
-msgstr "NOTTRANSLATED"
+msgstr "Group for SDF"
 
 msgid ""
 ":guilabel:`Postprocess` にて :guilabel:`Spatial distribution function` "
 "(SDF)を選択した際に計算されるSDFをどのグループに対し計算するか指定します。"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `Postprocess`: Specify to which group the SDF calculated when guilabel:` Spatial distribution function` (SDF) is calculated is calculated."
 
 msgid "ndxファイルにグループを追加"
-msgstr "NOTTRANSLATED"
+msgstr "Add group to ndx file"
 
 #, fuzzy
 msgid "結果解析したい原子をメインウィンドウでグループ選択し、本機能を選択して既存のndxを選ぶと、グループ選択された原子のグループがndxファイルに新たに追加されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Result When you select a group on the main window in the main window, select this function, and select an existing ndx, a group of atoms selected as a group is newly added to the ndx file."
 
 msgid "RMSD"
-msgstr "NOTTRANSLATED"
+msgstr "RMSD"
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、RMSD（主にタンパク向け）を表示します。 内部的には "
 ":command:`gmx rms` コマンドが実行されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Select trr, tpr, ndx files output by Gromacs and display RMSD (mainly for proteins). Internally the: command: `gmx rms` command is executed."
 
 msgid "ここでチェックを入れた成分について結果が出力されます。通常は :guilabel:`Backbone` を選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Results are output for the components checked here. Normally: select guilabel: `Backbone`."
 
 msgid "慣性半径"
-msgstr "NOTTRANSLATED"
+msgstr "Radius of inertia"
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、回転半径（主にタンパク向け）を表示します。 内部的には "
 ":command:`gmx gyrate` コマンドが実行されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the trr, tpr, ndx file output by Gromacs and display the turning radius (mainly for proteins). Internally the: command: `gmx gyrate` command is executed."
 
 msgid "ここでチェックを入れた成分について結果が出力されます。通常はBackboneを選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Results are output for the components checked here. Normally you will select Backbone."
 
 msgid "Ramachandoranプロット"
-msgstr "NOTTRANSLATED"
+msgstr "Ramachandoran plot"
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、各アミノ酸残基のRamachandoranプロットを表示します。 内部的には "
 ":command:`gmx rama` コマンドが実行されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the trr, tpr, ndx file output by Gromacs and display the Ramachandoran plot of each amino acid residue. Internally the: command: `gmx rama` command is executed."
 
 msgid "Residue"
-msgstr "NOTTRANSLATED"
+msgstr "Residue"
 
 msgid "ここで選択した残基のRamachandoranプロットが出力されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Here a Ramachandoran plot of the selected residue is output."
 
 msgid "ER法実行"
-msgstr "NOTTRANSLATED"
+msgstr "ER method execution"
 
 msgid "エネルギー表示(ER)法を使用して溶媒和自由エネルギーを計算します。"
-msgstr "NOTTRANSLATED"
+msgstr "Calculate the solvation free energy using the energy indication (ER) method."
 
 msgid "事前に以下3つ系の計算をGromacsで実行し、それぞれの作業ディレクトリを残しておきます。エネルギー最小化などの平衡化を終えた後の、平衡状態のデータのみ使用します。"
-msgstr "NOTTRANSLATED"
+msgstr "Execute the calculation of the following three in Gromacs beforehand and leave each working directory. Only use equilibrium state data after finishing equilibration such as energy minimization."
 
 msgid "Solution system（溶質分子1個＋溶媒分子多数）"
-msgstr "NOTTRANSLATED"
+msgstr "Solution system (1 solute molecule + many solvent molecules)"
 
 msgid "Solvent system（溶媒分子多数）"
-msgstr "NOTTRANSLATED"
+msgstr "Solvent system (large number of solvent molecules)"
 
 msgid "Solute system（溶質分子1個）"
-msgstr "NOTTRANSLATED"
+msgstr "Solute system (one solute molecule)"
 
 msgid ":guilabel:`ERmod実行` タブを選択します。"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: Select the &#39;ERmod Execution&#39; tab."
 
 msgid ""
 ":guilabel:`Solution` タブでA. Solution "
 "systemの作業ディレクトリをドラッグアンドドロップします。または、xtc, log, topファイルそれぞれの欄で "
 ":guilabel:`...` ボタンを押して個々のファイルを読み込みます。"
-msgstr "NOTTRANSLATED"
+msgstr ": Drag and drop the working directory of A. Solution system on the guilabel: `Solution` tab. Or, in each column of the xtc, log, top file, press: guilabel: `...` button to read individual files."
 
 msgid "同様に :guilabel:`Solvent` タブでB. Solvent systemのファイルを選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Likewise: Select the B. Solvent system file on the guilabel: `Solvent` tab."
 
 msgid ""
 "同様に :guilabel:`Solute` タブでC. Solute "
 "systemのファイルを選択します。xtcファイルを指定した場合は、溶質がフレキシブルモデル、pdbまたはgroファイルを指定した場合は、剛体モデルとして扱われます。"
-msgstr "NOTTRANSLATED"
+msgstr "Similarly: Select the C. Solute system file in the guilabel: `Solute` tab. If an xtc file is specified, if the solute specifies a flexible model, pdb or gro file, it is treated as a rigid body model."
 
 msgid "必要に応じて、 :guilabel:`Options` ボタンから自由エネルギー計算時のMPI並列数など指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "If necessary, specify: MPI parallel number at free energy calculation from: guilabel: `Options` button."
 
 msgid ""
 "自由エネルギー計算をローカル環境で実施する場合は :guilabel:`Start` "
 "ボタンを押します。結果を出力するフォルダを指定すると計算が始まります。Cygwin上で :command:`ermod` が流れます。"
-msgstr "NOTTRANSLATED"
+msgstr "To implement free energy calculation in the local environment: press the guilabel: `Start` button. Calculation begins when you specify the folder to output the result. On command: Cygwin: command: `ermod` flows."
 
 msgid ""
 "リモート環境で実施する場合は一旦 :guilabel:`Close` ボタンを押します。そして :ref:`remote_top` にて "
@@ -1277,31 +1277,31 @@ msgid ""
 "<https://winmostar.com/jp/gmx4wm_jp_linux.html>`_ を参照）計算が終わり、 "
 ":ref:`remote_top` で :guilabel:`get` ボタンを押すと、 :file:`winmostar.exe` "
 "が置かれたフォルダ以下に :file:`ermod_remote_\\*` というフォルダが生成され、結果がリモートサーバから転送されます。"
-msgstr "NOTTRANSLATED"
+msgstr "To implement in the remote environment, press the: guilabel: `Close` button once. And at: ref: `remote_top`: execute guilabel:` Program` with `` ermod``. On the remote server, it is necessary for: command: `ermod` and: command:` slvfe` command to pass: command: `$ PATH`. (Installing ERmod on remote server is here <https://winmostar.com/jp/gmx4wm_jp_linux.html> After finishing the calculation, press: guilabel: `get` button in: ref:` remote_top`, you will find: file: `ermod_remote _ \\ * under the folder where: file:` winmostar.exe` is placed: `Is generated and the result is transferred from the remote server."
 
 msgid "自由エネルギー計算終了後、結果の表示するには :ref:`md_gromacs_er_result` メニューを選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "After calculating the free energy calculation, to display the result, select the: ref: `md_gromacs_er_result` menu."
 
 msgid "ER法結果読み込み"
-msgstr "NOTTRANSLATED"
+msgstr "Read ER method result"
 
 msgid ""
 ":ref:`md_gromacs_er_start` にて処理した結果を表示します。選択後、 :ref:`md_gromacs_er_start`"
 " にて指定した出力先フォルダを指定してください。 :guilabel:`Unit` にてエネルギーを表示する際の単位を指定できます。 "
 ":guilabel:`Log` ボタンを押すと、ERmodのログファイルを表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "The results processed by: ref: `md_gromacs_er_start` are displayed. After selection, specify the output destination folder specified by: ref: `md_gromacs_er_start`. : guilabel: You can specify units for displaying energy in `Unit`. : guilabel: Press the `Log` button to display ERmod&#39;s log file."
 
 msgid "BAR法実行"
-msgstr "NOTTRANSLATED"
+msgstr "BAR method execution"
 
 msgid "Bennett Acceptance Ratio(BAR)法を使用して溶媒和自由エネルギーを計算します。"
-msgstr "NOTTRANSLATED"
+msgstr "Calculate the solvation free energy using the Bennett Acceptance Ratio (BAR) method."
 
 msgid "Gromacsを用いて溶液系（溶質分子1個＋溶媒分子多数）の計算を実施します。平衡化の各ステップおよび平衡状態の計算の全ての作業ディレクトリを残しておきます。"
-msgstr "NOTTRANSLATED"
+msgstr "Calculate the solution system (1 solute molecule plus a large number of solvent molecules) using Gromacs. Leave all working directories for each step of equilibration and calculation of equilibrium state."
 
 msgid ":ref:`md_gromacs_bar_start` を選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select: ref: `md_gromacs_bar_start`."
 
 msgid ""
 ":guilabel:`Integration Path` タブにて、溶質が溶媒と相互作用していない状態（λ=0）から相互作用している状態（λ=1,"
@@ -1309,23 +1309,23 @@ msgid ""
 "ボタン左の2つの欄にファンデルワールスポテンシャルのカップリング係数（左）とクーロンポテンシャルのカップリング係数（右）を入力し "
 ":guilabel:`Insert` を押すと、積分経路が追加されます。 :guilabel:`Delete` "
 "を押すことで、積分経路を削除できます。"
-msgstr "NOTTRANSLATED"
+msgstr ": How to integrate the state (λ = 1, Full Coupling) in which the solute is not interacting with the solvent (λ = 0) to the interaction state (λ = 1, Full Coupling) on the guilabel: `Integration Path` tab Specify. : guilabel: `Insert` button Enter the coupling coefficient of the van der Waals potential (left) and the coupling coefficient of the Coulomb potential (right) in the left two columns and press guilabel:` Insert`, It will be added. : guilabel: You can delete the integration route by pressing `Delete`."
 
 msgid ""
 ":guilabel:`Procedure` "
 "タブにて、積分経路上の各状態のシミュレーション手順を指定します。あらかじめ用意した溶液系（λ=1）の平衡化の手順を、フォルダ単位で指定します。 "
 ":guilabel:`Add` ボタンまたはリストへのドラッグアンドドロップで、フォルダを追加します。 :guilabel:`Delete` "
 "ボタンでフォルダを削除します。リストの最後の手順で実施された計算が、自由エネルギー計算に用いられます。"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `Procedure` tab, specify the simulation procedure of each state on the integration path. Specify the procedure of equilibration of solution system (λ = 1) prepared beforehand in folder unit. : guilabel: Add a folder by dragging and dropping to the `Add` button or list. : guilabel: Delete folder with `Delete` button. The calculations performed in the last step of the list are used for free energy calculations."
 
 msgid ":guilabel:`Start` を押すと、各λのMD計算が実行されます。"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: Press `Start` to execute MD calculation for each λ."
 
 msgid "各λのMD計算の終了後、結果の表示するには :ref:`md_gromacs_bar_result` を選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "After finishing MD calculation of each λ, to display the result, choose: ref: `md_gromacs_bar_result`."
 
 msgid "BAR法結果読み込み"
-msgstr "NOTTRANSLATED"
+msgstr "Reading results of BAR method"
 
 msgid ""
 ":ref:`md_gromacs_bar_start` "
@@ -1334,5 +1334,5 @@ msgid ""
 ":guilabel:`Unit` にてエネルギーを表示する際の単位を指定できます。 :guilabel:`Log` ボタンを押すと、 "
 ":command:`gmx bar` "
 "のログファイルが表示されます。表示されるグラフは、溶質が溶媒と相互作用していない状態（λ=0）から相互作用している状態（λ=1）の間で自由エネルギーが変化する様子を示しています。"
-msgstr "NOTTRANSLATED"
+msgstr "The result of processing by: ref: `md_gromacs_bar_start` is displayed. After selecting the menu, please specify the output destination folder specified by: ref: `md_gromacs_bar_start`. In the background: command: `gmx bar` is executed and the result is displayed. : guilabel: You can specify units for displaying energy in `Unit`. : guilabel: When you press the `Log` button, the log file of: command:` gmx bar` is displayed. The displayed graph shows how the free energy varies between the state where the solute is not interacting with the solvent (λ = 0) and the state where the solute interacts (λ = 1)."
 

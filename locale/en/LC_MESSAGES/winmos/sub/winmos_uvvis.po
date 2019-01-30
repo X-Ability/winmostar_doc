@@ -20,53 +20,53 @@ msgstr "NOTTRANSLATED"
 
 #, fuzzy
 msgid "UV-Vis Spectrumウィンドウ"
-msgstr "NOTTRANSLATED"
+msgstr "UV-Vis Spectrum window"
 
 msgid "可視紫外スペクトルを表示します。 左側のリストには各スペクトルの数値、右側のグラフにはブロードニングしたスペクトルが表示されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Display visible ultraviolet spectrum. The numerical value of each spectrum is displayed in the list on the left and the broadened spectrum is displayed in the graph on the right."
 
 msgid ":menuselection:`View` メニュー"
-msgstr "NOTTRANSLATED"
+msgstr ": menuselection: `View` menu"
 
 msgid ":menuselection:`Draw Peak` メニュー"
-msgstr "NOTTRANSLATED"
+msgstr ": menuselection: `Draw Peak` menu"
 
 msgid "グラフ中にブロードニング前のスペクトルを描画します。"
-msgstr "NOTTRANSLATED"
+msgstr "Draw the spectrum before broadening in the graph."
 
 msgid ":menuselection:`Draw Curve` メニュー"
-msgstr "NOTTRANSLATED"
+msgstr ": menuselection: `Draw Curve` menu"
 
 msgid "グラフ中にブロードニングされたグラフを描画します。"
-msgstr "NOTTRANSLATED"
+msgstr "Draw the broadened graph in the graph."
 
 msgid "Export"
-msgstr "NOTTRANSLATED"
+msgstr "Export"
 
 msgid "ファイル出力する形式を選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the format to output the file."
 
 msgid "Open Excel"
-msgstr "NOTTRANSLATED"
+msgstr "Open Excel"
 
 msgid "csvファイルを出力して開きます。"
-msgstr "NOTTRANSLATED"
+msgstr "Output the csv file and open it."
 
 msgid "Copy Image"
-msgstr "NOTTRANSLATED"
+msgstr "Copy Image"
 
 msgid "グラフをクリップボードにコピーします。"
-msgstr "NOTTRANSLATED"
+msgstr "Copy the graph to the clipboard."
 
 msgid "Broadening"
-msgstr "NOTTRANSLATED"
+msgstr "Broadening"
 
 msgid "ブロードニングの幅を設定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Set the width of broadening."
 
 msgid "Close"
-msgstr "NOTTRANSLATED"
+msgstr "Close"
 
 msgid "ウィンドウを閉じます。"
-msgstr "NOTTRANSLATED"
+msgstr "Close the window."
 

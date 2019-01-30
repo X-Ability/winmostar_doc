@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+
+msgid "グラフの操作方法"
+msgstr "How to operate the graph"
+
+msgid "グラフ描画エリア内での操作"
+msgstr "Operation in graph drawing area"
+
+msgid "左ドラッグ"
+msgstr "Left drag"
+
+msgid "グラフを並進移動させます。"
+msgstr "Move the graph in translation."
+
+msgid ":guilabel:`Refresh` ボタンで元に戻せます。"
+msgstr ": guilabel: You can restore it with `Refresh` button."
+
+msgid "右ドラッグ"
+msgstr "Drag right"
+
+msgid "グラフを拡大します。"
+msgstr "Enlarge the graph."
+
+msgid "X/Y Axis"
+msgstr "X / Y Axis"
+
+msgid "Autoscale"
+msgstr "Autoscale"
+
+msgid "描画範囲を自動で設定します。"
+msgstr "Set the drawing range automatically."
+
+msgid "Min/Max"
+msgstr "Min / Max"
+
+msgid ":guilabel:`Autoscale` のチェックを外した時に、描画範囲を直接指定します。"
+msgstr ": guilabel: When you uncheck `Autoscale` checkbox, specify the drawing area directly."
+
+msgid "Logarithm"
+msgstr "Logarithm"
+
+msgid "対数で表示します。描画範囲は0より大きい必要があります。"
+msgstr "It displays it in logarithm. The drawing range must be greater than 0."
+
+msgid "Refresh"
+msgstr "Refresh"
+
+msgid "グラフの描画をリセットします。"
+msgstr "Reset drawing of the graph."
+
+msgid "Options"
+msgstr "Options"
+
+msgid "Copy Image"
+msgstr "Copy Image"
+
+msgid "グラフを画像としてクリップボードにコピーします。"
+msgstr "Copy the graph to the clipboard as an image."
+
+msgid "Open Excel"
+msgstr "Open Excel"
+
+msgid "csvファイルを出力しExcelを開きます。"
+msgstr "Output csv file and open Excel."
+
+msgid "Export Gnuplot File"
+msgstr "Export Gnuplot File"
+
+msgid "Gnuplotファイルを出力します。"
+msgstr "Output Gnuplot file."
+

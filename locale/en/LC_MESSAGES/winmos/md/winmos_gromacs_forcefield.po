@@ -19,151 +19,151 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "Force Field"
-msgstr "NOTTRANSLATED"
+msgstr "Force Field"
 
 msgid "Generate parameters"
-msgstr "NOTTRANSLATED"
+msgstr "Generate parameters"
 
 #, fuzzy
 msgid "メインウィンドウに表示された系に対し、新たに力場パラメータをアサインしトポロジファイル（topファイル）を作成します。"
-msgstr "NOTTRANSLATED"
+msgstr "Assign new force field parameters to the system displayed in the main window and create a topology file (top file)."
 
 msgid "Force field"
-msgstr "NOTTRANSLATED"
+msgstr "Force field"
 
 msgid "(General)"
-msgstr "NOTTRANSLATED"
+msgstr "(General)"
 
 msgid ""
 "タンパク質、水分子以外の分子の力場を指定します。 内部では、GAFF, OPLS/AA-Lの場合は :command:`acpype` "
 "が、Dreidingの場合は内製プログラムが使用されます。 Dreidingの設定は "
 ":file:`polymer/dreiding.lib.txt` に書かれています。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the force field of molecules other than proteins and water molecules. Internally, command: `acpype` is used for GAFF, OPLS / AA-L, in-house program is used for Dreiding. The setting of Dreiding is written in: file: `polymer / dreiding.lib.txt`."
 
 msgid "Exception"
-msgstr "NOTTRANSLATED"
+msgstr "Exception"
 
 #, fuzzy
 msgid ""
 "特定の分子に対し、(General)にて選択した力場を使わず、ユーザが指定するLJパラメータを割り当てます。 "
 "サブウィンドウの左の欄にてLJパラメータを指定したい分子にチェックを入れ、右の欄でLJパラメータを入力します。"
-msgstr "NOTTRANSLATED"
+msgstr "For specific molecules, assign the user specified LJ parameters without using the force field selected in (General). In the left column of the subwindow, check the molecule you want to specify the LJ parameter and enter the LJ parameter in the right column."
 
 msgid "例えば固液界面系において固相の原子にLJパラメータを割り振りたい時などに使用します。"
-msgstr "NOTTRANSLATED"
+msgstr "For example, when you want to allocate LJ parameters to solid phase atoms in a solid-liquid interface system."
 
 msgid "(Protein)"
-msgstr "NOTTRANSLATED"
+msgstr "(Protein)"
 
 msgid ""
 "タンパク質の力場を指定します。ここで、PDBやgroフォーマットにおいてアミノ酸残基の名前が割り当てられている原子がタンパク質として認識されます。内部的には"
 " :command:`gmx pdb2gmx` が使用されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the force field of the protein. At this point, atoms assigned amino acid residue names in PDB and gro format are recognized as proteins. Internally: command: `gmx pdb 2 gmx` is used."
 
 msgid "残基名を含まないファイルから分子構造を読み込んだ場合は本機能を使用できません。"
-msgstr "NOTTRANSLATED"
+msgstr "This function can not be used when reading the molecular structure from a file not including residue name."
 
 msgid "(Water)"
-msgstr "NOTTRANSLATED"
+msgstr "(Water)"
 
 msgid ""
 "水分子の力場を指定します。 :ref:`md_solvate_buildcell` "
 "で選択した水モデルを指定する必要があります。内部的にはCygwinにインストールされたGromacsのトポロジのライブラリからパラメータを取得します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the force field of the water molecule. You must specify the selected water model with: ref: `md_solvate_buildcell`. Internally we get the parameters from the library of Gromacs topology installed in Cygwin."
 
 msgid "Charge"
-msgstr "NOTTRANSLATED"
+msgstr "Charge"
 
 msgid "Assign charges"
-msgstr "NOTTRANSLATED"
+msgstr "Assign charges"
 
 msgid ""
 ":command:`acpype` により算出する電荷を用いてトポロジファイルを作成します。 :guilabel:`Method` "
 "にはその方法を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Create a topology file using the charge calculated by: command: `acpype`. : guilabel: `Method` specifies its method."
 
 msgid ""
 "ポリマーの場合は :command:`acpype` による電荷の算出に時間がかかるため、あらかじめポリマービルダを用いて系を作成し、 "
 ":guilabel:`Use User-defined Charge` にチェックを入れてください。"
-msgstr "NOTTRANSLATED"
+msgstr "In the case of polymers, it takes time to calculate the charge by command: `acpype`, so create a system with the polymer builder in advance and check: guilabel:` Use User-defined Charge`."
 
 msgid "Use user-defined charge"
-msgstr "NOTTRANSLATED"
+msgstr "Use user-defined charge"
 
 #, fuzzy
 msgid "メインウィンドウ上で設定されている各原子の点電荷の値を用いてトポロジファイルを作成します。"
-msgstr "NOTTRANSLATED"
+msgstr "Create a topology file using the value of point charge of each atom set on the main window."
 
 #, fuzzy
 msgid ""
 "メインウィンドウ上で設定されている点電荷の値は、 :ref:`表示ボタンエリア <gui_main>` のアノテーションボタンから "
 ":guilabel:`User Charge` などを選択するか、.mol2形式で保存し :ref:`file_editor` "
 "で開くことにより確認できます。"
-msgstr "NOTTRANSLATED"
+msgstr "The value of the point charge set on the main window is: ref: `display button area <gui_main> `Annotation button: guilabel:` User Charge` etc. or save it in .mol2 format and open it with: ref: `file_editor`."
 
 msgid "Add [position_restraints] for protein"
-msgstr "NOTTRANSLATED"
+msgstr "Add [position_restraints] for protein"
 
 msgid ""
 "タンパク質が存在する場合は :guilabel:`Advance` タブにおける :guilabel:`-POSRES` "
 "で位置を拘束するための情報（ ``[position_restraints]`` "
 "セクション）をトポロジファイルに書き込みます。タンパク質が存在しない場合は無視されます。"
-msgstr "NOTTRANSLATED"
+msgstr "If a protein exists: Write information (`` [position_restraints] `` section) to constrain the position in the topology file with: guilabel: `-POSRES` on the guilabel:` Advance` tab. Ignored when protein is absent."
 
 msgid "Add [position_restraints] for selected atoms"
-msgstr "NOTTRANSLATED"
+msgstr "Add [position_restraints] for selected atoms"
 
 msgid ""
 "ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` "
 "で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。 "
 "例えば固液界面系に於いて固相を固定する場合などに使用します。"
-msgstr "NOTTRANSLATED"
+msgstr "For the molecule specified by the user, write information (`` [position_restraints] `` section) to constrain the position in the topology file with: guilabel: `-POSRES` on the: guilabel:` Advance` tab. For example, when fixing solid phase in solid-liquid interface system."
 
 msgid "Add [distance/angle/dihedral_restraints] for selected atoms"
-msgstr "NOTTRANSLATED"
+msgstr "Add [distance/angle/dihedral_restraints] for selected atoms"
 
 msgid ""
 "ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` "
 "で距離・角度・二面角を拘束するための情報をトポロジファイルに書き込みます。"
-msgstr "NOTTRANSLATED"
+msgstr "For the molecule specified by the user, write information to constrain distance, angle, dihedral angle to topology file by: guilabel: `-POSRES` on the: guilabel:` Advance` tab."
 
 msgid "Dump Now"
-msgstr "NOTTRANSLATED"
+msgstr "Dump Now"
 
 msgid "現在の設定に基づき、トポロジファイルを生成します。"
-msgstr "NOTTRANSLATED"
+msgstr "Based on the current settings, generate a topology file."
 
 msgid ""
 ":guilabel:`Load from Existing File` "
 "を選択しない場合はソルバの実行時に自動的にトポロジファイルが生成されるため、この操作は必須ではありません。"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: If you do not select `Load from Existing File`, this operation is not required, as the topology file is generated automatically when the solver is executed."
 
 msgid ""
 "トポロジファイルをエディタ等で編集してカスタマイズしたい場合は、本機能を使用して保存した上で、 :guilabel:`Load from "
 "Existing File` にて選択してください。"
-msgstr "NOTTRANSLATED"
+msgstr "If you want to edit the topology file with an editor etc. and customize it, save it using this function and select it with: guilabel: `Load from Existing File`."
 
 msgid "Load from existing file/Use parameters in displayed file"
-msgstr "NOTTRANSLATED"
+msgstr "Load from existing file/Use parameters in displayed file"
 
 #, fuzzy
 msgid ""
 "既に存在しているトポロジファイルを用いてMD計算を実行する場合に選択します。 "
 "LAMMPSの場合は、メインウィンドウで既に存在しているdataファイルを用いてMD計算を実行する場合に選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select this when executing MD calculation using topology file which already exists. In the case of LAMMPS, select this when executing MD calculation using the existing data file in the main window."
 
 msgid "Edit"
-msgstr "NOTTRANSLATED"
+msgstr "Edit"
 
 msgid "選択されたトポロジファイルをテキストエディタで編集する。"
-msgstr "NOTTRANSLATED"
+msgstr "Edit the selected topology file with a text editor."
 
 msgid "Generate Simulation Cell"
-msgstr "NOTTRANSLATED"
+msgstr "Generate Simulation Cell"
 
 #, fuzzy
 msgid ""
 "メインウィンドウにおいてシミュレーションセルが定義されていない場合のみ設定が有効となる。チェックが入っている場合は、メインウィンドウに表示された分子の周囲に"
 " :guilabel:`Distance` で指定された距離だけ離れた場所にシミュレーションセルを自動発生させる。"
-msgstr "NOTTRANSLATED"
+msgstr "The setting is valid only when simulation cells are not defined in the main window. If checked, simulation cells are automatically generated around the molecule displayed in the main window at a distance specified by: guilabel: `Distance`."
 

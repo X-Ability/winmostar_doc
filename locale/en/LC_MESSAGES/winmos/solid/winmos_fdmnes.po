@@ -19,138 +19,138 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid ":menuselection:`固体 --> FDMNES` メニュー"
-msgstr "NOTTRANSLATED"
+msgstr ": menuselection: `solid -&gt; FDMNES` menu"
 
 msgid "FDMNESに関するメニューです。"
-msgstr "NOTTRANSLATED"
+msgstr "It is a menu related to FDMNES."
 
 msgid "FDMNESをインストールする方法は :ref:`install_install` に記載しています。"
-msgstr "NOTTRANSLATED"
+msgstr "The method of installing FDMNES is described in: ref: `install_install`."
 
 msgid "キーワード設定"
-msgstr "NOTTRANSLATED"
+msgstr "Keyword setting"
 
 #, fuzzy
 msgid ""
 "FDMNESの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は "
 ":guilabel:`OK` ボタンを押してください。"
-msgstr "NOTTRANSLATED"
+msgstr "Set the calculation condition of FDMNES. To set up the calculations immediately after setting: guilabel: `Run` button, once to return to the main window please press: guilabel:` OK` button."
 
 msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`solid_fdmnes_start` を参照してください。"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: Behavior when clicking `Run` is see: ref:` solid_fdmnes_start`."
 
 msgid ":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `Reset` button to return to the default state."
 
 msgid "Target Atom"
-msgstr "NOTTRANSLATED"
+msgstr "Target Atom"
 
 #, fuzzy
 msgid ""
 "XAFSスペクトルの測定対象の原子(Absorber)を指定します。 :guilabel:`Set Atom` "
 "ボタンをクリックすると、メインウィンドウでマーカーが付いた原子が設定されます。。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the atom (Absorber) of the XAFS spectrum measurement target. : guilabel: Clicking the &#39;Set Atom&#39; button will set the atom with the marker in the main window. ."
 
 msgid "Edge"
-msgstr "NOTTRANSLATED"
+msgstr "Edge"
 
 msgid "取得したいXAFSスペクトルの電子殻を選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the electron shell of the XAFS spectrum you want to obtain."
 
 msgid "Range"
-msgstr "NOTTRANSLATED"
+msgstr "Range"
 
 msgid "取得したいXAFSスペクトルの範囲を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the range of the XAFS spectrum you want to acquire."
 
 msgid "Cluster Radius"
-msgstr "NOTTRANSLATED"
+msgstr "Cluster Radius"
 
 msgid ""
 "FDMNES内部にてシミュレーションセル（スーパーセル）を展開して作成されるクラスタの半径を指定します。 "
 "この値が大きいほどバルクの状態に近づきますが、処理速度は低下します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the radius of the cluster created by expanding the simulation cell (supercell) inside FDMNES. The larger this value is, the closer the bulk state is, but the processing speed decreases."
 
 msgid "Method"
-msgstr "NOTTRANSLATED"
+msgstr "Method"
 
 msgid "計算手法を選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the calculation method."
 
 msgid "Convolution"
-msgstr "NOTTRANSLATED"
+msgstr "Convolution"
 
 msgid "ローレンツ関数で畳み込みブロードニングしたスペクトルを取得します。"
-msgstr "NOTTRANSLATED"
+msgstr "Obtain convoluted broadened spectrum with Lorentz function."
 
 msgid "Calc LDOS"
-msgstr "NOTTRANSLATED"
+msgstr "Calc LDOS"
 
 msgid "局所状態密度（LDOS）を、ファイル名末尾が_sd*.txtとなっているファイルの中に出力します。"
-msgstr "NOTTRANSLATED"
+msgstr "The local state density (LDOS) is output into a file whose file name suffix is _sd *. Txt."
 
 msgid "Definition for Energy"
-msgstr "NOTTRANSLATED"
+msgstr "Definition for Energy"
 
 msgid "XAFSスペクトルを表示する際の横軸（エネルギー）の定義を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the horizontal axis (energy) definition when displaying XAFS spectrum."
 
 msgid "実行"
-msgstr "NOTTRANSLATED"
+msgstr "Execution"
 
 msgid "FDMNESを実行します。"
-msgstr "NOTTRANSLATED"
+msgstr "Run FDMNES."
 
 msgid ""
 "実行に伴い以下のファイルが生成されます。（主要なファイルのみ表示） 例として入力ファイルが :file:`cu.fdmnes` "
 "の時のファイル/フォルダ名を併記しています。"
-msgstr "NOTTRANSLATED"
+msgstr "Following file will be generated with execution. (Only major files are shown) As an example, the file / folder name when the input file is: file: `cu.fdmnes` is also shown."
 
 msgid "種類"
-msgstr "NOTTRANSLATED"
+msgstr "type"
 
 msgid "説明"
-msgstr "NOTTRANSLATED"
+msgstr "Description"
 
 #, fuzzy
 msgid "logファイル"
-msgstr "NOTTRANSLATED"
+msgstr "log file"
 
 msgid ":file:`cu.log`"
-msgstr "NOTTRANSLATED"
+msgstr ": File: `cu.log`"
 
 msgid "計算のログファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "Calculation log file."
 
 msgid "batファイル"
-msgstr "NOTTRANSLATED"
+msgstr "bat file"
 
 msgid ":file:`cu.bat`"
-msgstr "NOTTRANSLATED"
+msgstr ": File: `cu.bat`"
 
 msgid "FDMNESを実行するためのバッチファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "It is a batch file for running FDMNES."
 
 msgid "convファイル"
-msgstr "NOTTRANSLATED"
+msgstr "conv file"
 
 msgid ":file:`cu_conv.txt`"
-msgstr "NOTTRANSLATED"
+msgstr ": File: `cu_conv.txt`"
 
 msgid "XANESスペクトルなどのデータが記録されたテキストファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "XANES This is a text file containing data such as spectra."
 
 msgid "ログを表示 (log)"
-msgstr "NOTTRANSLATED"
+msgstr "Display log (log)"
 
 msgid "ログファイルをテキストエディタで開きます。"
-msgstr "NOTTRANSLATED"
+msgstr "Open the log file with a text editor."
 
 msgid "XAFSスペクトル"
-msgstr "NOTTRANSLATED"
+msgstr "XAFS spectrum"
 
 msgid "convファイル（ :file:`\\*_conv.txt` ）を選択し、XAFSスペクトルを表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the conv file (: file: `\\ * _ conv.txt`) and display the XAFS spectrum."
 
 #~ msgid "pwoutファイル"
 #~ msgstr "NOTTRANSLATED"

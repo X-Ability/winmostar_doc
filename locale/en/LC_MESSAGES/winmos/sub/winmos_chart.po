@@ -19,71 +19,71 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "グラフの操作方法"
-msgstr "NOTTRANSLATED"
+msgstr "How to operate the graph"
 
 msgid "グラフ描画エリア内での操作"
-msgstr "NOTTRANSLATED"
+msgstr "Operation in graph drawing area"
 
 msgid "左ドラッグ"
-msgstr "NOTTRANSLATED"
+msgstr "Left drag"
 
 msgid "グラフを並進移動させます。"
-msgstr "NOTTRANSLATED"
+msgstr "Move the graph in translation."
 
 msgid ":guilabel:`Refresh` ボタンで元に戻せます。"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: You can restore it with `Refresh` button."
 
 msgid "右ドラッグ"
-msgstr "NOTTRANSLATED"
+msgstr "Drag right"
 
 msgid "グラフを拡大します。"
-msgstr "NOTTRANSLATED"
+msgstr "Enlarge the graph."
 
 msgid "X/Y Axis"
-msgstr "NOTTRANSLATED"
+msgstr "X / Y Axis"
 
 msgid "Autoscale"
-msgstr "NOTTRANSLATED"
+msgstr "Autoscale"
 
 msgid "描画範囲を自動で設定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Set the drawing range automatically."
 
 msgid "Min/Max"
-msgstr "NOTTRANSLATED"
+msgstr "Min / Max"
 
 msgid ":guilabel:`Autoscale` のチェックを外した時に、描画範囲を直接指定します。"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: When you uncheck `Autoscale` checkbox, specify the drawing area directly."
 
 msgid "Logarithm"
-msgstr "NOTTRANSLATED"
+msgstr "Logarithm"
 
 msgid "対数で表示します。描画範囲は0より大きい必要があります。"
-msgstr "NOTTRANSLATED"
+msgstr "It displays it in logarithm. The drawing range must be greater than 0."
 
 msgid "Refresh"
-msgstr "NOTTRANSLATED"
+msgstr "Refresh"
 
 msgid "グラフの描画をリセットします。"
-msgstr "NOTTRANSLATED"
+msgstr "Reset drawing of the graph."
 
 msgid "Options"
-msgstr "NOTTRANSLATED"
+msgstr "Options"
 
 msgid "Copy Image"
-msgstr "NOTTRANSLATED"
+msgstr "Copy Image"
 
 msgid "グラフを画像としてクリップボードにコピーします。"
-msgstr "NOTTRANSLATED"
+msgstr "Copy the graph to the clipboard as an image."
 
 msgid "Open Excel"
-msgstr "NOTTRANSLATED"
+msgstr "Open Excel"
 
 msgid "csvファイルを出力しExcelを開きます。"
-msgstr "NOTTRANSLATED"
+msgstr "Output csv file and open Excel."
 
 msgid "Export Gnuplot File"
-msgstr "NOTTRANSLATED"
+msgstr "Export Gnuplot File"
 
 msgid "Gnuplotファイルを出力します。"
-msgstr "NOTTRANSLATED"
+msgstr "Output Gnuplot file."
 

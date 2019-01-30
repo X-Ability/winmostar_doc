@@ -19,53 +19,53 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "コマンドプロンプトからの実行方法"
-msgstr "NOTTRANSLATED"
+msgstr "How to execute from the command prompt"
 
 msgid "コマンドプロンプトから各種のオプションを指定して起動することが可能です。"
-msgstr "NOTTRANSLATED"
+msgstr "It is possible to start by specifying various options from the command prompt."
 
 msgid "オプションに入力ファイル名と処理内容を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the input file name and processing contents in the option."
 
 msgid "指定できる処理内容は、以下の通りです。"
-msgstr "NOTTRANSLATED"
+msgstr "The processing contents that can be specified are as follows."
 
 msgid "MOPACの実行"
-msgstr "NOTTRANSLATED"
+msgstr "Execution of MOPAC"
 
 msgid "-mopac1, -mopac2, -mopac3"
-msgstr "NOTTRANSLATED"
+msgstr "-mopac1, -mopac2, -mopac3"
 
 msgid "分子表面積・体積の計算"
-msgstr "NOTTRANSLATED"
+msgstr "Calculation of molecular surface area and volume"
 
 msgid "-molsv"
-msgstr "NOTTRANSLATED"
+msgstr "-molsv"
 
 msgid "アスペクト比の計算"
-msgstr "NOTTRANSLATED"
+msgstr "Calculation of aspect ratio"
 
 msgid "-aspect"
-msgstr "NOTTRANSLATED"
+msgstr "-aspect"
 
 msgid "ファイル形式の変換(dat,gjf,mol,pdb等)"
-msgstr "NOTTRANSLATED"
+msgstr "File format conversion (dat, gjf, mol, pdb etc)"
 
 msgid "-o (output filename)"
-msgstr "NOTTRANSLATED"
+msgstr "-o (output filename)"
 
 msgid "使用例::"
-msgstr "NOTTRANSLATED"
+msgstr "Examples:"
 
 msgid "実行プログラムを指定した時は処理後に自動的にWinmostarが終了するので、DOSのBATファイルを記述し、MOPAC等を連続的に実行することができます。"
-msgstr "NOTTRANSLATED"
+msgstr "When executable program is specified, Winmostar ends automatically after processing, so you can write DOS BAT file and run MOPAC etc. continuously."
 
 msgid "-oオプションでファイル形式を変換する際に、「adjust」(座標調整)、「hadd」(水素付加)、「hdel」(水素削除)、「clean」(クリーン)を指定することもできます。"
-msgstr "NOTTRANSLATED"
+msgstr "You can also specify &quot;adjust&quot; (coordinate adjustment), &quot;hadd&quot; (hydrogen addition), &quot;hdel&quot; (hydrogen removal), &quot;clean&quot; (clean) when converting the file format with the -o option."
 
 msgid "samplesフォルダのwmjobs.batに使用例があります。"
-msgstr "NOTTRANSLATED"
+msgstr "There is an example of use in wmjobs.bat in the samples folder."
 
 msgid "GaussianとGAMESSを連続実行する場合は、この方法ではなく :menuselection:`ツール --> 連続実行` を使用します。"
-msgstr "NOTTRANSLATED"
+msgstr "If you want to run Gaussian and GAMESS sequentially, use this: menuselection: `tool -&gt; run continuously` instead."
 

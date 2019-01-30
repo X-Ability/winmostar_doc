@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+
+#, fuzzy
+msgid "IR Spectrumウィンドウ"
+msgstr "IR Spectrum Window"
+
+msgid ""
+"IRスペクトルおよびラマンスペクトルを表示します。 "
+"左側のリストには振動数、IR強度、ラマン強度、右側のグラフにはそれらがブロードニングされた上で表示されます。"
+msgstr "Display IR and Raman spectra. The list on the left shows the frequency, the IR intensity, the Raman intensity, and on the graph on the right they are displayed after they are broadened."
+
+msgid ""
+"GAMESSにおいて、IRスペクトルを読み込んだ状態で追加でラマンスペクトルを読み込むと両方のスペクトルを同時に表示することができます。 "
+"グラフ上でクリックすると、その位置に近いピークの行がリスト内で選択されます。"
+msgstr "In GAMESS, you can display both spectra simultaneously by reading additional Raman spectrum with the IR spectrum read. When you click on the graph, the row of the peak close to that position is selected in the list."
+
+msgid "Freq. Scaling"
+msgstr "Freq. Scaling"
+
+msgid ""
+"系統的な誤差を補正するための周波数のスケーリングファクターを選択します。プルダウンメニューから、計算に使用した手法・基底関数の値を選択します。 "
+":guilabel:`Edit` ボタンを押すとスケーリングファクターの一覧を編集することができます。"
+msgstr "Select the frequency scaling factor to compensate for systematic errors. From the pull-down menu, select the method / basis function value used for calculation. : guilabel: You can edit the list of scaling factors by pressing the `Edit` button."
+
+msgid "Raman"
+msgstr "Raman"
+
+msgid "Raman Activity / Depolar (P) / Depolar (U) を選択します。"
+msgstr "Select Raman Activity / Depolar (P) / Depolar (U)."
+
+msgid "IR"
+msgstr "IR"
+
+msgid "IRスペクトルを表示します。"
+msgstr "Display IR spectrum."
+
+msgid "Animation"
+msgstr "Animation"
+
+msgid "選択されたピークの振動状態をアニメーション表示します。"
+msgstr "Animate the vibration state of the selected peak."
+
+msgid "Vector"
+msgstr "Vector"
+
+msgid "選択されたピークの振動状態をベクトル表示します。"
+msgstr "Vibration status of the selected peak is displayed."
+
+msgid "Magnitude"
+msgstr "Magnitude"
+
+msgid "アニメーション表示における振幅、ベクトル表示における長さを調整します。"
+msgstr "Adjust amplitude in animation display and length in vector display."
+
+msgid "X Range"
+msgstr "X Range"
+
+msgid "横軸の範囲を指定します。"
+msgstr "Specify the range of the horizontal axis."
+
+msgid "Reverse"
+msgstr "Reverse"
+
+msgid "横軸軸を反転して表示します。"
+msgstr "The horizontal axis is inverted and displayed."
+
+msgid "Y Scale"
+msgstr "And Scale"
+
+msgid "縦軸の縮尺を変更します。"
+msgstr "Change the scale of the vertical axis."
+
+msgid "縦軸の上下を反転して表示します。"
+msgstr "The vertical axis is inverted and displayed."
+
+msgid "Broadening"
+msgstr "Broadening"
+
+msgid "ブロードニングの半値幅を設定します。"
+msgstr "Set the full width at half maximum of broadening."
+
+msgid "Export"
+msgstr "Export"
+
+msgid "ファイル出力する形式を選択します。"
+msgstr "Select the format to output the file."
+
+msgid "Open Excel"
+msgstr "Open Excel"
+
+msgid "csvファイルを出力して開きます。"
+msgstr "Output the csv file and open it."
+
+msgid "Save Image"
+msgstr "Save Image"
+
+msgid "グラフをGIFまたはJPEGで保存します。"
+msgstr "Save the graph as GIF or JPEG."
+
+msgid "Copy Image"
+msgstr "Copy Image"
+
+msgid "グラフをクリップボードにコピーします。"
+msgstr "Copy the graph to the clipboard."
+
+msgid "Close"
+msgstr "Close"
+
+#, fuzzy
+msgid "このウィンドウを閉じます。"
+msgstr "Close this window."
+

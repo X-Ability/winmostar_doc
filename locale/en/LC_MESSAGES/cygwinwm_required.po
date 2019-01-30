@@ -19,5 +19,5 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ <install_cygwinwm>` が必要です。"
-msgstr "This function requires cygwin_wm."
+msgstr "This function requires :ref:`cygwin_wm <install_cygwinwm>`."
 

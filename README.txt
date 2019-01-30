@@ -67,5 +67,17 @@ $ bash po2html.sh
 4) 以下のコマンドで英語版pdfを生成する。途中でエラーが出るが、Enterキーを押してスキップする。
 $ bash po2pdf.sh
 
+- 英語自動翻訳
+https://nwpct1.hatenablog.com/entry/google-translate-sphinx-project
+1) Google Cloud PlatformでCloud Translation APIを作成しJSONファイルを取得する。
 
+2) JSONファイルのパスをGOOGLE_SERVICE_ACCOUNT_JSON環境変数にWSLの.bashrcで設定する。
 
+3) 翻訳したい.poファイルの.autoファイルを削除する（例えばindex.poの場合はindex.po.autoを削除する）
+
+4) 以下のコマンドを実行し、対応する.autoファイルがない.poファイルについて.autoファイルを生成する。
+ここで翻訳した量に応じて課金される。
+$ bash po2auto.sh
+
+5) WinMerge等を用いて.poファイルと.autoファイルの差分を表示し、.autoの内容を.poにマージする。
+.autoファイルは次に自動翻訳したいときまで削除しない。.autoファイル自身もリポジトリで管理する。

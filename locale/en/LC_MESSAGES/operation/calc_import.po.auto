@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+
+msgid "基本的な操作の流れ"
+msgstr "Basic operation flow"
+
+msgid "ここでは、Winmostarを用いて量子化学計算、分子動力学計算、あるいは第一原理計算を流す基本的な流れを紹介します。"
+msgstr "Here, we introduce the fundamental flow of quantum chemical calculation, molecular dynamics calculation, or first principles calculation using Winmostar."
+
+msgid "初期構造を作成"
+msgstr "Create initial structure"
+
+msgid ":ref:`createsystem_top` の手順で、計算したい系を作成します。"
+msgstr "In the procedure of: ref: `creates system_top`, create the system you want to calculate."
+
+msgid "計算条件（キーワード）の設定"
+msgstr "Setting of calculation condition (keyword)"
+
+msgid ""
+"上部のツールバーの1行目中央の :guilabel:`ソルバを選択` プルダウンメニュー |solver| で使用したいソルバを選び、 "
+":guilabel:`キーワード設定` ボタン |toolbar_configure| をクリックします。"
+msgstr "In the middle of the first line of the toolbar at the top: guilabel: `select solver` Select the solver you want to use with the pull down menu | solver |, and click: guilabel:` keyword setting `button | toolbar_configure |"
+
+msgid "いくつかのソルバでは、キーワードの欄にポインタを重ねると、そのキーワードの意味が出現します。"
+msgstr "In some solvers, if you put a pointer over the keyword column, the meaning of that keyword will appear."
+
+msgid "計算の実行"
+msgstr "Perform calculation"
+
+msgid "WinmostarをインストールしたWindows PC上で計算を実行する場合（ **ローカルジョブ** ）"
+msgstr "To execute calculations on Windows PC with Winmostar installed (** local job **)"
+
+#, fuzzy
+msgid "キーワード設定ウィンドウが開いた状態で :guilabel:`Run` ボタンを押します。"
+msgstr "With the keyword setting window open, press the guilabel: `Run` button."
+
+#, fuzzy
+msgid ""
+"キーワード設定ウィンドウを :guilabel:`OK` ボタンを押して閉じます。 メインウィンドウの :ref:`キーワード表示エリア "
+"<gui_main>` にキーワードが反映されるので、キーワードを直接編集したい場合は、この段階でキーワード表示エリアを編集するか、 "
+":ref:`file_editor` から任意のテキストエディタを用いて入力ファイルを編集します。 その後、ツールバーの "
+":guilabel:`実行` ボタン |toolbar_run| をクリックします。"
+msgstr "Press the guilabel: `OK` button to close the keyword setting window. Main window: ref: `keyword display area <gui_main> `, So if you want to edit the keywords directly, edit the keyword display area at this stage or edit the input file from the: ref:` file_editor` using any text editor. Then click the: guilabel: `execute` button on the tool bar | toolbar_run |."
+
+msgid ""
+":guilabel:`Run` または :guilabel:`実行` "
+"をクリックした後、入力ファイルが保存されていない場合は入力ファイルの名前を入力すると保存され、続けて :ref:`winmosjm_top` "
+"にジョブが登録されます。"
+msgstr ": After clicking guilabel: `Run` or: guilabel:` run`, if the input file is not saved, entering the name of the input file will be saved, then the job will be registered in: ref: `winmosjm_top` I will."
+
+msgid ":ref:`winmosjm_top` は登録されたジョブを順番に処理します。"
+msgstr ": ref: `winmosjm_top` will process the registered jobs in order."
+
+msgid "WinmostarをインストールしたPCにネットワークで接続されたLinuxマシン上で実行する場合（ **リモートジョブ** ）"
+msgstr "When running on a Linux machine connected to the network on Winmostar installed PC (** remote job **)"
+
+#, fuzzy
+msgid "キーワード設定ウィンドウを :guilabel:`OK` ボタンを押して閉じます。"
+msgstr "Press the guilabel: `OK` button to close the keyword setting window."
+
+#, fuzzy
+msgid ""
+"次に、ツールバーの :guilabel:`リモートジョブ投入` ボタン |toolbar_submit| "
+"をクリックしサーバへの接続設定を行います。 その後、 :guilabel:`Submit Remoet Job` ウィンドウ上の "
+":guilabel:`Send & Submit` "
+"ボタンを押し、入力ファイルの保存、転送（Send）とリモートサーバでのジョブの登録（Submit）を一度に行います。"
+msgstr "Next, click the: guilabel: `Remote Job submission` button | toolbar_submit | on the tool bar to set up connection to the server. After that, press the: guilabel: `Send &amp; Submit` button on the: guilabel:` Submit Remoet Job` window to save and transfer (Send) the input file and register the job at the remote server (Submit) at once ."
+
+msgid "リモートサーバ上では登録されたジョブが順番に実行されます。"
+msgstr "Registered jobs are executed in order on the remote server."
+
+msgid ""
+"リモートサーバ上でジョブが終了したら :guilabel:`Get All Files` "
+"ボタンを押して、WinmostarをインストールしたWindows PC上に計算から出力されたファイルを転送します。"
+msgstr "When the job ends on the remote server: Press the guilabel: `Get All Files` button to transfer the file output from the calculation to the Windows PC where Winmostar is installed."
+
+msgid "詳細は :ref:`remote_procedure` を参照してください。"
+msgstr "For details, see: ref: `remote_procedure`."
+
+msgid "ログの確認"
+msgstr "Confirm log"
+
+msgid "ツールバーの :guilabel:`ログを表示` ボタン |toolbar_openlog| を選択します。"
+msgstr "Select the: guilabel: `display logs` button | toolbar_openlog | on the toolbar."
+
+#, fuzzy
+msgid "どのファイルを開くか聞かれるが、ログを確認したい計算の入力ファイルがメインウィンドウに表示されている場合は、デフォルトで選択されるファイルを開きます。"
+msgstr "If you are asked which file to open, but the input file of the calculation you want to check the log is displayed in the main window, open the file selected by default."
+
+msgid "ログファイルがテキストエディタで表示されるので、ジョブが正常あるいは異常終了したか確認します。"
+msgstr "Since the log file is displayed with a text editor, check whether the job is normal or abnormal termination."
+
+msgid "各種物理量の表示、解析"
+msgstr "Display and analysis of various physical quantities"
+
+msgid ""
+"ジョブが正常終了している場合は、ツールバーの :guilabel:`結果解析` ボタン |toolbar_analysis| "
+"を押して、表示したい物理量のメニューを選択します。"
+msgstr "If the job has ended normally, press the: guilabel: `Result Analysis` button | toolbar_analysis | on the toolbar and select the menu of physical quantities you want to display."
+
+#, fuzzy
+msgid ""
+"どのファイルを開くか聞かれるため、適宜選択します。 複数ファイル選択する場合もあります。 "
+"ログの確認時と同様に、メインウィンドウに表示されているファイルに紐づけられたものがデフォルトで選択されます。"
+msgstr "You will be asked which file to open, so choose as appropriate. Multiple files may be selected. As with log checking, the one associated with the file displayed in the main window is selected by default."
+
+#, fuzzy
+msgid "ファイルを指定すると、結果表示用のウィンドウが表示されます。"
+msgstr "When you specify a file, a window for the result display is displayed."
+
+msgid ""
+"構造最適化の過程やトラジェクトリを可視化する場合はツールバーの :guilabel:`アニメーション` ボタン "
+"|toolbar_animation| を押します。"
+msgstr "To visualize the structure optimization process or trajectory, press the: guilabel: `animation` button on the tool bar | toolbar_animation |."
+
+msgid ""
+"SCFやMD計算中のエネルギーや温度などの変化をグラフ化する場合は、ツールバーの :guilabel:`エネルギー変化` ボタン "
+"|toolbar_energyplot| を押します。"
+msgstr "To graph changes in energy and temperature during SCF or MD calculation, press the: guilabel: `energy change` button | toolbar_energyplot | on the tool bar."
+
+msgid "分子形状の解析については、別途 :ref:`tools_top` 以下に機能が用意されています。"
+msgstr "For analysis of molecular shape, a separate function is provided below: ref: `tools_top`."
+
+msgid "ジョブの延長、継続"
+msgstr "Job extension, continuation"
+
+#, fuzzy
+msgid "ジョブの延長や継続が必要な場合は、再度キーワード設定ウィンドウを開き、ジョブを開始します。"
+msgstr "If it is necessary to extend or continue the job, open the keyword setting window again and start the job."
+
+#, fuzzy
+msgid "MDについては、キーワード設定ウィンドウで :guilabel:`Extending Simulation` にチェックを入れます。"
+msgstr "For MD, check: guilabel: `Extending Simulation` in the keyword setting window."
+
+#, fuzzy
+msgid ""
+"Quantum ESPRESSOについては、キーワード設定ウィンドウで :guilabel:`Output Direcotory` に "
+":guilabel:`Continue` を指定しますd。"
+msgstr "For Quantum ESPRESSO, specify: guilabel: `Continue` in guilabel:` Output Direcotory` in the keyword setting window d."
+
+#, fuzzy
+msgid ""
+"その他、例えば半経験QM、QMの構造最適化計算の後に計算を流したい場合は、一旦 ツールバーの :guilabel:`アニメーション` ボタン "
+"|toolbar_animation| を押して、最終構造をメインウィンドウに表示したうえで、継続ジョブのキーワード設定を行います。"
+msgstr "Otherwise, for example, if you want to pass calculations after computing the structure optimization of semi-experience QM, QM, once you press the: guilabel: `animation` button | toolbar_animation | on the toolbar, display the final structure on the main window and continue Perform keyword setting for the job."
+

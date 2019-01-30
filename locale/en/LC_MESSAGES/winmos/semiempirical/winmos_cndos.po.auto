@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+
+msgid ":menuselection:`半経験QM --> CNDO/S` メニュー"
+msgstr ": menuselection: `semi-experience QM -&gt; CNDO / S` menu"
+
+msgid "CNDO/Sプログラムに関するメニューです。"
+msgstr "It is a menu related to the CNDO / S program."
+
+msgid ""
+"CNDO/SプログラムはWinmostarに同梱されています。 "
+"CNDO/Sプログラムは旧日本化学プログラム交換機構（JCPE、現在の日本コンピュータ化学会）に登録されていたP083プログラムを、Winmostarに対応させるために微修正したものです。"
+" P083のマニュアルは `こちら "
+"<https://winmostar.com/jp/manual_third_party/cndos_man.pdf>`_ から入手可能です。 "
+"CNDO/Sプログラム（ :file:`cndosw.exe` ）はgfortranでコンパイルされています。"
+msgstr "The CNDO / S program is bundled with Winmostar. The CNDO / S program is a slight modification of the P083 program registered in the former Japan Chemistry Program Exchange Organization (JCPE, the present Japan Computer Chemistry Society) to correspond to Winmostar. The manual of P083 is here <https://winmostar.com/jp/manual_third_party/cndos_man.pdf> It is available from `_. The CNDO / S program (: file: `cndosw.exe`) has been compiled with gfortran."
+
+msgid "キーワード設定"
+msgstr "Keyword setting"
+
+#, fuzzy
+msgid ""
+"CNDO/Sの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は "
+":guilabel:`OK` ボタンを押してください。"
+msgstr "Set calculation conditions of CNDO / S. To set up the calculations immediately after setting: guilabel: `Run` button, once to return to the main window please press: guilabel:` OK` button."
+
+msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`semiempirical_cndos_start` を参照してください。"
+msgstr ": guilabel: Behavior when clicking `Run` is see: ref:` semiempirical_cndos_start`."
+
+msgid "Method"
+msgstr "Method"
+
+msgid "計算方法を指定します。（CNDOまたはINDO）"
+msgstr "Specify the calculation method. (CNDO or INDO)"
+
+msgid "Multiplicity"
+msgstr "Multiplicity"
+
+msgid "多重度を指定します。"
+msgstr "Specify multiplicity."
+
+msgid "Basis set"
+msgstr "Basis set"
+
+msgid "基底関数を指定します。（SPまたはSPD）"
+msgstr "Specify the basis function. (SP or SPD)"
+
+msgid "BONDS"
+msgstr "BONDS"
+
+msgid "結合次数を出力することを指定します"
+msgstr "Specifies to output the bond order"
+
+msgid "NOINTER"
+msgstr "NOINTER"
+
+msgid "チェックを入れた場合は原子間距離を出力しません。"
+msgstr "If checked, interatomic distance will not be output."
+
+msgid "SHORT"
+msgstr "SHORT"
+
+msgid "簡略化されたログを出力します。"
+msgstr "It outputs a simplified log."
+
+msgid "OUTMO"
+msgstr "OUTMO"
+
+msgid "MOLMOL2用のファィルを出力します。"
+msgstr "It outputs a file for MOLMOL 2."
+
+msgid "Repulsion integral"
+msgstr "Repulsion integral"
+
+msgid "反発積分の式を指定します。"
+msgstr "Specify the expression of repulsion integral."
+
+msgid "Pariser"
+msgstr "Parisian"
+
+msgid "大野"
+msgstr "Ohno"
+
+msgid "西本-又賀"
+msgstr "Nishimoto - Iga"
+
+msgid "理論式"
+msgstr "Theoretical"
+
+msgid "Nuclear repulsion energy"
+msgstr "Nuclear repulsion energy"
+
+msgid "核間反発エネルギーの式を指定します。"
+msgstr "Specify the expression of inter-nuclear repulsion energy."
+
+msgid "Za * Zb / 1"
+msgstr "For * Zb / 1"
+
+msgid "Za * Zb * γab"
+msgstr "For * Zb * γab"
+
+msgid "PKAPPA"
+msgstr "PKAPPA"
+
+msgid "p電子に対するkappaの値を指定します。"
+msgstr "p Specify the value of kappa for electrons."
+
+msgid "DKAPPA"
+msgstr "DKAPPA"
+
+msgid "d電子に対するkappaの値を指定します。"
+msgstr "d Specify the value of kappa for electrons."
+
+msgid "Charge"
+msgstr "Charge"
+
+msgid "電荷を指定します。"
+msgstr "Specify the charge."
+
+msgid "# of CI"
+msgstr "# of CI"
+
+msgid "励起状態のCI 計算に含める状態の数を指定します。（上限 500）"
+msgstr "Specify the number of states to include in the CI calculation of the excited state. (Max 500)"
+
+msgid "# of excited states"
+msgstr "# of excited states"
+
+msgid "結合次数を出力する励起状態の数を指定します。"
+msgstr "Specify the number of excitation states to output the bond order."
+
+msgid "キーワード読み込み"
+msgstr "Keyword loading"
+
+msgid "既存のCNDO/Sの入力ファイルから、キーワード（計算条件）のみを読み込みます。"
+msgstr "Only keywords (calculation conditions) are read from the existing CNDO / S input file."
+
+msgid "実行"
+msgstr "Execution"
+
+#, fuzzy
+msgid ""
+"メインウィンドウでCNDO/Sの入力ファイルが開かれている場合は、そのファイルを使ってCNDO/Sを実行します。 "
+"開かれていない場合は、CNDO/Sの入力ファイルを保存した上でCNDO/Sを実行します。"
+msgstr "If the input file of CNDO / S is open in the main window, execute CNDO / S with that file. If it is not open, save the CNDO / S input file and execute CNDO / S."
+
+msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.cnd` の時のファイル/フォルダ名を併記しています。"
+msgstr "Following file will be generated with execution. For example, the file / folder name when the input file is: file: `water.cnd` is also shown."
+
+msgid "種類"
+msgstr "type"
+
+msgid "説明"
+msgstr "Description"
+
+msgid "lstファイル"
+msgstr "lst file"
+
+msgid ":file:`water.lst`"
+msgstr ":file:`water.lst`"
+
+msgid "計算のログファイルです。"
+msgstr "Calculation log file."
+
+msgid "作業ディレクトリ"
+msgstr "Working Directory"
+
+msgid ":file:`water.cnd_temp\\\\`"
+msgstr ":file:`water.cnd_temp\\\\`"
+
+msgid "作業ディレクトリです。"
+msgstr "Working directory."
+
+msgid "ログを表示 (lst)"
+msgstr "Display log (lst)"
+
+msgid "lstファイルをテキストエディタで開きます。"
+msgstr "Open the lst file with a text editor."
+
+msgid "UV-Visスペクトル"
+msgstr "UV-Vis spectrum"
+
+msgid "lstファイルを選択し、UV-Visスペクトルと分子軌道を表示します。"
+msgstr "Select lst file and display UV-Vis spectrum and molecular orbital."
+
+#, fuzzy
+msgid ""
+"サブウィンドウの操作方法は :ref:`uvvis_top` , :ref:`mo_top` , :ref:`cube_top` "
+"を参照してください。"
+msgstr "Refer to: ref: `uvvis_top`,: ref:` mo_top`,: ref: `cube_top` for how to operate the subwindow."
+

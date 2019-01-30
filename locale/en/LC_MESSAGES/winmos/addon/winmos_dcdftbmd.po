@@ -19,11 +19,11 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "DCDFTBMD"
-msgstr "NOTTRANSLATED"
+msgstr "DCDFTBMD"
 
 msgid "分割統治型の密度汎関数強束縛分子動力学法に関するメニューです。"
-msgstr "NOTTRANSLATED"
+msgstr "It is a menu related to the divide and conquer type density functional the strongly bound molecular dynamics method."
 
 msgid "使用するためにはアドオンの購入が必要です。"
-msgstr "NOTTRANSLATED"
+msgstr "Purchase of add-on is necessary for using."
 

@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+
+#, fuzzy
+msgid "UV-Vis Spectrumウィンドウ"
+msgstr "UV-Vis Spectrum window"
+
+msgid "可視紫外スペクトルを表示します。 左側のリストには各スペクトルの数値、右側のグラフにはブロードニングしたスペクトルが表示されます。"
+msgstr "Display visible ultraviolet spectrum. The numerical value of each spectrum is displayed in the list on the left and the broadened spectrum is displayed in the graph on the right."
+
+msgid ":menuselection:`View` メニュー"
+msgstr ": menuselection: `View` menu"
+
+msgid ":menuselection:`Draw Peak` メニュー"
+msgstr ": menuselection: `Draw Peak` menu"
+
+msgid "グラフ中にブロードニング前のスペクトルを描画します。"
+msgstr "Draw the spectrum before broadening in the graph."
+
+msgid ":menuselection:`Draw Curve` メニュー"
+msgstr ": menuselection: `Draw Curve` menu"
+
+msgid "グラフ中にブロードニングされたグラフを描画します。"
+msgstr "Draw the broadened graph in the graph."
+
+msgid "Export"
+msgstr "Export"
+
+msgid "ファイル出力する形式を選択します。"
+msgstr "Select the format to output the file."
+
+msgid "Open Excel"
+msgstr "Open Excel"
+
+msgid "csvファイルを出力して開きます。"
+msgstr "Output the csv file and open it."
+
+msgid "Copy Image"
+msgstr "Copy Image"
+
+msgid "グラフをクリップボードにコピーします。"
+msgstr "Copy the graph to the clipboard."
+
+msgid "Broadening"
+msgstr "Broadening"
+
+msgid "ブロードニングの幅を設定します。"
+msgstr "Set the width of broadening."
+
+msgid "Close"
+msgstr "Close"
+
+msgid "ウィンドウを閉じます。"
+msgstr "Close the window."
+

@@ -19,127 +19,127 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid ":menuselection:`MD --> 界面ビルダ` メニュー"
-msgstr "NOTTRANSLATED"
+msgstr ": menuselection: `MD -&gt; interface builder` menu"
 
 msgid "あらかじめ用意された二つのシミュレーションセルのファイル（mol2またはcif形式）を接合して界面モデルを作成します。"
-msgstr "NOTTRANSLATED"
+msgstr "Join the two simulation cell files (mol2 or cif format) prepared in advance to create an interface model."
 
 msgid "Cell Files"
-msgstr "NOTTRANSLATED"
+msgstr "Cell Files"
 
 msgid "接合させる2つのセル（Cell 1および2）の情報を指定します。各項目を設定後[Next]ボタンをクリックします。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the information of the two cells (Cell 1 and 2) to be joined. After setting each item, click the [Next] button."
 
 msgid "Cell 1およびCell 2"
-msgstr "NOTTRANSLATED"
+msgstr "Cell 1 and Cell 2"
 
 msgid "[Browse]"
-msgstr "NOTTRANSLATED"
+msgstr "[Browse]"
 
 msgid "接合させるファイル（mol2またはcif形式）を指定します。ファイルをドラッグアンドドロップして指定することも可能です。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the file (mol 2 or cif format) to be joined. It is also possible to specify files by dragging and dropping them."
 
 msgid "[Lattice Constants]"
-msgstr "NOTTRANSLATED"
+msgstr "[Lattice Constants]"
 
 msgid "[a],[b],[c],[Alpha],[Beta],[Gamma]"
-msgstr "NOTTRANSLATED"
+msgstr "[a],[b],[c],[Alpha],[Beta],[Gamma]"
 
 msgid "セル定数が表示されます。"
-msgstr "NOTTRANSLATED"
+msgstr "The cell constant is displayed."
 
 msgid "Direction"
-msgstr "NOTTRANSLATED"
+msgstr "Direction"
 
 msgid "セルを接合させる方向およびセル間の間隔を指定します。各項目を設定後[Next]ボタンをクリックします。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the direction to join the cells and the spacing between the cells. After setting each item, click the [Next] button."
 
 msgid "[a-axis]"
-msgstr "NOTTRANSLATED"
+msgstr "[a-axis]"
 
 msgid "a軸方向に沿って２つのセルを結合します。"
-msgstr "NOTTRANSLATED"
+msgstr "Combine two cells along the a-axis direction."
 
 msgid "[b-axis]"
-msgstr "NOTTRANSLATED"
+msgstr "[b-axis]"
 
 msgid "b軸方向に沿って２つのセルを結合します。"
-msgstr "NOTTRANSLATED"
+msgstr "Combine two cells along the b-axis direction."
 
 msgid "[c-axis]"
-msgstr "NOTTRANSLATED"
+msgstr "[C-axis]"
 
 msgid "c軸方向に沿って２つのセルを結合します。"
-msgstr "NOTTRANSLATED"
+msgstr "Combine two cells along the c-axis direction."
 
 msgid "Order"
-msgstr "NOTTRANSLATED"
+msgstr "Order"
 
 msgid "[Normal]"
-msgstr "NOTTRANSLATED"
+msgstr "[Normal]"
 
 msgid "Cell 1にCell 2を重ねます。"
-msgstr "NOTTRANSLATED"
+msgstr "Place Cell 2 on Cell 1."
 
 msgid "[Reverse]"
-msgstr "NOTTRANSLATED"
+msgstr "[Reverse]"
 
 msgid "Cell 2にCell 1を重ねます。"
-msgstr "NOTTRANSLATED"
+msgstr "Overlay Cell 1 on Cell 2."
 
 msgid "[Interval]"
-msgstr "NOTTRANSLATED"
+msgstr "[Interval]"
 
 msgid "セル間の間隔を指定します。2面間の距離ではなく、軸に沿った長さとなります。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the interval between cells. It is not the distance between the two sides but the length along the axis."
 
 msgid "[Scaling cells to average size]"
-msgstr "NOTTRANSLATED"
+msgstr "[Scaling cells to average size]"
 
 msgid "セルの大きさに違いがある場合、平均サイズに伸縮します。"
-msgstr "NOTTRANSLATED"
+msgstr "If there is a difference in cell size, it stretches to the average size."
 
 msgid "[Padding small cell to the size of large cell]"
-msgstr "NOTTRANSLATED"
+msgstr "[Padding small cell to the size of large cell]"
 
 msgid "セルの大きさに違いがある場合、小さい方のセルに真空を入れて、大きい方のセルに合わせます。"
-msgstr "NOTTRANSLATED"
+msgstr "If there is a difference in the size of the cell, put a vacuum in the smaller cell and align it with the larger cell."
 
 msgid "Repeat"
-msgstr "NOTTRANSLATED"
+msgstr "Repeat"
 
 msgid "各セルのリピート数を指定します。最後に[Build]ボタンをクリックします。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the number of repeats for each cell. Finally click the [Build] button."
 
 msgid "Number of Cell 1およびCell 2"
-msgstr "NOTTRANSLATED"
+msgstr "Number of Cell 1 and Cell 2"
 
 msgid "セル1またはセル2のa軸方向のリポート数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the number of reports in cell 1 or cell 2 in the a-axis direction."
 
 msgid "セル1またはセル2のb軸方向のリピート数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the number of repeats in cell 1 or cell 2 in the b axis direction."
 
 msgid "セル1またはセル2のc軸方向のリピート数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the number of repeats in cell 1 or cell 2 in the c-axis direction."
 
 msgid "[Suggest]"
-msgstr "NOTTRANSLATED"
+msgstr "[Suggest]"
 
 msgid ""
 "Cell 1とCell 2のサイズが近くなるようなリピート数の組み合わせを提示します。 "
 "Ratioが1に近い組み合わせほど両セルの歪みが少なくなります。 列をクリックしてSetボタンを押すか、ダブルクリックすると反映されます。"
-msgstr "NOTTRANSLATED"
+msgstr "We will present a combination of repeat numbers so that Cell 1 and Cell 2 are closer in size. The combination with Ratio close to 1 reduces the distortion of both cells. Click on the column and press the Set button, or double-click it to take effect."
 
 msgid "Lattice Constrants"
-msgstr "NOTTRANSLATED"
+msgstr "Lattice Constrants"
 
 msgid "接合後のセルの格子定数が表示されます。"
-msgstr "NOTTRANSLATED"
+msgstr "The lattice constant of the cell after bonding is displayed."
 
 msgid "[Build]"
-msgstr "NOTTRANSLATED"
+msgstr "[Build]"
 
 msgid "接合したセルを保存します。系のサイズが大きいと処理時間が長くなる場合があります。"
-msgstr "NOTTRANSLATED"
+msgstr "Save the joined cells. Processing time may be prolonged if the size of the system is large."
 

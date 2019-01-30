@@ -20,11 +20,11 @@ msgstr "NOTTRANSLATED"
 
 #, fuzzy
 msgid "ウィンドウメニュー"
-msgstr "NOTTRANSLATED"
+msgstr "Window menu"
 
 #, fuzzy
 msgid ""
 "各種サブウィンドウ間を移動します。 **Animation** ウィンドウや **Energy Plot** "
 "ウィンドウなどについては、一旦閉じた後に本メニューから選択するともう一度開くことができます。"
-msgstr "NOTTRANSLATED"
+msgstr "Move between various subwindows. ** For the Animation ** window and the ** Energy Plot ** window etc., once you close it you can open it again if you choose from this menu."
 

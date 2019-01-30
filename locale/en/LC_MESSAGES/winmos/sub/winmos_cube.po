@@ -20,123 +20,123 @@ msgstr "NOTTRANSLATED"
 
 #, fuzzy
 msgid "MO Plotウィンドウ"
-msgstr "NOTTRANSLATED"
+msgstr "MO Plot window"
 
 msgid "分子軌道、静電ポテンシャル、各種cubeファイルなどのボリュームデータの表示を調整します。"
-msgstr "NOTTRANSLATED"
+msgstr "Adjust the display of volume data such as molecular orbit, electrostatic potential, various cube files."
 
 msgid ":menuselection:`File --> Open` メニュー"
-msgstr "NOTTRANSLATED"
+msgstr ": menuselection: `File -&gt; Open` menu"
 
 msgid "描画したいcubeファイルを選びます。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the cube file you want to draw."
 
 msgid ":menuselection:`File --> Export VRML` メニュー"
-msgstr "NOTTRANSLATED"
+msgstr ": menuselection: `File -&gt; Export VRML` menu"
 
 msgid "VRML形式で出力し、そのファイルを開きます。"
-msgstr "NOTTRANSLATED"
+msgstr "Output in VRML format and open the file."
 
 msgid ":menuselection:`File --> Open Jmol` メニュー"
-msgstr "NOTTRANSLATED"
+msgstr ": menuselection: `File -&gt; Open Jmol` menu"
 
 msgid "Jmolで表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "It displays with Jmol."
 
 msgid ":menuselection:`File --> Close` メニュー"
-msgstr "NOTTRANSLATED"
+msgstr ": menuselection: `File -&gt; Close` menu"
 
 msgid "このウィンドウを閉じます。"
-msgstr "NOTTRANSLATED"
+msgstr "Close this window."
 
 msgid ":guilabel:`Quantity` プルダウンメニュー"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `Quantity` pulldown menu"
 
 msgid ""
 "描画する物理量を選択します。 :guilabel:`ESP2` はPopulation解析後の点電荷から算出する静電ポテンシャルのため、 "
 ":guilabel:`ESP` よりも高速に動作します。 :guilabel:`Surface` "
 "が付く場合は、分子表面上での物理量の分布を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the physical quantity to draw. : guilabel: `ESP 2` operates faster than: guilabel:` ESP` because it is the electrostatic potential calculated from the point charge after population analysis. : When guilabel: `Surface` is attached, the distribution of the physical quantity on the molecular surface is displayed."
 
 msgid ":guilabel:`Selected MO`"
-msgstr "NOTTRANSLATED"
+msgstr ":guilabel:`Selected MO`"
 
 msgid "描画する分子軌道の番号を指定します。 :ref:`mo_top` で分子軌道を選択するとこの場所に値がセットされます。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the number of the molecular orbit to be drawn. Selecting a molecular orbital with: ref: `mo_top` will set the value in this location."
 
 msgid ":guilabel:`Show Diagram` ボタン"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `Show Diagram` button"
 
 msgid ":ref:`mo_top` を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr ": ref: `mo_top` is displayed."
 
 msgid ":guilabel:`alpha/beta` ボタン"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `alpha / beta` button"
 
 msgid "スピンを選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select a spin."
 
 msgid ":guilabel:`Draw Style` プルダウンメニュー"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `Draw Style` pulldown menu"
 
 msgid "等値面を格子(Mesh)またはソリッド(Solid)モデルで表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Display the isosurface in grid (Mesh) or solid (Solid) model."
 
 msgid ":guilabel:`Transparency`"
-msgstr "NOTTRANSLATED"
+msgstr ":guilabel:`Transparency`"
 
 msgid "透明度を指定します。（0: 不透明、1: 透明）"
-msgstr "NOTTRANSLATED"
+msgstr "Specify transparency. (0: opaque, 1: transparent)"
 
 msgid ":guilabel:`Isosurface Value`"
-msgstr "NOTTRANSLATED"
+msgstr ":guilabel:`Isosurface Value`"
 
 msgid "描画する等値面の値を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the value of the isosurface to draw."
 
 msgid ":guilabel:`Points`"
-msgstr "NOTTRANSLATED"
+msgstr ":guilabel:`Points`"
 
 msgid "各辺の格子点数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the number of grid points on each side."
 
 msgid ":guilabel:`Scale`"
-msgstr "NOTTRANSLATED"
+msgstr ":guilabel:`Scale`"
 
 msgid "描く範囲を指定するスケーリング係数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the scaling factor that specifies the range to be drawn."
 
 msgid ":guilabel:`Draw boundary` チェックボックス"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `Draw boundary` check box"
 
 msgid "cubeファイルの境界に線を描画します。Quantum ESPRESSO, OpenMXなどのバンド計算で主に使用します。"
-msgstr "NOTTRANSLATED"
+msgstr "Draw a line on the boundary of the cube file. It is mainly used for band calculation such as Quantum ESPRESSO, OpenMX."
 
 msgid ":guilabel:`Draw contour Map` チェックボックス"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `Draw contour Map` check box"
 
 msgid "指定した断面において等高線を描画します。"
-msgstr "NOTTRANSLATED"
+msgstr "Draw a contour line on the specified section."
 
 msgid ":guilabel:`Dump cube file` チェックボックス"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `Dump cube file` check box"
 
 msgid ":guilabel:`Draw` ボタンを押したときに、描画と同時にcubeファイルを出力します。"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: When you press the `Draw` button, cube file is output at the same time as drawing."
 
 msgid ":guilabel:`Draw` ボタン"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `Draw` button"
 
 msgid "ボリュームデータを :ref:`winmos3d_top` を用いて描画します。"
-msgstr "NOTTRANSLATED"
+msgstr "Draw the volume data using: ref: `winmos3d_top`."
 
 msgid ":guilabel:`Draw (2D)` ボタン"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `Draw (2D)` button"
 
 #, fuzzy
 msgid "ボリュームデータをメインウィンドウで描画します。（deprecated）"
-msgstr "NOTTRANSLATED"
+msgstr "Draw volume data in the main window. (Deprecated)"
 
 msgid ":guilabel:`Close` ボタン"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: `Close` button"
 

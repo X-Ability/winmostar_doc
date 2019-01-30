@@ -20,55 +20,55 @@ msgstr "NOTTRANSLATED"
 
 #, fuzzy
 msgid "Energy Plotウィンドウ"
-msgstr "NOTTRANSLATED"
+msgstr "Energy Plot window"
 
 msgid "分子動力学計算の各種エネルギー、温度、圧力等の熱力学量の時間変化を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Time change of thermodynamic quantity such as various energy, temperature, pressure etc. of molecular dynamics calculation is displayed."
 
 msgid "ソルバによって出現するUIは異なります。"
-msgstr "NOTTRANSLATED"
+msgstr "The UI appearing by the solver is different."
 
 msgid ":guilabel:`Energy Terms` で項目を選択し、 :guilabel:`Draw` ボタンをクリックするとグラフが表示されます。"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: Select the item with `Energy Terms` and click the: guilabel:` Draw` button to display the graph."
 
 msgid "グラフ描画エリアの操作方法は :ref:`chart_top` を参照してください。"
-msgstr "NOTTRANSLATED"
+msgstr "For how to operate the graph drawing area, see: ref: `chart_top`."
 
 msgid "Block Average"
-msgstr "NOTTRANSLATED"
+msgstr "Block Average"
 
 msgid ":guilabel:`Size` で指定したサイズでブロック平均した値をプロットします。瞬時値の揺らぎが大きい物理量をプロットする際に有用です。"
-msgstr "NOTTRANSLATED"
+msgstr ": guilabel: Plot the block averaged value with the size specified by `Size`. It is useful for plotting physical quantities with large instantaneous fluctuations."
 
 msgid "Normalize by Nmol"
-msgstr "NOTTRANSLATED"
+msgstr "Normalize by Nmol"
 
 msgid "分子数でエネルギーを規格化します。分子数を取得するために、座標ファイルを選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "We standardize the energy by the number of molecules. To obtain the number of molecules, select the coordinate file."
 
 msgid "Calc Ave"
-msgstr "NOTTRANSLATED"
+msgstr "Calc Ave"
 
 msgid "各項目の平均値をテキストファイルで出力します。"
-msgstr "NOTTRANSLATED"
+msgstr "The average value of each item is output as a text file."
 
 msgid ""
 "Gromacsの場合は、 :command:`gmx energy` を実行し、比熱、bulk "
 "modulusなどの揺らぎから求める物性も出力されます。"
-msgstr "NOTTRANSLATED"
+msgstr "In the case of Gromacs, we execute: command: `gmx energy`, and physical properties derived from fluctuations such as specific heat and bulk modulus are also output."
 
 msgid "Draw"
-msgstr "NOTTRANSLATED"
+msgstr "Draw"
 
 msgid "グラフを描画します。"
-msgstr "NOTTRANSLATED"
+msgstr "Draw a graph."
 
 msgid "Gromacsの場合は、 :command:`gmx energy` を実行します。"
-msgstr "NOTTRANSLATED"
+msgstr "For Gromacs, execute: command: `gmx energy`."
 
 msgid "Close"
-msgstr "NOTTRANSLATED"
+msgstr "Close"
 
 msgid "ウィンドウを閉じます。"
-msgstr "NOTTRANSLATED"
+msgstr "Close the window."
 
