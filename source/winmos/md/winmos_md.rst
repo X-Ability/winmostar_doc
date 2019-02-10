@@ -27,7 +27,12 @@ MDメニューの機能を利用するにはMDパックが必要です。
       - 水分子
    
    現在のファイル名の末尾に :file:`_builder_tmp` を付けた作業用フォルダが作成され、その中で処理が行われます。
-   内部ではCygwin上で :command:`gmx insert-molecules` または :command:`gmx solvate` を実行します。
+   
+   環境設定において :guilabel:`[MD]-[溶媒を配置/セルを構築]にてPackmolを使用` にチェックを入れている場合は、内部でPackmolを実行します。
+   作業用フォルダ以下の :file:`packmol.bat`、:file:`packmol.log` に詳細が記載されています。
+   作業用フォルダ以下の :file:`output.pdb` が最終的に生成された分子構造を含むファイルになります。
+   
+   環境設定において :guilabel:`[MD]-[溶媒を配置/セルを構築]にてPackmolを使用` にチェックを入れていない場合は、内部でCygwinを立ち上げ :command:`gmx insert-molecules` または :command:`gmx solvate` を実行します。
    作業用フォルダ以下の :file:`generate.sh`、:file:`generate.log` に詳細が記載されています。
    作業用フォルダ以下の :file:`output.gro` が最終的に生成された分子構造を含むファイルになります。
 
@@ -52,6 +57,11 @@ MDメニューの機能を利用するにはMDパックが必要です。
       Option
          Water Model
             :guilabel:`Add Water` により追加される水モデルを指定します。指定した水モデルの座標データはCygwin上のGromacsにインストールされたトポロジファイルのライブラリから引用されます。
+         Packmol Parameters
+            Tolerance
+               Packmolにおけるtoleranceパラメータを指定します。
+            Margin
+               Packmolを使用する場合の、セルの端付近の原子を置かない領域の幅を指定します。
       Reset
          このウィンドウにおける設定をリセットします。
       Build
