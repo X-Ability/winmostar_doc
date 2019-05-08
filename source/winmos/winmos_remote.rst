@@ -12,7 +12,7 @@
 対応するジョブスケジューラ
 -------------------------------
 
-V9.0.1時点でWinmostarが対応するジョブスケジューラは以下の通りです。カスタマイズサービス `Winmostar for you <https://x-ability.co.jp/wm4u.pdf>`_ においてご希望のジョブスケジューラに追加対応させることも可能です。
+V9.2.2時点でWinmostarが対応するジョブスケジューラは以下の通りです。カスタマイズサービス `Winmostar for you <https://x-ability.co.jp/wm4u.pdf>`_ においてご希望のジョブスケジューラに追加対応させることも可能です。
 
    - TORQUE (PBS)
    - SGE, UGE
@@ -24,6 +24,7 @@ V9.0.1時点でWinmostarが対応するジョブスケジューラは以下の�
    - ST
    - NSUB
    - Rescale
+   - Winmostar Job Manager
    
 TSUBAME3.0を利用する場合はSGEを選択する。
 
@@ -342,5 +343,27 @@ Profileメニュー
 
 :file:`UserPref\\winmos_profile.ini` > :file:`UserPref\\winmos_server.ini` > :file:`wm_system\\RemoteJob\default_profile.ini`
 
+.. _remote_jm:
 
-         
+Windowsサーバの利用方法
+------------------------------------------------
+
+V9.2.2からはリモートサーバでWindows PCを使用することができます。
+使用するには下記のような事前準備が必要です。
+
+   - リモートサーバにOpenSSHサーバをインストールしてクライアントからSSHで接続できるようにします。
+   - リモートサーバにWinmostarをインストールしてWinmostarジョブマネージャを常に起動しておきます。
+
+下記のように設定します。
+
+   - Profile編集画面でQueueにJM(Windows)を選択します。
+   - Winmostar PathにリモートサーバにインストールされているWinmostarのパスを設定します。
+   - デフォルトのシェルスクリプトは使えないので、Use Templateを選択しテンプレートファイルを作成します。
+
+下記のような他のジョブスケジューラとの操作上の違いがあります。
+
+   - :guilabel:`Test Connection`ボタンを押した時にジョブマネージャが起動しているかのチェックも行います。
+   - :guilabel:`List Jobs`ボタンで表示される情報はジョブマネージャと同じで左から番号、状態、優先度、コア数、ジョブID、開始日時、終了日時、バッチファイルです。
+   - :guilabel:`Delete Job`ボタンでジョブを取り消す場合はジョブIDを入力します。
+   
+

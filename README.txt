@@ -1,7 +1,7 @@
 - 日本語の編集方法
 source以下のrstファイルを編集する。
 
-- Windows10+ WSLでのビルド環境構築
+- Ubuntu(Windows10+ WSL)でのビルド環境構築
 
 Anacondaをインストールする
 https://www.anaconda.com/download/#linux
