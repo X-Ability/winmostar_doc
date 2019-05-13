@@ -325,6 +325,12 @@ Q. GAMESSのログに「 `**** ERROR **** PCM SPHERE(S) MUST HAVE A POSITIVE RAD
 | $PCMCAV RIN(13)=1.55, RIN(15)=1.55 $END
 | この例では13番目と15番目の原子にCavity半径を与えます。
 
+Q. GAMESSの実行時に「ERROR: BAD DELOCALIZED COORDINATES GENERATED!!!」とログに出力され計算が異常終了します。
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+| A. WimostarのGAMESSキーワード設定ウインドウにおいて、Z-Matrixタブを選択 --> $ZMATのチェックを外してください。
+
+
 Q. NWChemの並列実行時に「Please specify an authentication passphrase for smpd: 」とログに出力され計算が流れません。
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
