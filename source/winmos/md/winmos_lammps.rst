@@ -258,6 +258,8 @@ LAMMPS実行
 
       .. include:: ../winmos_workingdir.rst
 
+   ジョブは :ref:`winmosjm_top` を通じて実行されます。
+
 .. _md_lammps_trajectory:
 
 アニメーション

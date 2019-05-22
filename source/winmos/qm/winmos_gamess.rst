@@ -184,6 +184,8 @@ $HESS from punch
              | :file:`water.pun`
            - | 詳細な結果解析を行うためのpunchファイルです。
 
+   ジョブは :ref:`winmosjm_top` を通じて実行されます。
+
 ログを表示 (out,log)
 ---------------------
 

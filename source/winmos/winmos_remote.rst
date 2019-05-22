@@ -134,6 +134,8 @@ TSUBAME3.0を利用する場合はSGEを選択する。
    ウィンドウ下部には、サブミットしたジョブのIDが表示されます。IDはジョブをキャンセル（kill）するときに使用します。
 
    リモートサーバでジョブが実行されたディレクトリは、 :menuselection:`Profile --> Edit Profile` の :guilabel:`Remote Directory` で設定することができ、 実際使用されたものは :guilabel:`Submit Remote Job` ウィンドウの :guilabel:`Remote Directory` 欄に表示されます。
+   
+   ジョブがリモートサーバ上で開始されると、標準出力は :file:`winmos.o` 、標準エラーは :file:`winmos.e` というファイルにそれぞれ出力されます。
 
 .. _remote_procedure_qstat:
 

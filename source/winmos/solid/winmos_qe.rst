@@ -298,6 +298,8 @@
 
       .. include:: ../winmos_workingdir.rst
       
+   ジョブは :ref:`winmosjm_top` を通じて実行されます。
+
 ログを表示 (pwout)
 ----------------------------
 

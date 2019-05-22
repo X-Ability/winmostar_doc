@@ -178,6 +178,8 @@
              | :file:`water.gjf.bat`
            - Gaussianを実行するためのバッチファイルです。
 
+   ジョブは :ref:`winmosjm_top` を通じて実行されます。
+
 ログを表示 (log/out)
 ---------------------
 
