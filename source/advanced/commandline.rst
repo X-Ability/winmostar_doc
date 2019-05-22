@@ -8,7 +8,9 @@
 .. list-table::
 
    * - MOPACの実行
-     - -mopac1, -mopac2, -mopac3
+     - | -mopac1, -mopac2, -mopac3
+       | (それぞれ :ref:`preferences_top` :menuselection:`--> プログラムパス` 
+       | において選択した3種のMOPACバイナリに対応)
    * - 分子表面積・体積の計算
      - -molsv
    * - アスペクト比の計算
