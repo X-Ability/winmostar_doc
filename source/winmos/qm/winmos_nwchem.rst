@@ -106,7 +106,7 @@
    メインウィンドウでNWChemの入力ファイルが開かれている場合は、そのファイルを使ってNWChemを実行します。
    開かれていない場合は、NWChemの入力ファイルを保存した上でNWChemを実行します。
    
-   入力ファイルを保存する際に、 :ref:`file_coordinateformat` の選択肢に応じて座標の出力フォーマットが変化します。
+   入力ファイルを保存する際に、 :ref:`file_coordinateformat` の選択肢（ :guilabel:`Z-Matrix` または :guilabel:`XYZ` ）および :ref:`座標表示エリア <gui_main>` の :guilabel:`Z-Matrix` / :guilabel:`XYZ` タブの選択に応じて座標の出力フォーマットが変化します。
    
    NWChemのプログラムパスは、 :menuselection:`ツール --> 環境設定 --> プログラムパス` で変更することができます。
    
