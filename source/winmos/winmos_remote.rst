@@ -175,6 +175,8 @@ Submit Jobウィンドウの各機能
 Fileメニュー
    Revert All Changes
       変更を破棄しサーバ設定ファイルを読み込み直します。
+   Save Setting File
+      サーバ設定ファイルを上書き保存します。
    Import Setting File
       サーバ設定ファイルを読み込み、その中に含まれているプロファイルを、既存のプロファイルのリストに追加します。
    Restore Setting File

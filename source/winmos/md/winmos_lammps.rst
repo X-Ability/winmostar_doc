@@ -98,12 +98,20 @@
          xyz形式で座標を出力する頻度をタイムステップ数で指定します。
       Log Interval
          log ファイルにエネルギー変数を書き出す頻度をタイムステップ数で指定します。
+      Calc Fluctuation Properties
+         熱力学量の揺らぎから比熱と等温圧縮率をon-the-flyで計算し出力します。
       Calculate Thermal Conductivity
-         原子の流速の自己相関関数から算出する熱伝導率を出力します。
+         原子の流速の自己相関関数とGreen-Kubo式から熱伝導率をon-the-flyで計算し出力します。
       Calc Interval
          熱伝導率計算における自己相関関数の算出頻度を指定します。
       ACF Length
          熱伝導率計算における自己相関関数の長さを指定します。
+      Calculate viscosity
+         圧力テンソルの自己相関関数とGreen-Kubo式から粘度をon-the-flyで計算し出力します。
+      Calc Interval
+         粘度計算における自己相関関数の算出頻度を指定します。
+      ACF Length
+         粘度計算における自己相関関数の長さを指定します。
    Interaction
       Cutoff(vdw)
          vdw(LJ)ポテンシャルのカットオフ半径を指定します。
@@ -156,7 +164,7 @@
       Final Strength
          拘束計算時の、終状態における拘束ポテンシャルのバネ係数を指定します。
       Enable Position Restraint
-         指定した原子の絶対座標を固定した計算を実施します。
+         指定した原子の絶対座標を固定した計算を実施します。固定されていない原子の温度はlogにTempFreeとして出力されます。
       Restrained Atoms
          絶対座標を固定する原子を指定します。
    Automatic
@@ -296,6 +304,22 @@ LAMMPS実行
    LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndxファイルを選択し、散乱関数を表示します。
    
    詳細は :ref:`md_gromacs_saxs` を参照してください。
+   
+比誘電率
+------------------------------
+   LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndx, mdp, topファイルを選択し、散乱関数を表示します。
+   
+   詳細は :ref:`md_gromacs_permittivity` を参照してください。
+   
+密度分布
+------------------------------
+   LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndx, mdp, topファイルを選択し、密度分布を表示します。
+   
+   詳細は :ref:`md_gromacs_densityprof` を参照してください。
+   
+各種自己相関関数
+------------------------------
+   Green-Kubo式を用いた熱伝導率、粘度算出時に出力される自己相関関数を表示します。
    
 散逸粒子動力学
 ------------------------

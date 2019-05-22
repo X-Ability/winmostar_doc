@@ -23,6 +23,8 @@
    :guilabel:`Save as Default` ボタンで現在の状態をデフォルトの状態として保存します。
    :menuselection:`Save as Default --> Clear Default Settings` で保存されてデフォルトの状態を出荷時の状態に戻します。
 
+   Easy Setup
+      簡易設定画面を表示します。
    Hamiltonian
       使用するハミルトニアンを指定します。MOPACの各パージョンがサポートするハミルトニアンは以下の通りです。
    

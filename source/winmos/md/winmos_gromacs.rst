@@ -391,6 +391,8 @@ Gromacs実行
 
    .. include:: winmos_gromacs_analysis_common1.rst
 
+.. _md_gromacs_permittivity:
+
 比誘電率
 ---------------
 
@@ -406,6 +408,8 @@ Gromacs実行
    内部的には :command:`gmx tcaf` コマンドが実行されます。
 
    .. include:: winmos_gromacs_analysis_common1.rst
+
+.. _md_gromacs_densityprof:
 
 密度分布
 -----------------
