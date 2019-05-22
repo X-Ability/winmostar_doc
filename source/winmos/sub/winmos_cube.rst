@@ -14,7 +14,35 @@ MO Plotウィンドウ
    :menuselection:`File --> Close` メニュー
       このウィンドウを閉じます。
    :guilabel:`Quantity` プルダウンメニュー
-      描画する物理量を選択します。 :guilabel:`ESP2` はPopulation解析後の点電荷から算出する静電ポテンシャルのため、 :guilabel:`ESP` よりも高速に動作します。 :guilabel:`Surface` が付く場合は、分子表面上での物理量の分布を表示します。
+      描画する物理量を選択します。 
+
+      - MO
+         :guilabel:`Selected MO` で選択された分子軌道の3次元分布です。
+      - ESP2
+         :guilabel:`ESP2` はPopulation解析後の点電荷から算出する静電ポテンシャルの3次元分布です。 :guilabel:`ESP` よりも高速に動作します。
+      - ESP2/Surface
+         :guilabel:`ESP2` の情報を、分子表面上で表示します。
+      - MO/Surface
+         :guilabel:`MO` の情報を、分子表面上で表示します。
+      - Density
+         電子密度の3次元分布です。
+      - ESP
+         電子状態計算で直接計算された静電ポテンシャルの3次元分布です。
+
+      .. hint::
+         以下の手順で、 :guilabel:`ESP/Surface` に相当する、分子表面上でのESPを表示できます。
+         
+            1. :guilabel:`Dump cube file` にチェックを入れ、 :guilabel:`Quantity` で :guilabel:`Density` を選択する。
+            2. :guilabel:`Draw` ボタンを押と、 :file:`*_den.cube` というファイルが生成される。
+            3. :guilabel:`Quantity` で :guilabel:`ESP` を選択する。
+            4. :guilabel:`Draw` ボタンを押と、 :file:`*_esp.cube` というファイルが生成される。この処理員は数分掛かることがある。
+            5. :file:`*_den.cube` をWinmostarのメインウィンドウで開くと、 :guilabel:`Cube Plot` というウィンドウが開く。
+            6. :guilabel:`File 2` の横の :guilabel:`...` ボタンをクリックし、 :file:`*_esp.cube` を開く。
+            7. :guilabel:`Draw` ボタンをクリックする。
+
+      .. hint::
+         Windows版Gaussianに同梱されているCubegenプログラムをお持ちの場合は、 :guilabel:`ESP` の表示を高速化できます。
+         Cubeファイルを開いた際に出現する :guilabel:`Cubegen` ウィンドウにおいて、 :guilabel:`Use Gaussian's cubegen` チェックボックスにチェックを入れてください。
    :guilabel:`Selected MO`
       描画する分子軌道の番号を指定します。 :ref:`mo_top` で分子軌道を選択するとこの場所に値がセットされます。
    :guilabel:`Show Diagram` ボタン
