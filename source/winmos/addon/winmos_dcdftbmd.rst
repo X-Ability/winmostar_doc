@@ -112,6 +112,9 @@ DCDFTBMD
          エネルギーと力の計算を行います。
       STRESS
          応力テンソルと格子ベクトルの微分計算を行います。
+   Options
+      Restore Working Directory
+         継続ジョブが異常終了時など、作業ディレクトリを実行前の状態に戻す際にクリックします。
          
 .. _addon_dcdftbmd_start:
 
