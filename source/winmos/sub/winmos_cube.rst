@@ -18,6 +18,8 @@ MO Plotウィンドウ
 
       - MO
          :guilabel:`Selected MO` で選択された分子軌道の3次元分布です。
+      - Surface
+         VDW半径程度の距離（厳密ではありません）に描画される分子表面です。
       - ESP2
          :guilabel:`ESP2` はPopulation解析後の点電荷から算出する静電ポテンシャルの3次元分布です。 :guilabel:`ESP` よりも高速に動作します。
       - ESP2/Surface
