@@ -113,6 +113,7 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
    - `Linux版LAMMPSインストールマニュアル <https://winmostar.com/jp/LAMMPS_install_manual_jp_linux.pdf>`_
    - `Linux版Quantum ESPRESSOインストールマニュアル <https://winmostar.com/jp/QE_install_manual_jp_linux.pdf>`_
    - `Linux版OpenMXインストールマニュアル <https://winmostar.com/jp/OpenMX_install_manual_jp_linux.pdf>`_
+   - `Linux版DCDFTBMDインストールマニュアル <https://winmostar.com/jp/DCDFTBMD_install_manual_jp_linux.pdf>`_
 
 ..
 
