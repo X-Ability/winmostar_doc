@@ -22,6 +22,7 @@
    solid/winmos_solid
    solid/winmos_qe
    solid/winmos_fdmnes
+   solid/winmos_phonopy
    winmos_tools
    winmos_preferences
    winmos_window

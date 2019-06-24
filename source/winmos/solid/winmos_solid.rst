@@ -172,3 +172,7 @@ BoltzTraP
 ------------------------
    BoltzTraPに関するメニューです。
 
+Phonopy
+------------------------
+   :ref:`solid_phonopy_top` を参照してください。
+
