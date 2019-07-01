@@ -11,6 +11,8 @@
      - | -mopac1, -mopac2, -mopac3
        | (それぞれ :ref:`preferences_top` :menuselection:`--> プログラムパス` 
        | において選択した3種のMOPACバイナリに対応)
+   * - ハンセン溶解度パラメータ計算の実行
+     - -hsp
    * - 分子表面積・体積の計算
      - -molsv
    * - アスペクト比の計算
