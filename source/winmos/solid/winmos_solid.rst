@@ -170,7 +170,7 @@ FDMNES
 
 BoltzTraP
 ------------------------
-   BoltzTraPに関するメニューです。
+   :ref:`solid_boltztrap_top` を参照してください。
 
 Phonopy
 ------------------------
