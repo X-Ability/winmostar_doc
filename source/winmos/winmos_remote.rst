@@ -249,6 +249,12 @@ Profileメニュー
          SSH接続を伴う操作の前に一度実行しておくと、それ以降の操作が軽快になります。
       Open Putty
          Puttyの設定ウィンドウを開き、接続に関する詳細な設定を行います。
+      Do Not Use Putty for Connection(experimental)
+         Putty接続にPuttyを使用しません。
+         接続を保持するため、動作が軽快になります。
+         csh系のリモートサーバには未対応です。
+         Windowsのリモートサーバには未対応です。
+         鍵認証での接続では、公開鍵の指定も必要です。
    Jobメニュー
       Send Local Files & Submit Job
          計算に必要な入力ファイルを生成し、SFTPでリモートサーバに転送した後、ジョブスケジューラにサブミットします。
