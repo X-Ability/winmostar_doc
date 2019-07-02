@@ -22,7 +22,7 @@
    solid/winmos_solid
    solid/winmos_qe
    solid/winmos_fdmnes
-   solid/winmos_boltztrap.rst
+   solid/winmos_boltztrap
    solid/winmos_phonopy
    winmos_tools
    winmos_preferences
