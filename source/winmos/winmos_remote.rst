@@ -252,8 +252,6 @@ Profileメニュー
       Do Not Use Putty for Connection(experimental)
          Putty接続にPuttyを使用しません。
          接続を保持するため、動作が軽快になります。
-         csh系のリモートサーバには未対応です。
-         Windowsのリモートサーバには未対応です。
          鍵認証での接続では、公開鍵の指定も必要です。
    Jobメニュー
       Send Local Files & Submit Job
