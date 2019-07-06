@@ -21,6 +21,7 @@
    md/winmos_interface
    solid/winmos_solid
    solid/winmos_qe
+   solid/winmos_openmx
    solid/winmos_fdmnes
    solid/winmos_boltztrap
    solid/winmos_phonopy

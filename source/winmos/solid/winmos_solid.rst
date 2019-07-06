@@ -162,7 +162,7 @@ Quantum ESPRESSO
 
 OpenMX
 ------------------------
-   OpenMXに関するメニューです。
+   :ref:`solid_openmx_top` を参照してください。
 
 FDMNES
 ------------------------
