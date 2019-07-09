@@ -75,12 +75,12 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
 
 5. WinmostarをインストールしたWindows PC（ローカルマシン）上で使用するソルバを、以下のリンク先の手順でインストールします。
 
-   - `Windows版GAMESSインストールマニュアル <https://winmostar.com/jp/GAMESS_install_manual_jp_win.pdf>`_
-   - `Windows版NWChemインストールマニュアル <https://winmostar.com/jp/nwchem4wm_jp.html>`_
-   - `Windows版LAMMPSインストールマニュアル <https://winmostar.com/jp/LAMMPS_install_manual_jp_win.pdf>`_
-   - `Windows版NAMDインストールマニュアル <https://winmostar.com/jp/NAMD_install_manual_jp_win.pdf>`_
-   - `Windows版Quantum ESPRESSOインストールマニュアル <https://winmostar.com/jp/QE_install_manual_jp_win.pdf>`_
-   - `Windows版FDMNESインストールマニュアル <https://winmostar.com/jp/FDMNES_install_manual_jp_win.pdf>`_
+   - `Windows版GAMESSインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/GAMESS_install_manual_jp_win.pdf>`_
+   - `Windows版NWChemインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/nwchem4wm_jp.html>`_
+   - `Windows版LAMMPSインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/LAMMPS_install_manual_jp_win.pdf>`_
+   - `Windows版NAMDインストールマニュアル             <https://winmostar.com/jp/manual_jp/installation/NAMD_install_manual_jp_win.pdf>`_
+   - `Windows版Quantum ESPRESSOインストールマニュアル <https://winmostar.com/jp/manual_jp/installation/QE_install_manual_jp_win.pdf>`_
+   - `Windows版FDMNESインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/FDMNES_install_manual_jp_win.pdf>`_
 
    .. note::
       - Gromacs, Amber, MODYLAS, OpenMXは次のステップでインストールする :ref:`cygwin_wm <cygwinwm_top>` に含まれます。
@@ -108,12 +108,12 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
 9. リモートジョブを行う場合は、投入先のサーバに使用するソルバを、以下のリンク先の手順でインストールします。
 
    - `Linux版NWChem, Gromacs, Amberインストールマニュアル <https://winmostar.com/jp/gmx4wm_jp_linux.html>`_
-   - `Linux版GAMESSインストールマニュアル <https://winmostar.com/jp/GAMESS_install_manual_jp_linux.pdf>`_
-   - `Linux版Gromacsインストールマニュアル（詳細版） <https://winmostar.com/jp/Gromacs_install_manual_jp_linux.pdf>`_
-   - `Linux版LAMMPSインストールマニュアル <https://winmostar.com/jp/LAMMPS_install_manual_jp_linux.pdf>`_
-   - `Linux版Quantum ESPRESSOインストールマニュアル <https://winmostar.com/jp/QE_install_manual_jp_linux.pdf>`_
-   - `Linux版OpenMXインストールマニュアル <https://winmostar.com/jp/OpenMX_install_manual_jp_linux.pdf>`_
-   - `Linux版DCDFTBMDインストールマニュアル <https://winmostar.com/jp/DCDFTBMD_install_manual_jp_linux.pdf>`_
+   - `Linux版GAMESSインストールマニュアル                 <https://winmostar.com/jp/manual_jp/installation/GAMESS_install_manual_jp_linux.pdf>`_
+   - `Linux版Gromacsインストールマニュアル（詳細版）      <https://winmostar.com/jp/manual_jp/installation/Gromacs_install_manual_jp_linux.pdf>`_
+   - `Linux版LAMMPSインストールマニュアル                 <https://winmostar.com/jp/manual_jp/installation/LAMMPS_install_manual_jp_linux.pdf>`_
+   - `Linux版Quantum ESPRESSOインストールマニュアル       <https://winmostar.com/jp/manual_jp/installation/QE_install_manual_jp_linux.pdf>`_
+   - `Linux版OpenMXインストールマニュアル                 <https://winmostar.com/jp/manual_jp/installation/OpenMX_install_manual_jp_linux.pdf>`_
+   - `Linux版DCDFTBMDインストールマニュアル               <https://winmostar.com/jp/manual_jp/installation/DCDFTBMD_install_manual_jp_linux.pdf>`_
 
 ..
 
