@@ -184,6 +184,42 @@
          まず、電圧0での計算のログファイルを指定し、電圧0でのフェルミエネルギーを取得します。
          次に、印加電圧を入力します。
          これら2つの情報から、Target Fermi Energyを算出します。
+   RISM(1)タブ
+      trism=.True.
+         RISM計算を有効にします。ESM-RISM計算を実行する際は、ここにチェックを入れ、 :guilabel:`ESM` タブの :guilabel:`assume_isolated=esm` にもチェックを入れてください。
+      closure
+         RISM計算で使用するクロージャを選択します。
+      tempv
+         RISM計算の温度を指定します。
+      solv
+         RISM計算のカットオフエネルギーを指定します。
+      solute_lj
+         溶質（DFT領域）のLJパラメータを指定します。 :guilabel:`none` を選択した場合は、その下の :guilabel:`solute_epsilon` と :guilabel:`solute_sigma` にLJパラメータを入力してください。
+      nsolv
+         溶媒の分子種の数を指定します。
+      SOLVENTS
+         :guilabel:`Density` の単位をプルダウンから選択し、各溶媒分子種の密度（濃度）とMOLファイルの名前を指定します。MOLファイルは下の :guilabel:`Directory for MOL Files` で指定したフォルダに収められている必要があります。
+      Directory for MOL Files
+         :guilabel:`SOLVENTS` で選択できるMOLファイルを収めたフォルダを指定します。
+   RISM(2)タブ
+      laue_expand_right/left
+         ESM-RISM計算における溶媒領域の遠方側の端の位置を指定します。
+      laue_starting_right/left
+         ESM-RISM計算における溶媒領域の開始位置を指定します。
+      laue_buffer_right/left
+         ESM-RISM計算における溶媒のバッファ領域の位置を指定します。
+      Run only 1D-RISM
+         ここをチェックした場合は、pw.xの代わりに1drism.xを実行します。DFT計算は実行されません。溶媒原子間相関関数や溶媒間の化学ポテンシャルのみを知りたいときに有効です。
+      rism3d_conv_level
+         SCF計算の各ステップにおける3D-RISM計算の打ち切り誤差を、動的に変化させる際のパラメータを指定します。
+      rism1d/rism3d_maxstep
+         1Dおよび3D-RISMの最大反復回数を指定します。
+      rism1d/rism3d_conv_thr
+         1Dおよび3D-RISMの打切り誤差を指定します。
+      mdiis1d/3d_size
+         MDIISアルゴリズムによるRISM計算の収束パラメータを指定します。
+      mdiis1d/3d_step
+         MDIISアルゴリズムによるRISM計算の収束パラメータを指定します。
    Otherタブ
       QEの入力ファイルの書式（FORTRANのnamelist形式）で、その他の設定を記入します。
       記入例は、ポインタを重ねると表示されます。
@@ -485,6 +521,8 @@ IR/ラマンスペクトル
 --------------------------------------------
    RISM計算（trism=.True.）で出力される1drismファイルを用いてRISM領域の原子間相関関数(動径分布関数)を算出します。
 
+   Obtain Chemical Potentials
+      溶媒分子間の化学ポテンシャルをcsv形式で出力します。
    Draw
       グラフを表示します。
       必要に応じて結果解析用プログラムが実行されます。
@@ -504,6 +542,12 @@ IR/ラマンスペクトル
       ウィンドウを閉じます。
 
    グラフ描画エリアの操作方法は :ref:`chart_top` を参照してください。
+
+MOLファイルを作成
+--------------------------------------------
+   RISM計算（trism=.True.）で使用される溶媒のMOLファイルを作成します。溶媒分子を1分子メインウィンドウに作成した上で本機能を呼び出してください。LAMMPSのdata形式を入力にする際には :guilabel:`Use parameters in displayed file` にチェックを入れてください。
+   
+   作成したファイルはMOLファイルのキーワード設定ウィンドウの :guilabel:`RISM(1)` タブの :guilabel:`Directory for MOL Files` で指定したフォルダに配置してください。
 
 .. _solid_qe_cpmd_animation:
 

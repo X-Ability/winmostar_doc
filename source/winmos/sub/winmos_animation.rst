@@ -46,6 +46,8 @@ Animationウィンドウ
    Toolsメニュー
       Invert Trajectory
          トラジェクトリを反転させます。順方向、逆方向のIRC計算のトラジェクトリを、鞍点を中心に結合させたいときに便利な機能です。
+      Skip Frames
+         トラジェクトリを一定間隔で間引きます。長大なトラジェクトリのサイズを小さくして解析の処理速度を軽くしたい場合などに便利な機能です。
       Distance/Angle Change
          トラジェクトリ内の指定した原子間の結合長・結合角・二面角を解析します。
          
@@ -54,6 +56,10 @@ Animationウィンドウ
             3. :guilabel:`Plot` において時間変化（ :guilabel:`Time Change` ）またはヒストグラム（ :guilabel:`Histogram` ）のどちらを出力するか選択する。
             4. :guilabel:`Draw` ボタンをクリックします。
          
+      Mean Square Displacement/Diffusion Constant
+         平均二乗変位および自己拡散係数を算出します。詳細は :ref:`md_gromacs_msd` を参照してください。Gromacsなど一部のソルバでは本メニューが有効になりませんが、ソルバのメニューに同等機能が用意されている場合があります。
+      Radial Distribution Function
+         動径分布関数を算出します。詳細は :ref:`md_gromacs_rdf` を参照してください。Gromacsなど一部のソルバでは本メニューが有効になりませんが、ソルバのメニューに同等機能が用意されている場合があります。
       Extract Trajectory for Selected Group
          メインウィンドウでグループ選択した原子のみを取り出したトラジェクトリファイルを作成します。
    上下スライダー

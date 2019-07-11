@@ -1,3 +1,5 @@
+.. _commandline_top:
+
 コマンドプロンプトからの実行方法
 ============================================
 
@@ -22,10 +24,11 @@
 
 使用例::
 
-   "C:\winmos7\winmostar.exe" "C:\winmos7\samples\dbt.dat" -mopac1
-   "C:\winmos7\winmostar.exe" "C:\winmos7\samples\dbt.dat" -molsv 1 2.0 0.02
-   "C:\winmos7\winmostar.exe" "C:\winmos7\samples\dbt.dat" -o pdb
-   "C:\winmos7\winmostar.exe" "C:\winmos7\samples\dbt.dat" -o gjf adjust hadd clean
+   "C:\winmos9\winmostar.exe" "C:\winmos9\samples\dbt.dat" -mopac1
+   "C:\winmos9\winmostar.exe" "C:\winmos9\samples\dbt.dat" -molsv 1 2.0 0.02
+   "C:\winmos9\winmostar.exe" "C:\winmos9\samples\dbt.dat" -o pdb
+   "C:\winmos9\winmostar.exe" "C:\winmos9\samples\dbt.dat" -o gjf adjust hadd clean
+   "C:\winmos9\winmostar.exe" "C:\winmos9\samples\dbt.dat" -hsp
 
 | 実行プログラムを指定した時は処理後に自動的にWinmostarが終了するので、DOSのBATファイルを記述し、MOPAC等を連続的に実行することができます。
 | -oオプションでファイル形式を変換する際に、「adjust」(座標調整)、「hadd」(水素付加)、「hdel」(水素削除)、「clean」(クリーン)を指定することもできます。

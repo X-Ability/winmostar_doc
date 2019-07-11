@@ -277,6 +277,10 @@ Profileメニュー
          Remote Directory内のログファイルの中から文字列を検索します。
          
          ウィンドウ内の :guilabel:`grep` ボタンでも同様の操作が可能です。
+      Restert Terminated Job
+         ジョブスケジューラなどによりリモートジョブが強制的に中断された場合、本機能で計算を再開します。
+      Force Job Finalization
+         計算の異常終了により全てのファイルが生成されず、 :guilabel:`Get All Remote Files` が正常動作しない場合、本機能を実行すると強制的に終了処理が実行され、 :guilabel:`Get All Remote Files` を実行できるようになります。
       Get Remote File and ...
          Remote Directory内の特定ファイルをgetして可視化します。
          
