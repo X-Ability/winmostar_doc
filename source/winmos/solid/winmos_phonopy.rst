@@ -22,8 +22,7 @@
    Phonopyを用いたプリ・ポスト処理の計算条件を設定し、プリ処理の実行を行います。
    
    :guilabel:`Open` ボタン
-
-      Quantum ESPRESSOのインプットファイル (*.in, *.pwin)を読み込みます。
+      Quantum ESPRESSOのインプットファイル (\*.in,\*.pwin)を読み込みます。
       Phonopyでのポスト処理では、応力の情報を必要とします。このため読み込むファイルは
       tprnfor, tstressキーワードを含んでいる必要があります。
       Phonopy用のQuantum ESPRESSOのインプットファイルは、
@@ -83,7 +82,7 @@
              | スーパーセルのパターンは複数生成されるため、＊の部分には1, 2, などの数字が入ります。
          * - | tmpファイル
              | :file:`tmp-*.in`
-           - | header.inとsupercell-*.inを結合したファイルです。
+           - | header.inとsupercell-\*.inを結合したファイルです。
 
    :guilabel:`Cancel` ボタン
 
