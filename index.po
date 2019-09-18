@@ -1,0 +1,32 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+
+msgid ""
+msgstr ""
+
+msgid "Winmostar :sup:`TM` ユーザマニュアル"
+msgstr "Winmostar :sup:`TM` user manual"
+
+msgid ""
+"本書には、Winmostar(TM)の各機能の動作・操作方法が書かれています。 本書の最新版は `公式サイト "
+"<https://winmostar.com/>`_ から入手可能です。"
+msgstr "This manual describes the operation method of each function of Winmostar (TM). The latest version of this document is available from `official site <https://winmostar.com/>`_."
+
+msgid ""
+"Winmostar(TM)を初めて使う方は `ビギナーズガイド "
+"<https://winmostar.com/jp/tutorials/V8/BeginnersGuide_V8.pdf>`_ "
+"を参照してください。"
+msgstr "If you are using Winmostar (TM) for the first time, please refer to `Beginner&#39;s Guide <https://winmostar.com/jp/tutorials/V8/BeginnersGuide_V8.pdf>`_."
+
+msgid "ご不明点がある場合、予想通りに動かない場合は、 随時更新されている :ref:`faq_top` をご確認ください。"
+msgstr "If there is an uncertain point or it does not move as expected, please confirm :ref:`faq_top` which is updated from time to time."
+
+msgid ""
+"化学反応解析や特定の物性の算出など、目的別の具体的な操作手順は、 `各種チュートリアル "
+"<https://winmostar.com/jp/manual_jp.html>`_ を参照してください。"
+msgstr "Specific operational procedures for each purpose, such as chemical reaction analysis and calculation of specific physical properties, are described in `various tutorials <https://winmostar.com/jp/manual_jp.html>`_."
+
