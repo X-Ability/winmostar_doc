@@ -1,0 +1,287 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+
+msgid "ツールメニュー"
+msgstr "Tool menu"
+
+msgid "環境設定"
+msgstr "Environmental setting"
+
+#, fuzzy
+msgid "環境設定ウィンドウを開きます。 詳細は :ref:`preferences_top` を参照してください。"
+msgstr "Open the Preferences window. For details, see: ref: `preferences_top`."
+
+msgid "フラグメントを登録/削除"
+msgstr "Create / delete fragment"
+
+msgid "フラグメントを登録"
+msgstr "Create fragment"
+
+#, fuzzy
+msgid "メインウィンドウに表示されている分子構造を部品として登録します。マーカー（太赤丸）の付いた原子が置換時に接続部分に設定されます。"
+msgstr "Register the molecular structure displayed in the main window as a part. Atom replaced with marker (heavy red circle) is set as the connection part when replacing."
+
+msgid "フラグメントを削除"
+msgstr "Delete fragment"
+
+msgid ""
+":ref:`ツールバー <gui_main>` の :guilabel:`フラグメントを選択` プルダウンメニュー |repl| "
+"で選ばれた部品の登録を削除します。"
+msgstr ": ref: `toolbar <gui_main> `:: Guilabel:` select a fragment` Delete the registration of the part selected by pull down menu | repl |."
+
+msgid "配座探索(Balloon)"
+msgstr "With a seat (Balloon)"
+
+msgid "Balloonを用いて配座探索を行います。 :guilabel:`Search` ボタンをクリックすると処理が開始されます。"
+msgstr "We will search for conformation using Balloon. : guilabel: Click &quot;Search&quot; button to start processing."
+
+msgid "点群解析"
+msgstr "Point group analysis"
+
+msgid "モデリングした分子の点群対称性を判定します。"
+msgstr "Determine point group symmetry of modeled molecules."
+
+msgid "本機能は主に以下の目的で使用されます。"
+msgstr "This function is mainly used for the following purposes."
+
+msgid "モデリングした分子の点群解析を行います。"
+msgstr "Perform point cloud analysis of modeled molecules."
+
+msgid "判定された点群情報を元に分子の構造の歪みを解消します。（対称化）"
+msgstr "Based on the determined point cloud information, distortion of the molecular structure is resolved. (Symmetrization)"
+
+msgid "対称単位⇔非対称単位の変換を行えます。"
+msgstr "Conversion of symmetric unit ⇔ asymmetric unit can be performed."
+
+msgid "金属を含まない有機分子であれば、一度クリーンを行った構造の方が点群解析が成功しやすくなります。"
+msgstr "For organic molecules that do not contain metals, it is easier for point cloud analysis to succeed if cleaned structures are used."
+
+msgid "以下の機能を用いて点群解析を解析し可視化します。"
+msgstr "We analyze and visualize point cloud analysis using the following functions."
+
+msgid "Analyze"
+msgstr "Analyze"
+
+msgid "点群解析を開始します。"
+msgstr "Start point cloud analysis."
+
+msgid "Accuracy"
+msgstr "Accuracy"
+
+msgid "点群解析の解析精度を指定します。精度を上げると対称性の判定が厳しくなり、下げると判定が甘くなります。"
+msgstr "Specify analysis accuracy of point cloud analysis. Increasing the accuracy will make the judgment of symmetry severe, and lowering will make the judgment sweeter."
+
+msgid "Shoenflies"
+msgstr "Shoenflies"
+
+msgid "分子の対称性をShoenflies記号で表示します。"
+msgstr "The symmetry of the molecule is indicated by the Shoenflies symbol."
+
+msgid "i"
+msgstr "i"
+
+msgid "点対称要素がリスト表示されます。"
+msgstr "Point symmetry elements are listed."
+
+msgid "Cn Axis"
+msgstr "On the Axis"
+
+msgid "回転対称要素がリスト表示されます。"
+msgstr "The rotationally symmetric elements are listed."
+
+msgid "Sn Axis"
+msgstr "Sn Axis"
+
+msgid "回映対称要素がリスト表示されます。"
+msgstr "Recurrence symmetry elements are listed."
+
+msgid "Mirror"
+msgstr "Mirror"
+
+msgid "鏡映対称要素がリスト表示されます。"
+msgstr "Mirror symmetry elements are listed."
+
+msgid "Select"
+msgstr "Select"
+
+msgid "リストされている全て対称要素が選択されグラフィック画面に表示されます。"
+msgstr "All symmetric elements listed are selected and displayed on the graphic screen."
+
+msgid "Deselect"
+msgstr "Deselect"
+
+msgid "リストされている全て対称要素の選択が解除されグラフィック画面で非表示になります。"
+msgstr "All symmetric elements listed will be deselected and will be hidden on the graphic screen."
+
+msgid "Select All"
+msgstr "Select All"
+
+msgid "全ての対称要素が選択されグラフィック画面に表示されます。"
+msgstr "All symmetric elements are selected and displayed on the graphic screen."
+
+msgid "Deselect All"
+msgstr "Deselect All"
+
+msgid "全て対称要素の選択が解除されグラフィック画面で非表示になります。"
+msgstr "All symmetric elements are deselected and hidden on the graphic screen."
+
+msgid ""
+"点群解析終了後、以下の操作で分子構造の対称化と、非対称単位と対称単位の間の切り替えが可能になります。 "
+"ただし、C1以外の点群対称性だった場合に限ります。"
+msgstr "After completing point group analysis, symmetrization of molecular structure and switching between asymmetric unit and symmetric unit becomes possible by the following operation. However, it is limited only to point group symmetry other than C1."
+
+msgid "Symmetrize"
+msgstr "Symmetrize"
+
+msgid "予測された点群情報に基づき、構造の歪み（完全な対称構造からのずれ）を解消します。"
+msgstr "Based on the predicted point cloud information, we eliminate the distortion of the structure (deviation from perfect symmetric structure)."
+
+msgid "Show"
+msgstr "Show"
+
+msgid ""
+"Symmetric Unitにチェックが入っていると対称単位を表示します。 Asymmetric "
+"Unitにチェックが入っていると非対称単位のみを表示します。 "
+"（非対称単位だけが表示された状態でGAMESSキーワード設定に進むと点群情報を引き継いでインプットを作成できます。）"
+msgstr "When Symmetric Unit is checked, symmetric unit is displayed. When Asymmetric Unit is checked, only asymmetric unit is displayed. (If you go to the GAMESS keyword setting with only the asymmetric unit displayed, you can inherit the point cloud information and create the input.)"
+
+msgid "右下のテキストエリア"
+msgstr "Text area in the lower right"
+
+msgid "分子の座標情報をXYZ形式で表示します。"
+msgstr "Displays the coordinate information of the molecule in XYZ format."
+
+msgid "分子表面積, 体積"
+msgstr "Molecular surface area, volume"
+
+msgid "分子表面積、体積、卵形度を計算します。"
+msgstr "Calculate the molecular surface area, volume and oval shape."
+
+msgid ""
+"分子の表面積と体積の計算には函館高専の長尾先生のプログラムを使用しています。（長尾輝夫, 分子表面積及び体積計算プログラムの改良, "
+"函館工業高等専門学校紀要, 第27号, p111-120, 1993.）"
+msgstr "We use the program of Mr. Nagao of Hakodate National College of Technology to calculate the surface area and volume of the molecule. (Teruo Nagao, Improvement of molecular surface area and volume calculation program, bulletin of Hakodate National College of Technology, No. 27, p 111 - 120, 1993.)"
+
+msgid "van der Waals Moleuclar Surface (VMS): 原子をvan der Waals半径の球に置き換えた場合の表面"
+msgstr "van der Waals Moleuclar Surface (VMS): Surface when atoms are replaced by spheres of van der Waals radius"
+
+msgid "Accessible Molecular Surface: VMS表面の周りを溶媒分子でなぞった際の溶媒分子の中心の面"
+msgstr "Accessible Molecular Surface: Surface of the solvent molecule when traced with a solvent molecule around the VMS surface"
+
+msgid ""
+"Molecular Surface: VMS表面の周りを溶媒分子でなぞった接触表面と凹角表面（Solvent-excluded "
+"surface、または、Connolly surfaceとも呼ばれる）"
+msgstr "Molecular Surface: Contact surface and reentrant surface traced by solvent molecules around VMS surface (also called Solvent-excluded surface or Connolly surface)"
+
+msgid "卵形度（Ovality）は以下の式で計算しています。"
+msgstr "Ovality (Ovality) is calculated by the following formula."
+
+msgid "分子表面積/最小表面積 = S/4π(3V/4π)**(2/3) 最小表面積 = 4π(3V/4π)**(2/3) (分子体積が等しい真球の表面積)"
+msgstr "Minimum surface area = 4 π (3 V / 4 π) ** (2/3) (surface area of a true sphere having the same molecular volume) S / 4 π (3 V / 4 π) **"
+
+msgid "アスペクト比"
+msgstr "aspect ratio"
+
+msgid "分子のアスペクト比を計算します。アスペクト比は、分子が内接する最小直径の円筒の長さLと直径Dの比L/Dとして定義しています。"
+msgstr "Calculate the aspect ratio of the molecule. The aspect ratio is defined as the ratio L / D of the length L and the diameter D of the cylinder of the smallest diameter inscribed by the molecule."
+
+msgid "慣性半径"
+msgstr "Radius of inertia"
+
+msgid "分子の慣性半径を計算します。"
+msgstr "Calculate the inertial radius of the molecule."
+
+msgid "Sterimolパラメータ"
+msgstr "Sterimol parameter"
+
+#, fuzzy
+msgid ""
+"メインウィンドウ上でグループ選択した部分構造に対して、Sterimolパラメータを計算します。 :guilabel:`Calculate` "
+"ボタンをクリックすると計算が開始されます。"
+msgstr "Calculate the Sterimol parameter for the substructure selected for the group on the main window. : guilabel: Calculate will start when you click `Calculate` button."
+
+msgid "ジョブマネージャ"
+msgstr "Job Manager"
+
+msgid "ローカルジョブを管理するWinmostar Job Managerを起動します。"
+msgstr "Start Winmostar Job Manager that manages local jobs."
+
+msgid "リモートジョブ投入"
+msgstr "Remote Job submission"
+
+#, fuzzy
+msgid "リモートジョブの実行、管理を行うウィンドウを開きます。詳細は :ref:`remote_submitjob` を参照してください。"
+msgstr "Opens a window for executing and managing remote jobs. For details, see: ref: `remote_submitjob`."
+
+msgid "Cygwin"
+msgstr "Cygwin"
+
+msgid ":ref:`cygwinwm_top` の端末画面（ターミナル）を起動します。"
+msgstr "Start the terminal screen (terminal) of: ref: `cygwinwm_top`."
+
+msgid "文字列を検索"
+msgstr "Search string"
+
+msgid "各種ログファイルの中で文字列を検索し、ヒットした行をExcelまたはテキストファイルに出力します。"
+msgstr "It searches character strings in various log files and outputs the hit line to Excel or text file."
+
+msgid "batファイル連続実行"
+msgstr "Continuous execution of bat file"
+
+msgid "GaussianとGAMESSのbatファイルを連続で実行します。"
+msgstr "We run Gaussian and GAMESS bat files in succession."
+
+msgid "まず、通常の操作方法でGaussianやGAMESSを実行します。実行中にコンソール画面（DOS画面）でエラーが出ていないことを確認してから、コンソール画面の×ボタンを押して処理を途中で強制終了します。"
+msgstr "First, run Gaussian or GAMESS using normal operation method. Confirm that there is no error on the console screen (DOS screen) during execution, and then press the X button on the console screen to forcibly terminate processing."
+
+msgid "次に本機能を起動します。ウィンドウの左側のリストには1. で実行されたジョブのbatファイルが表示されます。"
+msgstr "Next, activate this function. The bat file of the job executed in 1. is displayed in the list on the left side of the window."
+
+msgid "batファイルを選択して :guilabel:`=>` ボタンを押すと、ウィンドウの右側のリストに追加されます。"
+msgstr "Select the bat file and press the: guilabel: `=&gt;` button to add it to the list on the right side of the window."
+
+msgid ""
+":guilabel:`Run` ボタンを押すと右側のリストに登録されたジョブの連続実行が始まります。 :guilabel:`Run at` "
+"ボタンを押すと、指定した時刻に連続実行が始まります。連続実行ジョブは、 :file:`winmos_batjob*.bat` に保存されます。 "
+":guilabel:`Save` および :guilabel:`Load` ボタンを押すと設定の保存、読み込みができます。"
+msgstr ": guilabel: When you press the `Run` button, continuous execution of jobs registered in the list on the right starts. : guilabel: When you press the `Run at` button, continuous execution starts at the specified time. Continuous execution jobs are saved in: file: `winmos_batjob *. Bat`. : guilabel: `Save` and: guilabel:` Load` button to save and load settings."
+
+msgid "分子の重ね合わせ表示"
+msgstr "Overlay display of molecules"
+
+msgid "複数の分子を重ね合わせて表示します。"
+msgstr "Multiple molecules are superimposed and displayed."
+
+#, fuzzy
+msgid ""
+"まず、:guilabel:`Add` "
+"ボタンでファイルを選択して、重ね合わせる分子を選択します。ファイルの種類はWinmostarで読み込める各種入力ファイルとMOPAC、GAMESS、NWChem、Gaussianの出力ファイルです。複数のファイルを同時に選択することもできます。ドラッグ＆ドロップでファイルを読み込ませることもできます。"
+" :guilabel:`Import From Main Window` ボタンではメインウィンドウに表示されている分子を取り込むことができます。"
+msgstr "First, select the file with the: guilabel: `Add` button and select the molecule to be superimposed. File types are various input files that can be read with Winmostar and output files of MOPAC, GAMESS, NWChem, and Gaussian. You can select multiple files simultaneously. You can also load files by drag &amp; drop. : guilabel: `Import From Main Window` button allows you to capture molecules displayed in the main window."
+
+msgid "リストに表示されたファイル名を選択するとその分子が青くハイライトされます。"
+msgstr "Selecting the filename displayed in the list will highlight that molecule blue."
+
+msgid ":guilabel:`Delete` ボタンで選択した分子を削除、 :guilabel:`Clear` ボタンで全ての分子を削除します。"
+msgstr ": guilabel: Delete selected molecule with `Delete` button,: guilabel:` Clear` button to delete all molecules."
+
+msgid ""
+":guilabel:`Align All` "
+"ボタンで各分子の配向を揃えることができます。それぞれの分子について3原子をクリックして指定すると、1点目を原点に、2点目をＸ軸上に、3点目をxy平面上に設定します。"
+msgstr ": guilabel: You can align the orientation of each molecule with `Align All` button. Clicking on 3 atoms for each molecule specifies the first point as the origin, the second point on the X axis, and the third point on the xy plane."
+
+msgid ""
+"分子の構造が近い場合は、 :guilabel:`X` , :guilabel:`Y` , :guilabel:`Z` "
+"ボタンを押して重ね合わせる面をずらします。"
+msgstr "If the structure of the molecule is close, press: guilabel: `X`,: guilabel:` Y`,: guilabel: `Z` button to shift the surface to be superimposed."
+
+msgid ":guilabel:`Open Viewer` ボタンを押すと、:ref:`winmos3d_top` で表示することができます。"
+msgstr ": guilabel: You can display it with: ref: `winmos3d_top` by pressing` Open Viewer` button."
+

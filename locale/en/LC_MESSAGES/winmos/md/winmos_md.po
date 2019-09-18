@@ -1,0 +1,281 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "MDメニュー"
+msgstr "MD menu"
+
+msgid "分子動力学法に関するメニューです。"
+msgstr "It is a menu on the molecular dynamics method."
+
+msgid ""
+"MDメニューの機能を利用するにはMDパックが必要です。 また、ほぼ全ての機能で :ref:`cygwin_wm <cygwinwm_top>` "
+"が必要です。"
+msgstr "MD pack is necessary to use the function of MD menu. Also, with almost every feature: ref: `cygwin_wm <cygwinwm_top> `Is required."
+
+msgid "溶媒を配置/セルを構築"
+msgstr "Place solvent / build cell"
+
+msgid "本機能は主に以下の2つの目的で使用されます。"
+msgstr "This function is mainly used for the following two purposes."
+
+
+msgid "メインウィンドウに表示されている分子の周りに溶媒分子を並べる"
+msgstr "Arrange solvent molecules around the molecules displayed in the main window"
+
+msgid "低分子を並べて液相を作成する"
+msgstr "Create liquid phase by arranging low molecules"
+
+msgid "並べることが可能な分子は以下の3種類です。"
+msgstr "There are three kinds of molecules that can be arranged as follows."
+
+
+msgid "メインウィンドウに表示された分子"
+msgstr "Molecule displayed in the main window"
+
+msgid "mol2形式で保存された分子"
+msgstr "Molecules preserved in mol 2 format"
+
+msgid "水分子"
+msgstr "water molecule"
+
+msgid ""
+"現在のファイル名の末尾に :file:`_builder_tmp` を付けた作業用フォルダが作成され、その中で処理が行われます。 "
+"内部ではCygwin上で :command:`gmx insert-molecules` または :command:`gmx solvate` "
+"を実行します。 作業用フォルダ以下の :file:`generate.sh`、:file:`generate.log` に詳細が記載されています。"
+" 作業用フォルダ以下の :file:`output.gro` が最終的に生成された分子構造を含むファイルになります。"
+msgstr "A working folder with the file: `_builder_tmp` at the end of the current file name is created and processed in that. Internally run: command: `gmx insert - monomer` or: command:` gmx solvate` on Cygwin. Details are described in the following file: file: `generate.sh`,: file:` generate.log`. Working folder Following: file: `output.gro` is the file containing the finally generated molecular structure."
+
+msgid "Add Displayed Molecule"
+msgstr "Add Displayed Molecule"
+
+
+msgid ""
+"メインウィンドウに表示されている分子を追加します。ボタンを押した後、追加する分子数を入力します。 "
+"1個しか配置しない場合は、メインウィンドウに表示されている分子については座標が固定された状態で他の分子が並べられます。"
+msgstr "Add molecules displayed in the main window. After pressing the button, enter the number of molecules to be added. If only one is placed, other molecules are aligned with the coordinates fixed for the molecules displayed in the main window."
+
+msgid "Add Water"
+msgstr "Add Water"
+
+msgid ""
+"系に水分子を追加します。ボタンを押した後、追加する分子数を入力します。水分子のモデルは、:guilabel:`Options` タブの "
+":guilabel:`Water Model` から選びます。"
+msgstr "Add water molecules to the system. After pressing the button, enter the number of molecules to be added. The water molecule model is selected from: guilabel: `Options` tab: guilabel:` Water Model`."
+
+msgid "Add .mol2 File"
+msgstr "Add .mol2 File"
+
+msgid "系にあらかじめ.mol2形式で保存した分子を追加します。ボタンを押した後、.mol2ファイルの場所を指定し、追加する分子数を入力します。追加する分子数が1のときは、その分子を乱数的に配置するか、.mol2ファイルに書かれた座標に固定して配置するか指定します。PDBファイルから切り出したリガンド分子を配置する場合は、通常は固定して配置します。QM計算などから求めた点電荷（RESP電荷など）を用いてMD計算を実行する場合は、ここで指定する.mol2ファイルにその点電荷の情報が記載されている必要があります。"
+msgstr "Add molecules previously saved in .mol2 format to the system. After pressing the button, specify the location of the .mol2 file and enter the number of molecules to be added. If the number of molecules to be added is 1, specify whether to randomly arrange the molecule or to fix it at the coordinates written in the .mol2 file. When arranging ligand molecules cut out from a PDB file, it is usually fixed. When executing MD calculation using point charge (such as RESP charge) obtained from QM calculation etc., the point charge information must be described in the .mol2 file specified here."
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "選択された上のリストの中の項目を削除します。"
+msgstr "Deletes the selected item in the above list."
+
+msgid "Simulation Cell"
+msgstr "Simulation Cell"
+
+msgid "Set Density"
+msgstr "Set Density"
+
+msgid ""
+"作成されるシミュレーションセルの密度を指定します。大きすぎる場合は分子を十分に挿入できないことがあるため、液相の場合は通常0.5～0.8 g/cm"
+" :sup:`3` 程度に設定します。"
+msgstr "Specify the density of the simulation cell to be created. If it is too large, you may not be able to insert the molecule sufficiently, so in case of liquid phase it is usually set to about 0.5 ~ 0.8 g / cm: sup: `3`."
+
+msgid "Set Distance from Solute"
+msgstr "Set Distance from Solute"
+
+msgid ""
+":guilabel:`Method` に :guilabel:`Solvate` "
+"を選んでいる際に、メイン画面に表示された分子とシミュレーションセルの間の距離を指定します。"
+msgstr ": guilabel: When choosing: guilabel: `Solvate` for` Method`, specify the distance between the molecule displayed on the main screen and the simulation cell."
+
+msgid "Set Box Size"
+msgstr "Set Box Size"
+
+msgid "シミュレーションセルのサイズを直接指定します。"
+msgstr "Specify the size of the simulation cell directly."
+
+msgid "Box Type"
+msgstr "Box Type"
+
+msgid "シミュレーションセルの形状を指定します。"
+msgstr "Specify the shape of the simulation cell."
+
+msgid "Option"
+msgstr "Option"
+
+msgid "Water Model"
+msgstr "Water Model"
+
+msgid ""
+":guilabel:`Add Water` "
+"により追加される水モデルを指定します。指定した水モデルの座標データはCygwin上のGromacsにインストールされたトポロジファイルのライブラリから引用されます。"
+msgstr ": guilabel: Specify the water model added by `Add Water`. The coordinate data of the specified water model will be quoted from the library of the topology file installed in Gromacs on Cygwin."
+
+msgid "Reset"
+msgstr "Reset"
+
+
+msgid "このウィンドウにおける設定をリセットします。"
+msgstr "Resets the settings in this window."
+
+msgid "Build"
+msgstr "Build"
+
+
+msgid "このウィンドウで設定された内容に従いシミュレーションセルを作成します。"
+msgstr "Create a simulation cell according to the contents set in this window."
+
+msgid "分子を挿入"
+msgstr "Insert molecule"
+
+
+msgid ""
+"mol2形式で保存された分子を複数個、メインウィンドウに表示されている構造に追加することができます。 "
+"シミュレーションセルが作成されていない場合は、事前に :ref:`edit_createcell` または "
+":ref:`md_solvate_buildcell` を使用して作成してください。"
+msgstr "You can add multiple molecules stored in mol 2 format to the structure displayed in the main window. If no simulation cell has been created, create it with: ref: `edit_createcell` or: ref:` md_solvate_buildcell` beforehand."
+
+msgid "追加する分子について、座標を変えずに1つだけ追加したい場合は、 :ref:`file_append` を選択してください。"
+msgstr "If you want to add only one additional molecule without changing the coordinates, please select: ref: `file_append`."
+
+msgid "内部動作は :ref:`md_solvate_buildcell` と同じです。"
+msgstr "The internal operation is the same as: ref: `md_solvate_buildcell`."
+
+msgid "電荷を割り当て"
+msgstr "Assign charge"
+
+msgid "Acpypeを使用"
+msgstr "Use Acpype"
+
+
+msgid ""
+"メインウィンドウに1分子だけ表示されている状態で本機能を呼び出すと、AM1-BCCまたはGasteigerの方法で点電荷を各原子に対して割り当てます。"
+" 内部的にはCygwin上のAcpypeプログラムを使用しています。 溶質分子の電荷割り当てや、 "
+":ref:`md_solvate_buildcell` または :ref:`md_insert_molecules` "
+"にて挿入するmol2形式のファイルの作成時に使用します。 "
+"中性でない多原子イオンに電荷を割り振る場合は、RESP電荷または本機能を利用する必要があります。 多原子イオンの場合は、 "
+":guilabel:`Total charge [e]` に電荷を入力します。 現在のファイル名の末尾に :file:`_acpype_tmp` "
+"を付けた作業用フォルダが作成され、その中で処理が行われます。 作業用フォルダ以下の :file:`temp.sh`、 "
+":file:`temp.log` に詳細が記載されます。 作業用フォルダ以下の "
+":file:`input.acpype\\input_GMX.itp` に記された電荷の値が結果となります。"
+msgstr "Calling this function while only one molecule is displayed in the main window allocates point charge to each atom by AM1 - BCC or Gasteiger method. Internally I use the Acpype program on Cygwin. It is used when creating a file in mol 2 format to be inserted by charge allocation of solute molecules or: ref: `md_solvate_buildcell` or: ref:` md_insert_molecules`. When allocating charge to non-neutral polyatomic ions, it is necessary to use RESP charge or this function. For polyatomic ions, enter the charge into: guilabel: `Total charge [e]`. A working folder with the file: `_acpype_tmp` appended at the end of the current file name is created and processed in that. Details are listed in: work: folder: file: `temp.sh`,: file:` temp.log`. The value of the charge written in the working folder below: file: `input.acpype \\ input_GMX.itp` will be the result."
+
+msgid "マニュアル入力"
+msgstr "Manual input"
+
+
+msgid "メインウィンドウに表示されている分子（結晶）構造に対し、原子種毎に点電荷の値を直接指定することができます。主に固体系向けの機能です。"
+msgstr "You can directly specify the point charge value for each atom type for the molecular (crystal) structure displayed in the main window. It is mainly for solid system."
+
+msgid "ポリマー"
+msgstr "polymer"
+
+msgid ":ref:`md_polymer_top` を参照してください。"
+msgstr "See: ref: `md_polymer_top`."
+
+msgid "界面ビルダ"
+msgstr "Interface builder"
+
+msgid ":ref:`md_interface_top` を参照してください。"
+msgstr "See: ref: `md_interface_top`."
+
+msgid "水をイオンに置換"
+msgstr "Replace water with ions"
+
+msgid ""
+"水分子を単原子イオンに置換します。あらかじめ系内に水分子を配置しておく必要があります。水を配置するためには "
+":ref:`md_solvate_buildcell` "
+"を使用してください。主にタンパク質系において系内の電荷を中和するために使われます。内部ではCygwin上で :command:`gmx "
+"genion` を実行します。"
+msgstr "Replace water molecules with monoatomic ions. It is necessary to arrange water molecules in the system in advance. To place water, use: ref: `md_solvate_buildcell`. It is mainly used to neutralize the charge in the system in protein systems. Internally run: command: `gmx genion` on Cygwin."
+
+msgid "Neutral"
+msgstr "Neutral"
+
+msgid ""
+":guilabel:`True` の場合は、系全体の電荷が中性となるようイオンを配置し、 :guilabel:`Number of "
+"Cations` と :guilabel:`Number of Anions` は無視されます。 :guilabel:`False` の場合は、 "
+":guilabel:`Number of Cations` と :guilabel:`Number of Anions` "
+"に記した個数のイオンがそれぞれ配置されます。"
+msgstr ": In the case of guilabel: `True`, we arrange the ions so that the charge of the whole system becomes neutral, and:: guilabel:` Number of Cations` and: guilabel: `Number of Anions` are ignored. : In the case of guilabel: `False`, the number of ions described in: guilabel:` Number of Cations` and: guilabel: `Number of Anions` are respectively allocated."
+
+msgid "Concentration"
+msgstr "Concentration"
+
+msgid "置換するイオンの濃度を指定します。"
+msgstr "Specify the concentration of ion to be substituted."
+
+msgid "Cations/Anions"
+msgstr "Cations/Anions"
+
+msgid "陽イオンおよび陰イオンの種類をプルダウンから指定します。"
+msgstr "Specify the type of cations and anions from the pulldown."
+
+msgid "Number of Cations/Number of Anions"
+msgstr "Number of Cations/Number of Anions"
+
+msgid ""
+"陽イオンおよび陰イオンの個数を指定します。 :guilabel:`Neutral` が :guilabel:`False` "
+"の時に有効な設定となります。"
+msgstr "Specify the number of cations and anions. : guilabel: `Neutral` is a valid setting when: guilabel:` False`."
+
+msgid "Execute"
+msgstr "Execute"
+
+msgid ""
+"Cygwin上で :command:`gmx genion` を実行します。現在のファイル名の末尾に :file:`_genion_tmp` "
+"を付けた作業用フォルダが作成され、その中で処理が行われます。作業用フォルダ以下の :file:`temp.sh` 、 "
+":file:`temp.log` に詳細が記載されています。途中、系内の分子が不適切な場合に、一時的なトポロジファイル( "
+":file:`temp.top` )の自動生成に失敗することがあります。トポロジファイル作成の詳細は作業フォルダ内の "
+":file:`temp_top_tmp` 内に出力されます。"
+msgstr "Run: command: `gmx genion` on Cygwin. A working folder with the file name: file: `_genion_tmp` at the end of the current file name is created and processed in that. Details are described in the file: work: folder: file: `temp.sh`,: file:` temp.log`. On the way, automatic creation of a temporary topology file (: file: `temp.top`) may fail if the molecules in the system are inappropriate. Details of the topology file creation are output in: file: `temp_top_tmp` in the working folder."
+
+msgid "Gromacs"
+msgstr "Gromacs"
+
+msgid ":ref:`md_gromacs_top` を参照してください。"
+msgstr "See: ref: `md_gromacs_top`."
+
+msgid "LAMMPS"
+msgstr "LAMMPS"
+
+msgid ":ref:`md_lammps_top` を参照してください。"
+msgstr "See: ref: `md_lammps_top`."
+
+msgid "Amber"
+msgstr "Amber"
+
+msgid ":ref:`md_amber_top` を参照してください。"
+msgstr "See: ref: `md_amber_top`."
+
+msgid "MODYLAS"
+msgstr "MODYLES"
+
+msgid "MODYLASのキーワード設定、計算の実行、アニメーションの表示、エネルギーの表示を行います。"
+msgstr "MODYLAS keyword setting, calculation execution, animation display, energy display."
+
+msgid "基本的には :ref:`md_gromacs_top` と類似の挙動を示します。"
+msgstr "Basically it behaves similarly to: ref: `md_gromacs_top`."
+

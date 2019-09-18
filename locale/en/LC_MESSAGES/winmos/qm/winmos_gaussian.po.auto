@@ -1,0 +1,628 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+
+msgid ":menuselection:`QM --> Gaussian` メニュー"
+msgstr ": menuselection: `QM -&gt; Gaussian` menu"
+
+msgid "Gaussianに関するメニューです。"
+msgstr "It is a menu about Gaussian."
+
+msgid "Gaussianを利用するためには別途Gaussianをインストールする必要があります。"
+msgstr "In order to use Gaussian you need to install Gaussian separately."
+
+msgid "キーワード設定"
+msgstr "Keyword setting"
+
+#, fuzzy
+msgid ""
+"Gaussianの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` "
+"ボタン、一旦メインウィンドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
+msgstr "Set calculation conditions of Gaussian. To set up the calculations immediately after setting: guilabel: `Run` button, once to return to the main window please press: guilabel:` OK` button."
+
+msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`qm_gaussian_start` を参照してください。"
+msgstr ": guilabel: Behavior when clicking `Run` is see: ref:` qm_gaussian_start`."
+
+msgid ""
+":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 :guilabel:`Save as Default` "
+"ボタンで現在の状態をデフォルトの状態として保存します。 :menuselection:`Save as Default --> Clear "
+"Default Settings` で保存されてデフォルトの状態を出荷時の状態に戻します。"
+msgstr ": guilabel: `Reset` button to return to the default state. : guilabel: Save the current state as the default state with `Save as Default` button. : menuselection: `Save as Default -&gt; Clear Default Settings` to restore the default state to the factory condition."
+
+msgid "Easy Setup"
+msgstr "Easy Setup"
+
+msgid "簡易設定画面を表示します。"
+msgstr "Displays the simple setting screen."
+
+msgid "%nprocshared"
+msgstr "%nprocshared"
+
+msgid "並列数を指定します。"
+msgstr "Specify the parallel number."
+
+msgid "Link0"
+msgstr "Link0"
+
+msgid "#nproc=n"
+msgstr "#nproc=n"
+
+msgid "プロセッサ数を指定します。"
+msgstr "Specify the number of processors."
+
+msgid "#Chk=file"
+msgstr "#Chk=file"
+
+msgid "チェックポイントファイルを指定します。"
+msgstr "Specify the checkpoint file."
+
+msgid "#Mem=n"
+msgstr "# Mem = n"
+
+msgid "動的メモリ量をワード単位で指定します。KB, MB, GB, KW, MB, GWの単位を指定することもできます。（デフォルト：6MW）"
+msgstr "Specify the amount of dynamic memory in words. It is also possible to specify units of KB, MB, GB, KW, MB, GW. (Default: 6 MW)"
+
+msgid "Comment"
+msgstr "Comment"
+
+msgid "コメントを記述します。"
+msgstr "Write a comment."
+
+msgid "#"
+msgstr "#"
+
+msgid "ルートセクションの始まりを指定します。"
+msgstr "Specify the beginning of the route section."
+
+msgid "#N"
+msgstr "#N"
+
+msgid "標準レベルで出力を行います。（デフォルト）"
+msgstr "Output is done at the standard level. (Default)"
+
+msgid "#P"
+msgstr "#P"
+
+msgid "詳細な出力を行います。各リンクの開始時と終了時における実行時間などや，SCFの収束に関する情報が出力されます。"
+msgstr "Perform detailed output. The execution time at the start and end of each link, and the information on convergence of SCF are output."
+
+msgid "#T"
+msgstr "#T"
+
+msgid "重要な情報と結果のみを出力する簡潔な出力を指定します。"
+msgstr "Specify a concise output that only outputs important information and results."
+
+msgid "Hamiltonian"
+msgstr "Hamiltonian"
+
+msgid "使用するハミルトニアンを指定します。"
+msgstr "Specify the Hamiltonian to use."
+
+msgid "hf"
+msgstr "Ltd."
+
+msgid "Hartree-Fock計算を行います。明示的に指定されない限り，一重項にはRHFを，それより高次の多重度ではUHFを用います。"
+msgstr "Perform Hartree-Fock calculation. Unless explicitly specified, RHF is used for singlet and UHF is used for higher multiplicity."
+
+msgid "rhf"
+msgstr "rhf"
+
+msgid "Restricted Hartree-Fock計算を行います。"
+msgstr "Restricted Hartree-Fock calculation is performed."
+
+msgid "uhf"
+msgstr "uhf"
+
+msgid "Unrestricted Hartree-Fock計算を行います。"
+msgstr "Unrestricted Hartree-Fock calculation is performed."
+
+msgid "am1"
+msgstr "am1"
+
+msgid "AM1ハミルトニアン を用いた半経験的計算を行います。"
+msgstr "We will perform semi-empirical calculations using AM1 Hamiltonian."
+
+msgid "pm3"
+msgstr "pm3"
+
+msgid "PM3ハミルトニアン を用いた半経験的計算を行います。"
+msgstr "We perform semi-empirical calculation using PM3 Hamiltonian."
+
+msgid "pm3mm"
+msgstr "pm3mm"
+
+msgid "HCON結合に関する分子力学補正が含まれたPM3ハミルトニアン を用いた半経験的計算を行います。"
+msgstr "We perform semi-empirical calculations using PM3 Hamiltonian with molecular dynamics correction on HCON binding."
+
+msgid "b3lyp"
+msgstr "b3lyp"
+
+msgid "Becke3汎関数にLYP非局所相関汎関数を組み合わせた密度汎関数法計算を行います。"
+msgstr "Compute the density functional method combining the Becke 3 functional with the LYP nonlocal correlation functional."
+
+msgid "ub3lyp"
+msgstr "ub3lyp"
+
+msgid "b3lypのUnrestricted版です。"
+msgstr "Unrestricted version of b3lyp."
+
+msgid "mp2"
+msgstr "mp2"
+
+msgid "Hartree-Fock計算の後に２次までのMoller-Plesset相関エネルギー補正を行います。"
+msgstr "Following Hartree-Fock calculation, Moller-Plesset correlation energy correction up to the second order is performed."
+
+msgid "ump2"
+msgstr "ump2"
+
+msgid "mp2のUnrestricted版です。"
+msgstr "It is an Unrestricted version of mp2."
+
+msgid "mp4"
+msgstr "mp4"
+
+msgid "Hartree-Fock計算の後に４次までのMoller-Plesset相関エネルギー補正を行います。"
+msgstr "Following Hartree-Fock calculation, Moller-Plesset correlation energy correction up to the fourth order is performed."
+
+msgid "ump4"
+msgstr "ump4"
+
+msgid "mp4のUnrestricted版です。"
+msgstr "It is an Unrestricted version of mp4."
+
+msgid "cis"
+msgstr "cis"
+
+msgid "一電子励起CIを用いて励起状態を計算します。"
+msgstr "Calculate the excited state using one-electron excitation CI."
+
+msgid "cisd"
+msgstr "cisd"
+
+msgid "二電子励起CIを用いて励起状態を計算します。（CIと同義）"
+msgstr "Calculate the excited state using two electron excitation CI. (Synonymous with CI)"
+
+msgid "indo"
+msgstr "going"
+
+msgid "INDOハミルトニアンを用いた半経験的計算を行います。"
+msgstr "We will perform semi empirical calculations using INDO Hamiltonian."
+
+msgid "cndo"
+msgstr "when"
+
+msgid "CNDOハミルトニアンを用いた半経験的計算を行います。"
+msgstr "We will do semi-empirical calculations using CNDO Hamiltonian."
+
+msgid "gvb"
+msgstr "gvb"
+
+msgid "GVB(General Valence Bond; 一般化原子価結合)計算を行います。"
+msgstr "Perform general valence bond (GVB) calculation."
+
+msgid "oniom"
+msgstr "oniom"
+
+msgid "ONIOM計算を行います。"
+msgstr "Perform ONIOM calculation."
+
+msgid "Basis"
+msgstr "Basis"
+
+msgid "基底関数セットを指定します。"
+msgstr "Specify the set of basis functions."
+
+msgid "Pop"
+msgstr "Pop"
+
+msgid "分子軌道の出力や電子密度解析及び原子の電荷分布などを制御します。"
+msgstr "Control of molecular orbital output, electron density analysis, atomic charge distribution and so on."
+
+msgid "none"
+msgstr "none"
+
+msgid "分子軌道を出力せず，電子密度解析も行いません。"
+msgstr "It does not output molecular orbits and does not analyze electron density."
+
+msgid "minimal"
+msgstr "minimal"
+
+msgid "原子の電荷と軌道エネルギーを出力します。"
+msgstr "It outputs atomic charge and orbital energy."
+
+msgid "regular"
+msgstr "regular"
+
+msgid "占有軌道と仮想軌道を5つずつ出力します。密度行列とMulliken電子密度解析も出力します。"
+msgstr "We output 5 occupied orbits and 5 virtual trajectories. Also output density matrix and Mulliken electron density analysis."
+
+msgid "full"
+msgstr "full"
+
+msgid "すべての占有軌道と仮想軌道を出力します。密度行列とMulliken電子密度解析も出力します。"
+msgstr "All occupied orbits and virtual trajectories are output. Also output density matrix and Mulliken electron density analysis."
+
+msgid "Calc. Type"
+msgstr "Calc. Type"
+
+msgid "EF (Eigen Vector Following)法による構造最適化計算を行います。"
+msgstr "Perform structure optimization calculation by EF (Eigen Vector Following) method."
+
+msgid "opt"
+msgstr "opt"
+
+msgid "構造最適化を実行します。"
+msgstr "Perform structure optimization."
+
+msgid "opt=z-matrix"
+msgstr "opt=z-matrix"
+
+msgid "内部座標で構造最適化を行います。"
+msgstr "Structure optimization is performed with internal coordinates."
+
+msgid "opt=modredundant"
+msgstr "opt=modredundant"
+
+msgid "redundant内部座標の定義（探索や束縛情報を含む）を追加・削除・修正ます。構造指定の後に入力セクションが必要です。"
+msgstr "redundant Add, delete, and modify the definition of internal coordinates (including search and binding information). An input section is required after the structure specification."
+
+msgid "opt=(ts,noeigentest,calcfc)"
+msgstr "opt=(ts,noeigentest,calcfc)"
+
+msgid "遷移状態に対する最適化を行います。曲率のテストを行いません。初回に力の定数を計算します"
+msgstr "Optimize for transition state. We do not test curvature. Calculate the force constant for the first time"
+
+msgid "irc"
+msgstr "irc"
+
+msgid "反応経路を追跡します"
+msgstr "Track reaction path"
+
+msgid "irc=(maxpoint=20, stepsize=20t, calcfc)"
+msgstr "irc=(maxpoint=20, stepsize=20t, calcfc)"
+
+msgid "反応経路を追跡します。経路上の点の個数とステップサイズを指定します。初回に力の定数を計算します"
+msgstr "It tracks the reaction path. Specify the number of points on the route and the step size. Calculate the force constant for the first time"
+
+msgid "MaxCyc"
+msgstr "MaxCyc"
+
+msgid "最適化ステップの最大数を設定します。"
+msgstr "Sets the maximum number of optimization steps."
+
+msgid "Freq"
+msgstr "Freq"
+
+msgid "freq"
+msgstr "freq"
+
+msgid "力の定数と振動数の計算を行います。"
+msgstr "Calculate force constants and frequencies."
+
+msgid "freq=raman"
+msgstr "freq=raman"
+
+msgid "IR強度に加えてラマン強度も計算します。"
+msgstr "We calculate the Raman intensity in addition to the IR intensity."
+
+msgid "freq=vcd"
+msgstr "freq=vcd"
+
+msgid "通常の振動数解析に加えて振動円二色性(VCD)強度を計算します"
+msgstr "Calculate oscillating circular dichroism (VCD) intensity in addition to normal frequency analysis"
+
+msgid "freq=noraman"
+msgstr "freq = noraman"
+
+msgid "Hartree-Fock解析的振動数計算でラマン強度を求めません。"
+msgstr "Hartree-Fock Raman intensity is not obtained by analytic frequency calculation."
+
+msgid "freq=nraman"
+msgstr "freq=nraman"
+
+msgid "電場に関する解析的双極子導関数を数値的に微分することによって分極率導関数を求めます。"
+msgstr "Calculate the polarizability derivative by numerically differentiating the analytical dipole derivative for the electric field."
+
+msgid "freq=nnraman"
+msgstr "freq=nnraman"
+
+msgid "核座標に関する解析的分極率を数値微分して分極率導関数を求めます。"
+msgstr "Calculate the polarizability derivative by numerically differentiating the analytical polarizability on nuclear coordinates."
+
+msgid "Charge"
+msgstr "Charge"
+
+msgid "電荷の値を指定します。"
+msgstr "Specify the value of the charge."
+
+msgid "Multiplicity"
+msgstr "Multiplicity"
+
+msgid "多重度を指定します。"
+msgstr "Specify multiplicity."
+
+msgid "Td"
+msgstr "for example,"
+
+msgid "td"
+msgstr "for example,"
+
+msgid "時間依存(time-dependent)Hartree-FockまたはDFT法を用いて励起状態のエネルギー計算を行います"
+msgstr "Calculate excited state energy using time-dependent Hartree-Fock or DFT method"
+
+msgid "td=(nstates=n)"
+msgstr "td=(nstates=n)"
+
+msgid "n個の状態に対して時間依存計算法を用いて励起状態のエネルギーを求めます。（デフォルト 3）"
+msgstr "For the n states, we obtain the energy of the excited state using the time dependent calculation method. (Default 3)"
+
+msgid "gfinput"
+msgstr "gfinput"
+
+msgid "基底関数系を入力フォーマットと同様な形式で出力します。"
+msgstr "Outputs the basis function system in the same format as the input format."
+
+msgid "gfprint"
+msgstr "gfprint"
+
+msgid "基底関数系を表形式で出力します。"
+msgstr "It outputs the basis function system in tabular form."
+
+msgid "nosymm"
+msgstr "nosymm"
+
+msgid "座標の再配向を行わず，Z-matrix 配向ですべての計算を実行します。"
+msgstr "Do not reorient the coordinates and perform all calculations in Z-matrix orientation."
+
+msgid "guess=read"
+msgstr "guess=read"
+
+msgid "チェックポイントファイルから初期波動関数を読み込みます"
+msgstr "Read initial wave function from checkpoint file"
+
+msgid "geom=check"
+msgstr "geom = check"
+
+msgid "分子指定セクションをチェックポイントファイルから取り出します。"
+msgstr "Fetch the molecule specification section from the checkpoint file."
+
+msgid "Others"
+msgstr "Others"
+
+msgid "その他のキーワードを記入します。"
+msgstr "Fill in other keywords."
+
+msgid "キーワード読み込み"
+msgstr "Keyword loading"
+
+msgid "既存のGaussianの入力ファイルから、キーワード（計算条件）のみを読み込みます。"
+msgstr "Only keywords (calculation conditions) are read from the existing Gaussian input file."
+
+msgid "実行"
+msgstr "Execution"
+
+#, fuzzy
+msgid ""
+"メインウィンドウでGaussianの入力ファイルが開かれている場合は、そのファイルを使ってGaussianを実行します。 "
+"開かれていない場合は、Gaussianの入力ファイルを保存した上でGaussianを実行します。"
+msgstr "If Gaussian&#39;s input file is opened in the main window, use Gaussian to execute it. If it is not open, save the Gaussian input file and run Gaussian."
+
+msgid "入力ファイルを保存する際に、 :ref:`file_coordinateformat` の選択肢に応じて座標の出力フォーマットが変化します。"
+msgstr "When saving the input file, the output format of the coordinates changes according to the choices of: ref: `file_coordinateformat`."
+
+msgid "Gaussianのプログラムパスは、 :menuselection:`ツール --> 環境設定 --> プログラムパス` で変更することができます。"
+msgstr "Gaussian&#39;s program path can be changed with:: menuselection: `tools -&gt; preferences -&gt; program path`."
+
+msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.gjf` の時のファイル/フォルダ名を併記しています。"
+msgstr "Following file will be generated with execution. For example, the file / folder name when the input file is: file: `water.gjf` is shown together."
+
+msgid "種類"
+msgstr "type"
+
+msgid "説明"
+msgstr "Description"
+
+msgid "logファイル"
+msgstr "log file"
+
+msgid ":file:`water.log`"
+msgstr ":file:`water.log`"
+
+msgid "計算のログファイルです。"
+msgstr "Calculation log file."
+
+msgid "batファイル"
+msgstr "bat file"
+
+msgid ":file:`water.gjf.bat`"
+msgstr ":file:`water.gjf.bat`"
+
+msgid "Gaussianを実行するためのバッチファイルです。"
+msgstr "It is a batch file for running Gaussian."
+
+msgid "ログを表示 (log/out)"
+msgstr "Display log (log / out)"
+
+msgid "logファイルをテキストエディタで開きます。"
+msgstr "Open the log file with a text editor."
+
+msgid "アニメーション"
+msgstr "animation"
+
+msgid "logファイルの情報から構造最適化計算のアニメーションを作成し表示します。"
+msgstr "Creates and displays animation of structural optimization calculation from information of log file."
+
+msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
+msgstr "For the animation display operation method, see: ref: `animation_top`."
+
+msgid "アニメーション (IRC/modred)"
+msgstr "Animation (IRC / modred)"
+
+msgid "logファイルの情報からIRC計算のアニメーションを作成し表示します。"
+msgstr "Creates and displays animation of IRC calculation from information of log file."
+
+msgid "分子軌道, UV-Vis, 電荷, NMR"
+msgstr "Molecular orbitals, UV-Vis, charge, NMR"
+
+msgid "logファイルの情報から分子軌道, UV-Vis, 電荷, NMRの情報を取得し表示します。"
+msgstr "Information on molecular orbital, UV-Vis, charge, NMR from the information of the log file is acquired and displayed."
+
+msgid ""
+"読み込まれた電荷の情報は :menuselection:`表示 --> ラベル/電荷 --> Mulliken電荷` "
+"などを選択することで分子表示エリアに表示することができます。"
+msgstr "Information on the charge read can be displayed in the molecular display area by selecting: menuselection: `display -&gt; label / charge -&gt; Mulliken charge &#39;and so on."
+
+#, fuzzy
+msgid ""
+"サブウィンドウの操作方法は :ref:`mo_top` , :ref:`cube_top` , :ref:`uvvis_top` , "
+":ref:`nmr_top` を参照してください。"
+msgstr "Refer to: ref: `mo_top`,: ref:` cube_top`,: ref: `uvvis_top`,: ref:` nmr_top` for how to operate the subwindow."
+
+msgid "IR/ラマンスペクトル"
+msgstr "IR / Raman spectrum"
+
+msgid "logファイルを選択し、振動スペクトル（IRまたはラマンスペクトル）を表示します。"
+msgstr "Select the log file and display the vibration spectrum (IR or Raman spectrum)."
+
+#, fuzzy
+msgid "サブウィンドウの操作方法は :ref:`ir_top` を参照してください。"
+msgstr "Refer to: ref: `ir_top` for how to operate the subwindow."
+
+msgid "Archive"
+msgstr "Archive"
+
+msgid "Gaussianの出力のアーカイブ部分の高精度座標を読み込みます。"
+msgstr "Read high-precision coordinates of the archive part of Gaussian&#39;s output."
+
+msgid "FormChk"
+msgstr "FormChk"
+
+msgid "G09W,G03WユーティリティのFormchkを起動し、.chkファイルから書式付の.fchファイルを作成し、表示します。"
+msgstr "G09W, G03W Activate Formchk of utility, create formatted .fch file from .chk file and display it."
+
+msgid "Fchkファイル読み込み (Cubegen)"
+msgstr "Fchk file reading (Cubegen)"
+
+msgid ""
+"G09W,G03WユーティリティのCubegenを起動し、.fchファイルを読込んでCubeファイルを作成します。 "
+"Cubegenがない場合は、Winmostar内臓のOpenCubegenを使います。"
+msgstr "G09W, G03W Start Cubegen of the utility, read the .fch file and create the Cube file. If you do not have Cubegen, use OpenCubegen from Winmostar."
+
+#, fuzzy
+msgid "サブウィンドウの操作方法は :ref:`cube_top` と以下を参考にしてください。"
+msgstr "For how to operate the subwindow, please refer to: ref: `cube_top` and the following."
+
+msgid "Property"
+msgstr "Property"
+
+msgid "MO"
+msgstr "MO"
+
+msgid "分子軌道"
+msgstr "Molecular orbital"
+
+msgid "Density"
+msgstr "Density"
+
+msgid "電子密度"
+msgstr "Electron density"
+
+msgid "ESP"
+msgstr "ESP"
+
+msgid "Spin"
+msgstr "Spin"
+
+msgid "スピン密度（α - β）"
+msgstr "Spin density (α - β)"
+
+msgid "Alpha"
+msgstr "Alpha"
+
+msgid "αスピン密度"
+msgstr "α spin density"
+
+msgid "Beta"
+msgstr "Beta"
+
+msgid "βスピン密度"
+msgstr "β spin density"
+
+msgid "Current Density"
+msgstr "Current Density"
+
+msgid "Shielding Density"
+msgstr "Shielding Density"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Density キーワードのオプションを指定します。（HF, MP2, CI, QCI）"
+msgstr "Specify the option of the Density keyword. (HF, MP 2, CI, QCI)"
+
+msgid "Cube"
+msgstr "Cube"
+
+msgid "Cubeファイルを出力します。"
+msgstr "Output the Cube file."
+
+msgid "Cubeファイル読み込み"
+msgstr "Load Cube file"
+
+msgid "Cube形式ファイルを読込んで表示します。"
+msgstr "Read and display the Cube format file."
+
+msgid "GAMESSのpunファイルの場合は、Cubeファイルに変換します。"
+msgstr "For GAMESS pun file, convert it to Cube file."
+
+msgid "cube Manipulation"
+msgstr "cube Manipulation"
+
+msgid ":guilabel:`File 1` と :guilabel:`File 2` に指定したcubeファイルに対して操作を実行します。"
+msgstr ": guilabel: `File 1` and: guilabel:` File 2` for the cube file specified."
+
+msgid "map"
+msgstr "map"
+
+msgid "上の欄のデータに下の欄のデータをマッピングします。（例　DensityにESPをマッピングする）"
+msgstr "Map the data in the lower column to the data in the upper column. (Example mapping ESP to Density)"
+
+msgid "subtract"
+msgstr "subtract"
+
+msgid "2つのcubeファイルのデータの差を対象とします。"
+msgstr "We will cover the difference between the data of the two cube files."
+
+msgid "sub 2"
+msgstr "sub 2"
+
+msgid "2つのcubeファイルのデータの自乗の差を対象とします。"
+msgstr "We will cover the difference between the squares of the data of two cube files."
+
+msgid "add"
+msgstr "add"
+
+msgid "2つのcubeファイルの和を対象とします。"
+msgstr "We will cover the sum of two cube files."
+
+msgid "Mapで対象としたcubeファイルの演算結果を出力し表示の対象とします。"
+msgstr "The calculation result of the cube file targeted by Map is output and displayed."
+
+msgid "Cubegen"
+msgstr "Cubegen"
+
+msgid "Cubegenを起動し、fchファイルを読込んでCubeファイルを作成します。詳細は :ref:`gaussian_fchk` を参照してください。"
+msgstr "Start Cubegen, read the fch file and create a Cube file. For details, see: ref: `gaussian_fchk`."
+
+msgid "PIO解析"
+msgstr "PIO analysis"
+
+msgid "Paired Interacting Orbitals解析を実行します。 詳細は :ref:`pio_top` を参照してください。"
+msgstr "Paired Interacting Orbitals Executes analysis. For details, see: ref: `pio_top`."
+

@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+
+msgid "PIO解析ウィンドウ"
+msgstr "PIO analysis window"
+
+msgid "GAMESSまたはGaussianによるPIO (Paired Interacting Orbitals) 解析の設定と実行を行います。"
+msgstr "Set up and execute PIO (Paired Interacting Orbitals) analysis by GAMESS or Gaussian."
+
+msgid "Click the fragment..."
+msgstr "Click the fragment..."
+
+msgid "Set"
+msgstr "Set"
+
+msgid "フラグメントを指定します。Aをクリックして選択した後Bをクリックし、[Set]ボタンをクリックします。"
+msgstr "Specify a fragment. Click A to select it, then click B, then click the Set button."
+
+msgid "Reset"
+msgstr "Reset"
+
+msgid "フラグメントの設定を解除します。"
+msgstr "Release the setting of the fragment."
+
+msgid "Save ab.inp ..."
+msgstr "Save ab.inp ..."
+
+msgid "Save"
+msgstr "Save"
+
+msgid "合体系A-Bおよび孤立系A、B用のデータファイルを出力し保存します。"
+msgstr "Outputs and saves data files for coalescing AB and solitary systems A and B."
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "データファイルを編集します。"
+msgstr "Edit the data file."
+
+msgid "Gamess/GAMESS Exec"
+msgstr "Gamess / GAMESS Exec"
+
+msgid "Gauss/GAMESS"
+msgstr "Gauss / GAMESS"
+
+msgid "Gaussian/GAMESSによる計算 を実行します。"
+msgstr "Perform calculation by Gaussian / GAMESS."
+
+msgid "GenG"
+msgstr "GenG"
+
+msgid "バッチ・ファイルを作成します。"
+msgstr "Create a batch file."
+
+msgid "GenP"
+msgstr "GENP"
+
+msgid "PIO用のデータファイルを作成します。"
+msgstr "Create a data file for PIO."
+
+msgid "PIO"
+msgstr "PIO"
+
+msgid "PIO計算を実行します。"
+msgstr "Perform PIO calculation."
+
+msgid "ISPC"
+msgstr "ISPC"
+
+msgid "指定した数のピークについて波長と振動子強度の値を図の中に記入します。（長波長側から）"
+msgstr "For the specified number of peaks, enter the wavelength and oscillator strength values in the figure. (From long wavelength side)"
+
+msgid "0"
+msgstr "0"
+
+msgid "A, B 両フラグメントの全分子軌道を使って PIO をつくります。"
+msgstr "We will make PIO using all molecular orbits of A and B fragments."
+
+msgid "1"
+msgstr "1"
+
+msgid ""
+"A, B 両フラグメントの被占分子軌道のみを使ってPIO をつくります。 両フラグメント間に働く重なり反発(overlap repulsion, "
+"closed-shell repulsion)を表現します。"
+msgstr "We will create PIO using only occupied molecular orbital of both A and B fragments. It expresses overlap repulsion (closed-shell repulsion) working between both fragments."
+
+msgid "2"
+msgstr "2"
+
+msgid ""
+"Aの被占分子軌道とBの空分子軌道のみを使って PIO をつくります。 AからBへの電子の非局在化(electron "
+"delocalization)を表現します。"
+msgstr "We will create a PIO using only the occupied molecular orbital of A and the empty molecular orbital of B. It expresses the delocalization of electrons from A to B."
+
+msgid "3"
+msgstr "3"
+
+msgid ""
+"Aの空分子軌道とBの被占分子軌道のみを使って PIO をつくります。 BからAへの電子の非局在化(electron "
+"delocalization)を表現します。"
+msgstr "We will create PIO using only A &#39;s empty molecular orbital and B occupied molecular orbital. It expresses the delocalization of electrons from B to A."
+
+msgid "PIOによる出力ファイル(拡張子out)を編集します。"
+msgstr "Edit the output file (extension out) by PIO."
+
+msgid "Sum."
+msgstr "Sum."
+
+msgid "サマリを表示します。"
+msgstr "Display summary."
+
+msgid "PIOによる出力ファイル(拡張子log)を編集します。"
+msgstr "Edit the output file (extension log) by PIO."
+
+msgid "MO"
+msgstr "MO"
+
+msgid "分子軌道を表示するためのコマンド・ウィンドウを開きます。 分子軌道の表示機能については、 :ref:`cube_top` を参照してください。"
+msgstr "Opens a command window for displaying molecular orbits. For information on the molecular orbital display function, please see: ref: `cube_top`."
+
+msgid "Close"
+msgstr "Close"
+
+msgid "このウィンドウを閉じます。"
+msgstr "Close this window."
+

@@ -1,0 +1,404 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "画面の説明・操作方法"
+msgstr "Main Window"
+
+msgid "画面の説明"
+msgstr "Role of each part"
+
+msgid "Winmostarを起動して出現するウィンドウ（ **メインウィンドウ** と呼ぶ）は下図の様な構成となっています。"
+msgstr "The window (called **Main Window** ) that appears after starting Winmostar has the configuration shown below."
+
+msgid "メインウィンドウのタイトルには現在編集中のファイルの名前、使用中のWinmostarのライセンスとバージョンが表示されます。"
+msgstr "In the title of Main Window, the name of the file currently being edited, the license and version of Winmostar in use are displayed."
+
+msgid "|main_window_JP|"
+msgstr "|main_window_EN|"
+
+msgid "ツールバー"
+msgstr "Toolbar"
+
+msgid "メインメニューの中でよく使われる機能をここでも選択することができます。ポインタを重ねるとそれぞれのボタンの役割を確認できます。また、以下の機能のみ特殊な動作をします。"
+msgstr "Here you can also select commonly used functions in the main menu. You can check the role of each button by overlaying the pointer. In addition, only the following functions perform special operations."
+
+msgid ""
+"上部のツールバーの1行目中央の :guilabel:`ソルバを選択` プルダウンメニュー |solver| （出荷時は ``MOPAC`` "
+"が選ばれるが最後に使ったソルバが表示される）で選ばれているソルバに応じて、その横の :guilabel:`キーワード設定` 、 "
+":guilabel:`実行` などのボタンの役割が変化します。"
+msgstr ""
+"Depending on the solver selected in the :guilabel:`Solver` pull-down menu  |solver| (default is MOPAC) in the first row of the upper toolbar, the role of buttons such as :guilabel:`Configure`, :guilabel:`Run` will change."
+
+msgid ""
+"上部のツールバーの2行目左端の :guilabel:`編集操作で適用される元素を選択` プルダウンメニュー |chg| "
+"で選ばれた元素に応じて、その横の :guilabel:`原子を追加` 、 :guilabel:`元素を変更` ボタンの挙動が変化します。"
+msgstr "Depending on the element selected in the :guilabel:`Select element used in editing operations`  pull-down menu, the behavior of :guilabel:`Add Atom` and :guilabel:`Change Element` buttons beside it will change."
+
+msgid "分子表示エリア"
+msgstr "Viewport"
+
+msgid ""
+"現在編集中の分子構造が表示されます。デフォルトでは炭素原子（緑色）と水素原子（黄色）が結合した構造が表示されます。 "
+":menuselection:`表示 --> 表示項目 --> 分子情報` "
+"メニューにチェックがついている場合は、上部と下部には詳細な情報が表示されます。赤丸は **原子選択マーカー** を示します。 **グループ選択**"
+" された状態では、原子が青丸で囲まれます。 :menuselection:`表示 --> ラベル/電荷` "
+"メニューから各原子の横に表示される番号や電荷の値の種類を切り替えることができます。配色は :menuselection:`ツール --> 環境設定"
+" --> 表示` から変更することができます。"
+msgstr "The molecular structure currently being edited is displayed. By default, the structure where carbon atom (green) and hydrogen atom (yellow) are bonded is displayed."
+"If the :menuselection:`View --> Items --> Information` menu is checked, detailed information will be displayed at the top and bottom."
+"Red circle indicates **atom selection marker**."
+"In  **group selection** state, atoms are surrounded by blue circles."
+"You can toggle the number displayed on the side of each atom and the type of charge value from the :menuselection:`View --> Labels/Charges` menu."
+"The color scheme can be changed from the :menuselection:`Tools --> Preferences --> View` ."
+
+msgid "キーワード表示エリア"
+msgstr "Keyword Editor"
+
+msgid "各ソルバのキーワード設定ウィンドウで設定した内容が表示されます。デフォルトではMOPACの設定が表示されます。"
+msgstr "The contents set in the configuration window of each solver are displayed. By default MOPAC settings are displayed."
+
+msgid "座標表示エリア"
+msgstr "Coordinate Viewer"
+
+msgid ""
+"分子表示エリアに表示されている分子構造の、各原子の座標が表示されます。上部のタブで表示および出力する際の形式を切り替えることができます。デフォルトでは"
+" :guilabel:`Z-Matrix` "
+"が選択されています。グループ選択されていない状態では、座標表示エリアで選ばれた行とマーカー（赤丸）が付いた原子は一致します。 "
+":kbd:`Ctrl+左クリック` または :kbd:`Shift+左クリック` "
+"により複数行を選択することでグループ選択（青丸）することができます。表示されている内容の詳細はポインタを重ねることで確認することができます。"
+msgstr "The coordinates of each atom of the molecular structure displayed in the viewport are displayed."
+"You can switch the display format and output format on the upper tab."
+"By default : guilabel:` Z-Matrix` is selected."
+"In a state where no group is selected, the line selected in Coordinate Viewer matches the atom with the marker (red circle)."
+"Group selection (blue circle) can be done by selecting multiple lines by :kbd:`Ctrl+left click` or :kbd:`Shift+left click`."
+
+msgid "座標入力エリア"
+msgstr "Coordinate Editor"
+
+msgid "マーカー（赤丸）が付いた原子の座標（Z-MatrixまたはXYZ形式）と最適化フラグを入力することができます。"
+msgstr "You can enter the coordinates (Z-Matrix or XYZ format) of the atom with the marker (red circle) and the optimization flags."
+
+msgid "第二キーワード表示エリア"
+msgstr "Keyword Editor (secondary)"
+
+msgid ""
+":guilabel:`キーワード表示エリア` "
+"と基本的には同じですが、ここに記入された内容は、ソルバの入力ファイルの中で座標の後ろに出現します。GAMESS、Quantum "
+"ESPRESSOなどの一部のソルバでのみ使われます。"
+msgstr "It is basically the same as :guilabel:`Keyword Editor`, but the contents entered here will appear after the coordinates in the input file of the solver. It is used only for some solvers such as GAMESS and Quantum ESPRESSO."
+
+msgid "マウス操作"
+msgstr "Mouse controls"
+
+msgid ""
+"メインウィンドウでは下表のようにマウスで操作することができます。 分子・原子を選択する方法の詳細は :ref:`select_top` "
+"に記載しています。"
+msgstr "In Viewport, you can operate with the mouse as shown in the table below."
+
+msgid "修飾"
+msgstr "Modifier"
+
+msgid "キー"
+msgstr "Key"
+
+msgid "左クリック"
+msgstr "Left click"
+
+msgid "左ドラッグ"
+msgstr "Left drag"
+
+msgid "右クリック"
+msgstr "Right click"
+
+msgid "右ドラッグ／"
+msgstr "Right drag/"
+
+msgid "ホイール操作"
+msgstr "Wheel"
+
+msgid "なし"
+msgstr "None"
+
+msgid "マーカーを移動"
+msgstr "Move marker"
+
+msgid "視点の回転"
+msgstr "Roll camera"
+
+msgid "原子を置換"
+msgstr "Replace by fragment"
+
+msgid "表示の拡大・縮小"
+msgstr "Zoom in/out"
+
+msgid ":kbd:`Shift`"
+msgstr ":kbd:`Shift`"
+
+msgid "分子単位でグループ選択"
+msgstr "Select molecule"
+
+msgid "または解除"
+msgstr "or unselect"
+
+msgid "視線の平行移動"
+msgstr "Pan camera"
+
+msgid "原子を削除"
+msgstr "Delete atom"
+
+msgid ":kbd:`Ctrl`"
+msgstr ":kbd:`Ctrl`"
+
+msgid "複数原子をグループ選択"
+msgstr "Select each atoms"
+
+msgid "矩形でグループ選択"
+msgstr "Select atoms in rectangle area"
+
+msgid "ただし、分子表示エリアの右端を左ドラッグすると、表示を拡大・縮小することができます。"
+msgstr "Note that you can also zoom in or out by left-dragging the right end of Viewrport."
+
+msgid "ショートカットキー"
+msgstr "Shortcut keys"
+
+msgid ""
+"メインウィンドウでは下表のショートカットキーを使うことができます。 "
+"下表に記載されている以外にも、メインメニューの各項目の横に記載されたショートカットキーも使用可能です。"
+msgstr "In Main Window you can use the shortcut keys in the table below."
+
+msgid "基礎的な操作"
+msgstr "Basic operations"
+
+msgid "新規"
+msgstr "New"
+
+msgid ":kbd:`Ctrl+N`"
+msgstr ":kbd:`Ctrl+N`"
+
+msgid "開く"
+msgstr "Open"
+
+msgid ":kbd:`Ctrl+O`"
+msgstr ":kbd:`Ctrl+O`"
+
+msgid "上書き保存"
+msgstr "Save"
+
+msgid ":kbd:`Ctrl+S`"
+msgstr ":kbd:`Ctrl+S`"
+
+msgid "名前を付けて保存"
+msgstr "Save As"
+
+msgid ":kbd:`Shift+Ctrl+S`"
+msgstr ":kbd:`Shift+Ctrl+S`"
+
+msgid "元に戻す"
+msgstr "Undo"
+
+msgid ":kbd:`Ctrl+Z`"
+msgstr ":kbd:`Ctrl+Z`"
+
+msgid "やり直し"
+msgstr "Redo"
+
+msgid ":kbd:`Ctrl+Y`"
+msgstr ":kbd:`Ctrl+Y`"
+
+msgid "グループを切り取り"
+msgstr "Cut Group"
+
+msgid ":kbd:`Ctrl+X`"
+msgstr ":kbd:`Ctrl+X`"
+
+msgid "グループをコピー"
+msgstr "Copy Group"
+
+msgid ":kbd:`Ctrl+C`"
+msgstr ":kbd:`Ctrl+C`"
+
+msgid "グループを貼り付け"
+msgstr "Paste Group"
+
+msgid ":kbd:`Ctrl+V`"
+msgstr ":kbd:`Ctrl+V`"
+
+msgid "ヘルプ"
+msgstr "Help"
+
+msgid ":kbd:`F1`"
+msgstr ":kbd:`F1`"
+
+msgid "分子構造の構築"
+msgstr "Modelling "
+
+msgid "フラグメントで置換"
+msgstr "Replace by Fragment"
+
+msgid ":kbd:`F6`"
+msgstr ":kbd:`F6`"
+
+msgid "原子を追加（座標を指定）"
+msgstr "Add Atom by Specifying Position"
+
+msgid ":kbd:`F4`"
+msgstr ":kbd:`F4`"
+
+msgid ":kbd:`Shift+F4`"
+msgstr ":kbd:`Shift+F4`"
+
+msgid "結合を付加/変更"
+msgstr "Add/Change Bond"
+
+msgid ":kbd:`F7`"
+msgstr ":kbd:`F7`"
+
+msgid "結合を削除"
+msgstr "Delete Bond"
+
+msgid ":kbd:`F8`"
+msgstr ":kbd:`F8`"
+
+msgid "原子を移動（並進移動）"
+msgstr "Move Atom (Translate)"
+
+msgid ":kbd:`F5`"
+msgstr ":kbd:`F5`"
+
+msgid "元素を変更"
+msgstr "Change Element"
+
+msgid ":kbd:`Shift+F5`"
+msgstr ":kbd:`Shift+F5`"
+
+msgid "水素を付加（すべての原子に付加）"
+msgstr "Add Hydrogens to All Atoms"
+
+msgid ":kbd:`Ctrl+H`"
+msgstr ":kbd:`Ctrl+H`"
+
+msgid "グループを削除"
+msgstr "Delete Group"
+
+msgid ":kbd:`Ctrl+D`"
+msgstr ":kbd:`Ctrl+D`"
+
+msgid "環構築"
+msgstr "Build Ring"
+
+msgid ":kbd:`F9`"
+msgstr ":kbd:`F9`"
+
+msgid "分子構造の微調整"
+msgstr "Modifying structure"
+
+msgid "簡易構造最適化"
+msgstr "Quick Optimization"
+
+msgid ":kbd:`Ctrl+G`"
+msgstr ":kbd:`Ctrl+G`"
+
+msgid "グループを移動"
+msgstr "Move Group (Direct)"
+
+msgid ":kbd:`Ctrl+M`"
+msgstr ":kbd:`Ctrl+M`"
+
+msgid "グループを軸回転（選択2原子）"
+msgstr "Roll Group Around Axis (2 Marked Atoms)"
+
+msgid ":kbd:`Ctrl+R`"
+msgstr ":kbd:`Ctrl+R`"
+
+msgid "グループを軸回転（選択3原子）"
+msgstr "Roll Group Around Axis (3 Marked Atoms)"
+
+msgid ":kbd:`Ctrl+A`"
+msgstr ":kbd:`Ctrl+A`"
+
+msgid "グループを固定/固定解除"
+msgstr "Change Optimization Flags of Group"
+
+msgid ":kbd:`Ctrl+I`"
+msgstr ":kbd:`Ctrl+I`"
+
+msgid "結合長を自動調整"
+msgstr "Adjust All Bond Length"
+
+msgid ":kbd:`Ctrl+J`"
+msgstr ":kbd:`Ctrl+J`"
+
+msgid "グループを回転（マウス操作）"
+msgstr "Orbit Group Around Marked Atom"
+
+msgid ":kbd:`Ctrl+F`"
+msgstr ":kbd:`Ctrl+F`"
+
+msgid "グループを簡易構造最適化"
+msgstr "Quick Optimization for Group"
+
+msgid ":kbd:`Ctrl+L`"
+msgstr ":kbd:`Ctrl+L`"
+
+msgid "表示関連の操作"
+msgstr "Controlling Display"
+
+msgid "表示の拡大"
+msgstr "Zoom In"
+
+msgid ":kbd:`F3`"
+msgstr ":kbd:`F3`"
+
+msgid "表示の縮小"
+msgstr "Zoom Out"
+
+msgid ":kbd:`F2`"
+msgstr ":kbd:`F2`"
+
+msgid "表示をウィンドウに合わせる"
+msgstr "Fit to Window"
+
+msgid ":kbd:`Ctrl+4`"
+msgstr ":kbd:`Ctrl+4`"
+
+msgid "表示方向を変更"
+msgstr "Align View"
+
+msgid ":kbd:`Ctrl+1, 2, 3`"
+msgstr ":kbd:`Ctrl+1, 2, 3`"
+
+msgid "キーワード＆座標表示エリアの表示/非表示"
+msgstr "Show Keyword Editor & Coordinate Viewer"
+
+msgid ":kbd:`F10`"
+msgstr ":kbd:`F10`"
+
+msgid "分子表示エリアを画像として保存"
+msgstr "Export Image"
+
+msgid ":kbd:`Ctrl+Alt+I`"
+msgstr ":kbd:`Ctrl+Alt+I`"
+
+msgid "分子表示エリアを画像としてコピー"
+msgstr "Copy Image"
+
+msgid ":kbd:`Ctrl+Alt+C`"
+msgstr ":kbd:`Ctrl+Alt+C`"
+

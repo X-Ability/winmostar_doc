@@ -1,0 +1,1075 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+
+msgid ":menuselection:`MD --> LAMMPS` メニュー"
+msgstr ": menuselection: `MD -&gt; LAMMPS` menu"
+
+msgid "LAMMPSに関するメニューです。"
+msgstr "It is a menu related to LAMMPS."
+
+msgid "LAMMPSをインストールする方法は :ref:`install_install` に記載しています。"
+msgstr "The method of installing LAMMPS is described in: ref: `install_install`."
+
+msgid "キーワード設定"
+msgstr "Keyword setting"
+
+#, fuzzy
+msgid ""
+"LAMMPSの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は "
+":guilabel:`OK` ボタンを押してください。"
+msgstr "Set calculation condition of LAMMPS. To set up the calculations immediately after setting: guilabel: `Run` button, once to return to the main window please press: guilabel:` OK` button."
+
+msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`md_lammps_start` を参照してください。"
+msgstr ": guilabel: Behavior when clicking `Run` is see: ref:` md_lammps_start`."
+
+msgid ""
+":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 :guilabel:`Save` ボタンでForce "
+"Fieldを除く設定を保存します。 :guilabel:`Load` ボタンで :guilabel:`Save` にて保存した設定を読み込みます。"
+msgstr ": guilabel: `Reset` button to return to the default state. : guilabel: Save the setting except Force Field with `Save` button. : guilabel: Load the setting saved by: guilabel: `Save` with the` Load` button."
+
+msgid "Extending Simulation"
+msgstr "Extending Simulation"
+
+msgid "継続ジョブを実行します。"
+msgstr "Execute a continuous job."
+
+msgid "詳細は :ref:`md_lammps_start` を参照してください。"
+msgstr "For details, see: ref: `md_lammps_start`."
+
+msgid "Preset"
+msgstr "Preset"
+
+msgid "計算条件のプリセットを指定します。プリセットの内容は、各キーワードから確認できます。"
+msgstr "Specify the preset of the calculation condition. The preset contents can be confirmed from each keyword."
+
+msgid "MPI"
+msgstr "MPI"
+
+msgid "MPI並列数を指定します。"
+msgstr "Specify MPI parallel number."
+
+msgid "Basic"
+msgstr "Basic"
+
+msgid "Units"
+msgstr "Units"
+
+msgid "単位系を指定します。"
+msgstr "Specify the unit system."
+
+msgid "real"
+msgstr "real"
+
+msgid "主に分子系で指定します(A, fs, Kcal/mol）。"
+msgstr "It is mainly specified by molecular system (A, fs, Kcal / mol)."
+
+msgid "metal"
+msgstr "metal"
+
+msgid "主に結晶系で指定します(A, ps, eV）。"
+msgstr "It is mainly specified by crystal system (A, ps, eV)."
+
+msgid "lj"
+msgstr "lj"
+
+msgid "主にDPD計算で指定します(無次元単位）。"
+msgstr "It is mainly specified by DPD calculation (dimensionless unit)."
+
+msgid "Atom Style"
+msgstr "Atom Style"
+
+msgid "計算する系の種類を指定します。 :guilabel:`Units` に応じて変化します。"
+msgstr "Specify the type of system to calculate. : guilabel: `Units` changes accordingly."
+
+msgid "Pair Style"
+msgstr "Pair Style"
+
+msgid "相互作用計算の方法を選択します。"
+msgstr "Select the method of interaction calculation."
+
+msgid "Potential File"
+msgstr "Potential File"
+
+msgid ""
+"ポテンシャルファイルを選択します。LAMMPS本体をインストールしたフォルダ直下の :file:`Potential` "
+"フォルダ内のファイルをリストアップします。選択肢は :guilabel:`Pair Style` に応じて変わります。"
+msgstr "Select the potential file. List the files in the: file: `Potential` folder directly under the folder where you installed the LAMMPS main unit. The choices will change according to: guilabel: `Pair Style`."
+
+msgid "Time Step"
+msgstr "Time Step"
+
+msgid "時間積分の刻み幅を指定します。単位は選択した :guilabel:`Unit` により変わります。"
+msgstr "Specify the step size of time integration. Units are selected according to the selected: guilabel: `Unit`."
+
+msgid "# of Time Steps"
+msgstr "# of Time Steps"
+
+msgid "時間積分ステップの最大数を指定します。"
+msgstr "Specify the maximum number of time integration steps."
+
+msgid "Generate Velocity"
+msgstr "Generate Velocity"
+
+msgid "チェックをした場合は初速度が与えられます。"
+msgstr "If you check, the initial speed will be given."
+
+msgid "Ensemble"
+msgstr "Together"
+
+msgid ""
+"時間積分の種類を指定します。 ``nvt`` （温度一定のカノニカルアンサンブル）,  ``npt`` （温度、圧力一定のアンサンブル）,  "
+"``nve`` （体積とエネルギー一定のミクロカノニカルアンサンブル）,  ``minimize`` "
+"（CG法によるエネルギー最小化）のいずれかを選択します。"
+msgstr "Specify the type of time integration. `` nvt`` (canonical ensemble with constant temperature), `` npt`` (temperature, constant pressure ensemble), `` nve`` (micro and canonical ensemble with constant volume and energy), `` minimize`` (CG Energy minimization by law)."
+
+msgid "Temperature"
+msgstr "Temperature"
+
+msgid "目標温度を指定します。アニーリング計算時には始状態の温度を指定します。"
+msgstr "Specify the target temperature. At the time of annealing calculation, specify the temperature of the start condition."
+
+msgid "Pressure"
+msgstr "Pressure"
+
+msgid "目標圧力を指定します。"
+msgstr "Specify the target pressure."
+
+msgid "Pressure Control"
+msgstr "Pressure Control"
+
+msgid "圧力制御の際のセルの動かし方を指定します。"
+msgstr "Specify how cells are moved during pressure control."
+
+msgid "Constrain Hydrogen"
+msgstr "Constrain Hydrogen"
+
+msgid "水素原子をSHAKE法で拘束します。"
+msgstr "We restrict hydrogen atoms by SHAKE method."
+
+msgid "Advance"
+msgstr "Advance"
+
+msgid "Boundary X Y Z"
+msgstr "Boundary X Y Z"
+
+msgid ""
+"周期境界条件を指定します。 ``p`` （periodic）, ``f`` （non-periodic and fixed）, ``s`` "
+"（non-periodic and shrink-wrapped）,  ``m`` （non-periodic and shrink-"
+"wrapped with a minimum value）のいずれかを選択します。"
+msgstr "Specify the periodic boundary condition. `` p`` (periodic), `` f`` (non-periodic and fixed), `` s`` (non-periodic and shrink-wrapped), `` m`` (non-periodic and shrink-wrapped with a minimum value)."
+
+msgid "Energy Tolerance"
+msgstr "Energy Tolerance"
+
+msgid "minimize計算時のエネルギーに関する打ち切り誤差を指定します。"
+msgstr "minimize Specifies the truncation error on energy during calculation."
+
+msgid "Force Tolerance"
+msgstr "Force Tolerance"
+
+msgid "minimize計算時の力に関する打ち切り誤差を指定します。"
+msgstr "minimize Specifies the truncation error on force during calculation."
+
+msgid "Tdamp"
+msgstr "Tdamp"
+
+msgid "温度制御の時定数パラメータを指定します。"
+msgstr "Specify the time constant parameter for temperature control."
+
+msgid "Pdamp"
+msgstr "Pdamp"
+
+msgid "圧力制御の時定数パラメータを指定します。"
+msgstr "Specify the time constant parameter of pressure control."
+
+msgid "Reset COM Motion"
+msgstr "Reset COM Motion"
+
+msgid "MD計算時に系全体の重心の運動を凍結する方法を選びます。"
+msgstr "Choose a method to freeze motion of the center of gravity of the whole system during MD calculation."
+
+msgid "Reset Interval"
+msgstr "Reset Interval"
+
+msgid ":guilabel:`Reset COM Motion` の頻度をタイムステップで指定します"
+msgstr ": guilabel: `Reset COM Motion` frequency in time step"
+
+msgid "Random Seed"
+msgstr "Random Seed"
+
+msgid "初速度発生時の擬似乱数の種を指定します。"
+msgstr "Specify the seed of the pseudorandom number at the time of initial velocity occurrence."
+
+msgid "Tchain"
+msgstr "Tchain"
+
+msgid "Nose-Hoover chainの段数を指定します。"
+msgstr "Specify the number of stages of Nose-Hoover chain."
+
+msgid "Pchain"
+msgstr "Pchain"
+
+msgid "圧力制御の段数を指定します。"
+msgstr "Specify the number of stages of pressure control."
+
+msgid "box tilt large"
+msgstr "box tilt large"
+
+msgid "シミュレーションセルの変形の許容度合を指定します。"
+msgstr "Specify the allowable degree of deformation of the simulation cell."
+
+msgid "rigid"
+msgstr "rigid"
+
+msgid "分子を剛体として扱います。"
+msgstr "We treat molecules as rigid bodies."
+
+msgid "SHAKE tolerance"
+msgstr "SHAKE tolerance"
+
+msgid "SHAKE法の打ち切り誤差を指定します。"
+msgstr "Specify the truncation error of the SHAKE method."
+
+msgid "Output"
+msgstr "Output"
+
+msgid "Dump Interval (dump)"
+msgstr "Dump Interval (dump)"
+
+msgid "dump形式で座標を出力する頻度をタイムステップ数で指定します。"
+msgstr "Specify the frequency of outputting coordinates in dump format as the number of time steps."
+
+msgid "Dump Interval (xtc)"
+msgstr "Dump Interval (xtc)"
+
+msgid "xtc形式で座標を出力する頻度をタイムステップ数で指定します。"
+msgstr "Specify the frequency of outputting coordinates in xtc format as the number of time steps."
+
+msgid "Dump Interval (xyz)"
+msgstr "Dump Interval (xyz)"
+
+msgid "xyz形式で座標を出力する頻度をタイムステップ数で指定します。"
+msgstr "Specify the frequency of outputting coordinates in xyz format by time step number."
+
+msgid "Log Interval"
+msgstr "Log Interval"
+
+msgid "log ファイルにエネルギー変数を書き出す頻度をタイムステップ数で指定します。"
+msgstr "Specify the frequency of writing energy variables to the log file by time step number."
+
+msgid "Calculate Thermal Conductivity"
+msgstr "Calculate Thermal Conductivity"
+
+msgid "原子の流速の自己相関関数から算出する熱伝導率を出力します。"
+msgstr "Output thermal conductivity calculated from autocorrelation function of atomic flow velocity."
+
+msgid "Calc Interval"
+msgstr "Calc Interval"
+
+msgid "熱伝導率計算における自己相関関数の算出頻度を指定します。"
+msgstr "Specify the calculation frequency of autocorrelation function in thermal conductivity calculation."
+
+msgid "ACF Length"
+msgstr "ACF Length"
+
+msgid "熱伝導率計算における自己相関関数の長さを指定します。"
+msgstr "Specify the length of autocorrelation function in thermal conductivity calculation."
+
+msgid "Interaction"
+msgstr "Interaction"
+
+msgid "Cutoff(vdw)"
+msgstr "Cutoff(vdw)"
+
+msgid "vdw(LJ)ポテンシャルのカットオフ半径を指定します。"
+msgstr "vdw (LJ) Specifies the cutoff radius of the potential."
+
+msgid "Cutoff(Coulomb)"
+msgstr "Cutoff(Coulomb)"
+
+msgid "Coulomb(静電)ポテンシャルのカットオフ半径を指定します。"
+msgstr "Coulomb (electrostatic) Specify the cutoff radius of the potential."
+
+msgid "Neighbor Search"
+msgstr "Neighbor Search"
+
+msgid "近接粒子探索時のアルゴリズムを指定します。"
+msgstr "Specify algorithm for near particle search."
+
+msgid "Neighbor Skin"
+msgstr "Neighbor Skin"
+
+msgid "近接粒子探索時の探索半径の余分を指定します。"
+msgstr "Specify the extra radius of the search radius when searching for nearby particles."
+
+msgid "Automatically set Nmesh"
+msgstr "Automatically set Nmesh"
+
+msgid ""
+":guilabel:`Pair Style` = ``lj/cut/coul/long`` の際に使用されるPPPM法のメッシュ数をK-space"
+" accuracyから自動的に設定します。"
+msgstr ": guilabel: `Pair Style` =` `lj / cut / coul / long`` is automatically set from the K-space accuracy using the PPPM method mesh number."
+
+msgid "Nmesh for kx, ky, kz"
+msgstr "Nmesh for kx, ky, kz"
+
+msgid "PPPM法のメッシュ数を指定します。"
+msgstr "Specify the mesh number of PPPM method."
+
+msgid "PPPM Order"
+msgstr "PPPM Order"
+
+msgid "PPPM法のSpline補間次数を指定します。"
+msgstr "Specify Spline interpolation order of PPPM method."
+
+msgid "K-space accuracy"
+msgstr "K-space accuracy"
+
+msgid "PPPM法の許容相対誤差を指定します。"
+msgstr "Specify the allowable relative error of PPPM method."
+
+msgid "Enable Long Range Correction"
+msgstr "Enable Long Range Correction"
+
+msgid "vdwポテンシャルのカットオフ補正項の有無を指定します。"
+msgstr "Specify the presence or absence of the vdw potential cut-off correction term."
+
+msgid "Non-equiliibrium (1)"
+msgstr "Non-equiliibrium (1)"
+
+msgid "Enable Elongation"
+msgstr "Enable Elongation"
+
+msgid "伸長計算を有効にします。 :guilabel:`Ensemble` が ``minimize`` 以外の時に指定できます。"
+msgstr "Enable decompression calculation. : guilabel: `Ensemble` can be specified when it is not` `minimize``."
+
+msgid "Affine Transformation"
+msgstr "Affine Transformation"
+
+msgid "伸長計算時に原子位置をシミュレーションセルに合わせてアフィン（相似）変形するか指定します。"
+msgstr "Specify whether to modify the atom position according to the simulation cell and to affine (similarity) deformation during elongation calculation."
+
+msgid "Eng. Strain Rate"
+msgstr "Eng. Strain Rate"
+
+msgid ""
+"伸長計算時の伸長速度を工業ひずみで指定します。 :guilabel:`Max Eng. Strain` "
+"には最終ステップにおけるひずみの予測値が表示されます。"
+msgstr "Specify the extension speed at extension calculation with industrial strain. : guilabel: `Max Eng. Strain` shows the predicted value of the strain at the final step."
+
+msgid "Preserve Volume"
+msgstr "Preserve Volume"
+
+msgid "伸長計算時に、シミュレーションセルの体積を一定に保つよう伸長方向に垂直な方向のセルサイズを変形させます。"
+msgstr "During elongation calculation, deform the cell size in the direction perpendicular to the elongation direction so that the volume of the simulation cell is kept constant."
+
+msgid "Enable Simulated Annealing"
+msgstr "Enable Simulated Annealing"
+
+msgid ""
+"アニーリング計算（温度を一定速度で変化させる計算）を有効にします。 :guilabel:`Ensemble` が ``nvt`` , "
+"``npt`` の時に指定できます。 :guilabel:`Temperature` の値が始状態の温度、 :guilabel:`Final "
+"Temperature` の値が終状態の温度となります。"
+msgstr "Enable annealing calculations (calculation to change the temperature at a constant speed). : guilabel: `Ensemble` can be specified when` `nvt``,` `npt``. : Guilabel: The value of `Temperature` is the temperature at the beginning, and the value of guilabel:` Final Temperature` is the temperature of the final state."
+
+msgid "Final Temperature"
+msgstr "Final Temperature"
+
+msgid "アニーリング計算時の終状態の温度を指定します。"
+msgstr "Specify the temperature of the final state at the time of annealing calculation."
+
+msgid "Annealing Rate"
+msgstr "Annealing Rate"
+
+msgid "アニーリング計算時の加熱または冷却速度が表示されます。"
+msgstr "The heating or cooling rate at the time of annealing calculation is displayed."
+
+msgid "Enable Pulling"
+msgstr "Enable Pulling"
+
+msgid ""
+"指定した原子群を一定速度で移動させるPull計算を有効にします。 :guilabel:`Ensemble` が ``minimize`` "
+"以外の時に指定できます。"
+msgstr "Enable Pull calculation to move a specified atom group at a constant speed. : guilabel: `Ensemble` can be specified when it is not` `minimize``."
+
+msgid "Pulled Atoms"
+msgstr "Pulled Atoms"
+
+msgid ""
+"Pull計算時に、 :ref:`グループ選択 <edit_top>` でPullしたい原子（複数可）を選択した上で :guilabel:`Set`"
+" ボタンをクリックすると、その原子がPullのターゲットとなります。"
+msgstr "During Pull calculation,: ref: `group selection <edit_top> Select the atom (s) you want to pull with: `guilabel:` Set` button to target that atom to Pull."
+
+msgid "Pulled Velocity"
+msgstr "Pulled Velocity"
+
+msgid "Pull計算時の、Pull速度を指定します。"
+msgstr "Specify the pull speed for Pull calculation."
+
+msgid "Restraint"
+msgstr "Restraint"
+
+msgid "Enable Restraint"
+msgstr "Enable Restraint"
+
+msgid "指定した2原子間の距離を拘束した計算を実施します。:guilabel:`Ensemble` が ``minimize`` 以外の時に指定できます。"
+msgstr "Calculation is performed by constraining the distance between specified two atoms. : guilabel: `Ensemble` can be specified when it is not` `minimize``."
+
+msgid "Restrained Atoms"
+msgstr "Restrained Atoms"
+
+msgid ""
+"拘束計算時に、2原子を :ref:`グループ選択 <edit_top>` し :guilabel:`Set` "
+"ボタンをクリックすると、その原子が拘束のターゲットとなります。"
+msgstr "At the time of constraint calculation, two atoms are selected as: ref: `group selection <edit_top> `し: guilabel: Click on the &#39;Set&#39; button, then that atom becomes the target of the constraint."
+
+msgid "Bond Length"
+msgstr "Bond Length"
+
+msgid "拘束計算時の、2原子間の拘束距離を指定します。"
+msgstr "Specify the constraint distance between two atoms at the time of constraint calculation."
+
+msgid "Initial Strength"
+msgstr "Initial Strength"
+
+msgid "拘束計算時の、始状態における拘束ポテンシャルのバネ係数を指定します。"
+msgstr "Specify the spring coefficient of the constraint potential in the starting state at the time of constraint calculation."
+
+msgid "Final Strength"
+msgstr "Final Strength"
+
+msgid "拘束計算時の、終状態における拘束ポテンシャルのバネ係数を指定します。"
+msgstr "Specify the spring coefficient of the constraint potential in the final state at the time of constraint calculation."
+
+msgid "Enable Position Restraint"
+msgstr "Enable Position Restraint"
+
+msgid "指定した原子の絶対座標を固定した計算を実施します。"
+msgstr "Calculate fixed absolute coordinates of specified atoms."
+
+msgid "絶対座標を固定する原子を指定します。"
+msgstr "Specify an atom to fix absolute coordinates."
+
+msgid "Automatic"
+msgstr "Automatic"
+
+msgid "Rescale velocities to.."
+msgstr "Rescale velocities to.."
+
+msgid "NVEアンサンブルにおいて目標温度に系の温度を近づけたい時に使います。計算中の平均温度とここで入力した温度からスケーリング係数を算出して、最終構造の各粒子の速度をスケーリングします。"
+msgstr "Use it when you want to bring the system temperature closer to the target temperature in the NVE ensemble. Calculate the scaling factor from the average temperature under calculation and the temperature entered here and scale the velocity of each particle in the final structure."
+
+msgid "Rescale box size to.."
+msgstr "Rescale box size to.."
+
+msgid "NPTアンサンブルで計算した後に、設定圧力に近い状態でNVEまたはNVTアンサンブルで計算した場合に使用します。最終構造を、計算中の平均セルサイズにスケーリングします。"
+msgstr "It is used when calculating with the NVE or NVT ensemble in the state close to the set pressure after calculating with the NPT ensemble. Scale the final structure to the average cell size under calculation."
+
+msgid "Options"
+msgstr "Options"
+
+msgid "Make a Backup of Working Directory"
+msgstr "Make a Backup of Working Directory"
+
+msgid "作業ディレクトリのバックアップを行う際に選択します。"
+msgstr "Select this when backing up the working directory."
+
+msgid "Restore Working Directory"
+msgstr "Restore Working Directory"
+
+msgid "継続ジョブが異常終了時など、作業ディレクトリを実行前の状態に戻す際にクリックします。"
+msgstr "Click this button to return the working directory to the state before execution, such as when the continued job terminates abnormally."
+
+msgid "Dump all files for remote"
+msgstr "Dump all files for remote"
+
+msgid ""
+"Linux環境でのジョブ実行に必要なファイルを出力します。 :ref:`remote_top` "
+"機能で生成されるファイルと同じファイルが出力されます。"
+msgstr "Output files necessary for job execution under Linux environment. The same file as the file generated by: ref: `remote_top` function is output."
+
+msgid "Force Field"
+msgstr "Force Field"
+
+msgid "Generate parameters"
+msgstr "Generate parameters"
+
+#, fuzzy
+msgid "メインウィンドウに表示された系に対し、新たに力場パラメータをアサインしトポロジファイル（topファイル）を作成します。"
+msgstr "Assign new force field parameters to the system displayed in the main window and create a topology file (top file)."
+
+msgid "Force field"
+msgstr "Force field"
+
+msgid "(General)"
+msgstr "(General)"
+
+msgid ""
+"タンパク質、水分子以外の分子の力場を指定します。 内部では、GAFF, OPLS/AA-Lの場合は :command:`acpype` "
+"が、Dreidingの場合は内製プログラムが使用されます。 Dreidingの設定は "
+":file:`polymer/dreiding.lib.txt` に書かれています。"
+msgstr "Specify the force field of molecules other than proteins and water molecules. Internally, command: `acpype` is used for GAFF, OPLS / AA-L, in-house program is used for Dreiding. The setting of Dreiding is written in: file: `polymer / dreiding.lib.txt`."
+
+msgid "Exception"
+msgstr "Exception"
+
+#, fuzzy
+msgid ""
+"特定の分子に対し、(General)にて選択した力場を使わず、ユーザが指定するLJパラメータを割り当てます。 "
+"サブウィンドウの左の欄にてLJパラメータを指定したい分子にチェックを入れ、右の欄でLJパラメータを入力します。"
+msgstr "For specific molecules, assign the user specified LJ parameters without using the force field selected in (General). In the left column of the subwindow, check the molecule you want to specify the LJ parameter and enter the LJ parameter in the right column."
+
+msgid "例えば固液界面系において固相の原子にLJパラメータを割り振りたい時などに使用します。"
+msgstr "For example, when you want to allocate LJ parameters to solid phase atoms in a solid-liquid interface system."
+
+msgid "(Protein)"
+msgstr "(Protein)"
+
+msgid ""
+"タンパク質の力場を指定します。ここで、PDBやgroフォーマットにおいてアミノ酸残基の名前が割り当てられている原子がタンパク質として認識されます。内部的には"
+" :command:`gmx pdb2gmx` が使用されます。"
+msgstr "Specify the force field of the protein. At this point, atoms assigned amino acid residue names in PDB and gro format are recognized as proteins. Internally: command: `gmx pdb 2 gmx` is used."
+
+msgid "残基名を含まないファイルから分子構造を読み込んだ場合は本機能を使用できません。"
+msgstr "This function can not be used when reading the molecular structure from a file not including residue name."
+
+msgid "(Water)"
+msgstr "(Water)"
+
+msgid ""
+"水分子の力場を指定します。 :ref:`md_solvate_buildcell` "
+"で選択した水モデルを指定する必要があります。内部的にはCygwinにインストールされたGromacsのトポロジのライブラリからパラメータを取得します。"
+msgstr "Specify the force field of the water molecule. You must specify the selected water model with: ref: `md_solvate_buildcell`. Internally we get the parameters from the library of Gromacs topology installed in Cygwin."
+
+msgid "Charge"
+msgstr "Charge"
+
+msgid "Assign charges"
+msgstr "Assign charges"
+
+msgid ""
+":command:`acpype` により算出する電荷を用いてトポロジファイルを作成します。 :guilabel:`Method` "
+"にはその方法を指定します。"
+msgstr "Create a topology file using the charge calculated by: command: `acpype`. : guilabel: `Method` specifies its method."
+
+msgid ""
+"ポリマーの場合は :command:`acpype` による電荷の算出に時間がかかるため、あらかじめポリマービルダを用いて系を作成し、 "
+":guilabel:`Use User-defined Charge` にチェックを入れてください。"
+msgstr "In the case of polymers, it takes time to calculate the charge by command: `acpype`, so create a system with the polymer builder in advance and check: guilabel:` Use User-defined Charge`."
+
+msgid "Use user-defined charge"
+msgstr "Use user-defined charge"
+
+#, fuzzy
+msgid "メインウィンドウ上で設定されている各原子の点電荷の値を用いてトポロジファイルを作成します。"
+msgstr "Create a topology file using the value of point charge of each atom set on the main window."
+
+#, fuzzy
+msgid ""
+"メインウィンドウ上で設定されている点電荷の値は、 :ref:`表示ボタンエリア <gui_main>` のアノテーションボタンから "
+":guilabel:`User Charge` などを選択するか、.mol2形式で保存し :ref:`file_editor` "
+"で開くことにより確認できます。"
+msgstr "The value of the point charge set on the main window is: ref: `display button area <gui_main> `Annotation button: guilabel:` User Charge` etc. or save it in .mol2 format and open it with: ref: `file_editor`."
+
+msgid "Add [position_restraints] for protein"
+msgstr "Add [position_restraints] for protein"
+
+msgid ""
+"タンパク質が存在する場合は :guilabel:`Advance` タブにおける :guilabel:`-POSRES` "
+"で位置を拘束するための情報（ ``[position_restraints]`` "
+"セクション）をトポロジファイルに書き込みます。タンパク質が存在しない場合は無視されます。"
+msgstr "If a protein exists: Write information (`` [position_restraints] `` section) to constrain the position in the topology file with: guilabel: `-POSRES` on the guilabel:` Advance` tab. Ignored when protein is absent."
+
+msgid "Add [position_restraints] for selected atoms"
+msgstr "Add [position_restraints] for selected atoms"
+
+msgid ""
+"ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` "
+"で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。 "
+"例えば固液界面系に於いて固相を固定する場合などに使用します。"
+msgstr "For the molecule specified by the user, write information (`` [position_restraints] `` section) to constrain the position in the topology file with: guilabel: `-POSRES` on the: guilabel:` Advance` tab. For example, when fixing solid phase in solid-liquid interface system."
+
+msgid "Add [distance/angle/dihedral_restraints] for selected atoms"
+msgstr "Add [distance/angle/dihedral_restraints] for selected atoms"
+
+msgid ""
+"ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` "
+"で距離・角度・二面角を拘束するための情報をトポロジファイルに書き込みます。"
+msgstr "For the molecule specified by the user, write information to constrain distance, angle, dihedral angle to topology file by: guilabel: `-POSRES` on the: guilabel:` Advance` tab."
+
+msgid "Dump Now"
+msgstr "Dump Now"
+
+msgid "現在の設定に基づき、トポロジファイルを生成します。"
+msgstr "Based on the current settings, generate a topology file."
+
+msgid ""
+":guilabel:`Load from Existing File` "
+"を選択しない場合はソルバの実行時に自動的にトポロジファイルが生成されるため、この操作は必須ではありません。"
+msgstr ": guilabel: If you do not select `Load from Existing File`, this operation is not required, as the topology file is generated automatically when the solver is executed."
+
+msgid ""
+"トポロジファイルをエディタ等で編集してカスタマイズしたい場合は、本機能を使用して保存した上で、 :guilabel:`Load from "
+"Existing File` にて選択してください。"
+msgstr "If you want to edit the topology file with an editor etc. and customize it, save it using this function and select it with: guilabel: `Load from Existing File`."
+
+msgid "Load from existing file/Use parameters in displayed file"
+msgstr "Load from existing file/Use parameters in displayed file"
+
+#, fuzzy
+msgid ""
+"既に存在しているトポロジファイルを用いてMD計算を実行する場合に選択します。 "
+"LAMMPSの場合は、メインウィンドウで既に存在しているdataファイルを用いてMD計算を実行する場合に選択します。"
+msgstr "Select this when executing MD calculation using topology file which already exists. In the case of LAMMPS, select this when executing MD calculation using the existing data file in the main window."
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "選択されたトポロジファイルをテキストエディタで編集する。"
+msgstr "Edit the selected topology file with a text editor."
+
+msgid "Generate Simulation Cell"
+msgstr "Generate Simulation Cell"
+
+#, fuzzy
+msgid ""
+"メインウィンドウにおいてシミュレーションセルが定義されていない場合のみ設定が有効となる。チェックが入っている場合は、メインウィンドウに表示された分子の周囲に"
+" :guilabel:`Distance` で指定された距離だけ離れた場所にシミュレーションセルを自動発生させる。"
+msgstr "The setting is valid only when simulation cells are not defined in the main window. If checked, simulation cells are automatically generated around the molecule displayed in the main window at a distance specified by: guilabel: `Distance`."
+
+msgid "LAMMPS実行"
+msgstr "Run LAMMPS"
+
+msgid "LAMMPSを実行します。 状況に応じて実行方法が異なります。"
+msgstr "Execute LAMMPS. The execution method differs depending on the situation."
+
+msgid ""
+"（デフォルト） :guilabel:`Extending Simulation` にチェックがなく、 :menuselection:`Force "
+"Fieldタブ -->` :guilabel:`Generate parameters` にチェックが入っている場合"
+msgstr "(Default): If guilabel: `Extending Simulation` is unchecked and:: menuselection:` Force Field tab -&gt; `: guilabel:` Generate parameters` is checked"
+
+msgid "dataファイル（座標とトポロジを含むファイル）を新規に生成してからジョブを開始します。"
+msgstr "Create a new data file (file containing coordinates and topology) and start the job."
+
+msgid ""
+":guilabel:`Extending Simulation` にチェックがなく、 :menuselection:`Force Fieldタブ "
+"-->` :guilabel:`Use parameters in displayed file` にチェックが入っている場合"
+msgstr ": If guilabel: `Extending Simulation` is unchecked and:: menuselection:` Force Field tab -&gt; `: guilabel:` Use parameters in displayed file` is checked"
+
+#, fuzzy
+msgid "メインウィンドウで開かれているdataファイルを使用してジョブを開始します。"
+msgstr "Start the job using the data file opened in the main window."
+
+msgid ":guilabel:`Extending Simulation` にチェックがある場合"
+msgstr ": guilabel: When &#39;Extending Simulation` is checked"
+
+#, fuzzy
+msgid ""
+"メインウィンドウで開かれているdataファイルに紐づけられた作業ディレクトリの中にある :file:`lmp_tmp_final.data` "
+"用いてジョブを開始します。"
+msgstr "Start the job using the file: `lmp_tmp_final.data` located in the working directory associated with the data file opened in the main window."
+
+msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.data` の時のファイル/フォルダ名を併記しています。"
+msgstr "Following file will be generated with execution. As an example, the file / folder name when the input file is: file: `water.data` is also shown."
+
+msgid "種類"
+msgstr "type"
+
+msgid "説明"
+msgstr "Description"
+
+msgid "outファイル"
+msgstr "out file"
+
+msgid ":file:`water.log`"
+msgstr ":file:`water.log`"
+
+msgid "LAMMPSのログファイルです。"
+msgstr "This is the log file of LAMMPS."
+
+msgid "batファイル"
+msgstr "bat file"
+
+msgid ":file:`water.bat`"
+msgstr ":file:`water.bat`"
+
+msgid "LAMMPSとそのプリ・ポスト処理を実行するための"
+msgstr "LAMMPS and its pre / post processing"
+
+msgid "バッチファイルです。"
+msgstr "It is a batch file."
+
+msgid "作業ディレクトリ"
+msgstr "Working Directory"
+
+msgid ":file:`water_lmp_tmp\\\\`"
+msgstr ":file:`water_lmp_tmp\\\\`"
+
+msgid "作業ディレクトリです。"
+msgstr "Working directory."
+
+msgid "作業ディレクトリには以下のファイルが生成されます。 ここでは主要なファイルのみ示しています。"
+msgstr "The following files are generated in the working directory. Only the main files are shown here."
+
+msgid ":file:`lmp_tmp.data`"
+msgstr ":file:`lmp_tmp.data`"
+
+msgid "read_dataで指定される計算の初期状態のファイルです。"
+msgstr "It is the initial state file of the calculation specified by read_data."
+
+msgid ":file:`lmp_tmp.in`"
+msgstr ":file:`lmp_tmp.in`"
+
+msgid "計算条件を指定するファイルです。"
+msgstr "It is a file that specifies calculation conditions."
+
+msgid ":file:`lmp_tmp.log`"
+msgstr ":file:`lmp_tmp.log`"
+
+msgid "ログファイルです。"
+msgstr "It is a log file."
+
+msgid ":file:`water.log` と同じものです。"
+msgstr "It is the same as: file: `water.log`."
+
+msgid ":file:`lmp_tmp.dump`"
+msgstr ":file:`lmp_tmp.dump`"
+
+msgid "dump形式のトラジェクトリファイルです。"
+msgstr "It is a trajectory file in dump format."
+
+msgid ":file:`lmp_tmp.restart`"
+msgstr ":file:`lmp_tmp.restart`"
+
+msgid "最終状態の情報を含むrestartファイルです。"
+msgstr "It is a restart file containing information on the final state."
+
+msgid ":file:`lmp_tmp_final.data`"
+msgstr ":file:`lmp_tmp_final.data`"
+
+msgid "最終状態の情報を含むdataファイルです。"
+msgstr "It is a data file containing information on the final state."
+
+msgid "restartファイルから生成されます。"
+msgstr "It is generated from the restart file."
+
+msgid ":file:`postproc.sh`"
+msgstr ":file:`postproc.sh`"
+
+msgid "LAMMPSが生成する :file:`lmp_tmp_final.data` が、"
+msgstr "LAMMPS generates: file: `lmp_tmp_final.data`,"
+
+msgid "そのままではLAMMPSの実行には不十分なため、"
+msgstr "As it is insufficient for the execution of LAMMPS,"
+
+msgid "不十分な情報を補うための処理を行うスクリプトです。"
+msgstr "It is a script that performs processing to compensate for insufficient information."
+
+msgid ":file:`lmp_tmp.xtc`"
+msgstr ":file:`lmp_tmp.xtc`"
+
+msgid "結果処理にGromacsツールを使用するための、"
+msgstr "To use the Gromacs tool for processing results,"
+
+msgid "xtc形式のトラジェクトリファイルです。"
+msgstr "It is a trajectory file of xtc format."
+
+msgid ":file:`lmp_tmp.gro`"
+msgstr ":file:`lmp_tmp.gro`"
+
+msgid "gro形式の座標ファイルです。"
+msgstr "It is a gro format coordinate file."
+
+msgid "入力ファイルとして指定されたdataファイルから変換して"
+msgstr "Convert from the data file specified as the input file"
+
+msgid "作成されます。"
+msgstr "It will be created."
+
+msgid "**作業ディレクトリ**"
+msgstr "** Working directory **"
+
+#, fuzzy
+msgid "作業ディレクトリとは、メインウィンドウで開かれているファイルの名前に接尾辞を加えた名前のフォルダです。"
+msgstr "A working directory is a folder whose name is the name of the file opened in the main window plus a suffix."
+
+msgid "**接尾辞はソルバの種類により変わります。**"
+msgstr "** The suffix varies depending on the type of solver. **"
+
+#, fuzzy
+msgid ""
+"例えばGromacsの場合は、メインウィンドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が "
+":file:`_gmx_tmp` の場合、作業ディレクトリの名前は :file:`aaa_gmx_tmp` となります。"
+msgstr "For example, in the case of Gromacs, if the file opened in the main window is: file: `aaa.gro` and the suffix is: file:` _ gmx_tmp`, the working directory will be named: file: `aaa_gmx_tmp` ."
+
+#, fuzzy
+msgid "メインウィンドウで開かれているファイルと同じ階層に置かれている必要があります。"
+msgstr "It must be in the same hierarchy as the file opened in the main window."
+
+msgid "継続ジョブの時も同名の作業ディレクトリで処理が流れますが、デフォルトでは継続ジョブの実施直前に、直前のジョブの作業ディレクトリのバックアップが作成されます。"
+msgstr "Processing continues in the working directory of the same name even when continuing jobs, but by default the backup of the working directory of the previous job is created just before the continuation job is executed."
+
+msgid ""
+"バックアップの名前は、重複する名前が存在しない範囲で一番小さい番号が付いたものになります。例えば、作業ディレクトリが "
+":file:`aaa_gmx_tmp` のときは :file:`aaa_gmx_tmp1` となります。"
+msgstr "The name of the backup will be the one with the smallest number in the range where duplicate names do not exist. For example, if the working directory is: file: `aaa_gmx_tmp`, it is: file:` aaa_gmx_tmp1`."
+
+msgid "**番号が付いていないディレクトリが常に最新のものとなります。**"
+msgstr "** Directories without numbers are always up to date. **"
+
+msgid "アニメーション"
+msgstr "animation"
+
+msgid "dataファイルとdumpファイルを選択し、MD計算のトラジェクトリをアニメーション表示します。"
+msgstr "Select the data file and dump file and animate the MD calculation trajectory."
+
+#, fuzzy
+msgid "メインウィンドウのファイル名は変化しません。"
+msgstr "The file name of the main window does not change."
+
+msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
+msgstr "For the animation display operation method, see: ref: `animation_top`."
+
+msgid "エネルギー変化"
+msgstr "Energy change"
+
+msgid "ログファイルを選択し、エネルギー、温度、圧力などの各種熱力学量のグラフを表示します。thermo_styleで指定した値をプロットすることができます。"
+msgstr "Select the log file and display a graph of various thermodynamic quantities such as energy, temperature and pressure. You can plot the value specified by thermo_style."
+
+#, fuzzy
+msgid "サブウィンドウの操作方法は :ref:`energyplot_top` を参照してください。"
+msgstr "Please see: ref: `energyplot_top` for how to operate subwindow."
+
+msgid "最終構造を読み込み"
+msgstr "Read final structure"
+
+msgid ":file:`\\*_lmp_tmp\\\\lmp_tmp_final.gro` を開きます。"
+msgstr "Open file: `\\ * _ lmp_tmp \\\\ lmp_tmp_final.gro`."
+
+#, fuzzy
+msgid "本機能を使うとメインウィンドウのファイル名は変化しません。"
+msgstr "When using this function, the file name of the main window does not change."
+
+msgid "動径分布関数"
+msgstr "Radial distribution function"
+
+msgid "LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndxファイルを選択し、動径分布関数を表示します。"
+msgstr "Select the xtc file output by LAMMPS and the gro, ndx file automatically generated by Winmostar and display the radial distribution function."
+
+msgid "詳細は :ref:`md_gromacs_rdf` を参照してください。"
+msgstr "See: ref: `md_gromacs_rdf` for details."
+
+msgid "平均二乗変位"
+msgstr "Mean square displacement"
+
+msgid "LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndxファイルを選択し、平均二乗変位と自己拡散係数を表示します。"
+msgstr "Select the xtc file output by LAMMPS and the gro, ndx file automatically generated by Winmostar, and display the mean square displacement and the self diffusion coefficient."
+
+msgid "詳細は :ref:`md_gromacs_msd` を参照してください。"
+msgstr "See: ref: `md_gromacs_msd` for details."
+
+msgid "散乱関数"
+msgstr "Scattering function"
+
+msgid "LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndxファイルを選択し、散乱関数を表示します。"
+msgstr "Select the xtc file output by LAMMPS and the gro, ndx file automatically generated by Winmostar and display the scattering function."
+
+msgid "詳細は :ref:`md_gromacs_saxs` を参照してください。"
+msgstr "For details, see: ref: `md_gromacs_saxs`."
+
+msgid "散逸粒子動力学"
+msgstr "Dissipative particle dynamics"
+
+msgid "DPDセルビルダ"
+msgstr "DPD Cell Builder"
+
+msgid "散逸粒子動力学用のシミュレーションセルを作成します。"
+msgstr "Create a simulation cell for dissipative particle dynamics."
+
+msgid "Monomers Available"
+msgstr "Monomers Available"
+
+msgid "ポリマー鎖を構成するモノマー（粒子）を選択します。"
+msgstr "Select the monomer (particle) that constitutes the polymer chain."
+
+msgid "# of Monomers"
+msgstr "# of Monomers"
+
+msgid "選択したモノマーの数を指定します。"
+msgstr "Specify the number of selected monomers."
+
+msgid ">> Add >>"
+msgstr ">> Add >>"
+
+msgid "選択したモノマーを追加します。"
+msgstr "Add selected monomers."
+
+msgid "Branch"
+msgstr "Branch"
+
+msgid "Start"
+msgstr "Start"
+
+msgid "分岐開始位置を指定します。"
+msgstr "Specify the branch start position."
+
+msgid "End"
+msgstr "End"
+
+msgid "分岐終了位置を指定します。"
+msgstr "Specify the branch end position."
+
+msgid "Monomers Used"
+msgstr "Monomers Used"
+
+msgid "追加したモノマー種と数がリスト表示されます。"
+msgstr "A list of added monomer species and number is displayed."
+
+msgid "Clear"
+msgstr "Clear"
+
+msgid "リストアップされたモノマー種を全て削除します。"
+msgstr "Delete all listed monomer species."
+
+msgid "<< Delete <<"
+msgstr "<< Delete <<"
+
+msgid "追加したモノマーを削除します。"
+msgstr "Delete the added monomer."
+
+msgid "# of Polymers"
+msgstr "# of Polymers"
+
+msgid "ポリマー鎖の数を指定します。"
+msgstr "Specify the number of polymer chains."
+
+msgid "リストアップされたポリマー鎖を計算対象に追加します。"
+msgstr "Add the listed polymer chain to the calculation target."
+
+msgid "Polymers Used"
+msgstr "Polymers Used"
+
+msgid "追加したポリマー鎖の構成と本数がリスト表示されます。"
+msgstr "The composition and number of added polymer chains are listed."
+
+msgid "追加したポリマー鎖を削除します。"
+msgstr "Delete the added polymer chain."
+
+msgid "Density"
+msgstr "Density"
+
+msgid "系の密度（無次元）を指定します。"
+msgstr "Specify the density (dimensionless) of the system."
+
+msgid "Build"
+msgstr "Build"
+
+msgid "シミュレーションセルを構築します。"
+msgstr "Build a simulation cell."
+
+msgid "Reset"
+msgstr "Reset"
+
+msgid "すべての設定をデフォルトに戻します。"
+msgstr "Restore all settings to default."
+
+msgid "Close"
+msgstr "Close"
+
+#, fuzzy
+msgid "ウィンドウを閉じます。"
+msgstr "Close the window."
+
+msgid "ポテンシャル編集"
+msgstr "Potential editing"
+
+msgid "Winmostar独自形式の散逸粒子動力学用のポテンシャルファイルを作成・編集します。"
+msgstr "Winmostar Create and edit a potential file for proprietary dissipative particle dynamics."
+
+msgid "Potential Files"
+msgstr "Potential Files"
+
+msgid "散逸粒子動力学に用いるポテンシャルファイルを選択します。"
+msgstr "Select the potential file used for dissipative particle dynamics."
+
+msgid "New"
+msgstr "New"
+
+msgid "新たにポテンシャルファイルを作成します。"
+msgstr "We will create a new potential file."
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "選択したポテンシャルファイルを削除します。"
+msgstr "Delete the selected potential file."
+
+msgid "Massタブ"
+msgstr "Mass tab"
+
+msgid "Species"
+msgstr "Species"
+
+msgid "モノマー（粒子）名が表示されます。"
+msgstr "The name of the monomer (particle) is displayed."
+
+msgid "Mass"
+msgstr "Mass"
+
+msgid "質量（無次元）を設定します。"
+msgstr "Set the mass (dimensionless)."
+
+msgid "Bondタブ"
+msgstr "Bond tab"
+
+msgid "R_0"
+msgstr "R_0"
+
+msgid "結合（ボンド）ポテンシャルパラメータR_0（平衡距離、無次元）を設定します。"
+msgstr "Set bond (bond) potential parameter R_ 0 (equilibrium distance, dimensionless)."
+
+msgid "K"
+msgstr "TO"
+
+msgid "結合（ボンド）ポテンシャルパラメータK（バネ定数、無次元）を設定します。"
+msgstr "Set bond (bond) potential parameter K (spring constant, dimensionless)."
+
+msgid "Nonbondタブ"
+msgstr "Nonbond tab"
+
+msgid "Aij"
+msgstr "Aij"
+
+msgid "非結合ポテンシャルパラメータAij（無次元）を入力します。"
+msgstr "Enter the unbonded potential parameter Aij (dimensionless)."
+
+msgid "Rcut"
+msgstr "Rcut"
+
+msgid "非結合ポテンシャルパラメータRcut（カットオフ半径、無次元）を入力します。"
+msgstr "Enter the unbonded potential parameter Rcut (cutoff radius, dimensionless)."
+
+msgid "Set"
+msgstr "Set"
+
+msgid "設定したポテンシャルパラメータがリストに反映されます。"
+msgstr "The set potential parameters are reflected in the list."
+
+msgid "OK"
+msgstr "OK"
+
+#, fuzzy
+msgid "設定したポテンシャルパラメ-タをポテンシャルファイルに保存してウィンドウを閉じます。"
+msgstr "Save the set potential parameters in the potential file and close the window."
+
+#, fuzzy
+msgid "設定内容を破棄してウィンドウを閉じます。"
+msgstr "Discard the settings and close the window."
+

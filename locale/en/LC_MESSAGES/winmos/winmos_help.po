@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "ヘルプメニュー"
+msgstr "Help menu"
+
+msgid "マニュアル"
+msgstr "manual"
+
+msgid "ローカルマシン上の本マニュアルを表示します。"
+msgstr "Display this manual on the local machine."
+
+msgid "オンラインマニュアル"
+msgstr "Online manual"
+
+msgid "ウェブブラウザを起動しウェブ上の本マニュアルを表示します。"
+msgstr "Launch the web browser and display this manual on the web."
+
+msgid "Winmostarホームページ"
+msgstr "Winmostar Home"
+
+msgid "ウェブブラウザを起動しWinmostarのHPを表示します。"
+msgstr "Launch the web browser and display the HP of Winmostar."
+
+msgid "周期表"
+msgstr "Periodic Table"
+
+msgid "Winmostarのインストールフォルダの下にある周期表のhtmlファイルを開きます。"
+msgstr "Open the html file of the period table under Winmostar installation folder."
+
+msgid "cygwin_wmを診断"
+msgstr "Diagnose cygwin_wm"
+
+msgid ""
+":guilabel:`Check Now` ボタンをクリックすると、 :ref:`cygwinwm_top` "
+"のインストールチェックを行います。本機能ではファイルの有無のみを調べます。チェックをクリアした場合は ``Successfully "
+"finished. Close this window.`` と表示されます。"
+msgstr ": guilabel: Click `Check Now` button to check the installation of: ref:` cygwinwm_top`. In this function, check only existence of file. If you clear the check, you will see &quot;Successfully finished. Close this window.&quot;"
+
+msgid "一部のセキュリティ対策ソフトの動作環境下では、cygwin_wmをインストールする際に、cygwin_wmの中の一部のファイルのインストールが阻害されることがあり、本機能で簡易的にチェックすることができます。"
+msgstr "Under the operating environment of some security countermeasure software, installation of some files in cygwin_wm may be obstructed when installing cygwin_wm, so you can check it easily with this function."
+
+msgid "ユーザ設定フォルダを開く"
+msgstr "Open user setting folder"
+
+msgid "Winmostarのインストールフォルダの下のUserPrefフォルダを開きます。"
+msgstr "Open the UserPref folder under the Winmostar installation folder."
+
+msgid "デバッグモード"
+msgstr "Debug mode"
+
+msgid "デバッグモードに切り替えます。"
+msgstr "Switch to debug mode."
+

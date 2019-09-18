@@ -1,0 +1,317 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-28 02:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "インストール方法"
+msgstr "Installation Guide"
+
+msgid "対応OS"
+msgstr "Software requirements"
+
+msgid "Winmostarの対応OSは以下の通りです。"
+msgstr "Winmostar supports the followings operating systems."
+
+msgid "Windows 10"
+msgstr "Windows 10"
+
+msgid "Windows 8"
+msgstr "Windows 8"
+
+msgid "Windows 7"
+msgstr "Windows 7"
+
+msgid "Windows Serverの場合は、予め無償版またはトライアルをご入手頂き、動作検証した上でご使用下さい。"
+msgstr "NOTTRANSLATED"
+"In the case of Windows Server, please obtain the FREE edition or trial "
+"and use it after verifying the operation."
+
+msgid ""
+"macOS、Linuxの場合は、VirtualBoxなどの仮想マシンでWindows "
+"OSをインストールした上でWinmostarを使用してください。これらの環境でネイティブ動作するバージョンは今後開発される予定です。"
+msgstr "NOTTRANSLATED"
+"For macOS and Linux, please use Winmostar after installing Windows OS on "
+"virtual machine such as VirtualBox. A version that works natively in "
+"these environments will be developed in the future."
+
+msgid ""
+"Winmostarをインストールする端末とは別のマシン（ :ref:`リモートサーバ <remote_top>` ）でジョブを実行する場合、 "
+":ref:`セットアップ方法 <install_scheduler>` "
+"ではCentOS向けの手順が紹介されていますが、以下の機能を備えていれば基本的にはUbuntuなど、どのOSでも利用可能です。"
+msgstr "When running a job on a machine different from the terminal on which "
+"Winmostar is installed, basically it can be used in any OS such as Ubuntu"
+" as long as it has the following functions."
+
+msgid "SSH、SCPを用いた通信が可能で、UNIXコマンドを実行できる"
+msgstr "You can connect to that machine using scp or ssh."
+
+msgid ":ref:`Winmostarが対応するジョブスケジューラ <remote_scheduler>` が動作する"
+msgstr "That machine can run the job scheduling software such as PBS(TORQUE) or "
+"SGE."
+
+msgid "Winmostarから使用する各種ソルバをインストールできる"
+msgstr "The solvers called from Winmostar can be installed or have already been "
+"set up on that machine."
+
+msgid "最小・推奨スペック"
+msgstr "Hardware requirements"
+
+msgid "Winmostarの最小スペックは以下の通りです。"
+msgstr "The minimum spec of Winmostar is as follows."
+
+msgid "CPU・メモリ: Windows 7/8/10のシステム要件に準ず"
+msgstr "CPU and RAM: According to the hardware requirements of Windows 7/8/10"
+
+msgid "HDD: 4 GB以上の空き容量"
+msgstr "HDD: 4 GB or more free space"
+
+msgid ""
+"推奨スペックは、Winmostar本体が比較的低いスペックのPCでも動作するため、一緒に使用するソルバーの推奨スペックに準じます。 "
+"ソルバーの推奨スペックが不明な場合は、ひとまず浮動小数点演算機能（コア数x周波数）が高いCPUのマシンを準備して下さい。 "
+"HDD、メモリは後から比較的容易に増設できるため、まずは標準的な容量で構いません。"
+msgstr "NOTTRANSLATED"
+
+msgid "インストール"
+msgstr "Installing Winmostar and solvers"
+
+msgid "インストール中に想定しない状況に遭遇した場合は :ref:`faq_top` を確認してください。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"`ダウンロードページ <https://winmostar.com/jp/download_jp.html>`_ からインストーラ "
+":file:`winmostar0_setup_X.X.X.exe` （ :file:`X.X.X` "
+"はバージョンを示す）をダウンロードし、実行します。"
+msgstr "Obtain the installer from `Download "
+"<https://winmostar.com/en/download_en.html>`_ and execute. "
+
+msgid ""
+"インストール先フォルダを指定し（デフォルトは :file:`C:\\\\winmos9` "
+"）インストールを開始すると、スタートメニューとデスクトップにショートカットが作成されます。"
+msgstr "Specify installation folder. The default location is "
+":file:`C:\\\\winmos9`."
+
+msgid "インストール先フォルダおよびその上位階層の名前に日本語、全角文字などのマルチバイト文字や特殊記号が含まれている場合は、一部のモジュールが不具合を起こす場合があります。"
+msgstr "If multibyte characters such as Japanese and double-byte characters and "
+"special symbols are included in the installation folder and the name of "
+"the higher hierarchy, some modules may cause problems."
+
+msgid "ディスプレイ設定でテキストやその他の項目を拡大・縮小している場合は、一部表示が崩れる場合があります。"
+msgstr "When text or other items are enlarged or reduced in display setting, some"
+" display may be distorted."
+
+msgid "セキュリティ対策ソフトの警告が出た場合は、無視してインストールを継続してください（以下、同様）。"
+msgstr "If you receive a warning of anti-virus software, please ignore it and "
+"continue installation (the same below)."
+
+msgid "既に過去のバージョンのWinmostarがインストールされている場合は、上書きインストールするか、インストール先フォルダを変更して過去のバージョンと共存させることが可能です。"
+msgstr "If the past version of Winmostar has already been installed, it is "
+"possible to install it overwritten or change the installation folder to "
+"coexist with the past version."
+
+msgid ""
+"既にインストールされている他のWinmostarの設定を引き継ぐ場合は、インストール先フォルダの :file:`UserPref` "
+"フォルダの下のファイルをコピーしてください。"
+msgstr "If you want to inherit other Winmostar settings already installed, please"
+" copy the file under the :file:`UserPref` folder in the installation "
+"folder."
+
+msgid ""
+"ライセンスコードを取得していない場合は、 `機能表 <https://winmostar.com/jp/function_jp.html>`_ "
+"にて使用する版を検討し、以下のリンク先からライセンスコードを登録または購入してください。"
+msgstr "If you do not have a license code, please review the version to be used "
+"in `Features <https://winmostar.com/en/function_en.html>`_ and register "
+"or purchase the license code from the link below."
+
+msgid "`無償版 <https://winmostar.com/jp/index.php>`_"
+msgstr "`FREE edition <https://winmostar.com/en/index.php>`_"
+
+msgid "`学生版 <https://winmostar.com/jp/index.php>`_"
+msgstr "`STUDENT edition <https://winmostar.com/en/index.php>`_"
+
+msgid "`プロフェッショナル版 <https://winmostar.com/jp/purchase_jp.html>`_"
+msgstr "`PROFESSIONAL edition <https://winmostar.com/en/purchase_en.html>`_"
+
+msgid "`プロフェッショナル版（トライアル） <https://winmostar.com/jp/dlTrialFormJP.php>`_"
+msgstr "`PROFESSIONAL edition (trial) "
+"<https://winmostar.com/en/dlTrialFormEN.php>`_"
+
+msgid "新規インストールの場合は、Winmostarを起動し、初回起動時に出現するダイアログでライセンスコードを設定します。"
+msgstr "In the case of a new installation, start Winmostar and set the license "
+"code in the dialog that appears at the first boot."
+
+msgid "WinmostarをインストールしたWindows PC（ローカルマシン）上で使用するソルバを、以下のリンク先の手順でインストールします。"
+msgstr "Install the solver to be used on the Windows PC (local machine) on which "
+"Winmostar is installed by the following link destination procedure."
+
+msgid ""
+"`Windows版GAMESSインストールマニュアル "
+"<https://winmostar.com/jp/GAMESS_install_manual_jp_win.pdf>`_"
+msgstr "`Installation guide for GAMESS on Windows "
+"<https://winmostar.com/en/GAMESS_install_manual_en_win.pdf>`_"
+
+msgid "`Windows版NWChemインストールマニュアル <https://winmostar.com/jp/nwchem4wm_jp.html>`_"
+msgstr "`Installation guide for NWChem on Windows "
+"<https://winmostar.com/en/nwchem4wm_en.html>`_"
+
+msgid ""
+"`Windows版LAMMPSインストールマニュアル "
+"<https://winmostar.com/jp/LAMMPS_install_manual_jp_win.pdf>`_"
+msgstr "`Installation guide for LAMMPS on Windows "
+"<https://winmostar.com/en/LAMMPS_install_manual_en_win.pdf>`_"
+
+msgid ""
+"`Windows版NAMDインストールマニュアル "
+"<https://winmostar.com/jp/NAMD_install_manual_jp_win.pdf>`_"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"`Windows版Quantum ESPRESSOインストールマニュアル "
+"<https://winmostar.com/jp/QE_install_manual_jp_win.pdf>`_"
+msgstr "`Installation guide for Quantum ESPRESSO on Windows "
+"<https://winmostar.com/en/QE_install_manual_en_win.pdf>`_"
+
+msgid ""
+"`Windows版FDMNESインストールマニュアル "
+"<https://winmostar.com/jp/FDMNES_install_manual_jp_win.pdf>`_"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"Gromacs, Amber, MODYLAS, OpenMXは次のステップでインストールする :ref:`cygwin_wm "
+"<cygwinwm_top>` に含まれます。"
+msgstr "Gromacs, Amber, MODYLAS, OpenMX will be included in the cygwin_wm to be "
+"installed in the next step."
+
+msgid ""
+"MD、Solidパックを使用、およびその他の一部の処理を実行する場合は、以下のいずれかの手順でWinmostar向けのCygwinの環境（ "
+":ref:`cygwin_wm <cygwinwm_top>` と呼びます）を構築します。"
+msgstr "To use the MD, Solid Packages, and some other functions, build a Cygwin "
+"environment for Winmostar by one of the following procedures."
+
+msgid ""
+"**【推奨】** `ビルド済みのcygwin_wmをインストールする場合 "
+"<https://winmostar.com/jp/gmx4wm_jp.html>`_"
+msgstr "(Recommended) `Installing pre-built cygwin_wm "
+"<https://winmostar.com/en/gmx4wm_en.html>`_"
+
+msgid ""
+"`cygwin_wmをビルドする場合 <https://winmostar.com/jp/gmx4wm_jp_win.html>`_ "
+"（非推奨、上級者向け）"
+msgstr "(for advanced users) `Building cygwin_wm from scratch <https://winmostar.com/en/gmx4wm_en_win.html>`_ "
+""
+
+msgid ""
+"`Cygwinの代わりにWindows Subsystem for Linuxを用いる場合 "
+"<https://winmostar.com/jp/WSL_jp.html>`_ （ベータ版）"
+msgstr "NOTTRANSLATED"
+
+msgid "必要に応じて、使用しているセキュリティ対策ソフトの設定において、Winmostarとcygwin_wmのインストールフォルダを監視対象から除外します。"
+msgstr "If necessary, exclude the installation folder of Winmostar and cygwin_wm "
+"from the monitoring target in the setting of the anti-virus software "
+"being used."
+
+msgid ""
+"リモートサーバへのジョブ投入（ :ref:`リモートジョブ <remote_top>` と呼ぶ）を行う場合は、投入先のサーバに "
+":ref:`対応しているジョブスケジューラ <remote_scheduler>` "
+"がインストールされているか確認する。入っていない場合は以下のリンク先の手順でTORQUEをインストールします。"
+msgstr "When you submit a job to a remote server (called a remote job), check whether the job scheduling software is installed on that server. If it is not installed, install TORQUE by the following procedure."
+
+msgid ""
+"`Linux版TORQUEインストールマニュアル "
+"<https://winmostar.com/jp/gmx4wm_jp_linux.html#Torque>`_"
+msgstr "`Installation guide for Linux "
+"<https://winmostar.com/en/gmx4wm_en_linux.html>`_"
+
+msgid "リモートジョブを行う場合は、投入先のサーバに使用するソルバを、以下のリンク先の手順でインストールします。"
+msgstr "When you submit a remote job, install the solver to be used for the server by the following procedure"
+
+msgid ""
+"`Linux版NWChem, Gromacs, Amberインストールマニュアル "
+"<https://winmostar.com/jp/gmx4wm_jp_linux.html>`_"
+msgstr "`Installation guide for Linux "
+"<https://winmostar.com/en/gmx4wm_en_linux.html>`_"
+
+msgid ""
+"`Linux版GAMESSインストールマニュアル "
+"<https://winmostar.com/jp/GAMESS_install_manual_jp_linux.pdf>`_"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"`Linux版Gromacsインストールマニュアル（詳細版） "
+"<https://winmostar.com/jp/Gromacs_install_manual_jp_linux.pdf>`_"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"`Linux版LAMMPSインストールマニュアル "
+"<https://winmostar.com/jp/LAMMPS_install_manual_jp_linux.pdf>`_"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"`Linux版Quantum ESPRESSOインストールマニュアル "
+"<https://winmostar.com/jp/QE_install_manual_jp_linux.pdf>`_"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"`Linux版OpenMXインストールマニュアル "
+"<https://winmostar.com/jp/OpenMX_install_manual_jp_linux.pdf>`_"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"インストール手順は以上です。続けて、必要に応じて `ビギナーズガイド "
+"<https://winmostar.com/jp/tutorials/V8/BeginnersGuide_V8.pdf>`_ や "
+"`各種チュートリアル <https://winmostar.com/jp/manual_jp.html>`_ を確認して下さい。"
+msgstr "Now, you are ready to run Winmostar. Please refer to `the tutorials <https://winmostar.com/en/manual_en.html>`_ if necessary.
+
+msgid "また、必須ではありませんが、エクスプローラ上で各ファイルの拡張子を表示する設定に変更することを推奨します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Windows 7の場合:"
+msgstr "NOTTRANSLATED"
+
+msgid "エクスプローラを開く"
+msgstr "NOTTRANSLATED"
+
+msgid ":kbd:`Alt` キーを押す"
+msgstr "NOTTRANSLATED"
+
+msgid ":menuselection:`ツール --> フォルダーオプション` メニューの :guilabel:`表示` タブを開く"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`登録されている拡張子は表示しない` のチェックが外れた状態にする"
+msgstr "NOTTRANSLATED"
+
+msgid "Windows 8, 10の場合"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`表示` タブを開く"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`ファイル名拡張子` のチェックが付いた状態にする"
+msgstr "NOTTRANSLATED"
+
+msgid "アップデート"
+msgstr "NOTTRANSLATED"
+
+msgid "インストールと同じ方法でアップデート、バージョンアップ可能です。上書きインストールする場合は、上書き前のWinmostarを終了してからインストールしてください。"
+msgstr "NOTTRANSLATED"
+
+msgid "アンインストール"
+msgstr "Uninstalling Winmostar"
+
+msgid "Winmostarのインストール先フォルダとショートカットの削除することでアンインストールできます。"
+msgstr "You can uninstall by deleting Winmostar installation folder and shortcut."
+

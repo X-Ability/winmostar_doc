@@ -1,0 +1,255 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "表示メニュー"
+msgstr "Display Menu"
+
+msgid "キーワード&座標表示エリアを表示"
+msgstr "Display keyword &amp; coordinate display area"
+
+
+msgid "メインウィンドウでキーワード表示エリアと座標表示エリアの表示・非表示を切り替えます。"
+msgstr "Switch display / non-display of keyword display area and coordinate display area on the main window."
+
+msgid "三面図を表示"
+msgstr "Show three view"
+
+msgid "分子表示エリアを三面図表示にします。"
+msgstr "Make the molecule display area three-sided."
+
+msgid "表示をリセット"
+msgstr "Reset display"
+
+msgid "カメラをデフォルト位置に戻します。"
+msgstr "Return the camera to the default position."
+
+msgid "表示方向を変更"
+msgstr "Change display direction"
+
+msgid "カメラの視線の方向を変更します。"
+msgstr "Change the direction of the line of sight of the camera."
+
+msgid "拡大/縮小"
+msgstr "Scaling"
+
+msgid "視野を拡大または縮小します。"
+msgstr "Expand or reduce the field of view."
+
+msgid "常に中心を注視"
+msgstr "Always looking at the center"
+
+msgid "ここにチェックが入っている場合は、表示されている分子構造が変化しても、常にその時点での重心がカメラの注視点となります。入っていない場合は、明示的に視線を変更しない限り注視点が変化しません。"
+msgstr "If checked here, even if the displayed molecular structure changes, the center of gravity at that point will always be the gaze point of the camera. If it is not entered, gaze point will not change unless explicit gaze change."
+
+msgid "選択原子を注視"
+msgstr "Focus on selected atoms"
+
+msgid "マーカー（太赤丸）で付いた原子を注視点に指定します。"
+msgstr "Specify atom attached with marker (thick red circle) as gaze point."
+
+msgid "平行移動"
+msgstr "Translation"
+
+
+msgid "メインウィンドウで左ドラッグすると、視線が平行移動します。"
+msgstr "Drag left on the main window to move the line of sight in parallel."
+
+msgid "回転"
+msgstr "rotation"
+
+msgid "自由回転"
+msgstr "Free rotation"
+
+
+msgid "メインウィンドウで左ドラッグすると、注視点を中心にカメラが回転します。"
+msgstr "Drag left in the main window to rotate the camera around the point of interest."
+
+msgid "X, Y, Z軸周りで回転"
+msgstr "Rotate around X, Y, Z axis"
+
+
+msgid "メインウィンドウで左ドラッグすると、各軸の周りでカメラが回転します。"
+msgstr "Drag left in the main window to rotate the camera around each axis."
+
+msgid "表示を回転"
+msgstr "Rotate display"
+
+
+msgid "メインウィンドウで左ドラッグすると、表示が回転します。"
+msgstr "Drag left in the main window to rotate the display."
+
+msgid "遠近法を使用"
+msgstr "Use Perspective"
+
+msgid "ここにチェックが入っている場合は、分子表示エリアに遠近法が適用されます。"
+msgstr "If checked here, perspective is applied to the molecular display area."
+
+msgid "表示項目"
+msgstr "Representation project"
+
+msgid "分子表示エリアに表示する項目にチェックを入れます。"
+msgstr "Check the items to be displayed in the molecular display area."
+
+msgid "ラベル/電荷"
+msgstr "Label / Charge"
+
+msgid "分子表示エリアにおいて、各原子の脇にラベル（注釈）と、電荷の大きさを示す球を表示します。"
+msgstr "In the molecular display area, a label (annotation) and a sphere showing the magnitude of the charge are displayed beside each atom."
+
+msgid "(ラベル/電荷を隠す)"
+msgstr "(Label / Hide charge)"
+
+msgid "ラベルと電荷の表示を隠します。（初期状態）"
+msgstr "Hides the label and charge display. (initial state)"
+
+msgid "番号&元素"
+msgstr "Number &amp; element"
+
+msgid "原子の通し番号と元素名を表示します。"
+msgstr "It displays the serial number of the atom and the element name."
+
+msgid "Mulliken電荷"
+msgstr "Mulliken charge"
+
+msgid "各種ログファイルを開いた際に読み込まれるMulliken電荷を表示します。"
+msgstr "Displays the Mulliken charge read when various log files are opened."
+
+msgid "ESP電荷"
+msgstr "ESP charge"
+
+msgid "各種ログファイルを開いた際に読み込まれるESPまたはRESP電荷を表示します。"
+msgstr "Displays ESP or RESP charge read when various log files are opened."
+
+msgid "Lowdin電荷"
+msgstr "Lowdin charge"
+
+msgid "各種ログファイルを開いた際に読み込まれるLowdin電荷を表示します。"
+msgstr "Displays Lowdin charge read when various log files are opened."
+
+msgid "User電荷"
+msgstr "User charge"
+
+msgid ":menuselection:`編集 --> 属性を変更 -->` :ref:`edit_property_charge` や"
+msgstr ": menuselection: `edit -&gt; change attributes -&gt;`: ref: `edit_property_charge` and"
+
+msgid ":menuselection:`MD --> 電荷を割り当て` などの機能でユーザが割り当てた電荷を表示します。"
+msgstr ": menuselection: `MD -&gt; charge allocation` and other functions to display the charge assigned by the user."
+
+msgid "スピン密度"
+msgstr "Spin density"
+
+msgid "各種ログファイルを開いた際に読み込まれるスピン密度や"
+msgstr "Spin density read when various log files are opened"
+
+msgid ""
+":menuselection:`編集 --> 属性を変更 -->` :ref:`edit_property_charge` "
+"で割り当てたスピン密度を表示します。"
+msgstr ": menuselection: `Edit -&gt; Change Attributes -&gt; Display the spin density assigned by`: ref: `edit_property_charge`."
+
+msgid "双極子/遷移モーメント"
+msgstr "Dipole / transition moment"
+
+msgid "双極子/遷移モーメントを表示"
+msgstr "Display dipole / transition moment"
+
+msgid "各種ログファイルを開いた際に読み込まれる双極子モーメントまたは遷移モーメントを表示します。"
+msgstr "Displays the dipole moment or transition moment read when various log files are opened."
+
+msgid "遷移モーメントを選択"
+msgstr "Select transition moment"
+
+msgid "表示する遷移モーメントを選択します。"
+msgstr "Select the transition moment to be displayed."
+
+msgid "スケールを変更"
+msgstr "Change scale"
+
+msgid "双極子/遷移モーメントを表示する際の大きさを指定します。"
+msgstr "Specify the magnitude when displaying dipole / transition moment."
+
+msgid "分子の表現形式"
+msgstr "Molecular expression form"
+
+msgid "分子の表現方法（モデル）を選択します。"
+msgstr "Select the expression method (model) of the molecule."
+
+msgid "周期境界条件の表現形式"
+msgstr "Representation format of periodic boundary condition"
+
+msgid ""
+"セルが作成されている状態で、原子座標がセルの上端・下端よりも小さい値の場合の表示方法を示します。本機能で座標の値そのものは変化しません。 "
+":menuselection:`編集 -->` :ref:`edit_wrap_pbc` "
+"を使うと本機能で表示されている原子の位置に座標の値を設定することができます。"
+msgstr "The display method when the atomic coordinates are smaller than the top and bottom of the cell while the cell is being created is shown below. The coordinate value itself does not change with this function. : menuselection: `edit -&gt;`: ref: `edit_wrap_pbc`, you can set the value of the coordinates to the position of the atom displayed in this function."
+
+msgid "Winmostar Viewer"
+msgstr "Winmostar Viewer"
+
+msgid "分子表示エリアで表示している構造を :ref:`winmos3d_top` を用いて表示します。"
+msgstr "Display the structure displayed in the molecular display area using: ref: `winmos3d_top`."
+
+msgid "外部ビューア"
+msgstr "External viewer"
+
+msgid "分子表示エリアで表示している構造を各種の外部プログラムで表示します。"
+msgstr "Displays the structure displayed in the molecular display area with various external programs."
+
+msgid "Jmol"
+msgstr "Jmol"
+
+msgid "Jmolを起動します。"
+msgstr "Start Jmol."
+
+msgid "VRML"
+msgstr "VRML"
+
+msgid "VRML形式のファイルを出力し、VRMLビューアを起動します。"
+msgstr "Output the VRML format file and start the VRML viewer."
+
+msgid "Mercury"
+msgstr "Mercury"
+
+msgid "Mercuryを起動します。読込み中のファイルがCIFの場合はそのファイルを使用します。"
+msgstr "Start Mercury. If the file being read is CIF, use that file."
+
+msgid "ChemscapeChime"
+msgstr "ChemscapeChime"
+
+msgid "MDL Chimeを起動します。"
+msgstr "Start MDL Chime."
+
+msgid "レイトレーシング(POV-Ray)"
+msgstr "Ray tracing (POV - Ray)"
+
+msgid "POV-Ray形式のファイルを出力し、POV-Rayを用いてレンダリングします。"
+msgstr "It outputs a file in POV - Ray format and renders it using POV - Ray."
+
+msgid "OpenSCAD"
+msgstr "OpenSCAD"
+
+msgid "OpenSCAD形式のファイルを出力し、OpenSCADを起動します。 3Dプリンタ用のデータを作成できます。"
+msgstr "Output the OpenSCAD format file and start OpenSCAD. You can create data for 3D printers."
+
+msgid "画像をコピー"
+msgstr "Copy image"
+
+msgid "分子表示エリアの画像をクリップボードにコピーします。"
+msgstr "Copy the image of the molecule display area to the clipboard."
+

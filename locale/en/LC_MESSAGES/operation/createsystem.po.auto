@@ -1,0 +1,266 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+
+msgid "初期構造の作成方法"
+msgstr "How to create an initial structure"
+
+msgid "分子構造の作成"
+msgstr "Molecular structure creation"
+
+msgid "以下のいずれかの方法を選択する。"
+msgstr "Select one of the following methods."
+
+#, fuzzy
+msgid "各種形式のファイルを :ref:`file_open` またはメインウィンドウへのドラッグアンドドロップで開く。"
+msgstr "Drag and drop various format files to: ref: `file_open` or main window."
+
+msgid ""
+"SMILES形式の文字列を :menuselection:`ファイル --> インポート -->` "
+":ref:`file_import_smiles` から読み込む。"
+msgstr "Read SMILES format string from: menuselection: `file -&gt; import -&gt;`: ref: `file_import_smiles`."
+
+#, fuzzy
+msgid "分子構造をメインウィンドウ上で構築する。"
+msgstr "Molecular structure is built on the main window."
+
+msgid "適宜 :ref:`edit_top` から必要な操作を選択する。"
+msgstr "Optionally: Select the required operation from: ref: `edit_top`."
+
+msgid "ある程度目的の分子に形状が近づくように、初期構造（炭素原子と水素原子が結合したもの）に対し、 :ref:`edit_parts` を実行する。"
+msgstr "Execute: ref: `edit_parts` for the initial structure (carbon atoms and hydrogen atoms are combined) so that the shape approaches a certain degree to the target molecule."
+
+msgid "芳香環が隣接した構造は :ref:`edit_aromatic` を実行する。"
+msgstr "For structures with adjacent aromatic rings, execute: ref: `edit_aromatic`."
+
+msgid "不要な部分構造を削除したい箇所では :ref:`edit_partial_delete`  を実行する。"
+msgstr "Execute: ref: `edit_partial_delete` at the place where you want to delete the unnecessary substructure."
+
+msgid "水素原子を付加したい箇所では :ref:`edit_addh_1` を実行する。"
+msgstr "In a place where you want to add a hydrogen atom, execute: ref: `edit_addh_1`."
+
+msgid "原子の種類を変更したい箇所では :ref:`edit_attribute_element` を実行する。"
+msgstr "Execute: ref: `edit_attribute_element` at the place where you want to change the type of atom."
+
+msgid "化学結合を作成したい場所では :ref:`edit_addbond` を実行する。結合の種類の変更も同じ操作で行う。"
+msgstr "Execute: ref: `edit_addbond` where you want to create chemical bonds. Also change the type of binding by the same operation."
+
+msgid "ある程度妥当な原子配置に調整するために :ref:`edit_clean` を実行する。（原子数が小さい場合に限る）"
+msgstr "Execute: ref: `edit_clean` to adjust to a reasonable atomic arrangement to some extent. (Only when the number of atoms is small)"
+
+msgid ""
+"明示的に部分構造を回転させたい場合は :ref:`edit_partial_edit` :menuselection:`--> 部分回転` "
+"を実行する。"
+msgstr "To explicitly rotate the substructure, execute: ref: `edit_partial_edit`: menuselection:` -&gt; partial rotation `."
+
+msgid ""
+"様々な配座を取りうる分子の場合は :menuselection:`ツール --> ` :ref:`tools_balloon` "
+"を実行し、エネルギーの低い構造を選択する。"
+msgstr "For molecules that can take various conformations: menuselection: `tools -&gt;`: ref: `tools_balloon` and choose a structure with low energy."
+
+msgid "ポリマーの場合は、直接分子全体をモデリングしても良いが、 :ref:`md_polymer_top` の方法を使った方が効率が良い。"
+msgstr "In the case of polymers, the entire molecule may be modeled directly, but it is more efficient to use the: ref: `md_polymer_top` method."
+
+msgid ""
+"結晶構造、スラブモデル、クラスターモデルの作成には、それぞれ :ref:`solid_crystalbuilder` , "
+":ref:`solid_cleaveplane` , :ref:`solid_insertvacuum` , "
+":ref:`solid_buildcluster` を実行する。"
+msgstr "To create the crystal structure, slab model and cluster model, execute: ref: `solid_crystalbuilder`,: ref:` solid_cleaveplane`,: ref: `solid_insertvacuum`,: ref:` solid_buildcluster`."
+
+msgid "点電荷の割り当て"
+msgstr "Point charge assignment"
+
+msgid "MD計算の場合は、多くの力場において点電荷を必要とするため、Winmostar上で設定する方法を紹介する。"
+msgstr "In the case of MD calculation, since point charge is required in many force fields, we introduce a method of setting on Winmostar."
+
+msgid "デフォルトのAM1/BCC電荷を用いる場合は明示的に電荷を設定する必要がない。 また、水分子には選択した水モデルの電荷の値が無条件で適用される。"
+msgstr "When using the default AM1 / BCC charge, it is not necessary to explicitly set charge. Also, for water molecules, the charge value of the selected water model is unconditionally applied."
+
+#, fuzzy
+msgid ""
+"AM1/BCC以外の電荷を使用する場合は、 :ref:`create_mole` "
+"の方法で1分子を作成した後、以下の方法で電荷を割り当てたうえで、各種キーワード設定ウィンドウの :guilabel:`Force Field` "
+"タブで :guilabel:`Use user-defined charge` を選択する。割り当てた電荷は :menuselection:`表示"
+" -->` :ref:`view_labels_charges` を変更することで表示し確認することができる。"
+msgstr "When using charges other than AM1 / BCC, create one molecule by the method of: ref: `create_mole` method, allocate electric charge in the following way, and then use guilabel:` Force Field `Tab: guilabel:` Use user-defined charge`. The assigned charge can be displayed and confirmed by changing: menuselection: `display -&gt;`: ref: `view_labels_charges`."
+
+msgid "Gasteiger電荷を割り当てる。"
+msgstr "Gasteiger assign charge."
+
+msgid ""
+":menuselection:`MD --> 電荷を割り当て -->` :ref:`md_charge_acpype` "
+"の手順で割り当てる。イオンの場合は :guilabel:`Total charge [e]` に電荷を入力する。"
+msgstr ": menuselection: `MD -&gt; allocate electric charge -&gt; allocate by the procedure of`: ref: `md_charge_acpype`. For ions: enter the charge into guilabel: `Total charge [e]`."
+
+msgid "AM1/BCC電荷も同様の手順で明示的に割り当てられる。"
+msgstr "The AM1 / BCC charge is also explicitly assigned in a similar procedure."
+
+msgid "RESP電荷を割り当てる。"
+msgstr "Assign RESP charge."
+
+msgid ""
+":menuselection:`QM --> GAMESS --> キーワード設定 --> Easy Setup` "
+"にて、計算手法、基底関数を選択し、 :guilabel:`Method` に :guilabel:`ESP/RESP` を選択する。イオンの場合は"
+" :guilabel:`ICHARG` に電荷を入力する。"
+msgstr ": menuselection: `QM -&gt; GAMESS -&gt; keyword setting -&gt; Easy Setup`, select the calculation method and basis function and select: guilabel:` ESP / RESP` for: guilabel: `Method` . In the case of ions: enter the charge into guilabel: `ICHARG`."
+
+#, fuzzy
+msgid ""
+":guilabel:`Easy Setup` ウィンドウを :guilabel:`Close` ボタンで閉じ、 :guilabel:`GAMESS"
+" Setup` ウィンドウで :guilabel:`Run` ボタンを押し計算を実行する。"
+msgstr ": Close the guilabel: `Easy Setup` window with the: guilabel:` Close` button and press the: guilabel: `Run` button in the: guilabel:` GAMESS Setup` window to execute the calculation."
+
+msgid ""
+"GAMESSの計算が終了したら :menuselection:`QM --> GAMESS -->` :ref:`qm_gamess_resp` "
+"にてRESP電荷を取得する。"
+msgstr "When GAMESS calculation is finished: Get RESP charge with menuselection: `QM -&gt; GAMESS -&gt;`: ref: `qm_gamess_resp`."
+
+#, fuzzy
+msgid ""
+"MOPAC, GAMESS, Gaussian, NWChem, Quantum "
+"ESPRESSOのPopulation解析結果の電荷をメインウィンドウに読み込む。"
+msgstr "Read the electric charge of the population analysis result of MOPAC, GAMESS, Gaussian, NWChem, Quantum ESPRESSO into the main window."
+
+msgid "MOPACの場合は :ref:`semiempirical_mopac_charge` の手順で読み込む。"
+msgstr "In the case of MOPAC, read in the procedure of: ref: `semiempirical_mopac_charge`."
+
+msgid ""
+"Quantum ESPRESSOの場合は :menuselection:`固体 --> Quantum ESPRESSO --> "
+"Lowdin電荷` の手順で読み込む。"
+msgstr "For Quantum ESPRESSO: menuselection: `solid-&gt; Quantum ESPRESSO -&gt; Lowdin charge &#39;procedure to read."
+
+#, fuzzy
+msgid "それ以外の場合は、ログファイルをメインウィンドウで開く。"
+msgstr "Otherwise, open the log file in the main window."
+
+msgid "元素ごとに値を指定して割り当てる。"
+msgstr "Designate and assign values for each element."
+
+msgid ":menuselection:`MD --> 電荷を割り当て -->` :ref:`md_charge_manual` の手順で割り当てる。"
+msgstr ": menuselection: `MD -&gt; allocate electric charge -&gt; assign it by the procedure of`: ref: `md_charge_manual`."
+
+msgid "選択した原子に値を入力して割り当てる。"
+msgstr "Enter a value for the selected atom and assign."
+
+msgid ""
+"電荷を入力したい原子を :ref:`分子表示エリア <gui_main>` で :ref:`グループ選択 <gui_mouse>` し、 "
+":ref:`edit_atom` :menuselection:`--> 電荷/スピン変更` から電荷を入力する。"
+msgstr "The atoms for which electric charge is desired to be input are: ref: `molecular display area <gui_main> `With: ref:` group selection <gui_mouse> `And then input the charge from: ref:` edit_atom`: menuselection: `-&gt; charge / spin change`."
+
+msgid ""
+"ポリマーの場合は、直接分子全体のAM1/BCC電荷、RESP電荷などを計算すると時間が掛かるため、 :ref:`md_polymer_top` "
+"の方法を使う。"
+msgstr "In the case of polymers, it takes time to directly calculate the AM1 / BCC charge, RESP charge etc. of the whole molecule directly, so use the method of: ref: `md_polymer_top`."
+
+msgid "孤立系（気体）の作成"
+msgstr "Creation of an isolated system (gas)"
+
+msgid ":ref:`create_mole` の方法で1分子の構造を作成する。量子化学計算の場合は周期境界条件を使わないため以降の操作は不要である。"
+msgstr "Create a structure of one molecule by the method of: ref: `create_mole`. In the case of quantum chemistry calculation, since the period boundary condition is not used, the subsequent operation is unnecessary."
+
+msgid "MD計算の場合は :ref:`create_charge` の方法で電荷を割り当てる。"
+msgstr "In the case of MD calculation, charge is allocated by the method of: ref: `create_charge`."
+
+msgid ""
+":ref:`edit_createcell` にて :menuselection:`Create --> Distance` の値を設定し "
+":guilabel:`Create` ボタンを押す。適宜セルのサイズを微調整した上で、 :guilabel:`OK` ボタンを押す。"
+msgstr "At: ref: `edit_createcell`: set the value of menuselection:` Create -&gt; Distance` and press: guilabel: `Create` button. After fine-tuning the size of the cell as appropriate, press: guilabel: `OK` button."
+
+msgid "低分子液体の作成"
+msgstr "Preparation of low molecular liquid"
+
+msgid ":ref:`create_mole` の方法で1分子の構造を作成する。"
+msgstr "Create a structure of one molecule by the method of: ref: `create_mole`."
+
+msgid "mol2形式で保存する。"
+msgstr "Save in mol 2 format."
+
+msgid "1.から3.の手順を計算したい全ての分子種に対して行う。"
+msgstr "Procedures 1 to 3 are performed for all molecular species to be calculated."
+
+msgid ":ref:`md_solvate_buildcell` を選択する。"
+msgstr "Select: ref: `md_solvate_buildcell`."
+
+#, fuzzy
+msgid ""
+"系内にどの分子を何分子入れるか決める。 メインウィンドウに表示された分子は :guilabel:`Add Displayed Molecule` "
+", 水分子の場合は :guilabel:`Add Water` をクリックする。 それ以外の場合は :guilabel:`Add mol2 "
+"File` をクリックし1.から4.の手順で保存したmol2ファイルを選択する。"
+msgstr "Decide which molecules to put in the system. The molecules displayed in the main window are: guilabel: `Add Displayed Molecule`, in the case of water molecules: guilabel:` Add Water`. Otherwise: click guilabel: `Add mol 2 File` and select the mol 2 file saved in steps 1 to 4."
+
+msgid "系内に投入する個数を入力する。"
+msgstr "Enter the number to be inserted into the system."
+
+msgid "6.、7.の手順を計算したい全ての分子種に対して行う。"
+msgstr "6. Perform the procedure of 7 for all molecular species you want to calculate."
+
+#, fuzzy
+msgid ""
+":guilabel:`Solvate/Build MD Cell` ウィンドウ下部の :guilabel:`Simulation Cell` "
+"にてシステムサイズを設定し、 :guilabel:`Build` ボタンを押す。"
+msgstr ": guilabel: `Solvate / Build MD Cell` At the bottom of the window: guilabel:` Simulation Cell` set the system size and press: guilabel: `Build` button."
+
+msgid "密度が高いと系の作成に失敗することがあるので、少し低い密度から始め、圧力一定計算で目的の密度、圧力まで徐々に圧縮してください。"
+msgstr "If the density is high, it may fail to create the system. Start with a slightly lower density and gradually compress to the desired density and pressure with constant pressure calculation."
+
+msgid ""
+":ref:`cygwinwm_top` がインストールされていない、または :ref:`md_solvate_buildcell` "
+"機能で配置するのが困難な場合は、 :ref:`edit_partial_edit` :menuselection:`--> 部分複製` 、 "
+":ref:`edit_createcell` 、 :ref:`file_append` を組み合わせることでも作成可能です。"
+msgstr ": ref: `edit_partial_edit`: menuselection:` -&gt; partial duplication `,: ref:` ref: `: ref:` ref_type_buildcell` function: ref: `cygwinwm_top` is not installed or it is difficult to arrange with: ref:` md_solvate_buildcell` function: It can also be created by combining `edit_createcell`,: ref:` file_append`."
+
+msgid "ポリマーの作成"
+msgstr "Preparation of polymer"
+
+msgid ":ref:`create_mole` の方法で計算したいポリマーの繰り返し単位（ここではモノマーと呼ぶ）を作成する。"
+msgstr "Create repeating units (called monomers here) of the polymer you want to calculate by the method of: ref: `create_mole`."
+
+msgid ""
+":ref:`分子表示エリア <gui_main>` にて、隣のモノマーと接続する原子を2か所左クリックし、 "
+":ref:`md_polymer_register` の方法でモノマーとして登録する。"
+msgstr ": ref: `molecular display area <gui_main> `, Left click on the atom to be connected with the next monomer and register it as a monomer by the method of: ref:` md_polymer_register`."
+
+msgid ""
+"作成したいポリマーの構造に応じて、 :ref:`md_polymer_homo` 、 :ref:`md_polymer_block` 、 "
+":ref:`md_polymer_random` の操作を実行する。"
+msgstr "Depending on the structure of the polymer you want to create, execute: ref: `md_polymer_homo`,: ref:` md_polymer_block`,: ref: `md_polymer_random`."
+
+msgid ""
+"例えば `-[AAABBB]-` のような構造の場合は、一旦 :ref:`md_polymer_block` を使用して `AAABBB` "
+"を作成し、 :file:`wpo` フォルダに作成されたwpoファイル（実態はmol2形式）を再度 "
+":ref:`md_polymer_register` にてモノマーとして登録し :ref:`md_polymer_homo` を使用する。"
+msgstr "For example, in the case of a structure like `- [AAABBB] -`, create `AAABBB` using: ref:` md_polymer_block` once, create a wpo file created in the: file: `wpo` folder mol2 format) again as a monomer in: ref: `md_polymer_register` and use ref:` md_polymer_homo`."
+
+msgid ":ref:`md_polymer_cell` の操作を実行し、シミュレーションセルを作成する。"
+msgstr "Execute the operation of: ref: `md_polymer_cell` to create a simulation cell."
+
+msgid ""
+"ポリマー中に低分子成分が溶解している場合は、5.の手順で密度を小さめに設定し、 :ref:`create_mole` と "
+":ref:`create_charge` の手順であらかじめ作成しmol2形式で保存した低分子成分を "
+":ref:`md_insert_molecules` にて選択し挿入する。"
+msgstr "If the low molecular weight component is dissolved in the polymer, set the density to a smaller value by the procedure of 5, prepare it in the procedure of: ref: `create_mole` and: ref:` create_charge` beforehand and save it in mol 2 format Select low molecule component with: ref: `md_insert_molecules` and insert it."
+
+msgid "気液界面の作成"
+msgstr "Creation of gas-liquid interface"
+
+msgid ":ref:`create_liquid` の方法で液相を作成する。"
+msgstr "Create a liquid phase by the method of: ref: `create_liquid`."
+
+msgid ""
+":ref:`edit_createcell` にて :menuselection:`Expand --> Width` の値と "
+":guilabel:`Axis` を設定し :guilabel:`Expand` "
+"ボタンを押す。Expandするサイズは、気相のサイズにする。その後、 :guilabel:`OK` ボタンを押す。"
+msgstr "At: ref: `edit_createcell`: set the value of menuselection:` Expand -&gt; Width` and: guilabel: `Axis` and press: guilabel:` Expand` button. The size to be expanded is the size of the gas phase. Then:: guilabel: Press the `OK` button."
+
+msgid ""
+"液相の構造をMD計算で緩和した後にExpandする場合は、MD計算後の構造においてシミュレーションセルの外の座標を持つ原子が多く存在するため、Expandする前に"
+" :ref:`edit_wrap_pbc` を選択する。分子系の場合は :guilabel:`セルの内側に分子単位で再配置` 、無機系では "
+":guilabel:`セルの内側に原子単位で再配置` を選択する。"
+msgstr "When expanding the structure of liquid phase after relaxation by MD calculation, there are many atoms with coordinates outside the simulation cell in the structure after MD calculation, so select: ref: `edit_wrap_pbc` before expanding . For molecular systems: guilabel: `rearrange in molecular units inside cells`, in inorganic systems: guilabel: `rearrange in atomic units inside cells&#39;."
+

@@ -1,0 +1,456 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-23 15:28+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "Winmostar Viewer"
+msgstr "Winmostar Viewer"
+
+msgid "Winmostar Viewerは分子軌道などを表示する、描画に特化したWinmostarの付属ソフトウェアです。"
+msgstr "Winmostar Viewer is software attached to Winmostar specialized for drawing, displaying molecular orbital etc."
+
+msgid "MDのような多成分系で特定の成分だけを表示させることも可能です。"
+msgstr "It is also possible to display only specific ingredients in a multicomponent system like MD."
+
+msgid "マウスの使い方"
+msgstr "How to use the mouse"
+
+msgid "左ボタン+ドラッグ"
+msgstr "Left button + drag"
+
+msgid "視点を回転させます。"
+msgstr "Rotate the viewpoint."
+
+msgid "ドラッグしながらマウスボタンを離すと回転し続けます。"
+msgstr "As you drag and release the mouse button it will continue to rotate."
+
+msgid "右ボタン+上下ドラッグ"
+msgstr "Right button + up and down drag"
+
+msgid "縮小・拡大します。"
+msgstr "Reduce / enlarge."
+
+msgid "左ボタン+右ボタン+ドラッグ"
+msgstr "Left button + right button + drag"
+
+msgid "上下･左右に移動します。"
+msgstr "It moves vertically and horizontally."
+
+msgid "メニュー操作"
+msgstr "Menu operation"
+
+msgid "Fileメニュー"
+msgstr "File menu"
+
+msgid "Open"
+msgstr "Open"
+
+msgid "gld形式およびMOLDA形式のファイルを読み込みます。"
+msgstr "Read gld and MOLDA format files."
+
+msgid "Save GLD"
+msgstr "Save GLD"
+
+msgid "現在開いているGLD形式のファイルを名前を付けて保存します。"
+msgstr "Save the currently open GLD format file with a name."
+
+msgid "Save MOLDA"
+msgstr "Save MOLDA"
+
+
+msgid "ウィンドウに表示されている構造をMOLDA形式で保存します。"
+msgstr "Save the structure displayed in the window in MOLDA format."
+
+msgid "Save JPEG"
+msgstr "Save JPEG"
+
+
+msgid "ウィンドウに表示されている内容をJPEGファイルとして保存します。"
+msgstr "Save the contents displayed in the window as a JPEG file."
+
+msgid "Save JPEG (Stereo)"
+msgstr "Save JPEG (Stereo)"
+
+msgid "立体視用の左右の画面をJPEGファイルとして保存します。"
+msgstr "Save the left and right screens for stereoscopic viewing as a JPEG file."
+
+msgid "StereoPhoto Maker"
+msgstr "StereoPhoto Maker"
+
+msgid "StereoPhotomakerを起動します。"
+msgstr "Start StereoPhotomaker."
+
+msgid "Exit"
+msgstr "Exit"
+
+msgid "Winmsotar Viewerを終了します。"
+msgstr "Quit Winmsotar Viewer."
+
+msgid "Viewメニュー"
+msgstr "View menu"
+
+msgid "Representations"
+msgstr "Representations"
+
+msgid "描画の詳細な調整を行う :ref:`winmos3d_repre` を表示します。"
+msgstr "Perform detailed drawing adjustment: ref: `winmos3d_repre` is displayed."
+
+msgid "Perspective"
+msgstr "Perspective"
+
+msgid "遠近法を使用します。"
+msgstr "I use perspective."
+
+msgid "Background Color"
+msgstr "Background Color"
+
+msgid "背景の色を指定します。"
+msgstr "Specify the color of the background."
+
+msgid "背景の色を暗青色にします。"
+msgstr "Make the background color dark blue."
+
+msgid "Winmostar"
+msgstr "Winmostar"
+
+msgid "背景の色をWinmostarのデフォルトの背景色にします。"
+msgstr "Make the background color the default background color of Winmostar."
+
+msgid "Black"
+msgstr "Black"
+
+msgid "背景の色を黒にします。"
+msgstr "Make the background color black."
+
+msgid "White"
+msgstr "White"
+
+msgid "背景の色を白にします。"
+msgstr "Set the background color to white."
+
+msgid "Model"
+msgstr "Model"
+
+msgid "表示するモデルを選択します。"
+msgstr "Select the model to display."
+
+msgid "Ball-and-Stick Model"
+msgstr "Ball-and-Stick Model"
+
+msgid "球棒モデルを表示します。"
+msgstr "Display the spherical bar model."
+
+msgid "Space-Filling Model"
+msgstr "Space-Filling Model"
+
+msgid "空間充填モデルを表示します。"
+msgstr "Display space filling model."
+
+msgid "Stick Model"
+msgstr "Stick Model"
+
+msgid "棒モデルを表示します。"
+msgstr "Displays the bar model."
+
+msgid "Wire Model"
+msgstr "Wire Model"
+
+msgid "ワイヤーモデルを表示します。"
+msgstr "Display wire model."
+
+msgid "Show SPace-Filling Model Overlapping"
+msgstr "Show SPace-Filling Model Overlapping"
+
+msgid "空間重点モデルを半透明で重ね合わせ表示する。"
+msgstr "Display superimposed spatial priority models translucently."
+
+msgid "Show Animation Control Panel"
+msgstr "Show Animation Control Panel"
+
+msgid ":ref:`winmos3d_panel` を表示します。"
+msgstr ": ref: `winmos3d_panel` is displayed."
+
+msgid "Copy Image"
+msgstr "Copy Image"
+
+
+msgid "ウィンドウに表示されている画像をクリップボードにコピーします。"
+msgstr "Copy the image displayed in the window to the clipboard."
+
+msgid "Helpメニュー"
+msgstr "Help menu"
+
+msgid "Help"
+msgstr "Help"
+
+msgid "マウスの使い方を表示します。"
+msgstr "It shows how to use the mouse."
+
+msgid "About Winmostar Viewer"
+msgstr "About Winmostar Viewer"
+
+msgid "バージョンを表示します。"
+msgstr "Display version."
+
+msgid "Debug"
+msgstr "Debug"
+
+msgid "メモリ使用量など、デバッグ用の情報を表示します。"
+msgstr "Displays debugging information such as memory usage."
+
+msgid "アニメーション操作パネル"
+msgstr "Animation operation panel"
+
+
+msgid "Winmostar 3Dでアニメーションを表示すると、Winmostar 3Dのウィンドウの左上にアニメーション操作用のUIが表示されます。"
+msgstr "When you display animation in Winmostar 3D, the UI for animation operation appears in the upper left corner of Winmostar 3D window."
+
+msgid "スライダー"
+msgstr "slider"
+
+msgid "フレームを移動します。"
+msgstr "Move the frame."
+
+msgid "Once"
+msgstr "Once"
+
+msgid "最終フレームまで再生が到達したら再生をストップします。"
+msgstr "When playback reaches the last frame, playback stops."
+
+msgid "Loop"
+msgstr "Loop"
+
+msgid "最終フレームまで再生が到達したら最初のフレームに戻って再生を繰り返します。"
+msgstr "When playback reaches the last frame, return to the first frame and repeat playback."
+
+msgid "Round"
+msgstr "Round"
+
+msgid "再生を往復で繰り返します。"
+msgstr "Repeat playback in round trip."
+
+msgid "JPEG"
+msgstr "JPEG"
+
+msgid "チェックを入れた状態で再生すると表示されている内容がJPEG形式で保存されます"
+msgstr "When playing with checked, the displayed contents are saved in JPEG format"
+
+msgid "GIF"
+msgstr "GIF"
+
+msgid "チェックを入れた状態で再生すると表示されている内容がGIF形式で保存されます"
+msgstr "When you play with the checked, the displayed contents are saved in GIF format"
+
+msgid "Close"
+msgstr "Close"
+
+msgid "このパネルを閉じます。"
+msgstr "Close this panel."
+
+
+msgid "Representationsウィンドウ"
+msgstr "Representations window"
+
+msgid "Orbit/Rotation"
+msgstr "Orbit/Rotation"
+
+msgid "左ドラッグで視点を回転させる際の回転方法を指定します。"
+msgstr "Specify the rotation method when rotating the viewpoint with left drag."
+
+msgid "Orbit"
+msgstr "Orbit"
+
+msgid "自由に回転させます。"
+msgstr "Rotate freely."
+
+msgid "X, Y or Z"
+msgstr "X, Y or Z"
+
+msgid "画面内水平方向、画面内垂直方向、または画面に垂直方向の軸周りで回転させます。"
+msgstr "Rotate around the horizontal direction within the screen, the vertical direction within the screen, or the direction perpendicular to the screen."
+
+msgid "Periodic Boundary Condition"
+msgstr "Periodic Boundary Condition"
+
+msgid "セルの外側に存在する分子の表示方法を指定します。"
+msgstr "Specify how to display molecules that are outside the cell."
+
+msgid "None"
+msgstr "None"
+
+msgid "元の座標のまま表示します。"
+msgstr "Display the original coordinates as they are."
+
+msgid "Atom"
+msgstr "Atom"
+
+msgid "原子単位でセル内に構造が収まるよう表示します。"
+msgstr "It displays the structure so that it fits within the cell in atomic units."
+
+msgid "Mol"
+msgstr "Mol"
+
+msgid "分子単位でセル内に構造が収まるよう表示します。"
+msgstr "Displays the structure so that the structure fits within the cell in molecule units."
+
+msgid "Molecule"
+msgstr "Molecule"
+
+
+msgid "本ウィンドウ中部の :guilabel:`1` から :guilabel:`9` を各分子に割り当てます。"
+msgstr "From the guilabel: `1` in the middle of this window: guilabel:` 9` is assigned to each molecule."
+
+msgid "Composition"
+msgstr "Composition"
+
+
+msgid "本ウィンドウ中部の :guilabel:`1` から :guilabel:`9` を（分子量が共通する）各分子種に割り当てます。"
+msgstr "Assign guilabel: `9` from guilabel:` 1` in the middle of this window to each molecular species (with the same molecular weight)."
+
+msgid "1 - 9"
+msgstr "1 - 9"
+
+msgid ""
+"チェックが付いた項目を表示します。プルダウンメニューの :guilabel:`BS` , :guilabel:`SF` , "
+":guilabel:`ST` , :guilabel:`WI` はそれぞれBall-stick（棒球）モデル（デフォルト）、Space "
+"filling（空間充填）モデル、Stick（棒）モデル、ワイヤーモデルを意味します。"
+msgstr "The checked items are displayed. In the pull-down menu: guilabel: `BS`,: guilabel:` SF`,: guilabel: `ST`,: guilabel:` WI` are Ball-stick model (default), Space filling , Stick (rod) model, wire model."
+
+msgid "Rainbow"
+msgstr "Rainbow"
+
+msgid "分子ごとに異なる色で表示します。"
+msgstr "It displays in different colors for each molecule."
+
+msgid "Gold"
+msgstr "Gold"
+
+msgid "分子を金色で表示します。"
+msgstr "The molecule is displayed in gold color."
+
+msgid "Stereo"
+msgstr "Stereo"
+
+msgid "立体視表示します。"
+msgstr "It displays stereoscopically."
+
+msgid "Enantiomer"
+msgstr "Enantiomer"
+
+msgid "元の構造とその鏡像体を表示します。"
+msgstr "Display the original structure and its mirror image."
+
+msgid "Para"
+msgstr "For"
+
+msgid "平行法で表示します。"
+msgstr "Display in parallel method."
+
+msgid "Cross"
+msgstr "Cross"
+
+msgid "交差法で表示します。"
+msgstr "It displays by the intersection method."
+
+msgid "Anag"
+msgstr "Anag"
+
+msgid "アナグリフで表示します。（赤青のメガネを使用）"
+msgstr "It displays with anaglyph. (Red and blue glasses are used)"
+
+msgid "Shift"
+msgstr "Shift"
+
+msgid "分子間の距離を指定します。"
+msgstr "Specify the distance between molecules."
+
+msgid "Rot"
+msgstr "red"
+
+msgid "分子の回転する大きさを指定します。"
+msgstr "Specify the size of the molecule to rotate."
+
+msgid "H"
+msgstr "H"
+
+msgid "チェックされている場合は、水素原子を表示します。"
+msgstr "If checked, hydrogen atoms are displayed."
+
+msgid "Dummy"
+msgstr "Dummy"
+
+msgid "チェックされている場合は、ダミー原子を表示します。"
+msgstr "When checked, dummy atoms are displayed."
+
+msgid "Backbone"
+msgstr "Backbone"
+
+msgid "チェックされている場合は、バックボーンのみを表示します。（タンパク質向け）"
+msgstr "If checked, only the backbone will be displayed. (For proteins)"
+
+msgid "原子の表示倍率を設定します。"
+msgstr "Sets the display magnification of atoms."
+
+msgid "Bond"
+msgstr "Bond"
+
+msgid "結合の表示倍率を設定します。"
+msgstr "Sets the display magnification of the join."
+
+msgid "Z-Clip"
+msgstr "Z-Clip"
+
+msgid "Z方向のクリッピング位置を指定します。"
+msgstr "Specify the clipping position in the Z direction."
+
+msgid "Surface Style"
+msgstr "Surface Style"
+
+msgid "分子軌道などの等値面の表示方法を指定します。"
+msgstr "Specify how to display isosurface such as molecular orbital."
+
+msgid "Mesh"
+msgstr "Mesh"
+
+msgid "等値面をメッシュ（格子）モデルで表示します。"
+msgstr "We display the isosurface in mesh (lattice) model."
+
+msgid "Solid"
+msgstr "Solid"
+
+msgid "等値面をソリッドモデルで表示します。"
+msgstr "Displays the isosurface in a solid model."
+
+msgid "SmoothSolid"
+msgstr "SmoothSolid"
+
+msgid "等値面を滑らかなソリッドモデルで表示します。"
+msgstr "Display the isosurface in a smooth solid model."
+
+msgid "Trans"
+msgstr "Trans"
+
+msgid "等値面の透明度を指定します。 （0: 不透明、1: 透明）"
+msgstr "Specify the transparency of the isosurface. (0: opaque, 1: transparent)"
+
+msgid "X, Y, Z"
+msgstr "X, Y, Z"
+
+msgid "分子軌道などのメッシュ（スカラー場）情報が読み込まれた場合、チェックを入れた面に対しコンターマップ（等高線）を描画します。コンターマップの位置はスライダーで調整可能です。"
+msgstr "When mesh (scalar field) information such as molecular orbital is read, draw contour map (contour line) against the checked surface. The position of the contour map can be adjusted with the slider."
+

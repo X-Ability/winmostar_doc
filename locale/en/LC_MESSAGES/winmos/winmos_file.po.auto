@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+
+msgid ":menuselection:`ファイル` メニュー"
+msgstr ": menuselection: `file` menu"
+
+msgid "新規"
+msgstr "New"
+
+msgid "起動直後の状態に戻ります。"
+msgstr "It returns to the state immediately after startup."
+
+msgid ":kbd:`Ctrl+N` でも操作できます。"
+msgstr "You can also operate with: kbd: `Ctrl + N`."
+
+msgid "開く"
+msgstr "open"
+
+msgid "ファイルから分子構造をメインウィンドウに読み込みます。各種ソフトのフォーマットに対応しています。"
+msgstr "Read the molecular structure from file into the main window. It corresponds to the format of various software."
+
+msgid ":kbd:`Ctrl+O` でも操作できます。"
+msgstr "You can also operate with: kbd: `Ctrl + O`."
+
+msgid "最近使ったファイル"
+msgstr "Recent files"
+
+msgid "最近開かれたファイルを開きます。"
+msgstr "Open the recently opened file."
+
+msgid "履歴をクリア"
+msgstr "Clear history"
+
+msgid "最近開かれたファイルの履歴を空にします。"
+msgstr "Empty the history of recently opened files."
+
+msgid "再度読み込み"
+msgstr "Read again"
+
+msgid "メインウィンドウのタイトルに表示されているファイルを再度読み込みます。"
+msgstr "Load the file displayed in the title of the main window again."
+
+msgid "追加読み込み"
+msgstr "Additional loading"
+
+msgid "メインウィンドウに表示されている分子構造に、選択したファイルの分子構造を追加します。"
+msgstr "Add the molecular structure of the selected file to the molecular structure displayed in the main window."
+
+msgid "上書き保存"
+msgstr "overwrite save"
+
+msgid "メインウィンドウに表示されている分子構造を上書き保存します。"
+msgstr "Overwrite and save the molecular structure displayed in the main window."
+
+msgid "詳細は :ref:`file_saveas` を参照してください。"
+msgstr "For details, see: ref: `file_saveas`."
+
+msgid ":kbd:`Ctrl+S` でも操作できます。"
+msgstr "You can also operate with: kbd: `Ctrl + S`."
+
+msgid "名前を付けて保存"
+msgstr "save as"
+
+msgid "メインウィンドウに表示されている分子構造を別名で保存します。"
+msgstr "Save the molecular structure displayed in the main window as a different name."
+
+msgid "ファイル名およびファイルを含むフォルダ名（上位階層全て）は半角英数のみで記入することを推奨します。"
+msgstr "It is recommended that you enter the file name and the folder name including all files (all upper layers) with one-byte alphanumeric characters only."
+
+msgid "全角英数、日本語などのマルチバイト文字、スペースが含まれる場合は、一部の処理で不具合がでることがあります。"
+msgstr "If multi-byte alphanumeric characters, multi-byte characters such as Japanese, and spaces are included, some processing may cause problems."
+
+msgid "アンダースコアは使用可能です。"
+msgstr "Underscores are available."
+
+msgid ""
+"各種ソルバの入力ファイルを保存する場合は、 :ref:`キーワード表示エリア <gui_main>` と :ref:`座標表示エリア "
+"<gui_main>` の内容を基にファイルが作成されます。"
+msgstr "To save input files of various solvers, use: ref: `keyword display area <gui_main> `And: ref:` coordinate display area <gui_main> `File is created based on the contents of`."
+
+msgid ""
+"キーワード表示エリアに、保存したいソルバのキーワードが表示されていない場合は、キーワード設定ウィンドウが自動で開きます。 "
+"また、MOPAC、GAMESS、Gaussian、NWChemの場合は :menuselection:`ファイル -->` "
+":ref:`file_coordinateformat` で選択されたフォーマットで座標が出力されます。"
+msgstr "If the keyword of the solver you want to save is not displayed in the keyword display area, the keyword setting window opens automatically. For MOPAC, GAMESS, Gaussian, NWChem, the coordinates are output in the format selected by: menuselection: `file -&gt;`: ref: `file_coordinateformat`."
+
+msgid ":kbd:`Shift+Ctrl+S` でも操作できます。"
+msgstr "You can also operate with: kbd: `Shift + Ctrl + S`."
+
+msgid "インポート"
+msgstr "import"
+
+msgid "特定の形式の分子構造と、一部の計算結果ファイルを読み込みます。"
+msgstr "It reads the molecular structure of a specific form and part of the calculation result file."
+
+msgid "SMILES"
+msgstr "SMILES"
+
+msgid ""
+"SMILES形式の文字列から分子構造を生成し、メインウィンドウに読み込みます。 :guilabel:`Import SMILES` "
+"ウィンドウが開いたら、テキストボックスにSMILES形式の文字列を入力し、 :guilabel:`Convert` "
+"を押してください。内部的には同時にBolloonによる配座探索も実行されます。"
+msgstr "Molecular structure is generated from SMILES format string and read into the main window. : guilabel: When the `Import SMILES` window opens, enter the SMILES format string in the text box and press: guilabel:` Convert`. Internally, conformational search by Bolloon is also executed at the same time."
+
+msgid "エクスポート"
+msgstr "export"
+
+msgid "選択した形式でメインウィンドウに表示されている内容を出力します。"
+msgstr "Outputs the contents displayed in the main window in the selected format."
+
+msgid "メインウィンドウに表示されている分子構造をSMILES形式の文字列で出力します。メインウィンドウに複数分子表示されている場合は使用できません。Cygwin上でOpenBabelを使用します。"
+msgstr "It outputs the molecular structure displayed in the main window as SMILES formatted character string. It can not be used when multiple molecules are displayed in the main window. I use OpenBabel on Cygwin."
+
+msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ <install_cygwinwm>` が必要です。"
+msgstr "To use this function: set up: ref: `cygwin_wm <install_cygwinwm> `Is required."
+
+msgid "構造式"
+msgstr "Constructive"
+
+msgid "メインウィンドウに表示されている分子構造の構造式の画像をSVG形式で出力します。メインウィンドウに複数分子表示されている場合は使用できません。Cygwin上でOpenBabelを使用します。"
+msgstr "The image of the structural formula of the molecular structure displayed in the main window is output in SVG format. It can not be used when multiple molecules are displayed in the main window. I use OpenBabel on Cygwin."
+
+msgid "画像"
+msgstr "image"
+
+msgid "メインウィンドウに表示されている内容をBMPまたはJPG形式で出力します。"
+msgstr "Outputs the contents displayed in the main window in BMP or JPG format."
+
+msgid "VRML"
+msgstr "VRML"
+
+msgid "メインウィンドウに表示されている分子構造をVRML形式で出力します。"
+msgstr "It outputs the molecular structure displayed in the main window in VRML format."
+
+msgid "CHARMM crd File"
+msgstr "CHARMM crd File"
+
+msgid "メインウィンドウに表示されている分子構造をCHARMMのcrd形式で座標を出力します。"
+msgstr "The molecular structure displayed in the main window is output in the crd format of CHARMM."
+
+msgid "テキストエディタで開く"
+msgstr "Open in a text editor"
+
+msgid "メインウィンドウのタイトルに表示されるファイルを、環境設定ウィンドウにて選択したテキストエディタで開きます。"
+msgstr "Open the file displayed in the title of the main window with the text editor selected in the configuration window."
+
+msgid "テキストエディタで編集後、:ref:`file_reload_file` を選択すると、変更をメインウィンドウに反映することができます。"
+msgstr "After editing with the text editor, select: ref: `file_reload_file`, you can reflect the changes to the main window."
+
+msgid "エクスプローラで表示"
+msgstr "View in Explorer"
+
+msgid "メインウィンドウのタイトルに表示されているファイルの一階層上のディレクトリを開きます。"
+msgstr "Open the directory one level higher than the file displayed in the title of the main window."
+
+msgid "座標出力形式を切り替え"
+msgstr "Toggle coordinate output format"
+
+msgid ""
+":ref:`座標表示エリア <gui_main>` "
+"での表示形式と、MOPAC、GAMESS、Gaussian、NWChem形式でファイルを保存する際の座標形式を指定します。"
+msgstr ": ref: `coordinate display area <gui_main> `And the coordinate format when saving the file in MOPAC, GAMESS, Gaussian, NWChem format."
+
+msgid ":ref:`座標表示エリア <gui_main>` 上部のタブでも切り替えることができます。"
+msgstr ": ref: `coordinate display area <gui_main> `You can also switch at the top tab."
+
+msgid "終了"
+msgstr "End"
+
+msgid "Winmostarを終了します。"
+msgstr "Quit Winmostar."
+
