@@ -8,6 +8,6 @@
 msgid ""
 msgstr ""
 
-msgid "Table Of Contents"
-msgstr "Table Of Contents"
+msgid "その他のトピック"
+msgstr "Other topics"
 

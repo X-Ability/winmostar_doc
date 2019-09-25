@@ -6,17 +6,7 @@
 #
 
 msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-23 15:28+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+msgstr ""
 
 msgid "はじめに"
 msgstr "Introduction"
@@ -24,84 +14,79 @@ msgstr "Introduction"
 msgid ""
 "Winmostar(TM)は量子化学計算、第一原理計算、分子動力学計算を効率的に操作できるグラフィカルユーザーインターフェースを提供します。 "
 "初期構造の作成、計算の実行から結果解析に至るまで、シミュレーションに必要な一通りの操作をWinmostar(TM)上で実施することができます。"
-msgstr "NOTTRANSLATED"
-"Winmostar provides graphical user interfaces for quantum chemical, solid "
-"physics and molecular dynamics simulations."
+msgstr "Winmostar (TM) provides a graphical user interface that can efficiently manipulate quantum chemical calculations, first principles calculations, and molecular dynamics calculations. From the creation of the initial structure, from the calculation execution to the result analysis, you can carry out the one operation required for the simulation on Winmostar (TM)."
 
 msgid "分子のモデリング機能については100,000原子まで動作確認されています。MD計算の機能についてはより大きな系で動作確認されています。"
-msgstr "NOTTRANSLATED"
+msgstr "For molecular modeling function it has been confirmed to operate up to 100,000 atoms. The function of MD calculation has been confirmed in a larger system."
 
 msgid "引用について"
-msgstr "Citation"
+msgstr "About quotation"
 
 msgid "学会発表、論文などでWinmostar(TM)を使用して作成したデータを発表する際、Winmostar(TM)本体については、例えば以下の様に記載してください。"
-msgstr "When citing Winmostar(TM) in scientific publications, please refer to it as follows."
+msgstr "When announcing data created using Winmostar (TM) in academic presentations, articles, etc., please describe the Winmostar (TM) main body as follows, for example."
 
 msgid "`Winmostar V9, X-Ability Co. Ltd., Tokyo, Japan, 2019.`"
 msgstr "`Winmostar V9, X-Ability Co. Ltd., Tokyo, Japan, 2019.`"
 
 msgid "Winmostar(TM)が呼び出したソルバや各種補助プログラムの引用については、それぞれのソフトウエアの指示に従って下さい。"
-msgstr "For the citation of solvers and various auxiliary programs called by Winmostar(TM), follow the instructions of each software."
+msgstr "Please refer to the instructions of each software for the citation of solvers and various auxiliary programs called by Winmostar (TM)."
 
 msgid "本マニュアルの表記規則"
-msgstr "Notation"
+msgstr "Conventions in this manual"
 
 msgid "本マニュアルは以下の表記規則に従っています:"
-msgstr "This manual follows the following notations."
+msgstr "This manual follows the following conventions:"
 
 msgid ":kbd:`Ctrl+A`"
 msgstr ":kbd:`Ctrl+A`"
 
 msgid "キーボードのキーまたはキーの組み合せの操作を示します。"
-msgstr "Keybinds."
+msgstr "Indicates keyboard key or key combination operation."
 
 msgid ":guilabel:`OK`"
 msgstr ":guilabel:`OK`"
 
 msgid "ラベル、ボタンなど GUI に表示される文字列を示します。"
-msgstr "String shown at UI such as label or button."
+msgstr "Labels, buttons, etc. Indicates a character string displayed on the GUI."
 
 msgid ":menuselection:`ツール --> 環境設定 --> 基本 --> ライセンスコード`"
-msgstr ":menuselection:`Tools --> Preference --> Basic --> License Code`"
+msgstr ": menuselection: `Tools -&gt; Preferences -&gt; Basic -&gt; License code`"
 
 msgid ""
 "メニュー、タブなどをたどる流れを示します。上記の例は、 メニューから :menuselection:`ツール --> 環境設定` とたどり、 "
 "開いたウィンドウの :guilabel:`基本` というタブをクリックし、その中にある :guilabel:`ライセンスコード` "
 "というラベルの付いたGUIのことを意味します。"
-msgstr "NOTTRANSLATED"
-"Flow that follows menu, tab, etc."
+msgstr "It shows the flow that follows menu, tab, etc. From the menu, follow the menu: menuselection: `Tools -&gt; Preferences` and click on the tab called guilabel: `basic` in the opened window and find the label: guilabel: `license code` It means GUI with."
 
 msgid ":file:`wmset.ini` , :file:`C\\\\:winmos9\\\\UserPref`"
-msgstr ":file:`wmset.ini` , :file:`C\\\\:winmos9\\\\UserPref`"
+msgstr ": file: `wmset.ini`,: file:` C \\\\: winmos9 \\\\ UserPref`"
 
 msgid "ファイル名やディレクトリ名を示します。"
-msgstr "File and directory names."
+msgstr "Indicates file name or directory name."
 
 msgid ":command:`ls /usr/local/bin`"
 msgstr ":command:`ls /usr/local/bin`"
 
 msgid "コマンドプロンプト、ターミナルで実行するコマンドを示します。"
-msgstr "Command to be executed at terminal. "
+msgstr "Command prompt, command to be executed at terminal."
 
 msgid "``3.14159``"
 msgstr "``3.14159``"
 
 msgid "GUI のテキストボックスへの入力を示します。"
-msgstr "Input to the text box"
+msgstr "Indicates input to the text box of the GUI."
 
 msgid "補足事項を示します。"
-msgstr "Note."
+msgstr "Indicates supplementary matter."
 
 msgid "注意点を示します。"
-msgstr "Warning."
+msgstr "Indicates notes."
 
 msgid "使用しているライブラリ"
-msgstr "Acknowledgments"
+msgstr "The library you are using"
 
 msgid "Winmostarは一部の処理に下記のライブラリを使用しています。"
-msgstr "NOTTRANSLATED"
-"Portions of this software may utilize the following copyrighted "
-"materials, the use of which is hereby acknowledged."
+msgstr "Winmostar uses the following libraries for some processing."
 
 msgid "Abbrevia 5.0"
 msgstr "Abbrevia 5.0"

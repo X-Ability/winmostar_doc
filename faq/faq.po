@@ -1,0 +1,845 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+
+msgid ""
+msgstr ""
+
+msgid "よくある質問・トラブルシューティング"
+msgstr "Frequently asked questions · Troubleshooting"
+
+msgid "購入に関して"
+msgstr "Regarding purchase"
+
+msgid "Q. 代金の支払方法を教えてください。"
+msgstr "Q. Please tell me how to pay the price."
+
+msgid "A."
+msgstr "A."
+
+msgid "【法人の場合】"
+msgstr "【Corporate case】"
+
+msgid "以下の条件での後払いとなります。"
+msgstr "It becomes postpay under the following conditions."
+
+msgid "支払方法: 当社指定銀行口座への現金振込"
+msgstr "Payment method: Cash transfer to our designated bank account"
+
+msgid "支払期日: 納品翌月末日"
+msgstr "Payment due date: Delivery End of the following month"
+
+msgid "【個人の場合】"
+msgstr "【Personal case】"
+
+msgid "PayPalにてクレジットカードでお支払いください。"
+msgstr "Pay with credit card at PayPal."
+
+msgid "Q. 当社から発行される書類の種類を教えてください。"
+msgstr "Q. Please tell me the types of documents issued by the company."
+
+msgid "法人の場合は、請求書・納品書・見積書を発行いたします。"
+msgstr "In the case of a corporation, invoices, invoices and estimates will be issued."
+
+msgid "個人の場合は、PayPal にて領収書を取得してください。"
+msgstr "In the case of individuals, please obtain a receipt with PayPal."
+
+msgid "その他の書類を発行希望の際はご相談ください。ただし、内容によりお断りする場合もありますのでご了承ください。"
+msgstr "Please consult us when you wish to issue other documents. However, please understand that it may be refused depending on the contents."
+
+msgid "Q. 代理店などエンドユーザ以外が注文する方法を教えてください。"
+msgstr "Q. How do I place an order other than an end user, such as an agency?"
+
+msgid "代理店等、エンドユーザ以外の方が見積を依頼する場合は自由記入欄に以下の情報をご記入ください。"
+msgstr "Please fill out the following information in the free entry column when a person other than the end user requests an estimate, such as an agency."
+
+msgid "・エンドユーザの所属"
+msgstr "· Affiliation of end users"
+
+msgid "・エンドユーザの氏名"
+msgstr "· Name of the end user"
+
+msgid "なお、エンドユーザに直接納品いたしますので、ご注文の際はエンドユーザの送付先情報をお知らせいただきます。"
+msgstr "Since we will deliver it directly to the end user, when ordering we will inform you of the end user&#39;s shipping address information."
+
+msgid "ライセンスに関して"
+msgstr "Regarding the license"
+
+msgid "Q. 講義での使用方法を教えてください。講義用ライセンスの使用条件を教えてください。"
+msgstr "Q. Please tell me how to use it in the lecture. Please tell me the terms of use of lecture license."
+
+msgid "A. 講義用ライセンスを教育機関での講義目的に限り、教員及び授業に参加する学生全員でお使いいただけます。"
+msgstr "A. You can use the lecture license only for lecture purposes at educational institutions, and for all students partcipating in teachers and classes."
+
+msgid "申請時には以下の注意点をご確認下さい。"
+msgstr "Please check the following notes when applying."
+
+msgid "・講義を行われる先生から直接問い合わせ下さい。"
+msgstr "· Please contact directly from the teacher who is lecturing."
+
+msgid "・自由記入欄に授業名・期間・おおよその学生数ご記入下さい。"
+msgstr "・ Name in the free entry field ・ period ・ approximate number of students Please fill in."
+
+msgid "・後日授業資料を共有いただけますと幸いです。"
+msgstr "· I am pleased to share the lesson materials later."
+
+msgid "講義用ライセンスは `こちら <https://winmostar.com/jp/support_jp.php>`_ から申請することができます。"
+msgstr "You can apply for lecture a license `here <https://winmostar.com/jp/support_jp.php>`_."
+
+msgid "ソフトウェア動作全般"
+msgstr "Software operation in general"
+
+msgid "Q. 思ったようにモデルを作成できません。計算できません。動作しません。"
+msgstr "Q. I can not create a model as I expected. It can not calculate. It does not work."
+
+msgid "まず、以下の基礎的なチェックを行ってください。"
+msgstr "First, please perform the following basic checks."
+
+msgid ":ref:`インストール時の注意事項 <intall_installwm>` を確認する。"
+msgstr "Check the :ref:`Installation precautions <intall_installwm>`_."
+
+msgid ""
+"使用中のWinmostarが無償版、学生版、プロフェッショナル版、プロフェッショナル版（トライアル）のいずれに該当するか確認し、問題を起こしている機能がその版で使用可能か"
+" `機能表 <https://winmostar.com/jp/function_jp.html>`_ を見て確認する。"
+msgstr "Check whether Winmostar in use is a free version, a student version, a professional version, or a professional version (trial), and whether the function causing the problem is available in that version `function table <https://winmostar.com/jp/function_jp.html> Check _ to see."
+
+msgid "使用中のセキュリティ対策ソフトの活動記録を確認し、Winmostarおよびcygwin_wmのインストールフォルダの下のアプリケーションの活動が妨害された記録がないか確認する。"
+msgstr "Check the activity record of the security countermeasure software in use and check whether there is any record in which the activities of the application under Winmostar and cygwin_wm installation folder are disturbed."
+
+msgid ""
+"Winmostarを最新版にアップデートし（使用中のバージョンと共存させることが可能）、 :ref:`knownissues_top` 、 "
+":ref:`faq_top` に類似する状況がないか確認する。"
+msgstr "Update Winmostar to the latest version (it is possible to coexist with the version you are using), check if there is a situation similar to: ref: `knownissues_top`,: ref:` faq_top`."
+
+msgid "保存するファイルやそれを含むディレクトリ（上位階層全てを含む）の名前に、日本語、全角文字などのマルチバイト文字や特殊記号が含まれている場合は、一部ソルバで不具合が出ることがあるため半角英数のみとなるようにする。"
+msgstr "If the names of files to be saved and directories containing them (including all upper layers) contain multibyte characters such as Japanese and double-byte characters, and special symbols, some of the solvers may malfunction Therefore, it is made to be only half-width alphabet."
+
+msgid "実行した処理で何かしらログが出力されているか作業フォルダを確認し、ログの内容を確認する。"
+msgstr "Check the working folder to see if the log is being output by the executed process and check the contents of the log."
+
+msgid "計算が開始されたが計算結果がおかしいと感じた場合は、メインメニューで使用したソルバのメニューから「log(out)ファイル編集」などをクリックし、ログの内容を確認する。"
+msgstr "If calculation is started but the calculation result is funny, click &quot;log (out) file edit&quot; etc from the solver menu used in the main menu and check the contents of the log."
+
+msgid "次に、メモ帳などで以降の作業の記録を取れるようにしてください。不具合の再現方法が判明した場合、作業の記録と一緒にご報告頂くと比較的短時間で修正できることがあります。"
+msgstr "Next, please make it possible to record records of subsequent work with Notepad etc. If you find out how to reproduce the problem, you may be able to fix it in a relatively short time if you report along with the record of work."
+
+msgid ""
+"そして、Winmostarの `チュートリアル "
+"<https://winmostar.com/jp/manual_jp.html#tutorials>`_ "
+"のうち、これから使いたいソルバの基礎編チュートリアルをトレースしてください。"
+msgstr "And the Winmostar `tutorial <https://winmostar.com/jp/manual_jp.html#tutorials> Please trace the basics tutorial of the solver you want to use out of `_."
+
+msgid "基礎編チュートリアルのトレースに失敗する場合は、以下を試してください。"
+msgstr "If you fail to trace the basics tutorial, try the following."
+
+msgid "誤操作でないことを確認するため再度トレースする。"
+msgstr "Trace again to confirm that it is not a misoperation."
+
+msgid "並列実行している場合は、シリアル実行（並列数1）に切り替える。"
+msgstr "If parallel execution is performed, switch to serial execution (parallel number 1)."
+
+msgid "Winmostarを再起動する。"
+msgstr "Restart Winmostar."
+
+msgid "OSを再起動する。"
+msgstr "Restart the OS."
+
+msgid "セキュリティ対策ソフトで、Winmostar、cygwin_wmのインストールフォルダ、およびソルバ（MPIを含む）が監視対象外に設定する。"
+msgstr "With security counter software, Winmostar, installation folder of cygwin_wm, and solver (including MPI) are excluded from monitoring."
+
+msgid ""
+"cygwin_wmを使用している場合は、 :menuselection:`ヘルプ --> cygwin_wmを診断` "
+"でcygwin_wmの簡易的な診断を実行する。"
+msgstr "If you are using cygwin_wm, run: menuselection: `help -&gt; diagnose cygwin_wm` and perform a simple diagnosis of cygwin_wm."
+
+msgid "Winmostar, cygwin_wmおよび使用したソルバを再インストールする。"
+msgstr "Reinstall Winmostar, cygwin_wm and the solver you used."
+
+msgid "他のPCで試す。"
+msgstr "Try with another PC."
+
+msgid ""
+"次に、最終的に計算したいものに極力近いと思われるチュートリアルをトレースしてください。 "
+"それに成功したら、最終的に計算したいものに少しずつ寄せるように計算条件を変更し、問題発生箇所を特定したら以下を試してください。"
+msgstr "Next, trace the tutorial which seems to be as close as possible to what you want to calculate finally. If it succeeds, please change the calculation condition so that it finally gets to calculate what you want to calculate and try the following if you identify the problem occurrence place."
+
+msgid ":ref:`faq_top` に類似事例がないかご確認ください。"
+msgstr "Please check for similar cases in: ref: `faq_top`."
+
+msgid ""
+"問題発生箇所がWinmostarが外部ソフトを呼んでいる部分の場合は、 `そのソフトの情報 "
+"<https://winmostar.com/jp/manual_jp.html#solver_official>`_ もご確認ください。"
+msgstr "If the problem occurrence part is the part where Winmostar calls external software, `information on that software <https://winmostar.com/jp/manual_jp.html#solver_official> `_ Please check also."
+
+msgid "Cygwinを用いた処理で落ちている場合は、 :ref:`Cygwinの一般的な不具合 <faq_cygwin_error>` をご確認ください。"
+msgstr "If it has been dropped by processing using Cygwin, please use: ref: `Cygwin general problem <faq_cygwin_error> `Please confirm."
+
+msgid "Q. Winmostarの動かすPCの最小・推奨スペックを教えてください。"
+msgstr "Q. Please tell me the minimum and recommended specifications of PC that Winmostar runs."
+
+msgid "A. :ref:`install_recommend_spec` をご確認下さい。"
+msgstr "A. Please check ref: `install_recommend_spec`."
+
+msgid "Q. 「ERROR: I/O error 32」と表示され処理に失敗します。"
+msgstr "Q. "ERROR: I / O error 32" is displayed and processing fails."
+
+msgid ""
+"A. "
+"処理に関わるファイルがWinmostar以外のアプリケーションまたはプロセスで開かれていてロックされている場合や、削除されている可能性があります。"
+msgstr "A. The file related to processing may be opened by an application or process other than Winmostar, locked, or it may have been deleted."
+
+msgid "OSを再起動し他のアプリケーションが開いていない状況でお試しください。"
+msgstr "Please try again in the situation where the OS is restarted and other applications are not open."
+
+msgid "Q. 作製した分子モデル等を学会発表や論文に用いることは可能ですか？学会発表、論文投稿の際にどのように引用したらいいですか？"
+msgstr "Q. Is it possible to use the created molecular model etc for academic presentations and papers? How should I quote at conference presentations and paper submissions?"
+
+msgid "A. 使用いただいて問題ありません。発表される際には :ref:`intro_citation` の通りに引用してください。"
+msgstr "A. No problem with using it. When announcing it please quote as per: ref: `intro_citation`."
+
+msgid ""
+"Q. Cygwinを使う処理が異常終了します。／ :menuselection:`ツール --> cygwin_wmを診断` 機能で `... "
+"ERROR ...` と表示されます。／Cygwinの黒いウィンドウに `child_info_fork::abort: ... Loaded "
+"to different address: parent ... != child ...` などと表示されます。"
+msgstr "Q. Process using Cygwin will end abnormally. / :Menuselection:`tools --> diagnose cygwin_wm` function will display `... ERROR ...`. / Cygwin&#39;s black window will display `child_info_fork :: abort: ... Loaded to different address: parent ...! = Child ...`."
+
+msgid "A. 以下の手順を上から順に一つずつ実行し、その都度、エラーが起きた処理を再実施してください。"
+msgstr "A. Please execute the following procedure one by one from the top one one by one, and re-execute the process where the error occurred each time."
+
+msgid "一般的な :ref:`一般的な不具合の対処 <faq_general_error>` を実施する"
+msgstr "General: ref: `dealing with common problems <faq_general_error> To implement"
+
+msgid "マシンを再起動する"
+msgstr "Restart the machine"
+
+msgid "使用しているcygwin_wmの :file:`cygwin1.dll` 以外を検索して削除し、マシンを再起動する"
+msgstr "Search and delete anything other than: cygwin_wm: file: `cygwin1.dll` and restart the machine"
+
+msgid "同一マシン上にcygwin_wm以外に :file:`cygwin1.dll` が存在して場合の一部のケースでこの操作が必要です。"
+msgstr "This operation is necessary in some cases if: file: `cygwin1.dll` exists in addition to cygwin_wm on the same machine."
+
+msgid ":file:`cygwin1.dll` は他にCygwinをインストールしていなくても、各種フリーウエアなどに同梱されていることがあります。"
+msgstr ": file: `cygwin1.dll` may be included in various freeware etc even if you do not install Cygwin in addition."
+
+msgid ""
+"使用しているマシン上の全てのCygwinが終了している状態で、Windowsの[ファイル名を指定して実行]にて "
+":file:`C:\\\\cygwin_wm\\\\bin\\\\ash.exe` （cygwin_wmを "
+":file:`C:\\\\cygwin_wm` にインストールした場合）を実行し、 :command:`/bin/rebaseall -v` "
+"というコマンドを実行しマシンを再起動する。"
+msgstr "With all the Cygwin on the machine being used terminated, at the [Run with file name] of Windows: file: `C: \\\\ cygwin_wm \\\\ bin \ \ \ \ ash.exe` (when cygwin_wm is installed in: file: `C: \\\\ cygwin_wm`) and execute the command:::: / bin / rebaseall -v` to restart the machine ."
+
+msgid "セキュリティ対策ソフトを一時的に無効する。"
+msgstr "Temporarily disable security countermeasure software."
+
+msgid ""
+"`CygwinのFAQ <https://cygwin.com/faq.html#faq.using.bloda>`_ "
+"に記載されている不具合を起こしがちなソフトを無効にする。"
+msgstr "`Cygwin FAQ <https://cygwin.com/faq.html#faq.using.bloda> Disable software that tends to cause problems described in `_."
+
+msgid ""
+"その他、 `Cygwinのfork()関連の失敗に関するFAQ <https://cygwin.com/faq.html#faq.using"
+".fixing-fork-failures>`_ に記載された方法を試す。"
+msgstr "Others, &#39;Cygwin&#39;s FAQ on fork () related failures <https://cygwin.com/faq.html#faq.using.fixing-fork-failures> Try the method described in `_."
+
+msgid ""
+"Q. :menuselection:`ツール --> cygwin_wmを診断` 機能で `WARNING ... some files are "
+"missing` と表示されます。"
+msgstr "Q. :menuselection:`tools --> diagnose cygwin_wm` function will display `WARNING ... some files are missing`."
+
+msgid "A. cygwin_wmを再インストールしてください。"
+msgstr "A. Please reinstall cygwin_wm."
+
+msgid "再インストールしても表示される場合は、セキュリティ対策ソフトを一時的に無効にするか、インストール先・インストーラを監視対象外に指定してください。"
+msgstr "If it is displayed even after reinstallation, temporarily disable the security countermeasure software, or designate the installation destination · installer as not to be monitored."
+
+msgid "分子のモデリング・系の作成に関して"
+msgstr "On the modeling of molecules and creation of systems"
+
+msgid "Q. 化学結合の種類（一重、二重など）を変更する方法を教えてください。"
+msgstr "Q. How do I change the type of chemical bond (single, double etc.)?"
+
+msgid "A. 例えば以下に示す方法で変更できます。"
+msgstr "A. You can change it by the following method, for example."
+
+msgid ""
+"1) :menuselection:`編集 --> 結合 --> 結合付加` またはメインウィンドウ上部のk :guilabel:`結合付加` "
+"ボタンを複数回押すことで、結合の種類を変更できます。"
+msgstr "1): menuselection: `edit -&gt; join -&gt; join addition` or by pressing the k: guilabel: `join addition` button at the top of the main window multiple times."
+
+msgid ""
+"2) :menuselection:`編集 --> 結合 --> 結合再生成` "
+"を選択すると原子間距離から判定された結合次数で自動的に化学結合の種類が変更されます。予め :menuselection:`編集 --> クリーン`"
+" により構造最適化しておくと、より妥当に自動変更されることがあります。"
+msgstr "2): menuselection: `Edit -&gt; Join -&gt; join regeneration` is selected, the type of chemical bond is automatically changed by the bond degree determined from the interatomic distance. In advance: menuselection: `edit -&gt; clean` `if you optimize the structure, it may be changed automatically more reasonably."
+
+msgid ""
+"3) "
+"小さい分子が一つだけしか表示されていない場合は、MOPAC計算を実行することで、Population解析結果を用いて自動的に結合次数が変更されます。"
+msgstr "3) If only one small molecule is displayed, execution of MOPAC calculation will automatically change the coupling order using the population analysis result."
+
+msgid ""
+"Q. :menuselection:`MD --> 溶媒を配置/系を構築` 機能を実行すると `Error : Failed to "
+"solvate.` などと表示され処理に失敗します。"
+msgstr "Q. :menuselection: `MD --> Arrange Solvent / Building System &#39;function will display "Error: Failed to solvate." And processing will fail."
+
+msgid "---------質問詳細---------"
+msgstr "--------- Question details ---------"
+
+msgid ":menuselection:`MD --> 溶媒を配置/系を構築` を実行した際に :file:`generate.log` に ::"
+msgstr " :menuselection:`MD --> Arrange Solvent / Build System` when executing: file: `generate.log` ::"
+
+msgid "などと出力され処理が正常終了しません。"
+msgstr "The process is output normally and the process does not end normally."
+
+msgid ""
+"A. :ref:`一般的な不具合 <faq_general_error>` の対処と、:ref:`Cygwinの一般的な不具合 "
+"<faq_cygwin_error>` の対処に加え、分子数を減らすか、密度を減らして実行してください。 "
+"また、それでも実行できない場合は、内部的に使用しているGromacsの再インストールを、以下の手順で実施してください。"
+msgstr "A.: ref: `general trouble <faq_general_error> `And dealing with: ref:` Cygwin general bug <faq_cygwin_error> `, In addition to reducing the number of molecules or reducing the density please execute. If you still can not do it, reinstall internally used Gromacs in the following procedure."
+
+msgid "cygwin_wmのインストールフォルダの下の :file:`/etc/profile.d/winmostar.sh` の中の"
+msgstr "Under cygwin_wm installation folder: file: `/ etc / profile.d / winmostar.sh` in"
+
+msgid "または"
+msgstr "Or"
+
+msgid "の行をコメントアウトまたは削除する"
+msgstr "Comment out or delete the line of"
+
+msgid ""
+"Winmostarの :menuselection:`ツール --> cygwin_wm起動` をクリックし、起動したcygwin上で "
+"`各種ソルバのインストール手順(Cygwin) <https://winmostar.com/jp/gmx4wm_jp_win.html>`_ "
+"の「1-2. Gromacs」のインストール手順を試みる"
+msgstr "Winmostar &#39;s :menuselection:`tools --> cygwin_wm startup&#39; Click on the installed cygwin` various solver installation procedures (Cygwin) <https://winmostar.com/jp/gmx4wm_jp_win.html> Try&#39;.1-2. Gromacs&#39; installation procedure for `_"
+
+msgid ""
+":menuselection:`ツール --> cygwin_wm起動` で :command:`gmx` と実行し `GROMACS: gmx,"
+" VERSION ...` などとGromacsの起動を示すメッセージが表示されたら再ビルドは成功である"
+msgstr " :menuselection:`rebuild is successful when a message showing the start of Gromacs such as&#39;: tool --> cygwin_wm start` and executing: command: `gmx` and` GROMACS: gmx, VERSION ... `"
+
+msgid ""
+"分子数が大きい場合（ケースにもよるが10,000程度）は、現在内部処理で使用している :command:`gmx solvate` "
+"の処理の限界となるケースもあるので、 :menuselection:`編集 --> 部分編集 --> 部分複製` で分子を並べてください。"
+msgstr "There are cases where the number of molecules is large (depending on the case, but it is about 10,000), since it is currently the limit of processing of command: `gmx solvate`, which is used in internal processing, :menuselection:` edit --> Please align molecules with partial editing --> partial duplication."
+
+msgid "将来的には本機能で分子数が大きい場合にも対応予定です。"
+msgstr "In future it is also planned to handle cases where the number of molecules is large with this function."
+
+msgid "ローカルマシンでのMPI・並列実行に関して"
+msgstr "MPI on local machine · About parallel execution"
+
+msgid "Q. MPICHが計算途中で終了します。"
+msgstr "Q. MPICH ends during computation."
+
+msgid "MPICH実行中に、次のようなエラーを表示して計算が途中終了となることがあります。"
+msgstr "While executing MPICH, the following error may be displayed and the calculation may be ended prematurely."
+
+msgid "op_read error on left context: Error = -1"
+msgstr "op_read error on left context: Error = -1"
+
+msgid "op_read error on parent context: Error = -1"
+msgstr "op_read error on parent context: Error = -1"
+
+msgid "unable to read the cmd header on the left context, Error = -1"
+msgstr "unable to read the cmd header on the left context, Error = -1"
+
+msgid "unable to read the cmd header on the parent context, Error = -1"
+msgstr "unable to read the cmd header on the parent context, Error = -1"
+
+msgid ""
+"Error posting readv, An existing connection was forcibly closed by the "
+"remote host.(10054)"
+msgstr "Error posting readv, An existing connection was forcibly closed by the remote host.(10054)"
+
+msgid "connection to my parent broken, aborting."
+msgstr "connection to my parent broken, aborting."
+
+msgid "state machine failed."
+msgstr "state machine failed."
+
+msgid "このエラーはMPICHがlocalonlyでもネットワークアダプタを使うため、ネットワークアダプタが途中で切れてしまうため発生するエラーです。"
+msgstr "This error is an error that occurs because MPICH uses the network adapter even if it is localonly, because the network adapter is burned in the middle."
+
+msgid "しかし初めからネットワークアダプタが切れている場合、MPICHはネットワークアダプタを使用しないため、このエラーは発生しません。"
+msgstr "However, if the network adapter has run out from the beginning, this error will not occur because MPICH does not use the network adapter."
+
+msgid "MPICHを用いて長時間の計算を行う場合、ネットワークアダプタを無効にしてから計算を実行して下さい。"
+msgstr "When computing for a long time using MPICH, please disable the network adapter and execute the calculation."
+
+msgid ""
+"Q. LAMMPS, Quantum ESPRESSOのMPI並列実行時に `Unable to open the "
+"HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\MPICH\\\\SMPD\\\\process\\\\???? "
+"registry key, error 5, アクセスが拒否されました。` という警告が表示されます。"
+msgstr "Q. When executing parallel MPI of LAMMPS and Quantum ESPRESSO `Unable to open the HKEY_LOCAL_MACHINE \\ \\ SOFTWARE \\ \\ MPICH \\\\ SMPD \\\\ process \\ \\ ???? registry key, error 5 , Access denied. `Warning will be displayed."
+
+msgid "A. MPICHがレジストリを書き換えようとするのですが、管理者権限がないので失敗したというメッセージです。"
+msgstr "A. MPICH tries to rewrite the registry, but it is a message that it failed because there is no administrator authority."
+
+msgid "管理者権限でWinmostarを起動すればメッセージは出なくなりますが、"
+msgstr "If you start Winmostar with administrator privileges, you will not get a message,"
+
+msgid "メッセージが出ている状態でも計算自体は正常に実行されているので、無視しても問題ありません。"
+msgstr "Even when a message is displayed, the calculation itself is executed normally, so it can be ignored if you ignore it."
+
+msgid "リモートジョブに関して"
+msgstr "About remote jobs"
+
+msgid "Q. 社内や学内のスパコンまたはLinuxサーバにジョブを投げる方法を教えてください。"
+msgstr "Q. Please tell me how to throw a job to a supercomputer or campus supercomputer or Linux server."
+
+msgid "A. 接続先のコンピュータ固有の環境設定などが必要な場合も、リモートジョブ用のひな形スクリプトを作成することで可能になります。"
+msgstr "A. If you need environment settings specific to the computer to which you are connecting, you can do it by creating a model script for remote jobs."
+
+msgid ""
+"詳しい手順は `リモートジョブ投入チュートリアル "
+"<https://winmostar.com/jp/tutorials/V8/RemoteJob_tutorial_1(Basic)V8.pdf>`_"
+" をご確認ください。"
+msgstr "Detailed procedure is `Remote job submission tutorial <https://winmostar.com/jp/tutorials/V8/RemoteJob_tutorial_1(Basic)V8.pdf> Please check `_."
+
+msgid "Q. リモートジョブ関連操作時にPuTTY関連のエラーが表示されます。sftpテストは成功するが、各種コマンドを実行できません。"
+msgstr "Q. PuTTY related errors are displayed during remote job related operation. The sftp test succeeds, but various commands can not be executed."
+
+msgid "sftpテストの結果はOKにもかかわらず、各種コマンドが実行できない。"
+msgstr "Even though the result of sftp test is OK, various commands can not be executed."
+
+msgid "また、リモートジョブ投入画面起動時やsftpテスト実施時などで以下のダイアログが表示される。"
+msgstr "In addition, the following dialog is displayed at the time of launching remote job submission screen or sftp test execution etc."
+
+msgid "WARNING: Putty default host name was found in registry."
+msgstr "WARNING: Putty default host name was found in registry."
+
+msgid "(\\\\SOFTWARE\\\\SimonTatham\\\\PuTTY\\\\Sessions\\\\Default%20Settings\\\\HostName)"
+msgstr "(\\\\SOFTWARE\\\\SimonTatham\\\\PuTTY\\\\Sessions\\\\Default%20Settings\\\\HostName)"
+
+msgid "This may cause errors while job submission."
+msgstr "This may cause errors while job submission."
+
+msgid "Clear this setting."
+msgstr "Clear this setting."
+
+msgid "原因："
+msgstr "the reason:"
+
+msgid "このWARNINGはPuttyのHostNameが設定されているときにおこります。"
+msgstr "This WARNING occurs when Putty&#39;s HostName is set."
+
+msgid "Puttyの設定はWindowsのレジストリに保存されるため、Winmostar同梱版以外のPuttyであってもHostNameに何らか文字列が保存されていても、この問題がおこります。"
+msgstr "Since Putty&#39;s settings are saved in the Windows registry, even if Putty is other than Winmostar bundled version, even if some sort of character string is saved in HostName, this problem will occur."
+
+msgid "対応："
+msgstr "Correspondence:"
+
+msgid ""
+"リモートジョブ投入画面のPuttyボタンからPuttyを起動します。Default "
+"SettingsのHostName欄に文字列が設定されているか確認します。"
+msgstr "Activate Putty from the Putty button on the remote job launch screen. Make sure that a character string is set in the HostName field of Default Settings."
+
+msgid "この文字列を削除してDefault Settingsを選択した状態でSaveすると、この問題を解消できます。"
+msgstr "You can solve this problem by deleting this string and saving it with Default Settings selected."
+
+msgid "(なお、Port欄の入力内容は特に影響しません。)"
+msgstr "(The input contents in the Port column are not particularly affected.)"
+
+msgid "MOPAC, CNDO/S, GAMESS, NWChem, Gaussianに関して"
+msgstr "About MOPAC, CNDO / S, GAMESS, NWChem, Gaussian"
+
+msgid ""
+"Q. MOPACのログに `ATOMS  **,  **, AND  ** ARE WITHIN  .**** ANGSTROMS OF A "
+"STRAIGHT LINE` と表示されて異常終了します。"
+msgstr "Q. It will display abnormally with the message &quot;ATOMS **, **, AND ** ARE WITHIN. **** ANGSTROMS OF A STRAIGHT LINE` displayed in the MOPAC log."
+
+msgid "以下のように3原子が直線になったというエラーが出て止まります。"
+msgstr "It stops with an error saying that 3 atoms are linear as shown below."
+
+msgid "CALCULATION ABANDONED AT THIS POINT"
+msgstr "CALCULATION ABANDONED AT THIS POINT"
+
+msgid "THREE ATOMS BEING USED TO DEFINE THE"
+msgstr "THREE ATOMS BEING USED TO DEFINE THE"
+
+msgid "COORDINATES OF A FOURTH ATOM, WHOSE BOND-ANGLE IS"
+msgstr "COORDINATES OF A FOURTH ATOM, WHOSE BOND-ANGLE IS"
+
+msgid "NOT ZERO OR 180 DEGREEES, ARE IN AN ALMOST STRAIGHT"
+msgstr "NOT ZERO OR 180 DEGREEES, ARE IN AN ALMOST STRAIGHT"
+
+msgid "LINE.  THERE IS A HIGH PROBABILITY THAT THE"
+msgstr "LINE.  THERE IS A HIGH PROBABILITY THAT THE"
+
+msgid "COORDINATES OF THE ATOM WILL BE INCORRECT."
+msgstr "COORDINATES OF THE ATOM WILL BE INCORRECT."
+
+msgid "THE FAULTY ATOM IS ATOM NUMBER  69"
+msgstr "THE FAULTY ATOM IS ATOM NUMBER  69"
+
+msgid "最後に、"
+msgstr "Finally,"
+
+msgid "ATOMS 68, 57, AND 54 ARE WITHIN .0134 ANGSTROMS OF A STRAIGHT LINE"
+msgstr "ATOMS 68, 57, AND 54 ARE WITHIN .0134 ANGSTROMS OF A STRAIGHT LINE"
+
+msgid "と出ます。"
+msgstr "I will come out."
+
+msgid "角度が180°近くになる角度がZ-Matrixに含まれている場合に表示されます。"
+msgstr "It is displayed when the angle at which the angle is close to 180 ° is included in Z - Matrix."
+
+msgid "メインウィンドウ右下の座標編集機能で、接続先の原子を変更し、Z-Matrixから180°に近い角度がなくなるようにしてください。"
+msgstr "Please change the atom of the connection destination by the coordinate editing function in the lower right of the main window so that there is no angle close to 180 ° from Z - Matrix."
+
+msgid "Z-Matrixに慣れていない場合は、これ以外の方法として、キーワードに\"XYZ\"を追加すると、このエラーを回避できることもあります。"
+msgstr "If you are new to Z-Matrix, you may be able to avoid this error by adding \ &quot;XYZ \&quot; to the keyword as a different method."
+
+msgid "あるいは、3原子が直線に並ぶ線上から外れた位置に、原子種XXのダミー原子を追加し、直線に並ぶ原子のZ-Matrix上の接続先として指定することで,"
+msgstr "Alternatively, by adding a dummy atom of the atomic type XX to a position out of the line where three atoms are aligned in a straight line and designating it as a connection destination on the Z-Matrix of the atoms arranged in the line,"
+
+msgid "エラーを回避できることもあります。"
+msgstr "Sometimes it is possible to avoid errors."
+
+msgid ""
+"Q. MOPACを実行するとログに「UNRECOGNIZED KEY-WORDS: ( "
+"PM6（ハミルトニアン名）)」と出力され計算が終了してしまいます。"
+msgstr "Q. When MOPAC is executed, &quot;UNRECOGNIZED KEY - WORDS: (PM 6 (Hamiltonian name))&quot; is output to the log and calculation is ended."
+
+msgid ""
+"A. "
+"MOPACキーワード設定でHamiltonian=AM1に変えると動く場合は、使しているMOPACが対応していないハミルトニアンを選択していることによるエラーが出たことになります。"
+msgstr "A. If you move to Hamiltonian = AM1 with MOPAC keyword setting, you will get an error due to selecting the Hamiltonian not supported by the MOPAC you are using."
+
+msgid ""
+"Winmostarマニュアルの `MOPACの各バージョンがサポートするハミルトニアンの一覧 "
+"<https://winmostar.com/jp/manual_jp/V8/calcmanual_jp.html#mopac1>`_ "
+"をご確認の上、適切なハミルトニアンを選択してください。"
+msgstr "List of Hamiltonian supported by each version of `MOPAC of Winmostar manual <https://winmostar.com/jp/manual_jp/V8/calcmanual_jp.html#mopac1> Please check `_ and select the appropriate Hamiltonian."
+
+msgid "それでも動かない場合は :ref:`一般的な不具合 <faq_general_error>` の対処を実施してください。"
+msgstr "If it still does not work: ref: `general bug <faq_general_error> `Please take action."
+
+msgid "Q. CNDO/SでMethod=INDOを使用したときに計算できません。"
+msgstr "Q. It can not be calculated when Method = INDO is used in CNDO / S."
+
+msgid "A. F以降の元素は同プログラムのMethod=INDOでサポートされていません。"
+msgstr "The elements after A. F are not supported by Method = INDO of the same program."
+
+msgid "Method=CNDOにするか、GAMESSなどの非経験手法を使ってください。"
+msgstr "Make Method = CNDO, or use a non-empirical technique such as GAMESS."
+
+msgid "Q. GAMESSでNMR計算を実行できません。"
+msgstr "Q. I can not perform NMR calculation with GAMESS."
+
+msgid "A. まずは :ref:`一般的な不具合 <faq_general_error>` の対処を実施してください。"
+msgstr "A. First of all: ref: `general trouble <faq_general_error> `Please take action."
+
+msgid "また、$SCFのDIRSCF=.F.にすること、並列計算ができないのでNCPUS=1にすることが必要です。"
+msgstr "Also, it is necessary to set DIRSCF =. F. Of $ SCF, NCPUS = 1 because parallel calculation can not be done."
+
+msgid "（計算結果出力の最後の方に以下の様に詳細が記載されます。）"
+msgstr "(The details are listed as follows at the end of the calculation result output.)"
+
+msgid ""
+"Q. GAMESSの実行時に「***** ERROR: MEMORY REQUEST EXCEEDS AVAILABLE "
+"MEMORY」などとログに出力され計算が異常終了します。"
+msgstr "Q. When running GAMESS, &quot;***** ERROR: MEMORY REQUEST EXCEEDS AVAILABLE MEMORY&quot; etc. will be output to the log and the calculation will end abnormally."
+
+msgid "A. GAMESSの実行時に割り当てられたメモリ容量が足りていないことを意味しています。"
+msgstr "A. It means that the allocated memory capacity of GAMESS is insufficient."
+
+msgid "インプットファイル内のMWORDS=の数値を増やすことで、エラーを回避できます。"
+msgstr "You can avoid errors by increasing the value of MWORDS = in the input file."
+
+msgid ""
+"Q. GAMESSにおいて、1原子だけの系の計算で「WARNING. NUMBER OF INTERNAL COORDINATES IS "
+"GREATER THAN (3N-6), BUT NO SYMMETRY COORDINATES ARE "
+"GIVEN.」と表示されて異常終了します。"
+msgstr "Q. In GAMESS, it will be displayed as &quot;WARNING. NUMBER OF INTERNAL COORDINATES IS GREATER THAN (3N - 6), BUT NO SYMMETRY COORDINATES ARE GIVEN.&quot; In the calculation of only one atom and abnormally ends."
+
+msgid "A. 原子が1個だけの系においてZ-matrixを使うことによる不具合を示すメッセージになります。"
+msgstr "A. This is a message indicating a problem caused by using Z-matrix in a system with only one atom."
+
+msgid "この場合は直交座標を使う（COORD=UNIQUEにする）ことで解消します。"
+msgstr "In this case, rectangular coordinates are used (COORD = UNIQUE) to solve it."
+
+msgid "WimostarのGAMESSキーワード設定ウィンドウにおいて、COORDをUNIQUEに変更してください。"
+msgstr "In Wimostar&#39;s GAMESS keyword setting window, change COORD to UNIQUE."
+
+msgid ""
+"Q. GAMESSのログに「 `**** ERROR **** PCM SPHERE(S) MUST HAVE A POSITIVE "
+"RADIUS` 」と表示され異常終了します。"
+msgstr "Q. The message &quot;` **** ERROR **** PCM SPHERE (S) MUST HAVE A POSITIVE RADIUS`` is displayed in the log of GAMESS and abnormally ends."
+
+msgid "A. Cavity半径がGAMESSに内蔵されていない原子が含まれている可能性があります。"
+msgstr "A. Cavity radius may contain atoms not built in GAMESS."
+
+msgid "Cavity半径を指定するためには、$PCM行の直後に次のステートメントを追加してください。"
+msgstr "To specify the Cavity radius, add the following statement immediately after the $ PCM line."
+
+msgid "$PCMCAV RIN(13)=1.55, RIN(15)=1.55 $END"
+msgstr "$ PCMCAV RIN (13) = 1.55, RIN (15) = 1.55 $ END"
+
+msgid "この例では13番目と15番目の原子にCavity半径を与えます。"
+msgstr "In this example, we give Cavity radius to the 13th and 15th atoms."
+
+msgid ""
+"Q. NWChemの並列実行時に「Please specify an authentication passphrase for smpd: "
+"」とログに出力され計算が流れません。"
+msgstr "Q. When parallel execution of NWChem, the calculation will not be output as &quot;Please specify an authentication passphrase for smpd:&quot; will be output to the log."
+
+msgid "A. MPICH2インストール時にパスフレーズ（passphrase）を省略してしまうとそのようなエラーになる場合があります。"
+msgstr "A. If you omit the pass phrase (passphrase) when installing MPICH 2, such an error may occur."
+
+msgid "解決方法はいくつかありますが、MPICH2を一旦アンインストールしてから、再度インストールすると解決することがあります。"
+msgstr "There are several solutions, but after uninstalling MPICH 2, reinstalling MPICH 2 may resolve it."
+
+msgid "その場合は、MPICH2のアンインストール前にsmpdをストップし、MPICH2の再インストール後にsmpdをインストールする必要があります。"
+msgstr "In that case, you need to stop smpd before uninstalling MPICH 2 and install smpd after reinstalling MPICH 2."
+
+msgid "Q. Gaussianのoutファイルを読み込んだのですが、軌道(固有)エネルギーなどが標示されません。"
+msgstr "Q. I read the Gaussian out file, but the orbital (intrinsic) energy etc. are not indicated."
+
+msgid "A. 実行したGaussianの入力ファイルにpop=fullまたはpop=regularが抜けている場合は表示されません。"
+msgstr "A. It is not displayed if pop = full or pop = regular is missing in the executed Gaussian input file."
+
+msgid "Q. Gaussianでchkファイルを読み込んだ計算を実施する方法を教えてください。"
+msgstr "Q. How do I calculate the chk file read in Gaussian?"
+
+msgid ""
+"A. リモートジョブの場合はSubmitJobウィンドウで[Advance]のチェックを入れ、[Delete "
+"\\*.chk]のチェックを外すとchkファイルが残され、その上でchkファイルを生成した時と同じ名前でジョブを流すとchkファイルを読み込んで計算が流れます。"
+msgstr "A. For remote jobs, check the [Advance] check in the SubmitJob window and uncheck [Delete \\ *. Chk] to leave the chk file and use the same name as when chk file was created on it When you run the job, the chk file is loaded and the calculation flows."
+
+msgid "`--Link1--` を使う方法の方が設定自体は簡便なため、こちらの使用もご検討ください。"
+msgstr "The method using `- Link 1 -` is simpler in setting itself, so please consider using it here as well."
+
+msgid "Gromacs, LAMMPSに関して"
+msgstr "About Gromacs, LAMMPS"
+
+msgid "Q. 分子動力学計算においてどのように系を平衡化したらいいですか。"
+msgstr "Q. How can we equilibrate the system in molecular dynamics calculation?"
+
+msgid "A. 低分子の平衡状態の凝集系（気体ではなく液体・固体のこと）計算が目的のケースについてまず述べます。"
+msgstr "A. First of all, I will describe the case where the calculation of the aggregation system (liquid and solid, not gas) of the equilibrium state of low molecular weight is aimed."
+
+msgid "まず初期状態の分子を並べる際には、最終的な密度に極力近い密度に設定してください。"
+msgstr "When aligning molecules in the initial state, please set the density as close as possible to the final density."
+
+msgid "しかし、かなり低密度でないと並べられないときはそれで構いません。"
+msgstr "However, when it is not possible to arrange it unless it is considerably low density, it does not matter."
+
+msgid "その後、ポテンシャルエネルギー、温度、密度の変化が収束するまで、エネルギー極小化、温度一定計算、温度圧力一定計算を流してください。"
+msgstr "After that, please carry out energy minimization, constant temperature calculation, constant temperature pressure calculation until the change of the potential energy, temperature and density converge."
+
+msgid "初期密度が低すぎた場合は、温度圧力一定計算で、目標圧力よりも高めの圧力（例えば100倍程度）で一旦圧縮してください。"
+msgstr "If the initial density is too low, compress it with a pressure higher than the target pressure (for example, about 100 times) by constant temperature pressure calculation."
+
+msgid "最終的にアンサンブル平均の物理量に関心があり、平衡化後に目標温度・圧力に達しているならば、細かい平衡化手順の差は計算結果に大きな影響を与えることは少ないです。"
+msgstr "Finally, if you are interested in the ensemble average physical quantity and reaching the target temperature and pressure after equilibration, the difference in the fine equilibration procedure is less likely to have a significant influence on the calculation result."
+
+msgid "高分子、ガラスの場合は、真の意味で平衡状態を得るには、現実的な計算時間では不可能な場合がほとんどのため、エネルギー、温度、密度の収束の加え、観察したい物理量に影響が大きいと思われる物理量の相関が0に到達する程度の時間平衡化計算を実施します。"
+msgstr "In the case of polymers and glasses, in most cases it is impossible to obtain an equilibrium state in a real sense, because realistic computation time is almost impossible, so the convergence of energy, temperature and density, the influence on the physical quantity to be observed is affected Equilibrium calculation is carried out for a time to the extent that the correlation of physical quantities considered to be large reaches zero."
+
+msgid "気体の場合は圧力制御は不安定なため、エネルギー極小化と温度一定計算のみで平衡状態を得ます。"
+msgstr "Since pressure control is unstable in the case of gas, equilibrium state is obtained only by energy minimization and constant temperature calculation."
+
+msgid "Q. GromacsのER法結果読み込みを実行しても結果が表示できません／エラーが出ます。"
+msgstr "Q. Even if Gromacs ER method result loading is executed, the result can not be displayed / an error will appear."
+
+msgid "A. ER法を実行する際に指定した出力先ディレクトリに生成されるermod.outの内容を確認してください。"
+msgstr "A. Please check the contents of ermod.out generated in the output destination directory specified when executing the ER method."
+
+msgid ""
+"ermod.outの中に「 The minimum of the energy coordinate is too large; the "
+"ecdmin parameter needs to be "
+"smaller」と書かれている場合は、ER法実行ウィンドウの[Options]ボタンを押し、[For Solution "
+"System]のと[minimum value of the solute-solvent energy "
+"(ecdmin)]の値を小さくしてください。"
+msgstr "If it says &quot;___ minimum of the energy coordinate is too large&quot; in ermod.out, press the [Options] button on the ER method execution window and select [For Solution System] Please reduce the value of [minimum value of the solute - solvent energy (ecdmin)]."
+
+msgid ""
+"具体的な値の設定方法など、詳しくは `ERmodのwikiのFAQ "
+"<https://sourceforge.net/p/ermod/wiki/TooLargeMinimum/>`_ を参照してください。"
+msgstr "For details on how to set concrete values, please see &#39;ERmod&#39;s wiki FAQ <https://sourceforge.net/p/ermod/wiki/TooLargeMinimum/> See `_."
+
+msgid ""
+"また、同様にermod.outの内容と `ERmodのwikiのFAQ全般 "
+"<https://sourceforge.net/p/ermod/wiki/FAQ_running/>`_ "
+"の内容を照らし合わせ、ermodの設定の変更が必要な場合はER法実行ウィンドウの[Options]で設定してください。"
+msgstr "Similarly, the content of ermod.out and `FAQ of ERmod&#39;s wiki in general <https://sourceforge.net/p/ermod/wiki/FAQ_running/> Check the contents of `_ and if you need to change the setting of ermod, set it in [Options] of ER method execution window."
+
+msgid "Quantum ESPRESSO, OpenMXに関して"
+msgstr "About Quantum ESPRESSO, OpenMX"
+
+msgid "Q. Quantum ESPRESSOを用いた計算が失敗します。計算結果の表示でエラーが出ます。"
+msgstr "Q. Calculation using Quantum ESPRESSO fails. An error appears in displaying the calculation result."
+
+msgid "次に、WinmostarではQEの各モジュールをバッチ処理で連続実行しているので、Winmostarが生成したbatファイル（ローカル実行の時）またはshファイル（リモート実行の時）に記述された処理の流れを見ながら、生成された出力ファイル（pwoutまたはout）ファイルを順番に確認してください。"
+msgstr "Next, since Winmostar continuously executes each module of QE by batch processing, we look at the flow of processing described in Winmostar generated bat file (local execution) or sh file (remote execution) While checking the generated output file (pwout or out) file in order."
+
+msgid "例えば、フォノン計算の場合はph.xの出力ログ（ph.out）を確認してください。"
+msgstr "For example, check ph.x output log (ph.out) for phonon calculation."
+
+msgid "最初に「Error in routine ...」などのエラーが出現した箇所の対処を施し、再度ジョブを実行してください。"
+msgstr "Please take action on the place where error such as &quot;Error in routine ...&quot; appears first, then execute the job again."
+
+msgid ""
+"特定のキーワードに関するエラーは、そのキーワードの設定を `公式サイト <https://www.quantum-"
+"espresso.org/Doc/INPUT_PW.html>`_ でご確認ください。"
+msgstr "Errors related to specific keywords, the setting of that keyword &#39;official site <https://www.quantum-espresso.org/Doc/INPUT_PW.html> Please confirm with `_."
+
+msgid ""
+"典型的なQEのエラーの対処方法は `公式サイトのFAQ <http://www.quantum-"
+"espresso.org/resources/faq>`_ に記載されています。"
+msgstr "Typical QE error handling &#39;official site FAQ <http://www.quantum-espresso.org/resources/faq> It is described in `_."
+
+msgid "Q. Quantum ESPRESSO, OpenMXのSCF計算または構造最適化計算が収束しません。"
+msgstr "Q. Quantum ESPRESSO, OpenMX SCF calculation or structure optimization calculation does not converge."
+
+msgid "A. 以下の対策を順に実施してください。"
+msgstr "A. Please carry out the following countermeasures in order."
+
+msgid "必ず試すべきこと："
+msgstr "Always to try:"
+
+msgid "・第一原理計算は設定項目が多いので、適当に計算条件を変えず、きちんと記録を取りながら一連の計算を流す。"
+msgstr "· First-principles calculations have many setting items, so do not change the calculation conditions appropriately, and stream a series of calculations while recording properly."
+
+msgid "・:ref:`QEの一般的な不具合 <faq_qe_general_error>` の対処を実施する。"
+msgstr "·: Ref: `general problem of QE <faq_qe_general_error> `Will be implemented."
+
+msgid "・本当に収束しない傾向にあるいかチェックする。"
+msgstr "· Check if it tends not to converge really."
+
+msgid "・QEではEstimated accuracyをSCFサイクル数に対しプロットする。両対数プロットならなおよし。"
+msgstr "• For QE, plot the Estimated accuracy against the number of SCF cycles. It is still good if it is a log-log plot."
+
+msgid "・スピン分極状態・電荷が妥当か調べる。"
+msgstr "· Spin Polarization State · Determine whether electric charge is appropriate."
+
+msgid "・up/downスピンの並び方を与える。"
+msgstr "· Up / down gives the arrangement of spins."
+
+msgid "・系全体の磁気モーメントを拘束する。"
+msgstr "· Constrain the magnetic moment of the whole system."
+
+msgid "・尤もらしい初期構造を使う。"
+msgstr "· Use a promising initial structure."
+
+msgid "・実験や他の計算手法で得られた構造を使う。"
+msgstr "· Use structures obtained by experiments and other calculation methods."
+
+msgid "・計算する上で配置に任意性のある原子（X線で見えない軽元素、固溶体、欠陥、非整数の組成など）がある場合は、違う配置を試す。"
+msgstr "· If there are arbitrary atoms (placement of light elements, solid solutions, defects, non-integral components etc. which can not be seen with X rays) in the calculation, try different arrangements."
+
+msgid "・固溶体・欠陥を含むようなケースでは、系内に大きなダイポールモーメントが生じないような初期構造にする。"
+msgstr "· In cases where solid solution · defects are included, make the initial structure so that large dipole moment does not occur in the system."
+
+msgid "次に試すこと："
+msgstr "Try next:"
+
+msgid "・mixing_modeを調整する。"
+msgstr "· Adjust mixing_mode."
+
+msgid "・擬ポテンシャルの種類を変える。"
+msgstr "· Change the type of pseudopotential."
+
+msgid "・スピン分極の初期値を調整する。（原子単位または系全体）"
+msgstr "· Adjust the initial value of spin polarization. (Atomic unit or whole system)"
+
+msgid "・外部電場、欠陥、吸着など比較的複雑な条件を設定している場合は、それらをなくしたよりシンプルな条件で試し、その計算が収束したなら、その計算の終状態（原子配置・波動関数など）を始状態として計算を開始する。"
+msgstr "· If relatively complicated conditions such as external electric field, defect, adsorption, etc. are set, try them under simpler conditions than eliminating them, and if the calculation converges, the final state of the calculation (atomic arrangement · wave function Etc.) as the initial state and starts the calculation."
+
+msgid "・収束しなかった計算の途中から計算を開始する（SCFのアルゴリズムは履歴に依存するため）。"
+msgstr "· Calculation is started from halfway of computation that did not converge (SCF algorithm depends on history)."
+
+msgid "・行列計算のパラメータを調整する（収束しづらい設定のみ見直す）。"
+msgstr "· Adjust the parameters of matrix calculation (review only settings that are difficult to converge)."
+
+msgid "・スラブに分子が吸着するような、系内に大きなダイポールモーメントが発生してしまう場合は、ダイポールの補正を行う。"
+msgstr "· If large dipole moment occurs in the system, such as molecules are adsorbed on the slab, correct the dipole."
+
+msgid "計算時間・計算精度との兼ね合いで試すこと："
+msgstr "Try in balance with calculation time / calculation precision:"
+
+msgid "・カットオフエネルギーを大きく取る。"
+msgstr "· Take a large cutoff energy."
+
+msgid "・K点を多めにとる。"
+msgstr "· Take a lot of K points."
+
+msgid "・smearingを調整する（種類・幅）。"
+msgstr "· Adjust smearing (type / width)."
+
+msgid "・波動関数の更新度合（QEではmixing_beta）を小さくする。"
+msgstr "· Reduce the degree of update of the wave function (mixing_beta in QE)."
+
+msgid "計算精度との兼ね合いで試すこと："
+msgstr "Try with balance with calculation accuracy:"
+
+msgid "・SCFの収束パラメータを緩くする。"
+msgstr "Loosen the convergence parameter of the SCF."
+
+msgid ""
+"Q. Quantum ESPRESSOのSCF計算が出力ファイル（.pwoutまたは.out）に「too few "
+"bands」と表示され異常終了します。nbndの設定方法が分かりません。"
+msgstr "Q. The SCF calculation of Quantum ESPRESSO is displayed as &quot;too few bands&quot; in the output file (.pwout or .out) and abnormally ends. I do not know how to set nbnd."
+
+msgid ""
+"A. まずは `QE公式のマニュアルのnbndの説明 <https://www.quantum-"
+"espresso.org/Doc/INPUT_PW.html#idm45922794572608>`_ をご確認ください。"
+msgstr "A. First of all `nbnd&#39;s description of the` QE official manual <https://www.quantum-espresso.org/Doc/INPUT_PW.html#idm45922794572608> Please check `_."
+
+msgid ""
+"nbndを使わずに計算を流すと、QEが自動でnbndを適当に設定して計算するので、Winmostarのキーワード設定画面で「Use "
+"nbnd」のチェックを外してください。"
+msgstr "If you do not use nbnd when you do the calculation, QE automatically calculates nbnd by setting it automatically, so please uncheck &quot;Use nbnd&quot; on the keyword setting screen of Winmostar."
+
+msgid ""
+"nbndを増やしたい場合は、nbndを使わずに実行したときにpwoutまたはoutファイルに出力される\"number of Kohn-Sham "
+"states\"の値よりも大きい値をnbndに設定してください。"
+msgstr "To increase nbnd, set nbnd to a value larger than the value of \ &quot;number of Kohn-Sham states \&quot; that is output to the pwout or out file when executed without using nbnd."
+
+msgid ""
+"また、Winmostarのキーワード設定画面の「Use nbnd」のところに表示される「# valence bands: "
+"」の値も参考にしてください（詳細は `Winmostarマニュアル "
+"<https://winmostar.com/jp/manual_jp/V8/calcmanual_jp.html#qe1>`_ を参照）。"
+msgstr "Also please refer to the value of &quot;# valence bands:&quot; displayed at &quot;Use nbnd&quot; on the keyword setting screen of Winmostar (For details, see `Winmostar manual <https://winmostar.com/jp/manual_jp/V8/calcmanual_jp.html#qe1> `_)."
+
+msgid ""
+"Q. Quantum ESPRESSOを用いて誘電関数を計算する際に、epsilon.xの出力(eps.out)に「bad band "
+"number」と表示され誘電関数を取得できません。"
+msgstr "Q. When calculating the dielectric function using Quantum ESPRESSO, &quot;bad band number&quot; is displayed in the epsilon.x output (eps.out) and it is not possible to acquire the dielectric function."
+
+msgid "A. SCF計算でバンド数（nbnd）を増やすことで解消します。"
+msgstr "A. It is solved by increasing the number of bands (nbnd) by SCF calculation."
+
+msgid ""
+"Q. Quantum ESPRESSOを用いて誘電関数を計算する際に、epsilon.xの出力(eps.out)に「USPP are not "
+"implemented」と表示され誘電関数を取得できません。"
+msgstr "Q. When calculating the dielectric function using Quantum ESPRESSO, &quot;USPP are not implemented&quot; is displayed in the epsilon.x output (eps.out) and it is not possible to acquire the dielectric function."
+
+msgid "A. SCF計算でノルム保存型の擬ポテンシャルを選択することで解消します。"
+msgstr "A. By selecting the norm preservation type pseudopotential in the SCF calculation, we solve it."
+
+msgid ""
+"Q. Quantum ESPRESSOを用いてPhonon計算を実行する際に、ph.xの出力(ph.out)に「The phonon code "
+"with US-PP and raman or elop not yet available」と表示され計算結果を取得できません。"
+msgstr "Q. When executing Phonon calculation using Quantum ESPRESSO, ph.x output (ph.out) displays &quot;The phonon code with US-PP and raman or elop not yet available&quot; and the calculation result can not be acquired ."
+
+msgid "A. ノルム保存型の擬ポテンシャルを選択することで解消します。"
+msgstr "A. By eliminating the pseudopotential of the norm preservation type, it can solve it."
+
+msgid "その他の機能に関して"
+msgstr "About other functions"
+
+msgid ""
+"Q. ハンセン溶解度(HSP)パラメータを計算するとエラーが出ます。ログファイル（ :file:`*_hsp_tmp\\\\temp.out` "
+"）に `... undefined ...` と出力されます。"
+msgstr "Q. I get an error when calculating Hansen solubility (HSP) parameters. `... undefined ...` is output to the log file (: file: `* _ hsp_tmp \ \ \ temp.out`)."
+
+msgid ""
+"A. "
+"同機能の原子数制限に引っかかったものと思われます。現在、総原子数は最大250、水素以外の原子数は最大120という制限があります。繰り返し構造を持つオリゴマーの場合は、本来は溶解度パラメータが分子サイズで規格化された指数であることにご注意ください。"
+msgstr "A. It seems that it caught on the limit of number of atoms of the same function. Currently there are limitations on the total number of atoms to be up to 250 and the number of atoms other than hydrogen to be up to 120. In the case of an oligomer with a repeating structure, please note that the solubility parameter is originally an index normalized by molecular size."
+
