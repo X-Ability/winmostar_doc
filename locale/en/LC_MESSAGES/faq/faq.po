@@ -6,17 +6,7 @@
 #
 
 msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 00:39+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+msgstr ""
 
 msgid "よくある質問・トラブルシューティング"
 msgstr "Frequently asked questions · Troubleshooting"
@@ -82,7 +72,7 @@ msgid "Q. 講義での使用方法を教えてください。講義用ライセ�
 msgstr "Q. Please tell me how to use it in the lecture. Please tell me the terms of use of lecture license."
 
 msgid "A. 講義用ライセンスを教育機関での講義目的に限り、教員及び授業に参加する学生全員でお使いいただけます。"
-msgstr "A. You can use the lecture license only for lecture purposes at educational institutions, and for all students participating in teachers and classes."
+msgstr "A. You can use the lecture license only for lecture purposes at educational institutions, and for all students partcipating in teachers and classes."
 
 msgid "申請時には以下の注意点をご確認下さい。"
 msgstr "Please check the following notes when applying."
@@ -91,13 +81,13 @@ msgid "・講義を行われる先生から直接問い合わせ下さい。"
 msgstr "· Please contact directly from the teacher who is lecturing."
 
 msgid "・自由記入欄に授業名・期間・おおよその学生数ご記入下さい。"
-msgstr "· Name in the free entry field · period · approximate number of students Please fill in."
+msgstr "・ Name in the free entry field ・ period ・ approximate number of students Please fill in."
 
 msgid "・後日授業資料を共有いただけますと幸いです。"
 msgstr "· I am pleased to share the lesson materials later."
 
 msgid "講義用ライセンスは `こちら <https://winmostar.com/jp/support_jp.php>`_ から申請することができます。"
-msgstr "Lecture license is here <https://winmostar.com/jp/support_jp.php> You can apply from _."
+msgstr "You can apply for lecture a license `here <https://winmostar.com/jp/support_jp.php>`_."
 
 msgid "ソフトウェア動作全般"
 msgstr "Software operation in general"
@@ -109,8 +99,7 @@ msgid "まず、以下の基礎的なチェックを行ってください。"
 msgstr "First, please perform the following basic checks."
 
 msgid ":ref:`インストール時の注意事項 <intall_installwm>` を確認する。"
-msgstr ": ref: `Installation notes <intall_installwm> `."
-
+msgstr "Check the :ref:`Installation precautions <intall_installwm>`_."
 
 msgid ""
 "使用中のWinmostarが無償版、学生版、プロフェッショナル版、プロフェッショナル版（トライアル）のいずれに該当するか確認し、問題を起こしている機能がその版で使用可能か"
@@ -195,7 +184,7 @@ msgid "A. :ref:`install_recommend_spec` をご確認下さい。"
 msgstr "A. Please check ref: `install_recommend_spec`."
 
 msgid "Q. 「ERROR: I/O error 32」と表示され処理に失敗します。"
-msgstr "Q. &quot;ERROR: I / O error 32&quot; is displayed and processing fails."
+msgstr "Q. "ERROR: I / O error 32" is displayed and processing fails."
 
 msgid ""
 "A. "
@@ -211,12 +200,11 @@ msgstr "Q. Is it possible to use the created molecular model etc for academic pr
 msgid "A. 使用いただいて問題ありません。発表される際には :ref:`intro_citation` の通りに引用してください。"
 msgstr "A. No problem with using it. When announcing it please quote as per: ref: `intro_citation`."
 
-
 msgid ""
 "Q. Cygwinを使う処理が異常終了します。／ :menuselection:`ツール --> cygwin_wmを診断` 機能で `... "
 "ERROR ...` と表示されます。／Cygwinの黒いウィンドウに `child_info_fork::abort: ... Loaded "
 "to different address: parent ... != child ...` などと表示されます。"
-msgstr "Q. Process using Cygwin will end abnormally. /: Menuselection: `tools -&gt; diagnose cygwin_wm` function will display `... ERROR ...`. / Cygwin&#39;s black window will display `child_info_fork :: abort: ... Loaded to different address: parent ...! = Child ...`."
+msgstr "Q. Process using Cygwin will end abnormally. / :Menuselection:`tools --> diagnose cygwin_wm` function will display `... ERROR ...`. / Cygwin&#39;s black window will display `child_info_fork :: abort: ... Loaded to different address: parent ...! = Child ...`."
 
 msgid "A. 以下の手順を上から順に一つずつ実行し、その都度、エラーが起きた処理を再実施してください。"
 msgstr "A. Please execute the following procedure one by one from the top one one by one, and re-execute the process where the error occurred each time."
@@ -259,7 +247,7 @@ msgstr "Others, &#39;Cygwin&#39;s FAQ on fork () related failures <https://cygwi
 msgid ""
 "Q. :menuselection:`ツール --> cygwin_wmを診断` 機能で `WARNING ... some files are "
 "missing` と表示されます。"
-msgstr "Q.: menuselection: `tools -&gt; diagnose cygwin_wm` function will display `WARNING ... some files are missing`."
+msgstr "Q. :menuselection:`tools --> diagnose cygwin_wm` function will display `WARNING ... some files are missing`."
 
 msgid "A. cygwin_wmを再インストールしてください。"
 msgstr "A. Please reinstall cygwin_wm."
@@ -275,7 +263,6 @@ msgstr "Q. How do I change the type of chemical bond (single, double etc.)?"
 
 msgid "A. 例えば以下に示す方法で変更できます。"
 msgstr "A. You can change it by the following method, for example."
-
 
 msgid ""
 "1) :menuselection:`編集 --> 結合 --> 結合付加` またはメインウィンドウ上部のk :guilabel:`結合付加` "
@@ -296,13 +283,13 @@ msgstr "3) If only one small molecule is displayed, execution of MOPAC calculati
 msgid ""
 "Q. :menuselection:`MD --> 溶媒を配置/系を構築` 機能を実行すると `Error : Failed to "
 "solvate.` などと表示され処理に失敗します。"
-msgstr "Q.: menuselection: `MD -&gt; Arrange Solvent / Building System &#39;function will display&quot; Error: Failed to solvate. &quot;And processing will fail."
+msgstr "Q. :menuselection: `MD --> Arrange Solvent / Building System &#39;function will display "Error: Failed to solvate." And processing will fail."
 
 msgid "---------質問詳細---------"
 msgstr "--------- Question details ---------"
 
 msgid ":menuselection:`MD --> 溶媒を配置/系を構築` を実行した際に :file:`generate.log` に ::"
-msgstr ": menuselection: `MD -&gt; Arrange Solvent / Build System` when executing: file: `generate.log` ::"
+msgstr " :menuselection:`MD --> Arrange Solvent / Build System` when executing: file: `generate.log` ::"
 
 msgid "などと出力され処理が正常終了しません。"
 msgstr "The process is output normally and the process does not end normally."
@@ -326,17 +313,17 @@ msgid ""
 "Winmostarの :menuselection:`ツール --> cygwin_wm起動` をクリックし、起動したcygwin上で "
 "`各種ソルバのインストール手順(Cygwin) <https://winmostar.com/jp/gmx4wm_jp_win.html>`_ "
 "の「1-2. Gromacs」のインストール手順を試みる"
-msgstr "Winmostar &#39;s: menuselection: `tools -&gt; cygwin_wm startup&#39; Click on the installed cygwin` various solver installation procedures (Cygwin) <https://winmostar.com/jp/gmx4wm_jp_win.html> Try&#39;.1-2. Gromacs&#39; installation procedure for `_"
+msgstr "Winmostar &#39;s :menuselection:`tools --> cygwin_wm startup&#39; Click on the installed cygwin` various solver installation procedures (Cygwin) <https://winmostar.com/jp/gmx4wm_jp_win.html> Try&#39;.1-2. Gromacs&#39; installation procedure for `_"
 
 msgid ""
 ":menuselection:`ツール --> cygwin_wm起動` で :command:`gmx` と実行し `GROMACS: gmx,"
 " VERSION ...` などとGromacsの起動を示すメッセージが表示されたら再ビルドは成功である"
-msgstr ": menuselection: `rebuild is successful when a message showing the start of Gromacs such as&#39;: tool -&gt; cygwin_wm start` and executing: command: `gmx` and` GROMACS: gmx, VERSION ... `"
+msgstr " :menuselection:`rebuild is successful when a message showing the start of Gromacs such as&#39;: tool --> cygwin_wm start` and executing: command: `gmx` and` GROMACS: gmx, VERSION ... `"
 
 msgid ""
 "分子数が大きい場合（ケースにもよるが10,000程度）は、現在内部処理で使用している :command:`gmx solvate` "
 "の処理の限界となるケースもあるので、 :menuselection:`編集 --> 部分編集 --> 部分複製` で分子を並べてください。"
-msgstr "There are cases where the number of molecules is large (depending on the case, but it is about 10,000), since it is currently the limit of processing of command: `gmx solvate`, which is used in internal processing,: menuselection:` edit -&gt; Please align molecules with partial editing -&gt; partial duplication."
+msgstr "There are cases where the number of molecules is large (depending on the case, but it is about 10,000), since it is currently the limit of processing of command: `gmx solvate`, which is used in internal processing, :menuselection:` edit --> Please align molecules with partial editing --> partial duplication."
 
 msgid "将来的には本機能で分子数が大きい場合にも対応予定です。"
 msgstr "In future it is also planned to handle cases where the number of molecules is large with this function."
@@ -500,7 +487,6 @@ msgstr "I will come out."
 msgid "角度が180°近くになる角度がZ-Matrixに含まれている場合に表示されます。"
 msgstr "It is displayed when the angle at which the angle is close to 180 ° is included in Z - Matrix."
 
-
 msgid "メインウィンドウ右下の座標編集機能で、接続先の原子を変更し、Z-Matrixから180°に近い角度がなくなるようにしてください。"
 msgstr "Please change the atom of the connection destination by the coordinate editing function in the lower right of the main window so that there is no angle close to 180 ° from Z - Matrix."
 
@@ -576,7 +562,6 @@ msgstr "A. This is a message indicating a problem caused by using Z-matrix in a 
 msgid "この場合は直交座標を使う（COORD=UNIQUEにする）ことで解消します。"
 msgstr "In this case, rectangular coordinates are used (COORD = UNIQUE) to solve it."
 
-
 msgid "WimostarのGAMESSキーワード設定ウィンドウにおいて、COORDをUNIQUEに変更してください。"
 msgstr "In Wimostar&#39;s GAMESS keyword setting window, change COORD to UNIQUE."
 
@@ -619,7 +604,6 @@ msgstr "A. It is not displayed if pop = full or pop = regular is missing in the 
 
 msgid "Q. Gaussianでchkファイルを読み込んだ計算を実施する方法を教えてください。"
 msgstr "Q. How do I calculate the chk file read in Gaussian?"
-
 
 msgid ""
 "A. リモートジョブの場合はSubmitJobウィンドウで[Advance]のチェックを入れ、[Delete "
@@ -665,7 +649,6 @@ msgstr "Q. Even if Gromacs ER method result loading is executed, the result can 
 msgid "A. ER法を実行する際に指定した出力先ディレクトリに生成されるermod.outの内容を確認してください。"
 msgstr "A. Please check the contents of ermod.out generated in the output destination directory specified when executing the ER method."
 
-
 msgid ""
 "ermod.outの中に「 The minimum of the energy coordinate is too large; the "
 "ecdmin parameter needs to be "
@@ -678,7 +661,6 @@ msgid ""
 "具体的な値の設定方法など、詳しくは `ERmodのwikiのFAQ "
 "<https://sourceforge.net/p/ermod/wiki/TooLargeMinimum/>`_ を参照してください。"
 msgstr "For details on how to set concrete values, please see &#39;ERmod&#39;s wiki FAQ <https://sourceforge.net/p/ermod/wiki/TooLargeMinimum/> See `_."
-
 
 msgid ""
 "また、同様にermod.outの内容と `ERmodのwikiのFAQ全般 "

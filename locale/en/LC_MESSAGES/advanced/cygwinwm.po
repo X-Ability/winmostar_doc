@@ -6,17 +6,7 @@
 #
 
 msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+msgstr ""
 
 msgid "cygwin_wm"
 msgstr "cygwin_wm"
@@ -25,10 +15,10 @@ msgid "cygwin_wmは、Winmostar向けのCygwinです。本マニュアルで以�
 msgstr "cygwin_wm is Cygwin for Winmostar. It is called internally by Winmostar in the processing described in this manual as follows."
 
 msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ <install_cygwinwm>` が必要です。"
-msgstr "To use this function: set up: ref: `cygwin_wm <install_cygwinwm> `Is required."
+msgstr "To use this function, you need `cygwin_wm setup <install_cygwinwm>`_."
 
 msgid "インストール方法は :ref:`cygwin_wmのセットアップ <install_cygwinwm>` に記載されています。"
-msgstr "Installation method is: ref: `cygwin_wm setup <install_cygwinwm> It is described in `."
+msgstr "Installation method is described in `cygwin_wm setup <install_cygwinwm>`_."
 
 msgid "一部セキュリティ対策ソフトは、cygwin_wm内の正常なモジュールを誤動作により自動で削除または妨害することがあります。"
 msgstr "Some security countermeasure software may automatically delete or interfere with normal module in cygwin_wm due to malfunction."
@@ -37,11 +27,11 @@ msgid ""
 "Winmostar公式HPからcygwin_wmのインストーラをダウンロードしてインストールした場合は、 :menuselection:`ヘルプ "
 "-->` :ref:`help_check_cygwin` "
 "機能を使用することで、cygwin_wm内のファイルの欠落の有無を簡易的に確認できます。（ファイルの有無しか確認しません。）"
-msgstr "If downloading and installing the cygwin_wm installer from the Winmostar official HP, use the: menuselection: `help -&gt;`: ref: `help_check_cygwin` function to simplify the existence of missing files in cygwin_wm You can check. (We only check the presence or absence of files.)"
+msgstr "If you download and install the cygwin_wm installer from the Winmostar official HP, you can easily check for missinf files in cygwin_wm by using :menuselection:`Help --> Diagnose cygwin` function. (Only the existence of the file is checked.)"
 
 msgid "cygwin_wmを使用する機能で不具合が起きた場合は、セキュリティ対策ソフトの活動レポートもご確認ください。"
 msgstr "If trouble occurs with the function that uses cygwin_wm, please also check the activity report of security countermeasure software."
 
 msgid ":menuselection:`ツール --> cygwin_wm起動` を選択すると、cygwin_wmのコンソールを直接起動することが可能です。"
-msgstr ": menuselection: `tools -&gt; cygwin_wm startup &#39;, you can start the console of cygwin_wm directly."
+msgstr "If you select :menuselection:`tools --> cygwin_wm startup`, you can start the console of cygwin_wm directly."
 

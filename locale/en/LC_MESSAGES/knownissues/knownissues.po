@@ -4,19 +4,18 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-23 15:28+0900\n"
+"POT-Creation-Date: 2019-09-05 14:13+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.7.0\n"
 
 msgid "既知の不具合"
 msgstr "Known problems"
@@ -24,66 +23,55 @@ msgstr "Known problems"
 msgid "Winmostarを管理者権限で起動するとドラッグアンドドロップでファイルを開けない。"
 msgstr "If you start Winmostar with administrator privileges, you can not open files with drag-and-drop."
 
-msgid ""
-"現行のWinmostar (Winmostar "
-"V.8)では、Winmostarを管理者権限で起動するとドラッグアンドドロップでファイルを開けません。将来的に修正予定ですが、作業時期は未定です。(2018年5月24日報告)"
+msgid "現行のWinmostar (Winmostar V.8)では、Winmostarを管理者権限で起動するとドラッグアンドドロップでファイルを開けません。将来的に修正予定ですが、作業時期は未定です。(2018年5月24日報告)"
 msgstr "In the current Winmostar (Winmostar V.8), if you start Winmostar with administrator privileges, you can not open the file by dragging and dropping. It is due to be fixed in the future, but the working time is unknown. (Reported on May 24, 2018)"
 
-msgid ""
-"Windowsの\"Use Unicode UTF-8 for worldwide language "
-"support\"オプションを有効にすると一部のソフトが動作しなくなる。"
-msgstr "Some software does not work if you enable the Windows \ &quot;Use Unicode UTF - 8 for worldwide language support \&quot; option."
+msgid "Windowsの\"Use Unicode UTF-8 for worldwide language support\"オプションを有効にすると一部のソフトが動作しなくなる。"
+msgstr "Some software does not work if you enable the Windows \\ &quot;Use Unicode UTF - 8 for worldwide language support \\&quot; option."
 
-msgid ""
-"英語版Windows 10(1803)において、[Control Panel]-[Region]-[Administrative]-[Change"
-" system locate...]-[Use Unicode UTF-8 for worldwide language "
-"support]にチェックが入っていると、FDMNESの実行に失敗するという報告がありました。FDMNES実行時に読まれるfdmfile.txtがBOM付で出力されることによる不具合です。問題が発生したタイミングでWinmostarを順次対応させていますが、他の機能で同様の問題が発生した場合はご連絡ください。（2018年5月25日報告）"
+msgid "英語版Windows 10(1803)において、[Control Panel]-[Region]-[Administrative]-[Change system locate...]-[Use Unicode UTF-8 for worldwide language support]にチェックが入っていると、FDMNESの実行に失敗するという報告がありました。FDMNES実行時に読まれるfdmfile.txtがBOM付で出力されることによる不具合です。問題が発生したタイミングでWinmostarを順次対応させていますが、他の機能で同様の問題が発生した場合はご連絡ください。（2018年5月25日報告）"
 msgstr "In English version Windows 10 (1803), if the check box is checked in [Control Panel] - [Region] - [Administrative] - [Change system locate ...] - [Use Unicode UTF - 8 for worldwide language support] There was a report that FDMNES execution failed. This is a problem caused by fdmfile.txt being read at FDMNES execution being output with BOM. Winmostar is sequentially corresponded at the timing of the problem, but please contact us if similar problems occur with other functions. (Reported on May 25, 2018)"
 
-
 msgid "Animation、Submit Jobなどの一部のサブウィンドウを開き、閉じた後にまた開こうとしても出現しない。"
-msgstr "Opening some subwindows such as Animation, Submit Job and so on, it will not appear even if you try to open again after closing."
-
+msgstr "Opening some subwindows such as Animation, Submit Job and so on, it will "
+"not appear even if you try to open again after closing."
 
 msgid "ごく一部の環境で確認されています。出現しない場合は、Alt+スペースキーを押すと[元のサイズに戻す][移動][サイズ変更]...などのメニューが出現するので、[移動]を選択しドラッグ操作するとウィンドウが再度出現します。あるいは、Winmostarを再起動することで一旦解消します。現在、よりよい対処方法を検討中です。（2018年6月14日報告）"
 msgstr "It has been confirmed in only a few environments. If it does not appear, a menu such as [Return to original size] [Move] [Size change] ... will appear when you press Alt + Space key, so when selecting [Move] and dragging it, the window reappears I will. Alternatively, it can be resolved by restarting Winmostar. We are currently considering better countermeasures. (Reported on 14th June 2018)"
 
-
 msgid "Animationウィンドウ下部のグラフ表示が崩れる。その他UIの表示が崩れる。"
 msgstr "The graph display at the bottom of the Animation window collapses. Other UI display collapses."
 
-msgid ""
-"デスクトップのテキストやその他の項目のサイズをデフォルト値（100 %）から変更している場合は、表示が崩れます。 "
-"Windows8の場合は[コントロールパネル]-[デスクトップのカスタマイズ]-[ディスプレイ]-[すべての項目のサイズを変更する]を[小-100%(規定)]に設定してください。"
-" Windows10の場合は[Windowsの設定]-[システム]-[ディスプレイ]-[カスタムスケーリング]を「100」に設定してください。 "
-"（2018年6月26日報告）"
+msgid "デスクトップのテキストやその他の項目のサイズをデフォルト値（100 %）から変更している場合は、表示が崩れます。Windows8の場合は[コントロールパネル]-[デスクトップのカスタマイズ]-[ディスプレイ]-[すべての項目のサイズを変更する]を[小-100%(規定)]に設定してください。Windows10の場合は[Windowsの設定]-[システム]-[ディスプレイ]-[カスタムスケーリング]を「100」に設定してください。（2018年6月26日報告）"
 msgstr "If you change the size of desktop text or other items from the default value (100%), the display will collapse. For Windows 8, set [Control Panel] - [Customize Desktop] - [Display] - [Change the size of all items] to Small -100% (prescribed). For Windows 10, set [Windows setting] - [system] - [display] - [custom scaling] to &quot;100&quot;. (Reported on June 26, 2018)"
-
 
 msgid "ローカルマシンのジョブが流れているコンソールウィンドウ内でテキストを範囲選択すると、Job Manager上でそのジョブが終了と認識されてしまう。"
 msgstr "If you select a range of text in the console window where the job of the local machine is flowing, the job is recognized as terminating on Job Manager."
 
-
-msgid ""
-"Windows10のコンソールウィンドウ上で、実行中のジョブのログのテキストを範囲選択すると、ジョブが終了したと認識されます。これにより不具合が生じる場合は、出力されるログファイルを直接テキストエディタで開き、そこでテキストを範囲選択、コピーなどしてください。範囲選択後、処理が中断する場合は、Enterキーを押すと処理が再開します。Windows10以降で発生します。"
-" （2018年7月20日報告）"
+msgid "Windows10のコンソールウィンドウ上で、実行中のジョブのログのテキストを範囲選択すると、ジョブが終了したと認識されます。これにより不具合が生じる場合は、出力されるログファイルを直接テキストエディタで開き、そこでテキストを範囲選択、コピーなどしてください。範囲選択後、処理が中断する場合は、Enterキーを押すと処理が再開します。Windows10以降で発生します。 （2018年7月20日報告）"
 msgstr "In the Windows 10 console window, selecting the range of the log text of the job being executed will recognize that the job has ended. If this causes a problem, open the log file to be output directly with a text editor, and select and copy the range of the text there. If processing is interrupted after selecting the range, processing will resume by pressing the Enter key. It occurs in Windows 10 or later. (Reported on July 20, 2018)"
 
 msgid "Fireflyを使った時にRESP電荷を計算できない。"
 msgstr "I can not calculate the RESP charge when using Firefly."
 
-msgid ""
-"WinmostarのRESP電荷算出はGAMESS(US)対象として開発されているため、現状ではFireflyなどを使って構造最適化をした後に、RESP電荷算出時の計算のみGAMESS(US)をお使いください。将来的にはFireflyを使ったRESP電荷計算にも対応予定です。"
-" （2018年7月31日報告）"
+msgid "WinmostarのRESP電荷算出はGAMESS(US)対象として開発されているため、現状ではFireflyなどを使って構造最適化をした後に、RESP電荷算出時の計算のみGAMESS(US)をお使いください。将来的にはFireflyを使ったRESP電荷計算にも対応予定です。 （2018年7月31日報告）"
 msgstr "As Winmostar&#39;s RESP charge calculation has been developed as a target for GAMESS (US), at present, please use GAMESS (US) only for calculation at RESP charge calculation after structure optimization using Firefly etc. In the future we plan to calculate RESP charge using Firefly. (Reported on July 31, 2018)"
 
 msgid "ローカルマシンでGromacsを実行中にGromacsがフリーズする。"
 msgstr "Gromacs freezes while running Gromacs on local machine."
 
-msgid ""
-"ごく一部のマシン上で、ローカルマシンでGromacsを実行中にGromacsがフリーズします。MD計算の最中に発生し、標準出力の内容が変化しなくなります。フリーズする箇所に再現性がありません。このような場合は、Gromacsキーワード設定の「#"
-" of "
-"Threads」を1にすると回避できます。無論処理は遅くなるので、本格的な計算を流したい場合はリモートサーバを利用したリモートジョブ投入機能をお使いください。"
-" （2018年7月31日報告）"
+msgid "ごく一部のマシン上で、ローカルマシンでGromacsを実行中にGromacsがフリーズします。MD計算の最中に発生し、標準出力の内容が変化しなくなります。フリーズする箇所に再現性がありません。このような場合は、Gromacsキーワード設定の「# of Threads」を1にすると回避できます。無論処理は遅くなるので、本格的な計算を流したい場合はリモートサーバを利用したリモートジョブ投入機能をお使いください。 （2018年7月31日報告）"
 msgstr "On some machines, Gromacs freezes while running Gromacs on the local machine. It occurs during MD calculation and the contents of standard output do not change. There is no reproducibility in the place where it freezes. In such cases, you can avoid by setting &quot;# of Threads&quot; of Gromacs keyword setting to 1. As a matter of course, processing becomes slower, please use remote job submission function using remote server if you want to run full-scale calculation. (Reported on July 31, 2018)"
+
+msgid "GromacsのChiまたはDPDパラメータ計算機能において本来の定義の0.5倍の値が出力される。"
+msgstr "Gromacs Chi or DPD parameter calculation function outputs 0.5 times the original definition."
+
+msgid "V9またはV8のユーザの方は、不具合が修正されている9.0.2以降または8.027以降に更新してください。 V7の方はサポート期間外のため算出値に関してはご注意ください。 （2019年6月2日報告）"
+msgstr "If you are a V9 or V8 user, please update to 9.0.2 or later or 8.027 or later where the bug has been fixed. Since V7 is outside the support period, please be careful about the calculated value. (Reported on June 2, 2019)"
+
+msgid "RISM対応版のQuantum ESPRESSO使用時に、メインウィンドウのキーワードが変更されていないにも関わらず変更されたと表示されることがある。"
+msgstr "When using the RISM compatible version of Quantum ESPRESSO, it may be displayed that the main window keyword has been changed even though it has not been changed."
+
+msgid "constant-mu計算時（lfcpopt = .True.）に、fcp_muの値が更新されたと誤判定されます。実際には値が変更されるわけではないため、そのまま使用しても問題ありません。 （2019年6月2日報告）"
+msgstr "During constant-mu calculation (lfcpopt = .True.), it is erroneously determined that the value of fcp_mu has been updated. Since the value is not actually changed, it can be used as is. (Reported on June 2, 2019)"
 
