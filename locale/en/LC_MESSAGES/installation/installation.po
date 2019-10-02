@@ -84,7 +84,7 @@ msgid "インストール"
 msgstr "Installing Winmostar and solvers"
 
 msgid "インストール中に想定しない状況に遭遇した場合は :ref:`faq_top` を確認してください。"
-msgstr "If you encounter an unexpected situation during installation, check :ref:`faq_top`_."
+msgstr "If you encounter an unexpected situation during installation, check :ref:`faq_top` ."
 
 msgid ""
 "`ダウンロードページ <https://winmostar.com/jp/download_jp.html>`_ からインストーラ "
@@ -138,7 +138,8 @@ msgid "WinmostarをインストールしたWindows PC（ローカルマシン）
 msgstr "Install the solver to be used on the Windows PC (local machine) on which Winmostar is installed by the following link destination procedure."
 
 msgid ""
-"`Windows版GAMESSインストールマニュアル <https://winmostar.com/jp/manual_jp/installation/GAMESS_install_manual_jp_win.pdf>`_"
+"`Windows版GAMESSインストールマニュアル           "
+"<https://winmostar.com/jp/manual_jp/installation/GAMESS_install_manual_jp_win.pdf>`_"
 msgstr "`GAMESS installation manual for Windows <https://winmostar.com/jp/manual_jp/installation/GAMESS_install_manual_jp_win.pdf>`_"
 
 msgid ""

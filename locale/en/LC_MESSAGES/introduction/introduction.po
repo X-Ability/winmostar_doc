@@ -50,16 +50,16 @@ msgid "ラベル、ボタンなど GUI に表示される文字列を示しま�
 msgstr "Labels, buttons, etc. Indicates a character string displayed on the GUI."
 
 msgid ":menuselection:`ツール --> 環境設定 --> 基本 --> ライセンスコード`"
-msgstr ": menuselection: `Tools -&gt; Preferences -&gt; Basic -&gt; License code`"
+msgstr ":menuselection:`Tools --> Preferences --> Basic --> License code`"
 
 msgid ""
 "メニュー、タブなどをたどる流れを示します。上記の例は、 メニューから :menuselection:`ツール --> 環境設定` とたどり、 "
 "開いたウィンドウの :guilabel:`基本` というタブをクリックし、その中にある :guilabel:`ライセンスコード` "
 "というラベルの付いたGUIのことを意味します。"
-msgstr "It shows the flow that follows menu, tab, etc. From the menu, follow the menu: menuselection: `Tools -&gt; Preferences` and click on the tab called guilabel: `basic` in the opened window and find the label: guilabel: `license code` It means GUI with."
+msgstr "It shows the flow that follows menu, tab, etc. From the menu, follow the menu: menuselection: `Tools --> Preferences` and click on the tab called :guilabel:`basic` in the opened window and find the label :guilabel:`license code` It means GUI with."
 
 msgid ":file:`wmset.ini` , :file:`C\\\\:winmos9\\\\UserPref`"
-msgstr ": file: `wmset.ini`,: file:` C \\\\: winmos9 \\\\ UserPref`"
+msgstr ":file:`wmset.ini`, :file:`C\\\\:winmos9\\\\UserPref`"
 
 msgid "ファイル名やディレクトリ名を示します。"
 msgstr "Indicates file name or directory name."
@@ -86,7 +86,7 @@ msgid "使用しているライブラリ"
 msgstr "The library you are using"
 
 msgid "Winmostarは一部の処理に下記のライブラリを使用しています。"
-msgstr "Winmostar uses the following libraries for some processing."
+msgstr "Winmostar uses the following libraries for some processins."
 
 msgid "Abbrevia 5.0"
 msgstr "Abbrevia 5.0"
