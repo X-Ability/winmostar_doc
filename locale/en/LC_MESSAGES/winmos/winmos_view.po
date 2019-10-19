@@ -120,7 +120,7 @@ msgid "ラベルと電荷の表示を隠します。（初期状態）"
 msgstr "Hides the label and charge display. (initial state)"
 
 msgid "番号&元素"
-msgstr "Number &amp; element"
+msgstr "Number & element"
 
 msgid "原子の通し番号と元素名を表示します。"
 msgstr "It displays the serial number of the atom and the element name."
@@ -147,10 +147,10 @@ msgid "User電荷"
 msgstr "User charge"
 
 msgid ":menuselection:`編集 --> 属性を変更 -->` :ref:`edit_property_charge` や"
-msgstr ": menuselection: `edit -&gt; change attributes -&gt;`: ref: `edit_property_charge` and"
+msgstr ":menuselection:`edit --> change attributes -->` :ref:`edit_property_charge` and"
 
 msgid ":menuselection:`MD --> 電荷を割り当て` などの機能でユーザが割り当てた電荷を表示します。"
-msgstr ": menuselection: `MD -&gt; charge allocation` and other functions to display the charge assigned by the user."
+msgstr ":menuselection:`MD --> charge allocation` and other functions to display the charge assigned by the user."
 
 msgid "スピン密度"
 msgstr "Spin density"
@@ -161,7 +161,7 @@ msgstr "Spin density read when various log files are opened"
 msgid ""
 ":menuselection:`編集 --> 属性を変更 -->` :ref:`edit_property_charge` "
 "で割り当てたスピン密度を表示します。"
-msgstr ": menuselection: `Edit -&gt; Change Attributes -&gt; Display the spin density assigned by`: ref: `edit_property_charge`."
+msgstr ":menuselection:`Edit --> Change Attributes --> Display the spin density assigned by` :ref:`edit_property_charge`."
 
 msgid "双極子/遷移モーメント"
 msgstr "Dipole / transition moment"
@@ -197,13 +197,13 @@ msgid ""
 "セルが作成されている状態で、原子座標がセルの上端・下端よりも小さい値の場合の表示方法を示します。本機能で座標の値そのものは変化しません。 "
 ":menuselection:`編集 -->` :ref:`edit_wrap_pbc` "
 "を使うと本機能で表示されている原子の位置に座標の値を設定することができます。"
-msgstr "The display method when the atomic coordinates are smaller than the top and bottom of the cell while the cell is being created is shown below. The coordinate value itself does not change with this function. : menuselection: `edit -&gt;`: ref: `edit_wrap_pbc`, you can set the value of the coordinates to the position of the atom displayed in this function."
+msgstr "The display method when the atomic coordinates are smaller than the top and bottom of the cell while the cell is being created is shown below. The coordinate value itself does not change with this function. :menuselection:`edit -->` :ref:`edit_wrap_pbc`, you can set the value of the coordinates to the position of the atom displayed in this function."
 
 msgid "Winmostar Viewer"
 msgstr "Winmostar Viewer"
 
 msgid "分子表示エリアで表示している構造を :ref:`winmos3d_top` を用いて表示します。"
-msgstr "Display the structure displayed in the molecular display area using: ref: `winmos3d_top`."
+msgstr "Display the structure displayed in the molecular display area using :ref:`winmos3d_top`."
 
 msgid "外部ビューア"
 msgstr "External viewer"
