@@ -4,36 +4,39 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 00:39+0900\n"
+"POT-Creation-Date: 2019-09-05 14:13+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.7.0\n"
 
 msgid "リモートジョブ"
 msgstr "Remote job"
 
-msgid ""
-"リモートジョブ投入機能を用いると、Winmostarをインストールしたマシンとは別のLinuxマシン（ **リモートサーバ** "
+msgid "リモートジョブ投入機能を用いると、Winmostarをインストールしたマシンとは別のLinuxマシン（ **リモートサーバ** "
 "と呼ぶ）でソルバを実行することが可能になります。"
-msgstr "With the remote job submission function, it is possible to execute a solver on a Linux machine (** remote server **) different from the machine on which Winmostar is installed."
+msgstr "With the remote job submission function, it is possible to execute a "
+"solver on a Linux machine (** remote server **) different from the "
+"machine on which Winmostar is installed."
 
 msgid "対応するジョブスケジューラ"
 msgstr "Corresponding job scheduler"
 
-
 msgid ""
-"V9.0.1時点でWinmostarが対応するジョブスケジューラは以下の通りです。カスタマイズサービス `Winmostar for you "
+"V9.2.2時点でWinmostarが対応するジョブスケジューラは以下の通りです。カスタマイズサービス `Winmostar for you "
 "<https://x-ability.co.jp/wm4u.pdf>`_ においてご希望のジョブスケジューラに追加対応させることも可能です。"
-msgstr "The job scheduler corresponding to Winmostar as of V 9.0.1 is as follows. Customize service `Winmostar for you <https://x-ability.co.jp/wm4u.pdf> It is also possible to add additional support to your desired job scheduler in `_."
+msgstr "NOTTRANSLATED"
+"The job scheduler corresponding to Winmostar as of V 9.0.1 is as follows."
+" Customize service `Winmostar for you <https://x-ability.co.jp/wm4u.pdf> "
+"It is also possible to add additional support to your desired job "
+"scheduler in `_."
 
 msgid "TORQUE (PBS)"
 msgstr "TORQUE (PBS)"
@@ -65,60 +68,75 @@ msgstr "NSUB"
 msgid "Rescale"
 msgstr "Rescale"
 
+msgid "Winmostar Job Manager"
+msgstr "Winmostar Job Manager"
+
 msgid "TSUBAME3.0を利用する場合はSGEを選択する。"
 msgstr "When using TSUBAME 3.0, select SGE."
 
 msgid "対応するジョブスケジューラがリモートサーバにインストールされていない場合は、以下の方法でリモートジョブを実行することができます。"
-msgstr "If the corresponding job scheduler is not installed on the remote server, you can execute the remote job in the following way."
+msgstr "NOTTRANSLATED"
+"If the corresponding job scheduler is not installed on the remote server,"
+" you can execute the remote job in the following way."
 
 msgid ""
 ":command:`qsub` , :command:`qstat` "
 "などのコマンドを模倣するコマンド、スクリプトを用意し、必要に応じてそれらのコマンドの接頭辞を :guilabel:`Prefix for "
 "Queueing Commands` で指定する。"
-msgstr "Prepare commands and scripts that mimic commands such as: command: `qsub`,: command:` qstat` and specify the prefix of these commands with: guilabel: `Prefix for Queuing Commands` if necessary."
+msgstr "NOTTRANSLATED"
+"Prepare commands and scripts that mimic commands such as :command:"
+"`qsub`, :command:`qstat` and specify the prefix of these commands with "
+":guilabel:`Prefix for Queuing Commands` if necessary."
 
 msgid ":guilabel:`Queue` の設定で ``Run`` を選択する。"
-msgstr ": guilabel: Select `` Run`` with `Queue` setting."
+msgstr "Select ``Run`` with :guilabel:`Queue` setting."
 
 msgid "リモートジョブの実行手順"
 msgstr "Procedure for executing remote job"
 
 msgid "各機能の詳細は :ref:`remote_submitjob` を参照してください。"
-msgstr "For details of each function, see: ref: `remote_submitjob`."
+msgstr "For details of each function, see :ref:`remote_submitjob`."
 
 msgid "計算を実行したいサーバに、ジョブスケジューラとソルバをセットアップしてください。"
 msgstr "Set up the job scheduler and solver on the server you want to calculate."
 
 msgid "これからインストールする場合は、 :ref:`こちら <install_scheduler>` を参考にしてください。"
-msgstr "If you are planning to install it now, use: ref: `here <install_scheduler> Please refer to."
+msgstr "NOTTRANSLATED"
+"If you are planning to install it now, please refer to :ref:`here <install_scheduler>`."
 
 msgid ""
 "ジョブのスケジューリングを使わずにジョブを実行する場合、ジョブスケジューラのセットアップは不要で、 :guilabel:`Queue` "
 "の設定において ``Run`` を選択してください。"
-msgstr "When executing a job without using job scheduling, setup of the job scheduler is unnecessary, and select `` Run`` in the setting of: guilabel: `Queue`."
-
+msgstr "NOTTRANSLATED"
+"When executing a job without using job scheduling, setup of the job "
+"scheduler is unnecessary, and select `` Run`` in the setting of :guilabel:`Queue`."
 
 msgid ""
 ":ref:`calc_import_top` の1, 2の手順に従い初期条件の作成とキーワードの設定を行い、キーワード設定ウィンドウを "
 ":guilabel:`OK` ボタンを押して閉じます。"
-msgstr "Follow steps 1 and 2 on: ref: `calc_import_top` to create initial conditions and set keywords and close the keyword setting window with the: guilabel:` OK` button."
+msgstr "NOTTRANSLATED"
+"Follow steps 1 and 2 on :ref:`calc_import_top` to create initial "
+"conditions and set keywords and close the keyword setting window with "
+"the :guilabel:`OK` button."
 
 msgid "ツールバーの :guilabel:`リモートジョブ投入` ボタン |toolbar_submit| をクリックします。"
-msgstr "On the toolbar, click: guilabel: `Submit Remote Job` button | toolbar_submit |."
-
+msgstr "NOTTRANSLATED"
+"Click :guilabel:`Submit Remote Job` button | toolbar_submit | on the tool bar."
 
 msgid ""
 ":guilabel:`Submit Remote Job` ウィンドウにおいて、すでに設定が済んでいる :guilabel:`Profile` "
 "が選択されているときは、 :ref:`こちら <remote_procedure_sendsub>` に進みます。されていない場合は、 "
 ":menuselection:`Manage... --> Add Profile...` を選択します。"
-msgstr ": guilabel: `Submit Remote Job` window, if already set: guilabel:` Profile` is selected,: ref: `here <remote_procedure_sendsub> Go to &#39;. If not, select: menuselection: `Manage ... -&gt; Add Profile ...`."
+msgstr "NOTTRANSLATED"
+"On :guilabel:`Submit Remote Job` window, if already set :guilabel:`Profile` is selected, go to :ref:`here <remote_procedure_sendsub>`."
+" If not, select :menuselection:`Manage ... --> Add Profile ...`."
 
 msgid "|fig_remote_addprofile|"
 msgstr "|fig_remote_addprofile|"
 
-
 msgid ":guilabel:`Edit Profile` ウィンドウ上部にて、以下の内容を入力します。"
-msgstr ": guilabel: `Edit Profile` At the top of the window, enter the following contents."
+msgstr "NOTTRANSLATED"
+"Enter the following contents on the top of window of :guilabel:`Edit Profile`."
 
 msgid "Profile Name"
 msgstr "Profile Name"
@@ -150,48 +168,59 @@ msgstr "|fig_remote_editconnection|"
 msgid ""
 "TSUBAME、FOCUSなどに多段SSH接続する方法は `https://winmostar.com/jp/manual_jp.html "
 "<https://winmostar.com/jp/manual_jp.html>`_ を参照してください。"
-msgstr "For TSUBAME, FOCUS etc. multi-stage SSH connection method is `https://winmostar.com/jp/manual_en.html <https://winmostar.com/jp/manual_jp.html> See `_."
-
+msgstr "NOTTRANSLATED"
+"Refet to `https://winmostar.com/jp/manual_en.html <https://winmostar.com/jp/manual_jp.html>`_ for the method of multi-stage SSH connection to TSUBAME, FOCUS, etc.."
 
 msgid ""
 "入力後、SSH接続をテストするために、 :guilabel:`Edit Profile` ウィンドウ下の :guilabel:`Test "
 "Connection` ボタンをクリックします。"
-msgstr "After input, click the: guilabel: `Test Connection` button under the: guilabel:` Edit Profile` window to test the SSH connection."
-
+msgstr "NOTTRANSLATED"
+"After input, click the :guilabel:`Test Connection` button under the "
+":guilabel:`Edit Profile` window to test the SSH connection."
 
 msgid ""
 "黒いターミナルウィンドウが開き、初回接続時は、 ``Store key in cache? (y/n)`` と表示される。その場合は、 "
 ":kbd:`y` とキー入力する。"
-msgstr "A black terminal window opens, and when it is connected for the first time, it is displayed as `` Store key in cache? (Y / n) ``. In that case, enter: kbd: `y`."
+msgstr "NOTTRANSLATED"
+"A black terminal window opens, and when it is connected for the first "
+"time, it is displayed as `` Store key in cache? (Y / n) ``. In that case,"
+" enter: kbd: `y`."
 
 msgid "|fig_remote_storekey|"
 msgstr "|fig_remote_storekey|"
 
-
 msgid ""
 "接続に成功した場合は、先ほどの :guilabel:`Submit Remote Job` ウィンドウの下部に ``Connection test"
 " succeeded.`` と表示されます。"
-msgstr "If the connection is successful, you will see `` Connection test succeeded. `` At the bottom of the previous: guilabel: `Submit Remote Job` window."
+msgstr "NOTTRANSLATED"
+"If the connection is successful, you will see `` Connection test "
+"succeeded. `` At the bottom of the previous: guilabel: `Submit Remote "
+"Job` window."
 
 msgid "|fig_remote_testconnection|"
 msgstr "|fig_remote_testconnection|"
-
 
 msgid ""
 "ユーザ設定等が間違っている場合はターミナルウィンドウで ``Access denied ***@***'s password:`` "
 "などど表示されます。その場で正しいパスワードを入力した場合も、再度 :guilabel:`Edit Profile` "
 "ウィンドウでパスワードを再入力してください。"
-msgstr "If user settings etc. are wrong, you will see `` Access denied *** @ *** &#39;s password: `` in the terminal window. Even if you enter the correct password on the spot, please re-enter the password again in the: guilabel: `Edit Profile` window."
-
+msgstr "NOTTRANSLATED"
+"If user settings etc. are wrong, you will see `` Access denied *** @ *** "
+"&#39;s password: `` in the terminal window. Even if you enter the correct"
+" password on the spot, please re-enter the password again in the "
+":guilabel:`Edit Profile` window."
 
 msgid ""
 "その他、 :guilabel:`Submit Remote Job` ウィンドウの下部に ``ERROR: Connection timed "
 "out or an error occurred.`` と表示された場合は、接続設定を見直してください。"
-msgstr "Other,: If you see `` ERROR: Connection timed out or an error occurred .`` at the bottom of the guilabel: `Submit Remote Job` window, please reconsider the connection settings."
-
+msgstr "NOTTRANSLATED"
+"If you see `` ERROR: Connection timed out or an error occurred "
+".`` at the bottom of the :guilabel:`Submit Remote Job` window, please "
+"reconsider the connection settings."
 
 msgid ":guilabel:`Edit Profile` ウィンドウ下部にて、以下の内容を入力します。"
-msgstr ": guilabel: `Edit Profile` At the bottom of the window, enter the following contents."
+msgstr "NOTTRANSLATED"
+"Enter the following contents at the bottom of the window of :guilabel:`Edit Profile`."
 
 msgid "Queue & Solver"
 msgstr "Queue & Solver"
@@ -206,7 +235,7 @@ msgid "Shell Script"
 msgstr "Shell Script"
 
 msgid "Options（ :command:`qsub` 等のジョブをサブミットするコマンドの引数）"
-msgstr "Options (command arguments for submitting jobs such as: command: `qsub`)"
+msgstr "Options (command arguments for submitting jobs such as :command:`qsub`)"
 
 msgid "|fig_remote_editqueue|"
 msgstr "|fig_remote_editqueue|"
@@ -220,92 +249,133 @@ msgid ""
 ":guilabel:`Edit...` ボタンをクリックするとテンプレートファイルがテキストエディタで開きます。 テンプレートファイルには、 "
 ":command:`module load ...` 、 :command:`source ...` 、 :command:`export "
 "PATH=...` などのコマンドや、 :command:`mpirun` などの、そのサーバで選択したソルバを使用するための設定を書き入れます。"
-msgstr "First select: guilabel: `Queue` as the job scheduler installed on the server to be connected and select solver to use on it with: guilabel:` Solver`. Next, click: guilabel: `Shell Script`: guilabel:` Use Template`. If you do not have a template for the selected solver, enter the name of the template and the template will be opened in a text editor. In some cases, select the template file you want to use in the pull down menu next to: guilabel: `Use Template` and click on the: guilabel:` Edit ... `button below it to open the template file in a text editor. Commands such as: command: `module load ...`,: command: `source ...`,: command: `export PATH = ...` and other commands such as: command: `mpirun` , Enter the settings for using the solver selected on that server."
+msgstr "NOTTRANSLATED"
+"First select :guilabel:`Queue` as the job scheduler installed on the "
+"server to be connected and select solver to use on it with :guilabel:`"
+"Solver`. Next, click :guilabel:`Use Template` of :guilabel:`Shell Script`."
+" If you do not have a template for the selected solver, enter the name of"
+" the template and the template will be opened in a text editor. If you "
+"have, select the template file you want to use in the pull down menu "
+"next to :guilabel:`Use Template` and click on the :guilabel:`Edit ...` "
+"button below it to open the template file in a text editor. Commands "
+"such as :command:`module load ...`, :command:`source ...`, :command:"
+"`export PATH = ...` and other commands such as :command:`mpirun`, enter"
+" the settings for using the solver selected on that server."
 
 msgid ""
 "利便性を上げるため、テンプレートファイルや :guilabel:`Options` "
 "には、個々のジョブに依存する並列数やファイル名などの設定がジョブ実行時に代入されるエイリアスの形で入力することを推奨します。詳細は "
 ":ref:`remote_alias` を参照してください。"
-msgstr "In order to improve convenience, it is recommended to enter in the template file and in guilabel: `Options` aliases in which settings such as parallel number and file name depending on each job are assigned at job execution . For details, see: ref: `remote_alias`."
-
+msgstr "NOTTRANSLATED"
+"In order to improve convenience, it is recommended to enter in the "
+"template file and in :guilabel:`Options` aliases in which settings such "
+"as parallel number and file name depending on each job are assigned at "
+"job execution . For details, see :ref:`remote_alias`."
 
 msgid ":guilabel:`OK` ボタンを押して :guilabel:`Edit Profile` ウィンドウを閉じます。"
-msgstr ": guilabel: Press the &#39;OK&#39; button to close the: guilabel: `Edit Profile` window."
-
+msgstr "NOTTRANSLATED"
+"Press the :guilabel:`OK` button to close the :guilabel:`Edit Profile` window."
 
 msgid ""
 ":guilabel:`Submit Remote Job` ウィンドウで、 :menuselection:`Queue --> Show "
 "Usage of Each Queues` メニューをクリックし、ウィンドウ下部にリモートサーバの情報が表示されることを確認します。"
-msgstr ": In the guilabel: `Submit Remote Job` window, click the: menuselection:` Queue -&gt; Show Usage of Each Queues` menu and make sure the remote server information is displayed at the bottom of the window."
+msgstr "NOTTRANSLATED"
+"In the :guilabel:`Submit Remote Job` window, click the :menuselection:`"
+"Queue --> Show Usage of Each Queues` menu and make sure the remote "
+"server information is displayed at the bottom of the window."
 
 msgid "正常に表示されない場合は、 :menuselection:`Manage... --> Edit Profile...` で設定を見直します。"
-msgstr "If it is not displayed correctly, review the setting with: menuselection: `Manage ... -&gt; Edit Profile ...`."
+msgstr "NOTTRANSLATED"
+"If it is not displayed correctly, review the setting with :menuselection:"
+"`Manage ... --> Edit Profile ...`."
 
 msgid ""
 "ジョブを開始するために、 :guilabel:`Send & Submit` "
 "ボタンをクリックします。ここでの操作方法は、通常のローカルジョブと同じです。"
-msgstr "To start the job, click the: guilabel: `Send &amp; Submit` button. The operation method here is the same as the normal local job."
+msgstr "NOTTRANSLATED"
+"To start the job, click the :guilabel:`Send & Submit` button. The "
+"operation method here is the same as the normal local job."
 
 msgid "|fig_remote_sendsub_button|"
 msgstr "|fig_remote_sendsub_button|"
 
-
 msgid "ウィンドウ下部には、サブミットしたジョブのIDが表示されます。IDはジョブをキャンセル（kill）するときに使用します。"
-msgstr "The ID of the submitted job is displayed at the bottom of the window. ID is used to kill the job."
-
+msgstr "NOTTRANSLATED"
+"The ID of the submitted job is displayed at the bottom of the window. ID "
+"is used to kill the job."
 
 msgid ""
 "リモートサーバでジョブが実行されたディレクトリは、 :menuselection:`Profile --> Edit Profile` の "
 ":guilabel:`Remote Directory` で設定することができ、 実際使用されたものは :guilabel:`Submit "
 "Remote Job` ウィンドウの :guilabel:`Remote Directory` 欄に表示されます。"
-msgstr "The directory in which the job was executed on the remote server can be set in: guilabel: `Remote Directory` of: menuselection:` Profile -&gt; Edit Profile`, and the one actually used is: guilabel: `Submit Remote Job It is displayed in the `window: guilabel:` Remote Directory` field."
+msgstr "NOTTRANSLATED"
+"The directory in which the job was executed on the remote server can be "
+"set in :guilabel:`Remote Directory` of :menuselection:`Profile --> "
+"Edit Profile`, and the one actually used is displayed "
+"on the :guilabel:`Remote Directory` field of :guilabel:`Submit Remote Job`."
+
+msgid ""
+"ジョブがリモートサーバ上で開始されると、標準出力は :file:`winmos.o` 、標準エラーは :file:`winmos.e` "
+"というファイルにそれぞれ出力されます。"
+msgstr "When a job is started on a remote server, standard output is output to the file :file:`winmos.o` and standard error is output to the file :file:`winmos.e`."
 
 msgid ""
 "サブミットしたジョブの状況は、 :menuselection:`Queue --> List Submitted Jobs` "
 "で確認してください。全てのジョブが完了した場合は ``---`` と表示されます。"
-msgstr "Check the status of the submitted job with: menuselection: `Queue -&gt; List Submitted Jobs`. If all jobs are completed, `` --- `` will be displayed."
+msgstr "NOTTRANSLATED"
+"Check the status of the submitted job with :menuselection:`Queue --> "
+"List Submitted Jobs`. If all jobs are completed, `` --- `` will be "
+"displayed."
 
 msgid "サブミットしたジョブがあまりに早く終了した場合は、サブミットした直後であっても ``---`` と表示されます。"
-msgstr "If the submitted job ends too soon, `` - - `` will be displayed even if you submit it."
+msgstr "NOTTRANSLATED"
+"If the submitted job ends too soon, `` - - `` will be displayed even if "
+"you submit it."
 
 msgid "リモートサーバ上の特定のジョブの状況を確認するときは、以下の操作を行ってください。"
 msgstr "To check the status of a specific job on a remote server, please do the following."
 
 msgid ":guilabel:`ls` ボタン"
-msgstr ": guilabel: `ls` button"
+msgstr ":guilabel:`ls` button"
 
 msgid ":guilabel:`cat` ボタン"
-msgstr ": guilabel: `cat` button"
+msgstr ":guilabel:`cat` button"
 
 msgid ":guilabel:`grep` ボタン"
-msgstr ": guilabel: `grep` button"
+msgstr ":guilabel:`grep` button"
 
 msgid ":guilabel:`tail` ボタン"
-msgstr ": guilabel: `tail` button"
+msgstr ":guilabel:`tail` button"
 
 msgid ":guilabel:`Get & Open ...` ボタン"
-msgstr ": guilabel: `Get &amp; Open ...` button"
+msgstr ":guilabel:`Get & Open ...` button"
 
 msgid "|fig_remote_progress_button|"
 msgstr "|fig_remote_progress_button|"
 
-
 msgid ""
 "操作対象のジョブは、 :guilabel:`Remote Directory` "
 "欄に表示されたものとなります。デフォルトの設定の場合は、メインウィンドウで対象としたいジョブの入力ファイルを開き、ジョブ投入時のプロファイルを選択してください。"
-msgstr "The target job is displayed in the: guilabel: `Remote Directory` field. For the default setting, open the input file of the job you want to target in the main window and select the profile when you submitted the job."
+msgstr "NOTTRANSLATED"
+"The target job is displayed in the :guilabel:`Remote Directory` field. "
+"For the default setting, open the input file of the job you want to "
+"target in the main window and select the profile when you submitted the "
+"job."
 
 msgid ""
 "リモートサーバ上で終了したジョブの結果解析をローカルマシンで実行したい場合は、 :guilabel:`Get All Files` "
 "ボタンをクリックします。"
-msgstr "If you want to analyze the result of the job that ended on the remote server on the local machine, click the: guilabel: `Get All Files` button."
+msgstr "NOTTRANSLATED"
+"If you want to analyze the result of the job that ended on the remote "
+"server on the local machine, click the: guilabel: `Get All Files` button."
 
 msgid "|fig_remote_get_button|"
 msgstr "|fig_remote_get_button|"
 
 msgid "ファイル取得後は、ローカルジョブと同じ操作方法で結果解析を実施することができます。"
-msgstr "After file acquisition, result analysis can be performed by the same operation method as local job."
-
+msgstr "NOTTRANSLATED"
+"After file acquisition, result analysis can be performed by the same "
+"operation method as local job."
 
 msgid "Submit Jobウィンドウの各機能"
 msgstr "Each function of the Submit Job window"
@@ -319,11 +389,19 @@ msgstr "Revert All Changes"
 msgid "変更を破棄しサーバ設定ファイルを読み込み直します。"
 msgstr "Discard the changes and reload the server configuration file."
 
+msgid "Save Setting File"
+msgstr "Restore Setting File"
+
+msgid "サーバ設定ファイルを上書き保存します。"
+msgstr "Restore the server configuration file to the factory condition."
+
 msgid "Import Setting File"
 msgstr "Import Setting File"
 
 msgid "サーバ設定ファイルを読み込み、その中に含まれているプロファイルを、既存のプロファイルのリストに追加します。"
-msgstr "It loads the server configuration file and adds the profile contained in it to the list of existing profiles."
+msgstr "NOTTRANSLATED"
+"It loads the server configuration file and adds the profile contained in "
+"it to the list of existing profiles."
 
 msgid "Restore Setting File"
 msgstr "Restore Setting File"
@@ -334,7 +412,6 @@ msgstr "Restore the server configuration file to the factory condition."
 msgid "Close"
 msgstr "Close"
 
-
 msgid "このウィンドウを閉じます。"
 msgstr "Close this window."
 
@@ -344,20 +421,21 @@ msgstr "Profile Menu"
 msgid "Add Profile, Duplicate Profile, Remove Profile"
 msgstr "Add Profile, Duplicate Profile, Remove Profile"
 
-
 msgid "サーバ接続のプロファイルを追加、複製、削除します。 ウィンドウ内の :guilabel:`Manage` ボタンからも同様の操作が可能です。"
-msgstr "Add, duplicate, and delete server connection profiles. The same operation is possible from the guilabel: `Manage` button in the window."
+msgstr "NOTTRANSLATED"
+"Add, duplicate, and delete server connection profiles. The same operation"
+" is possible from the :guilabel:`Manage` button in the window."
 
 msgid "Edit Profile"
 msgstr "Edit Profile"
 
-
 msgid "サーバ接続のプロファイルを編集します。 一部の設定はSubmit Jobウィンドウ内で直接編集できます。"
-msgstr "Edit the profile of the server connection. Some settings can be edited directly in the Submit Job window."
+msgstr "NOTTRANSLATED"
+"Edit the profile of the server connection. Some settings can be edited "
+"directly in the Submit Job window."
 
 msgid "Profile name"
 msgstr "Profile name"
-
 
 msgid "Submit Jobウィンドウで表示されるプロファイル名を指定します。"
 msgstr "Specify the profile name displayed in the Submit Job window."
@@ -375,13 +453,17 @@ msgid "Timeout"
 msgstr "Timeout"
 
 msgid "リモートサーバからの応答が無い際に、接続を自動的に切断する時間[単位：秒]を指定します。"
-msgstr "Specify the time (unit: second) for automatically disconnecting the connection when there is no response from the remote server."
+msgstr "NOTTRANSLATED"
+"Specify the time (unit: second) for automatically disconnecting the "
+"connection when there is no response from the remote server."
 
 msgid "リモートサーバへのログインID（ユーザ名）を指定します。"
 msgstr "Specify the login ID (user name) to the remote server."
 
 msgid "ログインIDのパスワードを指定します。[View]をクリックするとパスワードの非表示が解除されます。"
-msgstr "Specify the password of the login ID. If you click [View], password hiding will be canceled."
+msgstr "NOTTRANSLATED"
+"Specify the password of the login ID. If you click [View], password "
+"hiding will be canceled."
 
 msgid "SSH Key"
 msgstr "SSH Key"
@@ -390,11 +472,11 @@ msgid "必要に応じてSSHキーを設定します。"
 msgstr "Set the SSH key as needed."
 
 msgid "接続するリモートサーバ上で稼働しているジョブスケジューラの種類を選択します。"
-msgstr "Select the type of job scheduler running on the remote server to be connected."
+msgstr "NOTTRANSLATED"
+"Select the type of job scheduler running on the remote server to be connected."
 
 msgid "このプロファイルにおいて使用するプログラムを選択します。"
 msgstr "Select the program to use in this profile."
-
 
 msgid "ウィンドウ内でも変更可能です。"
 msgstr "You can also change it in the window."
@@ -405,13 +487,19 @@ msgid ""
 "Template` "
 "の場合はその横のプルダウンメニューで使用するテンプレートファイルを選択し、またテンプレートファイルを追加、編集、削除する場合はその下の "
 ":guilabel:`Add` , :guilabel:`Edit`  :guilabel:`Remove` ボタンをクリックします。"
-msgstr "To execute calculations using the default shell script: guilabel: `Use Default`, to customize the shell script check: guilabel:` Use Template`. : guilabel: `Use Template`, select a template file to use in the pull-down menu beside it, and if you want to add, edit or delete a template file: guilabel:` Add`,: guilabel: ` Edit`: guilabel: `Remove` button."
+msgstr "NOTTRANSLATED"
+"Check :guilabel:`Use Default` to execute calculations using the default shell script, "
+"or :guilabel:`Use Template` to customize the shell script. "
+"If you check :guilabel:`Use Template`, select a template file to use in the pull-"
+"down menu beside it, and if you want to add, edit or delete a template "
+"file :guilabel:`Add`, :guilabel:`Edit` :guilabel:`Remove` button."
 
 msgid "テンプレートファイルの中では、 :ref:`remote_alias` を使用可能です。"
-msgstr "You can use: ref: `remote_alias` in the template file."
+msgstr "You can use :ref:`remote_alias` in the template file."
 
 msgid "テンプレートファイルはWinmostarのインストールフォルダの :file:`UserPref` の中に保存されます。"
-msgstr "The template file is saved in: file: `UserPref` in Winmostar installation folder."
+msgstr "NOTTRANSLATED"
+"The template file is saved in :file:`UserPref` in Winmostar installation folder."
 
 msgid "Options"
 msgstr "Options"
@@ -420,11 +508,10 @@ msgid "ジョブ投入コマンド(qsubなど)の後ろに与える引数を設�
 msgstr "Set arguments to be given after job submission command (qsub etc.)."
 
 msgid "本項目には :ref:`remote_alias` を使用可能です。"
-msgstr "You can use: ref: `remote_alias` for this item."
+msgstr "You can use :ref:`remote_alias` for this item."
 
 msgid "Remote Directory"
 msgstr "Remote Directory"
-
 
 msgid ""
 "リモートサーバの作業ディレクトリを指定します。空の場合はホームディレクトリから(Local User "
@@ -434,19 +521,34 @@ msgid ""
 ":command:`'/work/dir'` のようにシングルクォーテーションで囲うと、指定したディレクトリから :file:`(Local "
 "User ID)/(プログラム名)/(ファイル名)` を作成します。 また、 :command:`''/work/dir''` "
 "のようにシングルクォーテーションを2個づつで囲むと、(Local User ID)のディレクトリは作成されません。"
-msgstr "Specify the working directory of the remote server. If it is empty (Local User ID) / (program name) / (file name) is the working directory from the home directory. The Local User ID is the user name under Windows in operation and is displayed in the title of the Submit Remote Job window. If the Local User ID contains double-byte characters or half-width spaces, the directory name is internally converted to single-byte alphanumeric characters. If you enclose it with a single quotation like: command: `&#39;/ work / dir&#39;`, create: file:` (Local User ID) / (program name) / (file name) `from the specified directory. Also, if you enclose two single quotations like: command: `&#39;&#39; / work / dir&#39;&#39;`, a directory with (Local User ID) will not be created."
+msgstr "NOTTRANSLATED"
+"Specify the working directory of the remote server. If it is empty (Local"
+" User ID) / (program name) / (file name) is the working directory from "
+"the home directory. The Local User ID is the user name under Windows in "
+"operation and is displayed in the title of the Submit Remote Job window. "
+"If the Local User ID contains double-byte characters or half-width "
+"spaces, the directory name is internally converted to single-byte "
+"alphanumeric characters. If you enclose it with a single quotation like "
+":command: `'/ work / dir'`, create :file:`(Local User ID) / "
+"(program name) / (file name)` from the specified directory. Also, if you "
+"enclose two single quotations like :command:`''/ work / "
+"dir''`, a directory with (Local User ID) will not be created."
 
 msgid "Prefix for Queueing Commands"
 msgstr "Prefix for Queueing Commands"
 
 msgid "qsubなどのコマンドの実行時に、それらのコマンドの接頭辞が必要な場合はここに設定します。通常は空にします。"
-msgstr "When executing commands such as qsub, if you need the prefix of those commands, set them here. Normally it is empty."
+msgstr "NOTTRANSLATED"
+"When executing commands such as qsub, if you need the prefix of those "
+"commands, set them here. Normally it is empty."
 
 msgid "Test Connection"
 msgstr "Test Connection"
 
 msgid "SSHの接続テストを行います。 ジョブスケジューラのテストは行わないので注意してください。"
-msgstr "We will test the connection of SSH. Please note that the job scheduler will not be tested."
+msgstr "NOTTRANSLATED"
+"We will test the connection of SSH. Please note that the job scheduler "
+"will not be tested."
 
 msgid "Connectionメニュー"
 msgstr "Connection Menu"
@@ -457,22 +559,30 @@ msgstr "Test Connection Using SFTP"
 msgid "SSHの接続テストを行います。"
 msgstr "We will test the connection of SSH."
 
-
 msgid "ウィンドウ内の :guilabel:`Test Connection` ボタンでも同様の操作が可能です。"
-msgstr "The same operation is possible with the guilabel: `Test Connection` button in the window."
+msgstr "NOTTRANSLATED"
+"The same operation is possible with the :guilabel:`Test Connection` button in the window."
 
 msgid "Share SSH Connection Once Established"
 msgstr "Share SSH Connection Once Established"
 
 msgid "SSH接続を持続させるときに使用します。 SSH接続を伴う操作の前に一度実行しておくと、それ以降の操作が軽快になります。"
-msgstr "Used to maintain SSH connection. If you execute it once before the operation involving SSH connection, the operation after that will be lightened."
+msgstr "NOTTRANSLATED"
+"Used to maintain SSH connection. If you execute it once before the "
+"operation involving SSH connection, the operation after that will be "
+"lightened."
 
 msgid "Open Putty"
 msgstr "Open Putty"
 
-
 msgid "Puttyの設定ウィンドウを開き、接続に関する詳細な設定を行います。"
 msgstr "Open the Putty setting window and make detailed settings for connection."
+
+msgid "Do Not Use Putty for Connection(experimental)"
+msgstr "Do Not Use Putty for Connection(experimental)"
+
+msgid "Putty接続にPuttyを使用しません。 接続を保持するため、動作が軽快になります。 鍵認証での接続では、公開鍵の指定も必要です。"
+msgstr "Do not use Putty for Putty connection. Since the connection is maintained, the operation becomes light. When connecting with key authentication, it is also necessary to specify the public key."
 
 msgid "Jobメニュー"
 msgstr "Job Menu"
@@ -480,21 +590,26 @@ msgstr "Job Menu"
 msgid "Send Local Files & Submit Job"
 msgstr "Send Local Files & Submit Job"
 
-
 msgid ""
 "計算に必要な入力ファイルを生成し、SFTPでリモートサーバに転送した後、ジョブスケジューラにサブミットします。 "
 "サブミットした後ジョブのIDが表示されます。"
-msgstr "Generate an input file required for calculation, transfer it to the remote server by SFTP, and submit it to the job scheduler. After submitting, the ID of the job is displayed."
-
+msgstr "NOTTRANSLATED"
+"Generate an input file required for calculation, transfer it to the "
+"remote server by SFTP, and submit it to the job scheduler. After "
+"submitting, the ID of the job is displayed."
 
 msgid "ウィンドウ内の :guilabel:`Send & Submit` ボタンでも同様の操作が可能です。"
-msgstr "The same operation is possible with the guilabel: `Send &amp; Submit` button in the window."
+msgstr "NOTTRANSLATED"
+"The same operation is possible with the :guilabel:`Send & Submit` "
+"button in the window."
 
 msgid "Submit Job"
 msgstr "Submit Job"
 
 msgid "計算に必要な入力ファイルを生成し、SFTPでリモートサーバに転送します。"
-msgstr "It generates an input file necessary for calculation and transfers it to the remote server by SFTP."
+msgstr "NOTTRANSLATED"
+"It generates an input file necessary for calculation and transfers it to "
+"the remote server by SFTP."
 
 msgid "List Files at Remote Directory"
 msgstr "List Files at Remote Directory"
@@ -502,9 +617,9 @@ msgstr "List Files at Remote Directory"
 msgid "Remote Directory内のファイル一覧を取得します。"
 msgstr "Get the list of files in Remote Directory."
 
-
 msgid "ウィンドウ内の :guilabel:`ls` ボタンでも同様の操作が可能です。"
-msgstr "The same operation is possible with the: guilabel: `ls` button in the window."
+msgstr "NOTTRANSLATED"
+"The same operation is possible with the :guilabel:`ls` button in the window."
 
 msgid "Display Remote File"
 msgstr "Display Remote File"
@@ -512,9 +627,9 @@ msgstr "Display Remote File"
 msgid "Remote Directory内の選択したファイルの内容を取得します。"
 msgstr "Retrieve the contents of the selected file in Remote Directory."
 
-
 msgid "ウィンドウ内の :guilabel:`cat` ボタンでも同様の操作が可能です。"
-msgstr "The same operation is possible with the: guilabel: `cat` button in the window."
+msgstr "NOTTRANSLATED"
+"The same operation is possible with the :guilabel:`cat` button in the window."
 
 msgid "Display Last Part of Remote Log File"
 msgstr "Display Last Part of Remote Log File"
@@ -522,9 +637,9 @@ msgstr "Display Last Part of Remote Log File"
 msgid "Remote Directory内のログファイルの末尾を取得します。"
 msgstr "Get the end of the log file in Remote Directory."
 
-
 msgid "ウィンドウ内の :guilabel:`tail` ボタンでも同様の操作が可能です。"
-msgstr "The same operation is possible with the: guilabel: `tail` button in the window."
+msgstr "NOTTRANSLATED"
+"The same operation is possible with the :guilabel:`tail` button in the window."
 
 msgid "Search String in Remote Log File"
 msgstr "Search String in Remote Log File"
@@ -532,9 +647,24 @@ msgstr "Search String in Remote Log File"
 msgid "Remote Directory内のログファイルの中から文字列を検索します。"
 msgstr "Search strings in the log files in Remote Directory."
 
-
 msgid "ウィンドウ内の :guilabel:`grep` ボタンでも同様の操作が可能です。"
-msgstr "The same operation is possible with the: guilabel: `grep` button in the window."
+msgstr "NOTTRANSLATED"
+"The same operation is possible with the :guilabel:`grep` button in the window."
+
+msgid "Restert Terminated Job"
+msgstr "Restert Terminated Job"
+
+msgid "ジョブスケジューラなどによりリモートジョブが強制的に中断された場合、本機能で計算を再開します。"
+msgstr "If a remote job is forcibly interrupted by the job scheduler, etc., this function restarts the calculation."
+
+msgid "Force Job Finalization"
+msgstr "Force Job Finalization"
+
+msgid ""
+"計算の異常終了により全てのファイルが生成されず、 :guilabel:`Get All Remote Files` "
+"が正常動作しない場合、本機能を実行すると強制的に終了処理が実行され、 :guilabel:`Get All Remote Files` "
+"を実行できるようになります。"
+msgstr "If all files are not generated due to abnormal termination of calculation, and :guilabel:`Get All Remote Files` does not operate normally, executing this function forcibly terminates the process, and :guilabel:`Get All Remote Files ` can be executed."
 
 msgid "Get Remote File and ..."
 msgstr "Get Remote File and ..."
@@ -542,9 +672,9 @@ msgstr "Get Remote File and ..."
 msgid "Remote Directory内の特定ファイルをgetして可視化します。"
 msgstr "Get a specific file in Remote Directory and visualize it."
 
-
 msgid "ウィンドウ内の :guilabel:`Get File & ...` ボタンでも同様の操作が可能です。"
-msgstr "The same operation is possible with the guilabel: `Get File &amp; ...` button in the window."
+msgstr "NOTTRANSLATED"
+"The same operation is possible with the :guilabel:`Get File & ...` button in the window."
 
 msgid "Queueメニュー"
 msgstr "Queue menu"
@@ -557,7 +687,6 @@ msgstr "List Submitted Jobs"
 
 msgid "ジョブスケジューラに登録されたジョブの一覧を取得します。"
 msgstr "Get a list of jobs registered in the job scheduler."
-
 
 msgid "ウィンドウ内の同じコマンド名のボタンでも同様の操作が可能です。"
 msgstr "The same operation is possible with the button with the same command name in the window."
@@ -611,7 +740,10 @@ msgid "リモートジョブ機能で使用可能なエイリアス文字列"
 msgstr "Alias string available for remote job function"
 
 msgid "ジョブ実行時に使用するシェルスクリプトやサブミットコマンドの引数は、計算条件に応じて動的に変化する場合があるため、その様な状況に対応するためにエイリアス文字列を使うことができます。"
-msgstr "Arguments of shell scripts and submit commands used when executing jobs may change dynamically depending on calculation conditions, so you can use alias strings to deal with such situations."
+msgstr "NOTTRANSLATED"
+"Arguments of shell scripts and submit commands used when executing jobs "
+"may change dynamically depending on calculation conditions, so you can "
+"use alias strings to deal with such situations."
 
 msgid "使用可能なエイリアス文字列の一覧を以下に示します。"
 msgstr "A list of available alias strings is shown below."
@@ -664,20 +796,67 @@ msgstr "%WM_NUM_PARALLEL%"
 msgid "%WM_NUM_PROC%と%WM_NUM_THREAD%の積"
 msgstr "Product of% WM_NUM_PROC% and% WM_NUM_THREAD%"
 
-
 msgid "リモートジョブの設定ファイル"
 msgstr "Remote job configuration file"
 
 msgid ""
 "プロファイルの設定は、Winmostarのインストールフォルダの :file:`UserPref\\\\winmos_profile.ini` "
 "に保存されます。 読み込む際には、V8以前の旧バージョンとの互換性維持のため、以下の優先順位で読み込まれます。"
-msgstr "Profile settings are saved in: file: `UserPref \\ \\ winmos_profile.ini` in Winmostar installation folder. When reading, in order to maintain compatibility with old versions of V8 or earlier, it is read in the following order of priority."
+msgstr "NOTTRANSLATED"
+"Profile settings are saved in :file:`UserPref \\ \\ winmos_profile.ini` "
+"in Winmostar installation folder. When reading, in order to maintain "
+"compatibility with old versions of V8 or earlier, it is read in the "
+"following order of priority."
 
 msgid ""
 ":file:`UserPref\\\\winmos_profile.ini` > "
 ":file:`UserPref\\\\winmos_server.ini` > "
 ":file:`wm_system\\\\RemoteJob\\default_profile.ini`"
-msgstr ": file: `UserPref \\\\ winmos_profile.ini`&gt;: file:` UserPref \\\\ winmos_server.ini`&gt;: file: `wm_system \\\\ RemoteJob \\ default_profile.ini`"
+msgstr "NOTTRANSLATED"
+":file:`UserPref\\\\winmos_profile.ini` > "
+":file:`UserPref\\\\winmos_server.ini` > "
+":file:`wm_system\\\\RemoteJob\\default_profile.ini`"
+
+msgid "Windowsサーバの利用方法"
+msgstr "How to use Windows server"
+
+msgid "V9.2.2からはリモートサーバでWindows PCを使用することができます。 使用するには下記のような事前準備が必要です。"
+msgstr "From V9.2.2, you can use a Windows PC on a remote server. The following preparations are required to use it."
+
+msgid "リモートサーバにOpenSSHサーバをインストールしてクライアントからSSHで接続できるようにします。"
+msgstr "Install an OpenSSH server on the remote server so that clients can connect with SSH."
+
+msgid "リモートサーバにWinmostarをインストールしてWinmostarジョブマネージャを常に起動しておきます。"
+msgstr "Install Winmostar on the remote server and always start Winmostar Job Manager."
+
+msgid "下記のように設定します。"
+msgstr "Set as follows."
+
+msgid "Profile編集画面でQueueにJM(Windows)を選択します。"
+msgstr "In the Profile edit screen, select JM (Windows) for Queue."
+
+msgid "Winmostar PathにリモートサーバにインストールされているWinmostarのパスを設定します。"
+msgstr "Set Winmostar Path installed on the remote server to Winmostar Path."
+
+msgid ""
+"デフォルトのシェルスクリプトは使えないので、Use "
+"Templateを選択しテンプレートファイルを作成します。Windows上で動作するバッチファイルの内容にします。"
+msgstr "Since the default shell script cannot be used, select :guilabel:`Use Template` to create a template file. The contents of the batch file that runs on Windows."
+
+
+msgid "下記のような他のジョブスケジューラとの操作上の違いがあります。"
+msgstr "There are operational differences from other job schedulers as follows."
+
+msgid ":guilabel:`Test Connection` ボタンを押した時にジョブマネージャが起動しているかのチェックも行います。"
+msgstr "It also checks whether the job manager is running when the :guilabel:`Test Connection` button is pressed."
+
+msgid ""
+":guilabel:`List Jobs` "
+"ボタンで表示される情報はジョブマネージャと同じで左から番号、状態、優先度、コア数、ジョブID、開始日時、終了日時、バッチファイルです。"
+msgstr "The information displayed by the :guilabel:`List Jobs` button is the same as the job manager, from the left: number, status, priority, number of cores, job ID, start date / time, end date / time, and batch file."
+
+msgid ":guilabel:`Delete Job` ボタンでジョブを取り消す場合はジョブIDを入力します。"
+msgstr "If you want to cancel the job with the `Delete Job` button, enter the job ID."
 
 #~ msgid ""
 #~ "また、ジョブスケジューラがインストールされていない環境でも、直接ソルバを起動したり、 :command:`qsub` "
