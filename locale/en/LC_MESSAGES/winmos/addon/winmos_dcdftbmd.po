@@ -4,26 +4,489 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-
 msgid ""
 msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
+"POT-Creation-Date: 2019-09-05 14:13+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.7.0\n"
 
 msgid "DCDFTBMD"
 msgstr "DCDFTBMD"
 
 msgid "分割統治型の密度汎関数強束縛分子動力学法に関するメニューです。"
-msgstr "It is a menu related to the divide and conquer type density functional the strongly bound molecular dynamics method."
+msgstr "NOTTRANSLATED"
+"It is a menu related to the divide and conquer type density functional "
+"the strongly bound molecular dynamics method."
 
 msgid "使用するためにはアドオンの購入が必要です。"
 msgstr "Purchase of add-on is necessary for using."
+
+msgid "DCDFTBMDをインストールする方法は :ref:`install_install` に記載しています。"
+msgstr "How to install DCDFTBMD is described in :ref:`install_install`."
+
+msgid "キーワード設定"
+msgstr "Keyword setting"
+
+msgid "DCDFTBMDの計算条件を設定します。設定後 :guilabel:`OK` ボタンを押してください。"
+msgstr "After setting, press the :guilabel:`OK` button."
+
+msgid ""
+":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 :guilabel:`Save` ボタンで設定を保存します。 "
+":guilabel:`Load` ボタンで :guilabel:`Save` にて保存した設定を読み込みます。"
+msgstr "The :guilabel:`Reset` button returns to the default state. :guilabel:`Save` button to save the settings. :guilabel:`Load` button loads settings saved with :guilabel:`Save`."
+
+msgid "Extending Simulation"
+msgstr "Extending Simulation"
+
+msgid "継続ジョブを実行します。 キーワードRESTART=TRUEが設定され、 :file:`restart` の情報から計算が再開されます。"
+msgstr "Run a continuation job. The keyword RESTART = TRUE is set, and the calculation restarts from the :file:`restart` information."
+
+msgid "詳細は :ref:`addon_dcdftbmd_start` を参照してください。"
+msgstr "See :ref:`addon_dcdftbmd_start` for details."
+
+msgid "# of Threads"
+msgstr "# of Threads"
+
+msgid "OpenMPの並列数を指定します。"
+msgstr "Specify the OpenMP parallel number."
+
+msgid "Use MPI"
+msgstr "Use MPI"
+
+msgid "MPIを使用します。横の欄にはMPI並列数を指定します。"
+msgstr "Use MPI. Specify the MPI parallel number in the horizontal column."
+
+msgid "Basic"
+msgstr "Basic"
+
+msgid "Charge"
+msgstr "Charge"
+
+msgid "系全体の電荷を指定します。"
+msgstr "Specify the charge of the entire system."
+
+msgid "Multiplicity"
+msgstr "Multiplicity"
+
+msgid "系全体のスピン多重度を指定します。"
+msgstr "Specify the spin multiplicity of the entire system."
+
+msgid "Parameter Set"
+msgstr "Parameter Set"
+
+msgid ""
+"使用するパラメータの種類を選択します。 Winmostarのインストールフォルダ（デフォルトでは "
+":file:`C:\\\\winmos9\\\\` ）の下の :file:`DFTBParam` "
+"フォルダに配置したフォルダの名前がリストアップされます。 :file:`DFTBParam` "
+"フォルダの下に置くフォルダは、skfなどのパラメータファイルを含む必要があります。 例えば、 "
+":file:`C:\\\\winmos9\\\\DFTBParam\\\\mio-1-1\\\\C-C.skf` という階層構造が想定されます。"
+msgstr "Select the type of parameter to use."
+" The names of folders placed in the :file:`DFTBParam` folder under the Winmostar installation folder (by default :file:`C:\\\\winmos9\\\\`) are listed."
+"The folder placed under the :file:`DFTBParam` folder must contain parameter files such as skf."
+" For example, a hierarchical structure of :file:`C:\\\\winmos9\\\\DFTBParam\\\\mio-1-1\\\\C-C.skf` is assumed."
+
+msgid "Open Directory for Parameter Set"
+msgstr "Open Directory for Parameter Set"
+
+msgid "前述の :file:`DFTBParam` フォルダを開きます。"
+msgstr "Open the aforementioned :file:`DFTBParam` folder."
+
+msgid "Reload Parameter Set"
+msgstr "Reload Parameter Set"
+
+msgid "前述の :file:`DFTBParam` フォルダを再度読み込み、 :guilabel:`Parameter Set` のリストを更新します。"
+msgstr "Reload the aforementioned :file:`DFTBParam` folder and update the list of :guilabel:`Parameter Set`."
+
+msgid "Executable"
+msgstr "Executable"
+
+msgid ""
+"計算に使用するDCDFTBMDのバイナリを指定します。 MPIを使用するときは :file:`dftb_mpiomp_mpich.00.x` "
+"などのMPI対応版のバイナリを指定する必要があります。 ここで指定するバイナリへ、リモートサーバ上でPATHを通しておく必要があります。"
+msgstr "Specifies the binary of DCDFTBMD used for the calculation. When using MPI, it is necessary to specify an MPI compatible binary such as :file:`dftb_mpiomp_mpich.00.x`. The binary specified here must be passed through PATH on the remote server."
+
+msgid "Advance"
+msgstr "Advance"
+
+msgid "Method"
+msgstr "Method"
+
+msgid "SCCまたはNCCを選択します。"
+msgstr "Select SCC or NCC."
+
+msgid "THIRDFULL"
+msgstr "THIRDFULL"
+
+msgid "SCC ハミルトニアンに対する3次補正を使用します。"
+msgstr "Use third-order correction for SCC Hamiltonian."
+
+msgid "DAMPXH"
+msgstr "DAMPXH"
+
+msgid "X-Hペアに対するSCC相互作用の短距離でのダンピングを使用します。"
+msgstr "Use short-range damping of SCC interactions for X-H pairs."
+
+msgid "MAXITER"
+msgstr "MAXITER"
+
+msgid "SCCサイクルの最大数を指定します。"
+msgstr "Specifies the maximum number of SCC cycles."
+
+msgid "ECONV"
+msgstr "ECONV"
+
+msgid "エネルギー変化の収束条件を指定します。(atomic unit)"
+msgstr "Specify the convergence condition of energy change. (atomic unit)"
+
+msgid "DCONV"
+msgstr "DCONV"
+
+msgid "グラジエント変化の収束条件を指定します。(atomic unit)"
+msgstr "Specify the convergence condition of the gradient change. (atomic unit)"
+
+msgid "DISP"
+msgstr "DISP"
+
+msgid "経験的分散力補正を使用します。"
+msgstr "Use empirical dispersion force correction."
+
+msgid "DISPTYPE"
+msgstr "DISPTYPE"
+
+msgid "経験的分散力補正の種類を指定します。"
+msgstr "Specifies the type of empirical dispersion force correction."
+
+msgid "DC"
+msgstr "DC"
+
+msgid "分割統治法を使用します。"
+msgstr "Use divide and conquer method."
+
+msgid "SUBTYPE"
+msgstr "SUBTYPE"
+
+msgid "部分系の作り方を指定します。"
+msgstr "Specify how to create a subsystem."
+
+msgid "BUFRAD"
+msgstr "BUFRAD"
+
+msgid "球状バッファ領域の半径を指定します。(angstrom)"
+msgstr "Specifies the radius of the spherical buffer area. (angstrom)"
+
+msgid "DELTAR"
+msgstr "DELTAR"
+
+msgid "SUBTYPE=AUTOで系を立方体空間に分割する際のグリッド (angstrom)"
+msgstr "Grid when dividing system into cubic space with SUBTYPE = AUTO (angstrom)"
+
+msgid "OPT/FREQ"
+msgstr "OPT/FREQ"
+
+msgid "OPT"
+msgstr "OPT"
+
+msgid "構造最適化計算を実行します。"
+msgstr "Perform structural optimization calculations."
+
+msgid "構造最適化サイクルの最大数を指定します。"
+msgstr "Specify the maximum number of structural optimization cycles."
+
+msgid "FREQ"
+msgstr "FREQ"
+
+msgid "調和振動解析を実行します。"
+msgstr "Perform harmonic vibration analysis"
+
+msgid "MD"
+msgstr "MO"
+
+msgid "分子動力学計算を実行します。"
+msgstr "Perform molecular dynamics calculations"
+
+msgid "NSTEP"
+msgstr "NSTEP"
+
+msgid ""
+"ステップ数を指定します。 :guilabel:`Extending Simulation` "
+"にチェックを入れている場合は、継続前のジョブのステップ数とこれから流すジョブのステップ数の和を入力する必要があります。"
+msgstr "Specify the number of steps. When :guilabel:`Extending Simulation` is checked, it is necessary to enter the sum of the number of steps of the job before continuing and the number of steps of the job to be run."
+
+msgid "DELTAT"
+msgstr "DELTAT"
+
+msgid "時間刻みを指定します。 (second)"
+msgstr "Specify time step (second)"
+
+msgid "BATHTEMP"
+msgstr "BATHTEMP"
+
+msgid "NVTおよびNPTアンサンブルを利用するときの熱浴温度を指定します。 (Kelvin)"
+msgstr "Specify the heat bath temperature when using NVT and NPT ensembles. (Kelvin)"
+
+msgid "Ensemble"
+msgstr "Ensemble"
+
+msgid "アンサンブルの種類を指定します。"
+msgstr "Specify the type of ensemble."
+
+msgid "NVTTYPE"
+msgstr "NVTTYPE"
+
+msgid "熱浴の設定を指定します。"
+msgstr "Specify the settings for the hot bath."
+
+msgid "INITTEMP"
+msgstr "INITTEMP"
+
+msgid "初期温度を指定します。 (Kelvin)"
+msgstr "Specify the initial temperature (Kelvin)"
+
+msgid "PRINT"
+msgstr "PRINT"
+
+msgid "シミュレーション中の座標等のファイルへの出力頻度を指定します。"
+msgstr "Specify the output frequency to the file such as coordinates during simulation."
+
+msgid "CALCPRESSURE"
+msgstr "CALCPRESSURE"
+
+msgid "圧力を計算します。継続ジョブを行う際には、引継ぎ前のジョブの設定から変更することができないので注意する必要があります。"
+msgstr "Calculate the pressure. Care should be taken when performing a continuous job, as it cannot be changed from the settings of the job before takeover."
+
+msgid "Properties"
+msgstr "Properties"
+
+msgid "MO"
+msgstr "MO"
+
+msgid "分子軌道係数を出力します。（部分系の数が1の場合のみ）"
+msgstr "Output molecular orbital coefficient (only when the number of subsystems is 1)"
+
+msgid "ATOME"
+msgstr "ATOME"
+
+msgid "全エネルギーに対する各原子からの寄与を出力します。"
+msgstr "Outputs the contribution from each atom to the total energy."
+
+msgid "HS"
+msgstr "HS"
+
+msgid "ゼロ次ハミルトニアン、重なり行列を出力します。（部分系の数が1の場合のみ）"
+msgstr "Outputs zero-order Hamiltonian and overlap matrix (only when the number of subsystems is 1)"
+
+msgid "FORCE"
+msgstr "FORCE"
+
+msgid "エネルギーと力の計算を行います。"
+msgstr "Calculate energy and force."
+
+msgid "STRESS"
+msgstr "STRESS"
+
+msgid "応力テンソルと格子ベクトルの微分計算を行います。"
+msgstr "Calculate stress tensor and lattice vector"
+
+msgid "Options"
+msgstr "Options"
+
+msgid "Restore Working Directory"
+msgstr "Restore Working Directory"
+
+msgid "継続ジョブが異常終了時など、作業ディレクトリを実行前の状態に戻す際にクリックします。"
+msgstr "Click to return the working directory to its pre-execution status, such as when a continued job ends abnormally."
+
+msgid "実行"
+msgstr "Execution"
+
+msgid ""
+"DCDFTBMDを実行するために、 :ref:`remote_top` を開きます。 詳細な操作方法は  :ref:`remote_top` "
+"を参照してください。"
+msgstr "To run DCDFTBMD, open :ref:`remote_top`. See :ref:`remote_top` for detailed instructions."
+
+msgid "状況に応じて実行方法が異なります。"
+msgstr "The execution method depends on the situation."
+
+msgid "（デフォルト） :guilabel:`Extending Simulation` にチェックがない場合"
+msgstr "(Default) If :guilabel:`Extending Simulation` is unchecked"
+
+msgid "実行時にユーザが指定した名前で入力ファイル（拡張子dci）を保存し、それを用いて計算を実行します。"
+msgstr "Save the input file (extension dci) with the name specified by the user at the time of execution, and execute the calculation using it."
+
+msgid ":guilabel:`Extending Simulation` にチェックがある場合"
+msgstr "If :guilabel:`Extending Simulation` is checked"
+
+msgid ""
+"メインウィンドウで開かれた入力ファイルに紐づけられた既存の作業ディレクトリのバックアップを作成し、新たに作成した作業ディレクトリの中に入力ファイルを"
+" :file:`dftb.inp` として保存し、それを用いて計算を実行します。"
+msgstr "Create a backup of the existing working directory associated with the input file opened in the main window, save the input file as :file:`dftb.inp` in the newly created working directory, and use it to perform calculations . "
+
+msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.dci` の時のファイル/フォルダ名を併記しています。"
+msgstr "The following files are generated with execution. As an example, the file / folder name when the input file is :file:`water.dci` is also shown. "
+
+msgid "種類"
+msgstr "Type"
+
+msgid "説明"
+msgstr "Explanation"
+
+msgid "dcoファイル"
+msgstr "dco file"
+
+msgid ":file:`water.dco`"
+msgstr ":file:`water.dco`"
+
+msgid "DCDFTMDの標準出力ファイルです。"
+msgstr "DCDFTMD standard output file."
+
+msgid "作業フォルダの :file:`dftb.out` をコピーしたものです。"
+msgstr "A copy of :file:`dftb.out` in your working folder. "
+
+msgid "シェルスクリプト"
+msgstr "Shell script"
+
+msgid ":file:`water.sh`"
+msgstr ":file:`water.sh`"
+
+msgid "DCDFTBMDとそのプリ・ポスト処理を実行するための"
+msgstr "To perform DCDFTBMD and its pre / post processing"
+
+msgid "シェルスクリプトです。"
+msgstr "shell script."
+
+msgid "confファイル"
+msgstr "conf file"
+
+msgid ":file:`water_conf.sh`"
+msgstr ":file:`water_conf.sh`"
+
+msgid "上記シェルスクリプトの中で使われる変数を収めた"
+msgstr "Contains variables used in the above shell script"
+
+msgid "ファイルです。"
+msgstr "file."
+
+msgid "作業ディレクトリ"
+msgstr "Working directory"
+
+msgid ":file:`water_dc_data\\\\`"
+msgstr ":file:`water_dc_data\\\\`"
+
+msgid "作業ディレクトリです。"
+msgstr "working directory."
+
+msgid "作業ディレクトリには以下のファイルが生成されます。 ここでは主要なファイルのみ示しています。"
+msgstr "The following files are generated in the working directory. Only the main files are shown here."
+
+msgid ":file:`dftb.inp`"
+msgstr ":file:`dftb.inp`"
+
+msgid "実際にDCDFTMDに渡される入力ファイル"
+msgstr "Input file actually passed to DCDFTMD"
+
+msgid ":file:`dftb.out`"
+msgstr ":file:`dftb.out`"
+
+msgid "標準出力ファイル"
+msgstr "Standard output file"
+
+msgid ":file:`dftb.dat`"
+msgstr ":file:`dftb.dat`"
+
+msgid "詳細出力ファイル"
+msgstr "Detailed output file"
+
+msgid ":file:`traject`"
+msgstr ":file:`traject`"
+
+msgid "MD計算におけるトラジェクトリファイル"
+msgstr "Trajectory file in MD calculation"
+
+msgid ":file:`restart`"
+msgstr ":file:`restart`"
+
+msgid "リスタート用ファイル"
+msgstr "Restart file"
+
+msgid "**作業ディレクトリ**"
+msgstr "** Working directory **"
+
+msgid "作業ディレクトリとは、メインウィンドウで開かれているファイルの名前に接尾辞を加えた名前のフォルダです。"
+msgstr "A working directory is a folder with the suffix of the name of the file opened in the main window."
+
+msgid "**接尾辞はソルバの種類により変わります。**"
+msgstr "** The suffix depends on the type of solver. **"
+
+msgid ""
+"例えばGromacsの場合は、メインウィンドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が "
+":file:`_gmx_tmp` の場合、作業ディレクトリの名前は :file:`aaa_gmx_tmp` となります。"
+msgstr "For example, for Gromacs, if the file opened in the main window is :file:`aaa.gro` and the suffix is :file:`_gmx_tmp`, the name of the working directory is :file:`aaa_gmx_tmp`. "
+
+msgid "メインウィンドウで開かれているファイルと同じ階層に置かれている必要があります。"
+msgstr "It must be on the same level as the file opened in the main window."
+
+msgid "継続ジョブの時も同名の作業ディレクトリで処理が流れますが、デフォルトでは継続ジョブの実施直前に、直前のジョブの作業ディレクトリのバックアップが作成されます。"
+msgstr "Although processing continues in the working directory with the same name for continued jobs, by default, a backup of the previous job's working directory is created immediately before the continued job is executed."
+
+msgid ""
+"バックアップの名前は、重複する名前が存在しない範囲で一番小さい番号が付いたものになります。例えば、作業ディレクトリが "
+":file:`aaa_gmx_tmp` のときは :file:`aaa_gmx_tmp1` となります。"
+msgstr "The name of the backup will be the one with the lowest number in the range where there are no duplicate names. For example, if your working directory is :file:`aaa_gmx_tmp`, it will be :file:`aaa_gmx_tmp1`."
+
+msgid "**番号が付いていないディレクトリが常に最新のものとなります。**"
+msgstr "** Unnumbered directories are always up to date. **"
+
+msgid "ログを表示(dco)"
+msgstr "Display log (dco)"
+
+msgid "dco（標準出力）ファイルをテキストエディタで開きます。"
+msgstr "Open the dco (standard output) file with a text editor."
+
+msgid "詳細出力ファイルを表示(dat)"
+msgstr "Display detailed output file (dat)"
+
+msgid "詳細出力ファイルをテキストエディタで開きます。"
+msgstr "Open the detailed output file in a text editor."
+
+msgid "OPTアニメーション(dco)"
+msgstr "OPT animation (dco)"
+
+msgid "dcoファイルを選択し、構造最適化計算のトラジェクトリをアニメーション表示します。"
+msgstr "Select a dco file and animate the structure optimization trajectory."
+
+msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
+msgstr "Please refer to :ref:`animation_top` for how to operate the animation. "
+
+msgid "アニメーション(traject)"
+msgstr "Animation (traject)"
+
+msgid "dciファイルとtrajectファイルを選択し、MD計算のトラジェクトリをアニメーション表示します。"
+msgstr "Select dci and traject files and animate MD calculation trajectory."
+
+msgid "メインウィンドウのファイル名は変化しません。"
+msgstr "The main window file name does not change."
+
+msgid ""
+"Animationウィンドウの :menuselection:`Tools --> Mean Square "
+"Displacement/Diffusion Constant` と :menuselection:`Tools --> Radial "
+"Distribution Function` から平均二乗変位、自己拡散係数、動径分布関数を計算することができます。詳細は "
+":ref:`md_gromacs_msd` または :ref:`md_gromacs_rdf` を参照してください。"
+msgstr "You can calculate mean square displacement, self-diffusion coefficient, and radial distribution function from :menuselection:`Tools --> Mean Square Displacement / Diffusion Constant` and :menuselection:`Tools --> Radial Distribution Function` in Animation window."
+"See :ref:`md_gromacs_msd` or :ref:`md_gromacs_rdf` for details. " 
+
+msgid "エネルギー変化"
+msgstr "Energy change"
+
+msgid "ログファイルを選択し、エネルギー、温度などの各種熱力学量のグラフを表示します。"
+msgstr "Select a log file and display graphs of various thermodynamic quantities such as energy and temperature."
+
+msgid "サブウィンドウの操作方法は :ref:`energyplot_top` を参照してください。"
+msgstr "See :ref:`energyplot_top` for how to operate subwindows. "
 

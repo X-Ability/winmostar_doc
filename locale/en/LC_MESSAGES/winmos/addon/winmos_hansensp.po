@@ -4,44 +4,197 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-23 15:28+0900\n"
+"POT-Creation-Date: 2019-09-05 14:13+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.7.0\n"
 
-msgid "Hansen SP値"
-msgstr "Hansen SP value"
+msgid "Hansen SP & QSPRモデル"
+msgstr "Hansen SP & QSPR model"
 
-msgid "ハンセンの溶解度パラメータ（HSP）を計算します。"
-msgstr "Calculate the solubility parameter (HSP) of Hansen."
+msgid "原子団寄与法によりハンセンの溶解度パラメータ（HSP）を計算します。 また、原子団寄与法とQSPR（構造物性相関）モデルにより各種物性を計算します。"
+msgstr "Hansen solubility parameter (HSP) is calculated by atomic group contribution method. Various physical properties are calculated by atomic group contribution method and QSPR (structural property correlation)."
 
 msgid "使用するためにはアドオンの購入が必要です。"
 msgstr "Purchase of add-on is necessary for using."
 
+msgid "コマンドラインよりバッチファイルを使用して複数の分子構造に対し自動で連続的に処理することも可能です。（後述）"
+msgstr "It is also possible to process multiple molecular structures automatically and continuously using a batch file from the command line (see below)."
 
-msgid "HSPを求めたい分子をメインウィンドウで作成した後、本メニューをクリックします。ポリマーの場合はリピートユニット（例えばポリエチレンの場合はエタン分子）を作成し、隣のリポートユニットと結合する2か所を続けて左クリックしておきます。この挙動はポリマービルダ機能のモノマー登録と同じです。"
-msgstr "After creating the molecule for which HSP is desired in the main window, click this menu. In the case of a polymer, make a repeat unit (eg ethane molecule in case of polyethylene) and left click on two points to be combined with the next report unit. This behavior is the same as monomer registration of polymer builder function."
+msgid "HSPや各種物性を求めたい分子をメインウィンドウで作成した後、本メニューをクリックします。ポリマーの場合はリピートユニット（例えばポリエチレンの場合はエタン分子）を作成し、隣のリポートユニットと結合する2か所を続けて左クリックしておきます。この挙動はポリマービルダ機能のモノマー登録と同じです。"
+msgstr "NOTTRANSLATED"
+"After creating the molecule for which HSP is desired in the main window, "
+"click this menu. In the case of a polymer, make a repeat unit (eg ethane "
+"molecule in case of polyethylene) and left click on two points to be "
+"combined with the next report unit. This behavior is the same as monomer "
+"registration of polymer builder function."
 
 msgid ""
 "分子の場合は :guilabel:`Calc Hansen SP` ボタン、ポリマーの場合は :guilabel:`Calc Hansen SP "
 "for Polymer` ボタンをクリックします。"
-msgstr "In the case of molecules: guilabel: `Calc Hansen SP` button, for polymer, click: guilabel:` Calc Hansen SP for Polymer` button."
+msgstr "NOTTRANSLATED"
+"Click :guilabel:`Calc Hansen SP` button in the case of molecules, or :guilabel:`Calc Hansen SP for Polymer` button for polymer."
 
-msgid "HSPが記されたcsvファイルが作成されます。"
-msgstr "A csv file with HSP is created."
+msgid "HSPや各種物性が記されたcsvファイルが作成されます。csvファイルの各項目の意味は以下の通りです。それぞれの物性の単位はcsvファイル内に書かれています。"
+msgstr "A csv file with HSP and various physical properties is created. The meaning of each item in the csv file is as follows. The unit of each physical property is written in the csv file."
+
+msgid "表示名"
+msgstr "Display name"
+
+msgid "意味"
+msgstr "Meaning"
+
+msgid "totHSP"
+msgstr "totHSP"
+
+msgid "Sqrt((dD14)^2+(dP14)^2+(dH14)^2)"
+msgstr "Sqrt((dD14)^2+(dP14)^2+(dH14)^2)"
+
+msgid "（Hildebrandの溶解度パラメータに相当）"
+msgstr "(Equivalent to Hildebrand solubility parameter)"
+
+msgid "dD14"
+msgstr "dD14"
+
+msgid "HSP分散項"
+msgstr "HSP variance term"
+
+msgid "dP14"
+msgstr "dP14"
+
+msgid "HSP分極項"
+msgstr "HSP polarization term"
+
+msgid "dH14"
+msgstr "dH14"
+
+msgid "HSP水素結合項"
+msgstr "HSP hydrogen bond term"
+
+msgid "dHdo14"
+msgstr "dHdo14"
+
+msgid "HSP水素結合項（ドナー）"
+msgstr "HSP hydrogen bond term (donor)"
+
+msgid "dHac14"
+msgstr "dHac14"
+
+msgid "HSP水素結合項（アクセプター）"
+msgstr "HSP hydrogen bond term (acceptor)"
+
+msgid "polym_totHSP"
+msgstr "polym_totHSP"
+
+msgid "Sqrt((polym_dD14)^2+(polym_dP14)^2+(polym_dH14)^2)"
+msgstr "Sqrt((polym_dD14)^2+(polym_dP14)^2+(polym_dH14)^2)"
+
+msgid "polym_dD14"
+msgstr "polym_dD14"
+
+msgid "HSP分散項（ポリマー向け）"
+msgstr "HSP dispersion term (for polymers)"
+
+msgid "polym_dP14"
+msgstr "polym_dP14"
+
+msgid "HSP分極項（ポリマー向け）"
+msgstr "HSP polarization term (for polymers)"
+
+msgid "polym_dH14"
+msgstr "polym_dH14"
+
+msgid "HSP水素結合項（ポリマー向け）"
+msgstr "HSP hydrogen bond term (for polymers)"
+
+msgid "polym_dHdo14"
+msgstr "polym_dHdo14"
+
+msgid "HSP水素結合項（ドナー）（ポリマー向け）"
+msgstr "HSP hydrogen bond term (donor) (for polymers)"
+
+msgid "polym_dHac14"
+msgstr "polym_dHac14"
+
+msgid "HSP水素結合項（アクセプター）（ポリマー向け）"
+msgstr "HSP hydrogen bond term (acceptor) (for polymers)"
+
+msgid "Boiling Point"
+msgstr "Boiling Point"
+
+msgid "沸点"
+msgstr "Boiling Point"
+
+msgid "Melting point"
+msgstr "Melting point"
+
+msgid "融点"
+msgstr "Melting point"
+
+msgid "Log10(Viscosity)"
+msgstr "Log10(Viscosity)"
+
+msgid "対数粘度"
+msgstr "Logarithmic viscosity"
+
+msgid "Standard enthalpy of formation"
+msgstr "Standard enthalpy of formation"
+
+msgid "標準生成エンタルピー"
+msgstr "Standard generation enthalpy"
+
+msgid "Standard Gibbs free energy of formation"
+msgstr "Standard Gibbs free energy of formation"
+
+msgid "標準ギブスエネルギー"
+msgstr "Standard Gibbs energy"
+
+msgid "Surface tension"
+msgstr "Surface tension"
+
+msgid "表面張力"
+msgstr "surface tension"
+
+msgid "Thermal conductivity"
+msgstr "Thermal conductivity"
+
+msgid "熱伝導度"
+msgstr "Thermal conductivity"
 
 msgid ""
-"計算されるHSPは原子団寄与法により算出されていて、算出に対応している原子団（官能基）は `こちら "
+"計算されるHSPや各種物性は原子団寄与法により算出されています。 算出に対応している原子団（官能基）は `こちら "
 "<https://www.pirika.com/NewHP-J/JP2/FunctionalG.html>`_ に記されています。 "
 "総原子数は最大250、水素を除く原子数は120まで計算可能です。"
-msgstr "The calculated HSP is calculated by the atomic group contribution method, and the atomic group (functional group) corresponding to the calculation is here <https://www.pirika.com/NewHP-J/JP2/FunctionalG.html> It is written in `_. The total number of atoms can be calculated up to 250, and the number of atoms excluding hydrogen can be calculated up to 120."
+msgstr "NOTTRANSLATED"
+"The calculated HSP and various physical properties are calculated by the group contribution method. "
+"The atomic group (functional group) corresponding to the calculation is described `here <https://www.pirika.com/NewHP-J/JP2/FunctionalG.html>`_. "
+"The total number of atoms can be calculated up to 250, and the number of atoms excluding hydrogen can be calculated up to 120."
+
+msgid ""
+"複数の分子構造に対し自動で連続的に処理したい場合は、コマンドラインよりバッチファイルを使用します。 コマンドラインの記法は "
+":ref:`commandline_top` を参照してください。 "
+"コマンドラインを使用すると、元ファイルのフォルダにcsvファイルと作業フォルダが作成されます。 "
+"コマンドラインからポリマー向けの値を算出したい場合は、元ファイルにおいて隣のリピートユニットと結合する2か所の原子種をAtに変更してください。"
+msgstr "If you want to process multiple molecular structures automatically and continuously, use a batch file from the command line. For command line syntax, see :ref:`commandline_top`. "
+"When you use the command line, a csv file and a working folder are created in the original file folder. If you want to calculate the value for the polymer from the command line, change the atomic type of the two locations that bind to the adjacent repeat unit in the original file to At."
+
+msgid "例えば以下のようなバッチファイルを作成し、バッチファイルと同じ階層にmol2ファイルを配置してから、バッチファイルをダブルクリックすると、mol2ファイルの分子について連続で計算が実行されます。"
+msgstr "For example, if you create a batch file as shown below and place a mol2 file in the same hierarchy as the batch file, then double-click the batch file to execute calculations continuously for the molecules in the mol2 file."
+
+#~ msgid "Hansen SP値"
+#~ msgstr "Hansen SP value"
+
+#~ msgid "ハンセンの溶解度パラメータ（HSP）を計算します。"
+#~ msgstr "Calculate the solubility parameter (HSP) of Hansen."
+
+#~ msgid "HSPが記されたcsvファイルが作成されます。"
+#~ msgstr "A csv file with HSP is created."
 
