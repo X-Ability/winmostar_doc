@@ -19,7 +19,7 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid ":menuselection:`MD --> 界面ビルダ` メニュー"
-msgstr ": menuselection: `MD -&gt; interface builder` menu"
+msgstr ":menuselection:`MD --> interface builder` menu"
 
 msgid "あらかじめ用意された二つのシミュレーションセルのファイル（mol2またはcif形式）を接合して界面モデルを作成します。"
 msgstr "Join the two simulation cell files (mol2 or cif format) prepared in advance to create an interface model."

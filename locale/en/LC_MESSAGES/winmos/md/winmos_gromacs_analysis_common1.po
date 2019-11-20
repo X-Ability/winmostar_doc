@@ -30,7 +30,7 @@ msgstr "Reference Group"
 msgid ""
 "動径分布関数などの原子対について計算する物理量の場合だけ出現します。 :guilabel:`Target Group` と "
 ":guilabel:`Reference Group` の間で物理量が計算されます。"
-msgstr "It only appears for physical quantities to be calculated for atom pairs such as radial distribution functions. The physical quantity is calculated between: guilabel: `Target Group` and: guilabel:` Reference Group`."
+msgstr "It only appears for physical quantities to be calculated for atom pairs such as radial distribution functions. The physical quantity is calculated between :guilabel:`Target Group` and :guilabel:`Reference Group`."
 
 msgid "Create Group"
 msgstr "Create Group"
@@ -42,7 +42,7 @@ msgstr "Register a new group from the atom name written in the gro file."
 msgid ""
 "メインウィンドウでグループ選択されている原子をグループとして定義する場合は :menuselection:`MD --> Gromacs -->`"
 " :ref:`md_gromacs_editndx` を使用してください。"
-msgstr "To define atoms selected as a group in the main window as a group, use: menuselection: `MD -&gt; Gromacs -&gt;`: ref: `md_gromacs_editndx`."
+msgstr "To define atoms selected as a group in the main window as a group, use :menuselection:`MD --> Gromacs -->` :ref:`md_gromacs_editndx`."
 
 
 msgid ""
@@ -50,7 +50,7 @@ msgid ""
 "にチェックを入れて :guilabel:`New group Name` を入力し :guilabel:`Create` "
 "ボタンを押すと、ndxファイルにグループが追加されます。 :guilabel:`Close` ボタンを押すと :guilabel:`Target "
 "Group` や :guilabel:`Reference Group` に追加したグループが追加されます。"
-msgstr ": In the guilabel: `Create Group` window, check: guilabel:` Extracted Atom Names` and enter: guilabel: `New group Name` and press the guilabel:` Create` button, the group is added to the ndx file It will be added. : guilabel: When you press the `Close` button, the groups added to: guilabel:` Target Group` and: guilabel: `Reference Group` are added."
+msgstr "In the :guilabel:`Create Group` window, check :guilabel:`Extracted Atom Names` and enter :guilabel:`New group Name` and press the :guilabel:`Create` button, the group is added to the ndx file It will be added. When you press the :guilabel:`Close` button, the groups added to :guilabel:`Target Group` and :guilabel:`Reference Group` are added."
 
 msgid "First Frame"
 msgstr "First Frame"
@@ -65,5 +65,5 @@ msgid "結果解析用プログラムを実行してグラフを表示します�
 msgstr "Execute the result analysis program and display the graph."
 
 msgid "グラフ描画エリアの操作方法は :ref:`chart_top` を参照してください。"
-msgstr "For how to operate the graph drawing area, see: ref: `chart_top`."
+msgstr "For how to operate the graph drawing area, see :ref:`chart_top`."
 
