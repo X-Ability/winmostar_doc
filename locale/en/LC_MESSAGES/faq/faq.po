@@ -81,7 +81,7 @@ msgid "・講義を行われる先生から直接問い合わせ下さい。"
 msgstr "· Please contact directly from the teacher who is lecturing."
 
 msgid "・自由記入欄に授業名・期間・おおよその学生数ご記入下さい。"
-msgstr "・ Name in the free entry field ・ period ・ approximate number of students Please fill in."
+msgstr "· Name in the free entry field ・ period ・ approximate number of students Please fill in."
 
 msgid "・後日授業資料を共有いただけますと幸いです。"
 msgstr "· I am pleased to share the lesson materials later."
@@ -98,21 +98,17 @@ msgstr "Q. I can not create a model as I expected. It can not calculate. It does
 msgid "まず、以下の基礎的なチェックを行ってください。"
 msgstr "First, please perform the following basic checks."
 
-msgid ":ref:`インストール時の注意事項 <intall_installwm>` を確認する。"
-msgstr "Check the :ref:`Installation precautions <intall_installwm>`_."
+msgid ":ref:`インストール時の注意事項 <intall_installwm>`_ を確認する。"
+msgstr "Check the :ref:`Installation precautions <intall_installwm>`."
 
-msgid ""
-"使用中のWinmostarが無償版、学生版、プロフェッショナル版、プロフェッショナル版（トライアル）のいずれに該当するか確認し、問題を起こしている機能がその版で使用可能か"
-" `機能表 <https://winmostar.com/jp/function_jp.html>`_ を見て確認する。"
-msgstr "Check whether Winmostar in use is a free version, a student version, a professional version, or a professional version (trial), and whether the function causing the problem is available in that version `function table <https://winmostar.com/jp/function_jp.html> Check _ to see."
+msgid "使用中のWinmostarが無償版、学生版、プロフェッショナル版、プロフェッショナル版（トライアル）のいずれに該当するか確認し、問題を起こしている機能がその版で使用可能か `機能表 <https://winmostar.com/jp/function_jp.html>`_ を見て確認する。"
+msgstr "Check whether Winmostar in use is a free version, a student version, a professional version, or a professional version (trial), and whether the function causing the problem is available in that version `function table <https://winmostar.com/jp/function_jp.html>`_."
 
 msgid "使用中のセキュリティ対策ソフトの活動記録を確認し、Winmostarおよびcygwin_wmのインストールフォルダの下のアプリケーションの活動が妨害された記録がないか確認する。"
 msgstr "Check the activity record of the security countermeasure software in use and check whether there is any record in which the activities of the application under Winmostar and cygwin_wm installation folder are disturbed."
 
-msgid ""
-"Winmostarを最新版にアップデートし（使用中のバージョンと共存させることが可能）、 :ref:`knownissues_top` 、 "
-":ref:`faq_top` に類似する状況がないか確認する。"
-msgstr "Update Winmostar to the latest version (it is possible to coexist with the version you are using), check if there is a situation similar to: ref: `knownissues_top`,: ref:` faq_top`."
+msgid "Winmostarを最新版にアップデートし（使用中のバージョンと共存させることが可能）、 :ref:`knownissues_top` 、 :ref:`faq_top` に類似する状況がないか確認する。"
+msgstr "Update Winmostar to the latest version (it is possible to coexist with the version you are using), check if there is a situation similar to :ref:`knownissues_top`, :ref:`faq_top`."
 
 msgid "保存するファイルやそれを含むディレクトリ（上位階層全てを含む）の名前に、日本語、全角文字などのマルチバイト文字や特殊記号が含まれている場合は、一部ソルバで不具合が出ることがあるため半角英数のみとなるようにする。"
 msgstr "If the names of files to be saved and directories containing them (including all upper layers) contain multibyte characters such as Japanese and double-byte characters, and special symbols, some of the solvers may malfunction Therefore, it is made to be only half-width alphabet."
@@ -121,16 +117,13 @@ msgid "実行した処理で何かしらログが出力されているか作業�
 msgstr "Check the working folder to see if the log is being output by the executed process and check the contents of the log."
 
 msgid "計算が開始されたが計算結果がおかしいと感じた場合は、メインメニューで使用したソルバのメニューから「log(out)ファイル編集」などをクリックし、ログの内容を確認する。"
-msgstr "If calculation is started but the calculation result is funny, click &quot;log (out) file edit&quot; etc from the solver menu used in the main menu and check the contents of the log."
+msgstr "If calculation is started but the calculation result is funny, click "log (out) file edit" etc from the solver menu used in the main menu and check the contents of the log."
 
 msgid "次に、メモ帳などで以降の作業の記録を取れるようにしてください。不具合の再現方法が判明した場合、作業の記録と一緒にご報告頂くと比較的短時間で修正できることがあります。"
 msgstr "Next, please make it possible to record records of subsequent work with Notepad etc. If you find out how to reproduce the problem, you may be able to fix it in a relatively short time if you report along with the record of work."
 
-msgid ""
-"そして、Winmostarの `チュートリアル "
-"<https://winmostar.com/jp/manual_jp.html#tutorials>`_ "
-"のうち、これから使いたいソルバの基礎編チュートリアルをトレースしてください。"
-msgstr "And the Winmostar `tutorial <https://winmostar.com/jp/manual_jp.html#tutorials> Please trace the basics tutorial of the solver you want to use out of `_."
+msgid "そして、Winmostarの `チュートリアル <https://winmostar.com/jp/manual_jp.html#tutorials>`_ のうち、これから使いたいソルバの基礎編チュートリアルをトレースしてください。"
+msgstr "And the Winmostar `tutorial <https://winmostar.com/jp/manual_jp.html#tutorials>`_. Please trace the basics tutorial of the solver you want to use."
 
 msgid "基礎編チュートリアルのトレースに失敗する場合は、以下を試してください。"
 msgstr "If you fail to trace the basics tutorial, try the following."
@@ -150,10 +143,8 @@ msgstr "Restart the OS."
 msgid "セキュリティ対策ソフトで、Winmostar、cygwin_wmのインストールフォルダ、およびソルバ（MPIを含む）が監視対象外に設定する。"
 msgstr "With security counter software, Winmostar, installation folder of cygwin_wm, and solver (including MPI) are excluded from monitoring."
 
-msgid ""
-"cygwin_wmを使用している場合は、 :menuselection:`ヘルプ --> cygwin_wmを診断` "
-"でcygwin_wmの簡易的な診断を実行する。"
-msgstr "If you are using cygwin_wm, run: menuselection: `help -&gt; diagnose cygwin_wm` and perform a simple diagnosis of cygwin_wm."
+msgid "cygwin_wmを使用している場合は、 :menuselection:`ヘルプ --> cygwin_wmを診断` でcygwin_wmの簡易的な診断を実行する。"
+msgstr "If you are using cygwin_wm, run :menuselection:`help --> diagnose cygwin_wm` and perform a simple diagnosis of cygwin_wm."
 
 msgid "Winmostar, cygwin_wmおよび使用したソルバを再インストールする。"
 msgstr "Reinstall Winmostar, cygwin_wm and the solver you used."
@@ -161,34 +152,28 @@ msgstr "Reinstall Winmostar, cygwin_wm and the solver you used."
 msgid "他のPCで試す。"
 msgstr "Try with another PC."
 
-msgid ""
-"次に、最終的に計算したいものに極力近いと思われるチュートリアルをトレースしてください。 "
-"それに成功したら、最終的に計算したいものに少しずつ寄せるように計算条件を変更し、問題発生箇所を特定したら以下を試してください。"
+msgid "次に、最終的に計算したいものに極力近いと思われるチュートリアルをトレースしてください。 それに成功したら、最終的に計算したいものに少しずつ寄せるように計算条件を変更し、問題発生箇所を特定したら以下を試してください。"
 msgstr "Next, trace the tutorial which seems to be as close as possible to what you want to calculate finally. If it succeeds, please change the calculation condition so that it finally gets to calculate what you want to calculate and try the following if you identify the problem occurrence place."
 
 msgid ":ref:`faq_top` に類似事例がないかご確認ください。"
-msgstr "Please check for similar cases in: ref: `faq_top`."
+msgstr "Please check for similar cases in :ref:`faq_top`."
 
-msgid ""
-"問題発生箇所がWinmostarが外部ソフトを呼んでいる部分の場合は、 `そのソフトの情報 "
-"<https://winmostar.com/jp/manual_jp.html#solver_official>`_ もご確認ください。"
-msgstr "If the problem occurrence part is the part where Winmostar calls external software, `information on that software <https://winmostar.com/jp/manual_jp.html#solver_official> `_ Please check also."
+msgid "問題発生箇所がWinmostarが外部ソフトを呼んでいる部分の場合は、 `そのソフトの情報 <https://winmostar.com/jp/manual_jp.html#solver_official>`_ もご確認ください。"
+msgstr "If the problem occurrence part is the part where Winmostar calls external software, Please check also `information on that software <https://winmostar.com/jp/manual_jp.html#solver_official>`_."
 
-msgid "Cygwinを用いた処理で落ちている場合は、 :ref:`Cygwinの一般的な不具合 <faq_cygwin_error>` をご確認ください。"
-msgstr "If it has been dropped by processing using Cygwin, please use: ref: `Cygwin general problem <faq_cygwin_error> `Please confirm."
+msgid "Cygwinを用いた処理で落ちている場合は、 :ref:`Cygwinの一般的な不具合 <faq_cygwin_error>`_ をご確認ください。"
+msgstr "If it has been dropped by processing using Cygwin, please confirm :ref:`Cygwin general problem <faq_cygwin_error>`_."
 
 msgid "Q. Winmostarの動かすPCの最小・推奨スペックを教えてください。"
 msgstr "Q. Please tell me the minimum and recommended specifications of PC that Winmostar runs."
 
 msgid "A. :ref:`install_recommend_spec` をご確認下さい。"
-msgstr "A. Please check ref: `install_recommend_spec`."
+msgstr "A. Please check :ref:`install_recommend_spec`."
 
 msgid "Q. 「ERROR: I/O error 32」と表示され処理に失敗します。"
 msgstr "Q. "ERROR: I / O error 32" is displayed and processing fails."
 
-msgid ""
-"A. "
-"処理に関わるファイルがWinmostar以外のアプリケーションまたはプロセスで開かれていてロックされている場合や、削除されている可能性があります。"
+msgid "A. 処理に関わるファイルがWinmostar以外のアプリケーションまたはプロセスで開かれていてロックされている場合や、削除されている可能性があります。"
 msgstr "A. The file related to processing may be opened by an application or process other than Winmostar, locked, or it may have been deleted."
 
 msgid "OSを再起動し他のアプリケーションが開いていない状況でお試しください。"
@@ -198,55 +183,43 @@ msgid "Q. 作製した分子モデル等を学会発表や論文に用いるこ�
 msgstr "Q. Is it possible to use the created molecular model etc for academic presentations and papers? How should I quote at conference presentations and paper submissions?"
 
 msgid "A. 使用いただいて問題ありません。発表される際には :ref:`intro_citation` の通りに引用してください。"
-msgstr "A. No problem with using it. When announcing it please quote as per: ref: `intro_citation`."
+msgstr "A. No problem with using it. When announcing it please quote as per :ref:`intro_citation`."
 
-msgid ""
-"Q. Cygwinを使う処理が異常終了します。／ :menuselection:`ツール --> cygwin_wmを診断` 機能で `... "
-"ERROR ...` と表示されます。／Cygwinの黒いウィンドウに `child_info_fork::abort: ... Loaded "
-"to different address: parent ... != child ...` などと表示されます。"
-msgstr "Q. Process using Cygwin will end abnormally. / :Menuselection:`tools --> diagnose cygwin_wm` function will display `... ERROR ...`. / Cygwin&#39;s black window will display `child_info_fork :: abort: ... Loaded to different address: parent ...! = Child ...`."
+msgid "Q. Cygwinを使う処理が異常終了します。／ :menuselection:`ツール --> cygwin_wmを診断` 機能で `... ERROR ...` と表示されます。／Cygwinの黒いウィンドウに `child_info_fork::abort: ... Loaded to different address: parent ... != child ...` などと表示されます。"
+msgstr "Q. Process using Cygwin will end abnormally. / :menuselection:`tools --> diagnose cygwin_wm` function will display `... ERROR ...`. / Cygwin's black window will display `child_info_fork :: abort: ... Loaded to different address: parent ...! = Child ...`."
 
 msgid "A. 以下の手順を上から順に一つずつ実行し、その都度、エラーが起きた処理を再実施してください。"
 msgstr "A. Please execute the following procedure one by one from the top one one by one, and re-execute the process where the error occurred each time."
 
-msgid "一般的な :ref:`一般的な不具合の対処 <faq_general_error>` を実施する"
-msgstr "General: ref: `dealing with common problems <faq_general_error> To implement"
+msgid "一般的な :ref:`一般的な不具合の対処 <faq_general_error>`_ を実施する"
+msgstr "Perform general :ref:`dealing with common problems <faq_general_error>`_."
 
 msgid "マシンを再起動する"
 msgstr "Restart the machine"
 
 msgid "使用しているcygwin_wmの :file:`cygwin1.dll` 以外を検索して削除し、マシンを再起動する"
-msgstr "Search and delete anything other than: cygwin_wm: file: `cygwin1.dll` and restart the machine"
+msgstr "Search and delete anything other than :file:`cygwin1.dll` and restart the machine"
 
 msgid "同一マシン上にcygwin_wm以外に :file:`cygwin1.dll` が存在して場合の一部のケースでこの操作が必要です。"
-msgstr "This operation is necessary in some cases if: file: `cygwin1.dll` exists in addition to cygwin_wm on the same machine."
+msgstr "This operation is necessary in some cases if :file:`cygwin1.dll` exists in addition to cygwin_wm on the same machine."
 
 msgid ":file:`cygwin1.dll` は他にCygwinをインストールしていなくても、各種フリーウエアなどに同梱されていることがあります。"
-msgstr ": file: `cygwin1.dll` may be included in various freeware etc even if you do not install Cygwin in addition."
+msgstr ":file:`cygwin1.dll` may be included in various freeware etc even if you do not install Cygwin in addition."
 
-msgid ""
-"使用しているマシン上の全てのCygwinが終了している状態で、Windowsの[ファイル名を指定して実行]にて "
-":file:`C:\\\\cygwin_wm\\\\bin\\\\ash.exe` （cygwin_wmを "
-":file:`C:\\\\cygwin_wm` にインストールした場合）を実行し、 :command:`/bin/rebaseall -v` "
-"というコマンドを実行しマシンを再起動する。"
-msgstr "With all the Cygwin on the machine being used terminated, at the [Run with file name] of Windows: file: `C: \\\\ cygwin_wm \\\\ bin \ \ \ \ ash.exe` (when cygwin_wm is installed in: file: `C: \\\\ cygwin_wm`) and execute the command:::: / bin / rebaseall -v` to restart the machine ."
+msgid "使用しているマシン上の全てのCygwinが終了している状態で、Windowsの[ファイル名を指定して実行]にて "
+":file:`C:\\\\cygwin_wm\\\\bin\\\\ash.exe` （cygwin_wmを :file:`C:\\\\cygwin_wm` にインストールした場合）を実行し、 :command:`/bin/rebaseall -v` というコマンドを実行しマシンを再起動する。"
+msgstr "With all the Cygwin on the machine being used terminated, at the [Run with file name] of Windows :file:`C:\\\\cygwin_wm\\\\bin\\\\ash.exe` (when cygwin_wm is installed in :file:`C:\\\\cygwin_wm`) and execute the :command:`/bin/rebaseall -v` to restart the machine ."
 
 msgid "セキュリティ対策ソフトを一時的に無効する。"
 msgstr "Temporarily disable security countermeasure software."
 
-msgid ""
-"`CygwinのFAQ <https://cygwin.com/faq.html#faq.using.bloda>`_ "
-"に記載されている不具合を起こしがちなソフトを無効にする。"
-msgstr "`Cygwin FAQ <https://cygwin.com/faq.html#faq.using.bloda> Disable software that tends to cause problems described in `_."
+msgid "`CygwinのFAQ <https://cygwin.com/faq.html#faq.using.bloda>`_ に記載されている不具合を起こしがちなソフトを無効にする。"
+msgstr "Disable software that tends to cause problems described in `Cygwin FAQ <https://cygwin.com/faq.html#faq.using.bloda>`_."
 
-msgid ""
-"その他、 `Cygwinのfork()関連の失敗に関するFAQ <https://cygwin.com/faq.html#faq.using"
-".fixing-fork-failures>`_ に記載された方法を試す。"
-msgstr "Others, &#39;Cygwin&#39;s FAQ on fork () related failures <https://cygwin.com/faq.html#faq.using.fixing-fork-failures> Try the method described in `_."
+msgid "その他、 `Cygwinのfork()関連の失敗に関するFAQ <https://cygwin.com/faq.html#faq.using.fixing-fork-failures>`_ に記載された方法を試す。"
+msgstr "In addition, try the method described in `FAQ regarding Cygwin fork () related failures <https://cygwin.com/faq.html#faq.using.fixing-fork-failures>`_."
 
-msgid ""
-"Q. :menuselection:`ツール --> cygwin_wmを診断` 機能で `WARNING ... some files are "
-"missing` と表示されます。"
+msgid "Q. :menuselection:`ツール --> cygwin_wmを診断` 機能で `WARNING ... some files are missing` と表示されます。"
 msgstr "Q. :menuselection:`tools --> diagnose cygwin_wm` function will display `WARNING ... some files are missing`."
 
 msgid "A. cygwin_wmを再インストールしてください。"
@@ -264,66 +237,47 @@ msgstr "Q. How do I change the type of chemical bond (single, double etc.)?"
 msgid "A. 例えば以下に示す方法で変更できます。"
 msgstr "A. You can change it by the following method, for example."
 
-msgid ""
-"1) :menuselection:`編集 --> 結合 --> 結合付加` またはメインウィンドウ上部のk :guilabel:`結合付加` "
-"ボタンを複数回押すことで、結合の種類を変更できます。"
-msgstr "1): menuselection: `edit -&gt; join -&gt; join addition` or by pressing the k: guilabel: `join addition` button at the top of the main window multiple times."
+msgid "1) :menuselection:`編集 --> 結合 --> 結合付加` またはメインウィンドウ上部のk :guilabel:`結合付加` ボタンを複数回押すことで、結合の種類を変更できます。"
+msgstr "1) :menuselection:`edit --> join --> join addition` or by pressing the k :guilabel:`join addition` button at the top of the main window multiple times."
 
-msgid ""
-"2) :menuselection:`編集 --> 結合 --> 結合再生成` "
-"を選択すると原子間距離から判定された結合次数で自動的に化学結合の種類が変更されます。予め :menuselection:`編集 --> クリーン`"
-" により構造最適化しておくと、より妥当に自動変更されることがあります。"
-msgstr "2): menuselection: `Edit -&gt; Join -&gt; join regeneration` is selected, the type of chemical bond is automatically changed by the bond degree determined from the interatomic distance. In advance: menuselection: `edit -&gt; clean` `if you optimize the structure, it may be changed automatically more reasonably."
+msgid "2) :menuselection:`編集 --> 結合 --> 結合再生成` を選択すると原子間距離から判定された結合次数で自動的に化学結合の種類が変更されます。予め :menuselection:`編集 --> クリーン` により構造最適化しておくと、より妥当に自動変更されることがあります。"
+msgstr "2) :menuselection:`Edit --> Join --> join regeneration` is selected, the type of chemical bond is automatically changed by the bond degree determined from the interatomic distance. In advance :menuselection:`edit --> clean` `if you optimize the structure, it may be changed automatically more reasonably."
 
-msgid ""
-"3) "
-"小さい分子が一つだけしか表示されていない場合は、MOPAC計算を実行することで、Population解析結果を用いて自動的に結合次数が変更されます。"
+msgid "3) 小さい分子が一つだけしか表示されていない場合は、MOPAC計算を実行することで、Population解析結果を用いて自動的に結合次数が変更されます。"
 msgstr "3) If only one small molecule is displayed, execution of MOPAC calculation will automatically change the coupling order using the population analysis result."
 
-msgid ""
-"Q. :menuselection:`MD --> 溶媒を配置/系を構築` 機能を実行すると `Error : Failed to "
-"solvate.` などと表示され処理に失敗します。"
-msgstr "Q. :menuselection: `MD --> Arrange Solvent / Building System &#39;function will display "Error: Failed to solvate." And processing will fail."
+msgid "Q. :menuselection:`MD --> 溶媒を配置/系を構築` 機能を実行すると `Error : Failed to solvate.` などと表示され処理に失敗します。"
+msgstr "Q. :menuselection:`MD --> Arrange Solvent / Building System` function will display ''Error: Failed to solvate.'' And processing will fail."
 
 msgid "---------質問詳細---------"
 msgstr "--------- Question details ---------"
 
 msgid ":menuselection:`MD --> 溶媒を配置/系を構築` を実行した際に :file:`generate.log` に ::"
-msgstr " :menuselection:`MD --> Arrange Solvent / Build System` when executing: file: `generate.log` ::"
+msgstr "When executing :menuselection:`MD --> Arrange Solvent / Build System`, "
 
 msgid "などと出力され処理が正常終了しません。"
-msgstr "The process is output normally and the process does not end normally."
+msgstr ":: etc. is output to :file:`generate.log` and the process does not end normally."
 
-msgid ""
-"A. :ref:`一般的な不具合 <faq_general_error>` の対処と、:ref:`Cygwinの一般的な不具合 "
-"<faq_cygwin_error>` の対処に加え、分子数を減らすか、密度を減らして実行してください。 "
-"また、それでも実行できない場合は、内部的に使用しているGromacsの再インストールを、以下の手順で実施してください。"
-msgstr "A.: ref: `general trouble <faq_general_error> `And dealing with: ref:` Cygwin general bug <faq_cygwin_error> `, In addition to reducing the number of molecules or reducing the density please execute. If you still can not do it, reinstall internally used Gromacs in the following procedure."
+msgid "A. :ref:`一般的な不具合 <faq_general_error>` の対処と、:ref:`Cygwinの一般的な不具合 <faq_cygwin_error>` の対処に加え、分子数を減らすか、密度を減らして実行してください。 また、それでも実行できない場合は、内部的に使用しているGromacsの再インストールを、以下の手順で実施してください。"
+msgstr "A. :ref:`general trouble <faq_general_error>` and dealing with :ref:`Cygwin general bug <faq_cygwin_error>`, In addition to reducing the number of molecules or reducing the density please execute. If you still can not do it, reinstall internally used Gromacs in the following procedure."
 
 msgid "cygwin_wmのインストールフォルダの下の :file:`/etc/profile.d/winmostar.sh` の中の"
-msgstr "Under cygwin_wm installation folder: file: `/ etc / profile.d / winmostar.sh` in"
+msgstr "Comment out or delete the line of"
 
 msgid "または"
 msgstr "Or"
 
 msgid "の行をコメントアウトまたは削除する"
-msgstr "Comment out or delete the line of"
+msgstr "in :file:`/etc/profile.d/winmostar.sh` under cygwin_wm installation folder."
 
-msgid ""
-"Winmostarの :menuselection:`ツール --> cygwin_wm起動` をクリックし、起動したcygwin上で "
-"`各種ソルバのインストール手順(Cygwin) <https://winmostar.com/jp/gmx4wm_jp_win.html>`_ "
-"の「1-2. Gromacs」のインストール手順を試みる"
-msgstr "Winmostar &#39;s :menuselection:`tools --> cygwin_wm startup&#39; Click on the installed cygwin` various solver installation procedures (Cygwin) <https://winmostar.com/jp/gmx4wm_jp_win.html> Try&#39;.1-2. Gromacs&#39; installation procedure for `_"
+msgid "Winmostarの :menuselection:`ツール --> cygwin_wm起動` をクリックし、起動したcygwin上で `各種ソルバのインストール手順(Cygwin) <https://winmostar.com/jp/gmx4wm_jp_win.html>`_ の「1-2. Gromacs」のインストール手順を試みる"
+msgstr "Click :menuselection:`tools --> cygwin_wm startup` of Winmostar and try ``1-2. Gromacs`` of `various solver installation procedures (Cygwin) <https://winmostar.com/jp/gmx4wm_jp_win.html>` on the installed cygwin."
 
-msgid ""
-":menuselection:`ツール --> cygwin_wm起動` で :command:`gmx` と実行し `GROMACS: gmx,"
-" VERSION ...` などとGromacsの起動を示すメッセージが表示されたら再ビルドは成功である"
-msgstr " :menuselection:`rebuild is successful when a message showing the start of Gromacs such as&#39;: tool --> cygwin_wm start` and executing: command: `gmx` and` GROMACS: gmx, VERSION ... `"
+msgid ":menuselection:`ツール --> cygwin_wm起動` で :command:`gmx` と実行し `GROMACS: gmx, VERSION ...` などとGromacsの起動を示すメッセージが表示されたら再ビルドは成功である"
+msgstr "Run :command:`gmx` from :menuselection:`Tools --> Start cygwin_wm`, and rebuild will be successful if a message indicating `GROMACS: gmx, VERSION ...`, etc. is displayed."
 
-msgid ""
-"分子数が大きい場合（ケースにもよるが10,000程度）は、現在内部処理で使用している :command:`gmx solvate` "
-"の処理の限界となるケースもあるので、 :menuselection:`編集 --> 部分編集 --> 部分複製` で分子を並べてください。"
-msgstr "There are cases where the number of molecules is large (depending on the case, but it is about 10,000), since it is currently the limit of processing of command: `gmx solvate`, which is used in internal processing, :menuselection:` edit --> Please align molecules with partial editing --> partial duplication."
+msgid "分子数が大きい場合（ケースにもよるが10,000程度）は、現在内部処理で使用している :command:`gmx solvate` の処理の限界となるケースもあるので、 :menuselection:`編集 --> 部分編集 --> 部分複製` で分子を並べてください。"
+msgstr "There are cases where the number of molecules is large (depending on the case, but it is about 10,000), since it is currently the limit of processing of :command:`gmx solvate`, which is used in internal processing, :menuselection:`edit --> Please align molecules with partial editing --> partial duplication`_."
 
 msgid "将来的には本機能で分子数が大きい場合にも対応予定です。"
 msgstr "In future it is also planned to handle cases where the number of molecules is large with this function."
@@ -349,9 +303,7 @@ msgstr "unable to read the cmd header on the left context, Error = -1"
 msgid "unable to read the cmd header on the parent context, Error = -1"
 msgstr "unable to read the cmd header on the parent context, Error = -1"
 
-msgid ""
-"Error posting readv, An existing connection was forcibly closed by the "
-"remote host.(10054)"
+msgid "Error posting readv, An existing connection was forcibly closed by the remote host.(10054)"
 msgstr "Error posting readv, An existing connection was forcibly closed by the remote host.(10054)"
 
 msgid "connection to my parent broken, aborting."
@@ -369,11 +321,8 @@ msgstr "However, if the network adapter has run out from the beginning, this err
 msgid "MPICHを用いて長時間の計算を行う場合、ネットワークアダプタを無効にしてから計算を実行して下さい。"
 msgstr "When computing for a long time using MPICH, please disable the network adapter and execute the calculation."
 
-msgid ""
-"Q. LAMMPS, Quantum ESPRESSOのMPI並列実行時に `Unable to open the "
-"HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\MPICH\\\\SMPD\\\\process\\\\???? "
-"registry key, error 5, アクセスが拒否されました。` という警告が表示されます。"
-msgstr "Q. When executing parallel MPI of LAMMPS and Quantum ESPRESSO `Unable to open the HKEY_LOCAL_MACHINE \\ \\ SOFTWARE \\ \\ MPICH \\\\ SMPD \\\\ process \\ \\ ???? registry key, error 5 , Access denied. `Warning will be displayed."
+msgid "Q. LAMMPS, Quantum ESPRESSOのMPI並列実行時に `Unable to open the HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\MPICH\\\\SMPD\\\\process\\\\???? registry key, error 5, アクセスが拒否されました。` という警告が表示されます。"
+msgstr "Q. When executing parallel MPI of LAMMPS and Quantum ESPRESSO `Unable to open the HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\MPICH\\\\SMPD\\\\process\\\\???? registry key, error 5 , Access denied. `Warning will be displayed."
 
 msgid "A. MPICHがレジストリを書き換えようとするのですが、管理者権限がないので失敗したというメッセージです。"
 msgstr "A. MPICH tries to rewrite the registry, but it is a message that it failed because there is no administrator authority."
@@ -393,11 +342,9 @@ msgstr "Q. Please tell me how to throw a job to a supercomputer or campus superc
 msgid "A. 接続先のコンピュータ固有の環境設定などが必要な場合も、リモートジョブ用のひな形スクリプトを作成することで可能になります。"
 msgstr "A. If you need environment settings specific to the computer to which you are connecting, you can do it by creating a model script for remote jobs."
 
-msgid ""
-"詳しい手順は `リモートジョブ投入チュートリアル "
-"<https://winmostar.com/jp/tutorials/V8/RemoteJob_tutorial_1(Basic)V8.pdf>`_"
+msgid "詳しい手順は `リモートジョブ投入チュートリアル <https://winmostar.com/jp/tutorials/V8/RemoteJob_tutorial_1(Basic)V8.pdf>`_"
 " をご確認ください。"
-msgstr "Detailed procedure is `Remote job submission tutorial <https://winmostar.com/jp/tutorials/V8/RemoteJob_tutorial_1(Basic)V8.pdf> Please check `_."
+msgstr "Please check detailed procedure with `Remote job submission tutorial <https://winmostar.com/jp/tutorials/V8/RemoteJob_tutorial_1(Basic)V8.pdf>`."
 
 msgid "Q. リモートジョブ関連操作時にPuTTY関連のエラーが表示されます。sftpテストは成功するが、各種コマンドを実行できません。"
 msgstr "Q. PuTTY related errors are displayed during remote job related operation. The sftp test succeeds, but various commands can not be executed."
@@ -432,9 +379,7 @@ msgstr "Since Putty&#39;s settings are saved in the Windows registry, even if Pu
 msgid "対応："
 msgstr "Correspondence:"
 
-msgid ""
-"リモートジョブ投入画面のPuttyボタンからPuttyを起動します。Default "
-"SettingsのHostName欄に文字列が設定されているか確認します。"
+msgid "リモートジョブ投入画面のPuttyボタンからPuttyを起動します。Default SettingsのHostName欄に文字列が設定されているか確認します。"
 msgstr "Activate Putty from the Putty button on the remote job launch screen. Make sure that a character string is set in the HostName field of Default Settings."
 
 msgid "この文字列を削除してDefault Settingsを選択した状態でSaveすると、この問題を解消できます。"
@@ -446,10 +391,8 @@ msgstr "(The input contents in the Port column are not particularly affected.)"
 msgid "MOPAC, CNDO/S, GAMESS, NWChem, Gaussianに関して"
 msgstr "About MOPAC, CNDO / S, GAMESS, NWChem, Gaussian"
 
-msgid ""
-"Q. MOPACのログに `ATOMS  **,  **, AND  ** ARE WITHIN  .**** ANGSTROMS OF A "
-"STRAIGHT LINE` と表示されて異常終了します。"
-msgstr "Q. It will display abnormally with the message &quot;ATOMS **, **, AND ** ARE WITHIN. **** ANGSTROMS OF A STRAIGHT LINE` displayed in the MOPAC log."
+msgid "Q. MOPACのログに `ATOMS  **,  **, AND  ** ARE WITHIN  .**** ANGSTROMS OF A STRAIGHT LINE` と表示されて異常終了します。"
+msgstr "Q. It will display abnormally with the message `ATOMS **, **, AND ** ARE WITHIN. **** ANGSTROMS OF A STRAIGHT LINE` displayed in the MOPAC log."
 
 msgid "以下のように3原子が直線になったというエラーが出て止まります。"
 msgstr "It stops with an error saying that 3 atoms are linear as shown below."
@@ -491,7 +434,7 @@ msgid "メインウィンドウ右下の座標編集機能で、接続先の原�
 msgstr "Please change the atom of the connection destination by the coordinate editing function in the lower right of the main window so that there is no angle close to 180 ° from Z - Matrix."
 
 msgid "Z-Matrixに慣れていない場合は、これ以外の方法として、キーワードに\"XYZ\"を追加すると、このエラーを回避できることもあります。"
-msgstr "If you are new to Z-Matrix, you may be able to avoid this error by adding \ &quot;XYZ \&quot; to the keyword as a different method."
+msgstr "If you are new to Z-Matrix, you may be able to avoid this error by adding \"XYZ\" to the keyword as a different method."
 
 msgid "あるいは、3原子が直線に並ぶ線上から外れた位置に、原子種XXのダミー原子を追加し、直線に並ぶ原子のZ-Matrix上の接続先として指定することで,"
 msgstr "Alternatively, by adding a dummy atom of the atomic type XX to a position out of the line where three atoms are aligned in a straight line and designating it as a connection destination on the Z-Matrix of the atoms arranged in the line,"
@@ -499,24 +442,17 @@ msgstr "Alternatively, by adding a dummy atom of the atomic type XX to a positio
 msgid "エラーを回避できることもあります。"
 msgstr "Sometimes it is possible to avoid errors."
 
-msgid ""
-"Q. MOPACを実行するとログに「UNRECOGNIZED KEY-WORDS: ( "
-"PM6（ハミルトニアン名）)」と出力され計算が終了してしまいます。"
-msgstr "Q. When MOPAC is executed, &quot;UNRECOGNIZED KEY - WORDS: (PM 6 (Hamiltonian name))&quot; is output to the log and calculation is ended."
+msgid "Q. MOPACを実行するとログに「UNRECOGNIZED KEY-WORDS: ( PM6（ハミルトニアン名）)」と出力され計算が終了してしまいます。"
+msgstr "Q. When MOPAC is executed, "UNRECOGNIZED KEY - WORDS: (PM 6 (Hamiltonian name))" is output to the log and calculation is ended."
 
-msgid ""
-"A. "
-"MOPACキーワード設定でHamiltonian=AM1に変えると動く場合は、使しているMOPACが対応していないハミルトニアンを選択していることによるエラーが出たことになります。"
+msgid "A. MOPACキーワード設定でHamiltonian=AM1に変えると動く場合は、使しているMOPACが対応していないハミルトニアンを選択していることによるエラーが出たことになります。"
 msgstr "A. If you move to Hamiltonian = AM1 with MOPAC keyword setting, you will get an error due to selecting the Hamiltonian not supported by the MOPAC you are using."
 
-msgid ""
-"Winmostarマニュアルの `MOPACの各バージョンがサポートするハミルトニアンの一覧 "
-"<https://winmostar.com/jp/manual_jp/V8/calcmanual_jp.html#mopac1>`_ "
-"をご確認の上、適切なハミルトニアンを選択してください。"
-msgstr "List of Hamiltonian supported by each version of `MOPAC of Winmostar manual <https://winmostar.com/jp/manual_jp/V8/calcmanual_jp.html#mopac1> Please check `_ and select the appropriate Hamiltonian."
+msgid "Winmostarマニュアルの `MOPACの各バージョンがサポートするハミルトニアンの一覧 <https://winmostar.com/jp/manual_jp/V8/calcmanual_jp.html#mopac1>`_ をご確認の上、適切なハミルトニアンを選択してください。"
+msgstr "Please check the list of Hamiltonian supported by each version of `MOPAC of Winmostar manual <https://winmostar.com/jp/manual_jp/V8/calcmanual_jp.html#mopac1>` and select the appropriate Hamiltonian."
 
 msgid "それでも動かない場合は :ref:`一般的な不具合 <faq_general_error>` の対処を実施してください。"
-msgstr "If it still does not work: ref: `general bug <faq_general_error> `Please take action."
+msgstr "If it still does not work, please take action of :ref:`general bug <faq_general_error>`."
 
 msgid "Q. CNDO/SでMethod=INDOを使用したときに計算できません。"
 msgstr "Q. It can not be calculated when Method = INDO is used in CNDO / S."
@@ -531,7 +467,7 @@ msgid "Q. GAMESSでNMR計算を実行できません。"
 msgstr "Q. I can not perform NMR calculation with GAMESS."
 
 msgid "A. まずは :ref:`一般的な不具合 <faq_general_error>` の対処を実施してください。"
-msgstr "A. First of all: ref: `general trouble <faq_general_error> `Please take action."
+msgstr "A. First of all, please take action of :ref:`general trouble <faq_general_error>`."
 
 msgid "また、$SCFのDIRSCF=.F.にすること、並列計算ができないのでNCPUS=1にすることが必要です。"
 msgstr "Also, it is necessary to set DIRSCF =. F. Of $ SCF, NCPUS = 1 because parallel calculation can not be done."
@@ -539,10 +475,8 @@ msgstr "Also, it is necessary to set DIRSCF =. F. Of $ SCF, NCPUS = 1 because pa
 msgid "（計算結果出力の最後の方に以下の様に詳細が記載されます。）"
 msgstr "(The details are listed as follows at the end of the calculation result output.)"
 
-msgid ""
-"Q. GAMESSの実行時に「***** ERROR: MEMORY REQUEST EXCEEDS AVAILABLE "
-"MEMORY」などとログに出力され計算が異常終了します。"
-msgstr "Q. When running GAMESS, &quot;***** ERROR: MEMORY REQUEST EXCEEDS AVAILABLE MEMORY&quot; etc. will be output to the log and the calculation will end abnormally."
+msgid "Q. GAMESSの実行時に「***** ERROR: MEMORY REQUEST EXCEEDS AVAILABLE MEMORY」などとログに出力され計算が異常終了します。"
+msgstr "Q. When running GAMESS, "***** ERROR: MEMORY REQUEST EXCEEDS AVAILABLE MEMORY" etc. will be output to the log and the calculation will end abnormally."
 
 msgid "A. GAMESSの実行時に割り当てられたメモリ容量が足りていないことを意味しています。"
 msgstr "A. It means that the allocated memory capacity of GAMESS is insufficient."
@@ -550,11 +484,9 @@ msgstr "A. It means that the allocated memory capacity of GAMESS is insufficient
 msgid "インプットファイル内のMWORDS=の数値を増やすことで、エラーを回避できます。"
 msgstr "You can avoid errors by increasing the value of MWORDS = in the input file."
 
-msgid ""
-"Q. GAMESSにおいて、1原子だけの系の計算で「WARNING. NUMBER OF INTERNAL COORDINATES IS "
-"GREATER THAN (3N-6), BUT NO SYMMETRY COORDINATES ARE "
+msgid "Q. GAMESSにおいて、1原子だけの系の計算で「WARNING. NUMBER OF INTERNAL COORDINATES IS GREATER THAN (3N-6), BUT NO SYMMETRY COORDINATES ARE "
 "GIVEN.」と表示されて異常終了します。"
-msgstr "Q. In GAMESS, it will be displayed as &quot;WARNING. NUMBER OF INTERNAL COORDINATES IS GREATER THAN (3N - 6), BUT NO SYMMETRY COORDINATES ARE GIVEN.&quot; In the calculation of only one atom and abnormally ends."
+msgstr "Q. In GAMESS, it will be displayed as "WARNING. NUMBER OF INTERNAL COORDINATES IS GREATER THAN (3N - 6), BUT NO SYMMETRY COORDINATES ARE GIVEN." in the calculation of only one atom and abnormally ends."
 
 msgid "A. 原子が1個だけの系においてZ-matrixを使うことによる不具合を示すメッセージになります。"
 msgstr "A. This is a message indicating a problem caused by using Z-matrix in a system with only one atom."
@@ -565,10 +497,8 @@ msgstr "In this case, rectangular coordinates are used (COORD = UNIQUE) to solve
 msgid "WimostarのGAMESSキーワード設定ウィンドウにおいて、COORDをUNIQUEに変更してください。"
 msgstr "In Wimostar&#39;s GAMESS keyword setting window, change COORD to UNIQUE."
 
-msgid ""
-"Q. GAMESSのログに「 `**** ERROR **** PCM SPHERE(S) MUST HAVE A POSITIVE "
-"RADIUS` 」と表示され異常終了します。"
-msgstr "Q. The message &quot;` **** ERROR **** PCM SPHERE (S) MUST HAVE A POSITIVE RADIUS`` is displayed in the log of GAMESS and abnormally ends."
+msgid "Q. GAMESSのログに「 `**** ERROR **** PCM SPHERE(S) MUST HAVE A POSITIVE RADIUS` 」と表示され異常終了します。"
+msgstr "Q. The message ``**** ERROR **** PCM SPHERE (S) MUST HAVE A POSITIVE RADIUS`` is displayed in the log of GAMESS and abnormally ends."
 
 msgid "A. Cavity半径がGAMESSに内蔵されていない原子が含まれている可能性があります。"
 msgstr "A. Cavity radius may contain atoms not built in GAMESS."
@@ -577,15 +507,13 @@ msgid "Cavity半径を指定するためには、$PCM行の直後に次のステ
 msgstr "To specify the Cavity radius, add the following statement immediately after the $ PCM line."
 
 msgid "$PCMCAV RIN(13)=1.55, RIN(15)=1.55 $END"
-msgstr "$ PCMCAV RIN (13) = 1.55, RIN (15) = 1.55 $ END"
+msgstr "$PCMCAV RIN(13)=1.55, RIN(15)=1.55 $END"
 
 msgid "この例では13番目と15番目の原子にCavity半径を与えます。"
 msgstr "In this example, we give Cavity radius to the 13th and 15th atoms."
 
-msgid ""
-"Q. NWChemの並列実行時に「Please specify an authentication passphrase for smpd: "
-"」とログに出力され計算が流れません。"
-msgstr "Q. When parallel execution of NWChem, the calculation will not be output as &quot;Please specify an authentication passphrase for smpd:&quot; will be output to the log."
+msgid "Q. NWChemの並列実行時に「Please specify an authentication passphrase for smpd: 」とログに出力され計算が流れません。"
+msgstr "Q. When parallel execution of NWChem, the calculation will not be output as "Please specify an authentication passphrase for smpd:" will be output to the log."
 
 msgid "A. MPICH2インストール時にパスフレーズ（passphrase）を省略してしまうとそのようなエラーになる場合があります。"
 msgstr "A. If you omit the pass phrase (passphrase) when installing MPICH 2, such an error may occur."
@@ -605,10 +533,8 @@ msgstr "A. It is not displayed if pop = full or pop = regular is missing in the 
 msgid "Q. Gaussianでchkファイルを読み込んだ計算を実施する方法を教えてください。"
 msgstr "Q. How do I calculate the chk file read in Gaussian?"
 
-msgid ""
-"A. リモートジョブの場合はSubmitJobウィンドウで[Advance]のチェックを入れ、[Delete "
-"\\*.chk]のチェックを外すとchkファイルが残され、その上でchkファイルを生成した時と同じ名前でジョブを流すとchkファイルを読み込んで計算が流れます。"
-msgstr "A. For remote jobs, check the [Advance] check in the SubmitJob window and uncheck [Delete \\ *. Chk] to leave the chk file and use the same name as when chk file was created on it When you run the job, the chk file is loaded and the calculation flows."
+msgid "A. リモートジョブの場合はSubmitJobウィンドウで[Advance]のチェックを入れ、[Delete \\*.chk]のチェックを外すとchkファイルが残され、その上でchkファイルを生成した時と同じ名前でジョブを流すとchkファイルを読み込んで計算が流れます。"
+msgstr "A. For remote jobs, check the [Advance] check in the SubmitJob window and uncheck [Delete \\*.chk] to leave the chk file and use the same name as when chk file was created on it When you run the job, the chk file is loaded and the calculation flows."
 
 msgid "`--Link1--` を使う方法の方が設定自体は簡便なため、こちらの使用もご検討ください。"
 msgstr "The method using `- Link 1 -` is simpler in setting itself, so please consider using it here as well."
@@ -649,24 +575,14 @@ msgstr "Q. Even if Gromacs ER method result loading is executed, the result can 
 msgid "A. ER法を実行する際に指定した出力先ディレクトリに生成されるermod.outの内容を確認してください。"
 msgstr "A. Please check the contents of ermod.out generated in the output destination directory specified when executing the ER method."
 
-msgid ""
-"ermod.outの中に「 The minimum of the energy coordinate is too large; the "
-"ecdmin parameter needs to be "
-"smaller」と書かれている場合は、ER法実行ウィンドウの[Options]ボタンを押し、[For Solution "
-"System]のと[minimum value of the solute-solvent energy "
-"(ecdmin)]の値を小さくしてください。"
-msgstr "If it says &quot;___ minimum of the energy coordinate is too large&quot; in ermod.out, press the [Options] button on the ER method execution window and select [For Solution System] Please reduce the value of [minimum value of the solute - solvent energy (ecdmin)]."
+msgid "ermod.outの中に「 The minimum of the energy coordinate is too large; the ecdmin parameter needs to be smaller」と書かれている場合は、ER法実行ウィンドウの[Options]ボタンを押し、[For Solution System]のと[minimum value of the solute-solvent energy (ecdmin)]の値を小さくしてください。"
+msgstr "If it says "The minimum of the energy coordinate is too large" in ermod.out, press the [Options] button on the ER method execution window and select [For Solution System] Please reduce the value of [minimum value of the solute - solvent energy (ecdmin)]."
 
-msgid ""
-"具体的な値の設定方法など、詳しくは `ERmodのwikiのFAQ "
-"<https://sourceforge.net/p/ermod/wiki/TooLargeMinimum/>`_ を参照してください。"
-msgstr "For details on how to set concrete values, please see &#39;ERmod&#39;s wiki FAQ <https://sourceforge.net/p/ermod/wiki/TooLargeMinimum/> See `_."
+msgid "具体的な値の設定方法など、詳しくは `ERmodのwikiのFAQ <https://sourceforge.net/p/ermod/wiki/TooLargeMinimum/>`_ を参照してください。"
+msgstr "For details on how to set concrete values, please see `ERmod's wiki FAQ <https://sourceforge.net/p/ermod/wiki/TooLargeMinimum/>`."
 
-msgid ""
-"また、同様にermod.outの内容と `ERmodのwikiのFAQ全般 "
-"<https://sourceforge.net/p/ermod/wiki/FAQ_running/>`_ "
-"の内容を照らし合わせ、ermodの設定の変更が必要な場合はER法実行ウィンドウの[Options]で設定してください。"
-msgstr "Similarly, the content of ermod.out and `FAQ of ERmod&#39;s wiki in general <https://sourceforge.net/p/ermod/wiki/FAQ_running/> Check the contents of `_ and if you need to change the setting of ermod, set it in [Options] of ER method execution window."
+msgid "また、同様にermod.outの内容と `ERmodのwikiのFAQ全般 <https://sourceforge.net/p/ermod/wiki/FAQ_running/>`_ の内容を照らし合わせ、ermodの設定の変更が必要な場合はER法実行ウィンドウの[Options]で設定してください。"
+msgstr "Similarly, check the contents of ermod.out and `FAQ of ERmod's wiki in general <https://sourceforge.net/p/ermod/wiki/FAQ_running/>` and if you need to change the setting of ermod, set it in [Options] of ER method execution window."
 
 msgid "Quantum ESPRESSO, OpenMXに関して"
 msgstr "About Quantum ESPRESSO, OpenMX"
@@ -681,17 +597,13 @@ msgid "例えば、フォノン計算の場合はph.xの出力ログ（ph.out）
 msgstr "For example, check ph.x output log (ph.out) for phonon calculation."
 
 msgid "最初に「Error in routine ...」などのエラーが出現した箇所の対処を施し、再度ジョブを実行してください。"
-msgstr "Please take action on the place where error such as &quot;Error in routine ...&quot; appears first, then execute the job again."
+msgstr "Please take action on the place where error such as "Error in routine ..." appears first, then execute the job again."
 
-msgid ""
-"特定のキーワードに関するエラーは、そのキーワードの設定を `公式サイト <https://www.quantum-"
-"espresso.org/Doc/INPUT_PW.html>`_ でご確認ください。"
-msgstr "Errors related to specific keywords, the setting of that keyword &#39;official site <https://www.quantum-espresso.org/Doc/INPUT_PW.html> Please confirm with `_."
+msgid "特定のキーワードに関するエラーは、そのキーワードの設定を `公式サイト <https://www.quantum-espresso.org/Doc/INPUT_PW.html>`_ でご確認ください。"
+msgstr "Errors related to specific keywords, please confirm the setting of that keyword `official site <https://www.quantum-espresso.org/Doc/INPUT_PW.html>`."
 
-msgid ""
-"典型的なQEのエラーの対処方法は `公式サイトのFAQ <http://www.quantum-"
-"espresso.org/resources/faq>`_ に記載されています。"
-msgstr "Typical QE error handling &#39;official site FAQ <http://www.quantum-espresso.org/resources/faq> It is described in `_."
+msgid "典型的なQEのエラーの対処方法は `公式サイトのFAQ <http://www.quantum-espresso.org/resources/faq>`_ に記載されています。"
+msgstr "Typical QE error handling is described in `official site FAQ <http://www.quantum-espresso.org/resources/faq>`."
 
 msgid "Q. Quantum ESPRESSO, OpenMXのSCF計算または構造最適化計算が収束しません。"
 msgstr "Q. Quantum ESPRESSO, OpenMX SCF calculation or structure optimization calculation does not converge."
@@ -706,7 +618,7 @@ msgid "・第一原理計算は設定項目が多いので、適当に計算条�
 msgstr "· First-principles calculations have many setting items, so do not change the calculation conditions appropriately, and stream a series of calculations while recording properly."
 
 msgid "・:ref:`QEの一般的な不具合 <faq_qe_general_error>` の対処を実施する。"
-msgstr "·: Ref: `general problem of QE <faq_qe_general_error> `Will be implemented."
+msgstr "Take action for :ref:`general problem of QE <faq_qe_general_error>`."
 
 msgid "・本当に収束しない傾向にあるいかチェックする。"
 msgstr "· Check if it tends not to converge really."
@@ -780,52 +692,35 @@ msgstr "Try with balance with calculation accuracy:"
 msgid "・SCFの収束パラメータを緩くする。"
 msgstr "Loosen the convergence parameter of the SCF."
 
-msgid ""
-"Q. Quantum ESPRESSOのSCF計算が出力ファイル（.pwoutまたは.out）に「too few "
-"bands」と表示され異常終了します。nbndの設定方法が分かりません。"
-msgstr "Q. The SCF calculation of Quantum ESPRESSO is displayed as &quot;too few bands&quot; in the output file (.pwout or .out) and abnormally ends. I do not know how to set nbnd."
+msgid "Q. Quantum ESPRESSOのSCF計算が出力ファイル（.pwoutまたは.out）に「too few bands」と表示され異常終了します。nbndの設定方法が分かりません。"
+msgstr "Q. The SCF calculation of Quantum ESPRESSO is displayed as "too few bands" in the output file (.pwout or .out) and abnormally ends. I do not know how to set nbnd."
 
-msgid ""
-"A. まずは `QE公式のマニュアルのnbndの説明 <https://www.quantum-"
-"espresso.org/Doc/INPUT_PW.html#idm45922794572608>`_ をご確認ください。"
-msgstr "A. First of all `nbnd&#39;s description of the` QE official manual <https://www.quantum-espresso.org/Doc/INPUT_PW.html#idm45922794572608> Please check `_."
+msgid "A. まずは `QE公式のマニュアルのnbndの説明 <https://www.quantum-espresso.org/Doc/INPUT_PW.html#idm45922794572608>`_ をご確認ください。"
+msgstr "A. First of all, please check `nbnd description of the QE official manual <https://www.quantum-espresso.org/Doc/INPUT_PW.html#idm45922794572608>`."
 
-msgid ""
-"nbndを使わずに計算を流すと、QEが自動でnbndを適当に設定して計算するので、Winmostarのキーワード設定画面で「Use "
-"nbnd」のチェックを外してください。"
-msgstr "If you do not use nbnd when you do the calculation, QE automatically calculates nbnd by setting it automatically, so please uncheck &quot;Use nbnd&quot; on the keyword setting screen of Winmostar."
+msgid "nbndを使わずに計算を流すと、QEが自動でnbndを適当に設定して計算するので、Winmostarのキーワード設定画面で「Use nbnd」のチェックを外してください。"
+msgstr "If you do not use nbnd when you do the calculation, QE automatically calculates nbnd by setting it automatically, so please uncheck "Use nbnd" on the keyword setting screen of Winmostar."
 
-msgid ""
-"nbndを増やしたい場合は、nbndを使わずに実行したときにpwoutまたはoutファイルに出力される\"number of Kohn-Sham "
-"states\"の値よりも大きい値をnbndに設定してください。"
-msgstr "To increase nbnd, set nbnd to a value larger than the value of \ &quot;number of Kohn-Sham states \&quot; that is output to the pwout or out file when executed without using nbnd."
+msgid "nbndを増やしたい場合は、nbndを使わずに実行したときにpwoutまたはoutファイルに出力される\"number of Kohn-Sham states\"の値よりも大きい値をnbndに設定してください。"
+msgstr "To increase nbnd, set nbnd to a value larger than the value of \"number of Kohn-Sham states\" that is output to the pwout or out file when executed without using nbnd."
 
-msgid ""
-"また、Winmostarのキーワード設定画面の「Use nbnd」のところに表示される「# valence bands: "
-"」の値も参考にしてください（詳細は `Winmostarマニュアル "
-"<https://winmostar.com/jp/manual_jp/V8/calcmanual_jp.html#qe1>`_ を参照）。"
-msgstr "Also please refer to the value of &quot;# valence bands:&quot; displayed at &quot;Use nbnd&quot; on the keyword setting screen of Winmostar (For details, see `Winmostar manual <https://winmostar.com/jp/manual_jp/V8/calcmanual_jp.html#qe1> `_)."
+msgid "また、Winmostarのキーワード設定画面の「Use nbnd」のところに表示される「# valence bands: 」の値も参考にしてください（詳細は `Winmostarマニュアル <https://winmostar.com/jp/manual_jp/V8/calcmanual_jp.html#qe1>`_ を参照）。"
+msgstr "Also please refer to the value of "# valence bands:" displayed at "Use nbnd" on the keyword setting screen of Winmostar (For details, see `Winmostar manual <https://winmostar.com/jp/manual_jp/V8/calcmanual_jp.html#qe1>`)."
 
-msgid ""
-"Q. Quantum ESPRESSOを用いて誘電関数を計算する際に、epsilon.xの出力(eps.out)に「bad band "
-"number」と表示され誘電関数を取得できません。"
-msgstr "Q. When calculating the dielectric function using Quantum ESPRESSO, &quot;bad band number&quot; is displayed in the epsilon.x output (eps.out) and it is not possible to acquire the dielectric function."
+msgid "Q. Quantum ESPRESSOを用いて誘電関数を計算する際に、epsilon.xの出力(eps.out)に「bad band number」と表示され誘電関数を取得できません。"
+msgstr "Q. When calculating the dielectric function using Quantum ESPRESSO, "bad band number" is displayed in the epsilon.x output (eps.out) and it is not possible to acquire the dielectric function."
 
 msgid "A. SCF計算でバンド数（nbnd）を増やすことで解消します。"
 msgstr "A. It is solved by increasing the number of bands (nbnd) by SCF calculation."
 
-msgid ""
-"Q. Quantum ESPRESSOを用いて誘電関数を計算する際に、epsilon.xの出力(eps.out)に「USPP are not "
-"implemented」と表示され誘電関数を取得できません。"
-msgstr "Q. When calculating the dielectric function using Quantum ESPRESSO, &quot;USPP are not implemented&quot; is displayed in the epsilon.x output (eps.out) and it is not possible to acquire the dielectric function."
+msgid "Q. Quantum ESPRESSOを用いて誘電関数を計算する際に、epsilon.xの出力(eps.out)に「USPP are not implemented」と表示され誘電関数を取得できません。"
+msgstr "Q. When calculating the dielectric function using Quantum ESPRESSO, "USPP are not implemented" is displayed in the epsilon.x output (eps.out) and it is not possible to acquire the dielectric function."
 
 msgid "A. SCF計算でノルム保存型の擬ポテンシャルを選択することで解消します。"
 msgstr "A. By selecting the norm preservation type pseudopotential in the SCF calculation, we solve it."
 
-msgid ""
-"Q. Quantum ESPRESSOを用いてPhonon計算を実行する際に、ph.xの出力(ph.out)に「The phonon code "
-"with US-PP and raman or elop not yet available」と表示され計算結果を取得できません。"
-msgstr "Q. When executing Phonon calculation using Quantum ESPRESSO, ph.x output (ph.out) displays &quot;The phonon code with US-PP and raman or elop not yet available&quot; and the calculation result can not be acquired ."
+msgid "Q. Quantum ESPRESSOを用いてPhonon計算を実行する際に、ph.xの出力(ph.out)に「The phonon code with US-PP and raman or elop not yet available」と表示され計算結果を取得できません。"
+msgstr "Q. When executing Phonon calculation using Quantum ESPRESSO, ph.x output (ph.out) displays "The phonon code with US-PP and raman or elop not yet available" and the calculation result can not be acquired ."
 
 msgid "A. ノルム保存型の擬ポテンシャルを選択することで解消します。"
 msgstr "A. By eliminating the pseudopotential of the norm preservation type, it can solve it."
@@ -833,13 +728,9 @@ msgstr "A. By eliminating the pseudopotential of the norm preservation type, it 
 msgid "その他の機能に関して"
 msgstr "About other functions"
 
-msgid ""
-"Q. ハンセン溶解度(HSP)パラメータを計算するとエラーが出ます。ログファイル（ :file:`*_hsp_tmp\\\\temp.out` "
-"）に `... undefined ...` と出力されます。"
-msgstr "Q. I get an error when calculating Hansen solubility (HSP) parameters. `... undefined ...` is output to the log file (: file: `* _ hsp_tmp \ \ \ temp.out`)."
+msgid "Q. ハンセン溶解度(HSP)パラメータを計算するとエラーが出ます。ログファイル（ :file:`*_hsp_tmp\\\\temp.out` ）に `... undefined ...` と出力されます。"
+msgstr "Q. I get an error when calculating Hansen solubility (HSP) parameters. `... undefined ...` is output to the log file ( :file:`*_hsp_tmp\\\temp.out` )."
 
-msgid ""
-"A. "
-"同機能の原子数制限に引っかかったものと思われます。現在、総原子数は最大250、水素以外の原子数は最大120という制限があります。繰り返し構造を持つオリゴマーの場合は、本来は溶解度パラメータが分子サイズで規格化された指数であることにご注意ください。"
+msgid "A. 同機能の原子数制限に引っかかったものと思われます。現在、総原子数は最大250、水素以外の原子数は最大120という制限があります。繰り返し構造を持つオリゴマーの場合は、本来は溶解度パラメータが分子サイズで規格化された指数であることにご注意ください。"
 msgstr "A. It seems that it caught on the limit of number of atoms of the same function. Currently there are limitations on the total number of atoms to be up to 250 and the number of atoms other than hydrogen to be up to 120. In the case of an oligomer with a repeating structure, please note that the solubility parameter is originally an index normalized by molecular size."
 

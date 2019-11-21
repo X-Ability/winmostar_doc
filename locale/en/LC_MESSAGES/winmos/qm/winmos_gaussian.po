@@ -4,22 +4,21 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-23 15:28+0900\n"
+"POT-Creation-Date: 2019-09-05 14:13+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.7.0\n"
 
 msgid ":menuselection:`QM --> Gaussian` メニュー"
-msgstr ": menuselection: `QM -&gt; Gaussian` menu"
+msgstr ":menuselection:`QM --> Gaussian` menu"
 
 msgid "Gaussianに関するメニューです。"
 msgstr "It is a menu about Gaussian."
@@ -30,20 +29,25 @@ msgstr "In order to use Gaussian you need to install Gaussian separately."
 msgid "キーワード設定"
 msgstr "Keyword setting"
 
-
 msgid ""
 "Gaussianの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` "
 "ボタン、一旦メインウィンドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
-msgstr "Set calculation conditions of Gaussian. To set up the calculations immediately after setting: guilabel: `Run` button, once to return to the main window please press: guilabel:` OK` button."
+msgstr "NOTTRANSLATED"
+"Set calculation conditions of Gaussian. To set up the calculations "
+"immediately after setting :guilabel:`Run` button, once to return to the "
+"main window please press :guilabel:`OK` button."
 
 msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`qm_gaussian_start` を参照してください。"
-msgstr ": guilabel: Behavior when clicking `Run` is see: ref:` qm_gaussian_start`."
+msgstr "Behavior when clicking :guilabel:`Run` is see :ref:`qm_gaussian_start`."
 
 msgid ""
 ":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 :guilabel:`Save as Default` "
 "ボタンで現在の状態をデフォルトの状態として保存します。 :menuselection:`Save as Default --> Clear "
 "Default Settings` で保存されてデフォルトの状態を出荷時の状態に戻します。"
-msgstr ": guilabel: `Reset` button to return to the default state. : guilabel: Save the current state as the default state with `Save as Default` button. : menuselection: `Save as Default -&gt; Clear Default Settings` to restore the default state to the factory condition."
+msgstr "NOTTRANSLATED"
+"Return to the default state with :guilabel:`Reset` button. "
+"Save the current state as the default state with :guilabel:`Save as Default` "
+"button. Restore the default state to the factory condition with :menuselection:`Save as Default --> Clear Default Settings`."
 
 msgid "Easy Setup"
 msgstr "Easy Setup"
@@ -76,7 +80,9 @@ msgid "#Mem=n"
 msgstr "# Mem = n"
 
 msgid "動的メモリ量をワード単位で指定します。KB, MB, GB, KW, MB, GWの単位を指定することもできます。（デフォルト：6MW）"
-msgstr "Specify the amount of dynamic memory in words. It is also possible to specify units of KB, MB, GB, KW, MB, GW. (Default: 6 MW)"
+msgstr "NOTTRANSLATED"
+"Specify the amount of dynamic memory in words. It is also possible to "
+"specify units of KB, MB, GB, KW, MB, GW. (Default: 6 MW)"
 
 msgid "Comment"
 msgstr "Comment"
@@ -100,13 +106,17 @@ msgid "#P"
 msgstr "#P"
 
 msgid "詳細な出力を行います。各リンクの開始時と終了時における実行時間などや，SCFの収束に関する情報が出力されます。"
-msgstr "Perform detailed output. The execution time at the start and end of each link, and the information on convergence of SCF are output."
+msgstr "NOTTRANSLATED"
+"Perform detailed output. The execution time at the start and end of each "
+"link, and the information on convergence of SCF are output."
 
 msgid "#T"
 msgstr "#T"
 
 msgid "重要な情報と結果のみを出力する簡潔な出力を指定します。"
-msgstr "Specify a concise output that only outputs important information and results."
+msgstr "NOTTRANSLATED"
+"Specify a concise output that only outputs important information and "
+"results."
 
 msgid "Hamiltonian"
 msgstr "Hamiltonian"
@@ -118,7 +128,9 @@ msgid "hf"
 msgstr "Ltd."
 
 msgid "Hartree-Fock計算を行います。明示的に指定されない限り，一重項にはRHFを，それより高次の多重度ではUHFを用います。"
-msgstr "Perform Hartree-Fock calculation. Unless explicitly specified, RHF is used for singlet and UHF is used for higher multiplicity."
+msgstr "NOTTRANSLATED"
+"Perform Hartree-Fock calculation. Unless explicitly specified, RHF is "
+"used for singlet and UHF is used for higher multiplicity."
 
 msgid "rhf"
 msgstr "rhf"
@@ -148,13 +160,17 @@ msgid "pm3mm"
 msgstr "pm3mm"
 
 msgid "HCON結合に関する分子力学補正が含まれたPM3ハミルトニアン を用いた半経験的計算を行います。"
-msgstr "We perform semi-empirical calculations using PM3 Hamiltonian with molecular dynamics correction on HCON binding."
+msgstr "NOTTRANSLATED"
+"We perform semi-empirical calculations using PM3 Hamiltonian with "
+"molecular dynamics correction on HCON binding."
 
 msgid "b3lyp"
 msgstr "b3lyp"
 
 msgid "Becke3汎関数にLYP非局所相関汎関数を組み合わせた密度汎関数法計算を行います。"
-msgstr "Compute the density functional method combining the Becke 3 functional with the LYP nonlocal correlation functional."
+msgstr "NOTTRANSLATED"
+"Compute the density functional method combining the Becke 3 functional "
+"with the LYP nonlocal correlation functional."
 
 msgid "ub3lyp"
 msgstr "ub3lyp"
@@ -166,7 +182,9 @@ msgid "mp2"
 msgstr "mp2"
 
 msgid "Hartree-Fock計算の後に２次までのMoller-Plesset相関エネルギー補正を行います。"
-msgstr "Following Hartree-Fock calculation, Moller-Plesset correlation energy correction up to the second order is performed."
+msgstr "NOTTRANSLATED"
+"Following Hartree-Fock calculation, Moller-Plesset correlation energy "
+"correction up to the second order is performed."
 
 msgid "ump2"
 msgstr "ump2"
@@ -178,7 +196,9 @@ msgid "mp4"
 msgstr "mp4"
 
 msgid "Hartree-Fock計算の後に４次までのMoller-Plesset相関エネルギー補正を行います。"
-msgstr "Following Hartree-Fock calculation, Moller-Plesset correlation energy correction up to the fourth order is performed."
+msgstr "NOTTRANSLATED"
+"Following Hartree-Fock calculation, Moller-Plesset correlation energy "
+"correction up to the fourth order is performed."
 
 msgid "ump4"
 msgstr "ump4"
@@ -196,16 +216,17 @@ msgid "cisd"
 msgstr "cisd"
 
 msgid "二電子励起CIを用いて励起状態を計算します。（CIと同義）"
-msgstr "Calculate the excited state using two electron excitation CI. (Synonymous with CI)"
+msgstr "NOTTRANSLATED"
+"Calculate the excited state using two electron excitation CI. (Synonymous with CI)"
 
 msgid "indo"
-msgstr "going"
+msgstr "indo"
 
 msgid "INDOハミルトニアンを用いた半経験的計算を行います。"
 msgstr "We will perform semi empirical calculations using INDO Hamiltonian."
 
 msgid "cndo"
-msgstr "when"
+msgstr "ondo"
 
 msgid "CNDOハミルトニアンを用いた半経験的計算を行います。"
 msgstr "We will do semi-empirical calculations using CNDO Hamiltonian."
@@ -232,7 +253,9 @@ msgid "Pop"
 msgstr "Pop"
 
 msgid "分子軌道の出力や電子密度解析及び原子の電荷分布などを制御します。"
-msgstr "Control of molecular orbital output, electron density analysis, atomic charge distribution and so on."
+msgstr "NOTTRANSLATED"
+"Control of molecular orbital output, electron density analysis, atomic "
+"charge distribution and so on."
 
 msgid "none"
 msgstr "none"
@@ -250,19 +273,25 @@ msgid "regular"
 msgstr "regular"
 
 msgid "占有軌道と仮想軌道を5つずつ出力します。密度行列とMulliken電子密度解析も出力します。"
-msgstr "We output 5 occupied orbits and 5 virtual trajectories. Also output density matrix and Mulliken electron density analysis."
+msgstr "NOTTRANSLATED"
+"We output 5 occupied orbits and 5 virtual trajectories. Also output "
+"density matrix and Mulliken electron density analysis."
 
 msgid "full"
 msgstr "full"
 
 msgid "すべての占有軌道と仮想軌道を出力します。密度行列とMulliken電子密度解析も出力します。"
-msgstr "All occupied orbits and virtual trajectories are output. Also output density matrix and Mulliken electron density analysis."
+msgstr "NOTTRANSLATED"
+"All occupied orbits and virtual trajectories are output. Also output "
+"density matrix and Mulliken electron density analysis."
 
 msgid "Calc. Type"
 msgstr "Calc. Type"
 
 msgid "EF (Eigen Vector Following)法による構造最適化計算を行います。"
-msgstr "Perform structure optimization calculation by EF (Eigen Vector Following) method."
+msgstr "NOTTRANSLATED"
+"Perform structure optimization calculation by EF (Eigen Vector Following)"
+" method."
 
 msgid "opt"
 msgstr "opt"
@@ -280,13 +309,18 @@ msgid "opt=modredundant"
 msgstr "opt=modredundant"
 
 msgid "redundant内部座標の定義（探索や束縛情報を含む）を追加・削除・修正ます。構造指定の後に入力セクションが必要です。"
-msgstr "redundant Add, delete, and modify the definition of internal coordinates (including search and binding information). An input section is required after the structure specification."
+msgstr "NOTTRANSLATED"
+"redundant Add, delete, and modify the definition of internal coordinates "
+"(including search and binding information). An input section is required "
+"after the structure specification."
 
 msgid "opt=(ts,noeigentest,calcfc)"
 msgstr "opt=(ts,noeigentest,calcfc)"
 
 msgid "遷移状態に対する最適化を行います。曲率のテストを行いません。初回に力の定数を計算します"
-msgstr "Optimize for transition state. We do not test curvature. Calculate the force constant for the first time"
+msgstr "NOTTRANSLATED"
+"Optimize for transition state. We do not test curvature. Calculate the "
+"force constant for the first time"
 
 msgid "irc"
 msgstr "irc"
@@ -298,7 +332,9 @@ msgid "irc=(maxpoint=20, stepsize=20t, calcfc)"
 msgstr "irc=(maxpoint=20, stepsize=20t, calcfc)"
 
 msgid "反応経路を追跡します。経路上の点の個数とステップサイズを指定します。初回に力の定数を計算します"
-msgstr "It tracks the reaction path. Specify the number of points on the route and the step size. Calculate the force constant for the first time"
+msgstr "NOTTRANSLATED"
+"It tracks the reaction path. Specify the number of points on the route "
+"and the step size. Calculate the force constant for the first time"
 
 msgid "MaxCyc"
 msgstr "MaxCyc"
@@ -325,25 +361,33 @@ msgid "freq=vcd"
 msgstr "freq=vcd"
 
 msgid "通常の振動数解析に加えて振動円二色性(VCD)強度を計算します"
-msgstr "Calculate oscillating circular dichroism (VCD) intensity in addition to normal frequency analysis"
+msgstr "NOTTRANSLATED"
+"Calculate oscillating circular dichroism (VCD) intensity in addition to "
+"normal frequency analysis"
 
 msgid "freq=noraman"
 msgstr "freq = noraman"
 
 msgid "Hartree-Fock解析的振動数計算でラマン強度を求めません。"
-msgstr "Hartree-Fock Raman intensity is not obtained by analytic frequency calculation."
+msgstr "NOTTRANSLATED"
+"Hartree-Fock Raman intensity is not obtained by analytic frequency "
+"calculation."
 
 msgid "freq=nraman"
 msgstr "freq=nraman"
 
 msgid "電場に関する解析的双極子導関数を数値的に微分することによって分極率導関数を求めます。"
-msgstr "Calculate the polarizability derivative by numerically differentiating the analytical dipole derivative for the electric field."
+msgstr "NOTTRANSLATED"
+"Calculate the polarizability derivative by numerically differentiating "
+"the analytical dipole derivative for the electric field."
 
 msgid "freq=nnraman"
 msgstr "freq=nnraman"
 
 msgid "核座標に関する解析的分極率を数値微分して分極率導関数を求めます。"
-msgstr "Calculate the polarizability derivative by numerically differentiating the analytical polarizability on nuclear coordinates."
+msgstr "NOTTRANSLATED"
+"Calculate the polarizability derivative by numerically differentiating "
+"the analytical polarizability on nuclear coordinates."
 
 msgid "Charge"
 msgstr "Charge"
@@ -364,13 +408,17 @@ msgid "td"
 msgstr "for example,"
 
 msgid "時間依存(time-dependent)Hartree-FockまたはDFT法を用いて励起状態のエネルギー計算を行います"
-msgstr "Calculate excited state energy using time-dependent Hartree-Fock or DFT method"
+msgstr "NOTTRANSLATED"
+"Calculate excited state energy using time-dependent Hartree-Fock or DFT "
+"method"
 
 msgid "td=(nstates=n)"
 msgstr "td=(nstates=n)"
 
 msgid "n個の状態に対して時間依存計算法を用いて励起状態のエネルギーを求めます。（デフォルト 3）"
-msgstr "For the n states, we obtain the energy of the excited state using the time dependent calculation method. (Default 3)"
+msgstr "NOTTRANSLATED"
+"For the n states, we obtain the energy of the excited state using the "
+"time dependent calculation method. (Default 3)"
 
 msgid "gfinput"
 msgstr "gfinput"
@@ -388,7 +436,9 @@ msgid "nosymm"
 msgstr "nosymm"
 
 msgid "座標の再配向を行わず，Z-matrix 配向ですべての計算を実行します。"
-msgstr "Do not reorient the coordinates and perform all calculations in Z-matrix orientation."
+msgstr "NOTTRANSLATED"
+"Do not reorient the coordinates and perform all calculations in Z-matrix "
+"orientation."
 
 msgid "guess=read"
 msgstr "guess=read"
@@ -397,7 +447,7 @@ msgid "チェックポイントファイルから初期波動関数を読み込�
 msgstr "Read initial wave function from checkpoint file"
 
 msgid "geom=check"
-msgstr "geom = check"
+msgstr "geom=check"
 
 msgid "分子指定セクションをチェックポイントファイルから取り出します。"
 msgstr "Fetch the molecule specification section from the checkpoint file."
@@ -412,25 +462,36 @@ msgid "キーワード読み込み"
 msgstr "Keyword loading"
 
 msgid "既存のGaussianの入力ファイルから、キーワード（計算条件）のみを読み込みます。"
-msgstr "Only keywords (calculation conditions) are read from the existing Gaussian input file."
+msgstr "NOTTRANSLATED"
+"Only keywords (calculation conditions) are read from the existing "
+"Gaussian input file."
 
 msgid "実行"
 msgstr "Execution"
 
-
 msgid ""
 "メインウィンドウでGaussianの入力ファイルが開かれている場合は、そのファイルを使ってGaussianを実行します。 "
 "開かれていない場合は、Gaussianの入力ファイルを保存した上でGaussianを実行します。"
-msgstr "If Gaussian&#39;s input file is opened in the main window, use Gaussian to execute it. If it is not open, save the Gaussian input file and run Gaussian."
+msgstr "NOTTRANSLATED"
+"If Gaussian&#39;s input file is opened in the main window, use Gaussian "
+"to execute it. If it is not open, save the Gaussian input file and run "
+"Gaussian."
 
-msgid "入力ファイルを保存する際に、 :ref:`file_coordinateformat` の選択肢に応じて座標の出力フォーマットが変化します。"
-msgstr "When saving the input file, the output format of the coordinates changes according to the choices of: ref: `file_coordinateformat`."
+msgid ""
+"入力ファイルを保存する際に、 :ref:`file_coordinateformat` の選択肢（ :guilabel:`Z-Matrix` "
+"または :guilabel:`XYZ` ）および :ref:`座標表示エリア <gui_main>` の :guilabel:`Z-Matrix`"
+" / :guilabel:`XYZ` タブの選択に応じて座標の出力フォーマットが変化します。"
+msgstr "When saving the input file, output format of coordinates changes according to the selection of :ref:`file_coordinateformat` choice (:guilabel:`Z-Matrix` or :guilabel:`XYZ`) and :guilabel:`Z-Matrix` / :guilabel:`XYZ` tab of :ref:`Coordinate display area <gui_main>`."
 
 msgid "Gaussianのプログラムパスは、 :menuselection:`ツール --> 環境設定 --> プログラムパス` で変更することができます。"
-msgstr "Gaussian&#39;s program path can be changed with:: menuselection: `tools -&gt; preferences -&gt; program path`."
+msgstr "NOTTRANSLATED"
+"Gaussian&#39;s program path can be changed with:: menuselection: `tools "
+"--> preferences --> program path`."
 
 msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.gjf` の時のファイル/フォルダ名を併記しています。"
-msgstr "Following file will be generated with execution. For example, the file / folder name when the input file is: file: `water.gjf` is shown together."
+msgstr "NOTTRANSLATED"
+"Following file will be generated with execution. For example, the file / "
+"folder name when the input file is: file: `water.gjf` is shown together."
 
 msgid "種類"
 msgstr "type"
@@ -456,6 +517,9 @@ msgstr ":file:`water.gjf.bat`"
 msgid "Gaussianを実行するためのバッチファイルです。"
 msgstr "It is a batch file for running Gaussian."
 
+msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
+msgstr "The job is run through :ref:`winmosjm_top`."
+
 msgid "ログを表示 (log/out)"
 msgstr "Display log (log / out)"
 
@@ -466,55 +530,66 @@ msgid "アニメーション"
 msgstr "animation"
 
 msgid "logファイルの情報から構造最適化計算のアニメーションを作成し表示します。"
-msgstr "Creates and displays animation of structural optimization calculation from information of log file."
+msgstr "NOTTRANSLATED"
+"Creates and displays animation of structural optimization calculation "
+"from information of log file."
 
 msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
-msgstr "For the animation display operation method, see: ref: `animation_top`."
+msgstr "For the animation display operation method, see :ref:`animation_top`."
 
 msgid "アニメーション (IRC/modred)"
 msgstr "Animation (IRC / modred)"
 
 msgid "logファイルの情報からIRC計算のアニメーションを作成し表示します。"
-msgstr "Creates and displays animation of IRC calculation from information of log file."
+msgstr "NOTTRANSLATED"
+"Creates and displays animation of IRC calculation from information of log"
+" file."
 
 msgid "分子軌道, UV-Vis, 電荷, NMR"
 msgstr "Molecular orbitals, UV-Vis, charge, NMR"
 
 msgid "logファイルの情報から分子軌道, UV-Vis, 電荷, NMRの情報を取得し表示します。"
-msgstr "Information on molecular orbital, UV-Vis, charge, NMR from the information of the log file is acquired and displayed."
+msgstr "NOTTRANSLATED"
+"Information on molecular orbital, UV-Vis, charge, NMR from the "
+"information of the log file is acquired and displayed."
 
 msgid ""
 "読み込まれた電荷の情報は :menuselection:`表示 --> ラベル/電荷 --> Mulliken電荷` "
 "などを選択することで分子表示エリアに表示することができます。"
-msgstr "Information on the charge read can be displayed in the molecular display area by selecting: menuselection: `display -&gt; label / charge -&gt; Mulliken charge &#39;and so on."
-
+msgstr "NOTTRANSLATED"
+"Information on the charge read can be displayed in the molecular display "
+"area by selecting :menuselection:`display --> label / charge --> "
+"Mulliken charge` and so on."
 
 msgid ""
 "サブウィンドウの操作方法は :ref:`mo_top` , :ref:`cube_top` , :ref:`uvvis_top` , "
 ":ref:`nmr_top` を参照してください。"
-msgstr "Refer to: ref: `mo_top`,: ref:` cube_top`,: ref: `uvvis_top`,: ref:` nmr_top` for how to operate the subwindow."
+msgstr "NOTTRANSLATED"
+"Refer to :ref:`mo_top`, :ref:`cube_top`, :ref:`uvvis_top`, :ref:`nmr_top` for how to operate the subwindow."
 
 msgid "IR/ラマンスペクトル"
 msgstr "IR / Raman spectrum"
 
 msgid "logファイルを選択し、振動スペクトル（IRまたはラマンスペクトル）を表示します。"
-msgstr "Select the log file and display the vibration spectrum (IR or Raman spectrum)."
-
+msgstr "NOTTRANSLATED"
+"Select the log file and display the vibration spectrum (IR or Raman spectrum)."
 
 msgid "サブウィンドウの操作方法は :ref:`ir_top` を参照してください。"
-msgstr "Refer to: ref: `ir_top` for how to operate the subwindow."
+msgstr "Refer to :ref:`ir_top` for how to operate the subwindow."
 
 msgid "Archive"
 msgstr "Archive"
 
 msgid "Gaussianの出力のアーカイブ部分の高精度座標を読み込みます。"
-msgstr "Read high-precision coordinates of the archive part of Gaussian&#39;s output."
+msgstr "NOTTRANSLATED"
+"Read high-precision coordinates of the archive part of Gaussian&#39;s output."
 
 msgid "FormChk"
 msgstr "FormChk"
 
 msgid "G09W,G03WユーティリティのFormchkを起動し、.chkファイルから書式付の.fchファイルを作成し、表示します。"
-msgstr "G09W, G03W Activate Formchk of utility, create formatted .fch file from .chk file and display it."
+msgstr "NOTTRANSLATED"
+"G09W, G03W Activate Formchk of utility, create formatted .fch file from .chk file and display it."
 
 msgid "Fchkファイル読み込み (Cubegen)"
 msgstr "Fchk file reading (Cubegen)"
@@ -522,11 +597,14 @@ msgstr "Fchk file reading (Cubegen)"
 msgid ""
 "G09W,G03WユーティリティのCubegenを起動し、.fchファイルを読込んでCubeファイルを作成します。 "
 "Cubegenがない場合は、Winmostar内臓のOpenCubegenを使います。"
-msgstr "G09W, G03W Start Cubegen of the utility, read the .fch file and create the Cube file. If you do not have Cubegen, use OpenCubegen from Winmostar."
-
+msgstr "NOTTRANSLATED"
+"G09W, G03W Start Cubegen of the utility, read the .fch file and create "
+"the Cube file. If you do not have Cubegen, use OpenCubegen from "
+"Winmostar."
 
 msgid "サブウィンドウの操作方法は :ref:`cube_top` と以下を参考にしてください。"
-msgstr "For how to operate the subwindow, please refer to: ref: `cube_top` and the following."
+msgstr "NOTTRANSLATED"
+"For how to operate the subwindow, please refer to :ref:`cube_top` and the following."
 
 msgid "Property"
 msgstr "Property"
@@ -595,13 +673,15 @@ msgid "cube Manipulation"
 msgstr "cube Manipulation"
 
 msgid ":guilabel:`File 1` と :guilabel:`File 2` に指定したcubeファイルに対して操作を実行します。"
-msgstr ": guilabel: `File 1` and: guilabel:` File 2` for the cube file specified."
+msgstr "Perform operations on cube files specified in :guilabel:`File 1` and :guilabel:`File 2`."
 
 msgid "map"
 msgstr "map"
 
 msgid "上の欄のデータに下の欄のデータをマッピングします。（例　DensityにESPをマッピングする）"
-msgstr "Map the data in the lower column to the data in the upper column. (Example mapping ESP to Density)"
+msgstr "NOTTRANSLATED"
+"Map the data in the lower column to the data in the upper column. "
+"(Example mapping ESP to Density)"
 
 msgid "subtract"
 msgstr "subtract"
@@ -613,7 +693,8 @@ msgid "sub 2"
 msgstr "sub 2"
 
 msgid "2つのcubeファイルのデータの自乗の差を対象とします。"
-msgstr "We will cover the difference between the squares of the data of two cube files."
+msgstr "NOTTRANSLATED"
+"We will cover the difference between the squares of the data of two cube files."
 
 msgid "add"
 msgstr "add"
@@ -622,17 +703,27 @@ msgid "2つのcubeファイルの和を対象とします。"
 msgstr "We will cover the sum of two cube files."
 
 msgid "Mapで対象としたcubeファイルの演算結果を出力し表示の対象とします。"
-msgstr "The calculation result of the cube file targeted by Map is output and displayed."
+msgstr "NOTTRANSLATED"
+"The calculation result of the cube file targeted by Map is output and displayed."
 
 msgid "Cubegen"
 msgstr "Cubegen"
 
 msgid "Cubegenを起動し、fchファイルを読込んでCubeファイルを作成します。詳細は :ref:`gaussian_fchk` を参照してください。"
-msgstr "Start Cubegen, read the fch file and create a Cube file. For details, see: ref: `gaussian_fchk`."
+msgstr "NOTTRANSLATED"
+"Start Cubegen, read the fch file and create a Cube file. For details, see :ref:`gaussian_fchk`."
 
 msgid "PIO解析"
 msgstr "PIO analysis"
 
 msgid "Paired Interacting Orbitals解析を実行します。 詳細は :ref:`pio_top` を参照してください。"
-msgstr "Paired Interacting Orbitals Executes analysis. For details, see: ref: `pio_top`."
+msgstr "NOTTRANSLATED"
+"Paired Interacting Orbitals Executes analysis. For details, see :ref:`pio_top`."
+
+#~ msgid "入力ファイルを保存する際に、 :ref:`file_coordinateformat` の選択肢に応じて座標の出力フォーマットが変化します。"
+#~ msgstr "NOTTRANSLATED"
+#~ "When saving the input file, the "
+#~ "output format of the coordinates changes"
+#~ " according to the choices of: ref:"
+#~ " `file_coordinateformat`."
 
