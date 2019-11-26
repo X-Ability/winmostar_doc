@@ -4,52 +4,55 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-23 15:28+0900\n"
+"POT-Creation-Date: 2019-09-05 14:13+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.7.0\n"
 
 msgid ":menuselection:`固体 --> FDMNES` メニュー"
-msgstr ": menuselection: `solid -&gt; FDMNES` menu"
+msgstr ":menuselection:`Solid --> FDMNES` menu"
 
 msgid "FDMNESに関するメニューです。"
 msgstr "It is a menu related to FDMNES."
 
 msgid "FDMNESをインストールする方法は :ref:`install_install` に記載しています。"
-msgstr "The method of installing FDMNES is described in: ref: `install_install`."
+msgstr "The method of installing FDMNES is described in :ref:`install_install`."
 
 msgid "キーワード設定"
 msgstr "Keyword setting"
 
-
 msgid ""
 "FDMNESの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は "
 ":guilabel:`OK` ボタンを押してください。"
-msgstr "Set the calculation condition of FDMNES. To set up the calculations immediately after setting: guilabel: `Run` button, once to return to the main window please press: guilabel:` OK` button."
+msgstr "NOTTRANSLATED"
+"Set the calculation condition of FDMNES. To set up the calculations "
+"immediately after setting :guilabel:`Run` button, once to return to the "
+"main window please press :guilabel:`OK` button."
 
 msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`solid_fdmnes_start` を参照してください。"
-msgstr ": guilabel: Behavior when clicking `Run` is see: ref:` solid_fdmnes_start`."
+msgstr "NOTTRANSLATED"
+"See :ref:`solid_fdmnes_start` for behavior when clicking :guilabel:`Run`."
 
 msgid ":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。"
-msgstr ": guilabel: `Reset` button to return to the default state."
+msgstr "Return to the default state with :guilabel:`Reset` button."
 
 msgid "Target Atom"
 msgstr "Target Atom"
 
-
 msgid ""
 "XAFSスペクトルの測定対象の原子(Absorber)を指定します。 :guilabel:`Set Atom` "
 "ボタンをクリックすると、メインウィンドウでマーカーが付いた原子が設定されます。。"
-msgstr "Specify the atom (Absorber) of the XAFS spectrum measurement target. : guilabel: Clicking the &#39;Set Atom&#39; button will set the atom with the marker in the main window. ."
+msgstr "NOTTRANSLATED"
+"Specify the atom (Absorber) of the XAFS spectrum measurement target. "
+"Clicking the :guilabel:`Set Atom` button will set the atom with the marker in the main window. ."
 
 msgid "Edge"
 msgstr "Edge"
@@ -69,7 +72,10 @@ msgstr "Cluster Radius"
 msgid ""
 "FDMNES内部にてシミュレーションセル（スーパーセル）を展開して作成されるクラスタの半径を指定します。 "
 "この値が大きいほどバルクの状態に近づきますが、処理速度は低下します。"
-msgstr "Specify the radius of the cluster created by expanding the simulation cell (supercell) inside FDMNES. The larger this value is, the closer the bulk state is, but the processing speed decreases."
+msgstr "NOTTRANSLATED"
+"Specify the radius of the cluster created by expanding the simulation "
+"cell (supercell) inside FDMNES. The larger this value is, the closer the "
+"bulk state is, but the processing speed decreases."
 
 msgid "Method"
 msgstr "Method"
@@ -87,13 +93,15 @@ msgid "Calc LDOS"
 msgstr "Calc LDOS"
 
 msgid "局所状態密度（LDOS）を、ファイル名末尾が_sd*.txtとなっているファイルの中に出力します。"
-msgstr "The local state density (LDOS) is output into a file whose file name suffix is _sd *. Txt."
+msgstr "NOTTRANSLATED"
+"The local state density (LDOS) is output into a file whose file name suffix is _sd*.txt."
 
 msgid "Definition for Energy"
 msgstr "Definition for Energy"
 
 msgid "XAFSスペクトルを表示する際の横軸（エネルギー）の定義を指定します。"
-msgstr "Specify the horizontal axis (energy) definition when displaying XAFS spectrum."
+msgstr "NOTTRANSLATED"
+"Specify the horizontal axis (energy) definition when displaying XAFS spectrum."
 
 msgid "実行"
 msgstr "Execution"
@@ -104,7 +112,10 @@ msgstr "Run FDMNES."
 msgid ""
 "実行に伴い以下のファイルが生成されます。（主要なファイルのみ表示） 例として入力ファイルが :file:`cu.fdmnes` "
 "の時のファイル/フォルダ名を併記しています。"
-msgstr "Following file will be generated with execution. (Only major files are shown) As an example, the file / folder name when the input file is: file: `cu.fdmnes` is also shown."
+msgstr "NOTTRANSLATED"
+"Following file will be generated with execution. (Only major files are "
+"shown) As an example, the file / folder name when the input file is "
+":file:`cu.fdmnes` is also shown."
 
 msgid "種類"
 msgstr "type"
@@ -112,12 +123,11 @@ msgstr "type"
 msgid "説明"
 msgstr "Description"
 
-
 msgid "logファイル"
 msgstr "log file"
 
 msgid ":file:`cu.log`"
-msgstr ": File: `cu.log`"
+msgstr ":file:`cu.log`"
 
 msgid "計算のログファイルです。"
 msgstr "Calculation log file."
@@ -126,7 +136,7 @@ msgid "batファイル"
 msgstr "bat file"
 
 msgid ":file:`cu.bat`"
-msgstr ": File: `cu.bat`"
+msgstr ":file:`cu.bat`"
 
 msgid "FDMNESを実行するためのバッチファイルです。"
 msgstr "It is a batch file for running FDMNES."
@@ -135,10 +145,13 @@ msgid "convファイル"
 msgstr "conv file"
 
 msgid ":file:`cu_conv.txt`"
-msgstr ": File: `cu_conv.txt`"
+msgstr ":file:`cu_conv.txt`"
 
 msgid "XANESスペクトルなどのデータが記録されたテキストファイルです。"
 msgstr "XANES This is a text file containing data such as spectra."
+
+msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
+msgstr "The job is run through :ref:`winmosjm_top`."
 
 msgid "ログを表示 (log)"
 msgstr "Display log (log)"
@@ -150,7 +163,8 @@ msgid "XAFSスペクトル"
 msgstr "XAFS spectrum"
 
 msgid "convファイル（ :file:`\\*_conv.txt` ）を選択し、XAFSスペクトルを表示します。"
-msgstr "Select the conv file (: file: `\\ * _ conv.txt`) and display the XAFS spectrum."
+msgstr "NOTTRANSLATED"
+"Select the conv file ( :file:`\\*_conv.txt` ) and display the XAFS spectrum."
 
 #~ msgid "pwoutファイル"
 #~ msgstr "NOTTRANSLATED"

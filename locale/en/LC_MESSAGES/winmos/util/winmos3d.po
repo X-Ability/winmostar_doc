@@ -108,7 +108,7 @@ msgid "Representations"
 msgstr "Representations"
 
 msgid "描画の詳細な調整を行う :ref:`winmos3d_repre` を表示します。"
-msgstr "Perform detailed drawing adjustment: ref: `winmos3d_repre` is displayed."
+msgstr "Perform detailed drawing adjustment :ref:`winmos3d_repre` is displayed."
 
 msgid "Perspective"
 msgstr "Perspective"
@@ -183,7 +183,7 @@ msgid "Show Animation Control Panel"
 msgstr "Show Animation Control Panel"
 
 msgid ":ref:`winmos3d_panel` を表示します。"
-msgstr ": ref: `winmos3d_panel` is displayed."
+msgstr ":ref:`winmos3d_panel` is displayed."
 
 msgid "Copy Image"
 msgstr "Copy Image"
@@ -313,14 +313,14 @@ msgstr "Molecule"
 
 
 msgid "本ウィンドウ中部の :guilabel:`1` から :guilabel:`9` を各分子に割り当てます。"
-msgstr "From the guilabel: `1` in the middle of this window: guilabel:` 9` is assigned to each molecule."
+msgstr "From the :guilabel:`1` in the middle of this window :guilabel:`9` is assigned to each molecule."
 
 msgid "Composition"
 msgstr "Composition"
 
 
 msgid "本ウィンドウ中部の :guilabel:`1` から :guilabel:`9` を（分子量が共通する）各分子種に割り当てます。"
-msgstr "Assign guilabel: `9` from guilabel:` 1` in the middle of this window to each molecular species (with the same molecular weight)."
+msgstr "Assign :guilabel:`9` from :guilabel:`1` in the middle of this window to each molecular species (with the same molecular weight)."
 
 msgid "1 - 9"
 msgstr "1 - 9"
@@ -329,7 +329,7 @@ msgid ""
 "チェックが付いた項目を表示します。プルダウンメニューの :guilabel:`BS` , :guilabel:`SF` , "
 ":guilabel:`ST` , :guilabel:`WI` はそれぞれBall-stick（棒球）モデル（デフォルト）、Space "
 "filling（空間充填）モデル、Stick（棒）モデル、ワイヤーモデルを意味します。"
-msgstr "The checked items are displayed. In the pull-down menu: guilabel: `BS`,: guilabel:` SF`,: guilabel: `ST`,: guilabel:` WI` are Ball-stick model (default), Space filling , Stick (rod) model, wire model."
+msgstr "The checked items are displayed. In the pull-down menu :guilabel:`BS`, :guilabel:`SF`, :guilabel:`ST`, :guilabel:`WI` are Ball-stick model (default), Space filling , Stick (rod) model, wire model."
 
 msgid "Rainbow"
 msgstr "Rainbow"
@@ -356,7 +356,7 @@ msgid "元の構造とその鏡像体を表示します。"
 msgstr "Display the original structure and its mirror image."
 
 msgid "Para"
-msgstr "For"
+msgstr "Para"
 
 msgid "平行法で表示します。"
 msgstr "Display in parallel method."

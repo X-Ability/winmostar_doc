@@ -1,0 +1,249 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: Winmostar User Manual 9.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-05 14:13+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+msgid ":menuselection:`固体 --> Phonopy` メニュー"
+msgstr ":menuselection:`Solid --> Phonopy` menu"
+
+msgid "Phonopyに関するメニューです。"
+msgstr "NOTTRANSLATED"
+
+msgid "概要"
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopyでは、以下の3つの工程で計算を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid "与えられたQuantum ESPRESSOインプットファイルを元にスーパーセルを作成する。 (プリ処理)"
+msgstr "NOTTRANSLATED"
+
+msgid "生成された全てのスーパーセルに対し、Quantum ESPRESSOを実行する。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"Quantum ESPRESSOのアウトプットファイルから、ForceSetsファイルを作成し、 "
+"Phononバンド、DOS、熱物性などの計算を行う。(ポスト処理)"
+msgstr "NOTTRANSLATED"
+
+msgid "キーワード設定・実行"
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopyを用いたプリ・ポスト処理の計算条件を設定し、プリ処理の実行を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Open` ボタン"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"Quantum ESPRESSOのインプットファイル (\\*.in,\\*.pwin)を読み込みます。 "
+"Phonopyでのポスト処理では、応力の情報を必要とします。このため読み込むファイルは tprnfor, "
+"tstressキーワードを含んでいる必要があります。 Phonopy用のQuantum ESPRESSOのインプットファイルは、 Quantum "
+"ESPRESSOキーワード設定のPreset=Phonopyを使用することで設定できます。"
+msgstr "NOTTRANSLATED"
+
+msgid "DIM"
+msgstr "NOTTRANSLATED"
+
+msgid "スーパーセルのx, y, z方向のリピート回数を半角スペース区切りで指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "MP"
+msgstr "NOTTRANSLATED"
+
+msgid "PhonopyでPhonon DOSや熱物性の計算を行う際の逆格子を半角スペース区切りで指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "ATOM_NAME"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"単位格子に含まれる元素を半角スペース区切りで指定します。 :guilabel:`Open` "
+"ボタンでインプットファイルを開いた時点で自動的に入力されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Start` ボタン"
+msgstr "NOTTRANSLATED"
+
+msgid "設定条件を元にPhonopyを実行し、プリ処理であるスーパーセルの作成を実行します。 このとき、以下のファイルとフォルダが生成されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "種類"
+msgstr "NOTTRANSLATED"
+
+msgid "説明"
+msgstr "NOTTRANSLATED"
+
+msgid "batファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`si.bat`"
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopyのプリ処理を実行するためのバッチファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid "shファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`si.sh`"
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopyのプリ処理を実行するためのシェルスクリプトファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid "si_ph_dataフォルダ"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`si_ph_data`"
+msgstr "NOTTRANSLATED"
+
+msgid "計算の作業ディレクトリです。"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリsi_ph_dataには以下のファイルが生成されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "mesh.confファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`mesh.conf`"
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopyのポスト処理にて、状態密度や熱物性を計算するときに使用されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "band.confファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`band.conf`"
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopyのポスト処理にて、バンド構造を計算するときに使用されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "headerファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`header.in`"
+msgstr "NOTTRANSLATED"
+
+msgid "si.pwinで指定された構造情報以外のキーワード情報が記載されています。"
+msgstr "NOTTRANSLATED"
+
+msgid "supercellファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`supercell-＊.in`"
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopyにより生成されたスーパーセルの情報がQuantum ESPRESSOのインプットファイル形式で記載されています。"
+msgstr "NOTTRANSLATED"
+
+msgid "スーパーセルのパターンは複数生成されるため、＊の部分には1, 2, などの数字が入ります。"
+msgstr "NOTTRANSLATED"
+
+msgid "tmpファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`tmp-*.in`"
+msgstr "NOTTRANSLATED"
+
+msgid "header.inとsupercell-\\*.inを結合したファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Cancel` ボタン"
+msgstr "NOTTRANSLATED"
+
+msgid "何もせずにキーワード設定・実行ウィンドウを閉じます。"
+msgstr "NOTTRANSLATED"
+
+msgid "confファイル編集..."
+msgstr "NOTTRANSLATED"
+
+msgid "confファイルをテキストエディタで開きます。 キーワード設定画面で設定したキーワードを編集したい場合に用います。"
+msgstr "NOTTRANSLATED"
+
+msgid "Quantum ESPRESSO連続実行"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"キーワード設定・実行画面で生成された、全てのスーパーセルに対し、Quantum ESPRESSOを実行します。 "
+"このメニューを用いた場合、Quantum ESPRESSOはローカル環境で実行されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopyの実行..."
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopyのポスト処理を実行します。"
+msgstr "NOTTRANSLATED"
+
+msgid "この時、作業フォルダ :file: si_ph_data に以下のファイルが生成されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`phonopy.sh`"
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopyのポスト処理を実行するためのシェルスクリプトです"
+msgstr "NOTTRANSLATED"
+
+msgid "band.yamlファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`band.yaml`"
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopyのポスト処理で計算されたバンド構造の情報が出力されています。"
+msgstr "NOTTRANSLATED"
+
+msgid "dos.datファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`dos.dat`"
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopyのポスト処理で計算された状態密度の情報が出力されています。"
+msgstr "NOTTRANSLATED"
+
+msgid "thermal_properties.yamlファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`thermal_properties.yaml`"
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopyのポスト処理で計算された熱物性の情報が出力されています。"
+msgstr "NOTTRANSLATED"
+
+msgid "バンド構造..."
+msgstr "NOTTRANSLATED"
+
+msgid "作業フォルダに含まれるband.csvをもとにバンド構造を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "状態密度..."
+msgstr "NOTTRANSLATED"
+
+msgid "作業フォルダに含まれるtoal_dos.csvをもとに状態密度を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "熱物性..."
+msgstr "NOTTRANSLATED"
+
+msgid "作業フォルダに含まれるthermal_properties.csvをもとに熱物性を表示します。"
+msgstr "NOTTRANSLATED"
+

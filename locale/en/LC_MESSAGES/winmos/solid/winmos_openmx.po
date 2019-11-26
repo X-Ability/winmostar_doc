@@ -1,0 +1,716 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
+# This file is distributed under the same license as the Winmostar User
+# Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr "NOTTRANSLATED"
+"Project-Id-Version: Winmostar User Manual 9.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-05 14:13+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+msgid ":menuselection:`固体 --> OpenMX` メニュー"
+msgstr ":menuselection:`Solid --> OpenMX` menu"
+
+msgid "OpenMXに関するメニューです。"
+msgstr "Menu related to OpenMX."
+
+msgid "キーワード設定"
+msgstr "Keyword settings"
+
+msgid ""
+"OpenMXの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は "
+":guilabel:`OK` ボタンを押してください。"
+msgstr "Set the OpenMX calculation conditions. Click the :guilabel:`Run` button to execute "
+"the calculation immediately after setting, or the: guilabel:` OK` button to return to the main window."
+
+msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`solid_openmx_start` を参照してください。"
+msgstr "See :ref:`solid_openmx_start` for behavior when clicking :guilabel:`Run`."
+
+msgid ""
+":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 :guilabel:`OK` "
+"ボタンで設定内容を反映してメイン画面に戻ります。 :guilabel:`Cancel` ボタンで何もせずにWindowを閉じます。"
+msgstr "The :guilabel:`Reset` button returns to the default state. "
+"Click the :guilabel:`OK` button to reflect the settings and return to the main screen. "
+":guilabel:`Cancel` button closes the window without doing anything."
+
+msgid ""
+"本機能を呼び出すときに、メインウィンドウに表示された構造がプリミティブセルに変化できる場合は、自動で "
+":ref:`solid_convertcell` が実行されます。"
+msgstr "When calling this function, if the structure displayed in the main window "
+"can be changed to a primitive cell, :ref:`solid_convertcell` is automatically executed. "
+
+msgid "Preset"
+msgstr "Preset"
+
+msgid "設定のプリセットを選択します。"
+msgstr "Select a settings preset."
+
+msgid "Use MPI"
+msgstr "Use MPI"
+
+msgid "OpenMXの実行時にMPIを用いて並列計算を実行するか指定します。横の欄にはMPIプロセス数を入力します。"
+msgstr "Specify whether to perform parallel computation using MPI when running OpenMX. "
+"Enter the number of MPI processes in the horizontal column."
+
+msgid "Use OpenMP"
+msgstr "Use OpenMP"
+
+msgid "OpenMXの実行時にOpenMPを用いて並列計算を実行するか指定します。横の欄にはOpenMPスレッド数を入力します。"
+msgstr "Specify whether to perform parallel computation using OpenMP when running OpenMX. "
+"Enter the number of OpenMP threads in the horizontal column."
+
+msgid "SCFタブ"
+msgstr "SCF tab"
+
+msgid "XcType"
+msgstr "XcType"
+
+msgid ""
+"交換相関ポテンシャルを指定します。「LDA」、「LSDA-CA」、「LSDA-PW」、「GGA-PBE」が指定できます。 ここで「LSDA-CA"
+"」はCeperley-Alderの局所スピン密度関数、 「LSDA-PW」は、そのGGA形式において密度勾配をゼロとしたPerdew-"
+"Wang局所スピン密度関数です。 「GGA-PBE」はPerdewらが提案するGGA汎関数です。"
+msgstr "Specify exchange correlation potential. You can specify "LDA", "LSDA-CA", "LSDA-PW", or "GvG-PBE". "
+"Here, “LSDA-CA” is the Ceperley-Alder local spin density function, and “LSDA-PW” is the Perdew-Wang "
+"local spin density function with zero density gradient in the GGA format. "
+"“GGA-PBE” is a GGA functional proposed by Perdew et al."
+
+msgid "SpinPolarization"
+msgstr "SpinPolarization"
+
+msgid ""
+"電子系の非スピン分極あるいはスピン分極を指定します。 "
+"スピン分極の計算を行う場合は「ON」を指定し、非スピン分極の計算を行う場合は「OFF」を指定します。 "
+"前述の2つのオプションの他、ノンコリニアDFT計算を行う場合には「NC」というオプションを指定して下さい。"
+msgstr "Specify non-spin polarization or spin polarization of the electron system. "
+"Specify“ ON ”to calculate spin polarization and“ OFF ”to calculate non-spin polarization. "
+"In addition to the above two options, specify the option "NC" for non-collinear DFT calculations."
+
+msgid "EigenvalueSolver"
+msgstr "EigenvalueSolver"
+
+msgid ""
+"固有値問題の計算手法を「scf.EigenvalueSolver」で指定します。O(N)分割統治法は「DC」、O(N)クリロフ部分空間法は「Krylov」、"
+" 数値厳密な低次スケーリング法は「ON2」、クラスタ計算は「Cluster」、バンド計算は「Band」を指定します。"
+msgstr "Specify the calculation method for eigenvalue problems with "scf.EigenvalueSolver". "
+"O (N) divide-and-conquer method is "DC", O (N) Krylov subspace method is "Krylov", numerically exact low-order scaling method is "ON2", cluster calculation is "Cluster", band calculation is specified "Band"."
+
+msgid "Kgrid"
+msgstr "Kgrid"
+
+msgid ""
+"OpenMXでは等間隔メッシュによりk空間の第1ブリルアンゾーンを離散します。 "
+"その際、「scf.EigenvalueSolver」キーワードにて「Band」を指定する場合、k空間の第1ブリルアンゾーンを離散化するための "
+"格子の数（n1, n2, n3）を「scf.Kgrid」キーワードで指定しなければなりません。 k空間の逆格子ベクトルを離散化するために「n1 "
+"n2 n3」のように指定して下さい。"
+msgstr "In OpenMX, the first Brillouin zone in k-space is separated by an equidistant mesh. "
+"At that time, when “Band” is specified with the “scf.EigenvalueSolver” keyword, the number "
+"of grids (n1, n2, n3) for discretizing the first Brillouin zone in k-space must be specified with the “scf.Kgrid” keyword. "
+"Specify as "n1 n2 n3" to discretize the reciprocal lattice vector in k space. "
+
+msgid "ElectronicTemperature"
+msgstr "ElectronicTemperature"
+
+msgid "電子温度（K）を設定します。"
+msgstr "Set the electronic temperature (K)."
+
+msgid "energycutoff"
+msgstr "energycutoff"
+
+msgid ""
+"積分グリッド間隔を定義するカットオフエネルギーを指定します。 "
+"この積分グリッドは差電子クーロンポテンシャルと交換相関ポテンシャルに対する行列要素の計算、および高速フーリエ変換（FFT）を用いたPoisson方程式の"
+" 解法のために使用されます。"
+msgstr "Specifies the cutoff energy that defines the integration grid spacing. "
+"This integration grid is used to calculate matrix elements for the difference "
+"electron Coulomb potential and exchange correlation potential, and to solve "
+"the Poisson equation using the Fast Fourier Transform (FFT)."
+
+msgid "maxIter"
+msgstr "maxIter"
+
+msgid "SCFの最大反復回数を設定します。 SCF反復ループは、収束条件が満たされない場合でもこのキーワードで指定した回数で終了します。"
+msgstr "Sets the maximum number of SCF iterations. The SCF iteration loop ends "
+"with the number of times specified by this keyword even if the convergence condition is not met."
+
+msgid "ProExpn.VNA"
+msgstr "ProExpn.VNA"
+
+msgid ""
+"中性原子ポテンシャルVNAを射影演算子で展開する場合には、「ON」に設定し、 それ以外の場合は「OFF」を設定して下さい。 "
+"「OFF」と設定されている場合、VNAポテンシャルの行列要素は実空間の離散グリッドを用いて計算されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Mixing.Type"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"SCF計算の次の反復ステップに入力される電子密度(もしくは密度行列)を生成するための電子密度混合法を指定します。 単純混合法（「Simple"
+"」）、Guaranteed-Reduction Pulay法（「GR-Pulay」）、RMM-DIIS法（「RM-DIIS」）、 "
+"Kerker法（「Kerker」）、あるいはRMM-DIISK法（「RMM-DIISK」）、 RMM-DIISH法（「RM-"
+"DIISH」）のいずれかを指定することができます。 OpenMXの単純混合法は収束の速度を上げるために収束履歴を参照するように改良されています。 "
+"「GR-Pulay」、 「RMM- DIIS」、 「Kerker」あるいは「RMM-DIISK」を使用する際には、以下の点に注意することで "
+"SCF計算の高速化が可能です。 * "
+"Pulay法に準拠する方法で混合を開始する前にある程度の収束が必要です。そのため、やや大きめの「scf.Mixing.StartPulay」の値を使用します。"
+" 「scf.Mixing.StartPulay」の適切な値は10～30です。 * "
+"金属系の場合は高い「scf.ElectronicTemperature」の値を使用します。 "
+"「scf.ElectronicTemperature」が小さいと数値的に不安定な挙動がよく見られます。 * "
+"「scf.Mixing.History」の値を大きくします。ほとんどの場合、「scf.Mixing.History=30」が妥当な値です。 "
+"また前述した混合法のうち、一番ロバスト性が高いのは「RMM-DIISK」です。"
+msgstr "NOTTRANSLATED"
+
+msgid "Init.Mixing.Weight"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"単純法、GR-Pulay法, RMM-DIIS法、Kerker法、RMM-DIISK法およびRMM-"
+"DIISH法で使用する初期の混合比を指定します。 有効な範囲は0<Init.Mixing.Weight<1です。"
+msgstr "NOTTRANSLATED"
+
+msgid "Min.Mixing.Weight"
+msgstr "NOTTRANSLATED"
+
+msgid "単純およびKerker混合法における混合比の下限を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Max.Mixing.Weight"
+msgstr "NOTTRANSLATED"
+
+msgid "単純およびKerker混合法における混合比の上限を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Mixing.History"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"GR-Pulay法、 RMM-DIIS法、 Kerker法、RMM- DIISK法及びRMM-DIISH法では、 "
+"SCFの次の反復ステップにおける入力電子密度（ハミルトニアン）を、過去のSCF反復の電子密度（ハミルトニアン）に基づき推定します。 "
+"「scf.Mixing.History」キーワードは、この推定に使用する過去のSCF反復ステップ数を指定します。 "
+"例えば、「Mixing.History」が3に設定されている場合、6回目のSCF反復では過去の第5、4、3ステップの電子密度が考慮されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Mixing.StartPulay"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"GR-Pulay法、RMM-DIIS法、Kerker法、RMM-DIISK法およびRMM-DIISH法を開始するSCFステップを指定します。 "
+"これらの方法を開始するまでのSCFステップでは単純あるいはKerker混合法が使用されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "criterion"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"SCF計算の収束条件を指定します（Hartree単位）。 SCF反復はdUele < "
+"scf.criterionという条件が満たされると終了します。 "
+"ここでdUeleとは、現在のSCF反復とひとつ前の反復とのバンドエネルギーの絶対差です。 デフォルト値は1.0e-6（Hartree単位）です。"
+msgstr "NOTTRANSLATED"
+
+msgid "SCF.Hubbardタブ"
+msgstr "NOTTRANSLATED"
+
+msgid "Hubbard.U"
+msgstr "NOTTRANSLATED"
+
+msgid "LDA+UおよびGGA+U計算の場合、「ON」に設定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Hubbard.Occupation"
+msgstr "NOTTRANSLATED"
+
+msgid "LDA+U法では、「onsite」、「full」および「dual」の3つの占有数演算子から選択することができます。"
+msgstr "NOTTRANSLATED"
+
+msgid "OrderNタブ"
+msgstr "NOTTRANSLATED"
+
+msgid "HoppingRanges"
+msgstr "NOTTRANSLATED"
+
+msgid "各原子を中心とする球の半径(Å)を定義します。DC法およびO(N)クリロフ部分空間法では、この球内に含まれる原子を選択することで切り取られたクラスタが構成されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "KrylovH.order"
+msgstr "NOTTRANSLATED"
+
+msgid "切り取られた各クラスタのハミルトニアンに対し、クリロフ部分空間の次元を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "KrylovS.order"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"後述のキーワードで「Exact.Inverse.S=off」に設定した場合、重なり積分の逆行列は クリロフ部分空間法を用いて近似されます。 "
+"この時、切り取られた各クラスタに対する重なり行列のクリロフ部分空間法の次元を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Exact.Inverse.S"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"「on」に設定すると、切り取られた各クラスタの重なり行列の逆行列は厳密に評価されます。 "
+"「off」に設定する場合は前述のキーワード「KrylovS.order」の項を参照して下さい。"
+msgstr "NOTTRANSLATED"
+
+msgid "Recalc.Buffer"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"「on」に設定すると、バッファ行列は各SCF反復毎に再計算されます。 "
+"「off」の場合にはバッファ行列は初回のSCFステップで計算され、その後のSCF反復では固定されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Expand.Core"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"「on」に設定すると、コア領域は半径 1.2× r\\ :sub:`min`\\の球の中にある 原子から構成されます。ここでr\\ "
+":sub:`min`\\は、中心原子と最隣接原子間の距離です。 "
+"このコア領域はクリロフ部分空間を生成するときの第1ステップで使用されるベクトル群を定義します。 "
+"「off」の場合、中心の原子がコア領域と見なされます。"
+msgstr "NOTTRANSLATED"
+
+msgid "MDタブ"
+msgstr "NOTTRANSLATED"
+
+msgid "Type"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"分子動力学計算あるいは構造最適化のタイプを指定します。 現在使用できるオプションは以下の通りです。 "
+"MD無し（「Nomd」）、原子座標の構造最適化（「Opt」）、ユニットセルの自由度も含めた構造最適化（「RFC5」）、NVEアンサンブルMD（「NVE」）、速度スケーリング法によるNVTアンサンブルMD（「NVT_VS"
+"」）、Nose-Hoover法によるNVTアンサンブルMD（「NVT_NH」）"
+msgstr "NOTTRANSLATED"
+
+msgid "MD計算や構造最適化計算における最大の反復回数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "TimeStep"
+msgstr "NOTTRANSLATED"
+
+msgid "時間ステップ（fs）を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Opt.criterion"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"「Type」キーワードによって構造最適化の方法を選択している場合には、 "
+"「Opt.criterion」キーワードでその収束条件（Hartree/Bohr） を設定します。 "
+"原子にかかる力の最大絶対値が、ここで指定した値より小さくなった場合に、構造最適化は終了します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Opt.DIIS.History"
+msgstr "NOTTRANSLATED"
+
+msgid "「DIIS」、「EF」、「RF」による構造最適化を行う場合、「Opt.DIIS.History」キーワードは構造最適化のために参照する過去のステップ数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Opt.StartDIIS"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"「DIIS」、「EF」、「RF」による構造最適化を開始するステップを「Opt.StartDIIS」キーワードで指定します。 "
+"DIISタイプの構造最適化を開始する以前のステップでは最急降下法が使用されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "NH.Mass.HeatBath"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"「Type」キーワードによって「NVT_NH」を選択した場合、このキーワードで熱浴の質量を設定します。 "
+"単位は統一原子質量単位です（炭素原子の主同位体の質量を12.0とする単位）。"
+msgstr "NOTTRANSLATED"
+
+msgid "TempControl"
+msgstr "NOTTRANSLATED"
+
+msgid "MDおよびNVTアンサンブルにおける原子運動の温度を指定します。 「NVT_VS」を選択した場合、原子運動の温度を下記の例のように制御できます。::"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"記述は「\\<MD.TempControl」で開始し、「MD.TempControl>」で終わります。最初の数字「3」は、続く温度指定の行数を指します。"
+" 例では3行あります。後続する行の第1列はMDステップ数を指し、第2列は速度スケーリングを行うMDステップの間隔を指定します。 "
+"例では、100ステップ目までは2ステップ毎に、100～400ステップ間は10ステップ毎に、400～700ステップ間は40ステップ毎に速度スケーリングを行います。"
+" 第3、4列はそれぞれ温度（K）とスケーリングパラメータαを指定します。 詳細は「分子動力学」の章を参照して下さい。 "
+"一方、NVT_NHの場合、以下の記述で原子運動の温度を制御できます。::"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"記述は「<MD.TempControl」で開始し、「MD.TempControl>」で終わります。 "
+"最初の数字「4」は、続く温度指定の行数を指します。 この例では4行あります。 "
+"後続する行の第1、2列は、それぞれMDステップ数と原子運動の温度を指定します。 指定されたMDステップ間の温度は線形補完されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Fileタブ"
+msgstr "NOTTRANSLATED"
+
+msgid "level.of.stdout"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"標準出力への出力情報のレベルを指定します。 「0」を指定した場合、最小限の情報が出力されます。 "
+"「1」の場合、最小限の出力に加えて追加の情報が出力されます。 「2」は開発者向けのオプションです。"
+msgstr "NOTTRANSLATED"
+
+msgid "level.of.fileout"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"出力ファイルへの出力情報のレベルを指定します。 「0」を指定した場合、最小限の情報が出力されます（Gaussian "
+"cubeおよびグリッドファイルの出力無し）。 「1」は標準的な出力情報レベルです。 「2」の場合、標準の出力に加えて追加の情報が出力されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Bands/DOSタブ"
+msgstr "NOTTRANSLATED"
+
+msgid "Band"
+msgstr "NOTTRANSLATED"
+
+msgid "dispersion"
+msgstr "NOTTRANSLATED"
+
+msgid "バンド分散を評価するには「ON」に設定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "DOS"
+msgstr "NOTTRANSLATED"
+
+msgid "fileout"
+msgstr "NOTTRANSLATED"
+
+msgid "全状態密度（DOS）および射影した部分状態密度（PDOS）を評価する場合は「ON」に設定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Erange"
+msgstr "NOTTRANSLATED"
+
+msgid "DOS計算におけるエネルギー範囲（下限値と上限値）を半角スペース区切りで指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "DOS計算を行う上で、第1ブルリアンゾーンを離散化するために(n1, n2, n3)の格子点を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "MOタブ"
+msgstr "NOTTRANSLATED"
+
+msgid "分子軌道をファイルに出力したい場合は、「ON」を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "num_HOMOs"
+msgstr "NOTTRANSLATED"
+
+msgid "出力する最高被占分子軌道（HOMO）の数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "num_LUMOs"
+msgstr "NOTTRANSLATED"
+
+msgid "出力する最低空分子軌道（LUMOS）の数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Nkpoint"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"「fileout」を「ON」およびSCFタブの「EigenvalueSolver」を「Band」を設定している場合、 "
+"「Nkpoint」キーワードでMOを出力するk点の数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Speciesタブ"
+msgstr "NOTTRANSLATED"
+
+msgid "Atom"
+msgstr "NOTTRANSLATED"
+
+msgid "原子種の名前を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Basis"
+msgstr "NOTTRANSLATED"
+
+msgid "プリミティブ軌道の数および縮約された軌道の数を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "PAO"
+msgstr "NOTTRANSLATED"
+
+msgid "擬原子基底軌道の拡張子無しのファイル名を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "VPS"
+msgstr "NOTTRANSLATED"
+
+msgid "擬ポテンシャルの拡張無しファイル名を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "実行"
+msgstr "NOTTRANSLATED"
+
+msgid "OpenMXを実行します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`dia.mxin` "
+"、System.Nameがwmのときのファイル/フォルダ名を併記しています。"
+msgstr "NOTTRANSLATED"
+
+msgid "種類"
+msgstr "NOTTRANSLATED"
+
+msgid "説明"
+msgstr "NOTTRANSLATED"
+
+msgid "batファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`dia.bat`"
+msgstr "NOTTRANSLATED"
+
+msgid "OpenMXを実行するためのバッチファイルです。cygwin_wm経由でdia.shを実行します。"
+msgstr "NOTTRANSLATED"
+
+msgid "shファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`dia.sh`"
+msgstr "NOTTRANSLATED"
+
+msgid "OpenMXを実行するためのシェルスクリプトファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid "logファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`dia.log`"
+msgstr "NOTTRANSLATED"
+
+msgid "dia.shのログファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid "mxoutファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`dia.mxout`"
+msgstr "NOTTRANSLATED"
+
+msgid "計算の出力ファイルです。作業ディレクトリ内のwm.outのコピーです。"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリ"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`dia_mx_data\\\\`"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリです。"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリには以下のファイルが生成されます。 ここでは主要なファイルのみ示しています。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`tmp.dat`"
+msgstr "NOTTRANSLATED"
+
+msgid "計算条件を指定するファイルです。dia.mxinのコピーです。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`tmp.std`"
+msgstr "NOTTRANSLATED"
+
+msgid "OpenMXの標準出力をリダイレクトしたファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`wm.out`"
+msgstr "NOTTRANSLATED"
+
+msgid "SCF計算の履歴、構造最適化の履歴、Mulliken電荷、全エネルギー、および双極子モーメントが保存されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`wm.xyz`"
+msgstr "NOTTRANSLATED"
+
+msgid "MDまたは構造最適化により得られた最終的な幾何学的構造が保存されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`wm.bulk.xyz`"
+msgstr "NOTTRANSLATED"
+
+msgid "「scf.EigenvalueSolver=Band」の場合、コピーされたセルの原子を含む原子座標が出力されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`wm.md`"
+msgstr "NOTTRANSLATED"
+
+msgid "各MDステップごとの原子座標が保存されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`wm.md2`"
+msgstr "NOTTRANSLATED"
+
+msgid "最終MDステップにおける原子座標が保存されます。指定した原子種記号を用いて原子が指定されています。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`wm.ene`"
+msgstr "NOTTRANSLATED"
+
+msgid "MDステップごとの計算値が保存されます。保存されている各数値の内容は「iterout.c」 ルーチン中で確認できます。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`wm.Band`"
+msgstr "NOTTRANSLATED"
+
+msgid "バンド分散のデータファイルが保存されています。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`wm.Dos.val`"
+msgstr "NOTTRANSLATED"
+
+msgid "状態密度を計算するための固有値のデータファイル。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`wm.Dos.vec`"
+msgstr "NOTTRANSLATED"
+
+msgid "状態密度を計算するための固有ベクトルのデータファイル。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`wm.tden.cube`"
+msgstr "NOTTRANSLATED"
+
+msgid "Gaussian cube形式の全電子密度が保存されています。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`wm.sden.cube`"
+msgstr "NOTTRANSLATED"
+
+msgid "「LSDA-CA」、「LSDA-PW」、「GGA-PBE」を使用したスピン分極計算が実行される場合に、スピン電子密度が保存されています。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`wm.dden.cube`"
+msgstr "NOTTRANSLATED"
+
+msgid "構成原子の孤立原子状態の電子密度の重ね合わせを基準として計算された差電子密度が保存されています。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`wm.v0.cube`"
+msgstr "NOTTRANSLATED"
+
+msgid "アップスピンの非局所ポテンシャルを除くKohn-Shamポテンシャルが保存されています。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`wm.v1.cube`"
+msgstr "NOTTRANSLATED"
+
+msgid "スピン分極計算における、ダウンスピンの非局所ポテンシャルを除くKohn-Shamポテンシャルが保存されています。"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`wm.vhart.cube`"
+msgstr "NOTTRANSLATED"
+
+msgid "差電子密度から生じる差電子Hartreeポテンシャルが保存されています。"
+msgstr "NOTTRANSLATED"
+
+msgid "**作業ディレクトリ**"
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリとは、メインウィンドウで開かれているファイルの名前に接尾辞を加えた名前のフォルダです。"
+msgstr "NOTTRANSLATED"
+
+msgid "**接尾辞はソルバの種類により変わります。**"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"例えばGromacsの場合は、メインウィンドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が "
+":file:`_gmx_tmp` の場合、作業ディレクトリの名前は :file:`aaa_gmx_tmp` となります。"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウィンドウで開かれているファイルと同じ階層に置かれている必要があります。"
+msgstr "NOTTRANSLATED"
+
+msgid "継続ジョブの時も同名の作業ディレクトリで処理が流れますが、デフォルトでは継続ジョブの実施直前に、直前のジョブの作業ディレクトリのバックアップが作成されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"バックアップの名前は、重複する名前が存在しない範囲で一番小さい番号が付いたものになります。例えば、作業ディレクトリが "
+":file:`aaa_gmx_tmp` のときは :file:`aaa_gmx_tmp1` となります。"
+msgstr "NOTTRANSLATED"
+
+msgid "**番号が付いていないディレクトリが常に最新のものとなります。**"
+msgstr "NOTTRANSLATED"
+
+msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "ログを表示 (mxout)..."
+msgstr "NOTTRANSLATED"
+
+msgid "ログファイルをテキストエディタで開きます。"
+msgstr "NOTTRANSLATED"
+
+msgid "アニメーション(md)..."
+msgstr "NOTTRANSLATED"
+
+msgid "mdファイルの情報から構造最適化、分子動力学計算等のアニメーションを作成し表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "電子密度/スピン密度/エネルギー分布..."
+msgstr "NOTTRANSLATED"
+
+msgid "cubeファイルを指定し、電子密度、スピン密度、エネルギー分布を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "サブウィンドウの操作方法は :ref:`cube_top` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "バンド構造..."
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリ(:file:`dia_mx_data\\\\`)を指定し、バンド構造を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Band.dispersion=onで計算が終了している必要があります。"
+msgstr "NOTTRANSLATED"
+
+msgid "状態密度..."
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリ(:file:`dia_mx_data\\\\`)を指定し、状態密度を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Dos.fileout=onで計算が終了している必要があります。"
+msgstr "NOTTRANSLATED"
+
+msgid "グラフ描画エリアの操作方法は :ref:`chart_top` を参照してください。"
+msgstr "NOTTRANSLATED"
+
+msgid "部分状態密度..."
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリ(:file:`dia_mx_data\\\\`)を指定し、部分状態密度(PDOS)を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "フェルミ面..."
+msgstr "NOTTRANSLATED"
+
+msgid "作業ディレクトリ(:file:`dia_mx_data\\\\`)を指定し、フェルミ面を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid ""
+"フェルミ面の表示には `FermiSurfer <http://fermisurfer.osdn.jp/>`_ を使用します。 "
+":guilabel:`# of K Points` にbands計算時のk点分割数を指定し、 :guilabel:`Calc` "
+"ボタンを押すとフェルミ面が表示されます。"
+msgstr "NOTTRANSLATED"
+
