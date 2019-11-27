@@ -37,13 +37,13 @@ msgid ""
 "化学シフトを計算する際のレファレンスを指定します。 :guilabel:`Element` がAllの時は選択肢が出現しません。 "
 "レファレンスのリストはUserPrefフォルダのwm_nmr.refファイルで管理されています。 :guilabel:`Edit` "
 "ボタンを押すと、レファレンスを追加することができます。"
-msgstr "Specify references for calculating chemical shifts. : guilabel: When `Element` is All, no choice appears. The list of references is managed in the wm_nmr.ref file in the UserPref folder. : guilabel: `Edit` button, you can add a reference."
+msgstr "Specify references for calculating chemical shifts. When :guilabel:`Element` is All, no choice appears. The list of references is managed in the wm_nmr.ref file in the UserPref folder. You can add a reference with :guilabel:`Edit` button."
 
 msgid "Shielding"
 msgstr "Shielding"
 
 msgid ":guilabel:`Reference` で選択したレファレンスの値を表示します。"
-msgstr ": guilabel: `Reference` displays the value of the selected reference."
+msgstr ":guilabel:`Reference` displays the value of the selected reference."
 
 msgid "Selected"
 msgstr "Selected"

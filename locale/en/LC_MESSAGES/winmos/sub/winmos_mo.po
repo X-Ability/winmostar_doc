@@ -28,7 +28,10 @@ msgid ""
 ":ref:`MO Plotウィンドウ <cube_top>` の :guilabel:`Selected MO` 欄に反映されます。 "
 ":guilabel:`HOMO:` にHOMO準位の番号、 :guilabel:`HOMO-LUMO Gap:` にHOMO-"
 "LUMOギャップが表示されます。"
-msgstr "We display energy of molecular orbital in numerical value and diagram. By clicking in the list of numerical values or in the diagram, its molecular orbital is selected and the: ref: `MO Plot window <cube_top> It is reflected in `: guilabel:` Selected MO`. : guilabel: HOMO - LUMO gap is displayed on the number of the HOMO level in `HOMO:`,: guilabel: `HOMO - LUMO Gap:`."
+msgstr "We display energy of molecular orbital in numerical value and diagram. "
+"By clicking in the list of numerical values or in the diagram, its molecular orbital "
+"is selected and is reflectted in :guilabel:`Selected MO` of :ref:`MO Plot window <cube_top>`. "
+"The HOMO level number is displayed in :guilabel:`HOMO:`, and the HOMO-LUMO gap is displayed in :guilabel:`HOMO-LUMO Gap:`."
 
 msgid "スライダー"
 msgstr "slider"
@@ -37,14 +40,14 @@ msgid "ダイアグラムの原点と拡大率を調整します。"
 msgstr "Adjust the origin and magnification of the diagram."
 
 msgid ":guilabel:`Excel` ボタン"
-msgstr ": guilabel: `Excel` button"
+msgstr ":guilabel:`Excel` button"
 
 msgid "エネルギー値をCSVファイルに保存して、Excelで開きます。"
 msgstr "Save the energy value in a CSV file and open it in Excel."
 
 msgid ":guilabel:`Close` ボタン"
-msgstr ": guilabel: `Close` button"
+msgstr ":guilabel:`Close` button"
 
 msgid "ウィンドウを閉じます。"
 msgstr "Close the window."
-
+v

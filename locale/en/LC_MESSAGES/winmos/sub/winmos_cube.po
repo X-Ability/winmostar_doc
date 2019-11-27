@@ -4,80 +4,166 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-
 msgid ""
 msgstr "NOTTRANSLATED"
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-23 15:28+0900\n"
+"POT-Creation-Date: 2019-09-05 14:13+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-
+"Generated-By: Babel 2.7.0\n"
 
 msgid "MO Plotウィンドウ"
 msgstr "MO Plot window"
 
 msgid "分子軌道、静電ポテンシャル、各種cubeファイルなどのボリュームデータの表示を調整します。"
-msgstr "Adjust the display of volume data such as molecular orbit, electrostatic potential, various cube files."
+msgstr "NOTTRANSLATED"
+"Adjust the display of volume data such as molecular orbit, electrostatic "
+"potential, various cube files."
 
 msgid ":menuselection:`File --> Open` メニュー"
-msgstr ": menuselection: `File -&gt; Open` menu"
+msgstr ":menuselection:`File --> Open` menu"
 
 msgid "描画したいcubeファイルを選びます。"
 msgstr "Select the cube file you want to draw."
 
 msgid ":menuselection:`File --> Export VRML` メニュー"
-msgstr ": menuselection: `File -&gt; Export VRML` menu"
+msgstr ":menuselection:`File --> Export VRML` menu"
 
 msgid "VRML形式で出力し、そのファイルを開きます。"
 msgstr "Output in VRML format and open the file."
 
 msgid ":menuselection:`File --> Open Jmol` メニュー"
-msgstr ": menuselection: `File -&gt; Open Jmol` menu"
+msgstr ":menuselection:`File --> Open Jmol` menu"
 
 msgid "Jmolで表示します。"
 msgstr "It displays with Jmol."
 
 msgid ":menuselection:`File --> Close` メニュー"
-msgstr ": menuselection: `File -&gt; Close` menu"
+msgstr ":menuselection:`File --> Close` menu"
 
 msgid "このウィンドウを閉じます。"
 msgstr "Close this window."
 
 msgid ":guilabel:`Quantity` プルダウンメニュー"
-msgstr ": guilabel: `Quantity` pulldown menu"
+msgstr ":guilabel:`Quantity` pulldown menu"
+
+msgid "描画する物理量を選択します。"
+msgstr "Specify the value of the isosurface to draw."
+
+msgid "MO"
+msgstr "MO"
+
+msgid ":guilabel:`Selected MO` で選択された分子軌道の3次元分布です。"
+msgstr "3D distribution of molecular orbitals selected by :guilabel:`Selected MO`."
+
+msgid "Surface"
+msgstr "Surface"
+
+msgid "VDW半径程度の距離（厳密ではありません）に描画される分子表面です。"
+msgstr "Molecular surface drawn at a distance of VDW radius (not exact)"
+
+msgid "ESP2"
+msgstr "ESP2"
 
 msgid ""
-"描画する物理量を選択します。 :guilabel:`ESP2` はPopulation解析後の点電荷から算出する静電ポテンシャルのため、 "
-":guilabel:`ESP` よりも高速に動作します。 :guilabel:`Surface` "
-"が付く場合は、分子表面上での物理量の分布を表示します。"
-msgstr "Select the physical quantity to draw. : guilabel: `ESP 2` operates faster than: guilabel:` ESP` because it is the electrostatic potential calculated from the point charge after population analysis. : When guilabel: `Surface` is attached, the distribution of the physical quantity on the molecular surface is displayed."
+":guilabel:`ESP2` はPopulation解析後の点電荷から算出する静電ポテンシャルの3次元分布です。 "
+":guilabel:`ESP` よりも高速に動作します。"
+msgstr "NOTTRANSLATED"
+":guilabel:`ESP2` is a three-dimensional distribution of electrostatic potential calculated "
+"from the point charge after Population analysis. It works faster than :guilabel:`ESP`."
+
+msgid "ESP2/Surface"
+msgstr "ESP2/Surface"
+
+msgid ":guilabel:`ESP2` の情報を、分子表面上で表示します。"
+msgstr "Display :guilabel:`ESP2` information on the molecular surface."
+
+msgid "MO/Surface"
+msgstr "MO/Surface"
+
+msgid ":guilabel:`MO` の情報を、分子表面上で表示します。"
+msgstr "Display :guilabel:`MO` information on the molecular surface."
+
+msgid "Density"
+msgstr "Density"
+
+msgid "電子密度の3次元分布です。"
+msgstr "It is a three-dimensional distribution of electron density."
+
+msgid "ESP"
+msgstr "ESP"
+
+msgid "電子状態計算で直接計算された静電ポテンシャルの3次元分布です。"
+msgstr "Three-dimensional distribution of electrostatic potential calculated directly by electronic state calculation."
+
+msgid "以下の手順で、 :guilabel:`ESP/Surface` に相当する、分子表面上でのESPを表示できます。"
+msgstr "You can display the ESP on the surface of the molecule corresponding "
+"to :guilabel:`ESP/Surface` by following the steps below. "
+
+msgid ""
+":guilabel:`Dump cube file` にチェックを入れ、 :guilabel:`Quantity` で "
+":guilabel:`Density` を選択する。"
+msgstr "Check :guilabel:`Dump cube file` and select :guilabel:`Density` with :guilabel:`Quantity`."
+
+msgid ":guilabel:`Draw` ボタンを押と、 :file:`*_den.cube` というファイルが生成される。"
+msgstr "Pressing the :guilabel:`Draw` button creates a file called :file:`*_den.cube`."
+
+msgid ":guilabel:`Quantity` で :guilabel:`ESP` を選択する。"
+msgstr "Select :guilabel:`ESP` with :guilabel:`Quantity`."
+
+msgid ""
+":guilabel:`Draw` ボタンを押と、 :file:`*_esp.cube` "
+"というファイルが生成される。この処理員は数分掛かることがある。"
+msgstr "When the :guilabel:`Draw` button is pressed, a file called :file:`*_esp.cube` is created. "
+"This processor may take several minutes."
+
+msgid ""
+":file:`*_den.cube` をWinmostarのメインウィンドウで開くと、 :guilabel:`Cube Plot` "
+"というウィンドウが開く。"
+msgstr "If you open :file:`*_den.cube` in the main window of Winmostar, a window called :guilabel:`Cube Plot` will open."
+
+msgid ":guilabel:`File 2` の横の :guilabel:`...` ボタンをクリックし、 :file:`*_esp.cube` を開く。"
+msgstr "Click the :guilabel:`...` button next to :guilabel:`File 2` to open :file:`*_esp.cube`."
+
+msgid ":guilabel:`Draw` ボタンをクリックする。"
+msgstr "Click :guilabel:`Draw` button"
+
+msgid ""
+"Windows版Gaussianに同梱されているCubegenプログラムをお持ちの場合は、 :guilabel:`ESP` "
+"の表示を高速化できます。 Cubeファイルを開いた際に出現する :guilabel:`Cubegen` ウィンドウにおいて、 "
+":guilabel:`Use Gaussian's cubegen` チェックボックスにチェックを入れてください。"
+msgstr "If you have the Cubegen program included with Gaussian for Windows, "
+"you can speed up the display of :guilabel:`ESP`. In the :guilabel:`Cubegen` "
+"window that appears when you open a Cube file, check the :guilabel:`Use Gaussian's cubegen` checkbox."
 
 msgid ":guilabel:`Selected MO`"
 msgstr ":guilabel:`Selected MO`"
 
 msgid "描画する分子軌道の番号を指定します。 :ref:`mo_top` で分子軌道を選択するとこの場所に値がセットされます。"
-msgstr "Specify the number of the molecular orbit to be drawn. Selecting a molecular orbital with: ref: `mo_top` will set the value in this location."
+msgstr "NOTTRANSLATED"
+"Specify the number of the molecular orbit to be drawn. Selecting a "
+"molecular orbital with :ref:`mo_top` will set the value in this "
+"location."
 
 msgid ":guilabel:`Show Diagram` ボタン"
-msgstr ": guilabel: `Show Diagram` button"
+msgstr ":guilabel:`Show Diagram` button"
 
 msgid ":ref:`mo_top` を表示します。"
-msgstr ": ref: `mo_top` is displayed."
+msgstr ":ref:`mo_top` is displayed."
 
 msgid ":guilabel:`alpha/beta` ボタン"
-msgstr ": guilabel: `alpha / beta` button"
+msgstr ":guilabel:`alpha/beta` button"
 
 msgid "スピンを選択します。"
 msgstr "Select a spin."
 
 msgid ":guilabel:`Draw Style` プルダウンメニュー"
-msgstr ": guilabel: `Draw Style` pulldown menu"
+msgstr ":guilabel:`Draw Style` pulldown menu"
 
 msgid "等値面を格子(Mesh)またはソリッド(Solid)モデルで表示します。"
 msgstr "Display the isosurface in grid (Mesh) or solid (Solid) model."
@@ -107,36 +193,39 @@ msgid "描く範囲を指定するスケーリング係数を指定します。"
 msgstr "Specify the scaling factor that specifies the range to be drawn."
 
 msgid ":guilabel:`Draw boundary` チェックボックス"
-msgstr ": guilabel: `Draw boundary` check box"
+msgstr ":guilabel:`Draw boundary` check box"
 
 msgid "cubeファイルの境界に線を描画します。Quantum ESPRESSO, OpenMXなどのバンド計算で主に使用します。"
-msgstr "Draw a line on the boundary of the cube file. It is mainly used for band calculation such as Quantum ESPRESSO, OpenMX."
+msgstr "NOTTRANSLATED"
+"Draw a line on the boundary of the cube file. It is mainly used for band "
+"calculation such as Quantum ESPRESSO, OpenMX."
 
 msgid ":guilabel:`Draw contour Map` チェックボックス"
-msgstr ": guilabel: `Draw contour Map` check box"
+msgstr ":guilabel:`Draw contour Map` check box"
 
 msgid "指定した断面において等高線を描画します。"
 msgstr "Draw a contour line on the specified section."
 
 msgid ":guilabel:`Dump cube file` チェックボックス"
-msgstr ": guilabel: `Dump cube file` check box"
+msgstr ":guilabel:`Dump cube file` check box"
 
 msgid ":guilabel:`Draw` ボタンを押したときに、描画と同時にcubeファイルを出力します。"
-msgstr ": guilabel: When you press the `Draw` button, cube file is output at the same time as drawing."
+msgstr "NOTTRANSLATED"
+"When you press the :guilabel:`Draw` button, cube file is output at the "
+"same time as drawing."
 
 msgid ":guilabel:`Draw` ボタン"
-msgstr ": guilabel: `Draw` button"
+msgstr ":guilabel:`Draw` button"
 
 msgid "ボリュームデータを :ref:`winmos3d_top` を用いて描画します。"
-msgstr "Draw the volume data using: ref: `winmos3d_top`."
+msgstr "Draw the volume data using :ref:`winmos3d_top`."
 
 msgid ":guilabel:`Draw (2D)` ボタン"
-msgstr ": guilabel: `Draw (2D)` button"
-
+msgstr ":guilabel:`Draw (2D)` button"
 
 msgid "ボリュームデータをメインウィンドウで描画します。（deprecated）"
 msgstr "Draw volume data in the main window. (Deprecated)"
 
 msgid ":guilabel:`Close` ボタン"
-msgstr ": guilabel: `Close` button"
+msgstr ":guilabel:`Close` button"
 

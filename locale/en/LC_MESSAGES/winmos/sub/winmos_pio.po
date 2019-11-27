@@ -56,13 +56,13 @@ msgid "データファイルを編集します。"
 msgstr "Edit the data file."
 
 msgid "Gamess/GAMESS Exec"
-msgstr "Gamess / GAMESS Exec"
+msgstr "Gamess/GAMESS Exec"
 
 msgid "Gauss/GAMESS"
-msgstr "Gauss / GAMESS"
+msgstr "Gauss/GAMESS"
 
 msgid "Gaussian/GAMESSによる計算 を実行します。"
-msgstr "Perform calculation by Gaussian / GAMESS."
+msgstr "Perform calculation by Gaussian/GAMESS."
 
 msgid "GenG"
 msgstr "GenG"
@@ -100,7 +100,8 @@ msgstr "1"
 msgid ""
 "A, B 両フラグメントの被占分子軌道のみを使ってPIO をつくります。 両フラグメント間に働く重なり反発(overlap repulsion, "
 "closed-shell repulsion)を表現します。"
-msgstr "We will create PIO using only occupied molecular orbital of both A and B fragments. It expresses overlap repulsion (closed-shell repulsion) working between both fragments."
+msgstr "We will create PIO using only occupied molecular orbital of both A and B fragments. "
+"It expresses overlap repulsion (closed-shell repulsion) working between both fragments."
 
 msgid "2"
 msgstr "2"
@@ -134,7 +135,8 @@ msgid "MO"
 msgstr "MO"
 
 msgid "分子軌道を表示するためのコマンド・ウィンドウを開きます。 分子軌道の表示機能については、 :ref:`cube_top` を参照してください。"
-msgstr "Opens a command window for displaying molecular orbits. For information on the molecular orbital display function, please see: ref: `cube_top`."
+msgstr "Opens a command window for displaying molecular orbits. For information "
+"on the molecular orbital display function, please see :ref:`cube_top`."
 
 msgid "Close"
 msgstr "Close"

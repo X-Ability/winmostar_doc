@@ -23,22 +23,24 @@ msgid "Energy Plotウィンドウ"
 msgstr "Energy Plot window"
 
 msgid "分子動力学計算の各種エネルギー、温度、圧力等の熱力学量の時間変化を表示します。"
-msgstr "Time change of thermodynamic quantity such as various energy, temperature, pressure etc. of molecular dynamics calculation is displayed."
+msgstr "Time change of thermodynamic quantity such as various energy, "
+"temperature, pressure etc. of molecular dynamics calculation is displayed."
 
 msgid "ソルバによって出現するUIは異なります。"
 msgstr "The UI appearing by the solver is different."
 
 msgid ":guilabel:`Energy Terms` で項目を選択し、 :guilabel:`Draw` ボタンをクリックするとグラフが表示されます。"
-msgstr ": guilabel: Select the item with `Energy Terms` and click the: guilabel:` Draw` button to display the graph."
+msgstr "Select the item with :guilabel:`Energy Terms` and click the :guilabel:`Draw` button to display the graph."
 
 msgid "グラフ描画エリアの操作方法は :ref:`chart_top` を参照してください。"
-msgstr "For how to operate the graph drawing area, see: ref: `chart_top`."
+msgstr "For how to operate the graph drawing area, see :ref:`chart_top`."
 
 msgid "Block Average"
 msgstr "Block Average"
 
 msgid ":guilabel:`Size` で指定したサイズでブロック平均した値をプロットします。瞬時値の揺らぎが大きい物理量をプロットする際に有用です。"
-msgstr ": guilabel: Plot the block averaged value with the size specified by `Size`. It is useful for plotting physical quantities with large instantaneous fluctuations."
+msgstr "Plot the block averaged value with the size specified by :guilabel:`Size`. "
+"It is useful for plotting physical quantities with large instantaneous fluctuations."
 
 msgid "Normalize by Nmol"
 msgstr "Normalize by Nmol"
@@ -55,7 +57,8 @@ msgstr "The average value of each item is output as a text file."
 msgid ""
 "Gromacsの場合は、 :command:`gmx energy` を実行し、比熱、bulk "
 "modulusなどの揺らぎから求める物性も出力されます。"
-msgstr "In the case of Gromacs, we execute: command: `gmx energy`, and physical properties derived from fluctuations such as specific heat and bulk modulus are also output."
+msgstr "In the case of Gromacs, we execute :command:`gmx energy`, and physical "
+"properties derived from fluctuations such as specific heat and bulk modulus are also output."
 
 msgid "Draw"
 msgstr "Draw"
@@ -64,7 +67,7 @@ msgid "グラフを描画します。"
 msgstr "Draw a graph."
 
 msgid "Gromacsの場合は、 :command:`gmx energy` を実行します。"
-msgstr "For Gromacs, execute: command: `gmx energy`."
+msgstr "For Gromacs, execute :command:`gmx energy`."
 
 msgid "Close"
 msgstr "Close"

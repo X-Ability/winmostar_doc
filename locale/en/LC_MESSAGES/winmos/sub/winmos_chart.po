@@ -31,7 +31,7 @@ msgid "グラフを並進移動させます。"
 msgstr "Move the graph in translation."
 
 msgid ":guilabel:`Refresh` ボタンで元に戻せます。"
-msgstr ": guilabel: You can restore it with `Refresh` button."
+msgstr "You can restore it with :guilabel:`Refresh` button."
 
 msgid "右ドラッグ"
 msgstr "Drag right"
@@ -52,7 +52,7 @@ msgid "Min/Max"
 msgstr "Min / Max"
 
 msgid ":guilabel:`Autoscale` のチェックを外した時に、描画範囲を直接指定します。"
-msgstr ": guilabel: When you uncheck `Autoscale` checkbox, specify the drawing area directly."
+msgstr "When you uncheck :guilabel:`Autoscale` checkbox, specify the drawing area directly."
 
 msgid "Logarithm"
 msgstr "Logarithm"
