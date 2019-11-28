@@ -53,7 +53,7 @@ msgid "不要な部分構造を削除したい箇所では :ref:`edit_partial_de
 msgstr "Execute :ref:`edit_partial_delete` at the place where you want to delete the unnecessary substructure."
 
 msgid "水素原子を付加したい箇所では :ref:`edit_addh_1` を実行する。"
-msgstr "In a place where you want to add a hydrogen atom, execute: ref:`edit_addh_1`."
+msgstr "In a place where you want to add a hydrogen atom, execute :ref:`edit_addh_1`."
 
 msgid "原子の種類を変更したい箇所では :ref:`edit_attribute_element` を実行する。"
 msgstr "Execute :ref:`edit_attribute_element` at the place where you want to change the element of atom."

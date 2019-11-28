@@ -56,7 +56,7 @@ msgid ""
 "メニュー、タブなどをたどる流れを示します。上記の例は、 メニューから :menuselection:`ツール --> 環境設定` とたどり、 "
 "開いたウィンドウの :guilabel:`基本` というタブをクリックし、その中にある :guilabel:`ライセンスコード` "
 "というラベルの付いたGUIのことを意味します。"
-msgstr "It shows the flow that follows menu, tab, etc. From the menu, follow the menu: menuselection: `Tools --> Preferences` and click on the tab called :guilabel:`basic` in the opened window and find the label :guilabel:`license code` It means GUI with."
+msgstr "It shows the flow that follows menu, tab, etc. From the menu, follow the menu :menuselection:`Tools --> Preferences` and click on the tab called :guilabel:`basic` in the opened window and find the label :guilabel:`license code` It means GUI with."
 
 msgid ":file:`wmset.ini` , :file:`C\\\\:winmos9\\\\UserPref`"
 msgstr ":file:`wmset.ini`, :file:`C\\\\:winmos9\\\\UserPref`"

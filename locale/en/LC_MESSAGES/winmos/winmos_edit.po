@@ -303,7 +303,7 @@ msgid ""
 msgstr "Rotate the group selected structure around the normal vector of the plane defined by three atoms with a marker (These can be confirmed by top left :guilabel:`Marked Order` on :ref:`Molecular display area <gui_main>`)."
 
 msgid ":kbd:`Ctrl+A` でも操作できます。"
-msgstr "You can also operate with: kbd: `Ctrl + A`."
+msgstr "You can also operate with :kbd:`Ctrl + A`."
 
 msgid "グループを並進移動（マウス操作）"
 msgstr "Translate group (mouse operation)"
