@@ -22,228 +22,235 @@ msgid ":menuselection:`固体 --> Phonopy` メニュー"
 msgstr ":menuselection:`Solid --> Phonopy` menu"
 
 msgid "Phonopyに関するメニューです。"
-msgstr "NOTTRANSLATED"
+msgstr "Menu for Phonopy."
 
 msgid "概要"
-msgstr "NOTTRANSLATED"
+msgstr "Overview"
 
 msgid "Phonopyでは、以下の3つの工程で計算を行います。"
-msgstr "NOTTRANSLATED"
+msgstr "Phonopy performs the following three processes."
 
 msgid "与えられたQuantum ESPRESSOインプットファイルを元にスーパーセルを作成する。 (プリ処理)"
-msgstr "NOTTRANSLATED"
+msgstr "Create a supercell based on the given Quantum ESPRESSO input file. (Preprocessing)"
 
 msgid "生成された全てのスーパーセルに対し、Quantum ESPRESSOを実行する。"
-msgstr "NOTTRANSLATED"
+msgstr "Run Quantum ESPRESSO on all generated supercells."
 
 msgid ""
 "Quantum ESPRESSOのアウトプットファイルから、ForceSetsファイルを作成し、 "
 "Phononバンド、DOS、熱物性などの計算を行う。(ポスト処理)"
-msgstr "NOTTRANSLATED"
+msgstr "Create ForceSets file from Quantum ESPRESSO output file and calculate Phonon band, DOS, "
+"thermophysical properties, etc. (post processing)"
 
 msgid "キーワード設定・実行"
-msgstr "NOTTRANSLATED"
+msgstr "Keyword setting / Execute"
 
 msgid "Phonopyを用いたプリ・ポスト処理の計算条件を設定し、プリ処理の実行を行います。"
-msgstr "NOTTRANSLATED"
+msgstr "Set pre / post processing calculation conditions using Phonopy and execute pre processing."
 
 msgid ":guilabel:`Open` ボタン"
-msgstr "NOTTRANSLATED"
+msgstr ":guilabel:`Open` button"
 
 msgid ""
 "Quantum ESPRESSOのインプットファイル (\\*.in,\\*.pwin)を読み込みます。 "
 "Phonopyでのポスト処理では、応力の情報を必要とします。このため読み込むファイルは tprnfor, "
 "tstressキーワードを含んでいる必要があります。 Phonopy用のQuantum ESPRESSOのインプットファイルは、 Quantum "
 "ESPRESSOキーワード設定のPreset=Phonopyを使用することで設定できます。"
-msgstr "NOTTRANSLATED"
+msgstr "Read Quantum ESPRESSO input files (\\*.in,\\*.pwin). "
+"Post processing with Phonopy requires stress information. For this reason, the file to be read must "
+"contain the tprnfor and tstress keywords. Quantum ESPRESSO input file for Phonopy can be set by using "
+"Preset = Phonopy of Quantum ESPRESSO keyword setting."
 
 msgid "DIM"
-msgstr "NOTTRANSLATED"
+msgstr "DIM"
 
 msgid "スーパーセルのx, y, z方向のリピート回数を半角スペース区切りで指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the number of repeats of the supercell in the x, y, and z directions separated by single-byte spaces."
 
 msgid "MP"
-msgstr "NOTTRANSLATED"
+msgstr "MP"
 
 msgid "PhonopyでPhonon DOSや熱物性の計算を行う際の逆格子を半角スペース区切りで指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the reciprocal lattice for calculating Phonon DOS and thermophysical properties with Phonopy, separated by single-byte spaces."
 
 msgid "ATOM_NAME"
-msgstr "NOTTRANSLATED"
+msgstr "ATOM_NAME"
 
 msgid ""
 "単位格子に含まれる元素を半角スペース区切りで指定します。 :guilabel:`Open` "
 "ボタンでインプットファイルを開いた時点で自動的に入力されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the elements contained in the unit cell, separated by single-byte spaces. "
+"They are automatically entered when the input file is opened with the :guilabel:`Open` button."
 
 msgid ":guilabel:`Start` ボタン"
-msgstr "NOTTRANSLATED"
+msgstr ":guilabel:`Start` button"
 
 msgid "設定条件を元にPhonopyを実行し、プリ処理であるスーパーセルの作成を実行します。 このとき、以下のファイルとフォルダが生成されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Phonopy is executed based on the setting conditions, and the pre-process creation of the supercell "
+"is executed. At this time, the following files and folders are generated."
 
 msgid "種類"
-msgstr "NOTTRANSLATED"
+msgstr "Type"
 
 msgid "説明"
-msgstr "NOTTRANSLATED"
+msgstr "Description"
 
 msgid "batファイル"
-msgstr "NOTTRANSLATED"
+msgstr "bat file"
 
 msgid ":file:`si.bat`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`si.bat`"
 
 msgid "Phonopyのプリ処理を実行するためのバッチファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "Batch file for executing Phonopy pre-processing."
 
 msgid "shファイル"
-msgstr "NOTTRANSLATED"
+msgstr "sh file"
 
 msgid ":file:`si.sh`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`si.sh`"
 
 msgid "Phonopyのプリ処理を実行するためのシェルスクリプトファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "A shell script file for executing Phonopy pre-processing."
 
 msgid "si_ph_dataフォルダ"
-msgstr "NOTTRANSLATED"
+msgstr "si_ph_data folder"
 
 msgid ":file:`si_ph_data`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`si_ph_data`"
 
 msgid "計算の作業ディレクトリです。"
-msgstr "NOTTRANSLATED"
+msgstr "Calculation working directory."
 
 msgid "作業ディレクトリsi_ph_dataには以下のファイルが生成されます。"
-msgstr "NOTTRANSLATED"
+msgstr "The following files are generated in the working directory si_ph_data."
 
 msgid "mesh.confファイル"
-msgstr "NOTTRANSLATED"
+msgstr "mesh.conf file"
 
 msgid ":file:`mesh.conf`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`mesh.conf`"
 
 msgid "Phonopyのポスト処理にて、状態密度や熱物性を計算するときに使用されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Used when calculating density of states and thermal properties in Phonopy post processing."
 
 msgid "band.confファイル"
-msgstr "NOTTRANSLATED"
+msgstr "band.conf file"
 
 msgid ":file:`band.conf`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`band.conf`"
 
 msgid "Phonopyのポスト処理にて、バンド構造を計算するときに使用されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Used when calculating band structure in Phonopy post processing."
 
 msgid "headerファイル"
-msgstr "NOTTRANSLATED"
+msgstr "header file"
 
 msgid ":file:`header.in`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`header.in`"
 
 msgid "si.pwinで指定された構造情報以外のキーワード情報が記載されています。"
-msgstr "NOTTRANSLATED"
+msgstr "Keyword information other than the structure information specified in si.pwin is listed."
 
 msgid "supercellファイル"
-msgstr "NOTTRANSLATED"
+msgstr "supercell file"
 
 msgid ":file:`supercell-＊.in`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`supercell-＊.in`"
 
 msgid "Phonopyにより生成されたスーパーセルの情報がQuantum ESPRESSOのインプットファイル形式で記載されています。"
-msgstr "NOTTRANSLATED"
+msgstr "Supercell information generated by Phonopy is listed in Quantum ESPRESSO input file format."
 
 msgid "スーパーセルのパターンは複数生成されるため、＊の部分には1, 2, などの数字が入ります。"
-msgstr "NOTTRANSLATED"
+msgstr "Since multiple supercell patterns are generated, numbers such as 1, 2, etc. are entered in the * part."
 
 msgid "tmpファイル"
-msgstr "NOTTRANSLATED"
+msgstr "tmp file"
 
 msgid ":file:`tmp-*.in`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`tmp-*.in`"
 
 msgid "header.inとsupercell-\\*.inを結合したファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "A file that combines header.in and supercell-\\*.in."
 
 msgid ":guilabel:`Cancel` ボタン"
-msgstr "NOTTRANSLATED"
+msgstr ":guilabel:`Cancel` button"
 
 msgid "何もせずにキーワード設定・実行ウィンドウを閉じます。"
-msgstr "NOTTRANSLATED"
+msgstr "Do nothing and close the keyword setting / execution window."
 
 msgid "confファイル編集..."
-msgstr "NOTTRANSLATED"
+msgstr "Edit conf file ..."
 
 msgid "confファイルをテキストエディタで開きます。 キーワード設定画面で設定したキーワードを編集したい場合に用います。"
-msgstr "NOTTRANSLATED"
+msgstr "Open the conf file with a text editor. Used when you want to edit the keywords set in the keyword setting screen."
 
 msgid "Quantum ESPRESSO連続実行"
-msgstr "NOTTRANSLATED"
+msgstr "Quantum ESPRESSO continuous execution"
 
 msgid ""
 "キーワード設定・実行画面で生成された、全てのスーパーセルに対し、Quantum ESPRESSOを実行します。 "
 "このメニューを用いた場合、Quantum ESPRESSOはローカル環境で実行されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Quantum ESPRESSO is executed for all supercells generated on the keyword setting / execution screen. "
+"If you use this menu, Quantum ESPRESSO will run in your local environment."
 
 msgid "Phonopyの実行..."
-msgstr "NOTTRANSLATED"
+msgstr "Execute Phonopy ..."
 
 msgid "Phonopyのポスト処理を実行します。"
-msgstr "NOTTRANSLATED"
+msgstr "Perform Phonopy post processing"
 
-msgid "この時、作業フォルダ :file: si_ph_data に以下のファイルが生成されます。"
-msgstr "NOTTRANSLATED"
+msgid "この時、作業フォルダ :file:`si_ph_data` に以下のファイルが生成されます。"
+msgstr "At this time, the following files are generated in the working folder :file:`si_ph_data`."
 
 msgid ":file:`phonopy.sh`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`phonopy.sh`"
 
 msgid "Phonopyのポスト処理を実行するためのシェルスクリプトです"
-msgstr "NOTTRANSLATED"
+msgstr "A shell script for executing Phonopy's post processing"
 
 msgid "band.yamlファイル"
-msgstr "NOTTRANSLATED"
+msgstr "band.yaml file"
 
 msgid ":file:`band.yaml`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`band.yaml`"
 
 msgid "Phonopyのポスト処理で計算されたバンド構造の情報が出力されています。"
-msgstr "NOTTRANSLATED"
+msgstr "The band structure information calculated by Phonopy's post processing is output."
 
 msgid "dos.datファイル"
-msgstr "NOTTRANSLATED"
+msgstr "dos.dat file"
 
 msgid ":file:`dos.dat`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`dos.dat`"
 
 msgid "Phonopyのポスト処理で計算された状態密度の情報が出力されています。"
-msgstr "NOTTRANSLATED"
+msgstr "Information of density of state calculated by post processing of Phonopy is output."
 
 msgid "thermal_properties.yamlファイル"
-msgstr "NOTTRANSLATED"
+msgstr "thermal_properties.yaml file"
 
 msgid ":file:`thermal_properties.yaml`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`thermal_properties.yaml`"
 
 msgid "Phonopyのポスト処理で計算された熱物性の情報が出力されています。"
-msgstr "NOTTRANSLATED"
+msgstr "Thermophysical information calculated by Phonopy's post-processing is output."
 
 msgid "バンド構造..."
-msgstr "NOTTRANSLATED"
+msgstr "Band structure ..."
 
 msgid "作業フォルダに含まれるband.csvをもとにバンド構造を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Displays the band structure based on band.csv included in the working folder."
 
 msgid "状態密度..."
-msgstr "NOTTRANSLATED"
+msgstr "Density of states ..."
 
 msgid "作業フォルダに含まれるtoal_dos.csvをもとに状態密度を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Displays the density of states based on toal_dos.csv included in the working folder."
 
 msgid "熱物性..."
-msgstr "NOTTRANSLATED"
+msgstr "Thermal properties ..."
 
 msgid "作業フォルダに含まれるthermal_properties.csvをもとに熱物性を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Displays thermal properties based on thermal_properties.csv included in working folder."
 

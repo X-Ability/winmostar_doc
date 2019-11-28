@@ -148,10 +148,11 @@ msgstr "ProExpn.VNA"
 msgid ""
 "中性原子ポテンシャルVNAを射影演算子で展開する場合には、「ON」に設定し、 それ以外の場合は「OFF」を設定して下さい。 "
 "「OFF」と設定されている場合、VNAポテンシャルの行列要素は実空間の離散グリッドを用いて計算されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Set the neutral atom potential VNA to" ON "when expanding with the projection operator, otherwise set to" OFF ". "
+"When set to" OFF ", the matrix elements of the VNA potential are calculated using a discrete grid in real space."
 
 msgid "Mixing.Type"
-msgstr "NOTTRANSLATED"
+msgstr "Mixing.Type"
 
 msgid ""
 "SCF計算の次の反復ステップに入力される電子密度(もしくは密度行列)を生成するための電子密度混合法を指定します。 単純混合法（「Simple"
@@ -166,176 +167,213 @@ msgid ""
 "「scf.ElectronicTemperature」が小さいと数値的に不安定な挙動がよく見られます。 * "
 "「scf.Mixing.History」の値を大きくします。ほとんどの場合、「scf.Mixing.History=30」が妥当な値です。 "
 "また前述した混合法のうち、一番ロバスト性が高いのは「RMM-DIISK」です。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the electron density mixing method to generate the electron density (or density matrix) that "
+"is input to the next iteration step of the SCF calculation. Simple mixing method (“Simple”), "
+"Guaranteed-Reduction Pulay method (“GR-Pulay”), RMM-DIIS method (“RM-DIIS”), Kerker method "
+"(“Kerker”), or RMM-DIISK method ("RMM- DIISK") or RMM-DIISH method ("RM-DIISH") can be specified. "
+"OpenMX's simple mixing method has been improved to reference the convergence history to speed up the convergence. "
+"When using “GR-Pulay”, “RMM-DIIS”, “Kerker” or “RMM-DIISK”, the SCF calculation can be accelerated "
+"by paying attention to the following points. Some convergence is required before mixing begins "
+"in a way that conforms to the Pulay method. Therefore, use a slightly larger "scf.Mixing.StartPulay" value. "
+"A good value for "scf.Mixing.StartPulay" is 10-30. For metal systems, use a high “scf.ElectronicTemperature” value. "
+"When "scf.ElectronicTemperature" is small, numerically unstable behavior is often seen. "
+"Increase the value of "scf.Mixing.History". In most cases, "scf.Mixing.History = 30" is a reasonable value. "
+"Among the mixing methods described above, “RMM-DIISK” is the most robust."  
 
 msgid "Init.Mixing.Weight"
-msgstr "NOTTRANSLATED"
+msgstr "Init.Mixing.Weight"
 
 msgid ""
 "単純法、GR-Pulay法, RMM-DIIS法、Kerker法、RMM-DIISK法およびRMM-"
 "DIISH法で使用する初期の混合比を指定します。 有効な範囲は0<Init.Mixing.Weight<1です。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the initial mixing ratio used in the Simple, GR-Pulay, RMM-DIIS, Kerker, RMM-DIISK, "
+"and RMM-DIISH methods. Valid range is 0 <Init.Mixing.Weight < 1 "
 
 msgid "Min.Mixing.Weight"
-msgstr "NOTTRANSLATED"
+msgstr "Min.Mixing.Weight"
 
 msgid "単純およびKerker混合法における混合比の下限を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specifies the lower limit of the mixing ratio in simple and Kerker mixing methods."
 
 msgid "Max.Mixing.Weight"
-msgstr "NOTTRANSLATED"
+msgstr "Max.Mixing.Weight"
 
 msgid "単純およびKerker混合法における混合比の上限を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specifies the upper limit of the mixing ratio in simple and Kerker mixing methods."
 
 msgid "Mixing.History"
-msgstr "NOTTRANSLATED"
+msgstr "Mixing.History"
 
 msgid ""
 "GR-Pulay法、 RMM-DIIS法、 Kerker法、RMM- DIISK法及びRMM-DIISH法では、 "
 "SCFの次の反復ステップにおける入力電子密度（ハミルトニアン）を、過去のSCF反復の電子密度（ハミルトニアン）に基づき推定します。 "
 "「scf.Mixing.History」キーワードは、この推定に使用する過去のSCF反復ステップ数を指定します。 "
 "例えば、「Mixing.History」が3に設定されている場合、6回目のSCF反復では過去の第5、4、3ステップの電子密度が考慮されます。"
-msgstr "NOTTRANSLATED"
+msgstr "In the GR-Pulay method, RMM-DIIS method, Kerker method, RMM-DIISK method and RMM-DIISH method, "
+"the input electron density (Hamirutonian) in the next iteration step of SCF is estimated based on the "
+"electron density of the past SCF iteration (Hamiltonian). ). The "scf.Mixing.History" keyword specifies "
+"the number of past SCF iteration steps used for this estimation. For example, if “Mixing.History” "
+"is set to 3, the 6th SCF iteration takes into account the 5th, 4th, and 3rd step electron density in the past."
 
 msgid "Mixing.StartPulay"
-msgstr "NOTTRANSLATED"
+msgstr "Mixing.StartPulay"
 
 msgid ""
 "GR-Pulay法、RMM-DIIS法、Kerker法、RMM-DIISK法およびRMM-DIISH法を開始するSCFステップを指定します。 "
 "これらの方法を開始するまでのSCFステップでは単純あるいはKerker混合法が使用されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the SCF step that starts the GR-Pulay, RMM-DIIS, Kerker, RMM-DIISK, and RMM-DIISH methods. "
+"SCF steps up to the start of these methods use simple or Kerker mixing."
 
 msgid "criterion"
-msgstr "NOTTRANSLATED"
+msgstr "criterion"
 
 msgid ""
 "SCF計算の収束条件を指定します（Hartree単位）。 SCF反復はdUele < "
 "scf.criterionという条件が満たされると終了します。 "
 "ここでdUeleとは、現在のSCF反復とひとつ前の反復とのバンドエネルギーの絶対差です。 デフォルト値は1.0e-6（Hartree単位）です。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the convergence condition for the SCF calculation (in Hartree). The SCF "
+"iteration ends when the condition dUele < scf.criterion is met. Here dUele is the absolute "
+"difference in band energy between the current SCF iteration and the previous iteration. "
+"The default value is 1.0e-6 (Hartree units)."
 
 msgid "SCF.Hubbardタブ"
-msgstr "NOTTRANSLATED"
+msgstr "SCF.Hubbard tab"
 
 msgid "Hubbard.U"
-msgstr "NOTTRANSLATED"
+msgstr "Hubbard.U"
 
 msgid "LDA+UおよびGGA+U計算の場合、「ON」に設定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Set to“ ON ”for LDA + U and GGA + U calculations."
 
 msgid "Hubbard.Occupation"
-msgstr "NOTTRANSLATED"
+msgstr "Hubbard.Occupation"
 
 msgid "LDA+U法では、「onsite」、「full」および「dual」の3つの占有数演算子から選択することができます。"
-msgstr "NOTTRANSLATED"
+msgstr "In the LDA + U method, you can choose from three occupancy operators: "onsite", "full" and "dual"." 
 
 msgid "OrderNタブ"
-msgstr "NOTTRANSLATED"
+msgstr "OrderN tab"
 
 msgid "HoppingRanges"
-msgstr "NOTTRANSLATED"
+msgstr "HoppingRanges"
 
 msgid "各原子を中心とする球の半径(Å)を定義します。DC法およびO(N)クリロフ部分空間法では、この球内に含まれる原子を選択することで切り取られたクラスタが構成されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Defines the radius (Å) of the sphere centered on each atom. In the DC method "
+"and the O (N) Krylov subspace method, a cluster is formed by selecting the atoms contained in this sphere."
 
 msgid "KrylovH.order"
-msgstr "NOTTRANSLATED"
+msgstr "KrylovH.order"
 
 msgid "切り取られた各クラスタのハミルトニアンに対し、クリロフ部分空間の次元を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specifies the Krylov subspace dimensions for the Hamiltonian of each cut cluster."
 
 msgid "KrylovS.order"
-msgstr "NOTTRANSLATED"
+msgstr "KrylovS.order"
 
 msgid ""
 "後述のキーワードで「Exact.Inverse.S=off」に設定した場合、重なり積分の逆行列は クリロフ部分空間法を用いて近似されます。 "
 "この時、切り取られた各クラスタに対する重なり行列のクリロフ部分空間法の次元を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "If you set" Exact.Inverse.S = off "in the keyword below, the inverse matrix of "
+"the overlap integral is approximated using the Krylov subspace method. At this time, "
+"specify the dimension of the Krylov subspace method of the overlap matrix for each cut cluster."
 
 msgid "Exact.Inverse.S"
-msgstr "NOTTRANSLATED"
+msgstr "Exact.Inverse.S"
 
 msgid ""
 "「on」に設定すると、切り取られた各クラスタの重なり行列の逆行列は厳密に評価されます。 "
 "「off」に設定する場合は前述のキーワード「KrylovS.order」の項を参照して下さい。"
-msgstr "NOTTRANSLATED"
+msgstr "When set to" on ", the inverse of the overlap matrix of each clipped cluster is evaluated strictly. "
+"Please refer to the keyword" KrylovS.order "above when setting to" off "."
 
 msgid "Recalc.Buffer"
-msgstr "NOTTRANSLATED"
+msgstr "Recalc.Buffer"
 
 msgid ""
 "「on」に設定すると、バッファ行列は各SCF反復毎に再計算されます。 "
 "「off」の場合にはバッファ行列は初回のSCFステップで計算され、その後のSCF反復では固定されます。"
-msgstr "NOTTRANSLATED"
+msgstr "If set to" on ", the buffer matrix is recalculated for each SCF iteration. "
+"If" off ", the buffer matrix is calculated in the first SCF step and fixed in subsequent SCF iterations."
 
 msgid "Expand.Core"
-msgstr "NOTTRANSLATED"
+msgstr "Expand.Core"
 
 msgid ""
 "「on」に設定すると、コア領域は半径 1.2× r\\ :sub:`min`\\の球の中にある 原子から構成されます。ここでr\\ "
 ":sub:`min`\\は、中心原子と最隣接原子間の距離です。 "
 "このコア領域はクリロフ部分空間を生成するときの第1ステップで使用されるベクトル群を定義します。 "
 "「off」の場合、中心の原子がコア領域と見なされます。"
-msgstr "NOTTRANSLATED"
+msgstr "When set to" on ", the core region consists of atoms in a sphere with a radius of 1.2×r\\ :sub:`min`\\. "
+"Where r\\ :sub:`min`\\ is the distance between the central atom and the nearest neighbor. "
+"This core region defines the set of vectors used in the first step when generating the Krylov subspace. "
+"If" off ", the central atom is considered the core region."
 
 msgid "MDタブ"
-msgstr "NOTTRANSLATED"
+msgstr "MD tab"
 
 msgid "Type"
-msgstr "NOTTRANSLATED"
+msgstr "Type"
 
 msgid ""
 "分子動力学計算あるいは構造最適化のタイプを指定します。 現在使用できるオプションは以下の通りです。 "
 "MD無し（「Nomd」）、原子座標の構造最適化（「Opt」）、ユニットセルの自由度も含めた構造最適化（「RFC5」）、NVEアンサンブルMD（「NVE」）、速度スケーリング法によるNVTアンサンブルMD（「NVT_VS"
 "」）、Nose-Hoover法によるNVTアンサンブルMD（「NVT_NH」）"
-msgstr "NOTTRANSLATED"
+msgstr "Specifies the type of molecular dynamics calculation or structure optimization. "
+"Currently available options are: No MD (“ Nomd ”), structural optimization of atomic coordinates (“ Opt ”), "
+"Structural optimization (“RFC5”), including unit cell flexibility, NVE Ensemble MD ("NVE>"), "
+"NVT ensemble MD (“NVT_VS”) by speed scaling method, NVT ensemble MD ("NVT_NH") by the Nose-Hoover method."
 
 msgid "MD計算や構造最適化計算における最大の反復回数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the maximum number of iterations for MD and structural optimization calculations."
 
 msgid "TimeStep"
-msgstr "NOTTRANSLATED"
+msgstr "TimeStep"
 
 msgid "時間ステップ（fs）を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify time step (fs)."
 
 msgid "Opt.criterion"
-msgstr "NOTTRANSLATED"
+msgstr "Opt.criterion"
 
 msgid ""
 "「Type」キーワードによって構造最適化の方法を選択している場合には、 "
 "「Opt.criterion」キーワードでその収束条件（Hartree/Bohr） を設定します。 "
 "原子にかかる力の最大絶対値が、ここで指定した値より小さくなった場合に、構造最適化は終了します。"
-msgstr "NOTTRANSLATED"
+msgstr "If you choose a structure optimization method with the" Type "keyword, set the convergence "
+"condition (Hartree / Bohr) with the keyword" Opt.criterion ". Structural optimization ends when the "
+"maximum absolute value of the force applied to the atom is smaller than the value specified here."
 
 msgid "Opt.DIIS.History"
-msgstr "NOTTRANSLATED"
+msgstr "Opt.DIIS.History"
 
 msgid "「DIIS」、「EF」、「RF」による構造最適化を行う場合、「Opt.DIIS.History」キーワードは構造最適化のために参照する過去のステップ数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "When performing structure optimization using "DIIS", "EF", or "RF", the "Opt.DIIS.History" keyword "
+"is used to specify the past step number to be referred to for structure optimization."
 
 msgid "Opt.StartDIIS"
-msgstr "NOTTRANSLATED"
+msgstr "Opt.StartDIIS"
 
 msgid ""
 "「DIIS」、「EF」、「RF」による構造最適化を開始するステップを「Opt.StartDIIS」キーワードで指定します。 "
 "DIISタイプの構造最適化を開始する以前のステップでは最急降下法が使用されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the step to start structural optimization with "DIIS", "EF", and "RF" with the "Opt.StartDIIS" keyword. "
+"The steepest descent method is used in the previous steps before starting the DIIS-type structural optimization."
 
 msgid "NH.Mass.HeatBath"
-msgstr "NOTTRANSLATED"
+msgstr "NH.Mass.HeatBath"
 
 msgid ""
 "「Type」キーワードによって「NVT_NH」を選択した場合、このキーワードで熱浴の質量を設定します。 "
 "単位は統一原子質量単位です（炭素原子の主同位体の質量を12.0とする単位）。"
-msgstr "NOTTRANSLATED"
+msgstr "If you select "NVT_NH" for the "Type" keyword, this keyword sets the mass of the heat bath. "
+"Units are unified atomic mass units (units where the mass of the main isotope of a carbon atom is 12.0)."
 
 msgid "TempControl"
-msgstr "NOTTRANSLATED"
+msgstr "TempControl"
 
 msgid "MDおよびNVTアンサンブルにおける原子運動の温度を指定します。 「NVT_VS」を選択した場合、原子運動の温度を下記の例のように制御できます。::"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the temperature of atomic motion in MD and NVT ensembles. "
+"If" NVT_VS "is selected, the temperature of atomic motion can be controlled as shown in the example below. :: "
 
 msgid ""
 "記述は「\\<MD.TempControl」で開始し、「MD.TempControl>」で終わります。最初の数字「3」は、続く温度指定の行数を指します。"
@@ -343,374 +381,394 @@ msgid ""
 "例では、100ステップ目までは2ステップ毎に、100～400ステップ間は10ステップ毎に、400～700ステップ間は40ステップ毎に速度スケーリングを行います。"
 " 第3、4列はそれぞれ温度（K）とスケーリングパラメータαを指定します。 詳細は「分子動力学」の章を参照して下さい。 "
 "一方、NVT_NHの場合、以下の記述で原子運動の温度を制御できます。::"
-msgstr "NOTTRANSLATED"
+msgstr "The description starts with "\\ <MD.TempControl" and ends with "MD.TempControl>" ."
+"The first number “3” indicates the number of lines for the temperature specification that follows. "
+"There are three lines in the example. The first column of the following row indicates the number of MD steps, "
+"and the second column specifies the MD step interval for speed scaling. In the example, speed scaling is performed "
+"every 2 steps up to the 100th step, every 10 steps between 100 and 400 steps, and every 40 steps between 400 and 700 steps. "
+"Columns 3 and 4 specify temperature (K) and scaling parameter α, respectively. "
+"For details, refer to the “Molecular Dynamics” chapter. On the other hand, for NVT_NH, the temperature "
+"of atomic motion can be controlled with the following description."
 
 msgid ""
 "記述は「<MD.TempControl」で開始し、「MD.TempControl>」で終わります。 "
 "最初の数字「4」は、続く温度指定の行数を指します。 この例では4行あります。 "
 "後続する行の第1、2列は、それぞれMDステップ数と原子運動の温度を指定します。 指定されたMDステップ間の温度は線形補完されます。"
-msgstr "NOTTRANSLATED"
+msgstr "The description starts with "<MD.TempControl" and ends with "MD.TempControl>". The first number "4" "
+"refers to the number of lines that follow the temperature specification. In this example, there are 4 lines. "
+"The first and second columns of the subsequent rows specify the number of MD steps and the temperature of the "
+"atomic motion, respectively. The temperature between the specified MD steps is linearly complemented."
 
 msgid "Fileタブ"
-msgstr "NOTTRANSLATED"
+msgstr "File tab"
 
 msgid "level.of.stdout"
-msgstr "NOTTRANSLATED"
+msgstr "level.of.stdout"
 
 msgid ""
 "標準出力への出力情報のレベルを指定します。 「0」を指定した場合、最小限の情報が出力されます。 "
 "「1」の場合、最小限の出力に加えて追加の情報が出力されます。 「2」は開発者向けのオプションです。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the level of output information to the standard output. If" 0 "is specified, the "
+"minimum information is output. If "1", additional information is output in addition to the minimum output. "
+"“2” is an option for developers."
 
 msgid "level.of.fileout"
-msgstr "NOTTRANSLATED"
+msgstr "level.of.fileout"
 
 msgid ""
 "出力ファイルへの出力情報のレベルを指定します。 「0」を指定した場合、最小限の情報が出力されます（Gaussian "
 "cubeおよびグリッドファイルの出力無し）。 「1」は標準的な出力情報レベルです。 「2」の場合、標準の出力に加えて追加の情報が出力されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the level of output information to the output file. If "0" is specified, the minimum "
+"information is output (no Gaussian cube and grid file output). “1” is the standard output information level. "
+"If "2", additional information is output in addition to the standard output. "
 
 msgid "Bands/DOSタブ"
-msgstr "NOTTRANSLATED"
+msgstr "Bands/DOS tab"
 
 msgid "Band"
-msgstr "NOTTRANSLATED"
+msgstr "Band"
 
 msgid "dispersion"
-msgstr "NOTTRANSLATED"
+msgstr "dispersion"
 
 msgid "バンド分散を評価するには「ON」に設定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Set to“ ON ”to evaluate band dispersion."
 
 msgid "DOS"
-msgstr "NOTTRANSLATED"
+msgstr "DOS"
 
 msgid "fileout"
-msgstr "NOTTRANSLATED"
+msgstr "fileout"
 
 msgid "全状態密度（DOS）および射影した部分状態密度（PDOS）を評価する場合は「ON」に設定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Set to ON to evaluate the total density of states (DOS) and projected partial density of states (PDOS)."
 
 msgid "Erange"
-msgstr "NOTTRANSLATED"
+msgstr "Erange"
 
 msgid "DOS計算におけるエネルギー範囲（下限値と上限値）を半角スペース区切りで指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the energy range (lower limit and upper limit) for DOS calculation separated by single-byte spaces."
 
 msgid "DOS計算を行う上で、第1ブルリアンゾーンを離散化するために(n1, n2, n3)の格子点を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify (n1, n2, n3) grid points to discretize the first burlian zone for DOS calculations."
 
 msgid "MOタブ"
-msgstr "NOTTRANSLATED"
+msgstr "MO tab"
 
 msgid "分子軌道をファイルに出力したい場合は、「ON」を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "If you want to output molecular orbitals to a file, specify "ON"."
 
 msgid "num_HOMOs"
-msgstr "NOTTRANSLATED"
+msgstr "num_HOMOs"
 
 msgid "出力する最高被占分子軌道（HOMO）の数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the number of highest occupied molecular orbitals (HOMO) to output."
 
 msgid "num_LUMOs"
-msgstr "NOTTRANSLATED"
+msgstr "num_LUMOs"
 
 msgid "出力する最低空分子軌道（LUMOS）の数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the number of lowest unoccupied molecular orbitals (LUMOS) to output."
 
 msgid "Nkpoint"
-msgstr "NOTTRANSLATED"
+msgstr "Nkpoint"
 
 msgid ""
 "「fileout」を「ON」およびSCFタブの「EigenvalueSolver」を「Band」を設定している場合、 "
 "「Nkpoint」キーワードでMOを出力するk点の数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "If "fileout"is set to "ON" and "EigenvalueSolver" in the SCF tab is set to "Band", "
+"specify the number of k points to output MO with the "Nkpoint" keyword."
 
 msgid "Speciesタブ"
-msgstr "NOTTRANSLATED"
+msgstr "Species tab"
 
 msgid "Atom"
-msgstr "NOTTRANSLATED"
+msgstr "Atom"
 
 msgid "原子種の名前を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the name of the atomic species."
 
 msgid "Basis"
-msgstr "NOTTRANSLATED"
+msgstr "Basis"
 
 msgid "プリミティブ軌道の数および縮約された軌道の数を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the number of primitive trajectories and the number of reduced trajectories."
 
 msgid "PAO"
-msgstr "NOTTRANSLATED"
+msgstr "PAO"
 
 msgid "擬原子基底軌道の拡張子無しのファイル名を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the file name without extension of pseudo-atomic base orbit."
 
 msgid "VPS"
-msgstr "NOTTRANSLATED"
+msgstr "VPS"
 
 msgid "擬ポテンシャルの拡張無しファイル名を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify file name without pseudopotential extension."
 
 msgid "実行"
-msgstr "NOTTRANSLATED"
+msgstr "Execute"
 
 msgid "OpenMXを実行します。"
-msgstr "NOTTRANSLATED"
+msgstr "Execute OpenMX"
 
 msgid ""
 "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`dia.mxin` "
 "、System.Nameがwmのときのファイル/フォルダ名を併記しています。"
-msgstr "NOTTRANSLATED"
+msgstr "The following files are generated upon execution. As an example, the file / folder "
+"name when the input file is: file:` dia.mxin` and System.Name is wm is shown. "
 
 msgid "種類"
-msgstr "NOTTRANSLATED"
+msgstr "Type"
 
 msgid "説明"
-msgstr "NOTTRANSLATED"
+msgstr "Description"
 
 msgid "batファイル"
-msgstr "NOTTRANSLATED"
+msgstr "bat file"
 
 msgid ":file:`dia.bat`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`dia.bat`"
 
 msgid "OpenMXを実行するためのバッチファイルです。cygwin_wm経由でdia.shを実行します。"
-msgstr "NOTTRANSLATED"
+msgstr "A batch file for running OpenMX. Run dia.sh via cygwin_wm."
 
 msgid "shファイル"
-msgstr "NOTTRANSLATED"
+msgstr "sh file"
 
 msgid ":file:`dia.sh`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`dia.sh`"
 
 msgid "OpenMXを実行するためのシェルスクリプトファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "A shell script file for running OpenMX."
 
 msgid "logファイル"
-msgstr "NOTTRANSLATED"
+msgstr "log file"
 
 msgid ":file:`dia.log`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`dia.log`"
 
 msgid "dia.shのログファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "log file of dia.sh"
 
 msgid "mxoutファイル"
-msgstr "NOTTRANSLATED"
+msgstr "mxout file"
 
 msgid ":file:`dia.mxout`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`dia.mxout`"
 
 msgid "計算の出力ファイルです。作業ディレクトリ内のwm.outのコピーです。"
-msgstr "NOTTRANSLATED"
+msgstr "Calculation output file. A copy of wm.out in the working directory."
 
 msgid "作業ディレクトリ"
-msgstr "NOTTRANSLATED"
+msgstr "Working directory"
 
 msgid ":file:`dia_mx_data\\\\`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`dia_mx_data\\\\`"
 
 msgid "作業ディレクトリです。"
-msgstr "NOTTRANSLATED"
+msgstr "Working directory"
 
 msgid "作業ディレクトリには以下のファイルが生成されます。 ここでは主要なファイルのみ示しています。"
-msgstr "NOTTRANSLATED"
+msgstr "The following files are generated in the working directory. Only the main files are shown here."
 
 msgid ":file:`tmp.dat`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`tmp.dat`"
 
 msgid "計算条件を指定するファイルです。dia.mxinのコピーです。"
-msgstr "NOTTRANSLATED"
+msgstr "File to specify calculation conditions. A copy of dia.mxin."
 
 msgid ":file:`tmp.std`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`tmp.std`"
 
 msgid "OpenMXの標準出力をリダイレクトしたファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "This is a redirected file of OpenMX standard output."
 
 msgid ":file:`wm.out`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`wm.out`"
 
 msgid "SCF計算の履歴、構造最適化の履歴、Mulliken電荷、全エネルギー、および双極子モーメントが保存されます。"
-msgstr "NOTTRANSLATED"
+msgstr "History of SCF calculation and structure optimization, Mulliken charge, total energy and dipole moment are preserved."
 
 msgid ":file:`wm.xyz`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`wm.xyz`"
 
 msgid "MDまたは構造最適化により得られた最終的な幾何学的構造が保存されます。"
-msgstr "NOTTRANSLATED"
+msgstr "The final geometric structure obtained by MD or structural optimization is preserved."
 
 msgid ":file:`wm.bulk.xyz`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`wm.bulk.xyz`"
 
 msgid "「scf.EigenvalueSolver=Band」の場合、コピーされたセルの原子を含む原子座標が出力されます。"
-msgstr "NOTTRANSLATED"
+msgstr ""scf.EigenvalueSolver = Band" will output the atomic coordinates including the copied cell atoms."
 
 msgid ":file:`wm.md`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`wm.md`"
 
 msgid "各MDステップごとの原子座標が保存されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Atomic coordinates for each MD step are saved."
 
 msgid ":file:`wm.md2`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`wm.md2`"
 
 msgid "最終MDステップにおける原子座標が保存されます。指定した原子種記号を用いて原子が指定されています。"
-msgstr "NOTTRANSLATED"
+msgstr "Atomic coordinates in the last MD step are saved. An atom is specified using the specified atomic species symbol."
 
 msgid ":file:`wm.ene`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`wm.ene`"
 
 msgid "MDステップごとの計算値が保存されます。保存されている各数値の内容は「iterout.c」 ルーチン中で確認できます。"
-msgstr "NOTTRANSLATED"
+msgstr "Calculated values for each MD step are saved. The contents of each saved value can be checked in the“ iterout.c ”routine."
 
 msgid ":file:`wm.Band`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`wm.Band`"
 
 msgid "バンド分散のデータファイルが保存されています。"
-msgstr "NOTTRANSLATED"
+msgstr "Band dispersion data file is saved."
 
 msgid ":file:`wm.Dos.val`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`wm.Dos.val`"
 
 msgid "状態密度を計算するための固有値のデータファイル。"
-msgstr "NOTTRANSLATED"
+msgstr "Eigenvalue data file for calculating density of states."
 
 msgid ":file:`wm.Dos.vec`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`wm.Dos.vec`"
 
 msgid "状態密度を計算するための固有ベクトルのデータファイル。"
-msgstr "NOTTRANSLATED"
+msgstr "Eigenvector data file for calculating density of states."
 
 msgid ":file:`wm.tden.cube`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`wm.tden.cube`"
 
 msgid "Gaussian cube形式の全電子密度が保存されています。"
-msgstr "NOTTRANSLATED"
+msgstr "The total electron density in Gaussian cube format is stored."
 
 msgid ":file:`wm.sden.cube`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`wm.sden.cube`"
 
 msgid "「LSDA-CA」、「LSDA-PW」、「GGA-PBE」を使用したスピン分極計算が実行される場合に、スピン電子密度が保存されています。"
-msgstr "NOTTRANSLATED"
+msgstr "The spin electron density is preserved when spin polarization calculations are performed using "LSDA-CA", "LSDA-PW", "GGA-PBE"."
 
 msgid ":file:`wm.dden.cube`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`wm.dden.cube`"
 
 msgid "構成原子の孤立原子状態の電子密度の重ね合わせを基準として計算された差電子密度が保存されています。"
-msgstr "NOTTRANSLATED"
+msgstr "The difference electron density calculated based on the superposition of the electron density of the isolated atoms of the constituent atoms is stored."
 
 msgid ":file:`wm.v0.cube`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`wm.v0.cube`"
 
 msgid "アップスピンの非局所ポテンシャルを除くKohn-Shamポテンシャルが保存されています。"
-msgstr "NOTTRANSLATED"
+msgstr "Kohn-Sham potential is preserved except for non-local potential of upspin."
 
 msgid ":file:`wm.v1.cube`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`wm.v1.cube`"
 
 msgid "スピン分極計算における、ダウンスピンの非局所ポテンシャルを除くKohn-Shamポテンシャルが保存されています。"
-msgstr "NOTTRANSLATED"
+msgstr "Kohn-Sham potential is excluded except for non-local potential of downspin in spin polarization calculations."
 
 msgid ":file:`wm.vhart.cube`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`wm.vhart.cube`"
 
 msgid "差電子密度から生じる差電子Hartreeポテンシャルが保存されています。"
-msgstr "NOTTRANSLATED"
+msgstr "The difference electron Hartree potential resulting from the difference electron density is preserved."
 
 msgid "**作業ディレクトリ**"
-msgstr "NOTTRANSLATED"
+msgstr "**Working directory**"
 
 msgid "作業ディレクトリとは、メインウィンドウで開かれているファイルの名前に接尾辞を加えた名前のフォルダです。"
-msgstr "NOTTRANSLATED"
+msgstr "A working directory is a folder with the suffix of the name of the file opened in the main window."
 
 msgid "**接尾辞はソルバの種類により変わります。**"
-msgstr "NOTTRANSLATED"
+msgstr "** The suffix depends on the type of solver. **"
 
 msgid ""
 "例えばGromacsの場合は、メインウィンドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が "
 ":file:`_gmx_tmp` の場合、作業ディレクトリの名前は :file:`aaa_gmx_tmp` となります。"
-msgstr "NOTTRANSLATED"
+msgstr "For example, for Gromacs, if the file opened in the main window is :file:`aaa.gro` and "
+"the suffix is :file:`_gmx_tmp`, the name of the working directory is :file:`aaa_gmx_tmp`."
 
 msgid "メインウィンドウで開かれているファイルと同じ階層に置かれている必要があります。"
-msgstr "NOTTRANSLATED"
+msgstr "It must be on the same level as the file opened in the main window."
 
 msgid "継続ジョブの時も同名の作業ディレクトリで処理が流れますが、デフォルトでは継続ジョブの実施直前に、直前のジョブの作業ディレクトリのバックアップが作成されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Although processing continues in the working directory with the same name for continued jobs, "
+"by default, a backup of the working directory of the previous job is created immediately before the continuous job is executed."
 
 msgid ""
 "バックアップの名前は、重複する名前が存在しない範囲で一番小さい番号が付いたものになります。例えば、作業ディレクトリが "
 ":file:`aaa_gmx_tmp` のときは :file:`aaa_gmx_tmp1` となります。"
-msgstr "NOTTRANSLATED"
+msgstr "The name of the backup will be the lowest number in the range where there are no duplicate names. "
+"For example, if your working directory is :file:`aaa_gmx_tmp`, it will be :file:`aaa_gmx_tmp1`."
 
 msgid "**番号が付いていないディレクトリが常に最新のものとなります。**"
-msgstr "NOTTRANSLATED"
+msgstr "** Unnumbered directories are always up to date. **"
 
 msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Job is run through :ref:`winmosjm_top`. "
 
 msgid "ログを表示 (mxout)..."
-msgstr "NOTTRANSLATED"
+msgstr "View log (mxout) ..."
 
 msgid "ログファイルをテキストエディタで開きます。"
-msgstr "NOTTRANSLATED"
+msgstr "Open the log file with a text editor."
 
 msgid "アニメーション(md)..."
-msgstr "NOTTRANSLATED"
+msgstr "Animation (md)..."
 
 msgid "mdファイルの情報から構造最適化、分子動力学計算等のアニメーションを作成し表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Create and display animations such as structure optimization and molecular dynamics calculations from md file information."
 
 msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
-msgstr "NOTTRANSLATED"
+msgstr "Please refer to :ref:`animation_top` for how to operate the animation. "
 
 msgid "電子密度/スピン密度/エネルギー分布..."
-msgstr "NOTTRANSLATED"
+msgstr "Electron density / spin density / energy distribution ..."
 
 msgid "cubeファイルを指定し、電子密度、スピン密度、エネルギー分布を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the cube file and display the electron density, spin density, and energy distribution."
 
 msgid "サブウィンドウの操作方法は :ref:`cube_top` を参照してください。"
-msgstr "NOTTRANSLATED"
+msgstr "See :ref:`cube_top` for how to operate subwindows. "
 
 msgid "バンド構造..."
-msgstr "NOTTRANSLATED"
+msgstr "Band structure..."
 
 msgid "作業ディレクトリ(:file:`dia_mx_data\\\\`)を指定し、バンド構造を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the working directory (:file:`dia_mx_data\\\\`) and display the band structure."
 
 msgid "Band.dispersion=onで計算が終了している必要があります。"
-msgstr "NOTTRANSLATED"
+msgstr "Calculation must be completed with Band.dispersion=on"
 
 msgid "状態密度..."
-msgstr "NOTTRANSLATED"
+msgstr "Density of states..."
 
 msgid "作業ディレクトリ(:file:`dia_mx_data\\\\`)を指定し、状態密度を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the working directory ( :file:`dia_mx_data\\\\`) and display the density of states."
 
 msgid "Dos.fileout=onで計算が終了している必要があります。"
-msgstr "NOTTRANSLATED"
+msgstr "Calculation must be completed with Dos.fileout = on"
 
 msgid "グラフ描画エリアの操作方法は :ref:`chart_top` を参照してください。"
-msgstr "NOTTRANSLATED"
+msgstr "Please refer to :ref:`chart_top` for how to operate the graph drawing area. "
 
 msgid "部分状態密度..."
-msgstr "NOTTRANSLATED"
+msgstr "Partial density of states ..."
 
 msgid "作業ディレクトリ(:file:`dia_mx_data\\\\`)を指定し、部分状態密度(PDOS)を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the working directory ( :file:`dia_mx_data\\\\`) and display the partial density of states (PDOS)."
 
 msgid "フェルミ面..."
-msgstr "NOTTRANSLATED"
+msgstr "Fermi surface ..."
 
 msgid "作業ディレクトリ(:file:`dia_mx_data\\\\`)を指定し、フェルミ面を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the working directory ( :file:`dia_mx_data\\\\`) and display the fermi surface."
 
 msgid ""
 "フェルミ面の表示には `FermiSurfer <http://fermisurfer.osdn.jp/>`_ を使用します。 "
 ":guilabel:`# of K Points` にbands計算時のk点分割数を指定し、 :guilabel:`Calc` "
 "ボタンを押すとフェルミ面が表示されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Use `FermiSurfer <http://fermisurfer.osdn.jp/>` to display the Fermi surface. "
+"In :guilabel:`# of K Points`, specify the number of k-point divisions when calculating bands, and press the :guilabel:`Calc` button to display the Fermi surface."
 
