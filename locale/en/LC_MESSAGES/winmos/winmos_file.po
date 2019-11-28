@@ -99,7 +99,7 @@ msgid ""
 "キーワード表示エリアに、保存したいソルバのキーワードが表示されていない場合は、キーワード設定ウィンドウが自動で開きます。 "
 "また、MOPAC、GAMESS、Gaussian、NWChemの場合は :menuselection:`ファイル -->` "
 ":ref:`file_coordinateformat` で選択されたフォーマットで座標が出力されます。"
-msgstr "If the keyword of the solver you want to save is not displayed in Keyword Editor, Configuration window will open automatically. For MOPAC, GAMESS, Gaussian, NWChem, the coordinates are output in the format selected in :menuselection:`File --> :ref:`file_coordinateformat`."
+msgstr "If the keyword of the solver you want to save is not displayed in Keyword Editor, Configuration window will open automatically. For MOPAC, GAMESS, Gaussian, NWChem, the coordinates are output in the format selected in :menuselection:`File -->` :ref:`file_coordinateformat`."
 
 msgid ":kbd:`Shift+Ctrl+S` でも操作できます。"
 msgstr "The shortcut is :kbd:`Shift+Ctrl+S`"
