@@ -493,9 +493,7 @@ msgid "arcファイルを選択し、電荷、ダイポールを表示します�
 msgstr "Select arc file and display charge, dipole."
 
 msgid ":menuselection:`表示 --> ラベル/電荷 --> Mulliken電荷` を選択すると電荷が表示されます。"
-msgstr "NOTTRANSLATED"
-":menuselection:`display --> label / charge --> Mulliken charge` "
-"display charge."
+msgstr ":menuselection:`View --> Label/Charges --> Show Mulliken Charge` displays charge."
 
 msgid "アニメーション (arc)"
 msgstr "Animation (arc)"
