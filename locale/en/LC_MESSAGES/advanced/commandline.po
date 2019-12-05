@@ -26,7 +26,7 @@ msgstr "Execution of MOPAC"
 msgid "-mopac1, -mopac2, -mopac3 "
 "それぞれツール・環境設定メニュー・プログラムパスにおいて選択した3種のMOPACバイナリに対応"
 msgstr "-mopac1, -mopac2, -mopac3 "
-"These correspond to the three MOPAC binaries selected in :menuselection:`Tools --> Preferences menu --> Program path`."
+"These correspond to the three MOPAC binaries selected in :menuselection:`Tools --> Preferences... --> Program path`."
 
 msgid "ハンセン溶解度パラメータ計算の実行"
 msgstr "Execution of Hansen solubility parameter calculation"
@@ -65,5 +65,5 @@ msgid "samplesフォルダのwmjobs.batに使用例があります。"
 msgstr "There is an example of use in wmjobs.bat in the samples folder."
 
 msgid "GaussianとGAMESSを連続実行する場合は、この方法ではなく :menuselection:`ツール --> 連続実行` を使用します。"
-msgstr "If you want to run Gaussian and GAMESS sequentially, use this :menuselection:`tool --> run continuously` instead."
+msgstr "If you want to run Gaussian and GAMESS sequentially, use this :menuselection:`Tools --> Batch Queue...` instead."
 
