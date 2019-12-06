@@ -57,7 +57,7 @@ msgid "SSH、SCPを用いた通信が可能で、UNIXコマンドを実行でき
 msgstr "You can connect to that machine using scp or ssh."
 
 msgid ":ref:`Winmostarが対応するジョブスケジューラ <remote_scheduler>` が動作する"
-msgstr ":ref:`Job scheduler <remote_scheduler> supported by Winmostar` works."
+msgstr ":ref:`Job scheduler <remote_scheduler>` supported by Winmostar works."
 
 msgid "Winmostarから使用する各種ソルバをインストールできる"
 msgstr "The solvers called from Winmostar can be installed or have already been set up on that machine."
@@ -90,7 +90,7 @@ msgid ""
 "`ダウンロードページ <https://winmostar.com/jp/download_jp.html>`_ からインストーラ "
 ":file:`winmostar0_setup_X.X.X.exe` （ :file:`X.X.X` "
 "はバージョンを示す）をダウンロードし、実行します。"
-msgstr "Download the installer :file:`winmostar0_setup_X.XXexe` (where :file:`XXX` indicates the version) from `the download page <https://winmostar.com/en/download_en.html>`, and execute it"
+msgstr "Download the installer :file:`winmostar0_setup_X.XXexe` (where :file:`XXX` indicates the version) from `Download <https://winmostar.com/en/download_en.html>`_, and execute it"
 
 msgid ""
 "インストール先フォルダを指定し（デフォルトは :file:`C:\\\\winmos9` "
@@ -117,7 +117,7 @@ msgstr "If you want to inherit other Winmostar settings already installed, pleas
 msgid ""
 "ライセンスコードを取得していない場合は、 `機能表 <https://winmostar.com/jp/function_jp.html>`_ "
 "にて使用する版を検討し、以下のリンク先からライセンスコードを登録または購入してください。"
-msgstr "If you do not have a license code, please review the version to be used in `Features <https://winmostar.com/en/function_en.html>` and register or purchase the license code from the link below."
+msgstr "If you do not have a license code, please review the version to be used in `Features <https://winmostar.com/en/function_en.html>`_ and register or purchase the license code from the link below."
 
 msgid "`無償版 <https://winmostar.com/jp/index.php>`_"
 msgstr "`FREE edition <https://winmostar.com/en/index.php>`_"
@@ -169,9 +169,8 @@ msgid ""
 msgstr "`FDMNES installation manual for Windows <https://winmostar.com/jp/manual_jp/installation/FDMNES_install_manual_jp_win.pdf>`_"
 
 msgid ""
-"Gromacs, Amber, MODYLAS, OpenMXは次のステップでインストールする :ref:`cygwin_wm "
-"<cygwinwm_top>` に含まれます。"
-msgstr "Gromacs, Amber, MODYLAS, OpenMX will be included in the `cygwin_wm <cygwinwm_top>` to be installed in the next step."
+"Gromacs, Amber, MODYLAS, OpenMXは次のステップでインストールする :ref:`cygwin_wm <cygwinwm_top>`_ に含まれます。"
+msgstr "Gromacs, Amber, MODYLAS, OpenMX will be included in the :ref:`cygwin_wm <cygwinwm_top>`_ to be installed in the next step."
 
 msgid ""
 "MD、Solidパックを使用、およびその他の一部の処理を実行する場合は、以下のいずれかの手順でWinmostar向けのCygwinの環境（ "
@@ -198,9 +197,12 @@ msgstr "If necessary, exclude the installation folder of Winmostar and cygwin_wm
 
 msgid ""
 "リモートサーバへのジョブ投入（ :ref:`リモートジョブ <remote_top>` と呼ぶ）を行う場合は、投入先のサーバに "
-":ref:`対応しているジョブスケジューラ <remote_scheduler>` "
+":ref:`対応しているジョブスケジューラ <remote_scheduler>`_ "
 "がインストールされているか確認する。入っていない場合は以下のリンク先の手順でTORQUEをインストールします。"
-msgstr "When you submit a job to a remote server (called  :ref:`remote job <remote_top>`), check whether the job scheduling software is installed on that server. If it is not installed, install TORQUE by the following procedure."
+msgstr ""
+"When you submit a job to a remote server (called  :ref:`remote job <remote_top>`), check whether `the job "
+"scheduling software <remote_scheduler>`_ is installed on that server. "
+"If it is not installed, install TORQUE by the following procedure."
 
 msgid ""
 "`Linux版TORQUEインストールマニュアル "
@@ -249,7 +251,7 @@ msgid ""
 "インストール手順は以上です。続けて、必要に応じて `ビギナーズガイド "
 "<https://winmostar.com/jp/tutorials/V8/BeginnersGuide_V8.pdf>`_ や "
 "`各種チュートリアル <https://winmostar.com/jp/manual_jp.html>`_ を確認して下さい。"
-msgstr "Now, you are ready to run Winmostar. Please refer to `the tutorials <https://winmostar.com/en/manual_en.html>`_ if necessary"
+msgstr "Now, you are ready to run Winmostar. Please refer to `Tutorials <https://winmostar.com/en/manual_en.html>`_ if necessary"
 
 msgid "また、必須ではありませんが、エクスプローラ上で各ファイルの拡張子を表示する設定に変更することを推奨します。"
 msgstr "Although not required, it is recommended to change the setting to display the extension of each file on Explorer."
