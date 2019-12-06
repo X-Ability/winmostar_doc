@@ -43,7 +43,7 @@ msgid "Animationウィンドウ下部のグラフ表示が崩れる。その他U
 msgstr "The graph display at the bottom of the Animation window collapses. Other UI display collapses."
 
 msgid "デスクトップのテキストやその他の項目のサイズをデフォルト値（100 %）から変更している場合は、表示が崩れます。Windows8の場合は[コントロールパネル]-[デスクトップのカスタマイズ]-[ディスプレイ]-[すべての項目のサイズを変更する]を[小-100%(規定)]に設定してください。Windows10の場合は[Windowsの設定]-[システム]-[ディスプレイ]-[カスタムスケーリング]を「100」に設定してください。（2018年6月26日報告）"
-msgstr "If you change the size of desktop text or other items from the default value (100%), the display will collapse. For Windows 8, set [Control Panel] - [Customize Desktop] - [Display] - [Change the size of all items] to Small -100% (prescribed). For Windows 10, set [Windows setting] - [system] - [display] - [custom scaling] to &quot;100&quot;. (Reported on June 26, 2018)"
+msgstr "If you change the size of desktop text or other items from the default value (100%), the display will collapse. For Windows 8, set [Control Panel] - [Customize Desktop] - [Display] - [Change the size of all items] to Small -100% (prescribed). For Windows 10, set [Windows setting] - [system] - [display] - [custom scaling] to [100]. (Reported on June 26, 2018)"
 
 msgid "ローカルマシンのジョブが流れているコンソールウィンドウ内でテキストを範囲選択すると、Job Manager上でそのジョブが終了と認識されてしまう。"
 msgstr "If you select a range of text in the console window where the job of the local machine is flowing, the job is recognized as terminating on Job Manager."
