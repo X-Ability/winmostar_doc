@@ -50,7 +50,7 @@ msgid "ラベル、ボタンなど GUI に表示される文字列を示しま�
 msgstr "Labels, buttons, etc. Indicates a character string displayed on the GUI."
 
 msgid ":menuselection:`ツール --> 環境設定 --> 基本 --> ライセンスコード`"
-msgstr ":menuselection:`Tools --> Preferences --> Basic --> License code`"
+msgstr ":menuselection:`Tools --> Preferences --> Basic --> License Code`"
 
 msgid ""
 "メニュー、タブなどをたどる流れを示します。上記の例は、 メニューから :menuselection:`ツール --> 環境設定` とたどり、 "
