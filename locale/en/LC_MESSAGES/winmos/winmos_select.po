@@ -112,7 +112,7 @@ msgstr "NOTTRANSLATED"
 "group selection of the group that was selected until then."
 
 msgid "分子種によるグループ選択"
-msgstr "Select by Molecular Species"
+msgstr "Select by Molecular Species..."
 
 msgid ""
 ":guilabel:`Select by` ウィンドウの :guilabel:`Use List` タブが "
@@ -127,7 +127,7 @@ msgid "タンパク質のpdbファイルから計算する際に本機能を使�
 msgstr "When calculating from protein pdb files, this function can be used to extract proteins, ligands, bound water, buffers, etc."
 
 msgid "分子によるグループ選択"
-msgstr "Select by Molecules"
+msgstr "Select by Molecules..."
 
 msgid ""
 ":guilabel:`Select by` ウィンドウの :guilabel:`Use List` タブが "
@@ -139,7 +139,7 @@ msgstr "NOTTRANSLATED"
 "window and the corresponding molecule is selected."
 
 msgid "元素によるグループ選択"
-msgstr "Select by Elements"
+msgstr "Select by Elements..."
 
 msgid ""
 ":guilabel:`Select by` ウィンドウの :guilabel:`Use List` タブが "
@@ -151,7 +151,7 @@ msgstr "NOTTRANSLATED"
 " and the corresponding element is selected."
 
 msgid "選択記述言語によるグループ選択"
-msgstr "Enter Selection Language"
+msgstr "Enter Selection Language..."
 
 msgid ""
 ":guilabel:`Select by` ウィンドウの :guilabel:`Use Selection Language` タブが開きます。 "

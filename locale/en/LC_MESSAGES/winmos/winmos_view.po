@@ -19,141 +19,141 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "表示メニュー"
-msgstr "Display Menu"
+msgstr "View Menu"
 
 msgid "キーワード&座標表示エリアを表示"
-msgstr "Display keyword &amp; coordinate display area"
+msgstr "Show Keywords & Coordinates Areas"
 
 
 msgid "メインウィンドウでキーワード表示エリアと座標表示エリアの表示・非表示を切り替えます。"
 msgstr "Switch display / non-display of keyword display area and coordinate display area on the main window."
 
 msgid "三面図を表示"
-msgstr "Show three view"
+msgstr "Show Multi-View"
 
 msgid "分子表示エリアを三面図表示にします。"
 msgstr "Make the molecule display area three-sided."
 
 msgid "表示をリセット"
-msgstr "Reset display"
+msgstr "Reset View"
 
 msgid "カメラをデフォルト位置に戻します。"
 msgstr "Return the camera to the default position."
 
 msgid "表示方向を変更"
-msgstr "Change display direction"
+msgstr "Align View"
 
 msgid "カメラの視線の方向を変更します。"
 msgstr "Change the direction of the line of sight of the camera."
 
 msgid "拡大/縮小"
-msgstr "Scaling"
+msgstr "Zoom In/Out"
 
 msgid "視野を拡大または縮小します。"
 msgstr "Expand or reduce the field of view."
 
 msgid "常に中心を注視"
-msgstr "Always looking at the center"
+msgstr "Always View Center"
 
 msgid "ここにチェックが入っている場合は、表示されている分子構造が変化しても、常にその時点での重心がカメラの注視点となります。入っていない場合は、明示的に視線を変更しない限り注視点が変化しません。"
 msgstr "If checked here, even if the displayed molecular structure changes, the center of gravity at that point will always be the gaze point of the camera. If it is not entered, gaze point will not change unless explicit gaze change."
 
 msgid "選択原子を注視"
-msgstr "Focus on selected atoms"
+msgstr "View Marked Atom"
 
 msgid "マーカー（太赤丸）で付いた原子を注視点に指定します。"
 msgstr "Specify atom attached with marker (thick red circle) as gaze point."
 
 msgid "平行移動"
-msgstr "Translation"
+msgstr "Pan"
 
 
 msgid "メインウィンドウで左ドラッグすると、視線が平行移動します。"
 msgstr "Drag left on the main window to move the line of sight in parallel."
 
 msgid "回転"
-msgstr "rotation"
+msgstr "Orbit/Roll"
 
 msgid "自由回転"
-msgstr "Free rotation"
+msgstr "Orbit"
 
 
 msgid "メインウィンドウで左ドラッグすると、注視点を中心にカメラが回転します。"
 msgstr "Drag left in the main window to rotate the camera around the point of interest."
 
 msgid "X, Y, Z軸周りで回転"
-msgstr "Rotate around X, Y, Z axis"
+msgstr "Roll Around X, Y, Z-Axis"
 
 
 msgid "メインウィンドウで左ドラッグすると、各軸の周りでカメラが回転します。"
 msgstr "Drag left in the main window to rotate the camera around each axis."
 
 msgid "表示を回転"
-msgstr "Rotate display"
+msgstr "Rotate View"
 
 
 msgid "メインウィンドウで左ドラッグすると、表示が回転します。"
 msgstr "Drag left in the main window to rotate the display."
 
 msgid "遠近法を使用"
-msgstr "Use Perspective"
+msgstr "Perspective"
 
 msgid "ここにチェックが入っている場合は、分子表示エリアに遠近法が適用されます。"
 msgstr "If checked here, perspective is applied to the molecular display area."
 
 msgid "表示項目"
-msgstr "Representation project"
+msgstr "Items"
 
 msgid "分子表示エリアに表示する項目にチェックを入れます。"
 msgstr "Check the items to be displayed in the molecular display area."
 
 msgid "ラベル/電荷"
-msgstr "Label / Charge"
+msgstr "Label/Charge"
 
 msgid "分子表示エリアにおいて、各原子の脇にラベル（注釈）と、電荷の大きさを示す球を表示します。"
 msgstr "In the molecular display area, a label (annotation) and a sphere showing the magnitude of the charge are displayed beside each atom."
 
 msgid "(ラベル/電荷を隠す)"
-msgstr "(Label / Hide charge)"
+msgstr "(Hide Label/Charge)"
 
 msgid "ラベルと電荷の表示を隠します。（初期状態）"
 msgstr "Hides the label and charge display. (initial state)"
 
 msgid "番号&元素"
-msgstr "Number & element"
+msgstr "Show Number&Element"
 
 msgid "原子の通し番号と元素名を表示します。"
 msgstr "It displays the serial number of the atom and the element name."
 
 msgid "Mulliken電荷"
-msgstr "Mulliken charge"
+msgstr "Show Mulliken Charge"
 
 msgid "各種ログファイルを開いた際に読み込まれるMulliken電荷を表示します。"
 msgstr "Displays the Mulliken charge read when various log files are opened."
 
 msgid "ESP電荷"
-msgstr "ESP charge"
+msgstr "Show ESP Charge"
 
 msgid "各種ログファイルを開いた際に読み込まれるESPまたはRESP電荷を表示します。"
 msgstr "Displays ESP or RESP charge read when various log files are opened."
 
 msgid "Lowdin電荷"
-msgstr "Lowdin charge"
+msgstr "Show Lowdin Charge"
 
 msgid "各種ログファイルを開いた際に読み込まれるLowdin電荷を表示します。"
 msgstr "Displays Lowdin charge read when various log files are opened."
 
 msgid "User電荷"
-msgstr "User charge"
+msgstr "Show User Charge"
 
 msgid ":menuselection:`編集 --> 属性を変更 -->` :ref:`edit_property_charge` や"
-msgstr ":menuselection:`edit --> change attributes -->` :ref:`edit_property_charge` and"
+msgstr ":menuselection:`Edit --> Atom Properties -->` :ref:`edit_property_charge` and"
 
 msgid ":menuselection:`MD --> 電荷を割り当て` などの機能でユーザが割り当てた電荷を表示します。"
-msgstr ":menuselection:`MD --> charge allocation` and other functions to display the charge assigned by the user."
+msgstr ":menuselection:`MD --> Assign Charges` and other functions to display the charge assigned by the user."
 
 msgid "スピン密度"
-msgstr "Spin density"
+msgstr "Show Spin Density"
 
 msgid "各種ログファイルを開いた際に読み込まれるスピン密度や"
 msgstr "Spin density read when various log files are opened"
@@ -161,31 +161,31 @@ msgstr "Spin density read when various log files are opened"
 msgid ""
 ":menuselection:`編集 --> 属性を変更 -->` :ref:`edit_property_charge` "
 "で割り当てたスピン密度を表示します。"
-msgstr ":menuselection:`Edit --> Change Attributes --> Display the spin density assigned by` :ref:`edit_property_charge`."
+msgstr "Display the spin density assigned by :menuselection:`Edit --> Atom Properteis -->` :ref:`edit_property_charge`."
 
 msgid "双極子/遷移モーメント"
-msgstr "Dipole / transition moment"
+msgstr "Dipole/Transition Moment"
 
 msgid "双極子/遷移モーメントを表示"
-msgstr "Display dipole / transition moment"
+msgstr "Show Dipole/Transition Moment"
 
 msgid "各種ログファイルを開いた際に読み込まれる双極子モーメントまたは遷移モーメントを表示します。"
 msgstr "Displays the dipole moment or transition moment read when various log files are opened."
 
 msgid "遷移モーメントを選択"
-msgstr "Select transition moment"
+msgstr "Select Transition Moment..."
 
 msgid "表示する遷移モーメントを選択します。"
 msgstr "Select the transition moment to be displayed."
 
 msgid "スケールを変更"
-msgstr "Change scale"
+msgstr "Change Scaling Factor..."
 
 msgid "双極子/遷移モーメントを表示する際の大きさを指定します。"
 msgstr "Specify the magnitude when displaying dipole / transition moment."
 
 msgid "分子の表現形式"
-msgstr "Molecular expression form"
+msgstr "Molecular Representation"
 
 msgid "分子の表現方法（モデル）を選択します。"
 msgstr "Select the expression method (model) of the molecule."
@@ -236,7 +236,7 @@ msgid "MDL Chimeを起動します。"
 msgstr "Start MDL Chime."
 
 msgid "レイトレーシング(POV-Ray)"
-msgstr "Ray tracing (POV - Ray)"
+msgstr "Ray Tracing (POV - Ray)"
 
 msgid "POV-Ray形式のファイルを出力し、POV-Rayを用いてレンダリングします。"
 msgstr "It outputs a file in POV - Ray format and renders it using POV - Ray."
@@ -248,7 +248,7 @@ msgid "OpenSCAD形式のファイルを出力し、OpenSCADを起動します。
 msgstr "Output the OpenSCAD format file and start OpenSCAD. You can create data for 3D printers."
 
 msgid "画像をコピー"
-msgstr "Copy image"
+msgstr "Copy Image"
 
 msgid "分子表示エリアの画像をクリップボードにコピーします。"
 msgstr "Copy the image of the molecule display area to the clipboard."
