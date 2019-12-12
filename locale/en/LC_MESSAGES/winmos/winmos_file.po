@@ -31,7 +31,7 @@ msgid ":kbd:`Ctrl+N` でも操作できます。"
 msgstr "The shortcut is :kbd:`Ctrl+N` ."
 
 msgid "開く"
-msgstr "Open"
+msgstr "Open..."
 
 msgid "ファイルから分子構造をメインウィンドウに読み込みます。各種ソフトのフォーマットに対応しています。"
 msgstr "Read the molecular structure from file into the main window. It corresponds to the format of various software."
@@ -46,7 +46,7 @@ msgid "最近開かれたファイルを開きます。"
 msgstr "Open the recently opened file."
 
 msgid "履歴をクリア"
-msgstr "Clear History"
+msgstr "Clear History..."
 
 msgid "最近開かれたファイルの履歴を空にします。"
 msgstr "Empty the history of recently opened files."
@@ -58,7 +58,7 @@ msgid "メインウィンドウのタイトルに表示されているファイ�
 msgstr "Load the file displayed in the title of the main window again."
 
 msgid "追加読み込み"
-msgstr "Append"
+msgstr "Append..."
 
 msgid "メインウィンドウに表示されている分子構造に、選択したファイルの分子構造を追加します。"
 msgstr "Add the molecular structure of the selected file to the molecular structure displayed in the main window."
@@ -76,7 +76,7 @@ msgid ":kbd:`Ctrl+S` でも操作できます。"
 msgstr "The shortcut is :kbd:`Ctrl+S` ."
 
 msgid "名前を付けて保存"
-msgstr "Save As"
+msgstr "Save As..."
 
 msgid "メインウィンドウに表示されている分子構造を別名で保存します。"
 msgstr "Save the molecular structure displayed in the main window as a different name."
@@ -110,8 +110,8 @@ msgstr "Import"
 msgid "特定の形式の分子構造と、一部の計算結果ファイルを読み込みます。"
 msgstr "It reads a specific type of molecular structure."
 
-msgid "SMILES"
-msgstr "SMILES"
+msgid "SMILES..."
+msgstr "SMILES..."
 
 msgid ""
 "SMILES形式の文字列から分子構造を生成し、メインウィンドウに読み込みます。 :guilabel:`Import SMILES` "
@@ -138,19 +138,19 @@ msgid "メインウィンドウに表示されている分子構造の構造式�
 msgstr "The image of the structural formula of the molecular structure displayed in the main window is output in SVG format. It can not be used when multiple molecules are displayed in the main window. I use OpenBabel on Cygwin."
 
 msgid "画像"
-msgstr "Image"
+msgstr "Image..."
 
 msgid "メインウィンドウに表示されている内容をBMPまたはJPG形式で出力します。"
 msgstr "Outputs the contents displayed in the main window in BMP or JPG format."
 
 msgid "VRML"
-msgstr "VRML"
+msgstr "VRML..."
 
 msgid "メインウィンドウに表示されている分子構造をVRML形式で出力します。"
 msgstr "Outputs the contents displayed in the main window in VRML format."
 
 msgid "CHARMM crd File"
-msgstr "CHARMM crd File"
+msgstr "CHARMM crd File..."
 
 msgid "メインウィンドウに表示されている分子構造をCHARMMのcrd形式で座標を出力します。"
 msgstr "Outputs the contents displayed in the main window in crd format for CHARMM."
