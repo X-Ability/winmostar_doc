@@ -19,10 +19,10 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid ":menuselection:`半経験QM --> CNDO/S` メニュー"
-msgstr ":menuselection:`Semi-Empirical QM --> CNDO / S` menu"
+msgstr ":menuselection:`semi-experience QM --> CNDO / S` menu"
 
 msgid "CNDO/Sプログラムに関するメニューです。"
-msgstr "It is a menu related to the CNDO / S program."
+msgstr "It is a menu related to the CNDO/S program."
 
 msgid ""
 "CNDO/SプログラムはWinmostarに同梱されています。 "
@@ -30,10 +30,10 @@ msgid ""
 " P083のマニュアルは `こちら "
 "<https://winmostar.com/jp/manual_third_party/cndos_man.pdf>`_ から入手可能です。 "
 "CNDO/Sプログラム（ :file:`cndosw.exe` ）はgfortranでコンパイルされています。"
-msgstr "The CNDO / S program is bundled with Winmostar. The CNDO / S program is a slight modification of the P083 program registered in the former Japan Chemistry Program Exchange Organization (JCPE, the present Japan Computer Chemistry Society) to correspond to Winmostar. The manual of P083 is `here <https://winmostar.com/jp/manual_third_party/cndos_man.pdf>`_. The CNDO / S program (: file: `cndosw.exe`) has been compiled with gfortran."
+msgstr "The CNDO / S program is bundled with Winmostar. The CNDO / S program is a slight modification of the P083 program registered in the former Japan Chemistry Program Exchange Organization (JCPE, the present Japan Computer Chemistry Society) to correspond to Winmostar. The manual of P083 is `here <https://winmostar.com/jp/manual_third_party/cndos_man.pdf>`. The CNDO / S program (: file: `cndosw.exe`) has been compiled with gfortran."
 
 msgid "キーワード設定"
-msgstr "Keyword setting"
+msgstr "Configure..."
 
 
 msgid ""
@@ -147,13 +147,13 @@ msgid "結合次数を出力する励起状態の数を指定します。"
 msgstr "Specify the number of excitation states to output the bond order."
 
 msgid "キーワード読み込み"
-msgstr "Keyword loading"
+msgstr "Import Keywords..."
 
 msgid "既存のCNDO/Sの入力ファイルから、キーワード（計算条件）のみを読み込みます。"
 msgstr "Only keywords (calculation conditions) are read from the existing CNDO / S input file."
 
 msgid "実行"
-msgstr "Execution"
+msgstr "Run..."
 
 
 msgid ""
@@ -189,13 +189,13 @@ msgid "作業ディレクトリです。"
 msgstr "Working directory."
 
 msgid "ログを表示 (lst)"
-msgstr "Display log (lst)"
+msgstr "Open Log File (lst)..."
 
 msgid "lstファイルをテキストエディタで開きます。"
 msgstr "Open the lst file with a text editor."
 
 msgid "UV-Visスペクトル"
-msgstr "UV-Vis spectrum"
+msgstr "UV-Vis Spectrum..."
 
 msgid "lstファイルを選択し、UV-Visスペクトルと分子軌道を表示します。"
 msgstr "Select lst file and display UV-Vis spectrum and molecular orbital."

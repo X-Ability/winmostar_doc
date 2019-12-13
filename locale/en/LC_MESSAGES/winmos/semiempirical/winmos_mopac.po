@@ -18,7 +18,7 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.7.0\n"
 
 msgid ":menuselection:`半経験QM --> MOPAC` メニュー"
-msgstr ":menuselection:`semi-experience QM --> MOPAC` menu"
+msgstr ":menuselection:`Semi-Empirical QM --> MOPAC` menu"
 
 msgid "MOPACに関するメニューです。"
 msgstr "It is a menu related to MOPAC."
@@ -32,7 +32,7 @@ msgstr "NOTTRANSLATED"
 "in environment setting window."
 
 msgid "キーワード設定"
-msgstr "Keyword setting"
+msgstr "Configure..."
 
 msgid ""
 "MOPACの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は "
@@ -374,7 +374,7 @@ msgid "その他のキーワードを記入します。"
 msgstr "Fill in other keywords."
 
 msgid "キーワード読み込み"
-msgstr "Keyword loading"
+msgstr "Import Keywords..."
 
 msgid "既存のMOPACの入力ファイルから、キーワード（計算条件）のみを読み込みます。"
 msgstr "NOTTRANSLATED"
@@ -382,7 +382,7 @@ msgstr "NOTTRANSLATED"
 "input file."
 
 msgid "(1) MOP6W70実行, (2) MOP7W70実行, (3) MOPACX実行"
-msgstr "(1) MOP 6W 70 execution, (2) MOP 7 W 70 execution, (3) MOPACX execution"
+msgstr "(1) Run MOP6W70, (2) Run MOP7W70, (3) Run MOPACX"
 
 msgid ""
 "メインウィンドウでMOPACの入力ファイルが開かれている場合は、そのファイルを使ってMOPACを実行します。 "
@@ -464,16 +464,19 @@ msgid "作業ディレクトリです。"
 msgstr "Working directory."
 
 msgid "ログを表示 (out)"
-msgstr "Display log (out)"
+msgstr "Open Log File (out)..."
 
 msgid "outファイルをテキストエディタで開きます。"
-msgstr "out Open the file in a text editor."
+msgstr "Open out file in a text editor."
+
+msgid "ログを表示 (arc)"
+msgstr "Open Log File (arc)..."
 
 msgid "arcファイルをテキストエディタで開きます。"
-msgstr "Open the arc file with a text editor."
+msgstr "Open arc file with a text editor."
 
 msgid "分子軌道, 電子密度 (mgf)"
-msgstr "Molecular orbital, electron density (mgf)"
+msgstr "MO & Density (mgf)..."
 
 msgid "mgfファイルを選択し、分子軌道を表示します。"
 msgstr "Select the mgf file and display the molecular orbital."
@@ -487,16 +490,17 @@ msgstr "NOTTRANSLATED"
 "subwindow."
 
 msgid "電荷 (arc)"
-msgstr "Electric charge (arc)"
+msgstr "Charges (arc)..."
 
 msgid "arcファイルを選択し、電荷、ダイポールを表示します。"
 msgstr "Select arc file and display charge, dipole."
 
 msgid ":menuselection:`表示 --> ラベル/電荷 --> Mulliken電荷` を選択すると電荷が表示されます。"
-msgstr ":menuselection:`View --> Label/Charges --> Show Mulliken Charge` displays charge."
+msgstr "NOTTRANSLATED"
+"Show charges when you select :menuselection:`display --> label/charge --> Mulliken Charge`."
 
 msgid "アニメーション (arc)"
-msgstr "Animation (arc)"
+msgstr "Animation (arc)..."
 
 msgid "arcファイルを選択し、分子構造のアニメーションを表示します。"
 msgstr "Select the arc file and display the animation of the molecular structure."
@@ -505,13 +509,13 @@ msgid "アニメーション表示の操作方法は :ref:`animation_top` を参
 msgstr "For the animation display operation method, see :ref:`animation_top`."
 
 msgid "アニメーション (IRC,STEP)(out)"
-msgstr "Animation (IRC, STEP) (out)"
+msgstr "IRC & STEP (out)..."
 
 msgid "outファイルを選択し、IRC計算のアニメーションを表示します。"
 msgstr "Select out file and display animation of IRC calculation."
 
 msgid "振動スペクトル (out)"
-msgstr "Vibration spectrum (out)"
+msgstr "Vibration spectrum (out)..."
 
 msgid "outファイルを選択し、振動スペクトル（IRスペクトル）を表示します。"
 msgstr "Select the out file and display the vibration spectrum (IR spectrum)."
@@ -524,7 +528,7 @@ msgstr "NOTTRANSLATED"
 "Refer to :ref:`ir_top` for how to operate the subwindow."
 
 msgid "ジョブマネージャで実行"
-msgstr "Run in Job Manager"
+msgstr "Use Job Manager"
 
 msgid ""
 "チェックが入っている場合は、MOPACを実行する際に :ref:`winmosjm_top` を使用します。 "
