@@ -31,7 +31,7 @@ msgstr "NOTTRANSLATED"
 " of installing NWChem is described in :ref:`install_install`."
 
 msgid "キーワード設定"
-msgstr "Keyword setting"
+msgstr "Configure..."
 
 msgid ""
 "NWChemの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は "
@@ -254,7 +254,7 @@ msgid "その他の入力要素を記述します。"
 msgstr "Describe other input elements."
 
 msgid "キーワード読み込み"
-msgstr "Keyword loading"
+msgstr "Import Keywords..."
 
 msgid "既存のNWChemの入力ファイルから、キーワード（計算条件）のみを読み込みます。"
 msgstr "NOTTRANSLATED"
@@ -262,7 +262,7 @@ msgstr "NOTTRANSLATED"
 " input file."
 
 msgid "実行"
-msgstr "Execution"
+msgstr "Run..."
 
 msgid ""
 "メインウィンドウでNWChemの入力ファイルが開かれている場合は、そのファイルを使ってNWChemを実行します。 "
@@ -334,13 +334,13 @@ msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
 msgstr "The job is run through :ref:`winmosjm_top`."
 
 msgid "ログを表示 (out)"
-msgstr "Display log (out)"
+msgstr "Open Log File (out)..."
 
 msgid "outファイルをテキストエディタで開きます。"
 msgstr "Open the out file in a text editor."
 
 msgid "アニメーション (構造最適化)"
-msgstr "Animation (structure optimization)"
+msgstr "Animation (Optimize)..."
 
 msgid "outファイルの情報から構造最適化等のアニメーションを作成し表示します。"
 msgstr "NOTTRANSLATED"
@@ -351,14 +351,14 @@ msgid "アニメーション表示の操作方法は :ref:`animation_top` を参
 msgstr "For the animation display operation method, see :ref:`animation_top`."
 
 msgid "アニメーション (NEB/String)"
-msgstr "Animation (NEB / String)"
+msgstr "Animation (NEB/String)..."
 
 msgid "xyzファイルの情報からNEB, String計算のアニメーションを作成し表示します。"
 msgstr "NOTTRANSLATED"
 "Create and display NEB, String calculation animation from xyz file information."
 
 msgid "分子軌道, UV-Vis, 電荷, NMR"
-msgstr "Molecular orbitals, UV-Vis, charge, NMR"
+msgstr "MO, UV-Vis, Charge & NMR..."
 
 msgid "outファイルの情報から分子軌道, UV-Vis, 電荷, NMRの情報を取得し表示します。"
 msgstr "NOTTRANSLATED"
@@ -380,7 +380,7 @@ msgstr "NOTTRANSLATED"
 "Refer to :ref:`mo_top`, :ref:`cube_top`, :ref:`uvvis_top`, :ref:`nmr_top` for how to operate the subwindow."
 
 msgid "IR/ラマンスペクトル"
-msgstr "IR / Raman spectrum"
+msgstr "Frequencies/Raman..."
 
 msgid "outファイルを選択し、振動スペクトル（IRまたはラマンスペクトル）を表示します。"
 msgstr "NOTTRANSLATED"

@@ -31,7 +31,7 @@ msgstr "NOTTRANSLATED"
 "install GAMESS is described in :ref:`install_install`."
 
 msgid "キーワード設定"
-msgstr "Keyword setting"
+msgstr "Configure..."
 
 msgid ""
 "GAMESSの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は "
@@ -282,7 +282,7 @@ msgid "初期波動関数の求め方を指定します。"
 msgstr "Specify how to calculate the initial wave function."
 
 msgid "$STATPT"
-msgstr "$ STATPT"
+msgstr "$STATPT"
 
 msgid "NSTEP"
 msgstr "NSTEP"
@@ -364,7 +364,7 @@ msgstr "NOTTRANSLATED"
 "110)"
 
 msgid "キーワード読み込み"
-msgstr "Keyword loading"
+msgstr "Import Keywords..."
 
 msgid "既存のGAMESSの入力ファイルから、キーワード（計算条件）のみを読み込みます。"
 msgstr "NOTTRANSLATED"
@@ -372,22 +372,22 @@ msgstr "NOTTRANSLATED"
 "input file."
 
 msgid "punchファイルから読み込み"
-msgstr "Read from punch file"
+msgstr "Import from punch File"
 
-msgid "$VEC from punch"
-msgstr "$VEC from punch"
+msgid "Import $VEC..."
+msgstr "Import $VEC..."
 
 msgid "$VECをpunchファイルから読み込みます。"
-msgstr "Read $VEC from the punch file."
+msgstr "Import $VEC from the punch file."
 
-msgid "$HESS from punch"
-msgstr "$HESS from punch"
+msgid "Import $HESS..."
+msgstr "Import $HESS..."
 
 msgid "$HESSをpunchファイルから読み込みます。"
-msgstr "Read $HESS from the punch file."
+msgstr "Import $HESS from the punch file."
 
 msgid "(1) GAMESS実行, (2) GAMESS実行"
-msgstr "(1) GAMESS execution, (2) GAMESS execution"
+msgstr "(1) Run GAMESS.., (2) Run GAMESS..."
 
 msgid ""
 "メインウィンドウでGAMESSの入力ファイルが開かれている場合は、そのファイルを使ってGAMESSを実行します。 "
@@ -469,13 +469,13 @@ msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
 msgstr "The job is run through :ref:`winmosjm_top`."
 
 msgid "ログを表示 (out,log)"
-msgstr "Display log (out, log)"
+msgstr "Open Log File (out, log)..."
 
 msgid "outファイルをテキストエディタで開きます。"
 msgstr "out Open the file in a text editor."
 
 msgid "アニメーション"
-msgstr "animation"
+msgstr "Animation..."
 
 msgid "outファイルの情報から構造最適化、スキャン、IRC計算等のアニメーションを作成し表示します。"
 msgstr "NOTTRANSLATED"
@@ -486,7 +486,7 @@ msgid "アニメーション表示の操作方法は :ref:`animation_top` を参
 msgstr "For the animation display operation method, see :ref:`animation_top`."
 
 msgid "分子軌道, UV-Vis, 電荷, NMR"
-msgstr "Molecular orbitals, UV-Vis, charge, NMR"
+msgstr "MO, UV-Vis, Charge & NMR..."
 
 msgid "outファイルの情報から分子軌道, UV-Vis, 電荷, NMRの情報を取得し表示します。"
 msgstr "NOTTRANSLATED"
@@ -508,7 +508,7 @@ msgstr "NOTTRANSLATED"
 "Refer to :ref:`mo_top`, :ref:`cube_top`, :ref:`uvvis_top`, :ref:`nmr_top` for how to operate the subwindow."
 
 msgid "IR(Hessian)/ラマンスペクトル"
-msgstr "IR (Hessian) / Raman spectrum"
+msgstr "Hessian/Raman..."
 
 msgid "outファイルを選択し、振動スペクトル（IRまたはラマンスペクトル）を表示します。"
 msgstr "NOTTRANSLATED"
@@ -528,7 +528,7 @@ msgid "サブウィンドウの操作方法は :ref:`ir_top` を参照してく�
 msgstr "Refer to :ref:`ir_top` for how to operate the subwindow."
 
 msgid "RESP電荷"
-msgstr "RESP charge"
+msgstr "RESP Charges..."
 
 msgid "RESP法に基づく点電荷をpunchファイルから算出します。"
 msgstr "Calculate point charge based on RESP method from punch file."
@@ -554,7 +554,7 @@ msgid "PDB"
 msgstr "PDB"
 
 msgid "PDB編集"
-msgstr "PDB editing"
+msgstr "Edit PDB File..."
 
 msgid "PDBデータの残基情報等を残したまま、原子削除等の編集を行います。"
 msgstr "NOTTRANSLATED"
@@ -568,7 +568,7 @@ msgid "FMOutilを起動します。"
 msgstr "Start FMOutil."
 
 msgid "PIO解析"
-msgstr "PIO analysis"
+msgstr "Paired Interacting Orbitals..."
 
 msgid "Paired Interacting Orbitals解析を実行します。 詳細は :ref:`pio_top` を参照してください。"
 msgstr "NOTTRANSLATED"
