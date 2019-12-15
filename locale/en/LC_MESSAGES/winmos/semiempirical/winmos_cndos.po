@@ -19,7 +19,7 @@ msgstr "NOTTRANSLATED"
 "Generated-By: Babel 2.6.0\n"
 
 msgid ":menuselection:`半経験QM --> CNDO/S` メニュー"
-msgstr ":menuselection:`semi-experience QM --> CNDO / S` menu"
+msgstr ":menuselection:`semi-experience QM --> CNDO/S` menu"
 
 msgid "CNDO/Sプログラムに関するメニューです。"
 msgstr "It is a menu related to the CNDO/S program."
