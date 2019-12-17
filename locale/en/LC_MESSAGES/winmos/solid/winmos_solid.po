@@ -27,7 +27,7 @@ msgid "固体メニューの機能を利用するにはSolidパックが必要�
 msgstr "Solid pack is required to use the functions of the solid menu."
 
 msgid "結晶ビルダ"
-msgstr "Crystal Builder"
+msgstr "Crystal Builder..."
 
 msgid "結晶構造を作成します。主に以下の目的で使用します。"
 msgstr "Create a crystal structure. It is mainly used for the following purposes."
@@ -239,7 +239,7 @@ msgstr "NOTTRANSLATED"
 "main window."
 
 msgid "スーパーセルを作成"
-msgstr "Create super cell"
+msgstr "Generate Supercell..."
 
 msgid "メインウィンドウで表示されているセルを複製しスーパーセルを作成します。"
 msgstr "Duplicate the cell displayed in the main window and create a super cell."
@@ -254,7 +254,7 @@ msgid ":ref:`solid_crystalbuilder` と同じです。"
 msgstr "It is the same as :ref:`solid_crystalbuilder`."
 
 msgid "表面を切り出し"
-msgstr "Cut the surface"
+msgstr "Cleave Plane..."
 
 msgid "ミラー面の指定して単位格子の再定義します。"
 msgstr "Specify the mirror surface and redefine the unit cell."
@@ -337,7 +337,7 @@ msgid "処理を実行します。"
 msgstr "Perform the processing."
 
 msgid "真空層を挿入"
-msgstr "Insert vacuum layer"
+msgstr "Insert Vacuum..."
 
 msgid "結晶構造の上下に真空層を挿入し、スラブモデルの構築します。"
 msgstr "NOTTRANSLATED"
@@ -408,7 +408,7 @@ msgstr "The dangling bond is capped with hydrogen on the surface in contact with
 "and use :ref:`edit_parts` to replace the hydrogen with any functional group."
 
 msgid "クラスタを作成"
-msgstr "Create a cluster"
+msgstr "Build Cluster Model..."
 
 msgid "結晶構造からナノクラスターを切り出します。"
 msgstr "Cut out nanoclusters from the crystal structure."
@@ -434,7 +434,7 @@ msgid "Hydrogen"
 msgstr "Hydrogen"
 
 msgid "格子を変換"
-msgstr "Convert grid"
+msgstr "Convert Lattice..."
 
 msgid "メインウィンドウで表示されているセルについて、プリミティブセル-コンベンショナルセル間の変換を行います。"
 msgstr "NOTTRANSLATED"

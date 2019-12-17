@@ -43,7 +43,7 @@ msgstr "Create ForceSets file from Quantum ESPRESSO output file and calculate Ph
 "thermophysical properties, etc. (post processing)"
 
 msgid "キーワード設定・実行"
-msgstr "Keyword setting / Execute"
+msgstr "Create Supercell..."
 
 msgid "Phonopyを用いたプリ・ポスト処理の計算条件を設定し、プリ処理の実行を行います。"
 msgstr "Set pre / post processing calculation conditions using Phonopy and execute pre processing."
@@ -180,13 +180,13 @@ msgid "何もせずにキーワード設定・実行ウィンドウを閉じま�
 msgstr "Do nothing and close the keyword setting / execution window."
 
 msgid "confファイル編集..."
-msgstr "Edit conf file ..."
+msgstr "Edit .conf File ..."
 
 msgid "confファイルをテキストエディタで開きます。 キーワード設定画面で設定したキーワードを編集したい場合に用います。"
 msgstr "Open the conf file with a text editor. Used when you want to edit the keywords set in the keyword setting screen."
 
 msgid "Quantum ESPRESSO連続実行"
-msgstr "Quantum ESPRESSO continuous execution"
+msgstr "Run QE for Phonopy..."
 
 msgid ""
 "キーワード設定・実行画面で生成された、全てのスーパーセルに対し、Quantum ESPRESSOを実行します。 "
@@ -195,7 +195,7 @@ msgstr "Quantum ESPRESSO is executed for all supercells generated on the keyword
 "If you use this menu, Quantum ESPRESSO will run in your local environment."
 
 msgid "Phonopyの実行..."
-msgstr "Execute Phonopy ..."
+msgstr "Run Phonopy ..."
 
 msgid "Phonopyのポスト処理を実行します。"
 msgstr "Perform Phonopy post processing"
@@ -237,19 +237,19 @@ msgid "Phonopyのポスト処理で計算された熱物性の情報が出力さ
 msgstr "Thermophysical information calculated by Phonopy's post-processing is output."
 
 msgid "バンド構造..."
-msgstr "Band structure ..."
+msgstr "Band Structure ..."
 
 msgid "作業フォルダに含まれるband.csvをもとにバンド構造を表示します。"
 msgstr "Displays the band structure based on band.csv included in the working folder."
 
 msgid "状態密度..."
-msgstr "Density of states ..."
+msgstr "Density of States ..."
 
 msgid "作業フォルダに含まれるtoal_dos.csvをもとに状態密度を表示します。"
 msgstr "Displays the density of states based on toal_dos.csv included in the working folder."
 
 msgid "熱物性..."
-msgstr "Thermal properties ..."
+msgstr "Thermodynamic Properties ..."
 
 msgid "作業フォルダに含まれるthermal_properties.csvをもとに熱物性を表示します。"
 msgstr "Displays thermal properties based on thermal_properties.csv included in working folder."

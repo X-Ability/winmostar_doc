@@ -28,7 +28,7 @@ msgstr "NOTTRANSLATED"
 "The way to install Quantum ESPRESSO is described in :ref:`install_install`."
 
 msgid "キーワード設定"
-msgstr "Keyword setting"
+msgstr "Configure..."
 
 msgid ""
 "Quantum ESPRESSOの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` "
@@ -876,7 +876,7 @@ msgstr "NOTTRANSLATED"
 "copied from wmx/qe_pseudo_priority.txt."
 
 msgid "実行"
-msgstr "Execution"
+msgstr "Run..."
 
 msgid "Quantum ESPRESSOを実行します。 状況に応じて実行方法が異なります。"
 msgstr "NOTTRANSLATED"
@@ -1053,13 +1053,13 @@ msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
 msgstr "Job is run through :ref:`winmosjm_top`. "
 
 msgid "ログを表示 (pwout)"
-msgstr "Display log (pwout)"
+msgstr "Opem Log File (pwout, out)..."
 
 msgid "ログファイルをテキストエディタで開きます。"
 msgstr "Open the log file with a text editor."
 
 msgid "アニメーション"
-msgstr "animation"
+msgstr "Animation (pwout, out)..."
 
 msgid "ログファイルの情報から構造最適化、BOMD計算等のアニメーションを作成し表示します。"
 msgstr "NOTTRANSLATED"
@@ -1073,7 +1073,7 @@ msgid "アニメーション表示の操作方法は :ref:`animation_top` を参
 msgstr "For the animation display operation method, see :ref:`animation_top`."
 
 msgid "SCFエネルギー変化"
-msgstr "SCF energy change"
+msgstr "SCF Energy Change..."
 
 msgid "ログファイルを選択し、total energyのグラフを表示します。"
 msgstr "Select the log file and display a graph of total energy."
@@ -1097,7 +1097,7 @@ msgid "グラフ描画エリアの操作方法は :ref:`chart_top` を参照し�
 msgstr "For how to operate the graph drawing area, see :ref:`chart_top`."
 
 msgid "電子密度"
-msgstr "Electron density"
+msgstr "Electron Density..."
 
 msgid "作業ディレクトリ(outdir)を指定し、等電子密度面を表示します。"
 msgstr "NOTTRANSLATED"
@@ -1110,7 +1110,7 @@ msgid "サブウィンドウの操作方法は :ref:`cube_top` を参照して�
 msgstr "Refer to :ref:`cube_top` for how to operate subwindow."
 
 msgid "Lowdin電荷"
-msgstr "Lowdin charge"
+msgstr "Lowdin Charge..."
 
 msgid "作業ディレクトリ(outdir)を指定し、点電荷を算出・表示します。"
 msgstr "NOTTRANSLATED"
@@ -1120,7 +1120,7 @@ msgid "バックグラウンドでprojwfc.xが流れます。"
 msgstr "Projwfc.x flows in the background."
 
 msgid "ポテンシャルエネルギー分布"
-msgstr "Potential energy distribution"
+msgstr "Potential Energy Distribution..."
 
 msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、z軸方向のポテンシャルエネルギー分布を表示します。"
 msgstr "NOTTRANSLATED"
@@ -1138,7 +1138,7 @@ msgstr "NOTTRANSLATED"
 "average.x flow in the background."
 
 msgid "バンド構造"
-msgstr "Band structure"
+msgstr "Band Structure..."
 
 msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、バンド構造を表示します。"
 msgstr "NOTTRANSLATED"
@@ -1154,7 +1154,7 @@ msgstr "NOTTRANSLATED"
 " the background."
 
 msgid "状態密度"
-msgstr "State density"
+msgstr "Density od States..."
 
 msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、状態密度を表示します。"
 msgstr "NOTTRANSLATED"
@@ -1166,7 +1166,7 @@ msgstr "NOTTRANSLATED"
 "Fermi energy is acquired from the log file of SCF calculation. dos.x flows in the background."
 
 msgid "部分状態密度"
-msgstr "Partial state density"
+msgstr "Partial DOS..."
 
 msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、部分状態密度(PDOS)を表示します。"
 msgstr "NOTTRANSLATED"
@@ -1179,7 +1179,7 @@ msgstr "NOTTRANSLATED"
 " in the background."
 
 msgid "フェルミ面"
-msgstr "Fermi surface"
+msgstr "Fermi Surface..."
 
 msgid "SCF計算とbands計算のログファイルを指定し、フェルミ面を表示します。"
 msgstr "NOTTRANSLATED"
@@ -1197,7 +1197,7 @@ msgstr "NOTTRANSLATED"
 "button to display the Fermi surface."
 
 msgid "誘電関数"
-msgstr "Dielectric function"
+msgstr "Dielectric Function..."
 
 msgid "誘電関数計算後の作業ディレクトリを指定し、誘電関数を表示します。"
 msgstr "NOTTRANSLATED"
@@ -1211,7 +1211,7 @@ msgid "取得する誘電関数の方向を指定します。"
 msgstr "Specify the direction of the dielectric function to be acquired."
 
 msgid "IR/ラマンスペクトル"
-msgstr "IR / Raman spectrum"
+msgstr "IR/Raman..."
 
 msgid "フォノン計算後の作業ディレクトリとSCF計算のログを指定し、IRおよびラマンスペクトルを表示します。"
 msgstr "NOTTRANSLATED"
@@ -1222,7 +1222,7 @@ msgid "サブウィンドウの操作方法は :ref:`ir_top` を参照してく�
 msgstr "Refer to :ref:`ir_top` for how to operate the subwindow."
 
 msgid "フォノン分散曲線"
-msgstr "Phonon dispersion curve"
+msgstr "Phonon Band Structure..."
 
 msgid "フォノン分散計算後の作業ディレクトリを指定し、フォノン分散曲線を表示します。"
 msgstr "NOTTRANSLATED"
@@ -1248,7 +1248,7 @@ msgstr "NOTTRANSLATED"
 "4 columns with a space separator)"
 
 msgid "フォノン状態密度"
-msgstr "Phonon state density"
+msgstr "Phonon Density of States..."
 
 msgid "フォノン分散計算後の作業ディレクトリを指定し、フォノン状態密度を表示します。"
 msgstr "NOTTRANSLATED"
@@ -1261,7 +1261,7 @@ msgstr "NOTTRANSLATED"
 "calculation."
 
 msgid "電荷/エネルギー分布 (esm1)"
-msgstr "Charge / energy distribution (esm 1)"
+msgstr "Charge/Energy Distribution (esm1)..."
 
 msgid "ESM計算（assume_isolated=esm）で出力されるesm1ファイルを指定し、z軸方向の電荷またはエネルギーの分布を表示します。"
 msgstr "NOTTRANSLATED"
@@ -1272,7 +1272,7 @@ msgid "2つのesm1ファイルの差をプロットすることもできます�
 msgstr "You can also plot the difference between the two esm1 files."
 
 msgid "溶媒原子間相関関数 (1drism)"
-msgstr "Solvent atom correlation function (1 drism)"
+msgstr "Solvent Pair Distribution Func. (1drism)..."
 
 msgid "RISM計算（trism=.True.）で出力される1drismファイルを用いてRISM領域の原子間相関関数(動径分布関数)を算出します。"
 msgstr "NOTTRANSLATED"
@@ -1287,7 +1287,7 @@ msgid "溶媒分子間の化学ポテンシャルをcsv形式で出力します�
 msgstr "The chemical potential between solvent molecules is output in csv format."
 
 msgid "溶媒密度/エネルギー分布(rism1)"
-msgstr "Solvent density / energy distribution (rism 1)"
+msgstr "Solvent Charge/Energy Profile (rism1)..."
 
 msgid "RISM計算（trism=.True.）で出力されるrism1ファイルを用いて、DFT領域-RISM領域が接する方向（界面垂直方向）の溶媒密度・エネルギー・電荷を算出します。"
 msgstr "NOTTRANSLATED"
@@ -1297,7 +1297,7 @@ msgstr "NOTTRANSLATED"
 ".True.)."
 
 msgid "MOLファイルを作成"
-msgstr "Create MOL file"
+msgstr "Generate MOL File..."
 
 msgid ""
 "RISM計算（trism=.True.）で使用される溶媒のMOLファイルを作成します。溶媒分子を1分子メインウィンドウに作成した上で本機能を呼び出してください。LAMMPSのdata形式を入力にする際には"
@@ -1313,7 +1313,7 @@ msgstr "The created file should be placed in the folder specified by "
 ":guilabel:`Directory for MOL Files` on the :guilabel:`RISM (1)` tab of the keyword setting window of the MOL file. "
 
 msgid "CPMDアニメーション(pos)"
-msgstr "CPMD animation (pos)"
+msgstr "CPMD Animation (pos)..."
 
 msgid "CPMDのposファイルとcelファイルを指定し、アニメーションを表示します。"
 msgstr "Specify CPMD&#39;s pos and cel files and display animation."
@@ -1322,14 +1322,14 @@ msgid "pw.xの結果を表示する場合は :ref:`solid_qe_animation` を使用
 msgstr "To display the result of pw.x, use :ref:`solid_qe_animation`."
 
 msgid "CPMDエネルギー変化(evp)"
-msgstr "CPMD energy change (evp)"
+msgstr "CPMD Energy Plot (evp)..."
 
 msgid "CPMDのevpファイルを指定し、各種エネルギーの時間変化を表示します。"
 msgstr "NOTTRANSLATED"
 "Specify the evp file of CPMD and display time variation of various energies."
 
 msgid "NEBキーワード設定"
-msgstr "NEB keyword setting"
+msgstr "Configure NEB..."
 
 msgid "NEB計算の条件を設定します。"
 msgstr "Set conditions for NEB calculation."
@@ -1340,13 +1340,13 @@ msgstr "NOTTRANSLATED"
 "each of the start state and the end state has been completed."
 
 msgid "NEB実行"
-msgstr "NEB execution"
+msgstr "Run NEB..."
 
 msgid "neb.xを用いてNEB計算を実行します。"
 msgstr "Perform NEB calculation using neb.x."
 
 msgid "遷移状態（NEB）"
-msgstr "Transition state (NEB)"
+msgstr "Transition Path (NEB)..."
 
 msgid "NEB計算後のファイルを指定し、反応座標に沿ったエネルギーと原子構造の変化を表示します。"
 msgstr "NOTTRANSLATED"

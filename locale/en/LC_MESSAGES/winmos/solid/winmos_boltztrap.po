@@ -31,7 +31,7 @@ msgid "BoltzTraPでは、QuantumESPRESSOでのnscf計算のアウトプットを
 msgstr "BoltzTraP calculates thermoelectric properties based on the output of nscf calculation with QuantumESPRESSO."
 
 msgid "キーワード設定・実行"
-msgstr "Keyword setting / execution"
+msgstr "Configure..."
 
 msgid "BoltzTraPを用いたプリ・ポスト処理の計算条件を設定し、プリ処理の実行を行います。"
 msgstr "Set pre / post calculation conditions using BoltzTraP and execute pre-processing."
@@ -154,7 +154,7 @@ msgid "何もせずにキーワード設定・実行ウィンドウを閉じま�
 msgstr "Do nothing and close the keyword setting / execution window."
 
 msgid "BoltzTraP結果読み込み..."
-msgstr "Load BoltzTraP results ..."
+msgstr "Import..."
 
 msgid "BoltzTraPによって計算された下記の熱電特性を読み込み、可視化を行います。"
 msgstr "The following thermoelectric properties calculated by BoltzTraP are read and visualized."

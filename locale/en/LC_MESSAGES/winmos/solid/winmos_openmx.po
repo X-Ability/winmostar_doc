@@ -25,7 +25,7 @@ msgid "OpenMXに関するメニューです。"
 msgstr "Menu related to OpenMX."
 
 msgid "キーワード設定"
-msgstr "Keyword settings"
+msgstr "Configure..."
 
 msgid ""
 "OpenMXの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は "
@@ -507,7 +507,7 @@ msgid "擬ポテンシャルの拡張無しファイル名を指定します。"
 msgstr "Specify file name without pseudopotential extension."
 
 msgid "実行"
-msgstr "Execute"
+msgstr "Run..."
 
 msgid "OpenMXを実行します。"
 msgstr "Execute OpenMX"
@@ -709,7 +709,7 @@ msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
 msgstr "Job is run through :ref:`winmosjm_top`. "
 
 msgid "ログを表示 (mxout)..."
-msgstr "View log (mxout) ..."
+msgstr "Open Log File (mxout)..."
 
 msgid "ログファイルをテキストエディタで開きます。"
 msgstr "Open the log file with a text editor."
@@ -724,7 +724,7 @@ msgid "アニメーション表示の操作方法は :ref:`animation_top` を参
 msgstr "Please refer to :ref:`animation_top` for how to operate the animation. "
 
 msgid "電子密度/スピン密度/エネルギー分布..."
-msgstr "Electron density / spin density / energy distribution ..."
+msgstr "Density/Spin/Energy Distribution..."
 
 msgid "cubeファイルを指定し、電子密度、スピン密度、エネルギー分布を表示します。"
 msgstr "Specify the cube file and display the electron density, spin density, and energy distribution."
@@ -733,7 +733,7 @@ msgid "サブウィンドウの操作方法は :ref:`cube_top` を参照して�
 msgstr "See :ref:`cube_top` for how to operate subwindows. "
 
 msgid "バンド構造..."
-msgstr "Band structure..."
+msgstr "Band Structure..."
 
 msgid "作業ディレクトリ(:file:`dia_mx_data\\\\`)を指定し、バンド構造を表示します。"
 msgstr "Specify the working directory (:file:`dia_mx_data\\\\`) and display the band structure."
@@ -742,7 +742,7 @@ msgid "Band.dispersion=onで計算が終了している必要があります。"
 msgstr "Calculation must be completed with Band.dispersion=on"
 
 msgid "状態密度..."
-msgstr "Density of states..."
+msgstr "Density of of States..."
 
 msgid "作業ディレクトリ(:file:`dia_mx_data\\\\`)を指定し、状態密度を表示します。"
 msgstr "Specify the working directory ( :file:`dia_mx_data\\\\`) and display the density of states."
@@ -754,13 +754,13 @@ msgid "グラフ描画エリアの操作方法は :ref:`chart_top` を参照し�
 msgstr "Please refer to :ref:`chart_top` for how to operate the graph drawing area. "
 
 msgid "部分状態密度..."
-msgstr "Partial density of states ..."
+msgstr "Partial DOS..."
 
 msgid "作業ディレクトリ(:file:`dia_mx_data\\\\`)を指定し、部分状態密度(PDOS)を表示します。"
 msgstr "Specify the working directory ( :file:`dia_mx_data\\\\`) and display the partial density of states (PDOS)."
 
 msgid "フェルミ面..."
-msgstr "Fermi surface ..."
+msgstr "Fermi Surface ..."
 
 msgid "作業ディレクトリ(:file:`dia_mx_data\\\\`)を指定し、フェルミ面を表示します。"
 msgstr "Specify the working directory ( :file:`dia_mx_data\\\\`) and display the fermi surface."
