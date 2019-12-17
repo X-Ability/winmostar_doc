@@ -31,7 +31,7 @@ msgstr "NOTTRANSLATED"
 "every feature :ref:`cygwin_wm <cygwinwm_top>` is required."
 
 msgid "溶媒を配置/セルを構築"
-msgstr "Place solvent / build cell"
+msgstr "Solvent/Build Cell..."
 
 msgid "本機能は主に以下の2つの目的で使用されます。"
 msgstr "This function is mainly used for the following two purposes."
@@ -205,7 +205,7 @@ msgid "このウィンドウで設定された内容に従いシミュレーシ�
 msgstr "Create a simulation cell according to the contents set in this window."
 
 msgid "分子を挿入"
-msgstr "Insert molecule"
+msgstr "Insert Molecules..."
 
 msgid ""
 "mol2形式で保存された分子を複数個、メインウィンドウに表示されている構造に追加することができます。 "
@@ -226,10 +226,10 @@ msgid "内部動作は :ref:`md_solvate_buildcell` と同じです。"
 msgstr "The internal operation is the same as :ref:`md_solvate_buildcell`."
 
 msgid "電荷を割り当て"
-msgstr "Assign charge"
+msgstr "Assign Charges..."
 
 msgid "Acpypeを使用"
-msgstr "Use Acpype"
+msgstr "By Acpype..."
 
 msgid ""
 "メインウィンドウに1分子だけ表示されている状態で本機能を呼び出すと、AM1-BCCまたはGasteigerの方法で点電荷を各原子に対して割り当てます。"
@@ -256,7 +256,7 @@ msgstr "NOTTRANSLATED"
 "written in the working folder below :file:`input.acpype\\input_GMX.itp` will be the result."
 
 msgid "マニュアル入力"
-msgstr "Manual input"
+msgstr "By Manual Entry..."
 
 msgid "メインウィンドウに表示されている分子（結晶）構造に対し、原子種毎に点電荷の値を直接指定することができます。主に固体系向けの機能です。"
 msgstr "NOTTRANSLATED"
@@ -265,19 +265,19 @@ msgstr "NOTTRANSLATED"
 "mainly for solid system."
 
 msgid "ポリマー"
-msgstr "polymer"
+msgstr "Polymer"
 
 msgid ":ref:`md_polymer_top` を参照してください。"
 msgstr "See :ref:`md_polymer_top`."
 
 msgid "界面ビルダ"
-msgstr "Interface builder"
+msgstr "Interface Builder"
 
 msgid ":ref:`md_interface_top` を参照してください。"
 msgstr "See :ref:`md_interface_top`."
 
 msgid "水をイオンに置換"
-msgstr "Replace water with ions"
+msgstr "Generate Ions..."
 
 msgid ""
 "水分子を単原子イオンに置換します。あらかじめ系内に水分子を配置しておく必要があります。水を配置するためには "

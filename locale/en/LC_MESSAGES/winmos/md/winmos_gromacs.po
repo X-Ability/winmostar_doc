@@ -32,7 +32,7 @@ msgstr "NOTTRANSLATED"
 "required."
 
 msgid "キーワード設定"
-msgstr "Keyword setting"
+msgstr "Configure..."
 
 msgid ""
 "Gromacsの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は"
@@ -815,7 +815,7 @@ msgstr "NOTTRANSLATED"
 "by :guilabel:`Distance`."
 
 msgid "Gromacs実行"
-msgstr "Run Gromacs"
+msgstr "Run..."
 
 msgid "Gromacsを実行します。 状況に応じて実行方法が異なります。"
 msgstr "Run Gromacs. The execution method differs depending on the situation."
@@ -1033,7 +1033,7 @@ msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
 msgstr "The job is run through :ref:`winmosjm_top`."
 
 msgid "ログを表示 (out)"
-msgstr "Display log (out)"
+msgstr "Open stdout File..."
 
 msgid "Gromacs実行時のシェルスクリプトの標準出力（ :file:`\\*.out` ）をテキストエディタで開きます。"
 msgstr "NOTTRANSLATED"
@@ -1041,7 +1041,7 @@ msgstr "NOTTRANSLATED"
 "running Gromacs with a text editor."
 
 msgid "ログを表示 (log)"
-msgstr "Display log (log)"
+msgstr "Open Log File (log)..."
 
 msgid ""
 ":command:`gmx mdrun` のログファイル（ :file:`\\*_gmx_tmp\\\\gmx_tmp_mdrun.log` "
@@ -1051,7 +1051,7 @@ msgstr "NOTTRANSLATED"
 ":command:`gmx mdrun` with a text editor."
 
 msgid "アニメーション"
-msgstr "animation"
+msgstr "Animation..."
 
 msgid "groファイルとtrrファイルを選択し、MD計算のトラジェクトリをアニメーション表示します。"
 msgstr "NOTTRANSLATED"
@@ -1065,7 +1065,7 @@ msgid "アニメーション表示の操作方法は :ref:`animation_top` を参
 msgstr "For the animation display operation method, see :ref:`animation_top`."
 
 msgid "エネルギー変化"
-msgstr "Energy change"
+msgstr "Energy Plot..."
 
 msgid ""
 "Gromacsが出力したedrファイルを選択し、エネルギー、温度、圧力などの各種熱力学量のグラフを表示します。内部的には "
@@ -1079,7 +1079,7 @@ msgid "サブウィンドウの操作方法は :ref:`energyplot_top` を参照�
 msgstr "Please see :ref:`energyplot_top` for how to operate subwindow."
 
 msgid "最終構造を読み込み"
-msgstr "Read final structure"
+msgstr "Import Last Coordinate (gro)..."
 
 msgid ":file:`\\*_gmx_tmp\\\\gmx_tmp_mdrun.gro` を開きます。"
 msgstr ":file:`\\ * _ gmx_tmp \\\\ gmx_tmp_mdrun.gro`."
@@ -1090,7 +1090,7 @@ msgstr "NOTTRANSLATED"
 "change."
 
 msgid "連続ジョブ設定"
-msgstr "Continuous job setting"
+msgstr "Configure Sequential Job..."
 
 msgid ""
 "Gromacsを連続実行するための設定を行います。プリセット以外の設定で実行したい場合は、あらかじめ実行したい計算条件を "
@@ -1102,7 +1102,7 @@ msgstr "NOTTRANSLATED"
 "gmxset format with the :guilabel:`Save` button."
 
 msgid "連続ジョブ実行"
-msgstr "Continuous job execution"
+msgstr "Run Sequential Job..."
 
 msgid ":ref:`md_gromacs_seq_setup` の内容に基づきGromacsを連続実行します。"
 msgstr "NOTTRANSLATED"
@@ -1110,7 +1110,7 @@ msgstr "NOTTRANSLATED"
 "`md_gromacs_seq_setup`."
 
 msgid "動径分布関数"
-msgstr "Radial distribution function"
+msgstr "Radial Distribution Function..."
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、動径分布関数を表示します。 内部的には :command:`gmx rdf` "
@@ -1217,7 +1217,7 @@ msgid "グラフ描画エリアの操作方法は :ref:`chart_top` を参照し�
 msgstr "For how to operate the graph drawing area, see :ref:`chart_top`."
 
 msgid "平均二乗変位"
-msgstr "Mean square displacement"
+msgstr "Mean Square Displacement..."
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、平均二乗変位と自己拡散係数を表示します。 内部的には "
@@ -1237,7 +1237,7 @@ msgstr "NOTTRANSLATED"
 "displacement graph."
 
 msgid "散乱関数"
-msgstr "Scattering function"
+msgstr "Scattering Function"
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、散乱関数を表示します。 内部的には :command:`gmx saxs` "
@@ -1257,7 +1257,7 @@ msgstr "NOTTRANSLATED"
 "calculation is necessary if it is too small."
 
 msgid "速度相関/振動スペクトル"
-msgstr "Velocity correlation / vibration spectrum"
+msgstr "Velocity Autocorr/Vibration Spectrum..."
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、速度相関関数および振動スペクトルを表示します。 内部的には "
@@ -1280,7 +1280,7 @@ msgid "振動スペクトルを出力します。"
 msgstr "Output vibration spectrum."
 
 msgid "比誘電率"
-msgstr "Specific rate"
+msgstr "Static Dielectric Constant..."
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、比誘電率を表示します。 内部的には :command:`gmx "
@@ -1291,7 +1291,7 @@ msgstr "NOTTRANSLATED"
 "executed."
 
 msgid "粘度"
-msgstr "viscosity"
+msgstr "Share Viscosity..."
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、粘度を表示します。 内部的には :command:`gmx tcaf` "
@@ -1301,7 +1301,7 @@ msgstr "NOTTRANSLATED"
 "viscosity. Internally the: command: `gmx tcaf` command is executed."
 
 msgid "密度分布"
-msgstr "Density distribution"
+msgstr "Density Profile..."
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、密度分布を表示します。 内部的には :command:`gmx "
@@ -1319,7 +1319,7 @@ msgstr "NOTTRANSLATED"
 "here."
 
 msgid "Hildebrand溶解度パラメータ"
-msgstr "Hildebrand solubility parameter"
+msgstr "Hildebrand Solubility Parameter..."
 
 msgid ""
 "Gromacsが出力したedr, groファイルから、Hildebrand溶解度パラメータを算出します。気相と液相それぞれの計算結果が必要です。 "
@@ -1333,7 +1333,7 @@ msgstr "NOTTRANSLATED"
 "rate necessary for calculating the solubility parameter."
 
 msgid "χ/DPDパラメータ"
-msgstr "χ / DPD parameter"
+msgstr "Chi/DPD parameter"
 
 msgid ""
 "Gromacsが出力したedr, groファイルから、χパラメータ・DPD "
@@ -1346,7 +1346,7 @@ msgstr "NOTTRANSLATED"
 "by :ref:`md_gromacs_hildebrand`."
 
 msgid "トラジェクトリを編集"
-msgstr "Edit trajectory"
+msgstr "Modify Trajectory File..."
 
 msgid ""
 "Gromacsが出力したtrrまたはxtcファイルのトラジェクトリデータについて、間引き、回転、空間分布関数の算出などの操作を行います。 "
@@ -1415,7 +1415,7 @@ msgstr "NOTTRANSLATED"
 "selected as a group is newly added to the ndx file."
 
 msgid "RMSD"
-msgstr "RMSD"
+msgstr "Root Mean Square Deviation..."
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、RMSD（主にタンパク向け）を表示します。 内部的には "
@@ -1430,7 +1430,7 @@ msgstr "NOTTRANSLATED"
 ":guilabel:`Backbone`."
 
 msgid "慣性半径"
-msgstr "Radius of inertia"
+msgstr "Radius of Gyration..."
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、回転半径（主にタンパク向け）を表示します。 内部的には "
@@ -1446,7 +1446,7 @@ msgstr "NOTTRANSLATED"
 "select Backbone."
 
 msgid "Ramachandoranプロット"
-msgstr "Ramachandoran plot"
+msgstr "Ramachandoran Plot..."
 
 msgid ""
 "Gromacsが出力したtrr, tpr, ndxファイルを選択し、各アミノ酸残基のRamachandoranプロットを表示します。 内部的には "
@@ -1463,7 +1463,7 @@ msgid "ここで選択した残基のRamachandoranプロットが出力されま
 msgstr "Here a Ramachandoran plot of the selected residue is output."
 
 msgid "ER法実行"
-msgstr "ER method execution"
+msgstr "Start ER..."
 
 msgid "エネルギー表示(ER)法を使用して溶媒和自由エネルギーを計算します。"
 msgstr "NOTTRANSLATED"
@@ -1548,7 +1548,7 @@ msgstr "NOTTRANSLATED"
 "select the :ref:`md_gromacs_er_result` menu."
 
 msgid "ER法結果読み込み"
-msgstr "Read ER method result"
+msgstr "Import ER..."
 
 msgid ""
 ":ref:`md_gromacs_er_start` にて処理した結果を表示します。選択後、 :ref:`md_gromacs_er_start`"
@@ -1562,7 +1562,7 @@ msgstr "NOTTRANSLATED"
 "ERmod's log file."
 
 msgid "BAR法実行"
-msgstr "BAR method execution"
+msgstr "Start BAR..."
 
 msgid "Bennett Acceptance Ratio(BAR)法を使用して溶媒和自由エネルギーを計算します。"
 msgstr "NOTTRANSLATED"
@@ -1615,7 +1615,7 @@ msgstr "NOTTRANSLATED"
 ":ref:`md_gromacs_bar_result`."
 
 msgid "BAR法結果読み込み"
-msgstr "Reading results of BAR method"
+msgstr "Import BAR..."
 
 msgid ""
 ":ref:`md_gromacs_bar_start` "

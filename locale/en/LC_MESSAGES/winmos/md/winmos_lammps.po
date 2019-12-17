@@ -27,7 +27,7 @@ msgid "LAMMPSをインストールする方法は :ref:`install_install` に記�
 msgstr "The method of installing LAMMPS is described in :ref:`install_install`."
 
 msgid "キーワード設定"
-msgstr "Keyword setting"
+msgstr "Configure..."
 
 msgid ""
 "LAMMPSの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は "
@@ -811,7 +811,7 @@ msgstr "NOTTRANSLATED"
 "by :guilabel:`Distance`."
 
 msgid "LAMMPS実行"
-msgstr "Run LAMMPS"
+msgstr "Run..."
 
 msgid "LAMMPSを実行します。 状況に応じて実行方法が異なります。"
 msgstr "Execute LAMMPS. The execution method differs depending on the situation."
@@ -1015,7 +1015,7 @@ msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
 msgstr "The job is run through :ref:`winmosjm_top`. "
 
 msgid "アニメーション"
-msgstr "animation"
+msgstr "Animation..."
 
 msgid "dataファイルとdumpファイルを選択し、MD計算のトラジェクトリをアニメーション表示します。"
 msgstr "NOTTRANSLATED"
@@ -1029,7 +1029,7 @@ msgid "アニメーション表示の操作方法は :ref:`animation_top` を参
 msgstr "For the animation display operation method, see :ref:`animation_top`."
 
 msgid "エネルギー変化"
-msgstr "Energy change"
+msgstr "Energy Plot..."
 
 msgid "ログファイルを選択し、エネルギー、温度、圧力などの各種熱力学量のグラフを表示します。thermo_styleで指定した値をプロットすることができます。"
 msgstr "NOTTRANSLATED"
@@ -1041,7 +1041,7 @@ msgid "サブウィンドウの操作方法は :ref:`energyplot_top` を参照�
 msgstr "Please see :ref:`energyplot_top` for how to operate subwindow."
 
 msgid "最終構造を読み込み"
-msgstr "Read final structure"
+msgstr "Import Last Coordinate (data)..."
 
 msgid ":file:`\\*_lmp_tmp\\\\lmp_tmp_final.gro` を開きます。"
 msgstr "Open :file:`\\*_lmp_tmp\\\\lmp_tmp_final.gro`."
@@ -1051,7 +1051,7 @@ msgstr "NOTTRANSLATED"
 "When using this function, the file name of the main window does not change."
 
 msgid "動径分布関数"
-msgstr "Radial distribution function"
+msgstr "Radial Distribution Function..."
 
 msgid "LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndxファイルを選択し、動径分布関数を表示します。"
 msgstr "NOTTRANSLATED"
@@ -1062,7 +1062,7 @@ msgid "詳細は :ref:`md_gromacs_rdf` を参照してください。"
 msgstr "See :ref:`md_gromacs_rdf` for details."
 
 msgid "平均二乗変位"
-msgstr "Mean square displacement"
+msgstr "Mean Square Displacement..."
 
 msgid "LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndxファイルを選択し、平均二乗変位と自己拡散係数を表示します。"
 msgstr "NOTTRANSLATED"
@@ -1074,7 +1074,7 @@ msgid "詳細は :ref:`md_gromacs_msd` を参照してください。"
 msgstr "See :ref:`md_gromacs_msd` for details."
 
 msgid "散乱関数"
-msgstr "Scattering function"
+msgstr "Scattering Function..."
 
 msgid "LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndxファイルを選択し、散乱関数を表示します。"
 msgstr "NOTTRANSLATED"
@@ -1085,7 +1085,7 @@ msgid "詳細は :ref:`md_gromacs_saxs` を参照してください。"
 msgstr "For details, see :ref:`md_gromacs_saxs`."
 
 msgid "比誘電率"
-msgstr "NOTTRANSLATED"
+msgstr "Static Dielectric Function..."
 
 msgid "LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndx, mdp, topファイルを選択し、散乱関数を表示します。"
 msgstr "NOTTRANSLATED"
@@ -1096,7 +1096,7 @@ msgid "詳細は :ref:`md_gromacs_permittivity` を参照してください。"
 msgstr "See :ref:`md_gromacs_rdf` for details."
 
 msgid "密度分布"
-msgstr "NOTTRANSLATED"
+msgstr "Density Profile..."
 
 msgid "LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndx, mdp, topファイルを選択し、密度分布を表示します。"
 msgstr "NOTTRANSLATED"
@@ -1107,16 +1107,16 @@ msgid "詳細は :ref:`md_gromacs_densityprof` を参照してください。"
 msgstr "See :ref:`md_gromacs_rdf` for details."
 
 msgid "各種自己相関関数"
-msgstr "Various autocorrelation functions"
+msgstr "Autocorrelation Function..."
 
 msgid "Green-Kubo式を用いた熱伝導率、粘度算出時に出力される自己相関関数を表示します。"
 msgstr "Displays the autocorrelation function that is output when calculating the thermal conductivity and viscosity using the Green-Kubo equation."
 
 msgid "散逸粒子動力学"
-msgstr "Dissipative particle dynamics"
+msgstr "Dissipative Particle Dynamics"
 
 msgid "DPDセルビルダ"
-msgstr "DPD Cell Builder"
+msgstr "DPD Cell Builder..."
 
 msgid "散逸粒子動力学用のシミュレーションセルを作成します。"
 msgstr "Create a simulation cell for dissipative particle dynamics."
@@ -1215,7 +1215,7 @@ msgid "ウィンドウを閉じます。"
 msgstr "Close the window."
 
 msgid "ポテンシャル編集"
-msgstr "Potential editing"
+msgstr "DPD Potential Editer..."
 
 msgid "Winmostar独自形式の散逸粒子動力学用のポテンシャルファイルを作成・編集します。"
 msgstr "NOTTRANSLATED"

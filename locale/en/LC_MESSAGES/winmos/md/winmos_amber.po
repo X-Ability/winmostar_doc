@@ -32,7 +32,7 @@ msgstr "NOTTRANSLATED"
 " required."
 
 msgid "LEaPキーワード設定"
-msgstr "LEaP keyword setting"
+msgstr "Configure LEaP..."
 
 msgid ""
 "tLEaPを用いて座標（crd）、トポロジ（prmtop）ファイルを作成する条件を設定します。 "
@@ -90,7 +90,7 @@ msgid "その他のLEaPコマンドを記述します。"
 msgstr "Write other LEaP commands."
 
 msgid "LEaP実行"
-msgstr "Execute LEaP"
+msgstr "Run LEaP..."
 
 msgid ""
 "tLEaPを用いて座標（crd）ファイルおよびトポロジ（prmtop）ファイルを作成します。 "
@@ -101,7 +101,7 @@ msgstr "NOTTRANSLATED"
 " and processing will be done in that folder."
 
 msgid "sanderキーワード設定"
-msgstr "sander keyword setting"
+msgstr "Configure sander..."
 
 msgid "sanderによる計算を実行するための条件を設定します。 各項目を選択して指定し、[OK]ボタンをクリックします。"
 msgstr "NOTTRANSLATED"
@@ -262,7 +262,7 @@ msgid "その他の設定を記述します。"
 msgstr "Write the other settings."
 
 msgid "sander実行"
-msgstr "Run sander"
+msgstr "Run sander..."
 
 msgid "sanderを実行します。 （拡張子を除くcrdファイル名）_amb_tmpという名前の作業フォルダを作成して、そのフォルダで処理が行われます。"
 msgstr "NOTTRANSLATED"
@@ -273,7 +273,7 @@ msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
 msgstr "The job is run through :ref:`winmosjm_top`."
 
 msgid "座標ファイル読み込み"
-msgstr "Read coordinate file"
+msgstr "Import Coordinate File..."
 
 msgid "Amber形式の座標（crd）ファイルとトポロジ（prmtop）ファイルを読み込みメインウィンドウに表示します。"
 msgstr "NOTTRANSLATED"
@@ -292,7 +292,7 @@ msgid "アニメーション表示の操作方法は :ref:`animation_top` を参
 msgstr "For the animation display operation method, see :ref:`animation_top`."
 
 msgid "エネルギー変化"
-msgstr "Energy change"
+msgstr "Energy Plot..."
 
 msgid "計算結果のlogファイルからエネルギーのグラフを表示します。"
 msgstr "Display the energy graph from the calculated log file."
