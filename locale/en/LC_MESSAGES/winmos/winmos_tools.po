@@ -21,16 +21,16 @@ msgid "ツールメニュー"
 msgstr "Tool menu"
 
 msgid "環境設定"
-msgstr "Environmental setting"
+msgstr "Preferences..."
 
 msgid "環境設定ウィンドウを開きます。 詳細は :ref:`preferences_top` を参照してください。"
 msgstr "Open the Preferences window. For details, see :ref:`preferences_top`."
 
 msgid "フラグメントを登録/削除"
-msgstr "Create / delete fragment"
+msgstr "Save/Delete Fragment"
 
 msgid "フラグメントを登録"
-msgstr "Create fragment"
+msgstr "Save Fragment"
 
 msgid "メインウィンドウに表示されている分子構造を部品として登録します。マーカー（太赤丸）の付いた原子が置換時に接続部分に設定されます。"
 msgstr "NOTTRANSLATED"
@@ -39,7 +39,7 @@ msgstr "NOTTRANSLATED"
 "part when replacing."
 
 msgid "フラグメントを削除"
-msgstr "Delete fragment"
+msgstr "Delete Fragment"
 
 msgid ""
 ":ref:`ツールバー <gui_main>` の :guilabel:`フラグメントを選択` プルダウンメニュー |repl| "
@@ -48,14 +48,14 @@ msgstr "NOTTRANSLATED"
 "Delete the registation of the parts selected by :guilabel:`select a fragment` by pull down menu | repl | of :ref:`toolbar <gui_main>`."
 
 msgid "配座探索(Balloon)"
-msgstr "With a seat (Balloon)"
+msgstr "Conformation Search (Balloon)..."
 
 msgid "Balloonを用いて配座探索を行います。 :guilabel:`Search` ボタンをクリックすると処理が開始されます。"
 msgstr "NOTTRANSLATED"
 "We will search for conformation using Balloon. Click :guilabel:`Search` button to start processing."
 
 msgid "点群解析"
-msgstr "Point group analysis"
+msgstr "Point Group Analysis"
 
 msgid "モデリングした分子の点群対称性を判定します。"
 msgstr "Determine point group symmetry of modeled molecules."
@@ -192,7 +192,7 @@ msgid "分子の座標情報をXYZ形式で表示します。"
 msgstr "Displays the coordinate information of the molecule in XYZ format."
 
 msgid "分子表面積, 体積"
-msgstr "Molecular surface area, volume"
+msgstr "Molecular Surface Area & Volume"
 
 msgid "分子表面積、体積、卵形度を計算します。"
 msgstr "Calculate the molecular surface area, volume and oval shape."
@@ -234,7 +234,7 @@ msgstr "NOTTRANSLATED"
 "sphere having the same molecular volume) S / 4 π (3 V / 4 π) **"
 
 msgid "アスペクト比"
-msgstr "aspect ratio"
+msgstr "Aspect Ratio"
 
 msgid "分子のアスペクト比を計算します。アスペクト比は、分子が内接する最小直径の円筒の長さLと直径Dの比L/Dとして定義しています。"
 msgstr "NOTTRANSLATED"
@@ -243,13 +243,13 @@ msgstr "NOTTRANSLATED"
 "the smallest diameter inscribed by the molecule."
 
 msgid "慣性半径"
-msgstr "Radius of inertia"
+msgstr "Radius of Gyration"
 
 msgid "分子の慣性半径を計算します。"
 msgstr "Calculate the inertial radius of the molecule."
 
 msgid "Sterimolパラメータ"
-msgstr "Sterimol parameter"
+msgstr "Sterimol Parameters"
 
 msgid ""
 "メインウィンドウ上でグループ選択した部分構造に対して、Sterimolパラメータを計算します。 :guilabel:`Calculate` "
@@ -265,7 +265,7 @@ msgid "ローカルジョブを管理するWinmostar Job Managerを起動しま�
 msgstr "Start Winmostar Job Manager that manages local jobs."
 
 msgid "リモートジョブ投入"
-msgstr "Remote Job submission"
+msgstr "Submit Remote Job..."
 
 msgid "リモートジョブの実行、管理を行うウィンドウを開きます。詳細は :ref:`remote_submitjob` を参照してください。"
 msgstr "Opens a window for executing and managing remote jobs. For details, see :ref:`remote_submitjob`."
@@ -277,19 +277,19 @@ msgid ":ref:`cygwinwm_top` の端末画面（ターミナル）を起動しま�
 msgstr "Start the terminal screen (terminal) of :ref:`cygwinwm_top`."
 
 msgid "単位を変換"
-msgstr "Conver units"
+msgstr "Unit Converter"
 
 msgid "原子・分子系に特化した単位の変換ツールを開きます。"
 msgstr "Opens a unit conversion tool specialized for atomic and molecular systems."
 
 msgid "文字列を検索"
-msgstr "Search string"
+msgstr "Search String..."
 
 msgid "各種ログファイルの中で文字列を検索し、ヒットした行をExcelまたはテキストファイルに出力します。"
 msgstr "It searches character strings in various log files and outputs the hit line to Excel or text file."
 
 msgid "batファイル連続実行"
-msgstr "Continuous execution of bat file"
+msgstr "Batchj Queue..."
 
 msgid "GaussianとGAMESSのbatファイルを連続で実行します。"
 msgstr "We run Gaussian and GAMESS bat files in succession."
@@ -322,7 +322,7 @@ msgstr "NOTTRANSLATED"
 "Continuous execution jobs are saved in :file:`winmos_batjob*.bat`. :guilabel:`Save` and :guilabel:` Load` button to save and load settings."
 
 msgid "分子の重ね合わせ表示"
-msgstr "Overlay display of molecules"
+msgstr "Superimpose Molecules..."
 
 msgid "複数の分子を重ね合わせて表示します。"
 msgstr "Multiple molecules are superimposed and displayed."
