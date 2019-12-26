@@ -4,7 +4,6 @@
 # Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-
 msgid ""
 msgstr ""
 
@@ -23,16 +22,11 @@ msgstr "The processing contents that can be specified are as follows."
 msgid "MOPACの実行"
 msgstr "Execution of MOPAC"
 
-msgid "-mopac1, -mopac2, -mopac3 "
-"それぞれツール・環境設定メニュー・プログラムパスにおいて選択した3種のMOPACバイナリに対応"
-msgstr "-mopac1, -mopac2, -mopac3 "
-"These correspond to the three MOPAC binaries selected in :menuselection:`Tools --> Preferences... --> Program path`."
+msgid "-mopac1, -mopac2, -mopac3"
+msgstr "-mopac1, -mopac2, -mopac3"
 
-msgid "ハンセン溶解度パラメータ計算の実行"
-msgstr "Execution of Hansen solubility parameter calculation"
-
-msgid "-hsp"
-msgstr "-hsp"
+msgid "(それぞれ :ref:`preferences_top` :menuselection:`--> プログラムパス` において選択した3種のMOPACバイナリに対応)"
+msgstr "These correspond to the three MOPAC binaries selected in :ref:`preferences_top` :menuselection:`--> Program Path`."
 
 msgid "分子表面積・体積の計算"
 msgstr "Calculation of molecular surface area and volume"
@@ -46,24 +40,54 @@ msgstr "Calculation of aspect ratio"
 msgid "-aspect"
 msgstr "-aspect"
 
-msgid "ファイル形式の変換(dat,gjf,mol,pdb等)"
-msgstr "File format conversion (dat, gjf, mol, pdb etc)"
+msgid "座標調整"
+msgstr "Coordinate Adjustment"
 
-msgid "-o (output filename)"
-msgstr "-o (output filename)"
+msgid "-adjust"
+msgstr "-adjust"
 
-msgid "使用例::"
+msgid "水素付加"
+msgstr "Add Hydrogens"
+
+msgid "-hadd"
+msgstr "-hadd"
+
+msgid "水素削除"
+msgstr "Delete Hydrogens"
+
+msgid "-hdel"
+msgstr "-hdel"
+
+msgid "簡易構造最適化"
+msgstr "Quick Optimization"
+
+msgid "-clean"
+msgstr "-clean"
+
+msgid "ファイル形式を変更して保存"
+msgstr "Change file type and save"
+
+msgid "-o output_file_extension"
+msgstr "-o output_file_extension"
+
+msgid "ファイル名を指定して保存"
+msgstr "Save as specified file name"
+
+msgid "-outfile output_file_name"
+msgstr "-outfile output_file_name"
+
+msgid "使用例:"
 msgstr "Use case:"
 
-msgid "実行プログラムを指定した時は処理後に自動的にWinmostarが終了するので、DOSのBATファイルを記述し、MOPAC等を連続的に実行することができます。"
-msgstr "When executable program is specified, Winmostar ends automatically after processing, so you can write DOS BAT file and run MOPAC etc. continuously."
+msgid "初期入力ファイルを第一引数に指定します。"
+msgstr "Specify input file at first argument."
 
-msgid "-oオプションでファイル形式を変換する際に、「adjust」(座標調整)、「hadd」(水素付加)、「hdel」(水素削除)、「clean」(クリーン)を指定することもできます。"
-msgstr "You can also specify "adjust" (coordinate adjustment), " hadd" (hydrogen addition), "hdel" (hydrogen removal), "clean" (clean) when converting the file format with the -o option."
+msgid "-sを指定した時は処理後に自動的にWinmostarが終了するので、DOSのBATファイルを記述し、MOPAC等を連続的に実行することができます。Samples\\\\wmjobs.batを参考にしてください。"
+msgstr "When -s is specified, Winmostar ends automatically after processing, so you can write DOS BAT file and run MOPAC etc. continuously. See Samples\\wmjobs.bat for reference."
 
-msgid "samplesフォルダのwmjobs.batに使用例があります。"
-msgstr "There is an example of use in wmjobs.bat in the samples folder."
+msgid "-sを除く-から始まるコマンドは指定した順に実行されます。"
+msgstr "Commands starting with \"-\" except \"-s\" are executed in the order specified."
 
 msgid "GaussianとGAMESSを連続実行する場合は、この方法ではなく :menuselection:`ツール --> 連続実行` を使用します。"
-msgstr "If you want to run Gaussian and GAMESS sequentially, use this :menuselection:`Tools --> Batch Queue...` instead."
+msgstr "If you want to run Gaussian and GAMESS sequentially, use :menuselection:`Tools --> Batch Queue...` instead."
 
