@@ -80,9 +80,9 @@ msgid ""
 msgstr "`Download page <https://winmostar.com/jp/download_jp.html> Download the installer: file: `winmostar0_setup_X.XXexe` (`: file: `XXX` is the version) from` _ and execute it."
 
 msgid ""
-"インストール先フォルダを指定し（デフォルトは :file:`C:\\\\winmos9` "
+"インストール先フォルダを指定し（デフォルトは :file:`C:\\\\winmos10` "
 "）インストールを開始すると、スタートメニューとデスクトップにショートカットが作成されます。"
-msgstr "Specify the installation folder (default: file: `C: \\\\ winmos9`) When you start the installation, a shortcut is created on the start menu and on the desktop."
+msgstr "Specify the installation folder (default: file: `C: \\\\ winmos10`) When you start the installation, a shortcut is created on the start menu and on the desktop."
 
 msgid "インストール先フォルダおよびその上位階層の名前に日本語、全角文字などのマルチバイト文字や特殊記号が含まれている場合は、一部のモジュールが不具合を起こす場合があります。"
 msgstr "If multibyte characters such as Japanese and double-byte characters and special symbols are included in the installation folder and the name of the higher hierarchy, some modules may cause problems."

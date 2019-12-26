@@ -31,10 +31,10 @@
 
 使用例:
 
-   "C:\winmos9\winmostar.exe" "C:\winmos9\samples\dbt.dat" -s -mopac1
-   "C:\winmos9\winmostar.exe" "C:\winmos9\samples\dbt.dat" -s -molsv 1 2.0 0.02
-   "C:\winmos9\winmostar.exe" "C:\winmos9\samples\dbt.dat" -s -o pdb
-   "C:\winmos9\winmostar.exe" "C:\winmos9\samples\dbt.dat" -s -adjust -hadd -clean -o gjf 
+   "C:\winmos10\winmostar.exe" "C:\winmos9\samples\dbt.dat" -s -mopac1
+   "C:\winmos10\winmostar.exe" "C:\winmos9\samples\dbt.dat" -s -molsv 1 2.0 0.02
+   "C:\winmos10\winmostar.exe" "C:\winmos9\samples\dbt.dat" -s -o pdb
+   "C:\winmos10\winmostar.exe" "C:\winmos9\samples\dbt.dat" -s -adjust -hadd -clean -o gjf 
 
 | 初期入力ファイルを第一引数に指定します。
 | -sを指定した時は処理後に自動的にWinmostarが終了するので、DOSのBATファイルを記述し、MOPAC等を連続的に実行することができます。Samples\\wmjobs.batを参考にしてください。

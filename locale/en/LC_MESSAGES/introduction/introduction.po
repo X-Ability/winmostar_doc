@@ -58,8 +58,8 @@ msgid ""
 "というラベルの付いたGUIのことを意味します。"
 msgstr "It shows the flow that follows menu, tab, etc. From the menu, follow the menu :menuselection:`Tools --> Preferences` and click on the tab called :guilabel:`basic` in the opened window and find the label :guilabel:`license code` It means GUI with."
 
-msgid ":file:`wmset.ini` , :file:`C\\\\:winmos9\\\\UserPref`"
-msgstr ":file:`wmset.ini`, :file:`C\\\\:winmos9\\\\UserPref`"
+msgid ":file:`wmset.ini` , :file:`C\\\\:winmos10\\\\UserPref`"
+msgstr ":file:`wmset.ini`, :file:`C\\\\:winmos10\\\\UserPref`"
 
 msgid "ファイル名やディレクトリ名を示します。"
 msgstr "Indicates file name or directory name."

@@ -36,7 +36,7 @@ Winmostar(TM)が呼び出したソルバや各種補助プログラムの引用�
    開いたウィンドウの :guilabel:`基本` というタブをクリックし、その中にある
    :guilabel:`ライセンスコード` というラベルの付いたGUIのことを意味します。
 
-:file:`wmset.ini` , :file:`C\\:winmos9\\UserPref`
+:file:`wmset.ini` , :file:`C\\:winmos10\\UserPref`
    ファイル名やディレクトリ名を示します。
 
 :command:`ls /usr/local/bin`

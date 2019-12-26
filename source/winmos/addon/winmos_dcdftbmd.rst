@@ -33,9 +33,9 @@ DCDFTBMD
          系全体のスピン多重度を指定します。
       Parameter Set
          使用するパラメータの種類を選択します。
-         Winmostarのインストールフォルダ（デフォルトでは :file:`C:\\winmos9\\` ）の下の :file:`DFTBParam` フォルダに配置したフォルダの名前がリストアップされます。
+         Winmostarのインストールフォルダ（デフォルトでは :file:`C:\\winmos10\\` ）の下の :file:`DFTBParam` フォルダに配置したフォルダの名前がリストアップされます。
          :file:`DFTBParam` フォルダの下に置くフォルダは、skfなどのパラメータファイルを含む必要があります。
-         例えば、 :file:`C:\\winmos9\\DFTBParam\\mio-1-1\\C-C.skf` という階層構造が想定されます。
+         例えば、 :file:`C:\\winmos10\\DFTBParam\\mio-1-1\\C-C.skf` という階層構造が想定されます。
       Open Directory for Parameter Set
          前述の :file:`DFTBParam` フォルダを開きます。
       Reload Parameter Set

@@ -75,7 +75,7 @@ Hansen SP & QSPRモデル
      cd %~dp0
 
      for %%F in (*.mol2) do (
-       C:\winmos9\winmostar.exe %%F -hsp
+       C:\winmos10\winmostar.exe %%F -s -hsp
      )
 
      pause
