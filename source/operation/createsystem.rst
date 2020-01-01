@@ -35,7 +35,7 @@
       
       8. 明示的に部分構造を回転させたい場合は :ref:`edit_partial_edit` :menuselection:`--> 部分回転` を実行する。
       
-      9. 様々な配座を取りうる分子の場合は :menuselection:`ツール --> ` :ref:`tools_balloon` を実行し、エネルギーの低い構造を選択する。
+      9. 様々な配座を取りうる分子の場合は :menuselection:`ツール -->` :ref:`tools_balloon` を実行し、エネルギーの低い構造を選択する。
       
    - ポリマーの場合は、直接分子全体をモデリングしても良いが、 :ref:`md_polymer_top` の方法を使った方が効率が良い。
    
