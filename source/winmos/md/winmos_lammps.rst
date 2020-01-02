@@ -9,6 +9,13 @@
    
    LAMMPSをインストールする方法は :ref:`install_install` に記載しています。
 
+.. _md_lammps_forcefield:
+
+力場を割り当て
+------------------------
+
+.. include:: winmos_gromacs_forcefield.rst
+
 .. _md_lammps_keyword:
 
 キーワード設定
@@ -44,24 +51,30 @@
          計算する系の種類を指定します。 :guilabel:`Units` に応じて変化します。
       Pair Style
          相互作用計算の方法を選択します。
-      Potential File
-         ポテンシャルファイルを選択します。LAMMPS本体をインストールしたフォルダ直下の :file:`Potential` フォルダ内のファイルをリストアップします。選択肢は :guilabel:`Pair Style` に応じて変わります。
+      Force Field/Potential File
+         :guilabel:`Units` がrealの場合には、力場の種類を指定します。special_bonds, bond_style, angle_style, dihedral_style, improper_styleキーワードに影響します。
+         
+         :guilabel:`Units` がreal以外の場合には、ポテンシャルファイルを選択します。LAMMPS本体をインストールしたフォルダ直下の :file:`Potential` フォルダ内のファイルをリストアップします。選択肢は :guilabel:`Units` および :guilabel:`Pair Style` に応じて変わります。
       Time Step
          時間積分の刻み幅を指定します。単位は選択した :guilabel:`Unit` により変わります。
       # of Time Steps
          時間積分ステップの最大数を指定します。
-      Generate Velocity
-         チェックをした場合は初速度が与えられます。
       Ensemble
          時間積分の種類を指定します。 ``nvt`` （温度一定のカノニカルアンサンブル）,  ``npt`` （温度、圧力一定のアンサンブル）,  ``nve`` （体積とエネルギー一定のミクロカノニカルアンサンブル）,  ``minimize`` （CG法によるエネルギー最小化）のいずれかを選択します。
+      Generate Velocity
+         チェックをした場合は初速度が与えられます。
+      Random Seed
+         初速度発生時の擬似乱数の種を指定します。
       Temperature
          目標温度を指定します。アニーリング計算時には始状態の温度を指定します。
-      Pressure
-         目標圧力を指定します。
+      Tdamp
+         温度制御の時定数パラメータを指定します。
       Pressure Control
          圧力制御の際のセルの動かし方を指定します。
-      Constrain Hydrogen
-         水素原子をSHAKE法で拘束します。
+      Pressure
+         目標圧力を指定します。
+      Pdamp
+         圧力制御の時定数パラメータを指定します。
    Advance
       Boundary X Y Z
          周期境界条件を指定します。 ``p`` （periodic）, ``f`` （non-periodic and fixed）, ``s`` （non-periodic and shrink-wrapped）,  ``m`` （non-periodic and shrink-wrapped with a minimum value）のいずれかを選択します。
@@ -69,26 +82,22 @@
          minimize計算時のエネルギーに関する打ち切り誤差を指定します。
       Force Tolerance
          minimize計算時の力に関する打ち切り誤差を指定します。
-      Tdamp
-         温度制御の時定数パラメータを指定します。
-      Pdamp
-         圧力制御の時定数パラメータを指定します。
       Reset COM Motion
          MD計算時に系全体の重心の運動を凍結する方法を選びます。
       Reset Interval
           :guilabel:`Reset COM Motion` の頻度をタイムステップで指定します
-      Random Seed
-         初速度発生時の擬似乱数の種を指定します。
       Tchain
          Nose-Hoover chainの段数を指定します。
       Pchain
          圧力制御の段数を指定します。
-      box tilt large
-         シミュレーションセルの変形の許容度合を指定します。
-      rigid
-         分子を剛体として扱います。
+      Constrain hydrogen atoms
+         水素原子をSHAKE法で拘束します。
       SHAKE tolerance
          SHAKE法の打ち切り誤差を指定します。
+      Calculate as rigid body
+         分子を剛体として扱います。
+      Set "box tilt large"
+         シミュレーションセルの変形の許容度合を指定します。
    Output
       Dump Interval (dump)
          dump形式で座標を出力する頻度をタイムステップ数で指定します。
@@ -98,7 +107,9 @@
          xyz形式で座標を出力する頻度をタイムステップ数で指定します。
       Log Interval
          log ファイルにエネルギー変数を書き出す頻度をタイムステップ数で指定します。
-      Calc Fluctuation Properties
+      Sort dump file by id
+         dumpファイル内の粒子の並びをid（通し番号）でソートされた形にします。
+      Calculate Fluctuation Properties
          熱力学量の揺らぎから比熱と等温圧縮率をon-the-flyで計算し出力します。
       Calculate Thermal Conductivity
          原子の流速の自己相関関数とGreen-Kubo式から熱伝導率をon-the-flyで計算し出力します。
@@ -113,14 +124,18 @@
       ACF Length
          粘度計算における自己相関関数の長さを指定します。
    Interaction
-      Cutoff(vdw)
-         vdw(LJ)ポテンシャルのカットオフ半径を指定します。
-      Cutoff(Coulomb)
-         Coulomb(静電)ポテンシャルのカットオフ半径を指定します。
+      Modify cutoff radii not to exceed L/2
+         チェックを入れた場合は、Cutoff (vdw), Cutoff (Coulomb)が格子定数の半分を超えないように自動調整します。
       Neighbor Search
          近接粒子探索時のアルゴリズムを指定します。
       Neighbor Skin
          近接粒子探索時の探索半径の余分を指定します。
+      Cutoff(vdw)
+         vdw(LJ)ポテンシャルのカットオフ半径を指定します。
+      Enable Long Range Correction
+         vdwポテンシャルのカットオフ補正項の有無を指定します。
+      Cutoff(Coulomb)
+         Coulomb(静電)ポテンシャルのカットオフ半径を指定します。
       Automatically set Nmesh
          :guilabel:`Pair Style` = ``lj/cut/coul/long`` の際に使用されるPPPM法のメッシュ数をK-space accuracyから自動的に設定します。
       Nmesh for kx, ky, kz
@@ -129,8 +144,6 @@
          PPPM法のSpline補間次数を指定します。
       K-space accuracy
          PPPM法の許容相対誤差を指定します。
-      Enable Long Range Correction
-         vdwポテンシャルのカットオフ補正項の有無を指定します。
    Non-equiliibrium (1)
       Enable Elongation
          伸長計算を有効にします。 :guilabel:`Ensemble` が ``minimize`` 以外の時に指定できます。
@@ -140,23 +153,23 @@
          伸長計算時の伸長速度を工業ひずみで指定します。 :guilabel:`Max Eng. Strain` には最終ステップにおけるひずみの予測値が表示されます。
       Preserve Volume
          伸長計算時に、シミュレーションセルの体積を一定に保つよう伸長方向に垂直な方向のセルサイズを変形させます。
+      Enable Pulling
+         指定した原子群を一定速度で移動させるPull計算を有効にします。 :guilabel:`Ensemble` が ``minimize`` 以外の時に指定できます。
+      Pulled Atoms
+         予め :ref:`select_select_registered_group` でPullしたい原子を登録しておいた状態で :guilabel:`Select Group` ボタンを押し、そのグループを選択します。
+      Pull Velocity
+         Pull計算時の、Pull速度を指定します。
       Enable Simulated Annealing
          アニーリング計算（温度を一定速度で変化させる計算）を有効にします。 :guilabel:`Ensemble` が ``nvt`` , ``npt`` の時に指定できます。 :guilabel:`Temperature` の値が始状態の温度、 :guilabel:`Final Temperature` の値が終状態の温度となります。
       Final Temperature
          アニーリング計算時の終状態の温度を指定します。
       Annealing Rate
          アニーリング計算時の加熱または冷却速度が表示されます。
-      Enable Pulling
-         指定した原子群を一定速度で移動させるPull計算を有効にします。 :guilabel:`Ensemble` が ``minimize`` 以外の時に指定できます。
-      Pulled Atoms
-         Pull計算時に、 :ref:`グループ選択 <edit_top>` でPullしたい原子（複数可）を選択した上で :guilabel:`Set` ボタンをクリックすると、その原子がPullのターゲットとなります。
-      Pulled Velocity
-         Pull計算時の、Pull速度を指定します。
    Restraint
       Enable Restraint
          指定した2原子間の距離を拘束した計算を実施します。:guilabel:`Ensemble` が ``minimize`` 以外の時に指定できます。
       Restrained Atoms
-         拘束計算時に、2原子を :ref:`グループ選択 <edit_top>` し :guilabel:`Set` ボタンをクリックすると、その原子が拘束のターゲットとなります。
+         :guilabel:`Set` ボタンをクリックすると、マーカーが付いた2原子が拘束のターゲットとなります。
       Bond Length
          拘束計算時の、2原子間の拘束距離を指定します。
       Initial Strength
@@ -166,12 +179,14 @@
       Enable Position Restraint
          指定した原子の絶対座標を固定した計算を実施します。固定されていない原子の温度はlogにTempFreeとして出力されます。
       Restrained Atoms
-         絶対座標を固定する原子を指定します。
+         予め :ref:`select_select_registered_group` で拘束したい原子を登録しておいた状態で :guilabel:`Select Group` ボタンを押し、そのグループを選択します。
    Automatic
       Rescale velocities to..
          NVEアンサンブルにおいて目標温度に系の温度を近づけたい時に使います。計算中の平均温度とここで入力した温度からスケーリング係数を算出して、最終構造の各粒子の速度をスケーリングします。
       Rescale box size to..
          NPTアンサンブルで計算した後に、設定圧力に近い状態でNVEまたはNVTアンサンブルで計算した場合に使用します。最終構造を、計算中の平均セルサイズにスケーリングします。
+   Manual entry
+      生成されるLAMMPSのインプットスクリプト(inファイル)の中身が表示されます。この場所で直接編集することも可能です。
    Options
       Make a Backup of Working Directory
          作業ディレクトリのバックアップを行う際に選択します。
@@ -179,6 +194,8 @@
          継続ジョブが異常終了時など、作業ディレクトリを実行前の状態に戻す際にクリックします。
       Dump all files for remote
          Linux環境でのジョブ実行に必要なファイルを出力します。 :ref:`remote_top` 機能で生成されるファイルと同じファイルが出力されます。
+      Generate gro & ndx files every time
+         チェックが入っていない場合は、継続ジョブの時にgroとndxファイルを生成しません。
 
    .. include:: winmos_gromacs_forcefield.rst
 
@@ -190,9 +207,9 @@ LAMMPS実行
    LAMMPSを実行します。
    状況に応じて実行方法が異なります。
 
-      - （デフォルト） :guilabel:`Extending Simulation` にチェックがなく、 :menuselection:`Force Fieldタブ -->` :guilabel:`Generate parameters` にチェックが入っている場合
+      - （デフォルト） :guilabel:`Extending Simulation` にチェックがなく、 :ref:`md_lammps_forcefield` において :guilabel:`自動でパラメータを割り当て` または :guilabel:`パラメータファイルを使用（無機物、ReaxFF、DPD向け）` を選択した場合
          dataファイル（座標とトポロジを含むファイル）を新規に生成してからジョブを開始します。
-      - :guilabel:`Extending Simulation` にチェックがなく、 :menuselection:`Force Fieldタブ -->` :guilabel:`Use parameters in displayed file` にチェックが入っている場合
+      - :guilabel:`Extending Simulation` にチェックがなく、 :ref:`md_lammps_forcefield` において :guilabel:`メインウィンドウのファイルに書かれたパラメータを使用` を選択した場合
          メインウィンドウで開かれているdataファイルを使用してジョブを開始します。
       - :guilabel:`Extending Simulation` にチェックがある場合
          メインウィンドウで開かれているdataファイルに紐づけられた作業ディレクトリの中にある :file:`lmp_tmp_final.data` 用いてジョブを開始します。
@@ -260,6 +277,11 @@ LAMMPS実行
 
    ジョブは :ref:`winmosjm_top` を通じて実行されます。
 
+ログを表示
+----------------------------
+
+   LAMMPSのログファイル（ :file:`\*.log` ）をテキストエディタで開きます。
+
 .. _md_lammps_trajectory:
 
 アニメーション
@@ -287,40 +309,49 @@ LAMMPS実行
    
    本機能を使うとメインウィンドウのファイル名は変化しません。
 
+結果解析
+------------------------------
+
 
 動径分布関数
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndxファイルを選択し、動径分布関数を表示します。
    
    詳細は :ref:`md_gromacs_rdf` を参照してください。
 
 平均二乗変位
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
    LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndxファイルを選択し、平均二乗変位と自己拡散係数を表示します。
    
    詳細は :ref:`md_gromacs_msd` を参照してください。
 
 散乱関数
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
    LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndxファイルを選択し、散乱関数を表示します。
    
    詳細は :ref:`md_gromacs_saxs` を参照してください。
    
 比誘電率
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
    LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndx, mdp, topファイルを選択し、散乱関数を表示します。
    
    詳細は :ref:`md_gromacs_permittivity` を参照してください。
    
 密度分布
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
    LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndx, mdp, topファイルを選択し、密度分布を表示します。
    
    詳細は :ref:`md_gromacs_densityprof` を参照してください。
    
+自由体積
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndx, mdp, topファイルを選択し、自由体積を表示します。
+   
+   詳細は :ref:`md_gromacs_freevolume` を参照してください。
+   
 各種自己相関関数
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
    Green-Kubo式を用いた熱伝導率、粘度算出時に出力される自己相関関数を表示します。
    
 散逸粒子動力学

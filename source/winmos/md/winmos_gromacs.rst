@@ -9,6 +9,13 @@
    
    WinmostarではGromacsをCygwin環境上で実行するため、本機能を利用するためには :ref:`cygwin_wmのセットアップ <install_cygwinwm>` が必要です。
 
+.. _md_gromacs_forcefield:
+
+力場を割り当て
+------------------------
+
+.. include:: winmos_gromacs_forcefield.rst
+
 .. _md_gromacs_keyword:
 
 キーワード設定
@@ -17,6 +24,9 @@
    Gromacsの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は :guilabel:`OK` ボタンを押してください。
    
    :guilabel:`Run` をクリックしたときの挙動は :ref:`md_gromacs_start` を参照してください。
+   
+   電荷が割り当てられていない分子がある場合は、 :ref:`md_charge_auto` が自動で立ち上がります。
+   力場が割り当てられていない場合は、 :ref:`md_gromacs_forcefield` が自動で立ち上がります。
    
    :guilabel:`Reset` ボタンでデフォルトの状態に戻ります。
    :guilabel:`Save` ボタンでForce Fieldを除く設定を保存します。
@@ -70,9 +80,6 @@
             圧力制御の時定数を指定します。
          compressibility
             系全体の圧縮率を指定します。
-      Constraints
-         constraints
-            拘束条件を選択します。
    Advance
       Boundary Condition
          pbc
@@ -97,6 +104,8 @@
          refcoord-scaling
             温度制御時のposition restraintの基準座標のスケーリングについて指定します。
       Constraints
+         constraints
+            拘束条件を選択します。
          constraint-algorithm
             拘束アルゴリズムを選択します。
          continuation
@@ -127,6 +136,9 @@
          compressed-x-grps
             xtc形式で出力するグループを指定します。デフォルトでは系全体が対象となります。
    Interaction
+      Modify cutoff radii not to exceed L/2
+         チェックを入れた場合は、rlist, rvdw, rvdw-switch, rcoulomb, rcoulomb-switchが格子定数の半分を超えないように自動調整します。
+         
       Neighbor Searching
          nstlist
             neighbor listを更新する頻度を指定します。
@@ -195,8 +207,6 @@
       Enable Double Precision
          倍精度版のGromacsのバイナリでMD計算およびプリポスト処理を実行します。
    
-   .. include:: winmos_gromacs_forcefield.rst
-   
 .. _md_gromacs_start:
 
 Gromacs実行
@@ -205,10 +215,10 @@ Gromacs実行
    Gromacsを実行します。
    状況に応じて実行方法が異なります。
    
-      - （デフォルト） :guilabel:`Extending Simulation` にチェックがなく、 :menuselection:`Force Fieldタブ -->` :guilabel:`Generate parameters` にチェックが入っている場合
+      - （デフォルト） :guilabel:`Extending Simulation` にチェックがなく、 :ref:`md_gromacs_forcefield` において :guilabel:`自動でパラメータを割り当て` を選択した場合
          座標ファイル(拡張子：gro)とトポロジファイル(拡張子：top)を新規に生成してからジョブを開始します。
-      - :guilabel:`Extending Simulation` にチェックがなく、 :menuselection:`Force Fieldタブ -->` :guilabel:`Load from existing file` にチェックが入っている場合
-         メインウィンドウで開かれている座標ファイル(拡張子：gro)と、 :guilabel:`Load from existing file` のところで指定したトポロジファイル(拡張子：top)を使用してジョブを開始します。
+      - :guilabel:`Extending Simulation` にチェックがなく、 :ref:`md_gromacs_forcefield` において :guilabel:`トポロジファイルに書かれたパラメータを使用` を選択した場合
+         メインウィンドウで開かれている座標ファイル(拡張子：gro)と、 :ref:`md_gromacs_forcefield` で指定したトポロジファイル(拡張子：top)を使用してジョブを開始します。
       - :guilabel:`Extending Simulation` にチェックがある場合
          メインウィンドウで開かれている座標ファイル(拡張子：gro)に紐づけられた作業ディレクトリの中にある座標ファイル（ :file:`gmx_mdrun_tmp.gro` ）とトポロジファイル（ :file:`gmx_tmp.top` ）を用いてジョブを開始します。
 
@@ -276,16 +286,16 @@ Gromacs実行
       
    ジョブは :ref:`winmosjm_top` を通じて実行されます。
 
-ログを表示 (out)
----------------------
-
-   Gromacs実行時のシェルスクリプトの標準出力（ :file:`\*.out` ）をテキストエディタで開きます。
-
 ログを表示 (log)
 ----------------------------
 
    :command:`gmx mdrun` のログファイル（ :file:`\*_gmx_tmp\\gmx_tmp_mdrun.log` ）をテキストエディタで開きます。
 
+
+標準出力を表示
+---------------------
+
+   Gromacs実行時のシェルスクリプトの標準出力（ :file:`\*.out` ）をテキストエディタで開きます。
 
 .. _md_gromacs_trajectory:
 
@@ -314,24 +324,13 @@ Gromacs実行
    
    本機能を使うとメインウィンドウのファイル名は変化しません。
 
-
-.. _md_gromacs_seq_setup:
-
-連続ジョブ設定
----------------------
-
-   Gromacsを連続実行するための設定を行います。プリセット以外の設定で実行したい場合は、あらかじめ実行したい計算条件を :ref:`md_gromacs_keyword` にて入力し :guilabel:`Save` ボタンでgmxset形式で保存してください。
-
-連続ジョブ実行
------------------------
-
-   :ref:`md_gromacs_seq_setup` の内容に基づきGromacsを連続実行します。
-
+結果解析
+----------------
 
 .. _md_gromacs_rdf:
 
 動径分布関数
-----------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、動径分布関数を表示します。
    内部的には :command:`gmx rdf` コマンドが実行されます。
@@ -355,7 +354,7 @@ Gromacs実行
 .. _md_gromacs_msd:
 
 平均二乗変位
----------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、平均二乗変位と自己拡散係数を表示します。
    内部的には :command:`gmx msd` コマンドが実行されます。
@@ -368,7 +367,7 @@ Gromacs実行
 .. _md_gromacs_saxs:
 
 散乱関数
-----------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、散乱関数を表示します。
    内部的には :command:`gmx saxs` コマンドが実行されます。
@@ -381,7 +380,7 @@ Gromacs実行
 
 
 速度相関/振動スペクトル
---------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、速度相関関数および振動スペクトルを表示します。
    内部的には :command:`gmx velacc` コマンドが実行されます。
@@ -396,7 +395,7 @@ Gromacs実行
 .. _md_gromacs_permittivity:
 
 比誘電率
----------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、比誘電率を表示します。
    内部的には :command:`gmx dipoles` コマンドが実行されます。
@@ -404,7 +403,7 @@ Gromacs実行
    .. include:: winmos_gromacs_analysis_common1.rst
 
 粘度
-----------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、粘度を表示します。
    内部的には :command:`gmx tcaf` コマンドが実行されます。
@@ -414,7 +413,7 @@ Gromacs実行
 .. _md_gromacs_densityprof:
 
 密度分布
------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、密度分布を表示します。
    内部的には :command:`gmx density` コマンドが実行されます。
@@ -424,22 +423,72 @@ Gromacs実行
 
    .. include:: winmos_gromacs_analysis_common1.rst
 
+.. _md_gromacs_freevolume:
+
+自由体積
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   Gromacsが出力したtrr, tpr, ndxファイルを選択し、密度分布を表示します。
+   内部的には :command:`gmx freevolume` コマンドが実行されます。
+
+   Radius of probe
+      自由体積算出時に系にランダムに挿入される仮想プローブ粒子の半径を指定します。
+   # of probe insertions
+      仮想プローブ粒子の挿入回数を指定します。
+   Random seed
+      仮想プローブ粒子を挿入する位置を決める乱数の種を指定します。
+
+   .. include:: winmos_gromacs_analysis_common1.rst
+
 .. _md_gromacs_hildebrand:
 
 Hildebrand溶解度パラメータ
----------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したedr, groファイルから、Hildebrand溶解度パラメータを算出します。気相と液相それぞれの計算結果が必要です。
    Hildebrand溶解度パラメータの算出に必要な凝集エネルギー、密度（比体積）、圧縮率の取得には、 :command:`gmx energy` コマンドが実行されます。
 
 χ/DPDパラメータ
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したedr, groファイルから、χパラメータ・DPD aijパラメータを算出します。2つの成分の気相と液相それぞれの計算結果が必要です。
    内部的には :ref:`md_gromacs_hildebrand` で計算した値を用います。
 
+RMSD
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   Gromacsが出力したtrr, tpr, ndxファイルを選択し、RMSD（主にタンパク向け）を表示します。
+   内部的には :command:`gmx rms` コマンドが実行されます。
+
+   Group
+      ここでチェックを入れた成分について結果が出力されます。通常は :guilabel:`Backbone` を選択します。
+
+   .. include:: winmos_gromacs_analysis_common1.rst
+
+慣性半径
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   Gromacsが出力したtrr, tpr, ndxファイルを選択し、回転半径（主にタンパク向け）を表示します。
+   内部的には :command:`gmx gyrate` コマンドが実行されます。
+
+   Group
+      ここでチェックを入れた成分について結果が出力されます。通常はBackboneを選択します。
+
+   .. include:: winmos_gromacs_analysis_common1.rst
+
+Ramachandoranプロット
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   Gromacsが出力したtrr, tpr, ndxファイルを選択し、各アミノ酸残基のRamachandoranプロットを表示します。
+   内部的には :command:`gmx rama` コマンドが実行されます。
+
+   Residue
+      ここで選択した残基のRamachandoranプロットが出力されます。
+      
+   .. include:: winmos_gromacs_analysis_common1.rst
+
 トラジェクトリを編集
-----------------------------
+------------------------
 
    Gromacsが出力したtrrまたはxtcファイルのトラジェクトリデータについて、間引き、回転、空間分布関数の算出などの操作を行います。
    内部的には :command:`gmx trjconv` コマンドが実行されます。 :guilabel:`Execute` ボタンで処理を開始します。
@@ -456,45 +505,6 @@ Hildebrand溶解度パラメータ
       :guilabel:`Roate and Trans` におけるrefernceを指定します。
    Group for SDF
       :guilabel:`Postprocess` にて :guilabel:`Spatial distribution function` (SDF)を選択した際に計算されるSDFをどのグループに対し計算するか指定します。
-
-.. _md_gromacs_editndx:
-
-ndxファイルにグループを追加
-----------------------------
-   結果解析したい原子をメインウィンドウでグループ選択し、本機能を選択して既存のndxを選ぶと、グループ選択された原子のグループがndxファイルに新たに追加されます。
-
-RMSD
------------
-
-   Gromacsが出力したtrr, tpr, ndxファイルを選択し、RMSD（主にタンパク向け）を表示します。
-   内部的には :command:`gmx rms` コマンドが実行されます。
-
-   Group
-      ここでチェックを入れた成分について結果が出力されます。通常は :guilabel:`Backbone` を選択します。
-
-   .. include:: winmos_gromacs_analysis_common1.rst
-
-慣性半径
-------------
-
-   Gromacsが出力したtrr, tpr, ndxファイルを選択し、回転半径（主にタンパク向け）を表示します。
-   内部的には :command:`gmx gyrate` コマンドが実行されます。
-
-   Group
-      ここでチェックを入れた成分について結果が出力されます。通常はBackboneを選択します。
-
-   .. include:: winmos_gromacs_analysis_common1.rst
-
-Ramachandoranプロット
----------------------------
-
-   Gromacsが出力したtrr, tpr, ndxファイルを選択し、各アミノ酸残基のRamachandoranプロットを表示します。
-   内部的には :command:`gmx rama` コマンドが実行されます。
-
-   Residue
-      ここで選択した残基のRamachandoranプロットが出力されます。
-      
-   .. include:: winmos_gromacs_analysis_common1.rst
 
 .. _md_gromacs_er_start:
 
