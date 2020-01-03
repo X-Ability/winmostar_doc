@@ -23,8 +23,6 @@
    solid/winmos_qe
    solid/winmos_openmx
    solid/winmos_fdmnes
-   solid/winmos_boltztrap
-   solid/winmos_phonopy
    winmos_tools
    winmos_preferences
    winmos_window

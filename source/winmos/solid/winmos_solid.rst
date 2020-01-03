@@ -170,11 +170,3 @@ FDMNES
 ------------------------
    :ref:`solid_fdmnes_top` を参照してください。
 
-BoltzTraP
-------------------------
-   :ref:`solid_boltztrap_top` を参照してください。
-
-Phonopy
-------------------------
-   :ref:`solid_phonopy_top` を参照してください。
-
