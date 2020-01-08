@@ -85,8 +85,8 @@ msgstr "Indicates notes."
 msgid "使用しているライブラリ"
 msgstr "The library you are using"
 
-msgid "Winmostarは一部の処理に下記のライブラリを使用しています。"
-msgstr "Winmostar uses the following libraries for some processins."
+msgid "Winmostarは一部の処理に下記のライブラリ・ソフトウェアを使用しています。"
+msgstr "Winmostar uses the following libraries and softwares for some processings."
 
 msgid "Abbrevia 5.0"
 msgstr "Abbrevia 5.0"

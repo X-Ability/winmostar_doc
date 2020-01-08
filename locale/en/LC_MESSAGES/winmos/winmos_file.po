@@ -43,13 +43,31 @@ msgid "最近使ったファイル"
 msgstr "Open Recent"
 
 msgid "最近開かれたファイルを開きます。"
-msgstr "Open the recently opened file."
+msgstr "Open a recently opened file."
 
 msgid "履歴をクリア"
 msgstr "Clear History..."
 
 msgid "最近開かれたファイルの履歴を空にします。"
 msgstr "Empty the history of recently opened files."
+
+msgid "プロジェクトを開く"
+msgstr "Open Project..."
+
+msgid "プロジェクトファイル（拡張子wmpj）を開きます。"
+msgstr "Open project file with wmpj extension."
+
+msgid ":kbd:`Ctrl+Alt+O` でも操作できます。"
+msgstr "The shortcut is :kbd:`Ctrl+Alt+O` ."
+
+msgid "最近使ったプロジェクト"
+msgstr "Open Recent Project..."
+
+msgid "最近開かれたプロジェクトファイルを開きます。"
+msgstr "Open a recently opened project file."
+
+msgid "最近開かれたプロジェクトファイルの履歴を空にします。"
+msgstr "Empty the history of recently opened project files."
 
 msgid "再度読み込み"
 msgstr "Reload"
@@ -113,11 +131,8 @@ msgstr "It reads a specific type of molecular structure."
 msgid "SMILES..."
 msgstr "SMILES..."
 
-msgid ""
-"SMILES形式の文字列から分子構造を生成し、メインウィンドウに読み込みます。 :guilabel:`Import SMILES` "
-"ウィンドウが開いたら、テキストボックスにSMILES形式の文字列を入力し、 :guilabel:`Convert` "
-"を押してください。内部的には同時にBolloonによる配座探索も実行されます。"
-msgstr "Molecular structure is generated from SMILES format string and read into the main window. When :guilabel:`Import SMILES` window opens, enter the SMILES format string in the text box and press :guilabel:`Convert` button. Internally, conformational search by Bolloon is also executed at the same time."
+msgid "SMILES形式の文字列から分子構造を生成し、メインウィンドウに読み込みます。 :guilabel:`Import SMILES` ウィンドウが開いたら、 :guilabel:`Enter SMILES` の欄にSMILES形式の文字列を入力し、 :guilabel:`Import` を押してください。内部的には同時にBolloonによる配座探索も実行されます。"
+msgstr "Molecular structure is generated from SMILES format string and read into the main window. When :guilabel:`Import SMILES` window opens, enter the SMILES format string in the text box and press :guilabel:`Import` button. Internally, conformational search by Bolloon is also executed at the same time."
 
 msgid "エクスポート"
 msgstr "Export"

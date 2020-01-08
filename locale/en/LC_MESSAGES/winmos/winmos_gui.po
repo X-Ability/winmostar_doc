@@ -46,9 +46,7 @@ msgid ""
 msgstr "NOTTRANSLATED"
 "Depending on the solver selected in the :guilabel:`Solver` pull-down menu  |solver| (default is MOPAC) in the first row of the upper toolbar, the role of buttons such as :guilabel:`Configure`, :guilabel:`Run` will change."
 
-msgid ""
-"上部のツールバーの2行目左端の :guilabel:`編集操作で適用される元素を選択` プルダウンメニュー |chg| "
-"で選ばれた元素に応じて、その横の :guilabel:`原子を追加` 、 :guilabel:`元素を変更` ボタンの挙動が変化します。"
+msgid "上部のツールバーの2行目左端の :guilabel:`編集操作向けの元素を選択` プルダウンメニュー |chg| で選ばれた元素に応じて、その横の :guilabel:`原子を追加` 、 :guilabel:`元素を変更` ボタンの挙動が変化します。"
 msgstr "Depending on the element selected in the :guilabel:`Select element used in editing operations`  pull-down menu, the behavior of :guilabel:`Add Atom` and :guilabel:`Change Element` buttons beside it will change."
 
 msgid "分子表示エリア"

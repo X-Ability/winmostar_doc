@@ -47,6 +47,12 @@ msgstr "Redo the undone operation. It is possible up to 50 times."
 msgid "テキストを戻す"
 msgstr "Undo text"
 
+msgid "編集操作向けの元素を選択"
+msgstr "Select Element for Editing Ops"
+
+msgid ":ref:`edit_atom` や :ref:`edit_attribute_element` で適用される元素を選択します。"
+msgstr "Select element to be applied in :ref:`edit_atom` or :ref:`edit_attribute_element` ."
+
 msgid ":ref:`キーワード表示エリア <gui_main>` で編集した内容を元に戻します。"
 msgstr "Restore the edited contents in :ref:`keyword display area <gui_main>`."
 
@@ -267,6 +273,13 @@ msgstr "Replaces Marked atoms (thick red circles) with the parts (substituents) 
 msgid ":kbd:`F6` 、 :guilabel:`Repl` ボタン、または原子を右クリックでも操作できます。"
 msgstr "You can also operate with :kbd:`F6`, :guilabel:`Repl` button, or by right-clicking an atom."
 
+msgid "フラグメントを選択"
+msgstr "Select Fragment"
+
+msgid ":ref:`edit_parts` で置換されるフラグメントを選択します。"
+msgstr "Select the fragment to be replaced with :ref:`edit_parts` ."
+
+
 msgid "環構築"
 msgstr "Build Ring"
 
@@ -286,7 +299,7 @@ msgid ":ref:`グループ選択（青丸） <edit_top>` された原子に対し
 msgstr "Do the operation on the atom for which :ref:`group selection (blue circle) <edit_top>` was performed."
 
 msgid "グループを軸回転（選択2原子）"
-msgstr "Roll Group Around Axis (2 Marked Atoms)"
+msgstr "Rotate Around Axis(2 Marked Atoms)"
 
 msgid ":ref:`2つのマーカー（赤太丸、赤細丸） <edit_top>` が付いた2原子間のベクトルを軸としてグループ選択された構造を回転させます。"
 msgstr "Rotate a group-selected structure around a vector between two atoms with :ref:`two markers (red circle, red circle) <edit_top>`"
@@ -295,7 +308,7 @@ msgid ":kbd:`Ctrl+R` でも操作できます。"
 msgstr "You can also operate with :kbd:`Ctrl + R`."
 
 msgid "グループを軸回転（選択3原子）"
-msgstr "Roll Group Around Axis (3 Marked Atoms)"
+msgstr "Rotate Around Axis(3 Marked Atoms)"
 
 msgid ""
 "マーカーが付けられた3原子（ :ref:`分子表示エリア <gui_main>` 左上の :guilabel:`Marked Order:` "
@@ -304,6 +317,31 @@ msgstr "Rotate the group selected structure around the normal vector of the plan
 
 msgid ":kbd:`Ctrl+A` でも操作できます。"
 msgstr "You can also operate with :kbd:`Ctrl + A`."
+
+msgid "グループを回転（マウス操作）"
+msgstr "Rotate Group Around Marked Atom..."
+
+msgid "グループ選択された構造を、 :ref:`マーカー（赤太丸） <edit_top>` が付いた原子を中心に回転させます。"
+msgstr "Rotate group-selected structure around the atom with :ref:`marker (thick red circle) <edit_top>`."
+
+msgid ":kbd:`Ctrl+F` でも操作できます。"
+msgstr "You can also operate with :kbd:`Ctrl + F`."
+
+msgid "グループを回転（数値を指定）"
+msgstr "Rotate (Numerical)..."
+
+msgid "グループ選択された構造を、 :ref:`マーカー（赤太丸） <edit_top>` が付いた原子または幾何中心を中心に、スライダー操作まはた数値入力により回転させます。指定するのはオイラー角です。"
+msgstr "The structure selected in the group is rotated around the atom or geometric center marked with :ref: `marker (red circle) <edit_top>` by slider operation or numerical input. Specify the Euler angles."
+
+msgid "グループを回転（配向を指定）"
+msgstr "Rotate Group by Aligning Marked Atoms..."
+
+msgid ""
+"グループ選択された構造を特定軸または特定面に対し配向するよう回転させます。 "
+"マーカーが付けられた2原子（特定軸に配向させる場合）または3原子（特定面に配向させる場合）がグループ選択された構造の中に含まれている必要があります（マーカーが付けられた原子は"
+" :ref:`分子表示エリア <gui_main>` 左上の :guilabel:`Marked Order:` で確認することができます）。"
+msgstr "Rotates group selected structures to orient to a specific axis or plane. 2 atoms with markers (if oriented in a specific axis) or 3 atoms (if oriented in a specific plane) must be included in the group selected structure (It can be confirmed by :guilabel:`Marked Order` in the upper left of :ref:`Moleculer display area`)."
+
 
 msgid "グループを並進移動（マウス操作）"
 msgstr "Move Group (Direct)..."
@@ -319,24 +357,6 @@ msgstr "Move Group (Numerical)..."
 
 msgid "グループ選択された構造を、スライダー操作または数値入力により並進移動させます。"
 msgstr "Translate selected group structure by slider operation or numerical input."
-
-msgid "グループを回転（マウス操作）"
-msgstr "Orient Group Around Marked Atom..."
-
-msgid "グループ選択された構造を、 :ref:`マーカー（赤太丸） <edit_top>` が付いた原子を中心に回転させます。"
-msgstr "Rotate group-selected structure around the atom with :ref:`marker (thick red circle) <edit_top>`."
-
-msgid ":kbd:`Ctrl+F` でも操作できます。"
-msgstr "You can also operate with :kbd:`Ctrl + F`."
-
-msgid "グループを回転（配向を指定）"
-msgstr "Orient Group by Aligning Marked Atoms..."
-
-msgid ""
-"グループ選択された構造を特定軸または特定面に対し配向するよう回転させます。 "
-"マーカーが付けられた2原子（特定軸に配向させる場合）または3原子（特定面に配向させる場合）がグループ選択された構造の中に含まれている必要があります（マーカーが付けられた原子は"
-" :ref:`分子表示エリア <gui_main>` 左上の :guilabel:`Marked Order:` で確認することができます）。"
-msgstr "Rotates group selected structures to orient to a specific axis or plane. 2 atoms with markers (if oriented in a specific axis) or 3 atoms (if oriented in a specific plane) must be included in the group selected structure (It can be confirmed by :guilabel:`Marked Order` in the upper left of :ref:`Moleculer display area`)."
 
 msgid "グループを簡易構造最適化"
 msgstr "Quick Optimization for Group"
@@ -507,6 +527,18 @@ msgstr "Set Origin To Lower Bounds of Cell"
 msgid "セルの原点の座標が(0,0,0)となるように座標系を取り直します。"
 msgstr "Rewrite the coordinate system so that the cell&#39;s origin coordinates are (0, 0, 0)."
 
+msgid "座標軸を交換"
+msgstr "Swap Axes"
+
+msgid "座標軸同士を交換し、座標系を取り直します。"
+msgstr "Swap the axes and recreate the coordinate system."
+
+msgid "X/Y/Z軸を反転"
+msgstr "Invert X/Y/Z Axis"
+
+msgid "指定した軸を反転させ、座標系を取り直します。"
+msgstr "Inverts the specified axis and recreates the coordinate system."
+
 msgid "キラリティ"
 msgstr "Chirality"
 
@@ -548,6 +580,13 @@ msgstr "Even if you change the cell size with this function, the coordinates of 
 
 msgid "シミュレーションセルの外にある原子を編集前のシミュレーションセルの中に戻したい場合は :ref:`edit_wrap_pbc` 機能を使用します。"
 msgstr "If you want to return atoms outside the simulation cell to the simulation cell before editing, use the :ref:`edit_wrap_pbc` function."
+
+msgid "セルを削除"
+msgstr "Delete Cell"
+
+msgid "セルを削除します。"
+msgstr "Delete Cell."
+
 
 msgid "周期境界に基づき原子を再配置"
 msgstr "Wrap Around Cell Boundary..."

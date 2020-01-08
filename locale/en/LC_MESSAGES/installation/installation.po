@@ -169,8 +169,8 @@ msgid ""
 msgstr "`FDMNES installation manual for Windows <https://winmostar.com/jp/manual_jp/installation/FDMNES_install_manual_jp_win.pdf>`_"
 
 msgid ""
-"Gromacs, Amber, MODYLAS, OpenMXは次のステップでインストールする :ref:`cygwin_wm <cygwinwm_top>`_ に含まれます。"
-msgstr "Gromacs, Amber, MODYLAS, OpenMX will be included in the :ref:`cygwin_wm <cygwinwm_top>`_ to be installed in the next step."
+"Gromacs, Amber, MODYLAS, OpenMXは次のステップでインストールする :ref:`cygwin_wm <cygwinwm_top>` に含まれます。"
+msgstr "Gromacs, Amber, MODYLAS, OpenMX will be included in the :ref:`cygwin_wm <cygwinwm_top>` to be installed in the next step."
 
 msgid ""
 "MD、Solidパックを使用、およびその他の一部の処理を実行する場合は、以下のいずれかの手順でWinmostar向けのCygwinの環境（ "
@@ -195,10 +195,7 @@ msgstr "`When using Windows Subsystem for Linux instead of Cygwin <https://winmo
 msgid "必要に応じて、使用しているセキュリティ対策ソフトの設定において、Winmostarとcygwin_wmのインストールフォルダを監視対象から除外します。"
 msgstr "If necessary, exclude the installation folder of Winmostar and cygwin_wm from the monitoring target in the setting of the anti-virus software being used."
 
-msgid ""
-"リモートサーバへのジョブ投入（ :ref:`リモートジョブ <remote_top>` と呼ぶ）を行う場合は、投入先のサーバに "
-":ref:`対応しているジョブスケジューラ <remote_scheduler>`_ "
-"がインストールされているか確認する。入っていない場合は以下のリンク先の手順でTORQUEをインストールします。"
+msgid "リモートサーバへのジョブ投入（ :ref:`リモートジョブ <remote_top>` と呼ぶ）を行う場合は、投入先のサーバに :ref:`対応しているジョブスケジューラ <remote_scheduler>` がインストールされているか確認する。入っていない場合は以下のリンク先の手順でTORQUEをインストールします。"
 msgstr ""
 "When you submit a job to a remote server (called  :ref:`remote job <remote_top>`), check whether `the job "
 "scheduling software <remote_scheduler>`_ is installed on that server. "

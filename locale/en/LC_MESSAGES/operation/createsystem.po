@@ -69,9 +69,7 @@ msgid ""
 "を実行する。"
 msgstr "To explicitly rotate the substructure, execute :ref:`edit_partial_edit` :menuselection:`--> Roll Group Around Axis (2 Marked Atoms)`."
 
-msgid ""
-"様々な配座を取りうる分子の場合は :menuselection:`ツール --> ` :ref:`tools_balloon` "
-"を実行し、エネルギーの低い構造を選択する。"
+msgid "様々な配座を取りうる分子の場合は :menuselection:`ツール -->` :ref:`tools_balloon` を実行し、エネルギーの低い構造を選択する。"
 msgstr "For molecules that can take various conformations, :menuselection:`Tools -->` :ref:`tools_balloon` and choose a structure with low energy."
 
 msgid "ポリマーの場合は、直接分子全体をモデリングしても良いが、 :ref:`md_polymer_top` の方法を使った方が効率が良い。"
