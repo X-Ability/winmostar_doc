@@ -1,22 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
-# This file is distributed under the same license as the Winmostar User
-# Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
-
-msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-23 15:28+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 
 msgid ":menuselection:`ファイル` メニュー"
 msgstr "File menu"
@@ -108,15 +89,10 @@ msgstr "If multi-byte characters such as double-byte alphanumeric characters or 
 msgid "アンダースコアは使用可能です。"
 msgstr "Underscores can be used."
 
-msgid ""
-"各種ソルバの入力ファイルを保存する場合は、 :ref:`キーワード表示エリア <gui_main>` と :ref:`座標表示エリア "
-"<gui_main>` の内容を基にファイルが作成されます。"
+msgid "各種ソルバの入力ファイルを保存する場合は、 :ref:`キーワード表示エリア <gui_main>` と :ref:`座標表示エリア <gui_main>` の内容を基にファイルが作成されます。"
 msgstr "When saving an input file of various solvers, a file is created based on the contents of :ref:`Keyword Editor <gui_main>` and :ref:`Coordinate Viewer <gui_main>`."
 
-msgid ""
-"キーワード表示エリアに、保存したいソルバのキーワードが表示されていない場合は、キーワード設定ウィンドウが自動で開きます。 "
-"また、MOPAC、GAMESS、Gaussian、NWChemの場合は :menuselection:`ファイル -->` "
-":ref:`file_coordinateformat` で選択されたフォーマットで座標が出力されます。"
+msgid "キーワード表示エリアに、保存したいソルバのキーワードが表示されていない場合は、キーワード設定ウィンドウが自動で開きます。 また、MOPAC、GAMESS、Gaussian、NWChemの場合は :menuselection:`ファイル -->` :ref:`file_coordinateformat` で選択されたフォーマットで座標が出力されます。"
 msgstr "If the keyword of the solver you want to save is not displayed in Keyword Editor, Configuration window will open automatically. For MOPAC, GAMESS, Gaussian, NWChem, the coordinates are output in the format selected in :menuselection:`File -->` :ref:`file_coordinateformat`."
 
 msgid ":kbd:`Shift+Ctrl+S` でも操作できます。"
@@ -128,8 +104,8 @@ msgstr "Import"
 msgid "特定の形式の分子構造と、一部の計算結果ファイルを読み込みます。"
 msgstr "It reads a specific type of molecular structure."
 
-msgid "SMILES..."
-msgstr "SMILES..."
+msgid "SMILES"
+msgstr "NOTTRANSLATED"
 
 msgid "SMILES形式の文字列から分子構造を生成し、メインウィンドウに読み込みます。 :guilabel:`Import SMILES` ウィンドウが開いたら、 :guilabel:`Enter SMILES` の欄にSMILES形式の文字列を入力し、 :guilabel:`Import` を押してください。内部的には同時にBolloonによる配座探索も実行されます。"
 msgstr "Molecular structure is generated from SMILES format string and read into the main window. When :guilabel:`Import SMILES` window opens, enter the SMILES format string in the text box and press :guilabel:`Import` button. Internally, conformational search by Bolloon is also executed at the same time."
@@ -188,9 +164,7 @@ msgstr "Open the directory one level higher than the file displayed in the title
 msgid "座標出力形式を切り替え"
 msgstr "Coordinate Format"
 
-msgid ""
-":ref:`座標表示エリア <gui_main>` "
-"での表示形式と、MOPAC、GAMESS、Gaussian、NWChem形式でファイルを保存する際の座標形式を指定します。"
+msgid ":ref:`座標表示エリア <gui_main>` での表示形式と、MOPAC、GAMESS、Gaussian、NWChem形式でファイルを保存する際の座標形式を指定します。"
 msgstr "Specify the display format in :ref:`Coordinate Viewer <gui_main>` and the coordinate format when saving the file in MOPAC, GAMESS, Gaussian, NWChem format."
 
 msgid ":ref:`座標表示エリア <gui_main>` 上部のタブでも切り替えることができます。"
@@ -201,4 +175,3 @@ msgstr "Exit"
 
 msgid "Winmostarを終了します。"
 msgstr "Quit Winmostar."
-

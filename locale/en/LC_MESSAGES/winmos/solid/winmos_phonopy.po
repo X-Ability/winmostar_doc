@@ -1,22 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
-# This file is distributed under the same license as the Winmostar User
-# Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
 #, fuzzy
-msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 14:13+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
 
 msgid ":menuselection:`固体 --> Phonopy` メニュー"
 msgstr ":menuselection:`Solid --> Phonopy` menu"
@@ -36,11 +18,8 @@ msgstr "Create a supercell based on the given Quantum ESPRESSO input file. (Prep
 msgid "生成された全てのスーパーセルに対し、Quantum ESPRESSOを実行する。"
 msgstr "Run Quantum ESPRESSO on all generated supercells."
 
-msgid ""
-"Quantum ESPRESSOのアウトプットファイルから、ForceSetsファイルを作成し、 "
-"Phononバンド、DOS、熱物性などの計算を行う。(ポスト処理)"
-msgstr "Create ForceSets file from Quantum ESPRESSO output file and calculate Phonon band, DOS, "
-"thermophysical properties, etc. (post processing)"
+msgid "Quantum ESPRESSOのアウトプットファイルから、ForceSetsファイルを作成し、 Phononバンド、DOS、熱物性などの計算を行う。(ポスト処理)"
+msgstr "Create ForceSets file from Quantum ESPRESSO output file and calculate Phonon band, DOS, thermophysical properties, etc. (post processing)"
 
 msgid "キーワード設定・実行"
 msgstr "Create Supercell..."
@@ -51,15 +30,8 @@ msgstr "Set pre / post processing calculation conditions using Phonopy and execu
 msgid ":guilabel:`Open` ボタン"
 msgstr ":guilabel:`Open` button"
 
-msgid ""
-"Quantum ESPRESSOのインプットファイル (\\*.in,\\*.pwin)を読み込みます。 "
-"Phonopyでのポスト処理では、応力の情報を必要とします。このため読み込むファイルは tprnfor, "
-"tstressキーワードを含んでいる必要があります。 Phonopy用のQuantum ESPRESSOのインプットファイルは、 Quantum "
-"ESPRESSOキーワード設定のPreset=Phonopyを使用することで設定できます。"
-msgstr "Read Quantum ESPRESSO input files (\\*.in,\\*.pwin). "
-"Post processing with Phonopy requires stress information. For this reason, the file to be read must "
-"contain the tprnfor and tstress keywords. Quantum ESPRESSO input file for Phonopy can be set by using "
-"Preset = Phonopy of Quantum ESPRESSO keyword setting."
+msgid "Quantum ESPRESSOのインプットファイル (\\*.in,\\*.pwin)を読み込みます。 Phonopyでのポスト処理では、応力の情報を必要とします。このため読み込むファイルは tprnfor, tstressキーワードを含んでいる必要があります。 Phonopy用のQuantum ESPRESSOのインプットファイルは、 Quantum ESPRESSOキーワード設定のPreset=Phonopyを使用することで設定できます。"
+msgstr "Read Quantum ESPRESSO input files (\\*.in,\\*.pwin). Post processing with Phonopy requires stress information. For this reason, the file to be read must contain the tprnfor and tstress keywords. Quantum ESPRESSO input file for Phonopy can be set by using Preset = Phonopy of Quantum ESPRESSO keyword setting."
 
 msgid "DIM"
 msgstr "DIM"
@@ -76,18 +48,14 @@ msgstr "Specify the reciprocal lattice for calculating Phonon DOS and thermophys
 msgid "ATOM_NAME"
 msgstr "ATOM_NAME"
 
-msgid ""
-"単位格子に含まれる元素を半角スペース区切りで指定します。 :guilabel:`Open` "
-"ボタンでインプットファイルを開いた時点で自動的に入力されます。"
-msgstr "Specify the elements contained in the unit cell, separated by single-byte spaces. "
-"They are automatically entered when the input file is opened with the :guilabel:`Open` button."
+msgid "単位格子に含まれる元素を半角スペース区切りで指定します。 :guilabel:`Open` ボタンでインプットファイルを開いた時点で自動的に入力されます。"
+msgstr "Specify the elements contained in the unit cell, separated by single-byte spaces. They are automatically entered when the input file is opened with the :guilabel:`Open` button."
 
 msgid ":guilabel:`Start` ボタン"
 msgstr ":guilabel:`Start` button"
 
 msgid "設定条件を元にPhonopyを実行し、プリ処理であるスーパーセルの作成を実行します。 このとき、以下のファイルとフォルダが生成されます。"
-msgstr "Phonopy is executed based on the setting conditions, and the pre-process creation of the supercell "
-"is executed. At this time, the following files and folders are generated."
+msgstr "Phonopy is executed based on the setting conditions, and the pre-process creation of the supercell is executed. At this time, the following files and folders are generated."
 
 msgid "種類"
 msgstr "Type"
@@ -188,11 +156,8 @@ msgstr "Open the conf file with a text editor. Used when you want to edit the ke
 msgid "Quantum ESPRESSO連続実行"
 msgstr "Run QE for Phonopy..."
 
-msgid ""
-"キーワード設定・実行画面で生成された、全てのスーパーセルに対し、Quantum ESPRESSOを実行します。 "
-"このメニューを用いた場合、Quantum ESPRESSOはローカル環境で実行されます。"
-msgstr "Quantum ESPRESSO is executed for all supercells generated on the keyword setting / execution screen. "
-"If you use this menu, Quantum ESPRESSO will run in your local environment."
+msgid "キーワード設定・実行画面で生成された、全てのスーパーセルに対し、Quantum ESPRESSOを実行します。 このメニューを用いた場合、Quantum ESPRESSOはローカル環境で実行されます。"
+msgstr "Quantum ESPRESSO is executed for all supercells generated on the keyword setting / execution screen. If you use this menu, Quantum ESPRESSO will run in your local environment."
 
 msgid "Phonopyの実行..."
 msgstr "Run Phonopy ..."
@@ -253,4 +218,3 @@ msgstr "Thermodynamic Properties ..."
 
 msgid "作業フォルダに含まれるthermal_properties.csvをもとに熱物性を表示します。"
 msgstr "Displays thermal properties based on thermal_properties.csv included in working folder."
-

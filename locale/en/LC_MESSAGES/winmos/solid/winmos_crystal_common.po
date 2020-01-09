@@ -1,22 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
-# This file is distributed under the same license as the Winmostar User
-# Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
 
-msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 
 msgid "Viewメニュー"
 msgstr "View menu"
@@ -24,9 +6,7 @@ msgstr "View menu"
 msgid "Show Multi-View"
 msgstr "Show Multi-View"
 
-msgid ""
-"三面図による描画を行います。三面図では左上の画面のみが自由回転に対応しており、残りの三方向のカメラは結晶のa, b, "
-"c軸に固定されるため回転しません。"
+msgid "三面図による描画を行います。三面図では左上の画面のみが自由回転に対応しており、残りの三方向のカメラは結晶のa, b, c軸に固定されるため回転しません。"
 msgstr "We will draw by triple drawing. In the three view, only the upper left screen corresponds to free rotation, and the remaining three direction cameras are fixed to the a, b, c axes of the crystal and therefore will not rotate."
 
 msgid "Always View Center"
@@ -88,4 +68,3 @@ msgstr "Enable 3D View"
 
 msgid "OpenGLを用いて描画します。"
 msgstr "Draw with OpenGL."
-

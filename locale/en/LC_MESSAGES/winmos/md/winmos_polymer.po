@@ -1,22 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
-# This file is distributed under the same license as the Winmostar User
-# Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
 
-msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-23 15:28+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 
 msgid ":menuselection:`MD --> ポリマー` メニュー"
 msgstr ":menuselection:`MD --> Polymer` Menu"
@@ -27,30 +9,20 @@ msgstr "The procedure for preparing the polymer system is as follows."
 msgid "モノマーをモデリングし、 :ref:`md_polymer_register` を実行する。"
 msgstr "Model the monomer and execute :ref:`md_polymer_register`."
 
-msgid ""
-"1で登録したモノマーを用いて :ref:`md_polymer_homo` , :ref:`md_polymer_block` , "
-":ref:`md_polymer_random` を用いてポリマーを登録する。"
+msgid "1で登録したモノマーを用いて :ref:`md_polymer_homo` , :ref:`md_polymer_block` , :ref:`md_polymer_random` を用いてポリマーを登録する。"
 msgstr "Register the polymer using the monomer registered in 1 :ref:`md_polymer_homo`, :ref:`md_polymer_block`, :ref:`md_polymer_random`."
 
 msgid ":ref:`md_polymer_cell` にて、 2. で登録したポリマーを用いてセルを構築する。"
 msgstr "In the :ref:`md_polymer_cell`, construct the cell using the polymer registered in 2."
 
-msgid ""
-"低分子・ポリマー混合系を作成したい場合は、上記手順でポリマー系を作成した後に :ref:`md_insert_molecules` "
-"で低分子を追加する。"
+msgid "低分子・ポリマー混合系を作成したい場合は、上記手順でポリマー系を作成した後に :ref:`md_insert_molecules` で低分子を追加する。"
 msgstr "If you want to create a low molecular-polymer mixed system, create a polymer system by the above procedure and then add low molecules with :ref:`md_insert_molecules`."
 
 msgid "モノマー登録"
 msgstr "Monomer registration"
 
-msgid ""
-":ref:`md_polymer_homo` 、 :ref:`md_polymer_block` 、 "
-":ref:`md_polymer_random` で使用するためのモノマーを登録します。 :ref:`md_polymer_pref` "
-"で設定したモノマーファイルの保存先に、 :file:`wmo` という拡張子で保存されます。 :file:`wmo` "
-"ファイルはWinmostar独自のコメントが付加したmol2ファイルです。"
-msgstr "register the monomer to use at :ref:`md_polymer_homo`, :ref:`md_polymer_block`, :ref:`md_polymer_random`."
-"The file is saved with the extension :file:`wmo` in the save destination of the monomer file set by :ref:`md_polymer_pref`."
-" The :file:`wmo` file is a mol2 file with Winmostar's own comment added."
+msgid ":ref:`md_polymer_homo` 、 :ref:`md_polymer_block` 、 :ref:`md_polymer_random` で使用するためのモノマーを登録します。 :ref:`md_polymer_pref` で設定したモノマーファイルの保存先に、 :file:`wmo` という拡張子で保存されます。 :file:`wmo` ファイルはWinmostar独自のコメントが付加したmol2ファイルです。"
+msgstr "register the monomer to use at :ref:`md_polymer_homo`, :ref:`md_polymer_block`, :ref:`md_polymer_random`.The file is saved with the extension :file:`wmo` in the save destination of the monomer file set by :ref:`md_polymer_pref`. The :file:`wmo` file is a mol2 file with Winmostar's own comment added."
 
 
 msgid "メインウィンドウにおいて登録したいモノマー（繰り返し単位）の構造を作成します。"
@@ -87,13 +59,7 @@ msgstr "Discard the settings and close the monomer registration screen."
 msgid "ホモポリマービルダ"
 msgstr "Homopolymer builder"
 
-msgid ""
-":ref:`md_polymer_cell` で使用するためのホモポリマーを、 :ref:`md_polymer_register` "
-"で登録されたモノマーから作成し登録します。 :ref:`md_polymer_pref` で設定したポリマーファイルの保存先に、 "
-":file:`wpo` という拡張子で保存されます。 :file:`wpo` "
-"ファイルはWinmostar独自のコメントが付加したmol2ファイルです。 "
-"ポリマー全体の電荷は、使用したモノマー（繰り返し単位）の電荷と重合度の積になります。 "
-"重合により削除された原子の分の電荷はポリマー全体の原子に均等に割り当てられます。"
+msgid ":ref:`md_polymer_cell` で使用するためのホモポリマーを、 :ref:`md_polymer_register` で登録されたモノマーから作成し登録します。 :ref:`md_polymer_pref` で設定したポリマーファイルの保存先に、 :file:`wpo` という拡張子で保存されます。 :file:`wpo` ファイルはWinmostar独自のコメントが付加したmol2ファイルです。 ポリマー全体の電荷は、使用したモノマー（繰り返し単位）の電荷と重合度の積になります。 重合により削除された原子の分の電荷はポリマー全体の原子に均等に割り当てられます。"
 msgstr "Create a homopolymer for use with :ref:`md_polymer_cell` from the monomers registered with :ref:`md_polymer_register` and register. It is stored in the save destination of the polymer file set with :ref:`md_polymer_pref` with :file:`wpo` extension. The :file:`wpo` file is a mol2 file with Winmostar's own comment added. The charge of the whole polymer is the product of the charge of the monomer (repeating unit) used and the degree of polymerization. Charges for atoms deleted by polymerization are equally allocated to the atoms of the whole polymer."
 
 msgid "[Polymer Name]"
@@ -185,12 +151,7 @@ msgstr "Close the window."
 msgid "ブロックポリマービルダ"
 msgstr "Block polymer builder"
 
-msgid ""
-":ref:`md_polymer_cell` で使用するためのブロックポリマーを、 :ref:`md_polymer_register` "
-"で登録されたモノマーから作成し登録します。 :ref:`md_polymer_pref` で設定したポリマーファイルの保存先に、 "
-":file:`wpo` という拡張子で保存されます。 :file:`wpo` "
-"ファイルはWinmostar独自のコメントが付加したmol2ファイルです。 電荷の割り当て方は :ref:`md_polymer_homo` "
-"と同じです。"
+msgid ":ref:`md_polymer_cell` で使用するためのブロックポリマーを、 :ref:`md_polymer_register` で登録されたモノマーから作成し登録します。 :ref:`md_polymer_pref` で設定したポリマーファイルの保存先に、 :file:`wpo` という拡張子で保存されます。 :file:`wpo` ファイルはWinmostar独自のコメントが付加したmol2ファイルです。 電荷の割り当て方は :ref:`md_polymer_homo` と同じです。"
 msgstr "Create a block polymer for use with :ref:`md_polymer_cell` from the monomers registered with :ref:`md_polymer_register` and register it. It is stored in the save destination of the polymer file set with :ref:`md_polymer_pref` with :file:`wpo` extension. The :file:`wpo` file is a mol2 file with Winmostar&#39;s own comment added. The way to assign electric charge is the same as :ref:`md_polymer_homo`."
 
 msgid "[First Monomer]"
@@ -242,12 +203,7 @@ msgstr "Remove the selected intermediate monomer from the list in the list."
 msgid "ランダムポリマービルダ"
 msgstr "Random polymer builder"
 
-msgid ""
-":ref:`md_polymer_cell` で使用するためのランダムポリマーを、 :ref:`md_polymer_register` "
-"で登録されたモノマーから作成し登録します。 :ref:`md_polymer_pref` で設定したポリマーファイルの保存先に、 "
-":file:`wpo` という拡張子で保存されます。 :file:`wpo` "
-"ファイルはWinmostar独自のコメントが付加したmol2ファイルです。 電荷の割り当て方は :ref:`md_polymer_homo` "
-"と同じです。"
+msgid ":ref:`md_polymer_cell` で使用するためのランダムポリマーを、 :ref:`md_polymer_register` で登録されたモノマーから作成し登録します。 :ref:`md_polymer_pref` で設定したポリマーファイルの保存先に、 :file:`wpo` という拡張子で保存されます。 :file:`wpo` ファイルはWinmostar独自のコメントが付加したmol2ファイルです。 電荷の割り当て方は :ref:`md_polymer_homo` と同じです。"
 msgstr "Create a random polymer for use with :ref:`md_polymer_cell` from the monomers registered with :ref:`md_polymer_register` and register it. It is stored in the save destination of the polymer file set with :ref:`md_polymer_pref` with :file:`wpo` extension. The :file:`wpo` file is a mol2 file with Winmostar&#39;s own comment added. The way to assign electric charge is the same as :ref:`md_polymer_homo`."
 
 msgid "[Ratio]"
@@ -286,15 +242,8 @@ msgstr "The ratio of finally obtained intermediate monomer is proportional to th
 msgid "ポリマーセルビルダ"
 msgstr "Polymer Cell Builder"
 
-msgid ""
-":ref:`md_polymer_homo` 、 :ref:`md_polymer_block` 、 "
-":ref:`md_polymer_random` において登録したポリマーを用いてシミュレーションセルを構築します。 "
-":ref:`md_solvate_buildcell` "
-"を用いると各分子を剛体的にシミュレーションセルに配置するため高密度で作成することが困難ですが、本機能を使用するとLAMMPSを使用してエネルギー最小化計算を実行しながら配置するため比較的高密度で作成することができます。"
-msgstr "Build a simulation cell using the polymer registered in :ref:`md_polymer_homo`, :ref:`md_polymer_block`, and :ref:`md_polymer_random`. "
-"When using :ref:`md_solvate_buildcell`, it is difficult to create each molecule rigidly in the simulation cell, "
-"so it is difficult to create it with high density. However, when using this function, while executing "
-"energy minimization calculation using LAMMPS It can be created at a relatively high density for placement."
+msgid ":ref:`md_polymer_homo` 、 :ref:`md_polymer_block` 、 :ref:`md_polymer_random` において登録したポリマーを用いてシミュレーションセルを構築します。 :ref:`md_solvate_buildcell` を用いると各分子を剛体的にシミュレーションセルに配置するため高密度で作成することが困難ですが、本機能を使用するとLAMMPSを使用してエネルギー最小化計算を実行しながら配置するため比較的高密度で作成することができます。"
+msgstr "Build a simulation cell using the polymer registered in :ref:`md_polymer_homo`, :ref:`md_polymer_block`, and :ref:`md_polymer_random`. When using :ref:`md_solvate_buildcell`, it is difficult to create each molecule rigidly in the simulation cell, so it is difficult to create it with high density. However, when using this function, while executing energy minimization calculation using LAMMPS It can be created at a relatively high density for placement."
 
 msgid "[Box Configulation]"
 msgstr "[Box Configulation]"
@@ -391,4 +340,3 @@ msgstr "Save the settings and close the window."
 
 msgid "設定内容を破棄してウィンドウを閉じます。"
 msgstr "Discard the settings and close the window."
-

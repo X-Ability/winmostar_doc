@@ -1,29 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
-# This file is distributed under the same license as the Winmostar User
-# Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
-msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 14:13+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
 
 msgid "MO Plotウィンドウ"
 msgstr "MO Plot window"
 
 msgid "分子軌道、静電ポテンシャル、各種cubeファイルなどのボリュームデータの表示を調整します。"
-msgstr "NOTTRANSLATED"
-"Adjust the display of volume data such as molecular orbit, electrostatic "
-"potential, various cube files."
+msgstr "Adjust the display of volume data such as molecular orbit, electrostatic potential, various cube files."
 
 msgid ":menuselection:`File --> Open` メニュー"
 msgstr ":menuselection:`File --> Open` menu"
@@ -70,12 +50,8 @@ msgstr "Molecular surface drawn at a distance of VDW radius (not exact)"
 msgid "ESP2"
 msgstr "ESP2"
 
-msgid ""
-":guilabel:`ESP2` はPopulation解析後の点電荷から算出する静電ポテンシャルの3次元分布です。 "
-":guilabel:`ESP` よりも高速に動作します。"
-msgstr "NOTTRANSLATED"
-":guilabel:`ESP2` is a three-dimensional distribution of electrostatic potential calculated "
-"from the point charge after Population analysis. It works faster than :guilabel:`ESP`."
+msgid ":guilabel:`ESP2` はPopulation解析後の点電荷から算出する静電ポテンシャルの3次元分布です。 :guilabel:`ESP` よりも高速に動作します。"
+msgstr ":guilabel:`ESP2` is a three-dimensional distribution of electrostatic potential calculated from the point charge after Population analysis. It works faster than :guilabel:`ESP`."
 
 msgid "ESP2/Surface"
 msgstr "ESP2/Surface"
@@ -102,12 +78,9 @@ msgid "電子状態計算で直接計算された静電ポテンシャルの3次
 msgstr "Three-dimensional distribution of electrostatic potential calculated directly by electronic state calculation."
 
 msgid "以下の手順で、 :guilabel:`ESP/Surface` に相当する、分子表面上でのESPを表示できます。"
-msgstr "You can display the ESP on the surface of the molecule corresponding "
-"to :guilabel:`ESP/Surface` by following the steps below. "
+msgstr "You can display the ESP on the surface of the molecule corresponding to :guilabel:`ESP/Surface` by following the steps below. "
 
-msgid ""
-":guilabel:`Dump cube file` にチェックを入れ、 :guilabel:`Quantity` で "
-":guilabel:`Density` を選択する。"
+msgid ":guilabel:`Dump cube file` にチェックを入れ、 :guilabel:`Quantity` で :guilabel:`Density` を選択する。"
 msgstr "Check :guilabel:`Dump cube file` and select :guilabel:`Density` with :guilabel:`Quantity`."
 
 msgid ":guilabel:`Draw` ボタンを押と、 :file:`*_den.cube` というファイルが生成される。"
@@ -116,15 +89,10 @@ msgstr "Pressing the :guilabel:`Draw` button creates a file called :file:`*_den.
 msgid ":guilabel:`Quantity` で :guilabel:`ESP` を選択する。"
 msgstr "Select :guilabel:`ESP` with :guilabel:`Quantity`."
 
-msgid ""
-":guilabel:`Draw` ボタンを押と、 :file:`*_esp.cube` "
-"というファイルが生成される。この処理員は数分掛かることがある。"
-msgstr "When the :guilabel:`Draw` button is pressed, a file called :file:`*_esp.cube` is created. "
-"This processor may take several minutes."
+msgid ":guilabel:`Draw` ボタンを押と、 :file:`*_esp.cube` というファイルが生成される。この処理員は数分掛かることがある。"
+msgstr "When the :guilabel:`Draw` button is pressed, a file called :file:`*_esp.cube` is created. This processor may take several minutes."
 
-msgid ""
-":file:`*_den.cube` をWinmostarのメインウィンドウで開くと、 :guilabel:`Cube Plot` "
-"というウィンドウが開く。"
+msgid ":file:`*_den.cube` をWinmostarのメインウィンドウで開くと、 :guilabel:`Cube Plot` というウィンドウが開く。"
 msgstr "If you open :file:`*_den.cube` in the main window of Winmostar, a window called :guilabel:`Cube Plot` will open."
 
 msgid ":guilabel:`File 2` の横の :guilabel:`...` ボタンをクリックし、 :file:`*_esp.cube` を開く。"
@@ -133,22 +101,14 @@ msgstr "Click the :guilabel:`...` button next to :guilabel:`File 2` to open :fil
 msgid ":guilabel:`Draw` ボタンをクリックする。"
 msgstr "Click :guilabel:`Draw` button"
 
-msgid ""
-"Windows版Gaussianに同梱されているCubegenプログラムをお持ちの場合は、 :guilabel:`ESP` "
-"の表示を高速化できます。 Cubeファイルを開いた際に出現する :guilabel:`Cubegen` ウィンドウにおいて、 "
-":guilabel:`Use Gaussian's cubegen` チェックボックスにチェックを入れてください。"
-msgstr "If you have the Cubegen program included with Gaussian for Windows, "
-"you can speed up the display of :guilabel:`ESP`. In the :guilabel:`Cubegen` "
-"window that appears when you open a Cube file, check the :guilabel:`Use Gaussian's cubegen` checkbox."
+msgid "Windows版Gaussianに同梱されているCubegenプログラムをお持ちの場合は、 :guilabel:`ESP` の表示を高速化できます。 Cubeファイルを開いた際に出現する :guilabel:`Cubegen` ウィンドウにおいて、 :guilabel:`Use Gaussian's cubegen` チェックボックスにチェックを入れてください。"
+msgstr "If you have the Cubegen program included with Gaussian for Windows, you can speed up the display of :guilabel:`ESP`. In the :guilabel:`Cubegen` window that appears when you open a Cube file, check the :guilabel:`Use Gaussian's cubegen` checkbox."
 
 msgid ":guilabel:`Selected MO`"
 msgstr ":guilabel:`Selected MO`"
 
 msgid "描画する分子軌道の番号を指定します。 :ref:`mo_top` で分子軌道を選択するとこの場所に値がセットされます。"
-msgstr "NOTTRANSLATED"
-"Specify the number of the molecular orbit to be drawn. Selecting a "
-"molecular orbital with :ref:`mo_top` will set the value in this "
-"location."
+msgstr "Specify the number of the molecular orbit to be drawn. Selecting a molecular orbital with :ref:`mo_top` will set the value in this location."
 
 msgid ":guilabel:`Show Diagram` ボタン"
 msgstr ":guilabel:`Show Diagram` button"
@@ -196,9 +156,7 @@ msgid ":guilabel:`Draw boundary` チェックボックス"
 msgstr ":guilabel:`Draw boundary` check box"
 
 msgid "cubeファイルの境界に線を描画します。Quantum ESPRESSO, OpenMXなどのバンド計算で主に使用します。"
-msgstr "NOTTRANSLATED"
-"Draw a line on the boundary of the cube file. It is mainly used for band "
-"calculation such as Quantum ESPRESSO, OpenMX."
+msgstr "Draw a line on the boundary of the cube file. It is mainly used for band calculation such as Quantum ESPRESSO, OpenMX."
 
 msgid ":guilabel:`Draw contour Map` チェックボックス"
 msgstr ":guilabel:`Draw contour Map` check box"
@@ -210,9 +168,7 @@ msgid ":guilabel:`Dump cube file` チェックボックス"
 msgstr ":guilabel:`Dump cube file` check box"
 
 msgid ":guilabel:`Draw` ボタンを押したときに、描画と同時にcubeファイルを出力します。"
-msgstr "NOTTRANSLATED"
-"When you press the :guilabel:`Draw` button, cube file is output at the "
-"same time as drawing."
+msgstr "When you press the :guilabel:`Draw` button, cube file is output at the same time as drawing."
 
 msgid ":guilabel:`Draw` ボタン"
 msgstr ":guilabel:`Draw` button"
@@ -228,4 +184,3 @@ msgstr "Draw volume data in the main window. (Deprecated)"
 
 msgid ":guilabel:`Close` ボタン"
 msgstr ":guilabel:`Close` button"
-

@@ -1,21 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
-# This file is distributed under the same license as the Winmostar User
-# Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
-msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 14:13+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
 
 msgid ":menuselection:`固体 --> Quantum ESPRESSO` メニュー"
 msgstr ":menuselection:`Solid --> Quantum ESPRESSO` menu"
@@ -24,78 +6,49 @@ msgid "Quantum ESPRESSOに関するメニューです。"
 msgstr "It is a menu related to Quantum ESPRESSO."
 
 msgid "Quantum ESPRESSOをインストールする方法は :ref:`install_install` に記載しています。"
-msgstr "NOTTRANSLATED"
-"The way to install Quantum ESPRESSO is described in :ref:`install_install`."
+msgstr "The way to install Quantum ESPRESSO is described in :ref:`install_install`."
 
 msgid "キーワード設定"
 msgstr "Configure..."
 
-msgid ""
-"Quantum ESPRESSOの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` "
-"ボタン、一旦メインウィンドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
-msgstr "NOTTRANSLATED"
-"Set the calculation condition of Quantum ESPRESSO. To set up the "
-"calculations immediately after setting :guilabel:`Run` button, once to "
-"return to the main window please press :guilabel:` OK` button."
+msgid "Quantum ESPRESSOの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
+msgstr "Set the calculation condition of Quantum ESPRESSO. To set up the calculations immediately after setting :guilabel:`Run` button, once to return to the main window please press :guilabel:` OK` button."
 
 msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`solid_qe_start` を参照してください。"
 msgstr "See :ref:`solid_qe_start` for behavior when clicking :guilabel:`Run`."
 
-msgid ""
-":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 :guilabel:`Save` ボタンでForce "
-"Fieldを除く設定を保存します。 :guilabel:`Load` ボタンで :guilabel:`Save` にて保存した設定を読み込みます。"
-msgstr "NOTTRANSLATED"
-"Return to the default state with :guilabel:`Reset` button. "
-"Save the setting except Force Field with :guilabel:`Save` button. "
-"Load the setting saved by :guilabel:`Save` with the :guilabel:`Load` button."
+msgid ":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 :guilabel:`Save` ボタンでForce Fieldを除く設定を保存します。 :guilabel:`Load` ボタンで :guilabel:`Save` にて保存した設定を読み込みます。"
+msgstr "Return to the default state with :guilabel:`Reset` button. Save the setting except Force Field with :guilabel:`Save` button. Load the setting saved by :guilabel:`Save` with the :guilabel:`Load` button."
 
-msgid ""
-":ref:`キーワード表示エリア <gui_main>` に表示されているQuantum "
-"ESPRESSOのキーワードと本機能のウィンドウに設定された内容が異なる場合は、キーワード表示エリアからキーワードを読み込むか尋ねられます。"
-msgstr "NOTTRANSLATED"
-"If the Quantum ESPRESSO keyword displayed in the :ref:`keyword display area <gui_main>` and "
-"the contents set in this function window are different, you will be asked if you want to load "
-"the keyword from the keyword display area."
+msgid ":ref:`キーワード表示エリア <gui_main>` に表示されているQuantum ESPRESSOのキーワードと本機能のウィンドウに設定された内容が異なる場合は、キーワード表示エリアからキーワードを読み込むか尋ねられます。"
+msgstr "If the Quantum ESPRESSO keyword displayed in the :ref:`keyword display area <gui_main>` and the contents set in this function window are different, you will be asked if you want to load the keyword from the keyword display area."
 
-msgid ""
-"本機能を呼び出すときに、メインウィンドウに表示された構造がプリミティブセルに変化できる場合は、自動で "
-":ref:`solid_convertcell` が実行されます。"
-msgstr "NOTTRANSLATED"
-"When invoking this function, if the structure displayed in the main "
-"window can be changed to a primitive cell, :ref:`solid_convertcell` is "
-"executed automatically."
+msgid "本機能を呼び出すときに、メインウィンドウに表示された構造がプリミティブセルに変化できる場合は、自動で :ref:`solid_convertcell` が実行されます。"
+msgstr "When invoking this function, if the structure displayed in the main window can be changed to a primitive cell, :ref:`solid_convertcell` is executed automatically."
 
 msgid "Output Directory"
 msgstr "Output Directory"
 
 msgid "データの出力先フォルダ(outdir)を指定すると同時に、ジョブの新規・継続実行を指定します。"
-msgstr "NOTTRANSLATED"
-"Specify the output destination folder (outdir) of the data, and at the "
-"same time specify the new / continued execution of the job."
+msgstr "Specify the output destination folder (outdir) of the data, and at the same time specify the new / continued execution of the job."
 
 msgid "Create"
 msgstr "Create"
 
 msgid "新規にデータの出力先フォルダを作成します。outdirは新規フォルダに設定されます。"
-msgstr "NOTTRANSLATED"
-"Create a new destination folder for the data. outdir is set as a new folder."
+msgstr "Create a new destination folder for the data. outdir is set as a new folder."
 
 msgid "Continue"
 msgstr "Continue"
 
 msgid "メイン画面に読み込まれている、直前に実行されたQEのジョブを継続します。outdirは直前に実行されたジョブのoutdirに設定されます。"
-msgstr "NOTTRANSLATED"
-"Continue the job of QE that was loaded on the main screen and executed "
-"immediately. outdir is set to outdir of the job executed immediately before."
+msgstr "Continue the job of QE that was loaded on the main screen and executed immediately. outdir is set to outdir of the job executed immediately before."
 
 msgid "Select..."
 msgstr "Select..."
 
 msgid "開いたダイアログで指定したフォルダを出力先に指定し、そのフォルダのデータからジョブを継続します。outdirはここで指定したものに設定されます。"
-msgstr "NOTTRANSLATED"
-"Specify the folder specified in the opened dialog as the output "
-"destination and continue the job from the data of that folder. Outdir "
-"will be set to what you specify here."
+msgstr "Specify the folder specified in the opened dialog as the output destination and continue the job from the data of that folder. Outdir will be set to what you specify here."
 
 msgid "Preset"
 msgstr "Preset"
@@ -107,9 +60,7 @@ msgid "Use MPI"
 msgstr "Use MPI"
 
 msgid "QEの実行時にMPIを用いて並列計算を実行するか指定します。横の欄にはMPIプロセス数を入力します。"
-msgstr "NOTTRANSLATED"
-"Specify whether to execute parallel calculation using MPI when executing "
-"QE. Enter the number of MPI processes in the horizontal field."
+msgstr "Specify whether to execute parallel calculation using MPI when executing QE. Enter the number of MPI processes in the horizontal field."
 
 msgid "Basicタブ"
 msgstr "Basic Tab"
@@ -124,41 +75,19 @@ msgid "Use nbnd"
 msgstr "Use nbnd"
 
 msgid "バンド数を指定します。チェックを入れない場合は自動で設定されます。括弧内に選択されたは擬ポテンシャルを使用したときの価電子数が表示される。価電子数の自動計算に失敗した場合はN/Aと表示される。"
-msgstr "NOTTRANSLATED"
-"Specify the number of bands. If not checked, it will be set "
-"automatically. When selected in parentheses, the number of valence "
-"electrons when pseudopotential is used is displayed. If the calculation "
-"of the number of valence electrons fails, it is displayed as N / A."
+msgstr "Specify the number of bands. If not checked, it will be set automatically. When selected in parentheses, the number of valence electrons when pseudopotential is used is displayed. If the calculation of the number of valence electrons fails, it is displayed as N / A."
 
 msgid "K_POINTS"
 msgstr "K_POINTS"
 
-msgid ""
-"K点の指定方法をプルダウンから選び、下のテキストボックスにQEの書式でK点を指定します。 gammaの場合はΓ点のみで計算されます。 "
-"automaticの場合は「(kx方向の分割数) (ky方向の分割数) (kz方向の分割数) (kx方向のシフトフラグ) "
-"(ky方向のシフトフラグ) "
-"(kz方向のシフトフラグ)」（スペース区切り）を入力します。シフトフラグは0のときにシフトなし（k点がΓ点を含む）、1のときにシフトあり（k点がΓ点を跨ぐ）となります。"
-" その他詳細はpw.xのマニュアルまたはQEインストールフォルダ以下のdoc/brillouin_zones.pdfをご参照ください。"
-msgstr "NOTTRANSLATED"
-"Select the specification method of point K from the pull-down and specify"
-" K point in QE format in the text box below. In the case of gamma, it is "
-"calculated only with the Γ point. In the automatic case, "(number of"
-" divisions in the kx direction) (division number in the ky direction) "
-"(number of divisions in the kz direction) (shift flag in the kx "
-"direction) (shift flag in the ky direction) (shift flag in kz direction)" "
-"Enter a delimiter. When the shift flag is 0, there is no shift (the k "
-"point includes the Γ point), when it is 1, there is a shift (k point "
-"crosses the Γ point). For details, please refer to doc / "
-"brillouin_zones.pdf under pw.x manual or QE installation folder."
+msgid "K点の指定方法をプルダウンから選び、下のテキストボックスにQEの書式でK点を指定します。 gammaの場合はΓ点のみで計算されます。 automaticの場合は「(kx方向の分割数) (ky方向の分割数) (kz方向の分割数) (kx方向のシフトフラグ) (ky方向のシフトフラグ) (kz方向のシフトフラグ)」（スペース区切り）を入力します。シフトフラグは0のときにシフトなし（k点がΓ点を含む）、1のときにシフトあり（k点がΓ点を跨ぐ）となります。 その他詳細はpw.xのマニュアルまたはQEインストールフォルダ以下のdoc/brillouin_zones.pdfをご参照ください。"
+msgstr "Select the specification method of point K from the pull-down and specify K point in QE format in the text box below. In the case of gamma, it is calculated only with the Γ point. In the automatic case, \"(number of divisions in the kx direction) (division number in the ky direction) (number of divisions in the kz direction) (shift flag in the kx direction) (shift flag in the ky direction) (shift flag in kz direction)\" Enter a delimiter. When the shift flag is 0, there is no shift (the k point includes the Γ point), when it is 1, there is a shift (k point crosses the Γ point). For details, please refer to doc / brillouin_zones.pdf under pw.x manual or QE installation folder."
 
 msgid "Set default k-path"
 msgstr "Set default k-path"
 
 msgid "メインウィンドウに表示されている結晶について検出されたブラベー格子（ibrav）のデフォルトのk点パスをUserPref/kpath_default.txtから取得して設定します。"
-msgstr "NOTTRANSLATED"
-"The default k-point path of the Bravo lattice (ibrav) detected for the "
-"crystal displayed in the main window is acquired from UserPref / "
-"kpath_default.txt and set."
+msgstr "The default k-point path of the Bravo lattice (ibrav) detected for the crystal displayed in the main window is acquired from UserPref / kpath_default.txt and set."
 
 msgid "nosym"
 msgstr "nosym"
@@ -175,28 +104,20 @@ msgstr "Specify whether time reversal symmetry is used or not."
 msgid "Set ibrav = ... and celldm"
 msgstr "Set ibrav = ... and celldm"
 
-msgid ""
-"メインウィンドウにプリミティブセルが表示されていて、チェックが入っている場合は、適当なibravとcelldmを設定します。 "
-"チェックが入っていない場合は、ibrav=0とし、CELL_PARAMETERSを設定します。"
-msgstr "NOTTRANSLATED"
-"If the primitive cell is displayed in the main window and checked, set "
-"the appropriate ibrav and celldm. If it is not checked, set ibrav = 0 and"
-" set CELL_PARAMETERS."
+msgid "メインウィンドウにプリミティブセルが表示されていて、チェックが入っている場合は、適当なibravとcelldmを設定します。 チェックが入っていない場合は、ibrav=0とし、CELL_PARAMETERSを設定します。"
+msgstr "If the primitive cell is displayed in the main window and checked, set the appropriate ibrav and celldm. If it is not checked, set ibrav = 0 and set CELL_PARAMETERS."
 
 msgid "ecutwfc"
 msgstr "ecutwfc"
 
 msgid "波動関数の計算時の平面波のカットオフエネルギーを指定します。"
-msgstr "NOTTRANSLATED"
-"Specify the cutoff energy of the plane wave when calculating the wave function."
+msgstr "Specify the cutoff energy of the plane wave when calculating the wave function."
 
 msgid "ecutrho"
 msgstr "ecutrho"
 
 msgid "電子密度およびポテンシャル計算時の平面波のカットオフエネルギーを指定します。"
-msgstr "NOTTRANSLATED"
-"Specify cutoff energy of plane wave at electron density and potential "
-"calculation."
+msgstr "Specify cutoff energy of plane wave at electron density and potential calculation."
 
 msgid "tot_charge"
 msgstr "tot_charge"
@@ -247,22 +168,19 @@ msgid "etot_conv_thr"
 msgstr "etot_conv_thr"
 
 msgid "構造最適化(relax)計算時のエネルギーの許容誤差を指定します。"
-msgstr "NOTTRANSLATED"
-"Structural Optimization (relax) Specify the energy tolerance for calculation."
+msgstr "Structural Optimization (relax) Specify the energy tolerance for calculation."
 
 msgid "forc_conv_thr"
 msgstr "forc_conv_thr"
 
 msgid "構造最適化(relax)計算時の力の許容誤差を指定します。"
-msgstr "NOTTRANSLATED"
-"Structural Optimization (relax) Specify the force tolerance during calculation."
+msgstr "Structural Optimization (relax) Specify the force tolerance during calculation."
 
 msgid "press_conv_thr"
 msgstr "press_conv_thr"
 
 msgid "セルの構造最適化(relax-vc)計算時の圧力の許容誤差を指定します。"
-msgstr "NOTTRANSLATED"
-"Specify tolerance of pressure when cell structure optimization (relax - vc) calculation is calculated."
+msgstr "Specify tolerance of pressure when cell structure optimization (relax - vc) calculation is calculated."
 
 msgid "electron_maxstep"
 msgstr "electron_maxstep"
@@ -274,17 +192,13 @@ msgid "nstep"
 msgstr "nstep"
 
 msgid "構造最適化(relax)計算の最大ステップ数およびMD計算のステップ数を指定します。"
-msgstr "NOTTRANSLATED"
-"Specify the maximum number of steps for structure optimization (relax) "
-"calculation and the number of steps for MD calculation."
+msgstr "Specify the maximum number of steps for structure optimization (relax) calculation and the number of steps for MD calculation."
 
 msgid "upscale"
 msgstr "upscale"
 
 msgid "構造最適化(relax)計算の最中にconv_thrを自動的に小さくする際の係数を指定します。"
-msgstr "NOTTRANSLATED"
-"Specify coefficients for automatically decreasing conv_thr during "
-"structure optimization (relax) calculation."
+msgstr "Specify coefficients for automatically decreasing conv_thr during structure optimization (relax) calculation."
 
 msgid "diagonalozation"
 msgstr "diagonalozation"
@@ -296,9 +210,7 @@ msgid "lspinorb"
 msgstr "lspinorb"
 
 msgid "ノンコリニア計算時にスピン軌道相互作用付きの擬ポテンシャルファイルを使えるようにします。"
-msgstr "NOTTRANSLATED"
-"Pseudopotential file with spin orbit interaction can be used during "
-"calculation of non-colinear."
+msgstr "Pseudopotential file with spin orbit interaction can be used during calculation of non-colinear."
 
 msgid "smearing"
 msgstr "smearing"
@@ -316,9 +228,7 @@ msgid "mixing_beta"
 msgstr "mixing_beta"
 
 msgid "SCF計算における新旧のKS軌道の混合比を指定します。1に近いほど予測値の割合が大きくなります。"
-msgstr "NOTTRANSLATED"
-"Specify the mixture ratio of old and new KS orbitals in SCF calculation. "
-"The closer to 1, the greater the ratio of predicted values."
+msgstr "Specify the mixture ratio of old and new KS orbitals in SCF calculation. The closer to 1, the greater the ratio of predicted values."
 
 msgid "mixing_mode"
 msgstr "mixing_mode"
@@ -336,9 +246,7 @@ msgid "Use input_dft"
 msgstr "Use input_dft"
 
 msgid "チェックを入れた場合は、汎関数の設定を擬ポテンシャルファイルに書かれた設定に対し上書きします。"
-msgstr "NOTTRANSLATED"
-"When checked, overwrite the setting of the functional to the setting "
-"written in the pseudopotential file."
+msgstr "When checked, overwrite the setting of the functional to the setting written in the pseudopotential file."
 
 msgid "cell_dofree"
 msgstr "cell_dofree"
@@ -349,13 +257,8 @@ msgstr "Specify the degree of freedom (direction) for moving the simulation cell
 msgid "Use cell_factor"
 msgstr "Use cell_factor"
 
-msgid ""
-"擬ポテンシャルテーブルの構築パラメータを明示的に指定します。vc-"
-"relax（セルサイズの変化を伴う構造最適化計算）の際に大きい値を設定した方がいい場合があります。"
-msgstr "NOTTRANSLATED"
-"Explicitly specify the construction parameter of the pseudopotential "
-"table. Sometimes it is better to set a larger value for vc - relax "
-"(structure optimization calculation with cell size change)."
+msgid "擬ポテンシャルテーブルの構築パラメータを明示的に指定します。vc-relax（セルサイズの変化を伴う構造最適化計算）の際に大きい値を設定した方がいい場合があります。"
+msgstr "Explicitly specify the construction parameter of the pseudopotential table. Sometimes it is better to set a larger value for vc - relax (structure optimization calculation with cell size change)."
 
 msgid "Spin/DFT+Uタブ"
 msgstr "Spin / DFT + U tab"
@@ -370,9 +273,7 @@ msgid "Use tot_magnetization"
 msgstr "Use tot_magnetization"
 
 msgid "チェックを入れた場合は、ここで系全体の磁化を指定します。チェックしない場合はstarting_magnetizationを指定します。"
-msgstr "NOTTRANSLATED"
-"When checked, specify the magnetization of the whole system here. If you "
-"do not check it, specify starting_magnetization."
+msgstr "When checked, specify the magnetization of the whole system here. If you do not check it, specify starting_magnetization."
 
 msgid "starting_magnetization"
 msgstr "starting_magnetization"
@@ -398,15 +299,8 @@ msgstr "Phonon tab"
 msgid "Run Phonon Calculation as Postprocess"
 msgstr "Run Phonon Calculation as Postprocess"
 
-msgid ""
-"フォノン計算を実行します。 具体的には、pw.xを実行した後にph.xを実行します。 "
-"この項目を有効にするためには、CalculationにSCFまたはrelaxを選ぶ必要があります。 "
-"ph.xなどの入出力ファイルは作業ディレクトリ内に作成されます。"
-msgstr "NOTTRANSLATED"
-"Perform phonon calculation. Specifically, execute ph.x after executing "
-"pw.x. In order to make this item effective, you need to choose SCF or "
-"relax for Calculation. I / O files such as ph.x are created in the "
-"working directory."
+msgid "フォノン計算を実行します。 具体的には、pw.xを実行した後にph.xを実行します。 この項目を有効にするためには、CalculationにSCFまたはrelaxを選ぶ必要があります。 ph.xなどの入出力ファイルは作業ディレクトリ内に作成されます。"
+msgstr "Perform phonon calculation. Specifically, execute ph.x after executing pw.x. In order to make this item effective, you need to choose SCF or relax for Calculation. I / O files such as ph.x are created in the working directory."
 
 msgid "Threshold"
 msgstr "Threshold"
@@ -429,21 +323,14 @@ msgstr "Include calculation of Raman spectrum."
 msgid "Acoustic Sum Rule"
 msgstr "Acoustic Sum Rule"
 
-msgid ""
-"フォノン計算後のスペクトル算出時（dynmat.x）のAcoustic Sum "
-"Ruleの与え方を指定します。フォノン計算そのものには影響を与えません。"
-msgstr "NOTTRANSLATED"
-"Specify how to give Acoustic Sum Rule at the time of spectrum calculation"
-" (dynmat.x) after phonon calculation. It does not affect phonon "
-"calculation itself."
+msgid "フォノン計算後のスペクトル算出時（dynmat.x）のAcoustic Sum Ruleの与え方を指定します。フォノン計算そのものには影響を与えません。"
+msgstr "Specify how to give Acoustic Sum Rule at the time of spectrum calculation (dynmat.x) after phonon calculation. It does not affect phonon calculation itself."
 
 msgid "Calc Phonon Dispersion"
 msgstr "Calc Phonon Dispersion"
 
 msgid "フォノン分散を計算します。フォノンバンド構造、フォノン状態密度を取得するためにはこれを指定する必要があります。"
-msgstr "NOTTRANSLATED"
-"Calculate phonon dispersion. In order to acquire phonon band structure, "
-"phonon state density you need to specify this."
+msgstr "Calculate phonon dispersion. In order to acquire phonon band structure, phonon state density you need to specify this."
 
 msgid "K Points (Dispersion)"
 msgstr "K Points (Dispersion)"
@@ -458,9 +345,7 @@ msgid "Simulation Package"
 msgstr "Simulation Package"
 
 msgid "MD計算に使用する計算パッケージを指定します。cp.xの場合はCPMD法を使います。"
-msgstr "NOTTRANSLATED"
-"Specify the calculation package to be used for MD calculation. For cp.x, "
-"use the CPMD method."
+msgstr "Specify the calculation package to be used for MD calculation. For cp.x, use the CPMD method."
 
 msgid "dt"
 msgstr "DT"
@@ -472,15 +357,13 @@ msgid "tempw"
 msgstr "tempw"
 
 msgid "MD計算で温度制御を指定した際の目標温度を指定します。"
-msgstr "NOTTRANSLATED"
-"Specify the target temperature when temperature control is specified by MD calculation."
+msgstr "Specify the target temperature when temperature control is specified by MD calculation."
 
 msgid "press"
 msgstr "press"
 
 msgid "MD計算で圧力制御を指定した際の目標圧力を指定します。"
-msgstr "NOTTRANSLATED"
-"Specify the target pressure when specifying pressure control in MD calculation."
+msgstr "Specify the target pressure when specifying pressure control in MD calculation."
 
 msgid "ion_temperature"
 msgstr "ion_temperature"
@@ -504,22 +387,19 @@ msgid "pot_extrapolation"
 msgstr "pot_extrapolation"
 
 msgid "Born-Oppenheimer MD使用時のポテンシャルの外挿方法を指定します。"
-msgstr "NOTTRANSLATED"
-"Born-Oppenheimer Specify the extrapolation method of the potential when using MD."
+msgstr "Born-Oppenheimer Specify the extrapolation method of the potential when using MD."
 
 msgid "wfc_extrapolation"
 msgstr "wfc_extrapolation"
 
 msgid "Born-Oppenheimer MD使用時の波動関数の外挿方法を指定します。"
-msgstr "NOTTRANSLATED"
-"Specify the extrapolation method of wave function when Born-Oppenheimer MD is used."
+msgstr "Specify the extrapolation method of wave function when Born-Oppenheimer MD is used."
 
 msgid "electron_dynamics"
 msgstr "electron_dynamics"
 
 msgid "Car-Parrinello MD使用時のKS軌道を変化させるアルゴリズムを指定します。"
-msgstr "NOTTRANSLATED"
-"Specify the algorithm to change the KS trajectory when Car - Parrinello MD is used."
+msgstr "Specify the algorithm to change the KS trajectory when Car - Parrinello MD is used."
 
 msgid "electron_velocities"
 msgstr "electron_velocities"
@@ -537,9 +417,7 @@ msgid "emass_cutoff"
 msgstr "emass_cutoff"
 
 msgid "Car-Parrinello MD計算時の電子の仮想質量のカットオフ値を指定します。"
-msgstr "NOTTRANSLATED"
-"Car-Parrinello Specifies the cutoff value of the virtual mass of "
-"electrons during MD calculation."
+msgstr "Car-Parrinello Specifies the cutoff value of the virtual mass of electrons during MD calculation."
 
 msgid "orthogonalization"
 msgstr "orthogonalization"
@@ -572,30 +450,19 @@ msgid "lfcpopt"
 msgstr "lfcpopt"
 
 msgid "化学ポテンシャル一定(constant mu)計算を実施します。初期の系全体の電荷はBasicタブのtot_chargeで指定されます。"
-msgstr "NOTTRANSLATED"
-"Calculation of constant chemical potential (constant mu) will be carried "
-"out. The initial system charge is specified by tot_charge on the Basic tab."
+msgstr "Calculation of constant chemical potential (constant mu) will be carried out. The initial system charge is specified by tot_charge on the Basic tab."
 
 msgid "fcp_mu"
 msgstr "the fcp_m"
 
 msgid "化学ポテンシャル一定計算でのフェルミエネルギーの目標値を設定します。"
-msgstr "NOTTRANSLATED"
-"Set the target value of Fermi energy in constant calculation of chemical "
-"potential."
+msgstr "Set the target value of Fermi energy in constant calculation of chemical potential."
 
 msgid "Enter Relative Potential..."
 msgstr "Enter Relative Potential..."
 
-msgid ""
-"Target Fermi Energyの入力をサポートします。 "
-"まず、電圧0での計算のログファイルを指定し、電圧0でのフェルミエネルギーを取得します。 次に、印加電圧を入力します。 "
-"これら2つの情報から、Target Fermi Energyを算出します。"
-msgstr "NOTTRANSLATED"
-"Supports input of Target Fermi Energy. First, specify the log file for "
-"calculation at voltage 0 and acquire Fermi energy at voltage 0. Next, "
-"input the applied voltage. From these two pieces of information, "
-"calculate Target Fermi Energy."
+msgid "Target Fermi Energyの入力をサポートします。 まず、電圧0での計算のログファイルを指定し、電圧0でのフェルミエネルギーを取得します。 次に、印加電圧を入力します。 これら2つの情報から、Target Fermi Energyを算出します。"
+msgstr "Supports input of Target Fermi Energy. First, specify the log file for calculation at voltage 0 and acquire Fermi energy at voltage 0. Next, input the applied voltage. From these two pieces of information, calculate Target Fermi Energy."
 
 msgid "RISM(1)タブ"
 msgstr "RISM(1) tab"
@@ -603,11 +470,8 @@ msgstr "RISM(1) tab"
 msgid "trism=.True."
 msgstr "trism=.True."
 
-msgid ""
-"RISM計算を有効にします。ESM-RISM計算を実行する際は、ここにチェックを入れ、 :guilabel:`ESM` タブの "
-":guilabel:`assume_isolated=esm` にもチェックを入れてください。"
-msgstr "Enable RISM calculations. Check here to run ESM-RISM calculations, "
-"and check :guilabel:`assume_isolated = esm` on the :guilabel:`ESM` tab."
+msgid "RISM計算を有効にします。ESM-RISM計算を実行する際は、ここにチェックを入れ、 :guilabel:`ESM` タブの :guilabel:`assume_isolated=esm` にもチェックを入れてください。"
+msgstr "Enable RISM calculations. Check here to run ESM-RISM calculations, and check :guilabel:`assume_isolated = esm` on the :guilabel:`ESM` tab."
 
 msgid "closure"
 msgstr "closure"
@@ -621,21 +485,18 @@ msgstr "tempw"
 msgid "RISM計算の温度を指定します。"
 msgstr "Specify the initial velocity of ion for MD calculation."
 
-msgid "solv"
+#, fuzzy
+msgid "ecutsolv"
 msgstr "solv"
 
 msgid "RISM計算のカットオフエネルギーを指定します。"
-msgstr "NOTTRANSLATED"
-"Specify the cutoff energy of the plane wave when calculating the wave function."
+msgstr "Specify the cutoff energy of the plane wave when calculating the wave function."
 
 msgid "solute_lj"
 msgstr "solute_lj"
 
-msgid ""
-"溶質（DFT領域）のLJパラメータを指定します。 :guilabel:`none` を選択した場合は、その下の "
-":guilabel:`solute_epsilon` と :guilabel:`solute_sigma` にLJパラメータを入力してください。"
-msgstr "Specify the LJ parameter of the solute (DFT region). If :guilabel:`none` is selected, "
-"enter the LJ parameter in :guilabel:`solute_epsilon` and :guilabel:`solute_sigma` below"
+msgid "溶質（DFT領域）のLJパラメータを指定します。 :guilabel:`none` を選択した場合は、その下の :guilabel:`solute_epsilon` と :guilabel:`solute_sigma` にLJパラメータを入力してください。"
+msgstr "Specify the LJ parameter of the solute (DFT region). If :guilabel:`none` is selected, enter the LJ parameter in :guilabel:`solute_epsilon` and :guilabel:`solute_sigma` below"
 
 msgid "nsolv"
 msgstr "noinv"
@@ -646,12 +507,8 @@ msgstr "Specify the number of molecular species of the solvent."
 msgid "SOLVENTS"
 msgstr "SOLVENTS"
 
-msgid ""
-":guilabel:`Density` "
-"の単位をプルダウンから選択し、各溶媒分子種の密度（濃度）とMOLファイルの名前を指定します。MOLファイルは下の "
-":guilabel:`Directory for MOL Files` で指定したフォルダに収められている必要があります。"
-msgstr "Select the unit of :guilabel:`Density` from the pull-down menu and specify the density (concentration) of each solvent molecule type and the name of the MOL file. "
-"MOL files must be in the folder specified by :guilabel:`Directory for MOL Files` below."
+msgid ":guilabel:`Density` の単位をプルダウンから選択し、各溶媒分子種の密度（濃度）とMOLファイルの名前を指定します。MOLファイルは下の :guilabel:`Directory for MOL Files` で指定したフォルダに収められている必要があります。"
+msgstr "Select the unit of :guilabel:`Density` from the pull-down menu and specify the density (concentration) of each solvent molecule type and the name of the MOL file. MOL files must be in the folder specified by :guilabel:`Directory for MOL Files` below."
 
 msgid "Directory for MOL Files"
 msgstr "Directory for MOL Files"
@@ -717,9 +574,7 @@ msgid "Otherタブ"
 msgstr "Other tab"
 
 msgid "QEの入力ファイルの書式（FORTRANのnamelist形式）で、その他の設定を記入します。 記入例は、ポインタを重ねると表示されます。"
-msgstr "NOTTRANSLATED"
-"Fill in the other settings in QE&#39;s input file format (FORTRAN "
-"namelist format). An example of entry is displayed by pointing the pointer."
+msgstr "Fill in the other settings in QE&#39;s input file format (FORTRAN namelist format). An example of entry is displayed by pointing the pointer."
 
 msgid "Options"
 msgstr "Options"
@@ -740,36 +595,25 @@ msgid "Use max_seconds"
 msgstr "Use max_seconds"
 
 msgid "チェックを入れた場合、ここに入力した秒数の経過後QEの処理が中断されます。"
-msgstr "NOTTRANSLATED"
-"If checked, processing of QE will be interrupted after the number of "
-"seconds entered here."
+msgstr "If checked, processing of QE will be interrupted after the number of seconds entered here."
 
 msgid "Make a Backup of Working Directory"
 msgstr "Make a Backup of Working Directory"
 
-msgid ""
-"Output DirectoryがCreateの際に、作成される_qe_dataフォルダが既に存在する場合、フォルダ名末尾に数字を付加して既に存在するフォルダをバックアップします。"
-msgstr "NOTTRANSLATED"
-"When Output Directory is Create, if the _qe_data folder to be created already exists, "
-"add a number to the end of the folder name to back up the existing folder."
+msgid "Output DirectoryがCreateの際に、作成される_qe_dataフォルダが既に存在する場合、フォルダ名末尾に数字を付加して既に存在するフォルダをバックアップします。"
+msgstr "When Output Directory is Create, if the _qe_data folder to be created already exists, add a number to the end of the folder name to back up the existing folder."
 
 msgid "Dump all files for remote"
 msgstr "Dump all files for remote"
 
 msgid "Linux環境でのジョブ実行に必要なファイルを出力します。リモートジョブ投入機能で生成されるファイルと同じファイルが出力されます。"
-msgstr "NOTTRANSLATED"
-"Output files necessary for job execution under Linux environment. The "
-"same file as the file generated by the remote job submission function is output."
+msgstr "Output files necessary for job execution under Linux environment. The same file as the file generated by the remote job submission function is output."
 
 msgid "Open  k-path file"
 msgstr "Open  k-path file"
 
 msgid "ibrav（ブラべ格子）の種類ごとにデフォルトで指定するk点パスを記述する設定ファイル（UserPref/kpath_default.txt）を開きます。UserPref/kpath_default.txtが存在しない場合はwmx/kpath_default.txtからコピーされます。"
-msgstr "NOTTRANSLATED"
-"Open the configuration file (UserPref/kpath_default.txt) that describes"
-" the k-point path specified by default for each type of ibrav (bracket "
-"lattice). If UserPref/kpath_default.txt does not exist, it is copied "
-"from wmx/kpath_default.txt."
+msgstr "Open the configuration file (UserPref/kpath_default.txt) that describes the k-point path specified by default for each type of ibrav (bracket lattice). If UserPref/kpath_default.txt does not exist, it is copied from wmx/kpath_default.txt."
 
 msgid "Use RISM-enabled QE"
 msgstr "Use RISM-enabled QE"
@@ -784,10 +628,7 @@ msgid "Calculate these properties after pw.x"
 msgstr "Calculate these properties after pw.x"
 
 msgid "pw.x実行直後に実行されるポスト処理を選択します。ここで選択した処理の各種パラメータは右のParameter/Value欄にて指定します。"
-msgstr "NOTTRANSLATED"
-"Select post processing to be executed immediately after executing pw.x. "
-"Various parameters of the processing selected here are specified in the "
-"Parameter/Value column on the right."
+msgstr "Select post processing to be executed immediately after executing pw.x. Various parameters of the processing selected here are specified in the Parameter/Value column on the right."
 
 msgid "Pseudo Potentialsタブ"
 msgstr "Pseudo Potentials tab"
@@ -808,9 +649,7 @@ msgid "Light"
 msgstr "Light"
 
 msgid "全元素の質量を1に設定します。イオンの構造緩和の促進などの目的で使われます。"
-msgstr "NOTTRANSLATED"
-"Set the mass of all elements to 1. It is used for the purpose of "
-"promoting structural relaxation of ions."
+msgstr "Set the mass of all elements to 1. It is used for the purpose of promoting structural relaxation of ions."
 
 msgid "Manual"
 msgstr "Manual"
@@ -821,39 +660,20 @@ msgstr "In the list below, for each element, the user individually sets the mass
 msgid "Pseudo Potential"
 msgstr "Pseudo Potential"
 
-msgid ""
-"系内の全元素に共通して存在する種類の擬ポテンシャルをプルダウンで選択できます。 "
-"(Manual)を選んだ場合は、下のリスト内で、各元素に対し、ユーザーが個別に擬ポテンシャルを設定します。 擬ポテンシャルファイルは、pseudo"
-" Directoryで指定したフォルダの中から検索されます。 "
-"UserPref/qe_pseudo_priority_list.txtの先頭に書かれたものが優先的に選択されます。"
-msgstr "NOTTRANSLATED"
-"Pseudopotentials of the type common to all the elements in the system can"
-" be selected by pulldown. (Manual) is selected, the user separately sets "
-"the pseudopotential for each element in the list below. Pseudopotential "
-"files are searched from folders specified in pseudo Directory. The one "
-"written at the top of UserPref/qe_pseudo_priority_list.txt is "
-"preferentially selected."
+msgid "系内の全元素に共通して存在する種類の擬ポテンシャルをプルダウンで選択できます。 (Manual)を選んだ場合は、下のリスト内で、各元素に対し、ユーザーが個別に擬ポテンシャルを設定します。 擬ポテンシャルファイルは、pseudo Directoryで指定したフォルダの中から検索されます。 UserPref/qe_pseudo_priority_list.txtの先頭に書かれたものが優先的に選択されます。"
+msgstr "Pseudopotentials of the type common to all the elements in the system can be selected by pulldown. (Manual) is selected, the user separately sets the pseudopotential for each element in the list below. Pseudopotential files are searched from folders specified in pseudo Directory. The one written at the top of UserPref/qe_pseudo_priority_list.txt is preferentially selected."
 
 msgid "Reload pseudo Files"
 msgstr "Reload pseudo Files"
 
 msgid "pseudo Directoryで指定したフォルダに配置された擬ポテンシャルファイルを再度読み込みます。"
-msgstr "NOTTRANSLATED"
-"The pseudo-potential file placed in the folder specified by pseudo "
-"Directory is read again."
+msgstr "The pseudo-potential file placed in the folder specified by pseudo Directory is read again."
 
 msgid "pseudo Directory"
 msgstr "pseudo Directory"
 
-msgid ""
-"擬ポテンシャルファイルを配置するフォルダを指定します。 :guilabel:`pseudo in QE's directory` "
-"の場合は、QEのインストールディレクトリ以下のpseudoフォルダを用います。 :guilabel:`(select...)` "
-"の場合は、ダイアログで選択したディレクトリを用います。"
-msgstr "NOTTRANSLATED"
-"Specify the folder where the pseudopotential file will be placed. "
-"If the case of :guilabel:`pseudo in QE&#39;s directory`, use the pseudo folder under the"
-" installation directory of QE. If the case of :guilabel:`(select ...)`, use the "
-"directory selected in the dialog."
+msgid "擬ポテンシャルファイルを配置するフォルダを指定します。 :guilabel:`pseudo in QE's directory` の場合は、QEのインストールディレクトリ以下のpseudoフォルダを用います。 :guilabel:`(select...)` の場合は、ダイアログで選択したディレクトリを用います。"
+msgstr "Specify the folder where the pseudopotential file will be placed. If the case of :guilabel:`pseudo in QE&#39;s directory`, use the pseudo folder under the installation directory of QE. If the case of :guilabel:`(select ...)`, use the directory selected in the dialog."
 
 msgid "Open Pseudo Directory"
 msgstr "Open Pseudo Directory"
@@ -871,46 +691,28 @@ msgid "Open Priority List"
 msgstr "Open Priority List"
 
 msgid "UserPref/qe_pseudo_priority.txtを開きます。存在しない場合はwmx/qe_pseudo_priority.txtからコピーされます。"
-msgstr "NOTTRANSLATED"
-"Open UserPref/qe_pseudo_priority.txt. If it does not exist, it is "
-"copied from wmx/qe_pseudo_priority.txt."
+msgstr "Open UserPref/qe_pseudo_priority.txt. If it does not exist, it is copied from wmx/qe_pseudo_priority.txt."
 
 msgid "実行"
 msgstr "Run..."
 
 msgid "Quantum ESPRESSOを実行します。 状況に応じて実行方法が異なります。"
-msgstr "NOTTRANSLATED"
-"Run Quantum ESPRESSO. The execution method differs depending on the situation."
+msgstr "Run Quantum ESPRESSO. The execution method differs depending on the situation."
 
 msgid "CPMDを選択したときは :command:`cp.x` 、それ以外の時は :command:`pw.x` が実行されます。"
-msgstr "NOTTRANSLATED"
-"When CPMD is selected :command:`cp.x`, otherwise it executes :command:`pw.x`."
+msgstr "When CPMD is selected :command:`cp.x`, otherwise it executes :command:`pw.x`."
 
-msgid ""
-"（デフォルト） :guilabel:`Output Directory = Create` "
-"の時は、作業ディレクトリを新規に作成して計算を実行します。"
-msgstr "NOTTRANSLATED"
-"(Default) When :guilabel:`Output Directory = Create`, create a new "
-"working directory and execute the calculation."
+msgid "（デフォルト） :guilabel:`Output Directory = Create` の時は、作業ディレクトリを新規に作成して計算を実行します。"
+msgstr "(Default) When :guilabel:`Output Directory = Create`, create a new working directory and execute the calculation."
 
-msgid ""
-":guilabel:`Output Directory = Continue` "
-"の時は、その時メインウィンドウで開いている入力ファイルのoutdirを作業ディレクトリとして使用します。"
-msgstr "NOTTRANSLATED"
-"If the case of :guilabel:`Output Directory = Continue`, use outdir of the input "
-"file open in the main window as the working directory then."
+msgid ":guilabel:`Output Directory = Continue` の時は、その時メインウィンドウで開いている入力ファイルのoutdirを作業ディレクトリとして使用します。"
+msgstr "If the case of :guilabel:`Output Directory = Continue`, use outdir of the input file open in the main window as the working directory then."
 
-msgid ""
-":guilabel:`Output Directory = Select` "
-"の時は、選択したフォルダを作業ディレクトリ（outdir）として使用します。"
-msgstr "NOTTRANSLATED"
-"If the case of :guilabel:`Output Directory = Select`, use the selected folder as the "
-"working directory (outdir)."
+msgid ":guilabel:`Output Directory = Select` の時は、選択したフォルダを作業ディレクトリ（outdir）として使用します。"
+msgstr "If the case of :guilabel:`Output Directory = Select`, use the selected folder as the working directory (outdir)."
 
 msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`si.pwin` の時のファイル/フォルダ名を併記しています。"
-msgstr "NOTTRANSLATED"
-"Following file will be generated with execution. As an example, the file "
-"/ folder name when the input file is :file:`si.pwin` is also shown."
+msgstr "Following file will be generated with execution. As an example, the file / folder name when the input file is :file:`si.pwin` is also shown."
 
 msgid "種類"
 msgstr "type"
@@ -946,9 +748,7 @@ msgid "作業ディレクトリです。"
 msgstr "Working directory."
 
 msgid "作業ディレクトリには以下のファイルが生成されます。 ここでは主要なファイルのみ示しています。"
-msgstr "NOTTRANSLATED"
-"The following files are generated in the working directory. Only the main"
-" files are shown here."
+msgstr "The following files are generated in the working directory. Only the main files are shown here."
 
 msgid "擬ポテンシャルファイル"
 msgstr "Pseudopotential file"
@@ -1014,37 +814,22 @@ msgid "**作業ディレクトリ**"
 msgstr "** Working directory **"
 
 msgid "作業ディレクトリとは、メインウィンドウで開かれているファイルの名前に接尾辞を加えた名前のフォルダです。"
-msgstr "NOTTRANSLATED"
-"A working directory is a folder whose name is the name of the file opened"
-" in the main window plus a suffix."
+msgstr "A working directory is a folder whose name is the name of the file opened in the main window plus a suffix."
 
 msgid "**接尾辞はソルバの種類により変わります。**"
 msgstr "** The suffix varies depending on the type of solver. **"
 
-msgid ""
-"例えばGromacsの場合は、メインウィンドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が "
-":file:`_gmx_tmp` の場合、作業ディレクトリの名前は :file:`aaa_gmx_tmp` となります。"
-msgstr "NOTTRANSLATED"
-"For example, in the case of Gromacs, if the file opened in the main "
-"window is :file:`aaa.gro` and the suffix is :file:`_gmx_tmp`, the "
-"working directory will be named :file:`aaa_gmx_tmp`."
+msgid "例えばGromacsの場合は、メインウィンドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が :file:`_gmx_tmp` の場合、作業ディレクトリの名前は :file:`aaa_gmx_tmp` となります。"
+msgstr "For example, in the case of Gromacs, if the file opened in the main window is :file:`aaa.gro` and the suffix is :file:`_gmx_tmp`, the working directory will be named :file:`aaa_gmx_tmp`."
 
 msgid "メインウィンドウで開かれているファイルと同じ階層に置かれている必要があります。"
 msgstr "It must be in the same hierarchy as the file opened in the main window."
 
 msgid "継続ジョブの時も同名の作業ディレクトリで処理が流れますが、デフォルトでは継続ジョブの実施直前に、直前のジョブの作業ディレクトリのバックアップが作成されます。"
-msgstr "NOTTRANSLATED"
-"Processing continues in the working directory of the same name even when "
-"continuing jobs, but by default the backup of the working directory of "
-"the previous job is created just before the continuation job is executed."
+msgstr "Processing continues in the working directory of the same name even when continuing jobs, but by default the backup of the working directory of the previous job is created just before the continuation job is executed."
 
-msgid ""
-"バックアップの名前は、重複する名前が存在しない範囲で一番小さい番号が付いたものになります。例えば、作業ディレクトリが "
-":file:`aaa_gmx_tmp` のときは :file:`aaa_gmx_tmp1` となります。"
-msgstr "NOTTRANSLATED"
-"The name of the backup will be the one with the smallest number in the "
-"range where duplicate names do not exist. For example, if the working "
-"directory is :file:`aaa_gmx_tmp`, it is :file:`aaa_gmx_tmp1`."
+msgid "バックアップの名前は、重複する名前が存在しない範囲で一番小さい番号が付いたものになります。例えば、作業ディレクトリが :file:`aaa_gmx_tmp` のときは :file:`aaa_gmx_tmp1` となります。"
+msgstr "The name of the backup will be the one with the smallest number in the range where duplicate names do not exist. For example, if the working directory is :file:`aaa_gmx_tmp`, it is :file:`aaa_gmx_tmp1`."
 
 msgid "**番号が付いていないディレクトリが常に最新のものとなります。**"
 msgstr "** Directories without numbers are always up to date. **"
@@ -1052,8 +837,8 @@ msgstr "** Directories without numbers are always up to date. **"
 msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
 msgstr "Job is run through :ref:`winmosjm_top`. "
 
-msgid "ログを表示 (pwout)"
-msgstr "Opem Log File (pwout, out)..."
+msgid "ログを表示"
+msgstr "NOTTRANSLATED"
 
 msgid "ログファイルをテキストエディタで開きます。"
 msgstr "Open the log file with a text editor."
@@ -1061,10 +846,11 @@ msgstr "Open the log file with a text editor."
 msgid "アニメーション"
 msgstr "Animation (pwout, out)..."
 
-msgid "ログファイルの情報から構造最適化、BOMD計算等のアニメーションを作成し表示します。"
+msgid "構造最適化/BOMD(pwout)"
 msgstr "NOTTRANSLATED"
-"From the information of the log file, animation such as structure "
-"optimization, BOMD calculation etc. is created and displayed."
+
+msgid "ログファイルの情報から構造最適化、BOMD計算等のアニメーションを作成し表示します。"
+msgstr "From the information of the log file, animation such as structure optimization, BOMD calculation etc. is created and displayed."
 
 msgid "CPMDの場合は :ref:`solid_qe_cpmd_animation` を使用してください。"
 msgstr "For CPMD use :ref:`solid_qe_cpmd_animation`."
@@ -1072,8 +858,22 @@ msgstr "For CPMD use :ref:`solid_qe_cpmd_animation`."
 msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
 msgstr "For the animation display operation method, see :ref:`animation_top`."
 
-msgid "SCFエネルギー変化"
+msgid "CPMD(pos)"
+msgstr "NOTTRANSLATED"
+
+msgid "CPMDのposファイルとcelファイルを指定し、アニメーションを表示します。"
+msgstr "Specify CPMD&#39;s pos and cel files and display animation."
+
+msgid "pw.xの結果を表示する場合は :ref:`solid_qe_animation` を使用してください。"
+msgstr "To display the result of pw.x, use :ref:`solid_qe_animation`."
+
+#, fuzzy
+msgid "エネルギー変化"
 msgstr "SCF Energy Change..."
+
+#, fuzzy
+msgid "SCFエネルギー変化(pwout)"
+msgstr "CPMD Energy Plot (evp)..."
 
 msgid "ログファイルを選択し、total energyのグラフを表示します。"
 msgstr "Select the log file and display a graph of total energy."
@@ -1096,12 +896,20 @@ msgstr "Close the window."
 msgid "グラフ描画エリアの操作方法は :ref:`chart_top` を参照してください。"
 msgstr "For how to operate the graph drawing area, see :ref:`chart_top`."
 
+msgid "CPMDエネルギー変化(evp)"
+msgstr "CPMD Energy Plot (evp)..."
+
+msgid "CPMDのevpファイルを指定し、各種エネルギーの時間変化を表示します。"
+msgstr "Specify the evp file of CPMD and display time variation of various energies."
+
+msgid "結果解析"
+msgstr "NOTTRANSLATED"
+
 msgid "電子密度"
 msgstr "Electron Density..."
 
 msgid "作業ディレクトリ(outdir)を指定し、等電子密度面を表示します。"
-msgstr "NOTTRANSLATED"
-"Specify working directory (outdir) and display isoelectric density surface."
+msgstr "Specify working directory (outdir) and display isoelectric density surface."
 
 msgid "バックグラウンドではpp.xが流れ、cubeファイルが生成されます。"
 msgstr "In the background, pp.x flows, and a cube file is generated."
@@ -1113,8 +921,7 @@ msgid "Lowdin電荷"
 msgstr "Lowdin Charge..."
 
 msgid "作業ディレクトリ(outdir)を指定し、点電荷を算出・表示します。"
-msgstr "NOTTRANSLATED"
-"Specify the working directory (outdir), calculate and display the point charge."
+msgstr "Specify the working directory (outdir), calculate and display the point charge."
 
 msgid "バックグラウンドでprojwfc.xが流れます。"
 msgstr "Projwfc.x flows in the background."
@@ -1123,86 +930,52 @@ msgid "ポテンシャルエネルギー分布"
 msgstr "Potential Energy Distribution..."
 
 msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、z軸方向のポテンシャルエネルギー分布を表示します。"
-msgstr "NOTTRANSLATED"
-"Specify the working directory (outdir) and log file for SCF calculation "
-"and display the potential energy distribution in the z-axis direction."
+msgstr "Specify the working directory (outdir) and log file for SCF calculation and display the potential energy distribution in the z-axis direction."
 
-msgid ""
-"SCF計算のログからはフェルミエネルギーを取得します。 "
-"フェルミエネルギーとポテンシャルエネルギー分布の最大値の差を、仕事関数の推定値として表示します。 "
-"バックグラウンドでpp.xとaverage.xが流れます。"
-msgstr "NOTTRANSLATED"
-"Fermi energy is acquired from the log of SCF calculation. The difference "
-"between the Fermi energy and the maximum value of the potential energy "
-"distribution is displayed as an estimate of the work function. Pp.x and "
-"average.x flow in the background."
+msgid "SCF計算のログからはフェルミエネルギーを取得します。 フェルミエネルギーとポテンシャルエネルギー分布の最大値の差を、仕事関数の推定値として表示します。 バックグラウンドでpp.xとaverage.xが流れます。"
+msgstr "Fermi energy is acquired from the log of SCF calculation. The difference between the Fermi energy and the maximum value of the potential energy distribution is displayed as an estimate of the work function. Pp.x and average.x flow in the background."
 
 msgid "バンド構造"
 msgstr "Band Structure..."
 
 msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、バンド構造を表示します。"
-msgstr "NOTTRANSLATED"
-"Specify the working directory (outdir) and SCF calculation log file and "
-"display the band structure."
+msgstr "Specify the working directory (outdir) and SCF calculation log file and display the band structure."
 
-msgid ""
-"事前にcalculation=bandsで計算が終了している必要があります。 SCF計算のログファイルからはフェルミエネルギーを取得します。 "
-"バックグラウンドでbands.xが流れます。"
-msgstr "NOTTRANSLATED"
-"Calculation must be completed with calculation = bands in advance. Fermi "
-"energy is acquired from the log file of SCF calculation. Bands.x flows in"
-" the background."
+msgid "事前にcalculation=bandsで計算が終了している必要があります。 SCF計算のログファイルからはフェルミエネルギーを取得します。 バックグラウンドでbands.xが流れます。"
+msgstr "Calculation must be completed with calculation = bands in advance. Fermi energy is acquired from the log file of SCF calculation. Bands.x flows in the background."
 
 msgid "状態密度"
 msgstr "Density od States..."
 
 msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、状態密度を表示します。"
-msgstr "NOTTRANSLATED"
-"Specify the working directory (outdir) and the SCF calculation log file "
-"and display the state density."
+msgstr "Specify the working directory (outdir) and the SCF calculation log file and display the state density."
 
 msgid "SCF計算のログファイルからはフェルミエネルギーを取得します。 バックグラウンドでdos.xが流れます。"
-msgstr "NOTTRANSLATED"
-"Fermi energy is acquired from the log file of SCF calculation. dos.x flows in the background."
+msgstr "Fermi energy is acquired from the log file of SCF calculation. dos.x flows in the background."
 
 msgid "部分状態密度"
 msgstr "Partial DOS..."
 
 msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、部分状態密度(PDOS)を表示します。"
-msgstr "NOTTRANSLATED"
-"Specify the working directory (outdir) and the SCF calculation log file "
-"and display partial state density (PDOS)."
+msgstr "Specify the working directory (outdir) and the SCF calculation log file and display partial state density (PDOS)."
 
 msgid "SCF計算のログからはフェルミエネルギーを取得します。 バックグラウンドでprojwfc.xが流れます。"
-msgstr "NOTTRANSLATED"
-"Fermi energy is acquired from the log of SCF calculation. Projwfc.x flows"
-" in the background."
+msgstr "Fermi energy is acquired from the log of SCF calculation. Projwfc.x flows in the background."
 
 msgid "フェルミ面"
 msgstr "Fermi Surface..."
 
 msgid "SCF計算とbands計算のログファイルを指定し、フェルミ面を表示します。"
-msgstr "NOTTRANSLATED"
-"Specify the log file for SCF calculation and bands calculation and "
-"display the Fermi surface."
+msgstr "Specify the log file for SCF calculation and bands calculation and display the Fermi surface."
 
-msgid ""
-"フェルミ面の表示には `FermiSurfer <http://fermisurfer.osdn.jp/>`_ を使用します。 "
-":guilabel:`# of K Points` にbands計算時のk点分割数を指定し、 :guilabel:`Calc` "
-"ボタンを押すとフェルミ面が表示されます。"
-msgstr "NOTTRANSLATED"
-"For Fermi surface display, use `FermiSurfer <http://fermisurfer.osdn.jp/>`. "
-"Specify the k point division number for bands "
-"calculation in :guilabel:`# of K Points` and press the :guilabel:`Calc` "
-"button to display the Fermi surface."
+msgid "フェルミ面の表示には `FermiSurfer <http://fermisurfer.osdn.jp/>`_ を使用します。 :guilabel:`# of K Points` にbands計算時のk点分割数を指定し、 :guilabel:`Calc` ボタンを押すとフェルミ面が表示されます。"
+msgstr "For Fermi surface display, use `FermiSurfer <http://fermisurfer.osdn.jp/>`. Specify the k point division number for bands calculation in :guilabel:`# of K Points` and press the :guilabel:`Calc` button to display the Fermi surface."
 
 msgid "誘電関数"
 msgstr "Dielectric Function..."
 
 msgid "誘電関数計算後の作業ディレクトリを指定し、誘電関数を表示します。"
-msgstr "NOTTRANSLATED"
-"Specify the working directory after calculating the dielectric function "
-"and display the dielectric function."
+msgstr "Specify the working directory after calculating the dielectric function and display the dielectric function."
 
 msgid "Direction"
 msgstr "Direction"
@@ -1214,9 +987,7 @@ msgid "IR/ラマンスペクトル"
 msgstr "IR/Raman..."
 
 msgid "フォノン計算後の作業ディレクトリとSCF計算のログを指定し、IRおよびラマンスペクトルを表示します。"
-msgstr "NOTTRANSLATED"
-"Specify the working directory after phonon calculation and log of SCF "
-"calculation and display IR and Raman spectrum."
+msgstr "Specify the working directory after phonon calculation and log of SCF calculation and display IR and Raman spectrum."
 
 msgid "サブウィンドウの操作方法は :ref:`ir_top` を参照してください。"
 msgstr "Refer to :ref:`ir_top` for how to operate the subwindow."
@@ -1225,9 +996,7 @@ msgid "フォノン分散曲線"
 msgstr "Phonon Band Structure..."
 
 msgid "フォノン分散計算後の作業ディレクトリを指定し、フォノン分散曲線を表示します。"
-msgstr "NOTTRANSLATED"
-"Phonon Specifies the working directory after the variance calculation and"
-" displays the phonon dispersion curve."
+msgstr "Phonon Specifies the working directory after the variance calculation and displays the phonon dispersion curve."
 
 msgid "ASR"
 msgstr "ASR"
@@ -1238,47 +1007,47 @@ msgstr "Specify the type of Acoustic Sum Rule to be applied."
 msgid "K Points"
 msgstr "K Points"
 
-msgid ""
-"取得する分散曲線のパスを指定します。 各行には、x, y, "
-"z成分をそれぞれ2pi/aの単位で記述し、その横に次の点までの間の分割数を記述します。（合計4カラムをスペース区切りで入力）"
-msgstr "NOTTRANSLATED"
-"Specify the path of the dispersion curve to be acquired. In each line, "
-"describe the x, y, z components in units of 2 pi / a, and next to it "
-"describe the number of divisions up to the next point. (Enter a total of "
-"4 columns with a space separator)"
+msgid "取得する分散曲線のパスを指定します。 各行には、x, y, z成分をそれぞれ2pi/aの単位で記述し、その横に次の点までの間の分割数を記述します。（合計4カラムをスペース区切りで入力）"
+msgstr "Specify the path of the dispersion curve to be acquired. In each line, describe the x, y, z components in units of 2 pi / a, and next to it describe the number of divisions up to the next point. (Enter a total of 4 columns with a space separator)"
 
 msgid "フォノン状態密度"
 msgstr "Phonon Density of States..."
 
 msgid "フォノン分散計算後の作業ディレクトリを指定し、フォノン状態密度を表示します。"
-msgstr "NOTTRANSLATED"
-"Phonon Specifies the working directory after distributed calculation and "
-"displays the phonon state density."
+msgstr "Phonon Specifies the working directory after distributed calculation and displays the phonon state density."
 
 msgid "フォノンDOS計算時のK点の分割数を指定します。"
-msgstr "NOTTRANSLATED"
-"Phonon DOS Specifies the division number of K points during DOS "
-"calculation."
+msgstr "Phonon DOS Specifies the division number of K points during DOS calculation."
 
 msgid "電荷/エネルギー分布 (esm1)"
 msgstr "Charge/Energy Distribution (esm1)..."
 
 msgid "ESM計算（assume_isolated=esm）で出力されるesm1ファイルを指定し、z軸方向の電荷またはエネルギーの分布を表示します。"
-msgstr "NOTTRANSLATED"
-"Specify the esm1 file output by ESM calculation (assume_isolated = esm) "
-"and display the charge or energy distribution in the z-axis direction."
+msgstr "Specify the esm1 file output by ESM calculation (assume_isolated = esm) and display the charge or energy distribution in the z-axis direction."
 
 msgid "2つのesm1ファイルの差をプロットすることもできます。"
 msgstr "You can also plot the difference between the two esm1 files."
+
+msgid "1D-RISM RMS変化 (pwout)"
+msgstr "NOTTRANSLATED"
+
+msgid "RISM計算（trism=.True.）の最初に実行される1D-RISM計算のRMSの変化をプロットします。"
+msgstr "NOTTRANSLATED"
+
+msgid "グラフを表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "3D/ESM-RISM RMS変化 (pwout)"
+msgstr "NOTTRANSLATED"
+
+msgid "RISM計算（trism=.True.）実行時の、最後のSCFステップにおける3D-RISMまたはESM-RISM計算のRMSの変化をプロットします。"
+msgstr "NOTTRANSLATED"
 
 msgid "溶媒原子間相関関数 (1drism)"
 msgstr "Solvent Pair Distribution Func. (1drism)..."
 
 msgid "RISM計算（trism=.True.）で出力される1drismファイルを用いてRISM領域の原子間相関関数(動径分布関数)を算出します。"
-msgstr "NOTTRANSLATED"
-"Interatomic correlation function (radial distribution function) of RISM "
-"region is calculated using 1 drism file outputted by RISM calculation "
-"(trism =. True.)."
+msgstr "Interatomic correlation function (radial distribution function) of RISM region is calculated using 1 drism file outputted by RISM calculation (trism =. True.)."
 
 msgid "Obtain Chemical Potentials"
 msgstr "Obtain Chemical Potentials"
@@ -1290,66 +1059,392 @@ msgid "溶媒密度/エネルギー分布(rism1)"
 msgstr "Solvent Charge/Energy Profile (rism1)..."
 
 msgid "RISM計算（trism=.True.）で出力されるrism1ファイルを用いて、DFT領域-RISM領域が接する方向（界面垂直方向）の溶媒密度・エネルギー・電荷を算出します。"
-msgstr "NOTTRANSLATED"
-"Calculate the solvent density, energy, and charge in the direction in "
-"which the DFT region-RISM region contacts (vertical direction of the "
-"interface) by using the rism1 file output by RISM calculation (trism = "
-".True.)."
+msgstr "Calculate the solvent density, energy, and charge in the direction in which the DFT region-RISM region contacts (vertical direction of the interface) by using the rism1 file output by RISM calculation (trism = .True.)."
 
 msgid "MOLファイルを作成"
 msgstr "Generate MOL File..."
 
-msgid ""
-"RISM計算（trism=.True.）で使用される溶媒のMOLファイルを作成します。溶媒分子を1分子メインウィンドウに作成した上で本機能を呼び出してください。LAMMPSのdata形式を入力にする際には"
-" :guilabel:`Use parameters in displayed file` にチェックを入れてください。"
-msgstr "Create a MOL file of the solvent used in the RISM calculation (trism = .True.). "
-"Please call this function after creating one molecule in the main window. "
-"When entering LAMMPS data format, please check :guilabel:`Use parameters in displayed file`."
+msgid "RISM計算（trism=.True.）で使用される溶媒のMOLファイルを作成します。溶媒分子を1分子メインウィンドウに作成した上で本機能を呼び出してください。LAMMPSのdata形式を入力にする際には :guilabel:`Use parameters in displayed file` にチェックを入れてください。"
+msgstr "Create a MOL file of the solvent used in the RISM calculation (trism = .True.). Please call this function after creating one molecule in the main window. When entering LAMMPS data format, please check :guilabel:`Use parameters in displayed file`."
 
-msgid ""
-"作成したファイルはMOLファイルのキーワード設定ウィンドウの :guilabel:`RISM(1)` タブの "
-":guilabel:`Directory for MOL Files` で指定したフォルダに配置してください。"
-msgstr "The created file should be placed in the folder specified by "
-":guilabel:`Directory for MOL Files` on the :guilabel:`RISM (1)` tab of the keyword setting window of the MOL file. "
+msgid "作成したファイルはMOLファイルのキーワード設定ウィンドウの :guilabel:`RISM(1)` タブの :guilabel:`Directory for MOL Files` で指定したフォルダに配置してください。"
+msgstr "The created file should be placed in the folder specified by :guilabel:`Directory for MOL Files` on the :guilabel:`RISM (1)` tab of the keyword setting window of the MOL file. "
 
-msgid "CPMDアニメーション(pos)"
-msgstr "CPMD Animation (pos)..."
-
-msgid "CPMDのposファイルとcelファイルを指定し、アニメーションを表示します。"
-msgstr "Specify CPMD&#39;s pos and cel files and display animation."
-
-msgid "pw.xの結果を表示する場合は :ref:`solid_qe_animation` を使用してください。"
-msgstr "To display the result of pw.x, use :ref:`solid_qe_animation`."
-
-msgid "CPMDエネルギー変化(evp)"
-msgstr "CPMD Energy Plot (evp)..."
-
-msgid "CPMDのevpファイルを指定し、各種エネルギーの時間変化を表示します。"
+msgid "Nudged Elastic Band"
 msgstr "NOTTRANSLATED"
-"Specify the evp file of CPMD and display time variation of various energies."
-
-msgid "NEBキーワード設定"
-msgstr "Configure NEB..."
 
 msgid "NEB計算の条件を設定します。"
 msgstr "Set conditions for NEB calculation."
 
 msgid "始状態と終状態それぞれの構造最適化計算を終えた状態で設定してください。"
-msgstr "NOTTRANSLATED"
-"Please set in the state that the structure optimization calculation of "
-"each of the start state and the end state has been completed."
-
-msgid "NEB実行"
-msgstr "Run NEB..."
+msgstr "Please set in the state that the structure optimization calculation of each of the start state and the end state has been completed."
 
 msgid "neb.xを用いてNEB計算を実行します。"
 msgstr "Perform NEB calculation using neb.x."
 
-msgid "遷移状態（NEB）"
+#, fuzzy
+msgid "遷移状態"
 msgstr "Transition Path (NEB)..."
 
 msgid "NEB計算後のファイルを指定し、反応座標に沿ったエネルギーと原子構造の変化を表示します。"
+msgstr "Specify the file after NEB calculation and display the change in energy and atomic structure along the reaction coordinates."
+
+msgid "BoltzTraP"
 msgstr "NOTTRANSLATED"
-"Specify the file after NEB calculation and display the change in energy "
-"and atomic structure along the reaction coordinates."
+
+msgid "BoltzTraPでは、QuantumESPRESSOでのnscf計算のアウトプットをもとに熱電特性の計算を行います。"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid "キーワード設定・実行"
+msgstr "Configure..."
+
+msgid "BoltzTraPを用いたプリ・ポスト処理の計算条件を設定し、プリ処理の実行を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Create .intransファイル` ボタン"
+msgstr "NOTTRANSLATED"
+
+msgid "Quantum ESPRESSOのnscf計算のアウトプットファイル (*.pwout)を読み込み、BoltzTraP設定ファイル（*.intrans）を生成します。 アウトプットファイルを仮にmg2si_nscf.pwoutとすると、同じ階層にmg2si_nscfという名前の作業ディレクトリを生成します。 mg2si_nscf.intransはmg2si_nscf内に生成されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "intransファイルの作成に成功した場合、ファイルの内容を読み込み、下記キーワードの入力欄に反映します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Fermilevel (Ry)"
+msgstr "NOTTRANSLATED"
+
+msgid "pwoutファイルから読み込んだフェルミエネルギーが設定されています。"
+msgstr "NOTTRANSLATED"
+
+msgid "energy grid"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid "設定エネルギーの間隔を指定します。"
+msgstr "Specify tolerance of energy at SCF calculation."
+
+msgid "energy span"
+msgstr "NOTTRANSLATED"
+
+msgid "フェルミレベル周辺の計算に考慮に入れるバンドエネルギーの範囲を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "number of electrons"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid "単位格子内の電子の個数を指定します。"
+msgstr "Specify the number of molecular species of the solvent."
+
+msgid "lpfac"
+msgstr "NOTTRANSLATED"
+
+msgid "バンドエネルギーをフーリエ展開によって補完する際の因子を指定します。"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid "efcut"
+msgstr "ecutwfc"
+
+msgid "化学ポテンシャルを変えて計算する範囲を指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Tmax"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid "設定温度の上限値を指定します。"
+msgstr "Specify the allowable value of temperature during temperature control."
+
+#, fuzzy
+msgid "temperature grid"
+msgstr "ion_temperature"
+
+#, fuzzy
+msgid "設定温度の間隔を指定します。"
+msgstr "Specify the electric field."
+
+msgid "energy of bands"
+msgstr "NOTTRANSLATED"
+
+msgid "DOSから得られたバンドのエネルギー幅を指定します。"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid "Calculate expansion coeff"
+msgstr "calculation"
+
+msgid "チェックが入っている場合、膨張係数を計算を計算します。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Start BoltzTraP` ボタン"
+msgstr "NOTTRANSLATED"
+
+msgid "設定条件を元にintransファイルを再作成し、BoltzTraPを実行します。 このとき、以下のファイルとフォルダが生成されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "下記では、計算終了時点での作業ディレクトリ（mg2si_nscf）内の主なファイルを記載します。"
+msgstr "NOTTRANSLATED"
+
+msgid ".intfansファイル"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid ":file:`mg2si_nscf.intrans`"
+msgstr ":file:`pw_bands.in`"
+
+msgid "BoltzTraPのインプットファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid ".traceファイル"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid ":file:`mg2si_nscf.trace`"
+msgstr ":file:`si.bat`"
+
+msgid "BoltzTraPで計算された熱電特性のエネルギー、温度依存性に関する情報が出力されたファイルです。 BoltzTraP結果読み込み...メニューではこのファイルを読み込み可視化を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Cancel` ボタン"
+msgstr "NOTTRANSLATED"
+
+msgid "何もせずにキーワード設定・実行ウィンドウを閉じます。"
+msgstr "NOTTRANSLATED"
+
+msgid "結果読み込み..."
+msgstr "NOTTRANSLATED"
+
+msgid "BoltzTraPによって計算された下記の熱電特性を読み込み、可視化を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid "ゼーベック係数（Seebek coefficient）、"
+msgstr "NOTTRANSLATED"
+
+msgid "電気伝導度 (Electrical conductivity),"
+msgstr "NOTTRANSLATED"
+
+msgid "熱伝導率(Electrical thermal conductivity),"
+msgstr "NOTTRANSLATED"
+
+msgid "出力因子(Power factor)"
+msgstr "NOTTRANSLATED"
+
+msgid "性能指数（Figure of merit）"
+msgstr "NOTTRANSLATED"
+
+msgid "各温度における特性値のエネルギー依存性を表示したい場合はコンボボックスからT [K]を選択し、リストから目的の温度を選択します。 各エネルギーにおける特性値の温度依存性を表示したい場合はコンボボックスからE-Ef [eV]を選択し、リストから目的のエネルギーを選択します。"
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopy"
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopyでは、以下の3つの工程で計算を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid "与えられたQuantum ESPRESSOインプットファイルを元にスーパーセルを作成する。 (プリ処理)"
+msgstr "NOTTRANSLATED"
+
+msgid "生成された全てのスーパーセルに対し、Quantum ESPRESSOを実行する。"
+msgstr "NOTTRANSLATED"
+
+msgid "Quantum ESPRESSOのアウトプットファイルから、ForceSetsファイルを作成し、 Phononバンド、DOS、熱物性などの計算を行う。(ポスト処理)"
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopyを用いたプリ・ポスト処理の計算条件を設定し、プリ処理の実行を行います。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Open` ボタン"
+msgstr "NOTTRANSLATED"
+
+msgid "Quantum ESPRESSOのインプットファイル (\\*.in,\\*.pwin)を読み込みます。 Phonopyでのポスト処理では、応力の情報を必要とします。このため読み込むファイルは tprnfor, tstressキーワードを含んでいる必要があります。 Phonopy用のQuantum ESPRESSOのインプットファイルは、 Quantum ESPRESSOキーワード設定のPreset=Phonopyを使用することで設定できます。"
+msgstr "NOTTRANSLATED"
+
+msgid "DIM"
+msgstr "NOTTRANSLATED"
+
+msgid "スーパーセルのx, y, z方向のリピート回数を半角スペース区切りで指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "MP"
+msgstr "NOTTRANSLATED"
+
+msgid "PhonopyでPhonon DOSや熱物性の計算を行う際の逆格子を半角スペース区切りで指定します。"
+msgstr "NOTTRANSLATED"
+
+msgid "ATOM_NAME"
+msgstr "NOTTRANSLATED"
+
+msgid "単位格子に含まれる元素を半角スペース区切りで指定します。 :guilabel:`Open` ボタンでインプットファイルを開いた時点で自動的に入力されます。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Start` ボタン"
+msgstr "NOTTRANSLATED"
+
+msgid "設定条件を元にPhonopyを実行し、プリ処理であるスーパーセルの作成を実行します。 このとき、以下のファイルとフォルダが生成されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopyのプリ処理を実行するためのバッチファイルです。"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid "shファイル"
+msgstr "bat file"
+
+#, fuzzy
+msgid ":file:`si.sh`"
+msgstr ":file:`si.bat`"
+
+msgid "Phonopyのプリ処理を実行するためのシェルスクリプトファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid "si_ph_dataフォルダ"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid ":file:`si_ph_data`"
+msgstr ":file:`si_qe_data\\\\`"
+
+#, fuzzy
+msgid "計算の作業ディレクトリです。"
+msgstr "Working directory."
+
+#, fuzzy
+msgid "作業ディレクトリsi_ph_dataには以下のファイルが生成されます。"
+msgstr "The following files are generated in the working directory. Only the main files are shown here."
+
+msgid "mesh.confファイル"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid ":file:`mesh.conf`"
+msgstr ":file:`ph.in`"
+
+msgid "Phonopyのポスト処理にて、状態密度や熱物性を計算するときに使用されます。"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid "band.confファイル"
+msgstr "bat file"
+
+#, fuzzy
+msgid ":file:`band.conf`"
+msgstr ":file:`pw_bands.in`"
+
+msgid "Phonopyのポスト処理にて、バンド構造を計算するときに使用されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "headerファイル"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid ":file:`header.in`"
+msgstr ":file:`ph.in`"
+
+msgid "si.pwinで指定された構造情報以外のキーワード情報が記載されています。"
+msgstr "NOTTRANSLATED"
+
+msgid "supercellファイル"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid ":file:`supercell-＊.in`"
+msgstr ":file:`ph.in`"
+
+msgid "Phonopyにより生成されたスーパーセルの情報がQuantum ESPRESSOのインプットファイル形式で記載されています。"
+msgstr "NOTTRANSLATED"
+
+msgid "スーパーセルのパターンは複数生成されるため、＊の部分には1, 2, などの数字が入ります。"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid "tmpファイル"
+msgstr "bat file"
+
+#, fuzzy
+msgid ":file:`tmp-*.in`"
+msgstr ":file:`ph.in`"
+
+msgid "header.inとsupercell-\\*.inを結合したファイルです。"
+msgstr "NOTTRANSLATED"
+
+msgid "confファイル編集..."
+msgstr "NOTTRANSLATED"
+
+msgid "confファイルをテキストエディタで開きます。 キーワード設定画面で設定したキーワードを編集したい場合に用います。"
+msgstr "NOTTRANSLATED"
+
+msgid "Quantum ESPRESSO連続実行"
+msgstr "NOTTRANSLATED"
+
+msgid "キーワード設定・実行画面で生成された、全てのスーパーセルに対し、Quantum ESPRESSOを実行します。 このメニューを用いた場合、Quantum ESPRESSOはローカル環境で実行されます。"
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopy実行..."
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopyのポスト処理を実行します。"
+msgstr "NOTTRANSLATED"
+
+msgid "この時、作業フォルダ :file: si_ph_data に以下のファイルが生成されます。"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid ":file:`phonopy.sh`"
+msgstr ":file:`ph.in`"
+
+msgid "Phonopyのポスト処理を実行するためのシェルスクリプトです"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid "band.yamlファイル"
+msgstr "bat file"
+
+#, fuzzy
+msgid ":file:`band.yaml`"
+msgstr ":file:`pw_bands.in`"
+
+msgid "Phonopyのポスト処理で計算されたバンド構造の情報が出力されています。"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid "dos.datファイル"
+msgstr "bat file"
+
+#, fuzzy
+msgid ":file:`dos.dat`"
+msgstr ":file:`si.bat`"
+
+msgid "Phonopyのポスト処理で計算された状態密度の情報が出力されています。"
+msgstr "NOTTRANSLATED"
+
+msgid "thermal_properties.yamlファイル"
+msgstr "NOTTRANSLATED"
+
+msgid ":file:`thermal_properties.yaml`"
+msgstr "NOTTRANSLATED"
+
+msgid "Phonopyのポスト処理で計算された熱物性の情報が出力されています。"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid "バンド構造..."
+msgstr "Band Structure..."
+
+msgid "作業フォルダに含まれるband.csvをもとにバンド構造を表示します。"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid "状態密度..."
+msgstr "Density od States..."
+
+msgid "作業フォルダに含まれるtoal_dos.csvをもとに状態密度を表示します。"
+msgstr "NOTTRANSLATED"
+
+msgid "熱物性..."
+msgstr "NOTTRANSLATED"
+
+msgid "作業フォルダに含まれるthermal_properties.csvをもとに熱物性を表示します。"
+msgstr "NOTTRANSLATED"
 

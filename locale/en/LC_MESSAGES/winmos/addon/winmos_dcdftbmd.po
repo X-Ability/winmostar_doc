@@ -1,29 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
-# This file is distributed under the same license as the Winmostar User
-# Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
-msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 14:13+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
 
 msgid "DCDFTBMD"
 msgstr "DCDFTBMD"
 
 msgid "分割統治型の密度汎関数強束縛分子動力学法に関するメニューです。"
-msgstr "NOTTRANSLATED"
-"It is a menu related to the divide and conquer type density functional "
-"the strongly bound molecular dynamics method."
+msgstr "It is a menu related to the divide and conquer type density functional the strongly bound molecular dynamics method."
 
 msgid "使用するためにはアドオンの購入が必要です。"
 msgstr "Purchase of add-on is necessary for using."
@@ -37,9 +17,7 @@ msgstr "Configure..."
 msgid "DCDFTBMDの計算条件を設定します。設定後 :guilabel:`OK` ボタンを押してください。"
 msgstr "After setting, press the :guilabel:`OK` button."
 
-msgid ""
-":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 :guilabel:`Save` ボタンで設定を保存します。 "
-":guilabel:`Load` ボタンで :guilabel:`Save` にて保存した設定を読み込みます。"
+msgid ":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 :guilabel:`Save` ボタンで設定を保存します。 :guilabel:`Load` ボタンで :guilabel:`Save` にて保存した設定を読み込みます。"
 msgstr "The :guilabel:`Reset` button returns to the default state. :guilabel:`Save` button to save the settings. :guilabel:`Load` button loads settings saved with :guilabel:`Save`."
 
 msgid "Extending Simulation"
@@ -81,16 +59,8 @@ msgstr "Specify the spin multiplicity of the entire system."
 msgid "Parameter Set"
 msgstr "Parameter Set"
 
-msgid ""
-"使用するパラメータの種類を選択します。 Winmostarのインストールフォルダ（デフォルトでは "
-":file:`C:\\\\winmos10\\\\` ）の下の :file:`DFTBParam` "
-"フォルダに配置したフォルダの名前がリストアップされます。 :file:`DFTBParam` "
-"フォルダの下に置くフォルダは、skfなどのパラメータファイルを含む必要があります。 例えば、 "
-":file:`C:\\\\winmos10\\\\DFTBParam\\\\mio-1-1\\\\C-C.skf` という階層構造が想定されます。"
-msgstr "Select the type of parameter to use."
-" The names of folders placed in the :file:`DFTBParam` folder under the Winmostar installation folder (by default :file:`C:\\\\winmos10\\\\`) are listed."
-"The folder placed under the :file:`DFTBParam` folder must contain parameter files such as skf."
-" For example, a hierarchical structure of :file:`C:\\\\winmos10\\\\DFTBParam\\\\mio-1-1\\\\C-C.skf` is assumed."
+msgid "使用するパラメータの種類を選択します。 Winmostarのインストールフォルダ（デフォルトでは :file:`C:\\\\winmos10\\\\` ）の下の :file:`DFTBParam` フォルダに配置したフォルダの名前がリストアップされます。 :file:`DFTBParam` フォルダの下に置くフォルダは、skfなどのパラメータファイルを含む必要があります。 例えば、 :file:`C:\\\\winmos10\\\\DFTBParam\\\\mio-1-1\\\\C-C.skf` という階層構造が想定されます。"
+msgstr "Select the type of parameter to use. The names of folders placed in the :file:`DFTBParam` folder under the Winmostar installation folder (by default :file:`C:\\\\winmos10\\\\`) are listed.The folder placed under the :file:`DFTBParam` folder must contain parameter files such as skf. For example, a hierarchical structure of :file:`C:\\\\winmos10\\\\DFTBParam\\\\mio-1-1\\\\C-C.skf` is assumed."
 
 msgid "Open Directory for Parameter Set"
 msgstr "Open Directory for Parameter Set"
@@ -107,9 +77,7 @@ msgstr "Reload the aforementioned :file:`DFTBParam` folder and update the list o
 msgid "Executable"
 msgstr "Executable"
 
-msgid ""
-"計算に使用するDCDFTBMDのバイナリを指定します。 MPIを使用するときは :file:`dftb_mpiomp_mpich.00.x` "
-"などのMPI対応版のバイナリを指定する必要があります。 ここで指定するバイナリへ、リモートサーバ上でPATHを通しておく必要があります。"
+msgid "計算に使用するDCDFTBMDのバイナリを指定します。 MPIを使用するときは :file:`dftb_mpiomp_mpich.00.x` などのMPI対応版のバイナリを指定する必要があります。 ここで指定するバイナリへ、リモートサーバ上でPATHを通しておく必要があります。"
 msgstr "Specifies the binary of DCDFTBMD used for the calculation. When using MPI, it is necessary to specify an MPI compatible binary such as :file:`dftb_mpiomp_mpich.00.x`. The binary specified here must be passed through PATH on the remote server."
 
 msgid "Advance"
@@ -214,9 +182,7 @@ msgstr "Perform molecular dynamics calculations"
 msgid "NSTEP"
 msgstr "NSTEP"
 
-msgid ""
-"ステップ数を指定します。 :guilabel:`Extending Simulation` "
-"にチェックを入れている場合は、継続前のジョブのステップ数とこれから流すジョブのステップ数の和を入力する必要があります。"
+msgid "ステップ数を指定します。 :guilabel:`Extending Simulation` にチェックを入れている場合は、継続前のジョブのステップ数とこれから流すジョブのステップ数の和を入力する必要があります。"
 msgstr "Specify the number of steps. When :guilabel:`Extending Simulation` is checked, it is necessary to enter the sum of the number of steps of the job before continuing and the number of steps of the job to be run."
 
 msgid "DELTAT"
@@ -306,9 +272,7 @@ msgstr "Click to return the working directory to its pre-execution status, such 
 msgid "実行"
 msgstr "Run..."
 
-msgid ""
-"DCDFTBMDを実行するために、 :ref:`remote_top` を開きます。 詳細な操作方法は  :ref:`remote_top` "
-"を参照してください。"
+msgid "DCDFTBMDを実行するために、 :ref:`remote_top` を開きます。 詳細な操作方法は  :ref:`remote_top` を参照してください。"
 msgstr "To run DCDFTBMD, open :ref:`remote_top`. See :ref:`remote_top` for detailed instructions."
 
 msgid "状況に応じて実行方法が異なります。"
@@ -323,9 +287,7 @@ msgstr "Save the input file (extension dci) with the name specified by the user 
 msgid ":guilabel:`Extending Simulation` にチェックがある場合"
 msgstr "If :guilabel:`Extending Simulation` is checked"
 
-msgid ""
-"メインウィンドウで開かれた入力ファイルに紐づけられた既存の作業ディレクトリのバックアップを作成し、新たに作成した作業ディレクトリの中に入力ファイルを"
-" :file:`dftb.inp` として保存し、それを用いて計算を実行します。"
+msgid "メインウィンドウで開かれた入力ファイルに紐づけられた既存の作業ディレクトリのバックアップを作成し、新たに作成した作業ディレクトリの中に入力ファイルを :file:`dftb.inp` として保存し、それを用いて計算を実行します。"
 msgstr "Create a backup of the existing working directory associated with the input file opened in the main window, save the input file as :file:`dftb.inp` in the newly created working directory, and use it to perform calculations . "
 
 msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.dci` の時のファイル/フォルダ名を併記しています。"
@@ -424,9 +386,7 @@ msgstr "A working directory is a folder with the suffix of the name of the file 
 msgid "**接尾辞はソルバの種類により変わります。**"
 msgstr "** The suffix depends on the type of solver. **"
 
-msgid ""
-"例えばGromacsの場合は、メインウィンドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が "
-":file:`_gmx_tmp` の場合、作業ディレクトリの名前は :file:`aaa_gmx_tmp` となります。"
+msgid "例えばGromacsの場合は、メインウィンドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が :file:`_gmx_tmp` の場合、作業ディレクトリの名前は :file:`aaa_gmx_tmp` となります。"
 msgstr "For example, for Gromacs, if the file opened in the main window is :file:`aaa.gro` and the suffix is :file:`_gmx_tmp`, the name of the working directory is :file:`aaa_gmx_tmp`. "
 
 msgid "メインウィンドウで開かれているファイルと同じ階層に置かれている必要があります。"
@@ -435,9 +395,7 @@ msgstr "It must be on the same level as the file opened in the main window."
 msgid "継続ジョブの時も同名の作業ディレクトリで処理が流れますが、デフォルトでは継続ジョブの実施直前に、直前のジョブの作業ディレクトリのバックアップが作成されます。"
 msgstr "Although processing continues in the working directory with the same name for continued jobs, by default, a backup of the previous job's working directory is created immediately before the continued job is executed."
 
-msgid ""
-"バックアップの名前は、重複する名前が存在しない範囲で一番小さい番号が付いたものになります。例えば、作業ディレクトリが "
-":file:`aaa_gmx_tmp` のときは :file:`aaa_gmx_tmp1` となります。"
+msgid "バックアップの名前は、重複する名前が存在しない範囲で一番小さい番号が付いたものになります。例えば、作業ディレクトリが :file:`aaa_gmx_tmp` のときは :file:`aaa_gmx_tmp1` となります。"
 msgstr "The name of the backup will be the one with the lowest number in the range where there are no duplicate names. For example, if your working directory is :file:`aaa_gmx_tmp`, it will be :file:`aaa_gmx_tmp1`."
 
 msgid "**番号が付いていないディレクトリが常に最新のものとなります。**"
@@ -473,13 +431,8 @@ msgstr "Select dci and traject files and animate MD calculation trajectory."
 msgid "メインウィンドウのファイル名は変化しません。"
 msgstr "The main window file name does not change."
 
-msgid ""
-"Animationウィンドウの :menuselection:`Tools --> Mean Square "
-"Displacement/Diffusion Constant` と :menuselection:`Tools --> Radial "
-"Distribution Function` から平均二乗変位、自己拡散係数、動径分布関数を計算することができます。詳細は "
-":ref:`md_gromacs_msd` または :ref:`md_gromacs_rdf` を参照してください。"
-msgstr "You can calculate mean square displacement, self-diffusion coefficient, and radial distribution function from :menuselection:`Tools --> Mean Square Displacement / Diffusion Constant` and :menuselection:`Tools --> Radial Distribution Function` in Animation window."
-"See :ref:`md_gromacs_msd` or :ref:`md_gromacs_rdf` for details. " 
+msgid "Animationウィンドウの :menuselection:`Tools --> Mean Square Displacement/Diffusion Constant` と :menuselection:`Tools --> Radial Distribution Function` から平均二乗変位、自己拡散係数、動径分布関数を計算することができます。詳細は :ref:`md_gromacs_msd` または :ref:`md_gromacs_rdf` を参照してください。"
+msgstr "You can calculate mean square displacement, self-diffusion coefficient, and radial distribution function from :menuselection:`Tools --> Mean Square Displacement / Diffusion Constant` and :menuselection:`Tools --> Radial Distribution Function` in Animation window.See :ref:`md_gromacs_msd` or :ref:`md_gromacs_rdf` for details. "
 
 msgid "エネルギー変化"
 msgstr "Energy Plot..."
@@ -489,4 +442,3 @@ msgstr "Select a log file and display graphs of various thermodynamic quantities
 
 msgid "サブウィンドウの操作方法は :ref:`energyplot_top` を参照してください。"
 msgstr "See :ref:`energyplot_top` for how to operate subwindows. "
-

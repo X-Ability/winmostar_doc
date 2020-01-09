@@ -1,11 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
-# This file is distributed under the same license as the Winmostar User
-# Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
-msgid ""
-msgstr ""
 
 msgid "コマンドプロンプトからの実行方法"
 msgstr "How to execute from the command prompt"
@@ -79,6 +71,9 @@ msgstr "-outfile output_file_name"
 msgid "使用例:"
 msgstr "Use case:"
 
+msgid "\"C:\\winmos10\\winmostar.exe\" \"C:\\winmos9\\samples\\dbt.dat\" -s -mopac1 \"C:\\winmos10\\winmostar.exe\" \"C:\\winmos9\\samples\\dbt.dat\" -s -molsv 1 2.0 0.02 \"C:\\winmos10\\winmostar.exe\" \"C:\\winmos9\\samples\\dbt.dat\" -s -o pdb \"C:\\winmos10\\winmostar.exe\" \"C:\\winmos9\\samples\\dbt.dat\" -s -adjust -hadd -clean -o gjf"
+msgstr "\"C:\\winmos10\\winmostar.exe\" \"C:\\winmos9\\samples\\dbt.dat\" -s -mopac1 \"C:\\winmos10\\winmostar.exe\" \"C:\\winmos9\\samples\\dbt.dat\" -s -molsv 1 2.0 0.02 \"C:\\winmos10\\winmostar.exe\" \"C:\\winmos9\\samples\\dbt.dat\" -s -o pdb \"C:\\winmos10\\winmostar.exe\" \"C:\\winmos9\\samples\\dbt.dat\" -s -adjust -hadd -clean -o gjf"
+
 msgid "初期入力ファイルを第一引数に指定します。"
 msgstr "Specify input file at first argument."
 
@@ -90,4 +85,3 @@ msgstr "Commands starting with \"-\" except \"-s\" are executed in the order spe
 
 msgid "GaussianとGAMESSを連続実行する場合は、この方法ではなく :menuselection:`ツール --> 連続実行` を使用します。"
 msgstr "If you want to run Gaussian and GAMESS sequentially, use :menuselection:`Tools --> Batch Queue...` instead."
-

@@ -1,19 +1,8 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
-# This file is distributed under the same license as the Winmostar User
-# Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
-
-msgid ""
-msgstr ""
 
 msgid "はじめに"
 msgstr "Introduction"
 
-msgid ""
-"Winmostar(TM)は量子化学計算、第一原理計算、分子動力学計算を効率的に操作できるグラフィカルユーザーインターフェースを提供します。 "
-"初期構造の作成、計算の実行から結果解析に至るまで、シミュレーションに必要な一通りの操作をWinmostar(TM)上で実施することができます。"
+msgid "Winmostar(TM)は量子化学計算、第一原理計算、分子動力学計算を効率的に操作できるグラフィカルユーザーインターフェースを提供します。 初期構造の作成、計算の実行から結果解析に至るまで、シミュレーションに必要な一通りの操作をWinmostar(TM)上で実施することができます。"
 msgstr "Winmostar (TM) provides a graphical user interface that can efficiently manipulate quantum chemical calculations, first principles calculations, and molecular dynamics calculations. From the creation of the initial structure, from the calculation execution to the result analysis, you can carry out the one operation required for the simulation on Winmostar (TM)."
 
 msgid "分子のモデリング機能については100,000原子まで動作確認されています。MD計算の機能についてはより大きな系で動作確認されています。"
@@ -52,10 +41,7 @@ msgstr "Labels, buttons, etc. Indicates a character string displayed on the GUI.
 msgid ":menuselection:`ツール --> 環境設定 --> 基本 --> ライセンスコード`"
 msgstr ":menuselection:`Tools --> Preferences --> Basic --> License Code`"
 
-msgid ""
-"メニュー、タブなどをたどる流れを示します。上記の例は、 メニューから :menuselection:`ツール --> 環境設定` とたどり、 "
-"開いたウィンドウの :guilabel:`基本` というタブをクリックし、その中にある :guilabel:`ライセンスコード` "
-"というラベルの付いたGUIのことを意味します。"
+msgid "メニュー、タブなどをたどる流れを示します。上記の例は、 メニューから :menuselection:`ツール --> 環境設定` とたどり、 開いたウィンドウの :guilabel:`基本` というタブをクリックし、その中にある :guilabel:`ライセンスコード` というラベルの付いたGUIのことを意味します。"
 msgstr "It shows the flow that follows menu, tab, etc. From the menu, follow the menu :menuselection:`Tools --> Preferences` and click on the tab called :guilabel:`basic` in the opened window and find the label :guilabel:`license code` It means GUI with."
 
 msgid ":file:`wmset.ini` , :file:`C\\\\:winmos10\\\\UserPref`"
@@ -88,9 +74,29 @@ msgstr "The library you are using"
 msgid "Winmostarは一部の処理に下記のライブラリ・ソフトウェアを使用しています。"
 msgstr "Winmostar uses the following libraries and softwares for some processings."
 
+msgid "OpenCubegen"
+msgstr "OpenCubeGen"
+
+msgid "FermiSurfer"
+msgstr "FermiSurfer"
+
 msgid "Abbrevia 5.0"
 msgstr "Abbrevia 5.0"
 
 msgid "TeeChart Standard"
 msgstr "TeeChart Standard"
 
+msgid "Packmol 18.168"
+msgstr "Packmol 18.168"
+
+msgid "libssh2 1.8.0"
+msgstr "libssh2 1.8.0"
+
+msgid "openssl 1.0.2m"
+msgstr "openssl 1.0.2m"
+
+msgid "Delphi/Pascal Wrapper around the library \"libssh2\""
+msgstr "Delphi/Pascal Wrapper around the library \"libssh2\""
+
+msgid "Putty"
+msgstr "Putty"

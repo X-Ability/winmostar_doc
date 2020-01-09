@@ -1,22 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
-# This file is distributed under the same license as the Winmostar User
-# Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
 
-msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-23 15:28+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 
 msgid "**作業ディレクトリ**"
 msgstr "** Working directory **"
@@ -29,9 +11,7 @@ msgid "**接尾辞はソルバの種類により変わります。**"
 msgstr "** The suffix varies depending on the type of solver. **"
 
 
-msgid ""
-"例えばGromacsの場合は、メインウィンドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が "
-":file:`_gmx_tmp` の場合、作業ディレクトリの名前は :file:`aaa_gmx_tmp` となります。"
+msgid "例えばGromacsの場合は、メインウィンドウで開かれているファイルが :file:`aaa.gro` で、接尾辞が :file:`_gmx_tmp` の場合、作業ディレクトリの名前は :file:`aaa_gmx_tmp` となります。"
 msgstr "For example, in the case of Gromacs, if the file opened in the main window is: file: `aaa.gro` and the suffix is: file:` _ gmx_tmp`, the working directory will be named: file: `aaa_gmx_tmp` ."
 
 
@@ -41,11 +21,8 @@ msgstr "It must be in the same hierarchy as the file opened in the main window."
 msgid "継続ジョブの時も同名の作業ディレクトリで処理が流れますが、デフォルトでは継続ジョブの実施直前に、直前のジョブの作業ディレクトリのバックアップが作成されます。"
 msgstr "Processing continues in the working directory of the same name even when continuing jobs, but by default the backup of the working directory of the previous job is created just before the continuation job is executed."
 
-msgid ""
-"バックアップの名前は、重複する名前が存在しない範囲で一番小さい番号が付いたものになります。例えば、作業ディレクトリが "
-":file:`aaa_gmx_tmp` のときは :file:`aaa_gmx_tmp1` となります。"
+msgid "バックアップの名前は、重複する名前が存在しない範囲で一番小さい番号が付いたものになります。例えば、作業ディレクトリが :file:`aaa_gmx_tmp` のときは :file:`aaa_gmx_tmp1` となります。"
 msgstr "The name of the backup will be the one with the smallest number in the range where duplicate names do not exist. For example, if the working directory is: file: `aaa_gmx_tmp`, it is: file:` aaa_gmx_tmp1`."
 
 msgid "**番号が付いていないディレクトリが常に最新のものとなります。**"
 msgstr "** Directories without numbers are always up to date. **"
-

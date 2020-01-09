@@ -1,22 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
-# This file is distributed under the same license as the Winmostar User
-# Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
 
-msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-23 15:28+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 
 msgid "画面の説明・操作方法"
 msgstr "Main Window"
@@ -39,12 +21,8 @@ msgstr "Toolbar"
 msgid "メインメニューの中でよく使われる機能をここでも選択することができます。ポインタを重ねるとそれぞれのボタンの役割を確認できます。また、以下の機能のみ特殊な動作をします。"
 msgstr "Here you can also select commonly used functions in the main menu. You can check the role of each button by overlaying the pointer. In addition, only the following functions perform special operations."
 
-msgid ""
-"上部のツールバーの1行目中央の :guilabel:`ソルバを選択` プルダウンメニュー |solver| （出荷時は ``MOPAC`` "
-"が選ばれるが最後に使ったソルバが表示される）で選ばれているソルバに応じて、その横の :guilabel:`キーワード設定` 、 "
-":guilabel:`実行` などのボタンの役割が変化します。"
-msgstr "NOTTRANSLATED"
-"Depending on the solver selected in the :guilabel:`Solver` pull-down menu  |solver| (default is MOPAC) in the first row of the upper toolbar, the role of buttons such as :guilabel:`Configure`, :guilabel:`Run` will change."
+msgid "上部のツールバーの1行目中央の :guilabel:`ソルバを選択` プルダウンメニュー |solver| （出荷時は ``MOPAC`` が選ばれるが最後に使ったソルバが表示される）で選ばれているソルバに応じて、その横の :guilabel:`キーワード設定` 、 :guilabel:`実行` などのボタンの役割が変化します。"
+msgstr "Depending on the solver selected in the :guilabel:`Solver` pull-down menu  |solver| (default is MOPAC) in the first row of the upper toolbar, the role of buttons such as :guilabel:`Configure`, :guilabel:`Run` will change."
 
 msgid "上部のツールバーの2行目左端の :guilabel:`編集操作向けの元素を選択` プルダウンメニュー |chg| で選ばれた元素に応じて、その横の :guilabel:`原子を追加` 、 :guilabel:`元素を変更` ボタンの挙動が変化します。"
 msgstr "Depending on the element selected in the :guilabel:`Select element used in editing operations`  pull-down menu, the behavior of :guilabel:`Add Atom` and :guilabel:`Change Element` buttons beside it will change."
@@ -52,19 +30,8 @@ msgstr "Depending on the element selected in the :guilabel:`Select element used 
 msgid "分子表示エリア"
 msgstr "Viewport"
 
-msgid ""
-"現在編集中の分子構造が表示されます。デフォルトでは炭素原子（緑色）と水素原子（黄色）が結合した構造が表示されます。 "
-":menuselection:`表示 --> 表示項目 --> 分子情報` "
-"メニューにチェックがついている場合は、上部と下部には詳細な情報が表示されます。赤丸は **原子選択マーカー** を示します。 **グループ選択**"
-" された状態では、原子が青丸で囲まれます。 :menuselection:`表示 --> ラベル/電荷` "
-"メニューから各原子の横に表示される番号や電荷の値の種類を切り替えることができます。配色は :menuselection:`ツール --> 環境設定"
-" --> 表示` から変更することができます。"
-msgstr "The molecular structure currently being edited is displayed. By default, the structure where carbon atom (green) and hydrogen atom (yellow) are bonded is displayed."
-"If the :menuselection:`View --> Items --> Information` menu is checked, detailed information will be displayed at the top and bottom."
-"Red circle indicates **atom selection marker**."
-"In  **group selection** state, atoms are surrounded by blue circles."
-"You can toggle the number displayed on the side of each atom and the type of charge value from the :menuselection:`View --> Labels/Charges` menu."
-"The color scheme can be changed from the :menuselection:`Tools --> Preferences --> View` ."
+msgid "現在編集中の分子構造が表示されます。デフォルトでは炭素原子（緑色）と水素原子（黄色）が結合した構造が表示されます。 :menuselection:`表示 --> 表示項目 --> 分子情報` メニューにチェックがついている場合は、上部と下部には詳細な情報が表示されます。赤丸は **原子選択マーカー** を示します。 **グループ選択** された状態では、原子が青丸で囲まれます。 :menuselection:`表示 --> ラベル/電荷` メニューから各原子の横に表示される番号や電荷の値の種類を切り替えることができます。配色は :menuselection:`ツール --> 環境設定 --> 表示` から変更することができます。"
+msgstr "The molecular structure currently being edited is displayed. By default, the structure where carbon atom (green) and hydrogen atom (yellow) are bonded is displayed.If the :menuselection:`View --> Items --> Information` menu is checked, detailed information will be displayed at the top and bottom.Red circle indicates **atom selection marker**.In  **group selection** state, atoms are surrounded by blue circles.You can toggle the number displayed on the side of each atom and the type of charge value from the :menuselection:`View --> Labels/Charges` menu.The color scheme can be changed from the :menuselection:`Tools --> Preferences --> View` ."
 
 msgid "キーワード表示エリア"
 msgstr "Keyword Editor"
@@ -75,17 +42,8 @@ msgstr "The contents set in the configuration window of each solver are displaye
 msgid "座標表示エリア"
 msgstr "Coordinate Viewer"
 
-msgid ""
-"分子表示エリアに表示されている分子構造の、各原子の座標が表示されます。上部のタブで表示および出力する際の形式を切り替えることができます。デフォルトでは"
-" :guilabel:`Z-Matrix` "
-"が選択されています。グループ選択されていない状態では、座標表示エリアで選ばれた行とマーカー（赤丸）が付いた原子は一致します。 "
-":kbd:`Ctrl+左クリック` または :kbd:`Shift+左クリック` "
-"により複数行を選択することでグループ選択（青丸）することができます。表示されている内容の詳細はポインタを重ねることで確認することができます。"
-msgstr "The coordinates of each atom of the molecular structure displayed in the viewport are displayed."
-"You can switch the display format and output format on the upper tab."
-"By default :guilabel:`Z-Matrix` is selected."
-"In a state where no group is selected, the line selected in Coordinate Viewer matches the atom with the marker (red circle)."
-"Group selection (blue circle) can be done by selecting multiple lines by :kbd:`Ctrl+left click` or :kbd:`Shift+left click`."
+msgid "分子表示エリアに表示されている分子構造の、各原子の座標が表示されます。上部のタブで表示および出力する際の形式を切り替えることができます。デフォルトでは :guilabel:`Z-Matrix` が選択されています。グループ選択されていない状態では、座標表示エリアで選ばれた行とマーカー（赤丸）が付いた原子は一致します。 :kbd:`Ctrl+左クリック` または :kbd:`Shift+左クリック` により複数行を選択することでグループ選択（青丸）することができます。表示されている内容の詳細はポインタを重ねることで確認することができます。"
+msgstr "The coordinates of each atom of the molecular structure displayed in the viewport are displayed.You can switch the display format and output format on the upper tab.By default :guilabel:`Z-Matrix` is selected.In a state where no group is selected, the line selected in Coordinate Viewer matches the atom with the marker (red circle).Group selection (blue circle) can be done by selecting multiple lines by :kbd:`Ctrl+left click` or :kbd:`Shift+left click`."
 
 msgid "座標入力エリア"
 msgstr "Coordinate Editor"
@@ -96,18 +54,13 @@ msgstr "You can enter the coordinates (Z-Matrix or XYZ format) of the atom with 
 msgid "第二キーワード表示エリア"
 msgstr "Keyword Editor (secondary)"
 
-msgid ""
-":guilabel:`キーワード表示エリア` "
-"と基本的には同じですが、ここに記入された内容は、ソルバの入力ファイルの中で座標の後ろに出現します。GAMESS、Quantum "
-"ESPRESSOなどの一部のソルバでのみ使われます。"
+msgid ":guilabel:`キーワード表示エリア` と基本的には同じですが、ここに記入された内容は、ソルバの入力ファイルの中で座標の後ろに出現します。GAMESS、Quantum ESPRESSOなどの一部のソルバでのみ使われます。"
 msgstr "It is basically the same as :guilabel:`Keyword Editor`, but the contents entered here will appear after the coordinates in the input file of the solver. It is used only for some solvers such as GAMESS and Quantum ESPRESSO."
 
 msgid "マウス操作"
 msgstr "Mouse controls"
 
-msgid ""
-"メインウィンドウでは下表のようにマウスで操作することができます。 分子・原子を選択する方法の詳細は :ref:`select_top` "
-"に記載しています。"
+msgid "メインウィンドウでは下表のようにマウスで操作することができます。 分子・原子を選択する方法の詳細は :ref:`select_top` に記載しています。"
 msgstr "In Viewport, you can operate with the mouse as shown in the table below. Details on how to select molecules / atoms can be found in :ref:`select_top`."
 
 msgid "修飾"
@@ -176,9 +129,7 @@ msgstr "Note that you can also zoom in or out by left-dragging the right end of 
 msgid "ショートカットキー"
 msgstr "Shortcut keys"
 
-msgid ""
-"メインウィンドウでは下表のショートカットキーを使うことができます。 "
-"下表に記載されている以外にも、メインメニューの各項目の横に記載されたショートカットキーも使用可能です。"
+msgid "メインウィンドウでは下表のショートカットキーを使うことができます。 下表に記載されている以外にも、メインメニューの各項目の横に記載されたショートカットキーも使用可能です。"
 msgstr "In Main Window you can use the shortcut keys in the table below."
 
 msgid "基礎的な操作"
@@ -399,4 +350,3 @@ msgstr "Copy Image"
 
 msgid ":kbd:`Ctrl+Alt+C`"
 msgstr ":kbd:`Ctrl+Alt+C`"
-

@@ -1,21 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
-# This file is distributed under the same license as the Winmostar User
-# Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
-msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 14:13+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
 
 msgid ":menuselection:`半経験QM --> MOPAC` メニュー"
 msgstr ":menuselection:`Semi-Empirical QM --> MOPAC` menu"
@@ -23,38 +5,20 @@ msgstr ":menuselection:`Semi-Empirical QM --> MOPAC` menu"
 msgid "MOPACに関するメニューです。"
 msgstr "It is a menu related to MOPAC."
 
-msgid ""
-"MOPAC6とMOPAC7はWinmostarに同梱されています。 "
-"それ以外のMOPACを利用する場合は、別途代理店よりMOPAC本体を購入し、環境設定ウィンドウにてパスを設定してください。"
-msgstr "NOTTRANSLATED"
-"MOPAC 6 and MOPAC 7 are bundled with Winmostar. When using other MOPAC "
-"please purchase MOPAC body separately from distributor and set the path "
-"in environment setting window."
+msgid "MOPAC6とMOPAC7はWinmostarに同梱されています。 それ以外のMOPACを利用する場合は、別途代理店よりMOPAC本体を購入し、環境設定ウィンドウにてパスを設定してください。"
+msgstr "MOPAC 6 and MOPAC 7 are bundled with Winmostar. When using other MOPAC please purchase MOPAC body separately from distributor and set the path in environment setting window."
 
 msgid "キーワード設定"
 msgstr "Configure..."
 
-msgid ""
-"MOPACの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は "
-":guilabel:`OK` ボタンを押してください。"
-msgstr "NOTTRANSLATED"
-"Set calculation condition of MOPAC. To set up the calculations "
-"immediately after setting :guilabel:`Run` button, once to return to the "
-"main window please press :guilabel:`OK` button."
+msgid "MOPACの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
+msgstr "Set calculation condition of MOPAC. To set up the calculations immediately after setting :guilabel:`Run` button, once to return to the main window please press :guilabel:`OK` button."
 
 msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`semiempirical_mopac_start` を参照してください。"
-msgstr "NOTTRANSLATED"
-"Behavior when clicking :guilabel:`Run` is see :ref:`"
-"semiempirical_mopac_start`."
+msgstr "Behavior when clicking :guilabel:`Run` is see :ref:`semiempirical_mopac_start`."
 
-msgid ""
-":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 :guilabel:`Save as Default` "
-"ボタンで現在の状態をデフォルトの状態として保存します。 :menuselection:`Save as Default --> Clear "
-"Default Settings` で保存されてデフォルトの状態を出荷時の状態に戻します。"
-msgstr "NOTTRANSLATED"
-"return to the default state with :guilabel:`Reset` button. . "
-"Save the current state as the default state with :guilabel:`Save as Default` "
-"button. Restore the default state to the factory condition with :menuselection:`Save as Default --> Clear Default Settings`."
+msgid ":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 :guilabel:`Save as Default` ボタンで現在の状態をデフォルトの状態として保存します。 :menuselection:`Save as Default --> Clear Default Settings` で保存されてデフォルトの状態を出荷時の状態に戻します。"
+msgstr "return to the default state with :guilabel:`Reset` button. . Save the current state as the default state with :guilabel:`Save as Default` button. Restore the default state to the factory condition with :menuselection:`Save as Default --> Clear Default Settings`."
 
 msgid "Easy Setup"
 msgstr "Easy Setup"
@@ -66,9 +30,7 @@ msgid "Hamiltonian"
 msgstr "Hamiltonian"
 
 msgid "使用するハミルトニアンを指定します。MOPACの各パージョンがサポートするハミルトニアンは以下の通りです。"
-msgstr "NOTTRANSLATED"
-"Specify the Hamiltonian to use. The Hamiltonian supported by each version"
-" of MOPAC is as follows."
+msgstr "Specify the Hamiltonian to use. The Hamiltonian supported by each version of MOPAC is as follows."
 
 msgid "ハミルトニアン"
 msgstr "Hamiltonian"
@@ -79,12 +41,8 @@ msgstr "Version of MOPAC being implemented"
 msgid "AM1"
 msgstr "AM1"
 
-msgid ""
-"MOPAC 6, MOPAC 7, MOPAC 93, MOPAC 97, MOPAC 2000, MOPAC 2002, MOPAC 2006,"
-" MOPAC 2009, MOPAC 2012"
-msgstr "NOTTRANSLATED"
-"MOPAC 6, MOPAC 7, MOPAC 93, MOPAC 97, MOPAC 2000, MOPAC 2002, MOPAC 2006,"
-" MOPAC 2009, MOPAC 2012"
+msgid "MOPAC 6, MOPAC 7, MOPAC 93, MOPAC 97, MOPAC 2000, MOPAC 2002, MOPAC 2006, MOPAC 2009, MOPAC 2012"
+msgstr "MOPAC 6, MOPAC 7, MOPAC 93, MOPAC 97, MOPAC 2000, MOPAC 2002, MOPAC 2006, MOPAC 2009, MOPAC 2012"
 
 msgid "PM3"
 msgstr "PM3"
@@ -98,12 +56,8 @@ msgstr "MOPAC 2007"
 msgid "AM1 EXTERNAL=RM1.rm1"
 msgstr "AM1 EXTERNAL=RM1.rm1"
 
-msgid ""
-"MOPAC 7.1, MOPAC 93, MOPAC 97, MOPAC 2000, MOPAC 2002, MOPAC 2006, MOPAC "
-"2009, MOPAC 2012"
-msgstr "NOTTRANSLATED"
-"MOPAC 7.1, MOPAC 93, MOPAC 97, MOPAC 2000, MOPAC 2002, MOPAC 2006, MOPAC "
-"2009, MOPAC 2012"
+msgid "MOPAC 7.1, MOPAC 93, MOPAC 97, MOPAC 2000, MOPAC 2002, MOPAC 2006, MOPAC 2009, MOPAC 2012"
+msgstr "MOPAC 7.1, MOPAC 93, MOPAC 97, MOPAC 2000, MOPAC 2002, MOPAC 2006, MOPAC 2009, MOPAC 2012"
 
 msgid "PM5"
 msgstr "PM5"
@@ -148,9 +102,7 @@ msgid "EF"
 msgstr "EF"
 
 msgid "EF (Eigen Vector Following)法による構造最適化計算を行います。"
-msgstr "NOTTRANSLATED"
-"Perform structure optimization calculation by EF (Eigen Vector Following)"
-" method."
+msgstr "Perform structure optimization calculation by EF (Eigen Vector Following) method."
 
 msgid "TS"
 msgstr "TS"
@@ -168,9 +120,7 @@ msgid "1SCF"
 msgstr "1SCF"
 
 msgid "1回だけSCF計算を行います。（構造最適化を行いません。）"
-msgstr "NOTTRANSLATED"
-"Perform SCF calculation only once. (Structure optimization is not "
-"performed.)"
+msgstr "Perform SCF calculation only once. (Structure optimization is not performed.)"
 
 msgid "IRC"
 msgstr "IRC"
@@ -182,17 +132,13 @@ msgid "IRC=1"
 msgstr "IRC=1"
 
 msgid "1番目の基準振動の逆方向を指定して固有反応座標計算を行います。"
-msgstr "NOTTRANSLATED"
-"Specify the inverse direction of the 1st reference vibration and "
-"calculate the unique reaction coordinate."
+msgstr "Specify the inverse direction of the 1st reference vibration and calculate the unique reaction coordinate."
 
 msgid "IRC=-1"
 msgstr "IRC=-1"
 
 msgid "1番目の基準振動の正方向を指定して固有反応座標計算を行います。"
-msgstr "NOTTRANSLATED"
-"Specify the positive direction of the first reference vibration and "
-"perform the unique reaction coordinate calculation."
+msgstr "Specify the positive direction of the first reference vibration and perform the unique reaction coordinate calculation."
 
 msgid "Charge"
 msgstr "Charge"
@@ -210,9 +156,7 @@ msgid "OPEN"
 msgstr "OPEN"
 
 msgid "開殻計算における電子数と軌道数を指定します。"
-msgstr "NOTTRANSLATED"
-"Specify the number of electrons and the number of orbits in open shell "
-"calculation."
+msgstr "Specify the number of electrons and the number of orbits in open shell calculation."
 
 msgid "MM"
 msgstr "MM"
@@ -263,9 +207,7 @@ msgid "POINT"
 msgstr "POINT"
 
 msgid "反応座標計算における計算点数を指定します。"
-msgstr "NOTTRANSLATED"
-"Specify the number of calculation points in reaction coordinate "
-"calculation."
+msgstr "Specify the number of calculation points in reaction coordinate calculation."
 
 msgid "STEP1/2"
 msgstr "STEP1/2"
@@ -295,9 +237,7 @@ msgid "ENPART"
 msgstr "ENPART"
 
 msgid "エネルギーを1中心および2中心項に分解するエネルギー分割を指定します。"
-msgstr "NOTTRANSLATED"
-"Specify the energy split that resolves the energy into 1 center and 2 "
-"center terms."
+msgstr "Specify the energy split that resolves the energy into 1 center and 2 center terms."
 
 msgid "ESP"
 msgstr "ESP"
@@ -327,9 +267,7 @@ msgid "OLDFPC"
 msgstr "OLDFPC"
 
 msgid "古いバージョンのMOPACと同じ基準物理量の値を用います。"
-msgstr "NOTTRANSLATED"
-"We use the same reference physical quantity value as the old version "
-"MOPAC."
+msgstr "We use the same reference physical quantity value as the old version MOPAC."
 
 msgid "POLAR"
 msgstr "POLAR"
@@ -377,46 +315,22 @@ msgid "キーワード読み込み"
 msgstr "Import Keywords..."
 
 msgid "既存のMOPACの入力ファイルから、キーワード（計算条件）のみを読み込みます。"
-msgstr "NOTTRANSLATED"
-"Only keywords (calculation conditions) are read from the existing MOPAC "
-"input file."
+msgstr "Only keywords (calculation conditions) are read from the existing MOPAC input file."
 
 msgid "(1) MOP6W70実行, (2) MOP7W70実行, (3) MOPACX実行"
 msgstr "(1) Run MOP6W70, (2) Run MOP7W70, (3) Run MOPACX"
 
-msgid ""
-"メインウィンドウでMOPACの入力ファイルが開かれている場合は、そのファイルを使ってMOPACを実行します。 "
-"開かれていない場合は、MOPACの入力ファイルを保存した上でMOPACを実行します。"
-msgstr "NOTTRANSLATED"
-"If MOPAC input file is opened in the main window, execute MOPAC using "
-"that file. If it is not open, save the input file of MOPAC and execute "
-"MOPAC."
+msgid "メインウィンドウでMOPACの入力ファイルが開かれている場合は、そのファイルを使ってMOPACを実行します。 開かれていない場合は、MOPACの入力ファイルを保存した上でMOPACを実行します。"
+msgstr "If MOPAC input file is opened in the main window, execute MOPAC using that file. If it is not open, save the input file of MOPAC and execute MOPAC."
 
-msgid ""
-"入力ファイルを保存する際に、 :ref:`file_coordinateformat` の選択肢（ :guilabel:`Z-Matrix` "
-"または :guilabel:`XYZ` ）および :ref:`座標表示エリア <gui_main>` の :guilabel:`Z-Matrix`"
-" / :guilabel:`XYZ` タブの選択に応じて座標の出力フォーマットが変化します。"
-msgstr "When saving the input file, the output format of coordinates changes according to the choice of :ref:`file_coordinateformat` （ :guilabel:`Z-Matrix` or :guilabel:`XYZ` ） and :ref:`coordinate display area <gui_main>` of :guilabel:`Z-Matrix` / :guilabel:`XYZ` tab." 
+msgid "入力ファイルを保存する際に、 :ref:`file_coordinateformat` の選択肢（ :guilabel:`Z-Matrix` または :guilabel:`XYZ` ）および :ref:`座標表示エリア <gui_main>` の :guilabel:`Z-Matrix` / :guilabel:`XYZ` タブの選択に応じて座標の出力フォーマットが変化します。"
+msgstr "When saving the input file, the output format of coordinates changes according to the choice of :ref:`file_coordinateformat` （ :guilabel:`Z-Matrix` or :guilabel:`XYZ` ） and :ref:`coordinate display area <gui_main>` of :guilabel:`Z-Matrix` / :guilabel:`XYZ` tab."
 
-msgid ""
-":guilabel:`(1) MOP6W70実行` , :guilabel:`(2) MOP7W70実行`, :guilabel:`(3) "
-"MOPACX実行` の違いは、起動するMOPACのプログラムパスです。 プログラムパスは、 :menuselection:`ツール --> "
-"環境設定 --> プログラムパス` で変更することができます。 デフォルトで設定されている :guilabel:`MOP6W70` "
-"はMOPAC6、 :guilabel:`MOP7W70` はMOPAC7で、どちらもWinmostarに内蔵されているものです。 "
-":guilabel:`(3) MOPACX実行` にはMOPAC2012などのプログラムを指定して使うことを想定しています。"
-msgstr "NOTTRANSLATED"
-"Difference of :guilabel:`(1) Execute MOP 6W70, :guilabel:`(2) Execute MOP7W70`, :"
-"guilabel:`(3) MOPACX execution` is the program path to start MOPAC. You "
-"can change the program path with :menuselection:`Tools --> "
-"Preferences --> Program Path`. Default setting :guilabel:`MOP 6W 70` "
-"is MOPAC 6, :guilabel:`MOP 7 W 70` is MOPAC 7, both of which are built "
-"in Winmostar. :guilabel:`(3) MOPACX execution` is assumed to be used by"
-" specifying a program such as MOPAC 2012."
+msgid ":guilabel:`(1) MOP6W70実行` , :guilabel:`(2) MOP7W70実行`, :guilabel:`(3) MOPACX実行` の違いは、起動するMOPACのプログラムパスです。 プログラムパスは、 :menuselection:`ツール --> 環境設定 --> プログラムパス` で変更することができます。 デフォルトで設定されている :guilabel:`MOP6W70` はMOPAC6、 :guilabel:`MOP7W70` はMOPAC7で、どちらもWinmostarに内蔵されているものです。 :guilabel:`(3) MOPACX実行` にはMOPAC2012などのプログラムを指定して使うことを想定しています。"
+msgstr "Difference of :guilabel:`(1) Execute MOP 6W70, :guilabel:`(2) Execute MOP7W70`, :guilabel:`(3) MOPACX execution` is the program path to start MOPAC. You can change the program path with :menuselection:`Tools --> Preferences --> Program Path`. Default setting :guilabel:`MOP 6W 70` is MOPAC 6, :guilabel:`MOP 7 W 70` is MOPAC 7, both of which are built in Winmostar. :guilabel:`(3) MOPACX execution` is assumed to be used by specifying a program such as MOPAC 2012."
 
 msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.dat` の時のファイル/フォルダ名を併記しています。"
-msgstr "NOTTRANSLATED"
-"Following file will be generated with execution. For example, the file / "
-"folder name when the input file is :file:`water.dat` is shown together."
+msgstr "Following file will be generated with execution. For example, the file / folder name when the input file is :file:`water.dat` is shown together."
 
 msgid "種類"
 msgstr "type"
@@ -457,7 +371,8 @@ msgstr "Contains information used to draw molecular orbits."
 msgid "作業ディレクトリ"
 msgstr "Working Directory"
 
-msgid ":file:`water_temp\\\\`"
+#, fuzzy
+msgid ":file:`water_mop_tmp\\\\`"
 msgstr ":file:`water_temp\\\\`"
 
 msgid "作業ディレクトリです。"
@@ -469,11 +384,31 @@ msgstr "Open Log File (out)..."
 msgid "outファイルをテキストエディタで開きます。"
 msgstr "Open out file in a text editor."
 
-msgid "ログを表示 (arc)"
-msgstr "Open Log File (arc)..."
-
 msgid "arcファイルをテキストエディタで開きます。"
 msgstr "Open arc file with a text editor."
+
+#, fuzzy
+msgid "アニメーション"
+msgstr "Animation (arc)..."
+
+#, fuzzy
+msgid "構造最適化 (arc)"
+msgstr "Charges (arc)..."
+
+msgid "arcファイルを選択し、分子構造のアニメーションを表示します。"
+msgstr "Select the arc file and display the animation of the molecular structure."
+
+msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
+msgstr "For the animation display operation method, see :ref:`animation_top`."
+
+msgid "IRC, STEP (out)"
+msgstr "NOTTRANSLATED"
+
+msgid "outファイルを選択し、IRC計算のアニメーションを表示します。"
+msgstr "Select out file and display animation of IRC calculation."
+
+msgid "結果解析"
+msgstr "NOTTRANSLATED"
 
 msgid "分子軌道, 電子密度 (mgf)"
 msgstr "MO & Density (mgf)..."
@@ -481,13 +416,8 @@ msgstr "MO & Density (mgf)..."
 msgid "mgfファイルを選択し、分子軌道を表示します。"
 msgstr "Select the mgf file and display the molecular orbital."
 
-msgid ""
-":ref:`キーワード <semiempirical_mopac_keyword>` で ``GRAPHF`` が設定されている必要があります。 "
-"サブウィンドウの操作方法は :ref:`mo_top` , :ref:`cube_top` を参照してください。"
-msgstr "NOTTRANSLATED"
-"``GRAPHF`` must be set on :ref:`keyword <semiempirical_mopac_keyword>`. "
-"Refer to :ref:`mo_top`, :ref:`cube_top` for how to operate the "
-"subwindow."
+msgid ":ref:`キーワード <semiempirical_mopac_keyword>` で ``GRAPHF`` が設定されている必要があります。 サブウィンドウの操作方法は :ref:`mo_top` , :ref:`cube_top` を参照してください。"
+msgstr "``GRAPHF`` must be set on :ref:`keyword <semiempirical_mopac_keyword>`. Refer to :ref:`mo_top`, :ref:`cube_top` for how to operate the subwindow."
 
 msgid "電荷 (arc)"
 msgstr "Charges (arc)..."
@@ -496,23 +426,7 @@ msgid "arcファイルを選択し、電荷、ダイポールを表示します�
 msgstr "Select arc file and display charge, dipole."
 
 msgid ":menuselection:`表示 --> ラベル/電荷 --> Mulliken電荷` を選択すると電荷が表示されます。"
-msgstr "NOTTRANSLATED"
-"Show charges when you select :menuselection:`display --> label/charge --> Mulliken Charge`."
-
-msgid "アニメーション (arc)"
-msgstr "Animation (arc)..."
-
-msgid "arcファイルを選択し、分子構造のアニメーションを表示します。"
-msgstr "Select the arc file and display the animation of the molecular structure."
-
-msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
-msgstr "For the animation display operation method, see :ref:`animation_top`."
-
-msgid "アニメーション (IRC,STEP)(out)"
-msgstr "IRC & STEP (out)..."
-
-msgid "outファイルを選択し、IRC計算のアニメーションを表示します。"
-msgstr "Select out file and display animation of IRC calculation."
+msgstr "Show charges when you select :menuselection:`display --> label/charge --> Mulliken Charge`."
 
 msgid "振動スペクトル (out)"
 msgstr "Vibration spectrum (out)..."
@@ -520,32 +434,14 @@ msgstr "Vibration spectrum (out)..."
 msgid "outファイルを選択し、振動スペクトル（IRスペクトル）を表示します。"
 msgstr "Select the out file and display the vibration spectrum (IR spectrum)."
 
-msgid ""
-":ref:`キーワード <semiempirical_mopac_keyword>` で振動計算が設定されている必要があります。 "
-"サブウィンドウの操作方法は :ref:`ir_top` を参照してください。"
-msgstr "NOTTRANSLATED"
-"Vibration calculation must be set with :ref:`keyword <semiempirical_mopac_keyword>`. "
-"Refer to :ref:`ir_top` for how to operate the subwindow."
+msgid ":ref:`キーワード <semiempirical_mopac_keyword>` で振動計算が設定されている必要があります。 サブウィンドウの操作方法は :ref:`ir_top` を参照してください。"
+msgstr "Vibration calculation must be set with :ref:`keyword <semiempirical_mopac_keyword>`. Refer to :ref:`ir_top` for how to operate the subwindow."
 
 msgid "ジョブマネージャで実行"
 msgstr "Use Job Manager"
 
-msgid ""
-"チェックが入っている場合は、MOPACを実行する際に :ref:`winmosjm_top` を使用します。 "
-"入っていない場合は、MOPACでの計算が終わるまでWinmostarは待ち状態となり、MOPACの出力結果は自動でメインウィンドウに読み込まれます。"
-msgstr "NOTTRANSLATED"
-"When checked, use :ref:`winmosjm_top` when executing MOPAC. If it is not"
-" entered, Winmostar will be in a wait state until calculation by MOPAC is"
-" completed, and the output result of MOPAC will be automatically loaded "
-"into the main window."
+msgid "チェックが入っている場合は、MOPACを実行する際に :ref:`winmosjm_top` を使用します。 入っていない場合は、MOPACでの計算が終わるまでWinmostarは待ち状態となり、MOPACの出力結果は自動でメインウィンドウに読み込まれます。"
+msgstr "When checked, use :ref:`winmosjm_top` when executing MOPAC. If it is not entered, Winmostar will be in a wait state until calculation by MOPAC is completed, and the output result of MOPAC will be automatically loaded into the main window."
 
 msgid ":ref:`preferences_top` からも設定することができます。"
 msgstr "It can also be set from :ref:`preferences_top`."
-
-#~ msgid "入力ファイルを保存する際に、 :ref:`file_coordinateformat` の選択肢に応じて座標の出力フォーマットが変化します。"
-#~ msgstr "NOTTRANSLATED"
-#~ "When saving the input file, the "
-#~ "output format of the coordinates changes"
-#~ " according to the choices of: ref:"
-#~ " `file_coordinateformat`."
-

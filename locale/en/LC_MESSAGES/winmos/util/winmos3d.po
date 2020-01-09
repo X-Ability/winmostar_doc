@@ -1,22 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
-# This file is distributed under the same license as the Winmostar User
-# Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
 
-msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-23 15:28+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 
 msgid "Winmostar Viewer"
 msgstr "Winmostar Viewer"
@@ -325,10 +307,7 @@ msgstr "Assign :guilabel:`9` from :guilabel:`1` in the middle of this window to 
 msgid "1 - 9"
 msgstr "1 - 9"
 
-msgid ""
-"チェックが付いた項目を表示します。プルダウンメニューの :guilabel:`BS` , :guilabel:`SF` , "
-":guilabel:`ST` , :guilabel:`WI` はそれぞれBall-stick（棒球）モデル（デフォルト）、Space "
-"filling（空間充填）モデル、Stick（棒）モデル、ワイヤーモデルを意味します。"
+msgid "チェックが付いた項目を表示します。プルダウンメニューの :guilabel:`BS` , :guilabel:`SF` , :guilabel:`ST` , :guilabel:`WI` はそれぞれBall-stick（棒球）モデル（デフォルト）、Space filling（空間充填）モデル、Stick（棒）モデル、ワイヤーモデルを意味します。"
 msgstr "The checked items are displayed. In the pull-down menu :guilabel:`BS`, :guilabel:`SF`, :guilabel:`ST`, :guilabel:`WI` are Ball-stick model (default), Space filling , Stick (rod) model, wire model."
 
 msgid "Rainbow"
@@ -453,4 +432,3 @@ msgstr "X, Y, Z"
 
 msgid "分子軌道などのメッシュ（スカラー場）情報が読み込まれた場合、チェックを入れた面に対しコンターマップ（等高線）を描画します。コンターマップの位置はスライダーで調整可能です。"
 msgstr "When mesh (scalar field) information such as molecular orbital is read, draw contour map (contour line) against the checked surface. The position of the contour map can be adjusted with the slider."
-

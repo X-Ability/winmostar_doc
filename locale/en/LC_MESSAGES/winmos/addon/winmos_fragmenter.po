@@ -1,22 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
-# This file is distributed under the same license as the Winmostar User
-# Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
 
-msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.0.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 23:32+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 
 msgid "Frangment ER"
 msgstr "Frangment ER"
@@ -108,9 +90,7 @@ msgstr "Open the MD trajectory."
 msgid "Clear NAMD Output Files"
 msgstr "Clear NAMD Output Files"
 
-msgid ""
-"NAMD実行でできた出力ファイルを削除します。 RunNAMD.bat, RunNAMD.log, 各種dcd, log, coor, namd,"
-" vel, xsc, xstファイル等を削除します。"
+msgid "NAMD実行でできた出力ファイルを削除します。 RunNAMD.bat, RunNAMD.log, 各種dcd, log, coor, namd, vel, xsc, xstファイル等を削除します。"
 msgstr "Delete the output file made by NAMD execution. Delete RunNAMD.bat, RunNAMD.log, various dcd, log, coor, namd, vel, xsc, xst files etc .."
 
 msgid "Analysisメニュー"
@@ -134,9 +114,7 @@ msgstr "Import the free energy calculation result and display it in :ref:`fer_su
 msgid "Clear Analysis Output Files"
 msgstr "Clear Analysis Output Files"
 
-msgid ""
-"自由エネルギー計算でできた出力ファイルを削除します。 FreeEnergy.sh, FreeEnergy.log, "
-"calc_PdP_kai2.out, parameters_feファイル, refs, solnフォルダ等を削除します。"
+msgid "自由エネルギー計算でできた出力ファイルを削除します。 FreeEnergy.sh, FreeEnergy.log, calc_PdP_kai2.out, parameters_feファイル, refs, solnフォルダ等を削除します。"
 msgstr "Delete the output file made by free energy calculation. Delete FreeEnergy.sh, FreeEnergy.log, calc_PdP_kai2.out, parameters_fe file, refs, soln folder etc."
 
 msgid "Toolsメニュー"
@@ -151,25 +129,19 @@ msgstr ":ref:`fer_pref` is displayed."
 msgid "Solution"
 msgstr "Solution"
 
-msgid ""
-":guilabel:`...` ボタンをクリックして溶液系のPDBファイルを指定します。 "
-"複数のリガンド分子が存在する場合は、リガンド分子を指定します。 ビューにリガンド分子表示されます。"
+msgid ":guilabel:`...` ボタンをクリックして溶液系のPDBファイルを指定します。 複数のリガンド分子が存在する場合は、リガンド分子を指定します。 ビューにリガンド分子表示されます。"
 msgstr "Specify PDB file of solution type by clicking :guilabel:`... ...` button. If more than one ligand molecule is present, designate the ligand molecule. Ligand molecules are displayed in the view."
 
 msgid "Set Core"
 msgstr "Set Core"
 
-msgid ""
-"初期リガンドからフラグメント部分の原子をクリックで指定し、:guilabel:`Set Core` "
-"ボタンをクリックすると、残りの部分を母核として設定します。"
+msgid "初期リガンドからフラグメント部分の原子をクリックで指定し、:guilabel:`Set Core` ボタンをクリックすると、残りの部分を母核として設定します。"
 msgstr "By clicking on the atom of the fragment part from the initial ligand and clicking the :guilabel:`Set Core` button, the remaining part is set as the mother nucleus."
 
 msgid "Add"
 msgstr "Add"
 
-msgid ""
-"新規フラグメントをコンボボックスで選択してから、 :guilabel:`Add` "
-"ボタンをクリックすると、新規フラグメントを母核に付加したリガンドを最終リガンドリストに追加します。"
+msgid "新規フラグメントをコンボボックスで選択してから、 :guilabel:`Add` ボタンをクリックすると、新規フラグメントを母核に付加したリガンドを最終リガンドリストに追加します。"
 msgstr "After selecting a new fragment with a combo box, click the :guilabel:`Add` button to add the ligand with the new fragment added to the mother nucleus to the final ligand list."
 
 msgid "Configure"
@@ -202,17 +174,13 @@ msgstr "Solvation"
 msgid "Drop water and solvate for In-protein"
 msgstr "Drop water and solvate for In-protein"
 
-msgid ""
-"In-protein系の計算で水分子を再配置するか設定します。 これを行わない場合ははじめに読み込んだ溶液系の水分子が溶媒として使用されます。 "
-"これを行わない場合は周期境界セルが設定されている必要があります。"
+msgid "In-protein系の計算で水分子を再配置するか設定します。 これを行わない場合ははじめに読み込んだ溶液系の水分子が溶媒として使用されます。 これを行わない場合は周期境界セルが設定されている必要があります。"
 msgstr "Set whether water molecules should be rearranged by calculation of In-protein system. If you do not do this, water molecules of the solution system you read will be used as a solvent. If this is not done, periodic boundary cells must be set."
 
 msgid "Drop water and solvate for In-aqua"
 msgstr "Drop water and solvate for In-aqua"
 
-msgid ""
-"In-aqua系の計算で水分子を再配置するか設定します。 これを行わない場合ははじめに読み込んだ溶液系の水分子が溶媒として使用されます。 "
-"これを行わない場合は周期境界セルが設定されている必要があります。"
+msgid "In-aqua系の計算で水分子を再配置するか設定します。 これを行わない場合ははじめに読み込んだ溶液系の水分子が溶媒として使用されます。 これを行わない場合は周期境界セルが設定されている必要があります。"
 msgstr "Set whether water molecules are rearranged by calculation of In-aqua system. If you do not do this, water molecules of the solution system you read will be used as a solvent. If this is not done, periodic boundary cells must be set."
 
 msgid "Distance from solute to cell boundary"
@@ -412,4 +380,3 @@ msgstr "Protein parameter Path"
 
 msgid "タンパクのパラメータファイルを指定します。"
 msgstr "Specify the protein parameter file."
-

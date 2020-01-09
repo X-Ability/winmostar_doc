@@ -1,22 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
-# This file is distributed under the same license as the Winmostar User
-# Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
 
-msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: Winmostar User Manual 9.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 14:13+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
 
 msgid ":menuselection:`固体 --> BoltzTraP` メニュー"
 msgstr ":menuselection:`Solid-> BoltzTraP` menu"
@@ -39,14 +21,8 @@ msgstr "Set pre / post calculation conditions using BoltzTraP and execute pre-pr
 msgid ":guilabel:`Create .intransファイル` ボタン"
 msgstr ":guilabel:`Create .intrans file` button"
 
-msgid ""
-"Quantum ESPRESSOのnscf計算のアウトプットファイル "
-"(*.pwout)を読み込み、BoltzTraP設定ファイル（*.intrans）を生成します。 "
-"アウトプットファイルを仮にmg2si_nscf.pwoutとすると、同じ階層にmg2si_nscfという名前の作業ディレクトリを生成します。 "
-"mg2si_nscf.intransはmg2si_nscf内に生成されます。"
-msgstr "Read the output file (* .pwout) of Quantum ESPRESSO nscf calculation and generate "
-"BoltzTraP configuration file (* .intrans). If the output file is mg2si_nscf.pwout, a working directory "
-"named mg2si_nscf will be created in the same hierarchy. mg2si_nscf.intrans is generated in mg2si_nscf."
+msgid "Quantum ESPRESSOのnscf計算のアウトプットファイル (*.pwout)を読み込み、BoltzTraP設定ファイル（*.intrans）を生成します。 アウトプットファイルを仮にmg2si_nscf.pwoutとすると、同じ階層にmg2si_nscfという名前の作業ディレクトリを生成します。 mg2si_nscf.intransはmg2si_nscf内に生成されます。"
+msgstr "Read the output file (* .pwout) of Quantum ESPRESSO nscf calculation and generate BoltzTraP configuration file (* .intrans). If the output file is mg2si_nscf.pwout, a working directory named mg2si_nscf will be created in the same hierarchy. mg2si_nscf.intrans is generated in mg2si_nscf."
 
 msgid "intransファイルの作成に成功した場合、ファイルの内容を読み込み、下記キーワードの入力欄に反映します。"
 msgstr "If the intrans file is successfully created, the contents of the file are read and reflected in the input field for the following keyword."
@@ -141,11 +117,8 @@ msgstr ".trace file"
 msgid ":file:`mg2si_nscf.trace`"
 msgstr ":file:`mg2si_nscf.trace`"
 
-msgid ""
-"BoltzTraPで計算された熱電特性のエネルギー、温度依存性に関する情報が出力されたファイルです。 "
-"BoltzTraP結果読み込み...メニューではこのファイルを読み込み可視化を行います。"
-msgstr "This is a file that outputs information about the energy and temperature dependence of thermoelectric properties calculated by BoltzTraP. "
-"Load BoltzTraP results ... menu reads this file for visualization."
+msgid "BoltzTraPで計算された熱電特性のエネルギー、温度依存性に関する情報が出力されたファイルです。 BoltzTraP結果読み込み...メニューではこのファイルを読み込み可視化を行います。"
+msgstr "This is a file that outputs information about the energy and temperature dependence of thermoelectric properties calculated by BoltzTraP. Load BoltzTraP results ... menu reads this file for visualization."
 
 msgid ":guilabel:`Cancel` ボタン"
 msgstr ":guilabel:`Cancel` button"
@@ -174,11 +147,5 @@ msgstr "Power factor"
 msgid "性能指数（Figure of merit）"
 msgstr "Figure of merit"
 
-msgid ""
-"各温度における特性値のエネルギー依存性を表示したい場合はコンボボックスからT [K]を選択し、リストから目的の温度を選択します。 "
-"各エネルギーにおける特性値の温度依存性を表示したい場合はコンボボックスからE-Ef [eV]を選択し、リストから目的のエネルギーを選択します。"
-msgstr "To display the energy dependence of the characteristic value at each temperature, "
-"select T [K] from the combo box and select the desired temperature from the list."
-"To display the temperature dependence of the characteristic value for each energy, "
-"select E-Ef [eV] from the combo box and select the target energy from the list."
-
+msgid "各温度における特性値のエネルギー依存性を表示したい場合はコンボボックスからT [K]を選択し、リストから目的の温度を選択します。 各エネルギーにおける特性値の温度依存性を表示したい場合はコンボボックスからE-Ef [eV]を選択し、リストから目的のエネルギーを選択します。"
+msgstr "To display the energy dependence of the characteristic value at each temperature, select T [K] from the combo box and select the desired temperature from the list.To display the temperature dependence of the characteristic value for each energy, select E-Ef [eV] from the combo box and select the target energy from the list."

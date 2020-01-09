@@ -1,21 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
-# This file is distributed under the same license as the Winmostar User
-# Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
-msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 14:13+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
 
 msgid ":menuselection:`QM --> NWChem` メニュー"
 msgstr ":menuselection:`QM --> NWChem` menu"
@@ -23,23 +5,14 @@ msgstr ":menuselection:`QM --> NWChem` menu"
 msgid "NWChemに関するメニューです。"
 msgstr "It is a menu related to NWChem."
 
-msgid ""
-"NWChemを利用するためには別途NWChemをインストールする必要があります。 NWChemをインストールする方法は "
-":ref:`install_install` に記載しています。"
-msgstr "NOTTRANSLATED"
-"In order to use NWChem, you need to install NWChem separately. The method"
-" of installing NWChem is described in :ref:`install_install`."
+msgid "NWChemを利用するためには別途NWChemをインストールする必要があります。 NWChemをインストールする方法は :ref:`install_install` に記載しています。"
+msgstr "In order to use NWChem, you need to install NWChem separately. The method of installing NWChem is described in :ref:`install_install`."
 
 msgid "キーワード設定"
 msgstr "Configure..."
 
-msgid ""
-"NWChemの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は "
-":guilabel:`OK` ボタンを押してください。"
-msgstr "NOTTRANSLATED"
-"Set calculation conditions of NWChem. To set up the calculations "
-"immediately after setting :guilabel:`Run` button, once to return to the "
-"main window please press :guilabel:`OK` button."
+msgid "NWChemの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
+msgstr "Set calculation conditions of NWChem. To set up the calculations immediately after setting :guilabel:`Run` button, once to return to the main window please press :guilabel:`OK` button."
 
 msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`qm_nwchem_start` を参照してください。"
 msgstr "Behavior when clicking :guilabel:`Run` is see :ref:`qm_nwchem_start`."
@@ -72,17 +45,13 @@ msgid "Basis"
 msgstr "Basis"
 
 msgid "基底関数系を指定します。 cartesian/sphericalを選択します。 一部原子の例外をExceptionで指定します。"
-msgstr "NOTTRANSLATED"
-"Specify the basis function system. Choose cartesian / spherical. Specify "
-"exception for some atoms with Exception."
+msgstr "Specify the basis function system. Choose cartesian / spherical. Specify exception for some atoms with Exception."
 
 msgid "Task"
 msgstr "Task"
 
 msgid "計算手法(theory)と計算目的(operation)を指定します。"
-msgstr "NOTTRANSLATED"
-"Specify the calculation method (theory) and calculation purpose "
-"(operation)."
+msgstr "Specify the calculation method (theory) and calculation purpose (operation)."
 
 msgid "Charge"
 msgstr "Charge"
@@ -202,20 +171,13 @@ msgid "XYZ_Path"
 msgstr "XYZ_Path"
 
 msgid "初期パスのファイルを指定します。計算のリスタートなどで使用します。      Print_Shift 指定したステップ毎にパスを出力します。"
-msgstr "NOTTRANSLATED"
-"Specify the file of the initial path. It is used for restarting "
-"calculations. Print_Shift Prints the path for each specified step."
+msgstr "Specify the file of the initial path. It is used for restarting calculations. Print_Shift Prints the path for each specified step."
 
 msgid "EndGeom"
 msgstr "EndGeom"
 
-msgid ""
-"最後のビーズの座標を指定します。 Loadボタンでファイルを指定して読み込めます。 "
-"Winmostarで読み込めるフォーマットをXYZ形式で読み込みます。 また、Editボタンで編集することができます。"
-msgstr "NOTTRANSLATED"
-"Specify the coordinates of the last bead. You can specify a file by "
-"loading it with the Load button. Load format that can be read with "
-"Winmostar in XYZ format. You can also edit with the Edit button."
+msgid "最後のビーズの座標を指定します。 Loadボタンでファイルを指定して読み込めます。 Winmostarで読み込めるフォーマットをXYZ形式で読み込みます。 また、Editボタンで編集することができます。"
+msgstr "Specify the coordinates of the last bead. You can specify a file by loading it with the Load button. Load format that can be read with Winmostar in XYZ format. You can also edit with the Edit button."
 
 msgid "Advance タブ"
 msgstr "Advance tab"
@@ -257,36 +219,22 @@ msgid "キーワード読み込み"
 msgstr "Import Keywords..."
 
 msgid "既存のNWChemの入力ファイルから、キーワード（計算条件）のみを読み込みます。"
-msgstr "NOTTRANSLATED"
-"Only the keyword (calculation condition) is read from the existing NWChem"
-" input file."
+msgstr "Only the keyword (calculation condition) is read from the existing NWChem input file."
 
 msgid "実行"
 msgstr "Run..."
 
-msgid ""
-"メインウィンドウでNWChemの入力ファイルが開かれている場合は、そのファイルを使ってNWChemを実行します。 "
-"開かれていない場合は、NWChemの入力ファイルを保存した上でNWChemを実行します。"
-msgstr "NOTTRANSLATED"
-"If NWChem&#39;s input file is open in the main window, use NWChem to "
-"execute the file. If it is not open, save the input file of NWChem and "
-"run NWChem."
+msgid "メインウィンドウでNWChemの入力ファイルが開かれている場合は、そのファイルを使ってNWChemを実行します。 開かれていない場合は、NWChemの入力ファイルを保存した上でNWChemを実行します。"
+msgstr "If NWChem&#39;s input file is open in the main window, use NWChem to execute the file. If it is not open, save the input file of NWChem and run NWChem."
 
-msgid ""
-"入力ファイルを保存する際に、 :ref:`file_coordinateformat` の選択肢（ :guilabel:`Z-Matrix` "
-"または :guilabel:`XYZ` ）および :ref:`座標表示エリア <gui_main>` の :guilabel:`Z-Matrix`"
-" / :guilabel:`XYZ` タブの選択に応じて座標の出力フォーマットが変化します。"
+msgid "入力ファイルを保存する際に、 :ref:`file_coordinateformat` の選択肢（ :guilabel:`Z-Matrix` または :guilabel:`XYZ` ）および :ref:`座標表示エリア <gui_main>` の :guilabel:`Z-Matrix` / :guilabel:`XYZ` タブの選択に応じて座標の出力フォーマットが変化します。"
 msgstr "When saving the input file, output format of coordinates changes according to the selection of :ref:`file_coordinateformat` choice (:guilabel:`Z-Matrix` or :guilabel:`XYZ`) and :guilabel:`Z-Matrix` / :guilabel:`XYZ` tab of :ref:`Coordinate display area <gui_main>`."
 
 msgid "NWChemのプログラムパスは、 :menuselection:`ツール --> 環境設定 --> プログラムパス` で変更することができます。"
-msgstr "NOTTRANSLATED"
-"The program path of NWChem can be changed with :menuselection:`tools "
-"--> environment setting --> program path`."
+msgstr "The program path of NWChem can be changed with :menuselection:`tools --> environment setting --> program path`."
 
 msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.nw` の時のファイル/フォルダ名を併記しています。"
-msgstr "NOTTRANSLATED"
-"Following file will be generated with execution. For example, the file / "
-"folder name when the input file is: file: `water.nw` is shown together."
+msgstr "Following file will be generated with execution. For example, the file / folder name when the input file is: file: `water.nw` is shown together."
 
 msgid "種類"
 msgstr "type"
@@ -324,7 +272,8 @@ msgstr "It is a batch file for running NWChem."
 msgid "作業ディレクトリ"
 msgstr "Working Directory"
 
-msgid ":file:`water.nw_temp\\\\`"
+#, fuzzy
+msgid ":file:`water_nw_tmp\\\\`"
 msgstr ":file:`water.nw_temp\\\\`"
 
 msgid "作業ディレクトリです。"
@@ -339,70 +288,48 @@ msgstr "Open Log File (out)..."
 msgid "outファイルをテキストエディタで開きます。"
 msgstr "Open the out file in a text editor."
 
-msgid "アニメーション (構造最適化)"
+#, fuzzy
+msgid "アニメーション"
 msgstr "Animation (Optimize)..."
 
-msgid "outファイルの情報から構造最適化等のアニメーションを作成し表示します。"
+msgid "構造最適化"
 msgstr "NOTTRANSLATED"
-"Create and display animation such as structure optimization from "
-"the out file information."
+
+msgid "outファイルの情報から構造最適化等のアニメーションを作成し表示します。"
+msgstr "Create and display animation such as structure optimization from the out file information."
 
 msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
 msgstr "For the animation display operation method, see :ref:`animation_top`."
 
-msgid "アニメーション (NEB/String)"
-msgstr "Animation (NEB/String)..."
+msgid "NEB/String"
+msgstr "NOTTRANSLATED"
 
 msgid "xyzファイルの情報からNEB, String計算のアニメーションを作成し表示します。"
+msgstr "Create and display NEB, String calculation animation from xyz file information."
+
+msgid "結果解析"
 msgstr "NOTTRANSLATED"
-"Create and display NEB, String calculation animation from xyz file information."
 
 msgid "分子軌道, UV-Vis, 電荷, NMR"
 msgstr "MO, UV-Vis, Charge & NMR..."
 
 msgid "outファイルの情報から分子軌道, UV-Vis, 電荷, NMRの情報を取得し表示します。"
-msgstr "NOTTRANSLATED"
-"Obtain information on molecular orbital, UV-Vis, charge, NMR from the"
-"out file information and display it."
+msgstr "Obtain information on molecular orbital, UV-Vis, charge, NMR from theout file information and display it."
 
-msgid ""
-"読み込まれた電荷の情報は :menuselection:`表示 --> ラベル/電荷 --> Mulliken電荷` "
-"などを選択することで分子表示エリアに表示することができます。"
-msgstr "NOTTRANSLATED"
-"Information on the charge read can be displayed in the molecular display "
-"area by selecting :menuselection:`display --> label / charge --> "
-"Mulliken charge` and so on."
+msgid "読み込まれた電荷の情報は :menuselection:`表示 --> ラベル/電荷 --> Mulliken電荷` などを選択することで分子表示エリアに表示することができます。"
+msgstr "Information on the charge read can be displayed in the molecular display area by selecting :menuselection:`display --> label / charge --> Mulliken charge` and so on."
 
-msgid ""
-"サブウィンドウの操作方法は :ref:`mo_top` , :ref:`cube_top` , :ref:`uvvis_top` , "
-":ref:`nmr_top` を参照してください。"
-msgstr "NOTTRANSLATED"
-"Refer to :ref:`mo_top`, :ref:`cube_top`, :ref:`uvvis_top`, :ref:`nmr_top` for how to operate the subwindow."
+msgid "サブウィンドウの操作方法は :ref:`mo_top` , :ref:`cube_top` , :ref:`uvvis_top` , :ref:`nmr_top` を参照してください。"
+msgstr "Refer to :ref:`mo_top`, :ref:`cube_top`, :ref:`uvvis_top`, :ref:`nmr_top` for how to operate the subwindow."
 
 msgid "IR/ラマンスペクトル"
 msgstr "Frequencies/Raman..."
 
 msgid "outファイルを選択し、振動スペクトル（IRまたはラマンスペクトル）を表示します。"
-msgstr "NOTTRANSLATED"
-"out Select the file and display the vibration spectrum (IR or Raman spectrum)."
+msgstr "out Select the file and display the vibration spectrum (IR or Raman spectrum)."
 
-msgid ""
-":command:`RUNTYP=HESSIAN` のoutファイルからIRスペクトルを読み込ませた後、続けて本メニューで "
-":command:`RUNTYP=RAMAN` "
-"のoutラマンスペクトルを読み込ませると、両方のスペクトルを同時にサブウィンドウに表示することができます。"
-msgstr "NOTTRANSLATED"
-"After loading the IR spectrum from the out file of :command:`RUNTYP = "
-"HESSIAN`, if you subsequently read the out Raman spectrum of :command:`"
-"RUNTYP = RAMAN` in this menu, both spectra are displayed simultaneously "
-"in the subwindow can."
+msgid ":command:`RUNTYP=HESSIAN` のoutファイルからIRスペクトルを読み込ませた後、続けて本メニューで :command:`RUNTYP=RAMAN` のoutラマンスペクトルを読み込ませると、両方のスペクトルを同時にサブウィンドウに表示することができます。"
+msgstr "After loading the IR spectrum from the out file of :command:`RUNTYP = HESSIAN`, if you subsequently read the out Raman spectrum of :command:`RUNTYP = RAMAN` in this menu, both spectra are displayed simultaneously in the subwindow can."
 
 msgid "サブウィンドウの操作方法は :ref:`ir_top` を参照してください。"
 msgstr "Refer to :ref:`ir_top` for how to operate the subwindow."
-
-#~ msgid "入力ファイルを保存する際に、 :ref:`file_coordinateformat` の選択肢に応じて座標の出力フォーマットが変化します。"
-#~ msgstr "NOTTRANSLATED"
-#~ "When saving the input file, the "
-#~ "output format of the coordinates changes"
-#~ " according to the choices of: ref:"
-#~ " `file_coordinateformat`."
-

@@ -1,21 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
-# This file is distributed under the same license as the Winmostar User
-# Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
-msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 14:13+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
 
 msgid ":menuselection:`MD --> Amber` メニュー"
 msgstr ":menuselection:`MD --> Amber` menu"
@@ -23,23 +5,14 @@ msgstr ":menuselection:`MD --> Amber` menu"
 msgid "Amberに関するメニューです。"
 msgstr "It is a menu related to Amber."
 
-msgid ""
-"WinmostarではAmberをCygwin環境上で実行するため、本機能を利用するためには :ref:`cygwin_wmのセットアップ "
-"<install_cygwinwm>` が必要です。"
-msgstr "NOTTRANSLATED"
-"Since Winmostar runs Amber on the Cygwin environment, in order to use "
-"this function, you need to set up :ref:`cygwin_wm <install_cygwinwm>` is"
-" required."
+msgid "WinmostarではAmberをCygwin環境上で実行するため、本機能を利用するためには :ref:`cygwin_wmのセットアップ <install_cygwinwm>` が必要です。"
+msgstr "Since Winmostar runs Amber on the Cygwin environment, in order to use this function, you need to set up :ref:`cygwin_wm <install_cygwinwm>` is required."
 
 msgid "LEaPキーワード設定"
 msgstr "Configure LEaP..."
 
-msgid ""
-"tLEaPを用いて座標（crd）、トポロジ（prmtop）ファイルを作成する条件を設定します。 "
-"各項目を選択して指定し、[OK]ボタンをクリックします。"
-msgstr "NOTTRANSLATED"
-"Use tLEaP to set conditions for creating coordinate (crd) and topology "
-"(prmtop) files. Select each item, specify it, and click the [OK] button."
+msgid "tLEaPを用いて座標（crd）、トポロジ（prmtop）ファイルを作成する条件を設定します。 各項目を選択して指定し、[OK]ボタンをクリックします。"
+msgstr "Use tLEaP to set conditions for creating coordinate (crd) and topology (prmtop) files. Select each item, specify it, and click the [OK] button."
 
 msgid "Force Field"
 msgstr "Force Field"
@@ -92,21 +65,14 @@ msgstr "Write other LEaP commands."
 msgid "LEaP実行"
 msgstr "Run LEaP..."
 
-msgid ""
-"tLEaPを用いて座標（crd）ファイルおよびトポロジ（prmtop）ファイルを作成します。 "
-"（拡張子を除くcrdファイル名）_leap_tmpという名前の作業フォルダを作成して、そのフォルダで処理が行われます。"
-msgstr "NOTTRANSLATED"
-"Create coordinates (crd) file and topology (prmtop) file using tLEaP. "
-"(Crd file name except extension) Create a working folder named _leap_tmp,"
-" and processing will be done in that folder."
+msgid "tLEaPを用いて座標（crd）ファイルおよびトポロジ（prmtop）ファイルを作成します。 （拡張子を除くcrdファイル名）_leap_tmpという名前の作業フォルダを作成して、そのフォルダで処理が行われます。"
+msgstr "Create coordinates (crd) file and topology (prmtop) file using tLEaP. (Crd file name except extension) Create a working folder named _leap_tmp, and processing will be done in that folder."
 
 msgid "sanderキーワード設定"
 msgstr "Configure sander..."
 
 msgid "sanderによる計算を実行するための条件を設定します。 各項目を選択して指定し、[OK]ボタンをクリックします。"
-msgstr "NOTTRANSLATED"
-"Set conditions for executing calculation by sander. Select each item, "
-"specify it, and click the [OK] button."
+msgstr "Set conditions for executing calculation by sander. Select each item, specify it, and click the [OK] button."
 
 msgid "Basic"
 msgstr "Basic"
@@ -205,9 +171,7 @@ msgid "Use qmmm"
 msgstr "Use qmmm"
 
 msgid "ifqnt=1にし、&qmmm namelistを加え、QM/MM/MD計算のための設定を有効にします。"
-msgstr "NOTTRANSLATED"
-"Set ifqnt = 1, add &qmmm namelist, and enable the setting for QM / "
-"MM / MD calculation."
+msgstr "Set ifqnt = 1, add &qmmm namelist, and enable the setting for QM / MM / MD calculation."
 
 msgid "qm_theory"
 msgstr "qm_theory"
@@ -225,9 +189,7 @@ msgid "qmshake"
 msgstr "qmshake"
 
 msgid "QM領域のH原子へのSHAKE法の適用を指定します。"
-msgstr "NOTTRANSLATED"
-"Specify the application of the SHAKE method to the H atom in the QM "
-"region."
+msgstr "Specify the application of the SHAKE method to the H atom in the QM region."
 
 msgid "qm_ewald"
 msgstr "qm_ewald"
@@ -244,13 +206,8 @@ msgstr "Specify the application of the PME method to the QM region."
 msgid "qmmask"
 msgstr "qmmask"
 
-msgid ""
-"[Set]ボタンを押すと、メイン画面で選択された原子をQM領域として設定します。 "
-"メイン画面においてCtrl＋ドラッグにより選択された青色の原子が対象となります。"
-msgstr "NOTTRANSLATED"
-"When you press the [Set] button, the atom selected on the main screen is "
-"set as the QM area. Blue atoms selected by Ctrl + drag on the main screen"
-" are targeted."
+msgid "[Set]ボタンを押すと、メイン画面で選択された原子をQM領域として設定します。 メイン画面においてCtrl+ドラッグにより選択された青色の原子が対象となります。"
+msgstr "When you press the [Set] button, the atom selected on the main screen is set as the QM area. Blue atoms selected by Ctrl + drag on the main screen are targeted."
 
 msgid "Misc"
 msgstr "Misc"
@@ -265,28 +222,16 @@ msgid "sander実行"
 msgstr "Run sander..."
 
 msgid "sanderを実行します。 （拡張子を除くcrdファイル名）_amb_tmpという名前の作業フォルダを作成して、そのフォルダで処理が行われます。"
-msgstr "NOTTRANSLATED"
-"Run sander. (Crd filename excluding extension) Create a working folder "
-"named _amb_tmp, and processing will be done in that folder."
+msgstr "Run sander. (Crd filename excluding extension) Create a working folder named _amb_tmp, and processing will be done in that folder."
 
 msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
 msgstr "The job is run through :ref:`winmosjm_top`."
 
-msgid "座標ファイル読み込み"
-msgstr "Import Coordinate File..."
-
-msgid "Amber形式の座標（crd）ファイルとトポロジ（prmtop）ファイルを読み込みメインウィンドウに表示します。"
-msgstr "NOTTRANSLATED"
-"Load Amber coordinates (crd) file and topology (prmtop) file and display "
-"them in the main window."
-
-msgid "トラジェクトリ読み込み"
-msgstr "Trajectory reading"
+msgid "アニメーション"
+msgstr "Animation"
 
 msgid "mdcrdファイルをptrajで変換したPDBファイルからトラジェクトリの座標をインポートします。"
-msgstr "NOTTRANSLATED"
-"Import the coordinates of the trajectory from the PDB file converted from"
-" mdcrd file with ptraj."
+msgstr "Import the coordinates of the trajectory from the PDB file converted from mdcrd file with ptraj."
 
 msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
 msgstr "For the animation display operation method, see :ref:`animation_top`."
@@ -300,3 +245,8 @@ msgstr "Display the energy graph from the calculated log file."
 msgid "サブウィンドウの操作方法は :ref:`energyplot_top` を参照してください。"
 msgstr "Please see :ref:`energyplot_top` for how to operate subwindow."
 
+msgid "座標ファイル読み込み"
+msgstr "Import Coordinate File..."
+
+msgid "Amber形式の座標（crd）ファイルとトポロジ（prmtop）ファイルを読み込みメインウィンドウに表示します。"
+msgstr "Load Amber coordinates (crd) file and topology (prmtop) file and display them in the main window."

@@ -1,29 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
-# This file is distributed under the same license as the Winmostar User
-# Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
-
-msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-23 15:28+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 
 msgid "表示メニュー"
 msgstr "View Menu"
 
 msgid "キーワード&座標表示エリアを表示"
 msgstr "Show Keywords & Coordinates Areas"
-
 
 msgid "メインウィンドウでキーワード表示エリアと座標表示エリアの表示・非表示を切り替えます。"
 msgstr "Switch display / non-display of keyword display area and coordinate display area on the main window."
@@ -67,7 +47,6 @@ msgstr "Specify atom attached with marker (thick red circle) as gaze point."
 msgid "平行移動"
 msgstr "Pan"
 
-
 msgid "メインウィンドウで左ドラッグすると、視線が平行移動します。"
 msgstr "Drag left on the main window to move the line of sight in parallel."
 
@@ -77,20 +56,17 @@ msgstr "Orbit/Roll"
 msgid "自由回転"
 msgstr "Orbit"
 
-
 msgid "メインウィンドウで左ドラッグすると、注視点を中心にカメラが回転します。"
 msgstr "Drag left in the main window to rotate the camera around the point of interest."
 
 msgid "X, Y, Z軸周りで回転"
 msgstr "Roll Around X, Y, Z-Axis"
 
-
 msgid "メインウィンドウで左ドラッグすると、各軸の周りでカメラが回転します。"
 msgstr "Drag left in the main window to rotate the camera around each axis."
 
 msgid "表示を回転"
 msgstr "Rotate View"
-
 
 msgid "メインウィンドウで左ドラッグすると、表示が回転します。"
 msgstr "Drag left in the main window to rotate the display."
@@ -100,6 +76,12 @@ msgstr "Perspective"
 
 msgid "ここにチェックが入っている場合は、分子表示エリアに遠近法が適用されます。"
 msgstr "If checked here, perspective is applied to the molecular display area."
+
+msgid "奥行き表現を使用"
+msgstr "NOTTRANSLATED"
+
+msgid "ここにチェックが入っている場合は、分子表示エリアにフォグが適用されます。手前と奥の原子の区別がつきやすくなります。フォグの強さは :ref:`preferences_top` にて設定できます。"
+msgstr "NOTTRANSLATED"
 
 msgid "表示項目"
 msgstr "Items"
@@ -158,9 +140,7 @@ msgstr "Show Spin Density"
 msgid "各種ログファイルを開いた際に読み込まれるスピン密度や"
 msgstr "Spin density read when various log files are opened"
 
-msgid ""
-":menuselection:`編集 --> 属性を変更 -->` :ref:`edit_property_charge` "
-"で割り当てたスピン密度を表示します。"
+msgid ":menuselection:`編集 --> 属性を変更 -->` :ref:`edit_property_charge` で割り当てたスピン密度を表示します。"
 msgstr "Display the spin density assigned by :menuselection:`Edit --> Atom Properteis -->` :ref:`edit_property_charge`."
 
 msgid "双極子/遷移モーメント"
@@ -193,10 +173,7 @@ msgstr "Select the expression method (model) of the molecule."
 msgid "周期境界条件の表現形式"
 msgstr "Representation format of periodic boundary condition"
 
-msgid ""
-"セルが作成されている状態で、原子座標がセルの上端・下端よりも小さい値の場合の表示方法を示します。本機能で座標の値そのものは変化しません。 "
-":menuselection:`編集 -->` :ref:`edit_wrap_pbc` "
-"を使うと本機能で表示されている原子の位置に座標の値を設定することができます。"
+msgid "セルが作成されている状態で、原子座標がセルの上端・下端よりも小さい値の場合の表示方法を示します。本機能で座標の値そのものは変化しません。 :menuselection:`編集 -->` :ref:`edit_wrap_pbc` を使うと本機能で表示されている原子の位置に座標の値を設定することができます。"
 msgstr "The display method when the atomic coordinates are smaller than the top and bottom of the cell while the cell is being created is shown below. The coordinate value itself does not change with this function. :menuselection:`edit -->` :ref:`edit_wrap_pbc`, you can set the value of the coordinates to the position of the atom displayed in this function."
 
 msgid "Winmostar Viewer"
@@ -252,4 +229,3 @@ msgstr "Copy Image"
 
 msgid "分子表示エリアの画像をクリップボードにコピーします。"
 msgstr "Copy the image of the molecule display area to the clipboard."
-

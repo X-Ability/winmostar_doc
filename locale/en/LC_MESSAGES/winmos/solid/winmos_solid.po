@@ -1,21 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2008-2019 X-Ability Co., Ltd. All Rights Reserved.
-# This file is distributed under the same license as the Winmostar User
-# Manual package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
-msgid ""
-msgstr "NOTTRANSLATED"
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 14:13+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
 
 msgid "固体メニュー"
 msgstr "Solid Menu"
@@ -33,9 +15,7 @@ msgid "結晶構造を作成します。主に以下の目的で使用します�
 msgstr "Create a crystal structure. It is mainly used for the following purposes."
 
 msgid "空間群、格子定数、非対称要素を入力して結晶構造を作成します。"
-msgstr "NOTTRANSLATED"
-"Enter the space group, lattice constant, asymmetric element and create "
-"crystal structure."
+msgstr "Enter the space group, lattice constant, asymmetric element and create crystal structure."
 
 msgid "結晶ビルダ上でCIFファイルを開きa, b, c軸を交換します。"
 msgstr "Open the CIF file on the crystal builder and replace the axes a, b, c."
@@ -62,8 +42,7 @@ msgid "Save As"
 msgstr "Save As"
 
 msgid "結晶ビルダに表示されている結晶構造をCIF形式またはXYZ形式で保存します。"
-msgstr "NOTTRANSLATED"
-"Save the crystal structure displayed in the crystal builder in CIF format or XYZ format."
+msgstr "Save the crystal structure displayed in the crystal builder in CIF format or XYZ format."
 
 msgid "Save As P1 CIF"
 msgstr "Save As P1 CIF"
@@ -78,28 +57,19 @@ msgid "Exchange Axis"
 msgstr "Exchange Axis"
 
 msgid "軸(a, b, c)と非対称要素の座標(x, y, z)を交換します。詳しくはInternational Tables vol.Aをご覧ください。"
-msgstr "NOTTRANSLATED"
-"Exchange the coordinates (x, y, z) of the axis (a, b, c) and the "
-"asymmetric element. For details, please see International Tables vol."
+msgstr "Exchange the coordinates (x, y, z) of the axis (a, b, c) and the asymmetric element. For details, please see International Tables vol."
 
 msgid "Discard symmetry"
 msgstr "Discard symmetry"
 
 msgid "対称操作を破棄し、空間群はP1とします。この時、既存の対称操作によって再生された全ての対称要素は非対称要素として認識されます。"
-msgstr "NOTTRANSLATED"
-"Discard the symmetric operation and let P1 be the space group. At this "
-"time, all symmetric elements reproduced by the existing symmetrical "
-"operation are recognized as asymmetric elements."
+msgstr "Discard the symmetric operation and let P1 be the space group. At this time, all symmetric elements reproduced by the existing symmetrical operation are recognized as asymmetric elements."
 
 msgid "Assign Atoms to Non-Integer Occupancy Sites"
 msgstr "Assign Atoms to Non-Integer Occupancy Sites"
 
 msgid "読み込んだCIFファイル内で定義された占有率の項目（_atom_site_occupancy）を元にして、各サイトに対してランダムな原子を発生させます。占有率に応じたスーパーセルを作成したい場合、リピート機能を用いて十分に大きなスーパーセルを作成してからこの機能を使用してください。"
-msgstr "NOTTRANSLATED"
-"Random atoms are generated for each site based on the item "
-"(_atom_site_occupancy) defined in the imported CIF file. If you want to "
-"create a supercell according to the occupancy rate, use this function "
-"after creating a sufficiently large supercell using the repeat function."
+msgstr "Random atoms are generated for each site based on the item (_atom_site_occupancy) defined in the imported CIF file. If you want to create a supercell according to the occupancy rate, use this function after creating a sufficiently large supercell using the repeat function."
 
 msgid "Viewメニュー"
 msgstr "View menu"
@@ -107,14 +77,8 @@ msgstr "View menu"
 msgid "Show Multi-View"
 msgstr "Show Multi-View"
 
-msgid ""
-"三面図による描画を行います。三面図では左上の画面のみが自由回転に対応しており、残りの三方向のカメラは結晶のa, b, "
-"c軸に固定されるため回転しません。"
-msgstr "NOTTRANSLATED"
-"We will draw by triple drawing. In the three view, only the upper left "
-"screen corresponds to free rotation, and the remaining three direction "
-"cameras are fixed to the a, b, c axes of the crystal and therefore will "
-"not rotate."
+msgid "三面図による描画を行います。三面図では左上の画面のみが自由回転に対応しており、残りの三方向のカメラは結晶のa, b, c軸に固定されるため回転しません。"
+msgstr "We will draw by triple drawing. In the three view, only the upper left screen corresponds to free rotation, and the remaining three direction cameras are fixed to the a, b, c axes of the crystal and therefore will not rotate."
 
 msgid "Always View Center"
 msgstr "Always View Center"
@@ -192,8 +156,7 @@ msgid "Lattice Constant"
 msgstr "Lattice Constant"
 
 msgid "格子定数を設定します（選択した空間群によって入力できるフィールドが変わります）。"
-msgstr "NOTTRANSLATED"
-"Set lattice constants (fields that can be entered depend on the selected space group)."
+msgstr "Set lattice constants (fields that can be entered depend on the selected space group)."
 
 msgid "Add"
 msgstr "Add"
@@ -217,8 +180,7 @@ msgid "X, Y, Z"
 msgstr "X, Y, Z"
 
 msgid "原子サイトを分率座標（fractional coordinate）で設定します。"
-msgstr "NOTTRANSLATED"
-"We set the atomic site with the fractional coordinate (fractional coordinate)."
+msgstr "We set the atomic site with the fractional coordinate (fractional coordinate)."
 
 msgid "OK"
 msgstr "OK"
@@ -227,16 +189,13 @@ msgid "作成した結晶構造をメインウィンドウに読み込みます�
 msgstr "Load the created crystal structure into the main window."
 
 msgid "読み込みを取り消したい場合は、メインウィンドウで :menuselection:`編集 --> 元に戻る` をクリックしてください。"
-msgstr "NOTTRANSLATED"
-"If you want to cancel the import, please click :menuselection:`edit --> return to original` on the main window."
+msgstr "If you want to cancel the import, please click :menuselection:`edit --> return to original` on the main window."
 
 msgid "Cancel"
 msgstr "Cancel"
 
 msgid "結晶ビルダで入力した構造を破棄しメインウィンドウに戻ります。"
-msgstr "NOTTRANSLATED"
-"Discard the structure entered in the crystal builder and return to the "
-"main window."
+msgstr "Discard the structure entered in the crystal builder and return to the main window."
 
 msgid "スーパーセルを作成"
 msgstr "Generate Supercell..."
@@ -244,11 +203,8 @@ msgstr "Generate Supercell..."
 msgid "メインウィンドウで表示されているセルを複製しスーパーセルを作成します。"
 msgstr "Duplicate the cell displayed in the main window and create a super cell."
 
-msgid ""
-":guilabel:`a` , :guilabel:`b` , :guilabel:`c` に繰り返し数を入力し、 :guilabel:`OK` "
-"ボタンをクリックします。"
-msgstr "NOTTRANSLATED"
-"Enter the number of repetitions in :guilabel:`a` , :guilabel:`b` , :guilabel:`c` and click the :guilabel:`OK` button."
+msgid ":guilabel:`a` , :guilabel:`b` , :guilabel:`c` に繰り返し数を入力し、 :guilabel:`OK` ボタンをクリックします。"
+msgstr "Enter the number of repetitions in :guilabel:`a` , :guilabel:`b` , :guilabel:`c` and click the :guilabel:`OK` button."
 
 msgid ":ref:`solid_crystalbuilder` と同じです。"
 msgstr "It is the same as :ref:`solid_crystalbuilder`."
@@ -260,8 +216,7 @@ msgid "ミラー面の指定して単位格子の再定義します。"
 msgstr "Specify the mirror surface and redefine the unit cell."
 
 msgid "スラブモデルを作成する際は、この機能を実行した後に :ref:`solid_insertvacuum` を実行してください。"
-msgstr "NOTTRANSLATED"
-"When creating a slab model, execute :ref:`solid_insertvacuum` after executing this function."
+msgstr "When creating a slab model, execute :ref:`solid_insertvacuum` after executing this function."
 
 msgid "Step 1/2 Cutting"
 msgstr "Step 1/2 Cutting"
@@ -276,9 +231,7 @@ msgid "Offset"
 msgstr "Offset"
 
 msgid "ユニットセルの上端から下端までの相対位置（百分率）により、表面の位置を指定します。"
-msgstr "NOTTRANSLATED"
-"Specify the position of the surface by the relative position (percentage)"
-" from the upper end to the lower end of the unit cell."
+msgstr "Specify the position of the surface by the relative position (percentage) from the upper end to the lower end of the unit cell."
 
 msgid "Next >>"
 msgstr "Next >>"
@@ -305,15 +258,13 @@ msgid "Manual"
 msgstr "Manual"
 
 msgid "原点、a軸、b軸、c軸上の原子を :guilabel:`Set` ボタンで指定します。"
-msgstr "NOTTRANSLATED"
-"Specify atom on the origin, a axis, b axis, c axis with :guilabel:`Set` button."
+msgstr "Specify atom on the origin, a axis, b axis, c axis with :guilabel:`Set` button."
 
 msgid "Filter (Ortho)"
 msgstr "Filter (Ortho)"
 
 msgid ":guilabel:`Lattice` の中から選択します。 :guilabel:`Lattice` には長方形状の候補のみ出現します。"
-msgstr "NOTTRANSLATED"
-"Choose from :guilabel:`Lattice`. Only rectangular candidates will appear in :guilabel:`Lattice`."
+msgstr "Choose from :guilabel:`Lattice`. Only rectangular candidates will appear in :guilabel:`Lattice`."
 
 msgid "Filter (All)"
 msgstr "Filter (All)"
@@ -340,17 +291,13 @@ msgid "真空層を挿入"
 msgstr "Insert Vacuum..."
 
 msgid "結晶構造の上下に真空層を挿入し、スラブモデルの構築します。"
-msgstr "NOTTRANSLATED"
-"Insert a vacuum layer above and below the crystal structure and construct"
-" a slab model."
+msgstr "Insert a vacuum layer above and below the crystal structure and construct a slab model."
 
 msgid "Axis"
 msgstr "Axis"
 
 msgid "真空層を挿入する方向をX, Y, Z軸から選択します。"
-msgstr "NOTTRANSLATED"
-"Select the direction in which the vacuum layer is to be inserted from the"
-" X, Y, and Z axes."
+msgstr "Select the direction in which the vacuum layer is to be inserted from the X, Y, and Z axes."
 
 msgid "Bulk"
 msgstr "Bulk"
@@ -374,38 +321,25 @@ msgid "Automatically shift to center"
 msgstr "Automatically shift to center"
 
 msgid "このチェックボックスがチェック状態のとき、元の結晶構造はスラブモデルの中心に固定されます。チェック状態でないとき、Shift機能が利用できるようになります。"
-msgstr "NOTTRANSLATED"
-"When this check box is checked, the original crystal structure is fixed "
-"at the center of the slab model. When not checked, the Shift function "
-"becomes available."
+msgstr "When this check box is checked, the original crystal structure is fixed at the center of the slab model. When not checked, the Shift function becomes available."
 
 msgid "Shift"
 msgstr "Shift"
 
 msgid "拡張されたセル内での表面構造の位置を指定できます。エディットボックス内の数値は基準面の位置を分率座標で示しています。"
-msgstr "NOTTRANSLATED"
-"You can specify the location of the surface structure in the expanded "
-"cell. Numeric values in the edit box indicate the position of the "
-"reference plane in fractional coordinates."
+msgstr "You can specify the location of the surface structure in the expanded cell. Numeric values in the edit box indicate the position of the reference plane in fractional coordinates."
 
 msgid "Reference Plane"
 msgstr "Reference Plane"
 
 msgid "基準面の位置を指定します。Baseのとき、基準面は結晶構造の底面になります。Centerのとき基準面は結晶構造の中央となります。"
-msgstr "NOTTRANSLATED"
-"Specify the position of the reference plane. For Base, the reference "
-"plane is the bottom of the crystal structure. At the center, the "
-"reference plane is the center of the crystal structure."
+msgstr "Specify the position of the reference plane. For Base, the reference plane is the bottom of the crystal structure. At the center, the reference plane is the center of the crystal structure."
 
 msgid "Terminate dangling bonds with hydrogen atoms"
 msgstr "Terminate dangling bonds with hydrogen atoms"
 
-msgid ""
-"真空に接する面において、ダングリングボンドを水素でキャップします。官能基で修飾したい場合は、本機能にチェックを入れた後、メインウィンドウに戻ってから"
-" :ref:`edit_parts` を使用して水素を任意の官能基に置換してください。"
-msgstr "The dangling bond is capped with hydrogen on the surface in contact with the vacuum. "
-"If you want to modify with a functional group, check this function, return to the main window, "
-"and use :ref:`edit_parts` to replace the hydrogen with any functional group."
+msgid "真空に接する面において、ダングリングボンドを水素でキャップします。官能基で修飾したい場合は、本機能にチェックを入れた後、メインウィンドウに戻ってから :ref:`edit_parts` を使用して水素を任意の官能基に置換してください。"
+msgstr "The dangling bond is capped with hydrogen on the surface in contact with the vacuum. If you want to modify with a functional group, check this function, return to the main window, and use :ref:`edit_parts` to replace the hydrogen with any functional group."
 
 msgid "クラスタを作成"
 msgstr "Build Cluster Model..."
@@ -414,21 +348,13 @@ msgid "結晶構造からナノクラスターを切り出します。"
 msgstr "Cut out nanoclusters from the crystal structure."
 
 msgid "元のユニットセルの原子は不透明、ユニットセル外の原子は半透明で表示されます。"
-msgstr "NOTTRANSLATED"
-"The atoms of the original unit cell are opaque and atoms outside the unit"
-" cell are translucent."
+msgstr "The atoms of the original unit cell are opaque and atoms outside the unit cell are translucent."
 
 msgid "Center"
 msgstr "Center"
 
-msgid ""
-"クラスタの中心点を分率座標で指定します。グラフィック画面上の原子を選択した状態で、Setをクリックすると選択した原子位置を中心点に指定できます。"
-"     Cluster Radius クラスターの半径をオングストローム単位で指定します。"
-msgstr "NOTTRANSLATED"
-"Specify the center point of the cluster in terms of fraction coordinates."
-" With an atom on the graphic screen selected, click Set to specify the "
-"selected atomic position as the center point. Cluster Radius Specify the "
-"radius of the cluster in angstrom units."
+msgid "クラスタの中心点を分率座標で指定します。グラフィック画面上の原子を選択した状態で、Setをクリックすると選択した原子位置を中心点に指定できます。     Cluster Radius クラスターの半径をオングストローム単位で指定します。"
+msgstr "Specify the center point of the cluster in terms of fraction coordinates. With an atom on the graphic screen selected, click Set to specify the selected atomic position as the center point. Cluster Radius Specify the radius of the cluster in angstrom units."
 
 msgid "Hydrogen"
 msgstr "Hydrogen"
@@ -437,9 +363,7 @@ msgid "格子を変換"
 msgstr "Convert Lattice..."
 
 msgid "メインウィンドウで表示されているセルについて、プリミティブセル-コンベンショナルセル間の変換を行います。"
-msgstr "NOTTRANSLATED"
-"For cells displayed in the main window, perform conversion between "
-"primitive cells and conventional cells."
+msgstr "For cells displayed in the main window, perform conversion between primitive cells and conventional cells."
 
 msgid "Quantum ESPRESSO"
 msgstr "Quantum ESPRESSO"
@@ -459,21 +383,5 @@ msgstr "FDMNES"
 msgid ":ref:`solid_fdmnes_top` を参照してください。"
 msgstr "See :ref:`solid_fdmnes_top`."
 
-msgid "BoltzTraP"
-msgstr "BoltzTraP"
 
-msgid ":ref:`solid_boltztrap_top` を参照してください。"
-msgstr "See :ref:`solid_qe_top`."
-
-msgid "Phonopy"
-msgstr "Phonopy"
-
-msgid ":ref:`solid_phonopy_top` を参照してください。"
-msgstr "See :ref:`solid_qe_top`."
-
-#~ msgid "OpenMXに関するメニューです。"
-#~ msgstr "It is a menu related to OpenMX."
-
-#~ msgid "BoltzTraPに関するメニューです。"
-#~ msgstr "It is a menu related to BoltzTraP."
 
