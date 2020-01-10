@@ -285,7 +285,7 @@ msgid "実行時にユーザが指定した名前で入力ファイル（拡張�
 msgstr "Save the input file (extension dci) with the name specified by the user at the time of execution, and execute the calculation using it."
 
 msgid ":guilabel:`Extending Simulation` にチェックがある場合"
-msgstr "If :guilabel:`Extending Simulation` is checked"
+msgstr "When :guilabel:`Extending Simulation` is checked"
 
 msgid "メインウィンドウで開かれた入力ファイルに紐づけられた既存の作業ディレクトリのバックアップを作成し、新たに作成した作業ディレクトリの中に入力ファイルを :file:`dftb.inp` として保存し、それを用いて計算を実行します。"
 msgstr "Create a backup of the existing working directory associated with the input file opened in the main window, save the input file as :file:`dftb.inp` in the newly created working directory, and use it to perform calculations . "

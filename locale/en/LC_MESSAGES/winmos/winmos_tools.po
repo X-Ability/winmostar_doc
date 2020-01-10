@@ -45,7 +45,7 @@ msgid "判定された点群情報を元に分子の構造の歪みを解消し�
 msgstr "Based on the determined point cloud information, distortion of the molecular structure is resolved. (Symmetrization)"
 
 msgid "対称単位⇔非対称単位の変換を行えます。"
-msgstr "Conversion of symmetric unit ⇔ asymmetric unit can be performed."
+msgstr "Conversion of symmetric unit <=> asymmetric unit can be performed."
 
 msgid "金属を含まない有機分子であれば、一度クリーンを行った構造の方が点群解析が成功しやすくなります。"
 msgstr "For organic molecules that do not contain metals, it is easier for point cloud analysis to succeed if cleaned structures are used."

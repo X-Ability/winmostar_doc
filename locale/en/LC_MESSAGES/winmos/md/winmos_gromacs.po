@@ -636,7 +636,7 @@ msgid "メインウィンドウで開かれている座標ファイル(拡張子
 msgstr "Start the job using the coordinate file (extension: gro) opened in the main window and the topology file (extension: top) specified at :ref:`md_gromacs_forcefield`."
 
 msgid ":guilabel:`Extending Simulation` にチェックがある場合"
-msgstr ":guilabel: When &#39;Extending Simulation` is checked"
+msgstr "When :guilabel:`Extending Simulation` is checked"
 
 msgid "メインウィンドウで開かれている座標ファイル(拡張子：gro)に紐づけられた作業ディレクトリの中にある座標ファイル（ :file:`gmx_mdrun_tmp.gro` ）とトポロジファイル（ :file:`gmx_tmp.top` ）を用いてジョブを開始します。"
 msgstr "The coordinate file ( :file:`gmx_mdrun_tmp.gro`) and the topology file ( :file:`gmx_tmp.top`) in the working directory linked to the coordinate file (extension: gro) ) To start the job."
