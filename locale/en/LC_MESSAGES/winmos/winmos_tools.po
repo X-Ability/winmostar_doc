@@ -183,10 +183,10 @@ msgid "メインウィンドウ上でグループ選択した部分構造に対�
 msgstr "Calculate the Sterimol parameter for the substructure selected for the group on the main window.Click :guilabel:`Calculate` button to start the calculation."
 
 msgid "プロジェクトブラウザ"
-msgstr "NOTTRANSLATED"
+msgstr "Project Browser"
 
 msgid "プロジェクト内のファイルの管理を行うウィンドウを開きます。"
-msgstr "NOTTRANSLATED"
+msgstr "Opens a window for managing files in the project."
 
 msgid "ジョブマネージャ"
 msgstr "Job Manager"

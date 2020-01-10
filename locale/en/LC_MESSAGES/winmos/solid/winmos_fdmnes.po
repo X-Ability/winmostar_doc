@@ -120,7 +120,7 @@ msgid "ログファイルをテキストエディタで開きます。"
 msgstr "Open the log file with a text editor."
 
 msgid "結果解析"
-msgstr "NOTTRANSLATED"
+msgstr "Analyses"
 
 msgid "XAFSスペクトル"
 msgstr "XAFS Spectrum..."

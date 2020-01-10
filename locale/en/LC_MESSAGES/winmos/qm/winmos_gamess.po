@@ -321,13 +321,13 @@ msgid "punchファイルから読み込み"
 msgstr "Import from punch File"
 
 msgid "$VEC from punch"
-msgstr "NOTTRANSLATED"
+msgstr "$VEC from punch"
 
 msgid "$VECをpunchファイルから読み込みます。"
 msgstr "Import $VEC from the punch file."
 
 msgid "$HESS from punch"
-msgstr "NOTTRANSLATED"
+msgstr "$HESS from punch"
 
 msgid "$HESSをpunchファイルから読み込みます。"
 msgstr "Import $HESS from the punch file."
@@ -402,7 +402,7 @@ msgid "アニメーション表示の操作方法は :ref:`animation_top` を参
 msgstr "For the animation display operation method, see :ref:`animation_top`."
 
 msgid "結果解析"
-msgstr "NOTTRANSLATED"
+msgstr "Analyses"
 
 msgid "分子軌道, UV-Vis, 電荷, NMR"
 msgstr "MO, UV-Vis, Charge & NMR..."

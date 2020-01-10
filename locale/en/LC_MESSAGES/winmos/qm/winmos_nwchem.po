@@ -291,7 +291,7 @@ msgid "アニメーション"
 msgstr "Animation"
 
 msgid "構造最適化"
-msgstr "NOTTRANSLATED"
+msgstr "Optimization"
 
 msgid "outファイルの情報から構造最適化等のアニメーションを作成し表示します。"
 msgstr "Create and display animation such as structure optimization from the out file information."
@@ -300,13 +300,13 @@ msgid "アニメーション表示の操作方法は :ref:`animation_top` を参
 msgstr "For the animation display operation method, see :ref:`animation_top`."
 
 msgid "NEB/String"
-msgstr "NOTTRANSLATED"
+msgstr "NEB/String"
 
 msgid "xyzファイルの情報からNEB, String計算のアニメーションを作成し表示します。"
 msgstr "Create and display NEB, String calculation animation from xyz file information."
 
 msgid "結果解析"
-msgstr "NOTTRANSLATED"
+msgstr "Analyses"
 
 msgid "分子軌道, UV-Vis, 電荷, NMR"
 msgstr "MO, UV-Vis, Charge & NMR..."

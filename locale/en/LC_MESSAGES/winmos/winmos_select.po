@@ -171,22 +171,22 @@ msgid "登録グループを選択"
 msgstr "Select Registered Group"
 
 msgid ":ref:`select_register_selected_group` で登録されたグループを呼び出します。LAMMPS実行時には、ここにリストアップされたグループがndxファイル内に出力されます。Winmostarを再起動した後も登録グループを引き継ぎたい場合は、 :ref:`select_export_group_ndx` を用いてndxファイルに書き出した後、 :ref:`select_import_group_ndx` を用いて読み込みます。"
-msgstr "NOTTRANSLATED"
+msgstr "Call the group registered with :ref:`select_register_selected_group`. When LAMMPS is executed, the groups listed here are output in the ndx file. If you want to take over the registered group even after restarting Winmostar, export to the ndx file using :ref:`select_export_group_ndx` and then read it using :ref:`select_import_group_ndx`."
 
 msgid "ndxファイルからグループを読み込み"
-msgstr "NOTTRANSLATED"
+msgstr "Import Groups from Index File (ndx)"
 
 msgid "ndxファイルに出力されたグループを読み込み、 :ref:`select_select_registered_group` から呼び出せるようにします。"
-msgstr "NOTTRANSLATED"
+msgstr "Reads the group output to the ndx file and makes it accessible from :ref:`select_select_registered_group`."
 
 msgid "登録グループをndxファイルに書き出し"
-msgstr "NOTTRANSLATED"
+msgstr "Export Groups to Index File (ndx)"
 
 msgid ":ref:`select_select_registered_group` に登録されたグループをndxファイルに出力します。"
-msgstr "NOTTRANSLATED"
+msgstr "Outputs the groups registered in :ref:`select_select_registered_group` to the ndx file."
 
 msgid "グループをndxファイルに追加"
-msgstr "NOTTRANSLATED"
+msgstr "Add Selected Group to Index File (ndx)"
 
 msgid "グループ選択されたグループを、指定したndxファイルに追加します。"
-msgstr "NOTTRANSLATED"
+msgstr "Add the group selected group to the specified ndx file."

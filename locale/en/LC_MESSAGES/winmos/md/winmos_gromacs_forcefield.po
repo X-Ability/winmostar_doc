@@ -1,15 +1,15 @@
 
 msgid "力場を設定します。ソルバの種類に応じて、選択肢が変化します。"
-msgstr "NOTTRANSLATED"
+msgstr "Set the force field. The choices vary depending on the type of solver."
 
 msgid "自動でパラメータを割り当て"
-msgstr "NOTTRANSLATED"
+msgstr "Automatically assign parameters"
 
 msgid "新たに力場パラメータを割り当てます。"
-msgstr "NOTTRANSLATED"
+msgstr "Assign a new force field parameter."
 
 msgid "(一般)"
-msgstr "NOTTRANSLATED"
+msgstr "(General)"
 
 msgid "タンパク質、水分子以外の分子の力場を指定します。 内部では、GAFF, OPLS/AA-Lの場合は :command:`acpype` が、Dreidingの場合は内製プログラムが使用されます。 Dreidingの設定は :file:`polymer/dreiding.lib.txt` に書かれています。"
 msgstr "Specify the force field of molecules other than proteins and water molecules. Internally, :command:`acpype` is used for GAFF, OPLS / AA-L, in-house program is used for Dreiding. The setting of Dreiding is written in :file:`polymer / dreiding.lib.txt`."
@@ -24,7 +24,7 @@ msgid "例えば固液界面系において固相の原子にLJパラメータ�
 msgstr "For example, when you want to allocate LJ parameters to solid phase atoms in a solid-liquid interface system."
 
 msgid "(タンパク質/イオン)"
-msgstr "NOTTRANSLATED"
+msgstr "(Protein/Ion)"
 
 msgid "タンパク質、単原子の力場を指定します。ここで、PDBやgroフォーマットにおいてアミノ酸残基の名前が割り当てられている原子がタンパク質として認識されます。内部的には :command:`gmx pdb2gmx` が使用されます。"
 msgstr "Specify the force field of the protein and single atoms. At this point, atoms assigned amino acid residue names in PDB and gro format are recognized as proteins. Internally :command:`gmx pdb2gmx` is used."
@@ -33,7 +33,7 @@ msgid "残基名を含まないファイルから分子構造を読み込んだ�
 msgstr "This function can not be used when reading the molecular structure from a file not including residue name."
 
 msgid "(水分子)"
-msgstr "NOTTRANSLATED"
+msgstr "(Water)"
 
 msgid "水分子の力場を指定します。 :ref:`md_solvate_buildcell` で選択した水モデルを指定する必要があります。内部的にはCygwinにインストールされたGromacsのトポロジのライブラリからパラメータを取得します。"
 msgstr "Specify the force field of the water molecule. You must specify the selected water model with :ref:`md_solvate_buildcell`. Internally we get the parameters from the library of Gromacs topology installed in Cygwin."
@@ -63,31 +63,31 @@ msgid "現在の設定に基づき、力場が割り当てられたファイル�
 msgstr "Based on the current settings, generate a topology file."
 
 msgid "力場の情報をテキストエディタ等で編集してカスタマイズしたい場合は、まず本機能を使用してファイルを保存し、Gromacsの場合はtop、LAMMPSの場合はdataファイルをテキストエディタ等で編集してください。"
-msgstr "NOTTRANSLATED"
+msgstr "If you want to edit the force field information with a text editor and customize it, first save this file using this function, and edit the top file for Gromacs and the data file for LAMMPS with a text editor etc. ."
 
 msgid "次に、Gromacsの場合は、 :guilabel:`トポロジファイルに書かれたパラメータを使用` を選択して :guilabel:`OK` ボタンをクリックしてください。そして、topファイルの場所を聞かれるので、先ほど保存・編集したtopファイルを開いてください。"
-msgstr "NOTTRANSLATED"
+msgstr "Next, in case of Gromacs, select :guilabel:`Use parameters written in topology file` and click :guilabel:`OK` button. Then you will be asked for the location of the top file, so open the top file you saved and edited earlier."
 
 msgid "LAMMPSの場合は、 :guilabel:`メインウィンドウのファイルに書かれたパラメータを使用` を選択し :guilabel:`Next >` ボタンをクリックしてください。そして、 :guilabel:`力場の種類を選択してください` と出るので、使用する汎用力場の種類を選択して :guilabel:`OK` ボタンをクリックしてください。"
-msgstr "NOTTRANSLATED"
+msgstr "In case of LAMMPS, select :guilabel:`Use parameters written in file in main window` and click :guilabel:`Next >`button. Then, :guilabel:`Select the type of force field` appears. Select the general type of force field to use and click the :guilabel:`OK` button."
 
 msgid "パラメータファイルを使用（無機物、ReaxFF、DPD向け）"
-msgstr "NOTTRANSLATED"
+msgstr "Use parameters defined in external parameter file (for inorganic system, ReaxFF or DPD)"
 
 msgid "（LAMMPS向け）無機物用ポテンシャル、ReaxFFまたはDPDを使用したい場合に選択します。 :guilabel:`Next >` ボタンを押した後に、実際に使用する力場の種類を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "(For LAMMPS) Select when you want to use inorganic potential, ReaxFF or DPD. After pressing :guilabel:`Next >`  button, specify the type of force field to be actually used."
 
 msgid "トポロジファイルに書かれたパラメータを使用"
-msgstr "NOTTRANSLATED"
+msgstr "Use parameters written in topology file"
 
 msgid "（Gromacs向け）既に存在しているtopファイルを用いてMD計算を実行する場合に選択します。メインウィンドウには対応するgroファイルを開いておく必要があります。"
-msgstr "NOTTRANSLATED"
+msgstr "(For Gromacs) Select to perform MD calculation using the existing top file. The corresponding gro file must be open in the main window."
 
 msgid "メインウィンドウのファイルに書かれたパラメータを使用"
-msgstr "NOTTRANSLATED"
+msgstr "Use parameters written in file opened on main window"
 
 msgid "（LAMMPS向け）既に存在しているdataファイルを用いてMD計算を実行する場合に選択します。メインウィンドウには使用するdataファイルを開いておく必要があります。 :guilabel:`Next >` ボタンを押した後に、使用する力場の種類を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "(For LAMMPS) Select to execute MD calculation using the existing data file. The data file to be used must be open in the main window. After pressing :guilabel:`Next >`  button, specify the type of force field to use."
 
 
 

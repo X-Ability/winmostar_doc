@@ -429,13 +429,13 @@ msgid "Gaussianを実行するためのバッチファイルです。"
 msgstr "It is a batch file for running Gaussian."
 
 msgid "作業ディレクトリ"
-msgstr "NOTTRANSLATED"
+msgstr "Working directory"
 
 msgid ":file:`water_gau_tmp\\\\`"
 msgstr ":file:`water_gau_tmp\\\\`"
 
 msgid "作業ディレクトリです。"
-msgstr "NOTTRANSLATED"
+msgstr "Working directory."
 
 msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
 msgstr "The job is run through :ref:`winmosjm_top`."
@@ -450,7 +450,7 @@ msgid "アニメーション"
 msgstr "Animation..."
 
 msgid "構造最適化"
-msgstr "NOTTRANSLATED"
+msgstr "Optimization"
 
 msgid "logファイルの情報から構造最適化計算のアニメーションを作成し表示します。"
 msgstr "Creates and displays animation of structural optimization calculation from information of log file."
@@ -459,13 +459,13 @@ msgid "アニメーション表示の操作方法は :ref:`animation_top` を参
 msgstr "For the animation display operation method, see :ref:`animation_top`."
 
 msgid "IRC/modred"
-msgstr "NOTTRANSLATED"
+msgstr "IRC/modred"
 
 msgid "logファイルの情報からIRC計算のアニメーションを作成し表示します。"
 msgstr "Creates and displays animation of IRC calculation from information of log file."
 
 msgid "結果解析"
-msgstr "NOTTRANSLATED"
+msgstr "Analyses"
 
 msgid "分子軌道, UV-Vis, 電荷, NMR"
 msgstr "MO, UV-Vis, Charge & NMR..."
@@ -495,16 +495,16 @@ msgid "Gaussianの出力のアーカイブ部分の高精度座標を読み込�
 msgstr "Read high-precision coordinates of the archive part of Gaussian&#39;s output."
 
 msgid "RESP電荷"
-msgstr "NOTTRANSLATED"
+msgstr "RESP Charges"
 
 msgid "RESP法に基づく点電荷をespファイルから算出します。"
-msgstr "NOTTRANSLATED"
+msgstr "Calculate the point charge based on the RESP method from the esp file."
 
 msgid "読み込ませるespファイルは、 :menuselection:`キーワード設定 --> Easy Setup` において :guilabel:`RESP/ESP` の設定を選んで実行した計算から出力されている必要があります。 スピン多重度は1という前提で処理されます。 内部では、Antechamberを用いてRESP電荷を算出しています。"
-msgstr "NOTTRANSLATED"
+msgstr "The esp file to be read must have been output from a calculation performed by selecting :guilabel:`RESP/ESP` in :menuselection:`Configure --> Easy Setup`. Spin multiplicity is assumed to be 1. Internally, RESP charge is calculated using Antechamber."
 
 msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ <install_cygwinwm>` が必要です。"
-msgstr "NOTTRANSLATED"
+msgstr "To use this function, :ref:`cygwin_wm setup <install_cygwinwm>` is required."
 
 msgid "FormChk"
 msgstr "FormChk..."

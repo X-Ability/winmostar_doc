@@ -335,7 +335,7 @@ msgid "擬ポテンシャルの拡張無しファイル名を指定します。"
 msgstr "Specify file name without pseudopotential extension."
 
 msgid "Atoms.Coord.Unit"
-msgstr "NOTTRANSLATED"
+msgstr "Atoms.Coord.Unit"
 
 msgid "原子座標の単位を指定します。"
 msgstr "Specify the unit of the atomic coordinate."
@@ -548,7 +548,7 @@ msgid "アニメーション表示の操作方法は :ref:`animation_top` を参
 msgstr "Please refer to :ref:`animation_top` for how to operate the animation. "
 
 msgid "結果解析"
-msgstr "NOTTRANSLATED"
+msgstr "Analyses"
 
 msgid "電子密度/スピン密度/エネルギー分布..."
 msgstr "Density/Spin/Energy Distribution..."

@@ -837,7 +837,7 @@ msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
 msgstr "Job is run through :ref:`winmosjm_top`. "
 
 msgid "ログを表示"
-msgstr "NOTTRANSLATED"
+msgstr "Open Log File"
 
 msgid "ログファイルをテキストエディタで開きます。"
 msgstr "Open the log file with a text editor."
@@ -846,7 +846,7 @@ msgid "アニメーション"
 msgstr "Animation (pwout, out)..."
 
 msgid "構造最適化/BOMD(pwout)"
-msgstr "NOTTRANSLATED"
+msgstr "Optimization, BOMD(pwout, out)"
 
 msgid "ログファイルの情報から構造最適化、BOMD計算等のアニメーションを作成し表示します。"
 msgstr "From the information of the log file, animation such as structure optimization, BOMD calculation etc. is created and displayed."
@@ -858,7 +858,7 @@ msgid "アニメーション表示の操作方法は :ref:`animation_top` を参
 msgstr "For the animation display operation method, see :ref:`animation_top`."
 
 msgid "CPMD(pos)"
-msgstr "NOTTRANSLATED"
+msgstr "CPMD(pos)"
 
 msgid "CPMDのposファイルとcelファイルを指定し、アニメーションを表示します。"
 msgstr "Specify CPMD&#39;s pos and cel files and display animation."
@@ -900,7 +900,7 @@ msgid "CPMDのevpファイルを指定し、各種エネルギーの時間変化
 msgstr "Specify the evp file of CPMD and display time variation of various energies."
 
 msgid "結果解析"
-msgstr "NOTTRANSLATED"
+msgstr "Analyses"
 
 msgid "電子密度"
 msgstr "Electron Density..."
@@ -1026,19 +1026,19 @@ msgid "2つのesm1ファイルの差をプロットすることもできます�
 msgstr "You can also plot the difference between the two esm1 files."
 
 msgid "1D-RISM RMS変化 (pwout)"
-msgstr "NOTTRANSLATED"
+msgstr "1D-RISM RMS Change"
 
 msgid "RISM計算（trism=.True.）の最初に実行される1D-RISM計算のRMSの変化をプロットします。"
-msgstr "NOTTRANSLATED"
+msgstr "Plot the change in RMS of the 1D-RISM calculation performed at the beginning of the RISM calculation (trism = .True.)."
 
 msgid "グラフを表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Displays a graph."
 
 msgid "3D/ESM-RISM RMS変化 (pwout)"
-msgstr "NOTTRANSLATED"
+msgstr "3D/ESM-RISM RMS Change (pwout)"
 
 msgid "RISM計算（trism=.True.）実行時の、最後のSCFステップにおける3D-RISMまたはESM-RISM計算のRMSの変化をプロットします。"
-msgstr "NOTTRANSLATED"
+msgstr "Plot the change of RMS of 3D-RISM or ESM-RISM calculation in the last SCF step when RISM calculation (trism = .True.) is executed."
 
 msgid "溶媒原子間相関関数 (1drism)"
 msgstr "Solvent Pair Distribution Func. (1drism)..."
@@ -1068,7 +1068,7 @@ msgid "作成したファイルはMOLファイルのキーワード設定ウィ�
 msgstr "The created file should be placed in the folder specified by :guilabel:`Directory for MOL Files` on the :guilabel:`RISM (1)` tab of the keyword setting window of the MOL file. "
 
 msgid "Nudged Elastic Band"
-msgstr "NOTTRANSLATED"
+msgstr "Nudged Elastic Band"
 
 msgid "NEB計算の条件を設定します。"
 msgstr "Set conditions for NEB calculation."
@@ -1086,64 +1086,64 @@ msgid "NEB計算後のファイルを指定し、反応座標に沿ったエネ�
 msgstr "Specify the file after NEB calculation and display the change in energy and atomic structure along the reaction coordinates."
 
 msgid "BoltzTraP"
-msgstr "NOTTRANSLATED"
+msgstr "BoltzTraP"
 
 msgid "BoltzTraPでは、QuantumESPRESSOでのnscf計算のアウトプットをもとに熱電特性の計算を行います。"
-msgstr "NOTTRANSLATED"
+msgstr "BoltzTraP calculates thermoelectric characteristics based on the output of nscf calculation in QuantumESPRESSO."
 
 msgid "キーワード設定・実行"
 msgstr "Configure & Run"
 
 msgid "BoltzTraPを用いたプリ・ポスト処理の計算条件を設定し、プリ処理の実行を行います。"
-msgstr "NOTTRANSLATED"
+msgstr "Set the calculation conditions for pre-post processing using BoltzTraP and execute pre-processing."
 
 msgid ":guilabel:`Create .intransファイル` ボタン"
-msgstr "NOTTRANSLATED"
+msgstr ":guilabel:`Create .intrans File` button"
 
 msgid "Quantum ESPRESSOのnscf計算のアウトプットファイル (*.pwout)を読み込み、BoltzTraP設定ファイル（*.intrans）を生成します。 アウトプットファイルを仮にmg2si_nscf.pwoutとすると、同じ階層にmg2si_nscfという名前の作業ディレクトリを生成します。 mg2si_nscf.intransはmg2si_nscf内に生成されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Read nscf calculation output file (*.pwout) of Quantum ESPRESSO and generate BoltzTraP setting file (*.intrans). Assuming that the output file is mg2si_nscf.pwout, a working directory named mg2si_nscf is created in the same level. mg2si_nscf.intrans is generated in mg2si_nscf."
 
 msgid "intransファイルの作成に成功した場合、ファイルの内容を読み込み、下記キーワードの入力欄に反映します。"
-msgstr "NOTTRANSLATED"
+msgstr "If the intrans file is successfully created, read the contents of the file and reflect it in the input fields of the following keywords."
 
 msgid "Fermilevel (Ry)"
-msgstr "NOTTRANSLATED"
+msgstr "Fermilevel (Ry)"
 
 msgid "pwoutファイルから読み込んだフェルミエネルギーが設定されています。"
-msgstr "NOTTRANSLATED"
+msgstr "Fermi energy read from pwout file is set."
 
 msgid "energy grid"
-msgstr "NOTTRANSLATED"
+msgstr "energy grid"
 
 msgid "設定エネルギーの間隔を指定します。"
-msgstr "Specify the energy span"
+msgstr "Specify the interval of the set energy."
 
 msgid "energy span"
-msgstr "NOTTRANSLATED"
+msgstr "energy span"
 
 msgid "フェルミレベル周辺の計算に考慮に入れるバンドエネルギーの範囲を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specifies the range of band energies to consider in calculations around the Fermi level."
 
 msgid "number of electrons"
-msgstr "NOTTRANSLATED"
+msgstr "number of electrons"
 
 msgid "単位格子内の電子の個数を指定します。"
 msgstr "Specify the number of electrons in a unit cell."
 
 msgid "lpfac"
-msgstr "NOTTRANSLATED"
+msgstr "lpfac"
 
 msgid "バンドエネルギーをフーリエ展開によって補完する際の因子を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the factor for complementing the band energy by Fourier expansion."
 
 msgid "efcut"
 msgstr "efcut"
 
 msgid "化学ポテンシャルを変えて計算する範囲を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the calculation range by changing the chemical potential."
 
 msgid "Tmax"
-msgstr "NOTTRANSLATED"
+msgstr "Tmax"
 
 msgid "設定温度の上限値を指定します。"
 msgstr "Specify the upper limit of the set temperature."
@@ -1155,124 +1155,124 @@ msgid "設定温度の間隔を指定します。"
 msgstr "Specify the interval of the set temperature."
 
 msgid "energy of bands"
-msgstr "NOTTRANSLATED"
+msgstr "energy of bands"
 
 msgid "DOSから得られたバンドのエネルギー幅を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the energy width of the band obtained from DOS."
 
 msgid "Calculate expansion coeff"
 msgstr "Calculate expansion coeff"
 
 msgid "チェックが入っている場合、膨張係数を計算を計算します。"
-msgstr "NOTTRANSLATED"
+msgstr "If checked, calculate expansion coefficient."
 
 msgid ":guilabel:`Start BoltzTraP` ボタン"
-msgstr "NOTTRANSLATED"
+msgstr ":guilabel:`Start BoltzTraP` button"
 
 msgid "設定条件を元にintransファイルを再作成し、BoltzTraPを実行します。 このとき、以下のファイルとフォルダが生成されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Recreate the intrans file based on the setting conditions and execute BoltzTraP. At this time, the following files and folders are created."
 
 msgid "下記では、計算終了時点での作業ディレクトリ（mg2si_nscf）内の主なファイルを記載します。"
-msgstr "NOTTRANSLATED"
+msgstr "The main files in the working directory (mg2si_nscf) at the end of the calculation are described below."
 
 msgid ".intfansファイル"
-msgstr "NOTTRANSLATED"
+msgstr "intfans file"
 
 msgid ":file:`mg2si_nscf.intrans`"
 msgstr ":file:`mg2si_nscf.intrans`"
 
 msgid "BoltzTraPのインプットファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "BoltzTraP input file."
 
 msgid ".traceファイル"
-msgstr "NOTTRANSLATED"
+msgstr ".trace file"
 
 msgid ":file:`mg2si_nscf.trace`"
 msgstr ":file:`mg2si_nscf.trace`"
 
 msgid "BoltzTraPで計算された熱電特性のエネルギー、温度依存性に関する情報が出力されたファイルです。 BoltzTraP結果読み込み...メニューではこのファイルを読み込み可視化を行います。"
-msgstr "NOTTRANSLATED"
+msgstr "This file contains information on energy and temperature dependence of thermoelectric properties calculated by BoltzTraP. The BoltzTraP Import Result ... menu reads this file and performs visualization."
 
 msgid ":guilabel:`Cancel` ボタン"
-msgstr "NOTTRANSLATED"
+msgstr ":guilabel:`Cancel` button"
 
 msgid "何もせずにキーワード設定・実行ウィンドウを閉じます。"
-msgstr "NOTTRANSLATED"
+msgstr "Close Configure & Run window without doing anything."
 
 msgid "結果読み込み..."
-msgstr "NOTTRANSLATED"
+msgstr "Import Result..."
 
 msgid "BoltzTraPによって計算された下記の熱電特性を読み込み、可視化を行います。"
-msgstr "NOTTRANSLATED"
+msgstr "The following thermoelectric properties calculated by BoltzTraP are read and visualized."
 
 msgid "ゼーベック係数（Seebek coefficient）、"
-msgstr "NOTTRANSLATED"
+msgstr "Seebeck coefficient,"
 
 msgid "電気伝導度 (Electrical conductivity),"
-msgstr "NOTTRANSLATED"
+msgstr "Electrical conductivity,"
 
 msgid "熱伝導率(Electrical thermal conductivity),"
-msgstr "NOTTRANSLATED"
+msgstr "Electrical thermal conductivity"
 
 msgid "出力因子(Power factor)"
-msgstr "NOTTRANSLATED"
+msgstr "Power factor"
 
 msgid "性能指数（Figure of merit）"
-msgstr "NOTTRANSLATED"
+msgstr "Figure of merit"
 
 msgid "各温度における特性値のエネルギー依存性を表示したい場合はコンボボックスからT [K]を選択し、リストから目的の温度を選択します。 各エネルギーにおける特性値の温度依存性を表示したい場合はコンボボックスからE-Ef [eV]を選択し、リストから目的のエネルギーを選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "To display the energy dependence of the characteristic value at each temperature, select T [K] from the combo box and select the target temperature from the list. If you want to display the temperature dependence of the characteristic value for each energy, select E-Ef [eV] from the combo box and select the target energy from the list."
 
 msgid "Phonopy"
-msgstr "NOTTRANSLATED"
+msgstr "Phonopy"
 
 msgid "Phonopyでは、以下の3つの工程で計算を行います。"
-msgstr "NOTTRANSLATED"
+msgstr "Phonopy calculates in the following three steps."
 
 msgid "与えられたQuantum ESPRESSOインプットファイルを元にスーパーセルを作成する。 (プリ処理)"
-msgstr "NOTTRANSLATED"
+msgstr "Create a supercell based on the given Quantum ESPRESSO input file. (Pre-processing)"
 
 msgid "生成された全てのスーパーセルに対し、Quantum ESPRESSOを実行する。"
-msgstr "NOTTRANSLATED"
+msgstr "Execute Quantum ESPRESSO for all generated super cells."
 
 msgid "Quantum ESPRESSOのアウトプットファイルから、ForceSetsファイルを作成し、 Phononバンド、DOS、熱物性などの計算を行う。(ポスト処理)"
-msgstr "NOTTRANSLATED"
+msgstr "Create ForceSets file from Quantum ESPRESSO output file and calculate Phonon band, DOS, thermophysical properties, etc. (Post processing)"
 
 msgid "Phonopyを用いたプリ・ポスト処理の計算条件を設定し、プリ処理の実行を行います。"
-msgstr "NOTTRANSLATED"
+msgstr "Set calculation conditions for pre-post processing using Phonopy and execute pre-processing."
 
 msgid ":guilabel:`Open` ボタン"
-msgstr "NOTTRANSLATED"
+msgstr ":guilabel:`Open` button"
 
 msgid "Quantum ESPRESSOのインプットファイル (\\*.in,\\*.pwin)を読み込みます。 Phonopyでのポスト処理では、応力の情報を必要とします。このため読み込むファイルは tprnfor, tstressキーワードを含んでいる必要があります。 Phonopy用のQuantum ESPRESSOのインプットファイルは、 Quantum ESPRESSOキーワード設定のPreset=Phonopyを使用することで設定できます。"
-msgstr "NOTTRANSLATED"
+msgstr "Read the input file (\\*.in, \\*.pwin) of Quantum ESPRESSO. Post processing in Phonopy requires stress information. Therefore, the file to be read must include the tprnfor and tstress keywords. The input file of Quantum ESPRESSO for Phonopy can be set by using Quantum ESPRESSO keyword setting Preset=Phonopy."
 
 msgid "DIM"
-msgstr "NOTTRANSLATED"
+msgstr "DIM"
 
 msgid "スーパーセルのx, y, z方向のリピート回数を半角スペース区切りで指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the number of times the supercell repeats in the x, y, and z directions, separated by a space."
 
 msgid "MP"
-msgstr "NOTTRANSLATED"
+msgstr "MP"
 
 msgid "PhonopyでPhonon DOSや熱物性の計算を行う際の逆格子を半角スペース区切りで指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the reciprocal lattice when calculating Phono DOS and thermophysical properties in Phonopy, separated by a space."
 
 msgid "ATOM_NAME"
-msgstr "NOTTRANSLATED"
+msgstr "ATOM_NAME"
 
 msgid "単位格子に含まれる元素を半角スペース区切りで指定します。 :guilabel:`Open` ボタンでインプットファイルを開いた時点で自動的に入力されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the elements included in the unit cell separated by a space. It is automatically entered when the input file is opened with the :guilabel:`Open` button."
 
 msgid ":guilabel:`Start` ボタン"
-msgstr "NOTTRANSLATED"
+msgstr ":guilabel:`Start` button"
 
 msgid "設定条件を元にPhonopyを実行し、プリ処理であるスーパーセルの作成を実行します。 このとき、以下のファイルとフォルダが生成されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Execute Phonopy based on the setting conditions, and create a super cell that is pre-processing. At this time, the following files and folders are created."
 
 msgid "Phonopyのプリ処理を実行するためのバッチファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "Batch file to execute the preprocessing of Phonopy."
 
 msgid "shファイル"
 msgstr "sh file"
@@ -1281,10 +1281,10 @@ msgid ":file:`si.sh`"
 msgstr ":file:`si.sh`"
 
 msgid "Phonopyのプリ処理を実行するためのシェルスクリプトファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "Shell script file for executing the preprocessing of Phonopy."
 
 msgid "si_ph_dataフォルダ"
-msgstr "NOTTRANSLATED"
+msgstr "si_ph_data folder"
 
 msgid ":file:`si_ph_data`"
 msgstr ":file:`si_ph_data`"
@@ -1296,13 +1296,13 @@ msgid "作業ディレクトリsi_ph_dataには以下のファイルが生成さ
 msgstr "The following files are generated in the working directory si_ph_data."
 
 msgid "mesh.confファイル"
-msgstr "NOTTRANSLATED"
+msgstr "mesh.conf file"
 
 msgid ":file:`mesh.conf`"
 msgstr ":file:`mesh.conf`"
 
 msgid "Phonopyのポスト処理にて、状態密度や熱物性を計算するときに使用されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Used to calculate density of states and thermophysical properties in post processing of Phonopy."
 
 msgid "band.confファイル"
 msgstr "band.conf file"
@@ -1311,28 +1311,28 @@ msgid ":file:`band.conf`"
 msgstr ":file:`band.conf`"
 
 msgid "Phonopyのポスト処理にて、バンド構造を計算するときに使用されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Used when calculating band structure in Phonopy post processing."
 
 msgid "headerファイル"
-msgstr "NOTTRANSLATED"
+msgstr "header file"
 
 msgid ":file:`header.in`"
 msgstr ":file:`header.in`"
 
 msgid "si.pwinで指定された構造情報以外のキーワード情報が記載されています。"
-msgstr "NOTTRANSLATED"
+msgstr "Keyword information other than the structure information specified in si.pwin is described."
 
 msgid "supercellファイル"
-msgstr "NOTTRANSLATED"
+msgstr "supercell file"
 
 msgid ":file:`supercell-＊.in`"
 msgstr ":file:`supercell-*.in`"
 
 msgid "Phonopyにより生成されたスーパーセルの情報がQuantum ESPRESSOのインプットファイル形式で記載されています。"
-msgstr "NOTTRANSLATED"
+msgstr "Supercell information generated by Phonopy is described in Quantum ESPRESSO input file format."
 
 msgid "スーパーセルのパターンは複数生成されるため、＊の部分には1, 2, などの数字が入ります。"
-msgstr "NOTTRANSLATED"
+msgstr "Since multiple supercell patterns are generated, * is replaced by numbers such as 1, 2, and so on."
 
 msgid "tmpファイル"
 msgstr "tmp file"
@@ -1341,34 +1341,34 @@ msgid ":file:`tmp-*.in`"
 msgstr ":file:`tmp-*.in`"
 
 msgid "header.inとsupercell-\\*.inを結合したファイルです。"
-msgstr "NOTTRANSLATED"
+msgstr "Combines header.in and supercell-\\ *. in."
 
 msgid "confファイル編集..."
-msgstr "NOTTRANSLATED"
+msgstr "Edit .conf File..."
 
 msgid "confファイルをテキストエディタで開きます。 キーワード設定画面で設定したキーワードを編集したい場合に用います。"
-msgstr "NOTTRANSLATED"
+msgstr "Open the conf file with a text editor. Use when you want to edit the keywords set on the Configure window."
 
 msgid "Quantum ESPRESSO連続実行"
-msgstr "NOTTRANSLATED"
+msgstr "Run QE for Phonopy"
 
 msgid "キーワード設定・実行画面で生成された、全てのスーパーセルに対し、Quantum ESPRESSOを実行します。 このメニューを用いた場合、Quantum ESPRESSOはローカル環境で実行されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Execute Quantum ESPRESSO for all super cells generated in Configure & Run window. Quantum ESPRESSO will run in the local environment."
 
 msgid "Phonopy実行..."
-msgstr "NOTTRANSLATED"
+msgstr "Run Phonopy"
 
 msgid "Phonopyのポスト処理を実行します。"
-msgstr "NOTTRANSLATED"
+msgstr "Executes post processing of Phonopy."
 
 msgid "この時、作業フォルダ :file: si_ph_data に以下のファイルが生成されます。"
-msgstr "NOTTRANSLATED"
+msgstr "At this time, the following files are created in the working folder :file: si_ph_data ."
 
 msgid ":file:`phonopy.sh`"
 msgstr ":file:`phonopy.sh`"
 
 msgid "Phonopyのポスト処理を実行するためのシェルスクリプトです"
-msgstr "NOTTRANSLATED"
+msgstr "Shell script to execute Phonopy post processing"
 
 msgid "band.yamlファイル"
 msgstr "band.yaml file"
@@ -1377,7 +1377,7 @@ msgid ":file:`band.yaml`"
 msgstr ":file:`band.yaml`"
 
 msgid "Phonopyのポスト処理で計算されたバンド構造の情報が出力されています。"
-msgstr "NOTTRANSLATED"
+msgstr "Information on the band structure calculated by post processing of Phonopy is output."
 
 msgid "dos.datファイル"
 msgstr "dos.dat"
@@ -1386,31 +1386,31 @@ msgid ":file:`dos.dat`"
 msgstr ":file:`dos.dat`"
 
 msgid "Phonopyのポスト処理で計算された状態密度の情報が出力されています。"
-msgstr "NOTTRANSLATED"
+msgstr "Information on the density of states calculated by post processing of Phonopy is output."
 
 msgid "thermal_properties.yamlファイル"
-msgstr "NOTTRANSLATED"
+msgstr "thermal_properties.yaml file"
 
 msgid ":file:`thermal_properties.yaml`"
-msgstr "NOTTRANSLATED"
+msgstr ":file:`thermal_properties.yaml`"
 
 msgid "Phonopyのポスト処理で計算された熱物性の情報が出力されています。"
-msgstr "NOTTRANSLATED"
+msgstr "Information on thermophysical properties calculated by Phonopy post processing is output."
 
 msgid "バンド構造..."
 msgstr "Band Structure..."
 
 msgid "作業フォルダに含まれるband.csvをもとにバンド構造を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Displays the band structure based on band.csv included in the working folder."
 
 msgid "状態密度..."
-msgstr "Density od States..."
+msgstr "Density of States..."
 
 msgid "作業フォルダに含まれるtoal_dos.csvをもとに状態密度を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Displays the density of states based on toal_dos.csv included in the working folder."
 
 msgid "熱物性..."
-msgstr "NOTTRANSLATED"
+msgstr "Thermophysical properties"
 
 msgid "作業フォルダに含まれるthermal_properties.csvをもとに熱物性を表示します。"
-msgstr "NOTTRANSLATED"
+msgstr "Displays thermophysical properties based on thermal_properties.csv included in the working folder."

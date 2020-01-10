@@ -399,13 +399,13 @@ msgid "アニメーション表示の操作方法は :ref:`animation_top` を参
 msgstr "For the animation display operation method, see :ref:`animation_top`."
 
 msgid "IRC, STEP (out)"
-msgstr "NOTTRANSLATED"
+msgstr "IRC, STEP (out)"
 
 msgid "outファイルを選択し、IRC計算のアニメーションを表示します。"
 msgstr "Select out file and display animation of IRC calculation."
 
 msgid "結果解析"
-msgstr "NOTTRANSLATED"
+msgstr "Analyses"
 
 msgid "分子軌道, 電子密度 (mgf)"
 msgstr "MO & Density (mgf)..."

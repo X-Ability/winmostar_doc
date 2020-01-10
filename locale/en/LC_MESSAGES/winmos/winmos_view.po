@@ -78,10 +78,10 @@ msgid "ここにチェックが入っている場合は、分子表示エリア�
 msgstr "If checked here, perspective is applied to the molecular display area."
 
 msgid "奥行き表現を使用"
-msgstr "NOTTRANSLATED"
+msgstr "Enable Depth Cueing"
 
 msgid "ここにチェックが入っている場合は、分子表示エリアにフォグが適用されます。手前と奥の原子の区別がつきやすくなります。フォグの強さは :ref:`preferences_top` にて設定できます。"
-msgstr "NOTTRANSLATED"
+msgstr "If this is checked, fog is applied to the molecule display area. This makes it easy to distinguish between atoms in front and back. Fog strength can be set with :ref:`preferences_top`."
 
 msgid "表示項目"
 msgstr "Items"

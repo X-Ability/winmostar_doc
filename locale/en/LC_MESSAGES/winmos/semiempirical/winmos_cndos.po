@@ -165,7 +165,7 @@ msgid "lstファイルをテキストエディタで開きます。"
 msgstr "Open the lst file with a text editor."
 
 msgid "結果解析"
-msgstr "NOTTRANSLATED"
+msgstr "Analyses"
 
 msgid "UV-Visスペクトル"
 msgstr "UV-Vis Spectrum..."

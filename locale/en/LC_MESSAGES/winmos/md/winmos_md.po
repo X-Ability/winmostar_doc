@@ -78,10 +78,10 @@ msgid ":guilabel:`Method` に :guilabel:`Solvate` を選んでいる際に、メ
 msgstr "When choosing :guilabel:`Solvate` for :guilabel:`Method`, specify the distance between the molecule displayed on the main screen and the simulation cell."
 
 msgid "Set Lattice Constants"
-msgstr "NOTTRANSLATED"
+msgstr "Set Lattice Constants"
 
 msgid "シミュレーションセルのサイズを直接指定します。 :guilabel:`Same as main window` ボタンを押すと、メインウィンドウに設定されたセルと同じ値が入力されます。"
-msgstr "NOTTRANSLATED"
+msgstr "Specify the size of the simulation cell directly. When you press : guilabel:`Same as main window` button, the same value as the cell set in the main window is entered."
 
 msgid "Box Type"
 msgstr "Box Type"
@@ -114,16 +114,16 @@ msgid "Packmolを使用する場合のセルの端付近の原子を置かない
 msgstr "Specify the width of the area where no atoms are placed near the edge of the cell when using Packmol."
 
 msgid "Random seed"
-msgstr "NOTTRANSLATED"
+msgstr "Random seed"
 
 msgid "Packmolを使用する場合の乱数の種を指定します。"
 msgstr "Specify the seed of random number when using Packmol."
 
 msgid "Automatically change random seed every time"
-msgstr "NOTTRANSLATED"
+msgstr "Automatically change random seed every time"
 
 msgid "Packmolを使用する場合の乱数の種を毎回自動で変更します。"
-msgstr "NOTTRANSLATED"
+msgstr "The seed of random number when using Packmol is automatically changed every time."
 
 msgid "Reset"
 msgstr "Reset"
@@ -153,40 +153,40 @@ msgid "自動で電荷を割り当て"
 msgstr "Assign Charges Automatically"
 
 msgid "複数分子に対して、自動で電荷を割り当てます。"
-msgstr "NOTTRANSLATED"
+msgstr "Automatically assign charges to multiple molecules."
 
 msgid "現在のファイル名の末尾に :file:`_charge_tmp` を付けた作業用フォルダが作成され、その中でPackmolを用いた処理が行われます。"
 msgstr "A working folder will be created with the current file name suffixed with :file:`_charge_tmp`, and processing using Packmol will be performed in it. "
 
 msgid "全てのMethodを...に設定"
-msgstr "NOTTRANSLATED"
+msgstr "Set ... for all components"
 
 msgid "チェックを入れた場合には、メインウィンドウに表示されている全ての分子種に対し、プルダウンメニューで指定したMethodで電荷を計算します。チェックを入れなかった場合は、各原子種に対しMethodを選択してください。"
-msgstr "NOTTRANSLATED"
+msgstr "If checked, charges will be calculated for all molecular species displayed in the main window using the method specified in the pull-down menu. If unchecked, select a Method for each atomic species."
 
 msgid "既に電荷が割り当てられた分子種には新たに電荷を割り当てない"
-msgstr "NOTTRANSLATED"
+msgstr "Except for components that are already charge"
 
 msgid "チェックを入れた場合には、 :guilabel:`全てのMethodを...に設定` にチェックが入っていても、すでに電荷が割り当てられた分子については新たに電荷を割り当てません。"
-msgstr "NOTTRANSLATED"
+msgstr "If checked, even if :guilabel:`Set ... for all components` is checked, no new charge will be assigned to molecules that have already been assigned."
 
 msgid "タンパク質・単原子イオン・水には新たに電荷を割り当てない"
-msgstr "NOTTRANSLATED"
+msgstr "Except for protein, monoatomic ion and water"
 
 msgid "チェックを入れた場合、タンパク質・単原子イオン・水分子については、この機能で電荷を割り当てません。タンパク質のMD計算においては、AM1-BCC等の方法では電荷の計算に時間が掛かり、また力場の割り当て時に残基名から自動的に電荷が割り振られるため、チェックを入れる必要があります"
-msgstr "NOTTRANSLATED"
+msgstr "When checked, no charge is assigned to proteins, monatomic ions, and water molecules in this function. In the MD calculation of proteins, it is necessary to check the box because it takes time to calculate the charge by methods such as AM1-BCC and the charge is automatically assigned from the residue name when assigning the force field."
 
 msgid "Method"
-msgstr "NOTTRANSLATED"
+msgstr "Method"
 
 msgid "電荷を割り当てる方法を選択します。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the method to assign the charge."
 
 msgid "Charge"
-msgstr "NOTTRANSLATED"
+msgstr "Charge"
 
 msgid "その分子種の電荷を設定します。中性分子では0、イオンでは+1, -1などその電荷を指定します。"
-msgstr "NOTTRANSLATED"
+msgstr "Set the charge for that molecular species. The charge is specified as 0 for neutral molecules and +1, -1 for ions."
 
 msgid "手動で電荷を割り当て"
 msgstr "Assign Charges Manually"
