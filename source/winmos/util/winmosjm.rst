@@ -23,10 +23,9 @@ Winmostar Job Manager
 | 　JMは二重に起動しないように調整されており、Winmostarを複数起動した場合、ジョブは一つのJMに対して登録されます。
 | 　JMが管理可能なジョブの数（キューの数）は最大で200個です。この数を超えると、古いものから順にキューから削除されますが、実行中のジョブがキューから削除されても、ジョブの処理自体は続行されます。
 
-   |JMwindow_JP|
+   |JMwindow|
 
-.. |JMwindow_JP| image:: JMwindow_jp.png
-.. |JMwindow_EN| image:: JMwindow_en.png
+.. |JMwindow| image:: JMwindow.png
 
 .. note::
 
