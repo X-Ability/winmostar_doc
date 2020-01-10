@@ -7,8 +7,8 @@ msgstr "PIO analysis window"
 msgid "GAMESSまたはGaussianによるPIO (Paired Interacting Orbitals) 解析の設定と実行を行います。"
 msgstr "Set up and execute PIO (Paired Interacting Orbitals) analysis by GAMESS or Gaussian."
 
-msgid "Click the fragment..."
-msgstr "Click the fragment..."
+msgid "Click the fragment"
+msgstr "Click the fragment"
 
 msgid "Set"
 msgstr "Set"
@@ -22,8 +22,8 @@ msgstr "Reset"
 msgid "フラグメントの設定を解除します。"
 msgstr "Release the setting of the fragment."
 
-msgid "Save ab.inp ..."
-msgstr "Save ab.inp ..."
+msgid "Save ab.inp"
+msgstr "Save ab.inp"
 
 msgid "Save"
 msgstr "Save"

@@ -17,14 +17,14 @@ Animationウィンドウ
       Export GIF Animation
          GIFアニメーションファイルを書き出します。
          
-         :guilabel:`Export...` ボタンからも操作できます。
+         :guilabel:`Export` ボタンからも操作できます。
       Export JPEG Images
          連番JPEGファイルを書き出します。
          
-         :guilabel:`Export...` ボタンからも操作できます。
+         :guilabel:`Export` ボタンからも操作できます。
       Export Animated GRO File
          アニメーションgroファイルを出力します。VMD等との連携に使用できます          
-         :guilabel:`Export...` ボタンからも操作できます。
+         :guilabel:`Export` ボタンからも操作できます。
       Close
          このウィンドウを閉じます。
          再度開く場合は :ref:`window_top` :menuselection:`--> Animation` を選択します。

@@ -9,7 +9,7 @@ msgid "WinmostarではAmberをCygwin環境上で実行するため、本機能�
 msgstr "Since Winmostar runs Amber on the Cygwin environment, in order to use this function, you need to set up :ref:`cygwin_wm <install_cygwinwm>` is required."
 
 msgid "LEaPキーワード設定"
-msgstr "Configure LEaP..."
+msgstr "Configure LEaP"
 
 msgid "tLEaPを用いて座標（crd）、トポロジ（prmtop）ファイルを作成する条件を設定します。 各項目を選択して指定し、[OK]ボタンをクリックします。"
 msgstr "Use tLEaP to set conditions for creating coordinate (crd) and topology (prmtop) files. Select each item, specify it, and click the [OK] button."
@@ -63,13 +63,13 @@ msgid "その他のLEaPコマンドを記述します。"
 msgstr "Write other LEaP commands."
 
 msgid "LEaP実行"
-msgstr "Run LEaP..."
+msgstr "Run LEaP"
 
 msgid "tLEaPを用いて座標（crd）ファイルおよびトポロジ（prmtop）ファイルを作成します。 （拡張子を除くcrdファイル名）_leap_tmpという名前の作業フォルダを作成して、そのフォルダで処理が行われます。"
 msgstr "Create coordinates (crd) file and topology (prmtop) file using tLEaP. (Crd file name except extension) Create a working folder named _leap_tmp, and processing will be done in that folder."
 
 msgid "sanderキーワード設定"
-msgstr "Configure sander..."
+msgstr "Configure sander"
 
 msgid "sanderによる計算を実行するための条件を設定します。 各項目を選択して指定し、[OK]ボタンをクリックします。"
 msgstr "Set conditions for executing calculation by sander. Select each item, specify it, and click the [OK] button."
@@ -219,7 +219,7 @@ msgid "その他の設定を記述します。"
 msgstr "Write the other settings."
 
 msgid "sander実行"
-msgstr "Run sander..."
+msgstr "Run sander"
 
 msgid "sanderを実行します。 （拡張子を除くcrdファイル名）_amb_tmpという名前の作業フォルダを作成して、そのフォルダで処理が行われます。"
 msgstr "Run sander. (Crd filename excluding extension) Create a working folder named _amb_tmp, and processing will be done in that folder."
@@ -237,7 +237,7 @@ msgid "アニメーション表示の操作方法は :ref:`animation_top` を参
 msgstr "For the animation display operation method, see :ref:`animation_top`."
 
 msgid "エネルギー変化"
-msgstr "Energy Plot..."
+msgstr "Energy Plot"
 
 msgid "計算結果のlogファイルからエネルギーのグラフを表示します。"
 msgstr "Display the energy graph from the calculated log file."
@@ -246,7 +246,7 @@ msgid "サブウィンドウの操作方法は :ref:`energyplot_top` を参照�
 msgstr "Please see :ref:`energyplot_top` for how to operate subwindow."
 
 msgid "座標ファイル読み込み"
-msgstr "Import Coordinate File..."
+msgstr "Import Coordinate File"
 
 msgid "Amber形式の座標（crd）ファイルとトポロジ（prmtop）ファイルを読み込みメインウィンドウに表示します。"
 msgstr "Load Amber coordinates (crd) file and topology (prmtop) file and display them in the main window."

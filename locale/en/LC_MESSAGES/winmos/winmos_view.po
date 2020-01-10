@@ -153,13 +153,13 @@ msgid "各種ログファイルを開いた際に読み込まれる双極子モ�
 msgstr "Displays the dipole moment or transition moment read when various log files are opened."
 
 msgid "遷移モーメントを選択"
-msgstr "Select Transition Moment..."
+msgstr "Select Transition Moment"
 
 msgid "表示する遷移モーメントを選択します。"
 msgstr "Select the transition moment to be displayed."
 
 msgid "スケールを変更"
-msgstr "Change Scaling Factor..."
+msgstr "Change Scaling Factor"
 
 msgid "双極子/遷移モーメントを表示する際の大きさを指定します。"
 msgstr "Specify the magnitude when displaying dipole / transition moment."

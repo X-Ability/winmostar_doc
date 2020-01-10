@@ -9,7 +9,7 @@ msgid "MOPAC6とMOPAC7はWinmostarに同梱されています。 それ以外の
 msgstr "MOPAC 6 and MOPAC 7 are bundled with Winmostar. When using other MOPAC please purchase MOPAC body separately from distributor and set the path in environment setting window."
 
 msgid "キーワード設定"
-msgstr "Configure..."
+msgstr "Configure"
 
 msgid "MOPACの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
 msgstr "Set calculation condition of MOPAC. To set up the calculations immediately after setting :guilabel:`Run` button, once to return to the main window please press :guilabel:`OK` button."
@@ -312,7 +312,7 @@ msgid "その他のキーワードを記入します。"
 msgstr "Fill in other keywords."
 
 msgid "キーワード読み込み"
-msgstr "Import Keywords..."
+msgstr "Import Keywords"
 
 msgid "既存のMOPACの入力ファイルから、キーワード（計算条件）のみを読み込みます。"
 msgstr "Only keywords (calculation conditions) are read from the existing MOPAC input file."
@@ -378,7 +378,7 @@ msgid "作業ディレクトリです。"
 msgstr "Working directory."
 
 msgid "ログを表示 (out)"
-msgstr "Open Log File (out)..."
+msgstr "Open Log File (out)"
 
 msgid "outファイルをテキストエディタで開きます。"
 msgstr "Open out file in a text editor."
@@ -408,7 +408,7 @@ msgid "結果解析"
 msgstr "Analyses"
 
 msgid "分子軌道, 電子密度 (mgf)"
-msgstr "MO & Density (mgf)..."
+msgstr "MO & Density (mgf)"
 
 msgid "mgfファイルを選択し、分子軌道を表示します。"
 msgstr "Select the mgf file and display the molecular orbital."
@@ -417,7 +417,7 @@ msgid ":ref:`キーワード <semiempirical_mopac_keyword>` で ``GRAPHF`` が�
 msgstr "``GRAPHF`` must be set on :ref:`keyword <semiempirical_mopac_keyword>`. Refer to :ref:`mo_top`, :ref:`cube_top` for how to operate the subwindow."
 
 msgid "電荷 (arc)"
-msgstr "Charges (arc)..."
+msgstr "Charges (arc)"
 
 msgid "arcファイルを選択し、電荷、ダイポールを表示します。"
 msgstr "Select arc file and display charge, dipole."
@@ -426,7 +426,7 @@ msgid ":menuselection:`表示 --> ラベル/電荷 --> Mulliken電荷` を選択
 msgstr "Show charges when you select :menuselection:`display --> label/charge --> Mulliken Charge`."
 
 msgid "振動スペクトル (out)"
-msgstr "Vibration spectrum (out)..."
+msgstr "Vibration spectrum (out)"
 
 msgid "outファイルを選択し、振動スペクトル（IRスペクトル）を表示します。"
 msgstr "Select the out file and display the vibration spectrum (IR spectrum)."

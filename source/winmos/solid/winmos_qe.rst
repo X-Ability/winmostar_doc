@@ -33,7 +33,7 @@
          新規にデータの出力先フォルダを作成します。outdirは新規フォルダに設定されます。
       Continue
          メイン画面に読み込まれている、直前に実行されたQEのジョブを継続します。outdirは直前に実行されたジョブのoutdirに設定されます。
-      Select...
+      Select
          開いたダイアログで指定したフォルダを出力先に指定し、そのフォルダのデータからジョブを継続します。outdirはここで指定したものに設定されます。
    Preset
       設定のプリセットを選択します。
@@ -179,7 +179,7 @@
          化学ポテンシャル一定(constant mu)計算を実施します。初期の系全体の電荷はBasicタブのtot_chargeで指定されます。
       fcp_mu
          化学ポテンシャル一定計算でのフェルミエネルギーの目標値を設定します。
-      Enter Relative Potential...
+      Enter Relative Potential
          Target Fermi Energyの入力をサポートします。
          まず、電圧0での計算のログファイルを指定し、電圧0でのフェルミエネルギーを取得します。
          次に、印加電圧を入力します。
@@ -561,7 +561,7 @@ IR/ラマンスペクトル
 
    グラフ描画エリアの操作方法は :ref:`chart_top` を参照してください。
 
-3D/ESM-RISM RMS変化 (pwout)
+3D/Laue-RISM RMS変化 (pwout)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
    RISM計算（trism=.True.）実行時の、最後のSCFステップにおける3D-RISMまたはESM-RISM計算のRMSの変化をプロットします。
    
@@ -692,22 +692,22 @@ BoltzTraP
          * - | .traceファイル
              | :file:`mg2si_nscf.trace`
            - BoltzTraPで計算された熱電特性のエネルギー、温度依存性に関する情報が出力されたファイルです。
-             BoltzTraP結果読み込み...メニューではこのファイルを読み込み可視化を行います。
+             BoltzTraP結果読み込みメニューではこのファイルを読み込み可視化を行います。
 
    :guilabel:`Cancel` ボタン
 
       何もせずにキーワード設定・実行ウィンドウを閉じます。
 
-結果読み込み...
+結果読み込み
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    BoltzTraPによって計算された下記の熱電特性を読み込み、可視化を行います。
    
-   * ゼーベック係数（Seebek coefficient）、
-   * 電気伝導度 (Electrical conductivity), 
-   * 熱伝導率(Electrical thermal conductivity),
+   * ゼーベック係数(Seebek coefficient)
+   * 電気伝導度(Electrical conductivity)
+   * 熱伝導率(Electrical thermal conductivity)
    * 出力因子(Power factor)
-   * 性能指数（Figure of merit）
+   * 性能指数(Figure of merit)
 
    各温度における特性値のエネルギー依存性を表示したい場合はコンボボックスからT [K]を選択し、リストから目的の温度を選択します。
    各エネルギーにおける特性値の温度依存性を表示したい場合はコンボボックスからE-Ef [eV]を選択し、リストから目的のエネルギーを選択します。
@@ -784,9 +784,9 @@ Phonopy
              | :file:`header.in`
            - | si.pwinで指定された構造情報以外のキーワード情報が記載されています。
          * - | supercellファイル
-             | :file:`supercell-＊.in`
+             | :file:`supercell-*.in`
            - | Phonopyにより生成されたスーパーセルの情報がQuantum ESPRESSOのインプットファイル形式で記載されています。
-             | スーパーセルのパターンは複数生成されるため、＊の部分には1, 2, などの数字が入ります。
+             | スーパーセルのパターンは複数生成されるため、\*の部分には1, 2, などの数字が入ります。
          * - | tmpファイル
              | :file:`tmp-*.in`
            - | header.inとsupercell-\*.inを結合したファイルです。
@@ -796,7 +796,7 @@ Phonopy
       何もせずにキーワード設定・実行ウィンドウを閉じます。
 
 
-confファイル編集...
+confファイル編集
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    confファイルをテキストエディタで開きます。
@@ -809,7 +809,7 @@ Quantum ESPRESSO連続実行
    このメニューを用いた場合、Quantum ESPRESSOはローカル環境で実行されます。
 
            
-Phonopy実行...
+Phonopy実行
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Phonopyのポスト処理を実行します。
@@ -835,17 +835,17 @@ Phonopy実行...
              | :file:`thermal_properties.yaml`
            - Phonopyのポスト処理で計算された熱物性の情報が出力されています。
 
-バンド構造...
+バンド構造
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    作業フォルダに含まれるband.csvをもとにバンド構造を表示します。
 
-状態密度...
+状態密度
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    作業フォルダに含まれるtoal_dos.csvをもとに状態密度を表示します。
 
-熱物性...
+熱物性
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    作業フォルダに含まれるthermal_properties.csvをもとに熱物性を表示します。

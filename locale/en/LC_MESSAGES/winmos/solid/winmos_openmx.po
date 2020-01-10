@@ -5,7 +5,7 @@ msgid "OpenMXに関するメニューです。"
 msgstr "Menu related to OpenMX."
 
 msgid "キーワード設定"
-msgstr "Configure..."
+msgstr "Configure"
 
 msgid "OpenMXの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
 msgstr "Set the OpenMX calculation conditions. Click the :guilabel:`Run` button to execute the calculation immediately after setting, or the: guilabel:` OK` button to return to the main window."
@@ -341,7 +341,7 @@ msgid "原子座標の単位を指定します。"
 msgstr "Specify the unit of the atomic coordinate."
 
 msgid "実行"
-msgstr "Run..."
+msgstr "Run"
 
 msgid "OpenMXを実行します。"
 msgstr "Execute OpenMX"
@@ -532,14 +532,14 @@ msgstr "** Unnumbered directories are always up to date. **"
 msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
 msgstr "Job is run through :ref:`winmosjm_top`. "
 
-msgid "ログを表示 (mxout)..."
-msgstr "Open Log File (mxout)..."
+msgid "ログを表示 (mxout)"
+msgstr "Open Log File (mxout)"
 
 msgid "ログファイルをテキストエディタで開きます。"
 msgstr "Open the log file with a text editor."
 
-msgid "アニメーション(md)..."
-msgstr "Animation (md)..."
+msgid "アニメーション(md)"
+msgstr "Animation (md)"
 
 msgid "mdファイルの情報から構造最適化、分子動力学計算等のアニメーションを作成し表示します。"
 msgstr "Create and display animations such as structure optimization and molecular dynamics calculations from md file information."
@@ -550,8 +550,8 @@ msgstr "Please refer to :ref:`animation_top` for how to operate the animation. "
 msgid "結果解析"
 msgstr "Analyses"
 
-msgid "電子密度/スピン密度/エネルギー分布..."
-msgstr "Density/Spin/Energy Distribution..."
+msgid "電子密度/スピン密度/エネルギー分布"
+msgstr "Density/Spin/Energy Distribution"
 
 msgid "cubeファイルを指定し、電子密度、スピン密度、エネルギー分布を表示します。"
 msgstr "Specify the cube file and display the electron density, spin density, and energy distribution."
@@ -559,8 +559,8 @@ msgstr "Specify the cube file and display the electron density, spin density, an
 msgid "サブウィンドウの操作方法は :ref:`cube_top` を参照してください。"
 msgstr "See :ref:`cube_top` for how to operate subwindows. "
 
-msgid "バンド構造..."
-msgstr "Band Structure..."
+msgid "バンド構造"
+msgstr "Band Structure"
 
 msgid "作業ディレクトリ(:file:`dia_mx_data\\\\`)を指定し、バンド構造を表示します。"
 msgstr "Specify the working directory (:file:`dia_mx_data\\\\`) and display the band structure."
@@ -568,8 +568,8 @@ msgstr "Specify the working directory (:file:`dia_mx_data\\\\`) and display the 
 msgid "Band.dispersion=onで計算が終了している必要があります。"
 msgstr "Calculation must be completed with Band.dispersion=on"
 
-msgid "状態密度..."
-msgstr "Density of of States..."
+msgid "状態密度"
+msgstr "Density of of States"
 
 msgid "作業ディレクトリ(:file:`dia_mx_data\\\\`)を指定し、状態密度を表示します。"
 msgstr "Specify the working directory ( :file:`dia_mx_data\\\\`) and display the density of states."
@@ -580,14 +580,14 @@ msgstr "Calculation must be completed with Dos.fileout = on"
 msgid "グラフ描画エリアの操作方法は :ref:`chart_top` を参照してください。"
 msgstr "Please refer to :ref:`chart_top` for how to operate the graph drawing area. "
 
-msgid "部分状態密度..."
-msgstr "Partial DOS..."
+msgid "部分状態密度"
+msgstr "Partial DOS"
 
 msgid "作業ディレクトリ(:file:`dia_mx_data\\\\`)を指定し、部分状態密度(PDOS)を表示します。"
 msgstr "Specify the working directory ( :file:`dia_mx_data\\\\`) and display the partial density of states (PDOS)."
 
-msgid "フェルミ面..."
-msgstr "Fermi Surface ..."
+msgid "フェルミ面"
+msgstr "Fermi Surface"
 
 msgid "作業ディレクトリ(:file:`dia_mx_data\\\\`)を指定し、フェルミ面を表示します。"
 msgstr "Specify the working directory ( :file:`dia_mx_data\\\\`) and display the fermi surface."

@@ -1,4 +1,3 @@
-
 msgid ":menuselection:`ファイル` メニュー"
 msgstr "File menu"
 
@@ -12,7 +11,7 @@ msgid ":kbd:`Ctrl+N` でも操作できます。"
 msgstr "The shortcut is :kbd:`Ctrl+N` ."
 
 msgid "開く"
-msgstr "Open..."
+msgstr "Open"
 
 msgid "ファイルから分子構造をメインウィンドウに読み込みます。各種ソフトのフォーマットに対応しています。"
 msgstr "Read the molecular structure from file into the main window. It corresponds to the format of various software."
@@ -27,13 +26,13 @@ msgid "最近開かれたファイルを開きます。"
 msgstr "Open a recently opened file."
 
 msgid "履歴をクリア"
-msgstr "Clear History..."
+msgstr "Clear History"
 
 msgid "最近開かれたファイルの履歴を空にします。"
 msgstr "Empty the history of recently opened files."
 
 msgid "プロジェクトを開く"
-msgstr "Open Project..."
+msgstr "Open Project"
 
 msgid "プロジェクトファイル（拡張子wmpj）を開きます。"
 msgstr "Open project file with wmpj extension."
@@ -42,7 +41,7 @@ msgid ":kbd:`Ctrl+Alt+O` でも操作できます。"
 msgstr "The shortcut is :kbd:`Ctrl+Alt+O` ."
 
 msgid "最近使ったプロジェクト"
-msgstr "Open Recent Project..."
+msgstr "Open Recent Project"
 
 msgid "最近開かれたプロジェクトファイルを開きます。"
 msgstr "Open a recently opened project file."
@@ -57,7 +56,7 @@ msgid "メインウィンドウのタイトルに表示されているファイ�
 msgstr "Load the file displayed in the title of the main window again."
 
 msgid "追加読み込み"
-msgstr "Append..."
+msgstr "Append"
 
 msgid "メインウィンドウに表示されている分子構造に、選択したファイルの分子構造を追加します。"
 msgstr "Add the molecular structure of the selected file to the molecular structure displayed in the main window."
@@ -75,7 +74,7 @@ msgid ":kbd:`Ctrl+S` でも操作できます。"
 msgstr "The shortcut is :kbd:`Ctrl+S` ."
 
 msgid "名前を付けて保存"
-msgstr "Save As..."
+msgstr "Save As"
 
 msgid "メインウィンドウに表示されている分子構造を別名で保存します。"
 msgstr "Save the molecular structure displayed in the main window as a different name."
@@ -119,8 +118,8 @@ msgstr "Outputs the contents displayed in the main window in the selected format
 msgid "メインウィンドウに表示されている分子構造をSMILES形式の文字列で出力します。メインウィンドウに複数分子表示されている場合は使用できません。Cygwin上でOpenBabelを使用します。"
 msgstr "It outputs the molecular structure displayed in the main window as SMILES formatted character string. It can not be used when multiple molecules are displayed in the main window. I use OpenBabel on Cygwin."
 
-msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ <install_cygwinwm>` が必要です。"
-msgstr "In order to use this function you need to set up :ref:`cygwin_wm <install_cygwinwm>`."
+msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ<install_cygwinwm>` が必要です。"
+msgstr "To use this function, :ref:`cygwin_wm setup<install_cygwinwm>` is required."
 
 msgid "構造式"
 msgstr "Structural Formula"
@@ -129,19 +128,19 @@ msgid "メインウィンドウに表示されている分子構造の構造式�
 msgstr "The image of the structural formula of the molecular structure displayed in the main window is output in SVG format. It can not be used when multiple molecules are displayed in the main window. I use OpenBabel on Cygwin."
 
 msgid "画像"
-msgstr "Image..."
+msgstr "Image"
 
 msgid "メインウィンドウに表示されている内容をBMPまたはJPG形式で出力します。"
 msgstr "Outputs the contents displayed in the main window in BMP or JPG format."
 
 msgid "VRML"
-msgstr "VRML..."
+msgstr "VRML"
 
 msgid "メインウィンドウに表示されている分子構造をVRML形式で出力します。"
 msgstr "Outputs the contents displayed in the main window in VRML format."
 
 msgid "CHARMM crd File"
-msgstr "CHARMM crd File..."
+msgstr "CHARMM crd File"
 
 msgid "メインウィンドウに表示されている分子構造をCHARMMのcrd形式で座標を出力します。"
 msgstr "Outputs the contents displayed in the main window in crd format for CHARMM."

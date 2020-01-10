@@ -12,7 +12,7 @@ msgid "DCDFTBMDをインストールする方法は :ref:`install_install` に�
 msgstr "How to install DCDFTBMD is described in :ref:`install_install`."
 
 msgid "キーワード設定"
-msgstr "Configure..."
+msgstr "Configure"
 
 msgid "DCDFTBMDの計算条件を設定します。設定後 :guilabel:`OK` ボタンを押してください。"
 msgstr "After setting, press the :guilabel:`OK` button."
@@ -270,7 +270,7 @@ msgid "継続ジョブが異常終了時など、作業ディレクトリを実�
 msgstr "Click to return the working directory to its pre-execution status, such as when a continued job ends abnormally."
 
 msgid "実行"
-msgstr "Run..."
+msgstr "Run"
 
 msgid "DCDFTBMDを実行するために、 :ref:`remote_top` を開きます。 詳細な操作方法は  :ref:`remote_top` を参照してください。"
 msgstr "To run DCDFTBMD, open :ref:`remote_top`. See :ref:`remote_top` for detailed instructions."
@@ -402,19 +402,19 @@ msgid "**番号が付いていないディレクトリが常に最新のもの�
 msgstr "** Unnumbered directories are always up to date. **"
 
 msgid "ログを表示(dco)"
-msgstr "Open Log File (dco)..."
+msgstr "Open Log File (dco)"
 
 msgid "dco（標準出力）ファイルをテキストエディタで開きます。"
 msgstr "Open the dco (standard output) file with a text editor."
 
 msgid "詳細出力ファイルを表示(dat)"
-msgstr "Open Detailed Data File (dat)..."
+msgstr "Open Detailed Data File (dat)"
 
 msgid "詳細出力ファイルをテキストエディタで開きます。"
 msgstr "Open the detailed output file in a text editor."
 
 msgid "OPTアニメーション(dco)"
-msgstr "OPT Animation (dco)..."
+msgstr "OPT Animation (dco)"
 
 msgid "dcoファイルを選択し、構造最適化計算のトラジェクトリをアニメーション表示します。"
 msgstr "Select a dco file and animate the structure optimization trajectory."
@@ -423,7 +423,7 @@ msgid "アニメーション表示の操作方法は :ref:`animation_top` を参
 msgstr "Please refer to :ref:`animation_top` for how to operate the animation. "
 
 msgid "アニメーション(traject)"
-msgstr "Animation (traject)..."
+msgstr "Animation (traject)"
 
 msgid "dciファイルとtrajectファイルを選択し、MD計算のトラジェクトリをアニメーション表示します。"
 msgstr "Select dci and traject files and animate MD calculation trajectory."
@@ -435,7 +435,7 @@ msgid "Animationウィンドウの :menuselection:`Tools --> Mean Square Displac
 msgstr "You can calculate mean square displacement, self-diffusion coefficient, and radial distribution function from :menuselection:`Tools --> Mean Square Displacement / Diffusion Constant` and :menuselection:`Tools --> Radial Distribution Function` in Animation window.See :ref:`md_gromacs_msd` or :ref:`md_gromacs_rdf` for details. "
 
 msgid "エネルギー変化"
-msgstr "Energy Plot..."
+msgstr "Energy Plot"
 
 msgid "ログファイルを選択し、エネルギー、温度などの各種熱力学量のグラフを表示します。"
 msgstr "Select a log file and display graphs of various thermodynamic quantities such as energy and temperature."

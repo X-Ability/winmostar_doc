@@ -206,4 +206,3 @@ msgstr "Uninstalling Winmostar"
 
 msgid "Winmostarのインストール先フォルダとショートカットの削除することでアンインストールできます。"
 msgstr "You can uninstall by deleting Winmostar installation folder and shortcut."
-

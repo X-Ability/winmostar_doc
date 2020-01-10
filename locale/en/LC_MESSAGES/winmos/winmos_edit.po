@@ -1,4 +1,3 @@
-
 msgid "編集メニュー"
 msgstr "Edit menu"
 
@@ -29,20 +28,20 @@ msgstr "Redo the undone operation. It is possible up to 50 times."
 msgid "テキストを戻す"
 msgstr "Undo text"
 
+msgid ":ref:`キーワード表示エリア <gui_main>` で編集した内容を元に戻します。"
+msgstr "Restore the edited contents in :ref:`keyword display area <gui_main>`."
+
 msgid "編集操作向けの元素を選択"
 msgstr "Select Element for Editing Ops"
 
 msgid ":ref:`edit_atom` や :ref:`edit_attribute_element` で適用される元素を選択します。"
 msgstr "Select element to be applied in :ref:`edit_atom` or :ref:`edit_attribute_element` ."
 
-msgid ":ref:`キーワード表示エリア <gui_main>` で編集した内容を元に戻します。"
-msgstr "Restore the edited contents in :ref:`keyword display area <gui_main>`."
-
 msgid "原子を追加"
 msgstr "Add atom by"
 
 msgid "座標を指定"
-msgstr "Specifying Position..."
+msgstr "Specifying Position"
 
 msgid ":ref:`分子表示エリア <gui_main>` にてクリックする位置に原子を追加します。追加される原子の種類は :ref:`ツールバー <gui_main>` の :guilabel:`編集操作で適用される元素を選択` プルダウンメニュー |chg| で選択します。"
 msgstr "Add atoms to the position you click in :ref:`Molecular display area <gui_main>`. The types of atoms to be added are selected by pull-down menu | chg | of :guilabel:`Select the element to be applied in the editing operation` of :ref:`Toolbar <gui_main>`."
@@ -51,7 +50,7 @@ msgid ":kbd:`F4` または :ref:`ツールバー <gui_main>` からも操作で�
 msgstr "You can also operate with :kbd:`F4` or from :ref:`Toolbar <gui_main>`."
 
 msgid "座標と結合関係を指定"
-msgstr "Specifying Position and Connectivity..."
+msgstr "Specifying Position and Connectivity"
 
 msgid "Z-Matrix形式における結合関係と座標を同時に指定して原子を追加します。 追加される原子の種類は :ref:`ツールバー <gui_main>` の :guilabel:`編集操作で適用される元素を選択` プルダウンメニュー |chg| で選択します。まず原子を置く場所をクリックし、次にZ-Matrix表記における3つの接続原子（Na, Nb, Nc）を順番にクリックします。"
 msgstr "Add atom by specifying joint relation and coordinate in Z-Matrix format at the same time. The types of atoms to be added are selected by pull-down menu | chg | of :guilabel:`Select the element to be applied in the editing operation` of :ref:`Toolbar <gui_main>`. First click on the place where the atom is placed, then click on three connecting atoms (Na, Nb,Nc) in Z-Matrix notation in order."
@@ -69,7 +68,7 @@ msgid "原子を移動"
 msgstr "Move atom"
 
 msgid "並進移動"
-msgstr "Translate..."
+msgstr "Translate"
 
 msgid ":ref:`マーカー <edit_top>` が付いた原子を :ref:`分子表示エリア <gui_main>` 上でドラッグして移動します。"
 msgstr "Drag and move :ref:`marked <edit_top>` atom on :ref:`Molecular display area <gui_main>`."
@@ -78,13 +77,13 @@ msgid ":kbd:`F5` でも操作できます。"
 msgstr "You can also operate it with :kbd:`F5`."
 
 msgid "Z-Matrixを保持して並進移動"
-msgstr "Translate While Keeping Z-Matrix..."
+msgstr "Translate While Keeping Z-Matrix"
 
 msgid ":ref:`マーカー <edit_top>` が付いた原子とZ-Matrixで結合関係にある原子を同時に :ref:`分子表示エリア <gui_main>` 上でドラッグして移動します。官能基単位での移動などに向いています。"
 msgstr "Drag and move the atom with :ref:`marker <edit_top>` and the atom connected with Z-Matrix on the :ref:`Molecule display area <gui_main>` at the same time. Suitable for movement by functional group."
 
 msgid "二面角を変更"
-msgstr "Change Dihedral..."
+msgstr "Change Dihedral"
 
 msgid ":ref:`マーカー <edit_top>` が付いた原子を :ref:`分子表示エリア <gui_main>` 上でドラッグして移動します。Z-Matrixの二面角のみが変化します。"
 msgstr "Drag and move the atom with :ref:`marker <edit_top>` on the :ref:`Moleculer display area <gui_main>`. Only the dihedral angle of Z-Matrix changes."
@@ -105,7 +104,7 @@ msgid ":guilabel:`Lp 0` はLone pair、 :guilabel:`Cb 104` はMOPACで分子構�
 msgstr ":guilabel:`Lp 0` is a Lone pair, :guilabel:`Cb 104` is a Capped bond used to cut out a molecular structure in MOPAC, :guilabel:`++ 105` to :guilabel:`-108` is a MOPAC sparkle, :guilabel:`Tv 109` is a MOPAC translation vector , :guilabel:`Xx 110` through :guilabel:`Z 112` means the dummy atom of each solver."
 
 msgid "最適化フラグを変更"
-msgstr "Pptimization Flags..."
+msgstr "Optimization Flags"
 
 msgid "選択した原子の最適化フラグを変更します。グループ選択されている場合はグループ選択された原子全てが対象となります。 :guilabel:`Solver` で :guilabel:`General` が選択されている場合は、X,Y,Zそれぞれに選択したフラグがそのまま設定されます。 :guilabel:`Solver` で具体的なソルバーが選択されている場合は、それぞれ該当するフラグが設定されます。"
 msgstr "Changes the optimization flag of the selected atom. If a group is selected, all atoms selected in the group are targeted. If :guilabel:`General` is selected in :guilabel:`Solver`, the selected flag for X, Y, and Z is set as it is. If a specific solver is selected in :guilabel:`Solver`, the corresponding flag will be set for each."
@@ -114,7 +113,7 @@ msgid "OpenMXの場合は、 :ref:`座標表示エリア <gui_main>` 上で ``0`
 msgstr "In the case of OpenMX, if ``0`` is displayed on the :ref:`Coordinate display area <gui_main>`, ``1`` is displayed when saving the file, and conversely ``1`` is displayed, the output is ``0``. In other words, the operation follows the `` Variable`` and `` Fixed`` notation of this function."
 
 msgid "電荷/スピンを変更"
-msgstr "Charge/spin Density (Q)..."
+msgstr "Charge/spin Density (Q)"
 
 msgid "選択した原子の電荷（User電荷）またはスピン密度の値を変更します。グループ選択されている場合はグループ選択された原子全てが対象となります。"
 msgstr "Changes the charge (User charge) or spin density value of the selected atom. If a group is selected, all the atoms selected in the group will be covered."
@@ -123,7 +122,7 @@ msgid "User ChargeまたはSpin Densityをメインウィンドウ上で表示�
 msgstr "If you want to display User Charge or Spin Density on the main window, choose :guilabel:`User charge` of :menuselection:`Display --> label/charge` or :guilabel:`spin density`."
 
 msgid "結合関係を変更"
-msgstr "Connectivity..."
+msgstr "Connectivity"
 
 msgid "マーカーが付いた原子のZ-Matrixにおける3つの接続原子（Na, Nb, Nc）を順番にクリックして再設定します。"
 msgstr "Click on the three connecting atoms (Na, Nb, Nc) in the Z-Matrix of the atom with the marker in order to set again."
@@ -195,7 +194,7 @@ msgid "マーカーが付いた原子に水素が1～3つ付加した状態に�
 msgstr "Make 1 to 3 hydrogen added to the atom with the marker."
 
 msgid "pdb2gmxを使用"
-msgstr "Using pdb2gmx..."
+msgstr "Using pdb2gmx"
 
 msgid "Gromacsの :command:`gmx pdb2gmx` コマンドを用いて、pdbまたはgroファイルから読み込んだタンパク質に対して水素を自動的に付加します。 元となるpdbまたはgroファイルにおいて、アミノ残基の情報を持たない原子が存在している場合には、処理に失敗します。 :file:`*_protonate_tmp` という作業フォルダに中間ファイルが生成されます。"
 msgstr "Use the Gromacs :command:`gmx pdb2gmx` command to automatically add hydrogen to proteins read from pdb or gro files. If the original pdb or gro file contains atoms that do not have amino residue information, the process will fail. An intermediate file is created in a working folder called :file:`* _protonate_tmp`."
@@ -203,11 +202,11 @@ msgstr "Use the Gromacs :command:`gmx pdb2gmx` command to automatically add hydr
 msgid "メインウィンドウに表示されている構造にリガンド、溶媒などのタンパク質以外の分子が含まれている場合、:menuselection:`選択 --> 分子種によるグループ選択` および :menuselection:`編集 --> グループ編集 -->` :ref:`edit_partial_delete` 機能を用いて事前に削除してください。"
 msgstr "If the structure displayed in the main window contains molecules other than proteins such as ligands and solvents, delete them with :menuselection:`select --> group selection by molecular species` and :menuselection:`Edit --> group edit -->` :ref:`edit_partial_delete` in advance."
 
-msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ <install_cygwinwm>` が必要です。"
-msgstr "To use this function, set up :ref:`cygwin_wm <install_cygwinwm>` is required."
+msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ<install_cygwinwm>` が必要です。"
+msgstr "To use this function, :ref:`cygwin_wm setup<install_cygwinwm>` is required."
 
 msgid "OpenBabelを使用"
-msgstr "Using OpenBabel..."
+msgstr "Using OpenBabel"
 
 msgid "OpenBabelを用いて水素を自動的に付加します。 主にpdbファイルから切り出したリガンド分子に対して使用します。 :file:`*_protonate_tmp` という作業フォルダに中間ファイルが生成されます。"
 msgstr "We will automatically add hydrogen using OpenBabel. It is mainly used for ligand molecules cut out from pdb file. An intermediate file is created in the working folder named :file:`* _protonate_tmp`."
@@ -232,7 +231,6 @@ msgstr "Select Fragment"
 
 msgid ":ref:`edit_parts` で置換されるフラグメントを選択します。"
 msgstr "Select the fragment to be replaced with :ref:`edit_parts` ."
-
 
 msgid "環構築"
 msgstr "Build Ring"
@@ -271,7 +269,7 @@ msgid ":kbd:`Ctrl+A` でも操作できます。"
 msgstr "You can also operate with :kbd:`Ctrl + A`."
 
 msgid "グループを回転（マウス操作）"
-msgstr "Rotate Group Around Marked Atom..."
+msgstr "Rotate Group Around Marked Atom"
 
 msgid "グループ選択された構造を、 :ref:`マーカー（赤太丸） <edit_top>` が付いた原子を中心に回転させます。"
 msgstr "Rotate group-selected structure around the atom with :ref:`marker (thick red circle) <edit_top>`."
@@ -280,20 +278,19 @@ msgid ":kbd:`Ctrl+F` でも操作できます。"
 msgstr "You can also operate with :kbd:`Ctrl + F`."
 
 msgid "グループを回転（数値を指定）"
-msgstr "Rotate (Numerical)..."
+msgstr "Rotate (Numerical)"
 
 msgid "グループ選択された構造を、 :ref:`マーカー（赤太丸） <edit_top>` が付いた原子または幾何中心を中心に、スライダー操作まはた数値入力により回転させます。指定するのはオイラー角です。"
 msgstr "The structure selected in the group is rotated around the atom or geometric center marked with :ref: `marker (red circle) <edit_top>` by slider operation or numerical input. Specify the Euler angles."
 
 msgid "グループを回転（配向を指定）"
-msgstr "Rotate Group by Aligning Marked Atoms..."
+msgstr "Rotate Group by Aligning Marked Atoms"
 
 msgid "グループ選択された構造を特定軸または特定面に対し配向するよう回転させます。 マーカーが付けられた2原子（特定軸に配向させる場合）または3原子（特定面に配向させる場合）がグループ選択された構造の中に含まれている必要があります（マーカーが付けられた原子は :ref:`分子表示エリア <gui_main>` 左上の :guilabel:`Marked Order:` で確認することができます）。"
 msgstr "Rotates group selected structures to orient to a specific axis or plane. 2 atoms with markers (if oriented in a specific axis) or 3 atoms (if oriented in a specific plane) must be included in the group selected structure (It can be confirmed by :guilabel:`Marked Order` in the upper left of :ref:`Moleculer display area`)."
 
-
 msgid "グループを並進移動（マウス操作）"
-msgstr "Move Group (Direct)..."
+msgstr "Move Group (Direct)"
 
 msgid "グループ選択された構造を :ref:`分子表示エリア <gui_main>` 内でドラッグして移動させます。"
 msgstr "Move group-selected structure in :ref:`Molecular display area <gui_main>`."
@@ -302,7 +299,7 @@ msgid ":kbd:`Ctrl+M` でも操作できます。"
 msgstr "You can also operate with :kbd:`Ctrl + M`."
 
 msgid "グループを並進移動（数値を指定）"
-msgstr "Move Group (Numerical)..."
+msgstr "Move Group (Numerical)"
 
 msgid "グループ選択された構造を、スライダー操作または数値入力により並進移動させます。"
 msgstr "Translate selected group structure by slider operation or numerical input."
@@ -344,13 +341,13 @@ msgid ":kbd:`Ctrl+V` でも操作できます。"
 msgstr "You can also operate with :kbd:`Ctrl + V`."
 
 msgid "グループを複製"
-msgstr "Replicate Group..."
+msgstr "Replicate Group"
 
 msgid "グループ選択された構造を、一定間隔で複製して配置します。サブウィンドウにて各方向の配置間隔と複製数を指定します。"
 msgstr "Duplicate and arrange the group-selected structures at regular intervals. Specify the arrangement interval and number of copies in each direction in the subwindow."
 
 msgid "グループを削除"
-msgstr "Delete Group..."
+msgstr "Delete Group"
 
 msgid "グループ選択された構造、あるいはそれ以外の構造を削除します。分子内の一部の構造を削除した場合は、切断された箇所に水素原子を自動で補います。"
 msgstr "Delete the group-selected structure or any other structure. When a part of the structure in the molecule is deleted, hydrogen atoms are automatically supplemented to the disconnected part."
@@ -359,7 +356,7 @@ msgid ":kbd:`Ctrl+D` でも操作できます。"
 msgstr "You can also operate with :kbd:`Ctrl + D`."
 
 msgid "グループを固定/固定解除"
-msgstr "Change Optimization Flags of Group..."
+msgstr "Change Optimization Flags of Group"
 
 msgid "グループ選択された構造の全成分の最適化フラグを ``0`` （fix）または ``1`` （free）に設定します。より細かい制御をしたい場合は :menuselection:`編集 --> 属性を変更 -->`  :ref:`edit_atom_opt` を選択してください。"
 msgstr "Set the optimization flag of all components of the group-selected structure to `` 0`` (fix) or `` 1`` (free). If you want to control more finely, select :menuselection:`Edit --> Change Attributes -->` :ref:`edit_atom_opt`."
@@ -368,7 +365,7 @@ msgid ":kbd:`Ctrl+I` でも操作できます。"
 msgstr "You can also operate with :kbd:`Ctrl + I`."
 
 msgid "グループの電荷をシフト"
-msgstr "Shift Charges of Group..."
+msgstr "Shift Charges of Group"
 
 msgid "グループ選択された構造の持つ点電荷の合計値を、指定した値に一様にシフトします。MD計算実行時など、系全体の電荷を0にしたいときに便利な機能です。"
 msgstr "The total point charge of the group-selected structure is uniformly shifted to the specified value. This function is useful when you want to reduce the total system charge to 0, such as when performing MD calculations."
@@ -500,7 +497,7 @@ msgid "メインウィンドウに表示されている分子構造の鏡像体�
 msgstr "Generate an enantiomer of the molecular structure displayed in the main window adjacent to the current structure."
 
 msgid "セルを作成/編集"
-msgstr "Create/Edit Cell..."
+msgstr "Create/Edit Cell"
 
 msgid ":guilabel:`Create/Edit Cell` ウィンドウが開き、そこでMD計算や平面波DFT計算などのシミュレーションセルを作成または編集します。 セルが存在しない場合は、 :guilabel:`Create` ボタンをクリックすると、メインウィンドウに表示されている分子構造の各方向の最小・最大値から :guilabel:`Distance` の距離だけ離れた場所にセルを作成します。 :guilabel:`Expand` ボタンクリックすると、指定方向にセルサイズを拡張することができます。 :guilabel:`Create/Edit Cell` ウィンドウの右側では直接セルサイズの値を編集することができます。 :guilabel:`Box Vecors` , :guilabel:`Lattice Constants` , :guilabel:`LAMMPS Tilt Factors` をクリックし、セルサイズの表記方法を変えることができます。"
 msgstr "The :guilabel:`Create / Edit Cell` window opens, where you can create or edit simulation cells such as MD calculations and plane wave DFT calculations. If the cell does not exist, clicking the :guilabel:`Create` button creates a cell at a distance of` Distance` from the minimum and maximum values in each direction of the molecular structure displayed in the main window. Click the :guilabel:`Expand` button to expand the cell size in the specified direction. On the right side of the :guilabel:`Create / Edit Cell` window, you can edit the cell size value directly. Click :guilabel:`Box Vecors`, :guilabel:`Lattice Constants`, :guilabel:`LAMMPS Tilt Factors` to change the cell size notation."
@@ -520,9 +517,8 @@ msgstr "Delete Cell"
 msgid "セルを削除します。"
 msgstr "Delete Cell."
 
-
 msgid "周期境界に基づき原子を再配置"
-msgstr "Wrap Around Cell Boundary..."
+msgstr "Wrap Around Cell Boundary"
 
 msgid "シミュレーションセルの外に出ている原子の座標を、周期境界を考慮してセル内に戻します。 主に分子系では :guilabel:`セルの内側に分子単位で再配置` 、主に無機系では :guilabel:`セルの内側に原子単位で再配置` を選択します。"
 msgstr "We return the coordinates of the atoms outside the simulation cell into the cell taking into account the period boundary. Mainly in molecular systems :guilabel:`rearrange in molecule units inside the cell`, mainly in inorganic systems :guilabel:`rearrange in atomic units inside the cell`."
@@ -534,13 +530,13 @@ msgid ":menuselection:`表示 --> 周期境界条件の表現形式` 機能で�
 msgstr "In tne :menuselection:`Display --> Periodic boundary condition expression format` function, only the display changes and the coordinates do not change, but in this function the coordinates actually change."
 
 msgid "密度を変更"
-msgstr "Change Density..."
+msgstr "Change Density"
 
 msgid "密度を指定して、シミュレーションセルと原子座標を相似的に拡大または縮小します。 各原子の座標は、分子の重心について拡大縮小され、分子内での相対位置は変化しません。"
 msgstr "Specify to change the density and simulatively expand or shrink simulation cell and atomic coordinates. The coordinates of each atom are scaled with respect to the center of gravity of the molecule, and the relative position within the molecule does not change."
 
 msgid "電荷を編集"
-msgstr "Edit Charge..."
+msgstr "Edit Charge"
 
 msgid "電荷の種類を指定して、ユーザ電荷へ設定します。 指定した電荷を削除することもできます。"
 msgstr "Specify the type of charge and set it to user charge. You can also delete specified charges."

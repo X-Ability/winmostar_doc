@@ -39,7 +39,7 @@ msgid "グループ選択されていない原子をグループ選択し、そ�
 msgstr "Select a group that has not been selected as a group, and cancel the group selection of the group that was selected until then."
 
 msgid "分子種によるグループ選択"
-msgstr "Select by Molecular Species..."
+msgstr "Select by Molecular Species"
 
 msgid ":guilabel:`Select by` ウィンドウの :guilabel:`Use List` タブが :guilabel:`Molecular Species` にチェックされた状態で開きます。 :guilabel:`Select by` ウィンドウ内のリストの各行をクリックすると、対応する分子種がグループ選択されます。"
 msgstr "It opens with :guilabel:`Use List` tab of :guilabel:`Select by` window checked :guilabel:`Molecular Species`.Click on each line in the list in the window and the corresponding molecular species are selected."
@@ -48,19 +48,19 @@ msgid "タンパク質のpdbファイルから計算する際に本機能を使�
 msgstr "When calculating from protein pdb files, this function can be used to extract proteins, ligands, bound water, buffers, etc."
 
 msgid "分子によるグループ選択"
-msgstr "Select by Molecules..."
+msgstr "Select by Molecules"
 
 msgid ":guilabel:`Select by` ウィンドウの :guilabel:`Use List` タブが :guilabel:`Molecules` にチェックされた状態で開きます。 :guilabel:`Select by` ウィンドウ内のリストの各行をクリックすると、対応する分子がグループ選択されます。"
 msgstr "It opens with :guilabel:`Use List` tab of :guilabel:`Select by` window checked :guilabel:`Molecules`.Click on each line in the list in the window and the corresponding molecule is selected."
 
 msgid "元素によるグループ選択"
-msgstr "Select by Elements..."
+msgstr "Select by Elements"
 
 msgid ":guilabel:`Select by` ウィンドウの :guilabel:`Use List` タブが :guilabel:`Elements` にチェックされた状態で開きます。 :guilabel:`Select by` ウィンドウ内のリストの各行をクリックすると、対応する元素がグループ選択されます。"
 msgstr "It opens with :guilabel:`Use List` tab of :guilabel:`Select by` window checked :guilabel:`Elements`.Click on each line in the list in the window and the corresponding element is selected."
 
 msgid "選択記述言語によるグループ選択"
-msgstr "Enter Selection Language..."
+msgstr "Enter Selection Language"
 
 msgid ":guilabel:`Select by` ウィンドウの :guilabel:`Use Selection Language` タブが開きます。 テキストボックスに選択記述言語で選択方法を記述した後に、 :guilabel:`Apply` ボタンをクリックすると、対応する原子がグループ選択されます。 選択記述言語では以下の構文がサポートされています。"
 msgstr "It opens with :guilabel:`Use Selection Language` tab of :guilabel:`Select by` window.If you click on :guilabel:`Apply` button after describing in the text box, the corresponding atoms are selected.The following syntax is supported in the selection language."

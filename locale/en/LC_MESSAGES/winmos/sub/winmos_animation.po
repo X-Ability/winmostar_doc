@@ -29,8 +29,8 @@ msgstr "Export GIF Animation"
 msgid "GIFアニメーションファイルを書き出します。"
 msgstr "Write a GIF animation file."
 
-msgid ":guilabel:`Export...` ボタンからも操作できます。"
-msgstr "You can also operate from the :guilabel:`Export...` button."
+msgid ":guilabel:`Export` ボタンからも操作できます。"
+msgstr "You can also operate from the :guilabel:`Export` button."
 
 msgid "Export JPEG Images"
 msgstr "Export JPEG Images"
@@ -41,8 +41,8 @@ msgstr "Export serial number JPEG file."
 msgid "Export Animated GRO File"
 msgstr "Export Animated GRO File"
 
-msgid "アニメーションgroファイルを出力します。VMD等との連携に使用できます :guilabel:`Export...` ボタンからも操作できます。"
-msgstr "Output animation gro file. It can be used for linking with VMD etc. You can also operate from the :guilabel:`Export...` button."
+msgid "アニメーションgroファイルを出力します。VMD等との連携に使用できます :guilabel:`Export` ボタンからも操作できます。"
+msgstr "Output animation gro file. It can be used for linking with VMD etc. You can also operate from the :guilabel:`Export` button."
 
 msgid "Close"
 msgstr "Close"

@@ -1,4 +1,3 @@
-
 msgid "リモートジョブ"
 msgstr "Remote job"
 
@@ -77,8 +76,8 @@ msgstr "Follow steps 1 and 2 on :ref:`calc_import_top` to create initial conditi
 msgid "ツールバーの :guilabel:`リモートジョブ投入` ボタン |toolbar_submit| をクリックします。"
 msgstr "Click :guilabel:`Submit Remote Job` button | toolbar_submit | on the tool bar."
 
-msgid ":guilabel:`Submit Remote Job` ウィンドウにおいて、すでに設定が済んでいる :guilabel:`Profile` が選択されているときは、 :ref:`こちら <remote_procedure_sendsub>` に進みます。されていない場合は、 :menuselection:`Manage... --> Add Profile...` を選択します。"
-msgstr "On :guilabel:`Submit Remote Job` window, if already set :guilabel:`Profile` is selected, go to :ref:`here <remote_procedure_sendsub>`. If not, select :menuselection:`Manage ... --> Add Profile ...`."
+msgid ":guilabel:`Submit Remote Job` ウィンドウにおいて、すでに設定が済んでいる :guilabel:`Profile` が選択されているときは、 :ref:`こちら <remote_procedure_sendsub>` に進みます。されていない場合は、 :menuselection:`Manage --> Add Profile` を選択します。"
+msgstr "On :guilabel:`Submit Remote Job` window, if already set :guilabel:`Profile` is selected, go to :ref:`here <remote_procedure_sendsub>`. If not, select :menuselection:`Manage  --> Add Profile`."
 
 msgid "|fig_remote_addprofile|"
 msgstr "|fig_remote_addprofile|"
@@ -159,7 +158,7 @@ msgid "|fig_remote_editqueue|"
 msgstr "|fig_remote_editqueue|"
 
 msgid "まず接続するサーバ上にインストールされたジョブスケジューラを :guilabel:`Queue` を選択し、その上で使用するソルバを :guilabel:`Solver` で選択します。 次に、 :guilabel:`Shell Script` の :guilabel:`Use Template` をクリックします。 選択したソルバのテンプレートがない場合は、テンプレートの名前を入力すると、テンプレートがテキストエディタで開かれます。 ある場合は、 :guilabel:`Use Template` の横のプルダウンメニューで使用したいテンプレートファイルを選択し、その下の :guilabel:`Edit...` ボタンをクリックするとテンプレートファイルがテキストエディタで開きます。 テンプレートファイルには、 :command:`module load ...` 、 :command:`source ...` 、 :command:`export PATH=...` などのコマンドや、 :command:`mpirun` などの、そのサーバで選択したソルバを使用するための設定を書き入れます。"
-msgstr "First select :guilabel:`Queue` as the job scheduler installed on the server to be connected and select solver to use on it with :guilabel:`Solver`. Next, click :guilabel:`Use Template` of :guilabel:`Shell Script`. If you do not have a template for the selected solver, enter the name of the template and the template will be opened in a text editor. If you have, select the template file you want to use in the pull down menu next to :guilabel:`Use Template` and click on the :guilabel:`Edit ...` button below it to open the template file in a text editor. Commands such as :command:`module load ...`, :command:`source ...`, :command:`export PATH = ...` and other commands such as :command:`mpirun`, enter the settings for using the solver selected on that server."
+msgstr "First select :guilabel:`Queue` as the job scheduler installed on the server to be connected and select solver to use on it with :guilabel:`Solver`. Next, click :guilabel:`Use Template` of :guilabel:`Shell Script`. If you do not have a template for the selected solver, enter the name of the template and the template will be opened in a text editor. If you have, select the template file you want to use in the pull down menu next to :guilabel:`Use Template` and click on the :guilabel:`Edit` button below it to open the template file in a text editor. Commands such as :command:`module load ...`, :command:`source ...`, :command:`export PATH = ...` and other commands such as :command:`mpirun`, enter the settings for using the solver selected on that server."
 
 msgid "利便性を上げるため、テンプレートファイルや :guilabel:`Options` には、個々のジョブに依存する並列数やファイル名などの設定がジョブ実行時に代入されるエイリアスの形で入力することを推奨します。詳細は :ref:`remote_alias` を参照してください。"
 msgstr "In order to improve convenience, it is recommended to enter in the template file and in :guilabel:`Options` aliases in which settings such as parallel number and file name depending on each job are assigned at job execution . For details, see :ref:`remote_alias`."
@@ -170,8 +169,8 @@ msgstr "Press the :guilabel:`OK` button to close the :guilabel:`Edit Profile` wi
 msgid ":guilabel:`Submit Remote Job` ウィンドウで、 :menuselection:`Queue --> Show Usage of Each Queues` メニューをクリックし、ウィンドウ下部にリモートサーバの情報が表示されることを確認します。"
 msgstr "In the :guilabel:`Submit Remote Job` window, click the :menuselection:`Queue --> Show Usage of Each Queues` menu and make sure the remote server information is displayed at the bottom of the window."
 
-msgid "正常に表示されない場合は、 :menuselection:`Manage... --> Edit Profile...` で設定を見直します。"
-msgstr "If it is not displayed correctly, review the setting with :menuselection:`Manage ... --> Edit Profile ...`."
+msgid "正常に表示されない場合は、 :menuselection:`Manage --> Edit Profile` で設定を見直します。"
+msgstr "If it is not displayed correctly, review the setting with :menuselection:`Manage --> Edit Profile`."
 
 msgid "ジョブを開始するために、 :guilabel:`Send & Submit` ボタンをクリックします。ここでの操作方法は、通常のローカルジョブと同じです。"
 msgstr "To start the job, click the :guilabel:`Send & Submit` button. The operation method here is the same as the normal local job."
@@ -610,7 +609,6 @@ msgstr "Set Winmostar Path installed on the remote server to Winmostar Path."
 
 msgid "デフォルトのシェルスクリプトは使えないので、Use Templateを選択しテンプレートファイルを作成します。Windows上で動作するバッチファイルの内容にします。"
 msgstr "Since the default shell script cannot be used, select :guilabel:`Use Template` to create a template file. The contents of the batch file that runs on Windows."
-
 
 msgid "下記のような他のジョブスケジューラとの操作上の違いがあります。"
 msgstr "There are operational differences from other job schedulers as follows."

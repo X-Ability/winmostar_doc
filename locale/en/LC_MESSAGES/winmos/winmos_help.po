@@ -28,7 +28,7 @@ msgid "Winmostarのインストールフォルダの下にある周期表のhtml
 msgstr "Open the html file of the period table under Winmostar installation folder."
 
 msgid "cygwin_wmを診断"
-msgstr "Check cygwin_wm..."
+msgstr "Check cygwin_wm"
 
 msgid ":guilabel:`Check Now` ボタンをクリックすると、 :ref:`cygwinwm_top` のインストールチェックを行います。本機能ではファイルの有無のみを調べます。チェックをクリアした場合は ``Successfully finished. Close this window.`` と表示されます。"
 msgstr "Click :guilabel:`Check Now` button to check the installation of :ref:`cygwinwm_top`. In this function, check only existence of file. If you clear the check, you will see ``Successfully finished. Close this window.``"
@@ -37,7 +37,7 @@ msgid "一部のセキュリティ対策ソフトの動作環境下では、cygw
 msgstr "Under the operating environment of some security countermeasure software, installation of some files in cygwin_wm may be obstructed when installing cygwin_wm, so you can check it easily with this function."
 
 msgid "ユーザ設定フォルダを開く"
-msgstr "Open Preference Folder..."
+msgstr "Open Preference Folder"
 
 msgid "Winmostarのインストールフォルダの下のUserPrefフォルダを開きます。"
 msgstr "Open the UserPref folder under the Winmostar installation folder."

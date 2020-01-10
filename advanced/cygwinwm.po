@@ -15,10 +15,10 @@ msgid "cygwin_wmは、Winmostar向けのCygwinです。本マニュアルで以�
 msgstr "cygwin_wm is Cygwin for Winmostar. It is called internally by Winmostar in the processing described in this manual as follows."
 
 msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ <install_cygwinwm>` が必要です。"
-msgstr "To use this function, you need `cygwin_wm setup <install_cygwinwm>`_."
+msgstr "To use this function, you need :ref:`cygwin_wm setup <install_cygwinwm>`."
 
 msgid "インストール方法は :ref:`cygwin_wmのセットアップ <install_cygwinwm>` に記載されています。"
-msgstr "Installation method is described in `cygwin_wm setup <install_cygwinwm>`_."
+msgstr "Installation method is described in :ref:`cygwin_wm setup <install_cygwinwm>`."
 
 msgid "一部セキュリティ対策ソフトは、cygwin_wm内の正常なモジュールを誤動作により自動で削除または妨害することがあります。"
 msgstr "Some security countermeasure software may automatically delete or interfere with normal module in cygwin_wm due to malfunction."

@@ -130,7 +130,7 @@ msgid "Solution"
 msgstr "Solution"
 
 msgid ":guilabel:`...` ボタンをクリックして溶液系のPDBファイルを指定します。 複数のリガンド分子が存在する場合は、リガンド分子を指定します。 ビューにリガンド分子表示されます。"
-msgstr "Specify PDB file of solution type by clicking :guilabel:`... ...` button. If more than one ligand molecule is present, designate the ligand molecule. Ligand molecules are displayed in the view."
+msgstr "Specify PDB file of solution type by clicking :guilabel:`...` button. If more than one ligand molecule is present, designate the ligand molecule. Ligand molecules are displayed in the view."
 
 msgid "Set Core"
 msgstr "Set Core"

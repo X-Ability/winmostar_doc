@@ -102,7 +102,7 @@ msgid "（LAMMPS向け）既に存在しているdataファイルを用いてMD�
 msgstr "(For LAMMPS) Select to execute MD calculation using the existing data file. The data file to be used must be open in the main window. After pressing the :guilabel:`Next >` button, specify the type of force field to use."
 
 msgid "キーワード設定"
-msgstr "Configure..."
+msgstr "Configure"
 
 msgid "Gromacsの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
 msgstr "Set calculation conditions of Gromacs. To set up the calculations immediately after setting :guilabel:`Run` button, once to return to the main window please press :guilabel:`OK` button."
@@ -618,7 +618,7 @@ msgid "倍精度版のGromacsのバイナリでMD計算およびプリポスト�
 msgstr "Execute MD calculation and pre-post processing with double precision version of Gromacs binary."
 
 msgid "Gromacs実行"
-msgstr "Run..."
+msgstr "Run"
 
 msgid "Gromacsを実行します。 状況に応じて実行方法が異なります。"
 msgstr "Run Gromacs. The execution method differs depending on the situation."
@@ -792,7 +792,7 @@ msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
 msgstr "The job is run through :ref:`winmosjm_top`."
 
 msgid "ログを表示 (log)"
-msgstr "Open Log File (log)..."
+msgstr "Open Log File (log)"
 
 msgid ":command:`gmx mdrun` のログファイル（ :file:`\\*_gmx_tmp\\\\gmx_tmp_mdrun.log` ）をテキストエディタで開きます。"
 msgstr "Open the log file (:file:`\\ * _ gmx_tmp \\ \\ gmx_tmp_mdrun.log`) of :command:`gmx mdrun` with a text editor."
@@ -804,7 +804,7 @@ msgid "Gromacs実行時のシェルスクリプトの標準出力（ :file:`\\*.
 msgstr "Open the standard output (:file:`\\ *. Out`) of the shell script when running Gromacs with a text editor."
 
 msgid "アニメーション"
-msgstr "Animation..."
+msgstr "Animation"
 
 msgid "groファイルとtrrファイルを選択し、MD計算のトラジェクトリをアニメーション表示します。"
 msgstr "Select the gro file and trr file, and animate the MD calculation trajectory."
@@ -816,7 +816,7 @@ msgid "アニメーション表示の操作方法は :ref:`animation_top` を参
 msgstr "For the animation display operation method, see :ref:`animation_top`."
 
 msgid "エネルギー変化"
-msgstr "Energy Plot..."
+msgstr "Energy Plot"
 
 msgid "Gromacsが出力したedrファイルを選択し、エネルギー、温度、圧力などの各種熱力学量のグラフを表示します。内部的には :command:`gmx energy` コマンドが実行されます。"
 msgstr "Select the edr file output by Gromacs and display a graph of various thermodynamic quantities such as energy, temperature and pressure. Internally the :command:`gmx energy` command is executed."
@@ -825,7 +825,7 @@ msgid "サブウィンドウの操作方法は :ref:`energyplot_top` を参照�
 msgstr "Please see :ref:`energyplot_top` for how to operate subwindow."
 
 msgid "最終構造を読み込み"
-msgstr "Import Last Coordinate (gro)..."
+msgstr "Import Last Coordinate (gro)"
 
 msgid ":file:`\\*_gmx_tmp\\\\gmx_tmp_mdrun.gro` を開きます。"
 msgstr ":file:`\\ * _ gmx_tmp \\\\ gmx_tmp_mdrun.gro`."
@@ -837,7 +837,7 @@ msgid "結果解析"
 msgstr "Analyses"
 
 msgid "動径分布関数"
-msgstr "Radial Distribution Function..."
+msgstr "Radial Distribution Function"
 
 msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、動径分布関数を表示します。 内部的には :command:`gmx rdf` コマンドが実行されます。 動径分布関数は :guilabel:`Reference Group` と :guilabel:`Target Group` の間でを計算されます。"
 msgstr "Select the trr, tpr, ndx file output by Gromacs and display the radial distribution function. Internally the :command:`gmx rdf` command is executed. The radial distribution function is calculated between :guilabel:`Reference Group` and :guilabel:`Target Group`."
@@ -915,7 +915,7 @@ msgid "グラフ描画エリアの操作方法は :ref:`chart_top` を参照し�
 msgstr "For how to operate the graph drawing area, see :ref:`chart_top`."
 
 msgid "平均二乗変位"
-msgstr "Mean Square Displacement..."
+msgstr "Mean Square Displacement"
 
 msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、平均二乗変位と自己拡散係数を表示します。 内部的には :command:`gmx msd` コマンドが実行されます。"
 msgstr "Select trr, tpr, ndx files output by Gromacs and display mean square displacement and self diffusion coefficient. Internally the :command:`gmx msd` command is executed."
@@ -939,7 +939,7 @@ msgid "散乱関数の計算に用いるスナップショットを取得する�
 msgstr "Specify the interval at which to acquire the snapshot used to calculate the scattering function. Attention is necessary because enormous calculation is necessary if it is too small."
 
 msgid "速度相関/振動スペクトル"
-msgstr "Velocity Autocorr/Vibration Spectrum..."
+msgstr "Velocity Autocorr/Vibration Spectrum"
 
 msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、速度相関関数および振動スペクトルを表示します。 内部的には :command:`gmx velacc` コマンドが実行されます。"
 msgstr "Select trr, tpr, ndx files output by Gromacs, and display speed correlation function and vibration spectrum. Internally the :command:`gmx velacc` command is executed."
@@ -957,19 +957,19 @@ msgid "振動スペクトルを出力します。"
 msgstr "Output vibration spectrum."
 
 msgid "比誘電率"
-msgstr "Static Dielectric Constant..."
+msgstr "Static Dielectric Constant"
 
 msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、比誘電率を表示します。 内部的には :command:`gmx dipoles` コマンドが実行されます。"
 msgstr "Select trr, tpr, ndx file output by Gromacs and display relative dielectric constant. Internally the :command:`gmx dipoles` command is executed."
 
 msgid "粘度"
-msgstr "Share Viscosity..."
+msgstr "Share Viscosity"
 
 msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、粘度を表示します。 内部的には :command:`gmx tcaf` コマンドが実行されます。"
 msgstr "Select the trr, tpr, ndx file output by Gromacs and display the viscosity. Internally the: command: `gmx tcaf` command is executed."
 
 msgid "密度分布"
-msgstr "Density Profile..."
+msgstr "Density Profile"
 
 msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、密度分布を表示します。 内部的には :command:`gmx density` コマンドが実行されます。"
 msgstr "Select trr, tpr, ndx files output by Gromacs and display the density distribution. Internally the: command: `gmx density` command is executed."
@@ -1005,7 +1005,7 @@ msgid "仮想プローブ粒子を挿入する位置を決める乱数の種を�
 msgstr "Specify a random seed to determine where to insert virtual probe particles."
 
 msgid "Hildebrand溶解度パラメータ"
-msgstr "Hildebrand Solubility Parameter..."
+msgstr "Hildebrand Solubility Parameter"
 
 msgid "Gromacsが出力したedr, groファイルから、Hildebrand溶解度パラメータを算出します。気相と液相それぞれの計算結果が必要です。 Hildebrand溶解度パラメータの算出に必要な凝集エネルギー、密度（比体積）、圧縮率の取得には、 :command:`gmx energy` コマンドが実行されます。"
 msgstr "Calculate the Hildebrand solubility parameter from the edr, gro file output by Gromacs. Calculation results of gas phase and liquid phase are required. Hildebrand The :command:`gmx energy` command is executed to obtain the cohesion energy, density (specific volume) and compression rate necessary for calculating the solubility parameter."
@@ -1017,7 +1017,7 @@ msgid "Gromacsが出力したedr, groファイルから、χパラメータ・DP
 msgstr "Calculate the χ parameter · DPD aij parameter from the edr, gro file output by Gromacs. It is necessary to calculate the gas phase and liquid phase of each of the two components. Internally use the value calculated by :ref:`md_gromacs_hildebrand`."
 
 msgid "RMSD"
-msgstr "Root Mean Square Deviation..."
+msgstr "Root Mean Square Deviation"
 
 msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、RMSD（主にタンパク向け）を表示します。 内部的には :command:`gmx rms` コマンドが実行されます。"
 msgstr "Select trr, tpr, ndx files output by Gromacs and display RMSD (mainly for proteins). Internally the :command:`gmx rms` command is executed."
@@ -1026,7 +1026,7 @@ msgid "ここでチェックを入れた成分について結果が出力され�
 msgstr "Results are output for the components checked here. Normally select :guilabel:`Backbone`."
 
 msgid "慣性半径"
-msgstr "Radius of Gyration..."
+msgstr "Radius of Gyration"
 
 msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、回転半径（主にタンパク向け）を表示します。 内部的には :command:`gmx gyrate` コマンドが実行されます。"
 msgstr "Select the trr, tpr, ndx file output by Gromacs and display the turning radius (mainly for proteins). Internally the :command:`gmx gyrate` command is executed."
@@ -1035,7 +1035,7 @@ msgid "ここでチェックを入れた成分について結果が出力され�
 msgstr "Results are output for the components checked here. Normally you will select Backbone."
 
 msgid "Ramachandoranプロット"
-msgstr "Ramachandoran Plot..."
+msgstr "Ramachandoran Plot"
 
 msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、各アミノ酸残基のRamachandoranプロットを表示します。 内部的には :command:`gmx rama` コマンドが実行されます。"
 msgstr "Select the trr, tpr, ndx file output by Gromacs and display the Ramachandoran plot of each amino acid residue. Internally the :command:`gmx rama` command is executed."
@@ -1047,7 +1047,7 @@ msgid "ここで選択した残基のRamachandoranプロットが出力されま
 msgstr "Here a Ramachandoran plot of the selected residue is output."
 
 msgid "トラジェクトリを編集"
-msgstr "Modify Trajectory File..."
+msgstr "Modify Trajectory File"
 
 msgid "Gromacsが出力したtrrまたはxtcファイルのトラジェクトリデータについて、間引き、回転、空間分布関数の算出などの操作を行います。 内部的には :command:`gmx trjconv` コマンドが実行されます。 :guilabel:`Execute` ボタンで処理を開始します。"
 msgstr "For trajectory data of trr or xtc file output by Gromacs, perform operations such as thinning, rotation, calculation of spatial distribution function, etc. Internally the :command:`gmx trjconv` command is executed. Start processing with :guilabel:`Execute` button."
@@ -1089,7 +1089,7 @@ msgid ":guilabel:`Postprocess` にて :guilabel:`Spatial distribution function` 
 msgstr "Specify which group to calculate SDF calculated when :guilabel:`Spatial distribution function` (SDF) is selected in :guilabel:`Postprocess`."
 
 msgid "ER法実行"
-msgstr "Start ER..."
+msgstr "Start ER"
 
 msgid "エネルギー表示(ER)法を使用して溶媒和自由エネルギーを計算します。"
 msgstr "Calculate the solvation free energy using the energy indication (ER) method."
@@ -1131,13 +1131,13 @@ msgid "自由エネルギー計算終了後、結果の表示するには :ref:`
 msgstr "After calculating the free energy calculation, to display the result, select the :ref:`md_gromacs_er_result` menu."
 
 msgid "ER法結果読み込み"
-msgstr "Import ER..."
+msgstr "Import ER"
 
 msgid ":ref:`md_gromacs_er_start` にて処理した結果を表示します。選択後、 :ref:`md_gromacs_er_start` にて指定した出力先フォルダを指定してください。 :guilabel:`Unit` にてエネルギーを表示する際の単位を指定できます。 :guilabel:`Log` ボタンを押すと、ERmodのログファイルを表示します。"
 msgstr "The results processed by :ref:`md_gromacs_er_start` are displayed. After selection, specify the output destination folder specified by :ref:`md_gromacs_er_start`. You can specify units for displaying energy in :guilabel:`Unit`. Press the :guilabel:`Log` button to display ERmod's log file."
 
 msgid "BAR法実行"
-msgstr "Start BAR..."
+msgstr "Start BAR"
 
 msgid "Bennett Acceptance Ratio(BAR)法を使用して溶媒和自由エネルギーを計算します。"
 msgstr "Calculate the solvation free energy using the Bennett Acceptance Ratio (BAR) method."
@@ -1161,34 +1161,7 @@ msgid "各λのMD計算の終了後、結果の表示するには :ref:`md_groma
 msgstr "After finishing MD calculation of each λ, to display the result, choose :ref:`md_gromacs_bar_result`."
 
 msgid "BAR法結果読み込み"
-msgstr "Import BAR..."
+msgstr "Import BAR"
 
 msgid ":ref:`md_gromacs_bar_start` にて処理した結果を表示します。メニュー選択後、:ref:`md_gromacs_bar_start` にて指定した出力先フォルダを指定してください。バックグラウンドで :command:`gmx bar` が実行され、結果が表示されます。 :guilabel:`Unit` にてエネルギーを表示する際の単位を指定できます。 :guilabel:`Log` ボタンを押すと、 :command:`gmx bar` のログファイルが表示されます。表示されるグラフは、溶質が溶媒と相互作用していない状態（λ=0）から相互作用している状態（λ=1）の間で自由エネルギーが変化する様子を示しています。"
 msgstr "The result of processing by :ref:`md_gromacs_bar_start` is displayed. After selecting the menu, please specify the output destination folder specified by :ref:`md_gromacs_bar_start`. In the background :command:`gmx bar` is executed and the result is displayed. You can specify units for displaying energy in :guilabel:`Unit`. When you press the :guilabel:`Log` button, the log file of :command:`gmx bar` is displayed. The displayed graph shows how the free energy varies between the state where the solute is not interacting with the solvent (λ = 0) and the state where the solute interacts (λ = 1)."
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

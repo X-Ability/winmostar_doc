@@ -3,7 +3,7 @@ msgid "ツールメニュー"
 msgstr "Tool menu"
 
 msgid "環境設定"
-msgstr "Preferences..."
+msgstr "Preferences"
 
 msgid "環境設定ウィンドウを開きます。 詳細は :ref:`preferences_top` を参照してください。"
 msgstr "Open the Preferences window. For details, see :ref:`preferences_top`."
@@ -24,7 +24,7 @@ msgid ":ref:`ツールバー <gui_main>` の :guilabel:`フラグメントを選
 msgstr "Delete the registation of the parts selected by :guilabel:`select a fragment` by pull down menu | repl | of :ref:`toolbar <gui_main>`."
 
 msgid "配座探索(Balloon)"
-msgstr "Conformation Search (Balloon)..."
+msgstr "Conformation Search (Balloon)"
 
 msgid "Balloonを用いて配座探索を行います。 :guilabel:`Search` ボタンをクリックすると処理が開始されます。"
 msgstr "We will search for conformation using Balloon. Click :guilabel:`Search` button to start processing."
@@ -195,7 +195,7 @@ msgid "ローカルジョブを管理するWinmostar Job Managerを起動しま�
 msgstr "Start Winmostar Job Manager that manages local jobs."
 
 msgid "リモートジョブ投入"
-msgstr "Submit Remote Job..."
+msgstr "Submit Remote Job"
 
 msgid "リモートジョブの実行、管理を行うウィンドウを開きます。詳細は :ref:`remote_submitjob` を参照してください。"
 msgstr "Opens a window for executing and managing remote jobs. For details, see :ref:`remote_submitjob`."
@@ -213,13 +213,13 @@ msgid "原子・分子系に特化した単位の変換ツールを開きます�
 msgstr "Opens a unit conversion tool specialized for atomic and molecular systems."
 
 msgid "文字列を検索"
-msgstr "Search String..."
+msgstr "Search String"
 
 msgid "各種ログファイルの中で文字列を検索し、ヒットした行をExcelまたはテキストファイルに出力します。"
 msgstr "It searches character strings in various log files and outputs the hit line to Excel or text file."
 
 msgid "batファイル連続実行"
-msgstr "Batchj Queue..."
+msgstr "Batchj Queue"
 
 msgid "GaussianとGAMESSのbatファイルを連続で実行します。"
 msgstr "We run Gaussian and GAMESS bat files in succession."
@@ -237,7 +237,7 @@ msgid ":guilabel:`Run` ボタンを押すと右側のリストに登録された
 msgstr "When you press the :guilabel:`Run` button, continuous execution of jobs registered in the list on the right starts. When you press the :guilabel:`Run at` button, continuous execution starts at the specified time. Continuous execution jobs are saved in :file:`winmos_batjob*.bat`. :guilabel:`Save` and :guilabel:` Load` button to save and load settings."
 
 msgid "分子の重ね合わせ表示"
-msgstr "Superimpose Molecules..."
+msgstr "Superimpose Molecules"
 
 msgid "複数の分子を重ね合わせて表示します。"
 msgstr "Multiple molecules are superimposed and displayed."

@@ -1,4 +1,3 @@
-
 msgid ":menuselection:`固体 --> Quantum ESPRESSO` メニュー"
 msgstr ":menuselection:`Solid --> Quantum ESPRESSO` menu"
 
@@ -9,7 +8,7 @@ msgid "Quantum ESPRESSOをインストールする方法は :ref:`install_instal
 msgstr "The way to install Quantum ESPRESSO is described in :ref:`install_install`."
 
 msgid "キーワード設定"
-msgstr "Configure..."
+msgstr "Configure"
 
 msgid "Quantum ESPRESSOの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
 msgstr "Set the calculation condition of Quantum ESPRESSO. To set up the calculations immediately after setting :guilabel:`Run` button, once to return to the main window please press :guilabel:` OK` button."
@@ -44,8 +43,8 @@ msgstr "Continue"
 msgid "メイン画面に読み込まれている、直前に実行されたQEのジョブを継続します。outdirは直前に実行されたジョブのoutdirに設定されます。"
 msgstr "Continue the job of QE that was loaded on the main screen and executed immediately. outdir is set to outdir of the job executed immediately before."
 
-msgid "Select..."
-msgstr "Select..."
+msgid "Select"
+msgstr "Select"
 
 msgid "開いたダイアログで指定したフォルダを出力先に指定し、そのフォルダのデータからジョブを継続します。outdirはここで指定したものに設定されます。"
 msgstr "Specify the folder specified in the opened dialog as the output destination and continue the job from the data of that folder. Outdir will be set to what you specify here."
@@ -458,8 +457,8 @@ msgstr "the fcp_m"
 msgid "化学ポテンシャル一定計算でのフェルミエネルギーの目標値を設定します。"
 msgstr "Set the target value of Fermi energy in constant calculation of chemical potential."
 
-msgid "Enter Relative Potential..."
-msgstr "Enter Relative Potential..."
+msgid "Enter Relative Potential"
+msgstr "Enter Relative Potential"
 
 msgid "Target Fermi Energyの入力をサポートします。 まず、電圧0での計算のログファイルを指定し、電圧0でのフェルミエネルギーを取得します。 次に、印加電圧を入力します。 これら2つの情報から、Target Fermi Energyを算出します。"
 msgstr "Supports input of Target Fermi Energy. First, specify the log file for calculation at voltage 0 and acquire Fermi energy at voltage 0. Next, input the applied voltage. From these two pieces of information, calculate Target Fermi Energy."
@@ -693,7 +692,7 @@ msgid "UserPref/qe_pseudo_priority.txtを開きます。存在しない場合は
 msgstr "Open UserPref/qe_pseudo_priority.txt. If it does not exist, it is copied from wmx/qe_pseudo_priority.txt."
 
 msgid "実行"
-msgstr "Run..."
+msgstr "Run"
 
 msgid "Quantum ESPRESSOを実行します。 状況に応じて実行方法が異なります。"
 msgstr "Run Quantum ESPRESSO. The execution method differs depending on the situation."
@@ -843,7 +842,7 @@ msgid "ログファイルをテキストエディタで開きます。"
 msgstr "Open the log file with a text editor."
 
 msgid "アニメーション"
-msgstr "Animation (pwout, out)..."
+msgstr "Animation (pwout, out)"
 
 msgid "構造最適化/BOMD(pwout)"
 msgstr "Optimization, BOMD(pwout, out)"
@@ -870,7 +869,7 @@ msgid "エネルギー変化"
 msgstr "Energy Plot"
 
 msgid "SCFエネルギー変化(pwout)"
-msgstr "SCF Energy Change (pwout)..."
+msgstr "SCF Energy Change (pwout)"
 
 msgid "ログファイルを選択し、total energyのグラフを表示します。"
 msgstr "Select the log file and display a graph of total energy."
@@ -894,7 +893,7 @@ msgid "グラフ描画エリアの操作方法は :ref:`chart_top` を参照し�
 msgstr "For how to operate the graph drawing area, see :ref:`chart_top`."
 
 msgid "CPMDエネルギー変化(evp)"
-msgstr "CPMD Energy Plot (evp)..."
+msgstr "CPMD Energy Plot (evp)"
 
 msgid "CPMDのevpファイルを指定し、各種エネルギーの時間変化を表示します。"
 msgstr "Specify the evp file of CPMD and display time variation of various energies."
@@ -903,7 +902,7 @@ msgid "結果解析"
 msgstr "Analyses"
 
 msgid "電子密度"
-msgstr "Electron Density..."
+msgstr "Electron Density"
 
 msgid "作業ディレクトリ(outdir)を指定し、等電子密度面を表示します。"
 msgstr "Specify working directory (outdir) and display isoelectric density surface."
@@ -915,7 +914,7 @@ msgid "サブウィンドウの操作方法は :ref:`cube_top` を参照して�
 msgstr "Refer to :ref:`cube_top` for how to operate subwindow."
 
 msgid "Lowdin電荷"
-msgstr "Lowdin Charge..."
+msgstr "Lowdin Charge"
 
 msgid "作業ディレクトリ(outdir)を指定し、点電荷を算出・表示します。"
 msgstr "Specify the working directory (outdir), calculate and display the point charge."
@@ -924,7 +923,7 @@ msgid "バックグラウンドでprojwfc.xが流れます。"
 msgstr "Projwfc.x flows in the background."
 
 msgid "ポテンシャルエネルギー分布"
-msgstr "Potential Energy Distribution..."
+msgstr "Potential Energy Distribution"
 
 msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、z軸方向のポテンシャルエネルギー分布を表示します。"
 msgstr "Specify the working directory (outdir) and log file for SCF calculation and display the potential energy distribution in the z-axis direction."
@@ -933,7 +932,7 @@ msgid "SCF計算のログからはフェルミエネルギーを取得します�
 msgstr "Fermi energy is acquired from the log of SCF calculation. The difference between the Fermi energy and the maximum value of the potential energy distribution is displayed as an estimate of the work function. Pp.x and average.x flow in the background."
 
 msgid "バンド構造"
-msgstr "Band Structure..."
+msgstr "Band Structure"
 
 msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、バンド構造を表示します。"
 msgstr "Specify the working directory (outdir) and SCF calculation log file and display the band structure."
@@ -942,7 +941,7 @@ msgid "事前にcalculation=bandsで計算が終了している必要があり�
 msgstr "Calculation must be completed with calculation = bands in advance. Fermi energy is acquired from the log file of SCF calculation. Bands.x flows in the background."
 
 msgid "状態密度"
-msgstr "Density od States..."
+msgstr "Density od States"
 
 msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、状態密度を表示します。"
 msgstr "Specify the working directory (outdir) and the SCF calculation log file and display the state density."
@@ -951,7 +950,7 @@ msgid "SCF計算のログファイルからはフェルミエネルギーを取�
 msgstr "Fermi energy is acquired from the log file of SCF calculation. dos.x flows in the background."
 
 msgid "部分状態密度"
-msgstr "Partial DOS..."
+msgstr "Partial DOS"
 
 msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、部分状態密度(PDOS)を表示します。"
 msgstr "Specify the working directory (outdir) and the SCF calculation log file and display partial state density (PDOS)."
@@ -960,7 +959,7 @@ msgid "SCF計算のログからはフェルミエネルギーを取得します�
 msgstr "Fermi energy is acquired from the log of SCF calculation. Projwfc.x flows in the background."
 
 msgid "フェルミ面"
-msgstr "Fermi Surface..."
+msgstr "Fermi Surface"
 
 msgid "SCF計算とbands計算のログファイルを指定し、フェルミ面を表示します。"
 msgstr "Specify the log file for SCF calculation and bands calculation and display the Fermi surface."
@@ -969,7 +968,7 @@ msgid "フェルミ面の表示には `FermiSurfer <http://fermisurfer.osdn.jp/>
 msgstr "For Fermi surface display, use `FermiSurfer <http://fermisurfer.osdn.jp/>`. Specify the k point division number for bands calculation in :guilabel:`# of K Points` and press the :guilabel:`Calc` button to display the Fermi surface."
 
 msgid "誘電関数"
-msgstr "Dielectric Function..."
+msgstr "Dielectric Function"
 
 msgid "誘電関数計算後の作業ディレクトリを指定し、誘電関数を表示します。"
 msgstr "Specify the working directory after calculating the dielectric function and display the dielectric function."
@@ -981,7 +980,7 @@ msgid "取得する誘電関数の方向を指定します。"
 msgstr "Specify the direction of the dielectric function to be acquired."
 
 msgid "IR/ラマンスペクトル"
-msgstr "IR/Raman..."
+msgstr "IR/Raman"
 
 msgid "フォノン計算後の作業ディレクトリとSCF計算のログを指定し、IRおよびラマンスペクトルを表示します。"
 msgstr "Specify the working directory after phonon calculation and log of SCF calculation and display IR and Raman spectrum."
@@ -990,7 +989,7 @@ msgid "サブウィンドウの操作方法は :ref:`ir_top` を参照してく�
 msgstr "Refer to :ref:`ir_top` for how to operate the subwindow."
 
 msgid "フォノン分散曲線"
-msgstr "Phonon Band Structure..."
+msgstr "Phonon Band Structure"
 
 msgid "フォノン分散計算後の作業ディレクトリを指定し、フォノン分散曲線を表示します。"
 msgstr "Phonon Specifies the working directory after the variance calculation and displays the phonon dispersion curve."
@@ -1008,7 +1007,7 @@ msgid "取得する分散曲線のパスを指定します。 各行には、x, 
 msgstr "Specify the path of the dispersion curve to be acquired. In each line, describe the x, y, z components in units of 2 pi / a, and next to it describe the number of divisions up to the next point. (Enter a total of 4 columns with a space separator)"
 
 msgid "フォノン状態密度"
-msgstr "Phonon Density of States..."
+msgstr "Phonon Density of States"
 
 msgid "フォノン分散計算後の作業ディレクトリを指定し、フォノン状態密度を表示します。"
 msgstr "Phonon Specifies the working directory after distributed calculation and displays the phonon state density."
@@ -1017,7 +1016,7 @@ msgid "フォノンDOS計算時のK点の分割数を指定します。"
 msgstr "Phonon DOS Specifies the division number of K points during DOS calculation."
 
 msgid "電荷/エネルギー分布 (esm1)"
-msgstr "Charge/Energy Distribution (esm1)..."
+msgstr "Charge/Energy Distribution (esm1)"
 
 msgid "ESM計算（assume_isolated=esm）で出力されるesm1ファイルを指定し、z軸方向の電荷またはエネルギーの分布を表示します。"
 msgstr "Specify the esm1 file output by ESM calculation (assume_isolated = esm) and display the charge or energy distribution in the z-axis direction."
@@ -1034,14 +1033,14 @@ msgstr "Plot the change in RMS of the 1D-RISM calculation performed at the begin
 msgid "グラフを表示します。"
 msgstr "Displays a graph."
 
-msgid "3D/ESM-RISM RMS変化 (pwout)"
-msgstr "3D/ESM-RISM RMS Change (pwout)"
+msgid "3D/Laue-RISM RMS変化 (pwout)"
+msgstr "3D/Laue-RISM RMS Change (pwout)"
 
 msgid "RISM計算（trism=.True.）実行時の、最後のSCFステップにおける3D-RISMまたはESM-RISM計算のRMSの変化をプロットします。"
 msgstr "Plot the change of RMS of 3D-RISM or ESM-RISM calculation in the last SCF step when RISM calculation (trism = .True.) is executed."
 
 msgid "溶媒原子間相関関数 (1drism)"
-msgstr "Solvent Pair Distribution Func. (1drism)..."
+msgstr "Solvent Pair Distribution Func. (1drism)"
 
 msgid "RISM計算（trism=.True.）で出力される1drismファイルを用いてRISM領域の原子間相関関数(動径分布関数)を算出します。"
 msgstr "Interatomic correlation function (radial distribution function) of RISM region is calculated using 1 drism file outputted by RISM calculation (trism =. True.)."
@@ -1053,13 +1052,13 @@ msgid "溶媒分子間の化学ポテンシャルをcsv形式で出力します�
 msgstr "The chemical potential between solvent molecules is output in csv format."
 
 msgid "溶媒密度/エネルギー分布(rism1)"
-msgstr "Solvent Charge/Energy Profile (rism1)..."
+msgstr "Solvent Charge/Energy Profile (rism1)"
 
 msgid "RISM計算（trism=.True.）で出力されるrism1ファイルを用いて、DFT領域-RISM領域が接する方向（界面垂直方向）の溶媒密度・エネルギー・電荷を算出します。"
 msgstr "Calculate the solvent density, energy, and charge in the direction in which the DFT region-RISM region contacts (vertical direction of the interface) by using the rism1 file output by RISM calculation (trism = .True.)."
 
 msgid "MOLファイルを作成"
-msgstr "Generate MOL File..."
+msgstr "Generate MOL File"
 
 msgid "RISM計算（trism=.True.）で使用される溶媒のMOLファイルを作成します。溶媒分子を1分子メインウィンドウに作成した上で本機能を呼び出してください。LAMMPSのdata形式を入力にする際には :guilabel:`Use parameters in displayed file` にチェックを入れてください。"
 msgstr "Create a MOL file of the solvent used in the RISM calculation (trism = .True.). Please call this function after creating one molecule in the main window. When entering LAMMPS data format, please check :guilabel:`Use parameters in displayed file`."
@@ -1080,7 +1079,7 @@ msgid "neb.xを用いてNEB計算を実行します。"
 msgstr "Perform NEB calculation using neb.x."
 
 msgid "遷移状態"
-msgstr "Transition Path ..."
+msgstr "Transition Path"
 
 msgid "NEB計算後のファイルを指定し、反応座標に沿ったエネルギーと原子構造の変化を表示します。"
 msgstr "Specify the file after NEB calculation and display the change in energy and atomic structure along the reaction coordinates."
@@ -1190,8 +1189,8 @@ msgstr ".trace file"
 msgid ":file:`mg2si_nscf.trace`"
 msgstr ":file:`mg2si_nscf.trace`"
 
-msgid "BoltzTraPで計算された熱電特性のエネルギー、温度依存性に関する情報が出力されたファイルです。 BoltzTraP結果読み込み...メニューではこのファイルを読み込み可視化を行います。"
-msgstr "This file contains information on energy and temperature dependence of thermoelectric properties calculated by BoltzTraP. The BoltzTraP Import Result ... menu reads this file and performs visualization."
+msgid "BoltzTraPで計算された熱電特性のエネルギー、温度依存性に関する情報が出力されたファイルです。 BoltzTraP結果読み込みメニューではこのファイルを読み込み可視化を行います。"
+msgstr "This file contains information on energy and temperature dependence of thermoelectric properties calculated by BoltzTraP. The BoltzTraP Import Result menu reads this file and performs visualization."
 
 msgid ":guilabel:`Cancel` ボタン"
 msgstr ":guilabel:`Cancel` button"
@@ -1199,25 +1198,25 @@ msgstr ":guilabel:`Cancel` button"
 msgid "何もせずにキーワード設定・実行ウィンドウを閉じます。"
 msgstr "Close Configure & Run window without doing anything."
 
-msgid "結果読み込み..."
-msgstr "Import Result..."
+msgid "結果読み込み"
+msgstr "Import Result"
 
 msgid "BoltzTraPによって計算された下記の熱電特性を読み込み、可視化を行います。"
 msgstr "The following thermoelectric properties calculated by BoltzTraP are read and visualized."
 
-msgid "ゼーベック係数（Seebek coefficient）、"
-msgstr "Seebeck coefficient,"
+msgid "ゼーベック係数(Seebek coefficient)"
+msgstr "Seebeck coefficient"
 
-msgid "電気伝導度 (Electrical conductivity),"
-msgstr "Electrical conductivity,"
+msgid "電気伝導度(Electrical conductivity)"
+msgstr "Electrical conductivity"
 
-msgid "熱伝導率(Electrical thermal conductivity),"
+msgid "熱伝導率(Electrical thermal conductivity)"
 msgstr "Electrical thermal conductivity"
 
 msgid "出力因子(Power factor)"
 msgstr "Power factor"
 
-msgid "性能指数（Figure of merit）"
+msgid "性能指数(Figure of merit)"
 msgstr "Figure of merit"
 
 msgid "各温度における特性値のエネルギー依存性を表示したい場合はコンボボックスからT [K]を選択し、リストから目的の温度を選択します。 各エネルギーにおける特性値の温度依存性を表示したい場合はコンボボックスからE-Ef [eV]を選択し、リストから目的のエネルギーを選択します。"
@@ -1325,14 +1324,14 @@ msgstr "Keyword information other than the structure information specified in si
 msgid "supercellファイル"
 msgstr "supercell file"
 
-msgid ":file:`supercell-＊.in`"
+msgid ":file:`supercell-*.in`"
 msgstr ":file:`supercell-*.in`"
 
 msgid "Phonopyにより生成されたスーパーセルの情報がQuantum ESPRESSOのインプットファイル形式で記載されています。"
 msgstr "Supercell information generated by Phonopy is described in Quantum ESPRESSO input file format."
 
-msgid "スーパーセルのパターンは複数生成されるため、＊の部分には1, 2, などの数字が入ります。"
-msgstr "Since multiple supercell patterns are generated, * is replaced by numbers such as 1, 2, and so on."
+msgid "スーパーセルのパターンは複数生成されるため、\\*の部分には1, 2, などの数字が入ります。"
+msgstr "Since multiple supercell patterns are generated, \\* is replaced by numbers such as 1, 2, and so on."
 
 msgid "tmpファイル"
 msgstr "tmp file"
@@ -1343,8 +1342,8 @@ msgstr ":file:`tmp-*.in`"
 msgid "header.inとsupercell-\\*.inを結合したファイルです。"
 msgstr "Combines header.in and supercell-\\ *. in."
 
-msgid "confファイル編集..."
-msgstr "Edit .conf File..."
+msgid "confファイル編集"
+msgstr "Edit .conf File"
 
 msgid "confファイルをテキストエディタで開きます。 キーワード設定画面で設定したキーワードを編集したい場合に用います。"
 msgstr "Open the conf file with a text editor. Use when you want to edit the keywords set on the Configure window."
@@ -1355,7 +1354,7 @@ msgstr "Run QE for Phonopy"
 msgid "キーワード設定・実行画面で生成された、全てのスーパーセルに対し、Quantum ESPRESSOを実行します。 このメニューを用いた場合、Quantum ESPRESSOはローカル環境で実行されます。"
 msgstr "Execute Quantum ESPRESSO for all super cells generated in Configure & Run window. Quantum ESPRESSO will run in the local environment."
 
-msgid "Phonopy実行..."
+msgid "Phonopy実行"
 msgstr "Run Phonopy"
 
 msgid "Phonopyのポスト処理を実行します。"
@@ -1397,19 +1396,13 @@ msgstr ":file:`thermal_properties.yaml`"
 msgid "Phonopyのポスト処理で計算された熱物性の情報が出力されています。"
 msgstr "Information on thermophysical properties calculated by Phonopy post processing is output."
 
-msgid "バンド構造..."
-msgstr "Band Structure..."
-
 msgid "作業フォルダに含まれるband.csvをもとにバンド構造を表示します。"
 msgstr "Displays the band structure based on band.csv included in the working folder."
-
-msgid "状態密度..."
-msgstr "Density of States..."
 
 msgid "作業フォルダに含まれるtoal_dos.csvをもとに状態密度を表示します。"
 msgstr "Displays the density of states based on toal_dos.csv included in the working folder."
 
-msgid "熱物性..."
+msgid "熱物性"
 msgstr "Thermophysical properties"
 
 msgid "作業フォルダに含まれるthermal_properties.csvをもとに熱物性を表示します。"

@@ -9,7 +9,7 @@ msgid "NWChemを利用するためには別途NWChemをインストールする�
 msgstr "In order to use NWChem, you need to install NWChem separately. The method of installing NWChem is described in :ref:`install_install`."
 
 msgid "キーワード設定"
-msgstr "Configure..."
+msgstr "Configure"
 
 msgid "NWChemの計算条件を設定します。設定後、すぐに計算を実行する場合は :guilabel:`Run` ボタン、一旦メインウィンドウに戻る場合は :guilabel:`OK` ボタンを押してください。"
 msgstr "Set calculation conditions of NWChem. To set up the calculations immediately after setting :guilabel:`Run` button, once to return to the main window please press :guilabel:`OK` button."
@@ -216,13 +216,13 @@ msgid "その他の入力要素を記述します。"
 msgstr "Describe other input elements."
 
 msgid "キーワード読み込み"
-msgstr "Import Keywords..."
+msgstr "Import Keywords"
 
 msgid "既存のNWChemの入力ファイルから、キーワード（計算条件）のみを読み込みます。"
 msgstr "Only the keyword (calculation condition) is read from the existing NWChem input file."
 
 msgid "実行"
-msgstr "Run..."
+msgstr "Run"
 
 msgid "メインウィンドウでNWChemの入力ファイルが開かれている場合は、そのファイルを使ってNWChemを実行します。 開かれていない場合は、NWChemの入力ファイルを保存した上でNWChemを実行します。"
 msgstr "If NWChem&#39;s input file is open in the main window, use NWChem to execute the file. If it is not open, save the input file of NWChem and run NWChem."
@@ -282,7 +282,7 @@ msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
 msgstr "The job is run through :ref:`winmosjm_top`."
 
 msgid "ログを表示 (out)"
-msgstr "Open Log File (out)..."
+msgstr "Open Log File (out)"
 
 msgid "outファイルをテキストエディタで開きます。"
 msgstr "Open the out file in a text editor."
@@ -309,7 +309,7 @@ msgid "結果解析"
 msgstr "Analyses"
 
 msgid "分子軌道, UV-Vis, 電荷, NMR"
-msgstr "MO, UV-Vis, Charge & NMR..."
+msgstr "MO, UV-Vis, Charge & NMR"
 
 msgid "outファイルの情報から分子軌道, UV-Vis, 電荷, NMRの情報を取得し表示します。"
 msgstr "Obtain information on molecular orbital, UV-Vis, charge, NMR from theout file information and display it."
@@ -321,7 +321,7 @@ msgid "サブウィンドウの操作方法は :ref:`mo_top` , :ref:`cube_top` ,
 msgstr "Refer to :ref:`mo_top`, :ref:`cube_top`, :ref:`uvvis_top`, :ref:`nmr_top` for how to operate the subwindow."
 
 msgid "IR/ラマンスペクトル"
-msgstr "Frequencies/Raman..."
+msgstr "Frequencies/Raman"
 
 msgid "outファイルを選択し、振動スペクトル（IRまたはラマンスペクトル）を表示します。"
 msgstr "out Select the file and display the vibration spectrum (IR or Raman spectrum)."

@@ -88,22 +88,3 @@ msgstr "Use parameters written in file opened on main window"
 
 msgid "（LAMMPS向け）既に存在しているdataファイルを用いてMD計算を実行する場合に選択します。メインウィンドウには使用するdataファイルを開いておく必要があります。 :guilabel:`Next >` ボタンを押した後に、使用する力場の種類を指定します。"
 msgstr "(For LAMMPS) Select to execute MD calculation using the existing data file. The data file to be used must be open in the main window. After pressing :guilabel:`Next >`  button, specify the type of force field to use."
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

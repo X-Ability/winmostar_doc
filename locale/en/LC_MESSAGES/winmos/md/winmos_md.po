@@ -9,7 +9,7 @@ msgid "MDメニューの機能を利用するにはMDパックが必要です。
 msgstr "MD pack is necessary to use the function of MD menu. Also, with almost every feature :ref:`cygwin_wm <cygwinwm_top>` is required."
 
 msgid "溶媒を配置/セルを構築"
-msgstr "Solvent/Build Cell..."
+msgstr "Solvent/Build Cell"
 
 msgid "本機能は主に以下の2つの目的で使用されます。"
 msgstr "This function is mainly used for the following two purposes."
@@ -138,7 +138,7 @@ msgid "このウィンドウで設定された内容に従いシミュレーシ�
 msgstr "Create a simulation cell according to the contents set in this window."
 
 msgid "分子を挿入"
-msgstr "Insert Molecules..."
+msgstr "Insert Molecules"
 
 msgid "mol2形式で保存された分子を複数個、メインウィンドウに表示されている構造に追加することができます。 シミュレーションセルが作成されていない場合は、事前に :ref:`edit_createcell` または :ref:`md_solvate_buildcell` を使用して作成してください。"
 msgstr "You can add multiple molecules stored in mol 2 format to the structure displayed in the main window. If no simulation cell has been created, create it with :ref:`edit_createcell` or :ref:`md_solvate_buildcell` beforehand."
@@ -192,13 +192,13 @@ msgid "手動で電荷を割り当て"
 msgstr "Assign Charges Manually"
 
 msgid "Acpypeを使用"
-msgstr "By Acpype..."
+msgstr "By Acpype"
 
 msgid "メインウィンドウに1分子だけ表示されている状態で本機能を呼び出すと、AM1-BCCまたはGasteigerの方法で点電荷を各原子に対して割り当てます。 内部的にはCygwin上のAcpypeプログラムを使用しています。 溶質分子の電荷割り当てや、 :ref:`md_solvate_buildcell` または :ref:`md_insert_molecules` にて挿入するmol2形式のファイルの作成時に使用します。 中性でない多原子イオンに電荷を割り振る場合は、RESP電荷または本機能を利用する必要があります。 多原子イオンの場合は、 :guilabel:`Total charge [e]` に電荷を入力します。 現在のファイル名の末尾に :file:`_acpype_tmp` を付けた作業用フォルダが作成され、その中で処理が行われます。 作業用フォルダ以下の :file:`temp.sh`、 :file:`temp.log` に詳細が記載されます。 作業用フォルダ以下の :file:`input.acpype\\input_GMX.itp` に記された電荷の値が結果となります。"
 msgstr "Calling this function while only one molecule is displayed in the main window allocates point charge to each atom by AM1 - BCC or Gasteiger method. Internally I use the Acpype program on Cygwin. It is used when creating a file in mol 2 format to be inserted by charge allocation of solute molecules or :ref:`md_solvate_buildcell` or :ref:`md_insert_molecules`. When allocating charge to non-neutral polyatomic ions, it is necessary to use RESP charge or this function. For polyatomic ions, enter the charge into :guilabel:`Total charge [e]`. A working folder with the :file:`_acpype_tmp` appended at the end of the current file name is created and processed in that. Details are listed on  :file:`temp.sh`, :file:`temp.log` under working folder. The value of the charge written in the working folder below :file:`input.acpype\\input_GMX.itp` will be the result."
 
 msgid "マニュアル入力"
-msgstr "By Manual Entry..."
+msgstr "By Manual Entry"
 
 msgid "メインウィンドウに表示されている分子（結晶）構造に対し、原子種毎に点電荷の値を直接指定することができます。主に固体系向けの機能です。"
 msgstr "You can directly specify the point charge value for each atom type for the molecular (crystal) structure displayed in the main window. It is mainly for solid system."
@@ -216,7 +216,7 @@ msgid ":ref:`md_interface_top` を参照してください。"
 msgstr "See :ref:`md_interface_top`."
 
 msgid "水をイオンに置換"
-msgstr "Generate Ions..."
+msgstr "Generate Ions"
 
 msgid "水分子を単原子イオンに置換します。あらかじめ系内に水分子を配置しておく必要があります。水を配置するためには :ref:`md_solvate_buildcell` を使用してください。主にタンパク質系において系内の電荷を中和するために使われます。内部ではCygwin上で :command:`gmx genion` を実行します。"
 msgstr "Replace water molecules with monoatomic ions. It is necessary to arrange water molecules in the system in advance. To place water, use :ref:`md_solvate_buildcell`. It is mainly used to neutralize the charge in the system in protein systems. Internally run :command:`gmx genion` on Cygwin."

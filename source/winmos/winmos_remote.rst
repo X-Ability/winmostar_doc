@@ -56,7 +56,7 @@ TSUBAME3.0を利用する場合はSGEを選択する。
 
 .. _remote_procedure_addprofile:
 
-4. :guilabel:`Submit Remote Job` ウィンドウにおいて、すでに設定が済んでいる :guilabel:`Profile` が選択されているときは、 :ref:`こちら <remote_procedure_sendsub>` に進みます。されていない場合は、 :menuselection:`Manage... --> Add Profile...` を選択します。
+4. :guilabel:`Submit Remote Job` ウィンドウにおいて、すでに設定が済んでいる :guilabel:`Profile` が選択されているときは、 :ref:`こちら <remote_procedure_sendsub>` に進みます。されていない場合は、 :menuselection:`Manage --> Add Profile` を選択します。
 
    |fig_remote_addprofile|
 
@@ -123,7 +123,7 @@ TSUBAME3.0を利用する場合はSGEを選択する。
 
 9. :guilabel:`Submit Remote Job` ウィンドウで、 :menuselection:`Queue --> Show Usage of Each Queues` メニューをクリックし、ウィンドウ下部にリモートサーバの情報が表示されることを確認します。
 
-   正常に表示されない場合は、 :menuselection:`Manage... --> Edit Profile...` で設定を見直します。
+   正常に表示されない場合は、 :menuselection:`Manage --> Edit Profile` で設定を見直します。
 
 .. _remote_procedure_sendsub:
 

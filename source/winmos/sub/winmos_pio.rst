@@ -5,14 +5,14 @@ PIO解析ウィンドウ
 
    GAMESSまたはGaussianによるPIO (Paired Interacting Orbitals) 解析の設定と実行を行います。
    
-   (1) Click the fragment...
+   (1) Click the fragment
    
       Set
          フラグメントを指定します。Aをクリックして選択した後Bをクリックし、[Set]ボタンをクリックします。
       Reset
          フラグメントの設定を解除します。
          
-   (2) Save ab.inp ...
+   (2) Save ab.inp
    
       Save
          合体系A-Bおよび孤立系A、B用のデータファイルを出力し保存します。
