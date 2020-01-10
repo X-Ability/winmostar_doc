@@ -1,5 +1,3 @@
-
-
 msgid "初期構造の作成方法"
 msgstr "Structure Building"
 
@@ -9,13 +7,11 @@ msgstr "Modelling a single molecule"
 msgid "以下のいずれかの方法を選択する。"
 msgstr "Select one of the following methods."
 
-
 msgid "各種形式のファイルを :ref:`file_open` またはメインウィンドウへのドラッグアンドドロップで開く。"
 msgstr "Open a various format file at :ref:`file_open` or drag and drop to the main window."
 
 msgid "SMILES形式の文字列を :menuselection:`ファイル --> インポート -->` :ref:`file_import_smiles` から読み込む。"
 msgstr "Read SMILES format string from :menuselection:`File --> Import -->` :ref:`file_import_smiles`."
-
 
 msgid "分子構造をメインウィンドウ上で構築する。"
 msgstr "Build molecular structure from scratch on the main window."
@@ -54,7 +50,7 @@ msgid "ポリマーの場合は、直接分子全体をモデリングしても�
 msgstr "For polymers, the entire molecule can be modeled directly, but it is more efficient to use :ref:`md_polymer_top`."
 
 msgid "結晶構造、スラブモデル、クラスターモデルの作成には、それぞれ :ref:`solid_crystalbuilder` , :ref:`solid_cleaveplane` , :ref:`solid_insertvacuum` , :ref:`solid_buildcluster` を実行する。"
-msgstr "To create the crystal structure, slab model or cluster model, execute :ref:`solid_crystalbuilder`, :ref:`solid_cleaveplane`, :ref:`solid_insertvacuum` or : ref:`solid_buildcluster`."
+msgstr "To create the crystal structure, slab model or cluster model, execute :ref:`solid_crystalbuilder`, :ref:`solid_cleaveplane`, :ref:`solid_insertvacuum` or :ref:`solid_buildcluster`."
 
 msgid "点電荷の割り当て"
 msgstr "Assigning point charges"
@@ -64,7 +60,6 @@ msgstr "For MD simulation of organic compounds, point charge must be set by the 
 
 msgid "デフォルトのAM1/BCC電荷を用いる場合は明示的に電荷を設定する必要がない。 また、水分子には選択した水モデルの電荷の値が無条件で適用される。"
 msgstr "When using the default AM1/BCC charge, it is not necessary to explicitly set charge. Also, for water molecules, the charge value of the selected water model is automatically applied."
-
 
 msgid "AM1/BCC以外の電荷を使用する場合は、 :ref:`create_mole` の方法で1分子を作成した後、以下の方法で電荷を割り当てたうえで、各種キーワード設定ウィンドウの :guilabel:`Force Field` タブで :guilabel:`Use user-defined charge` を選択する。割り当てた電荷は :menuselection:`表示 -->` :ref:`view_labels_charges` を変更することで表示し確認することができる。"
 msgstr "When using charges other than AM1/BCC, create one molecule by the procedures in :ref:`create_mole`, assign electric charge in the following way, and then check :guilabel:`Use user-defined charge` at :guilabel:`Force Field` tab of configure window. The assigned charge can be displayed and confirmed by changing :menuselection:`View -->` :ref:`view_labels_charges`."
@@ -84,13 +79,11 @@ msgstr "Assign RESP charge."
 msgid ":menuselection:`QM --> GAMESS --> キーワード設定 --> Easy Setup` にて、計算手法、基底関数を選択し、 :guilabel:`Method` に :guilabel:`ESP/RESP` を選択する。イオンの場合は :guilabel:`ICHARG` に電荷を入力する。"
 msgstr "Go to :menuselection:`QM --> GAMESS --> Configure --> Easy Setup`, check :guilabel:`ESP / RESP` and the other settings. In the case of ions, enter the charge into :guilabel:`ICHARG`."
 
-
 msgid ":guilabel:`Easy Setup` ウィンドウを :guilabel:`Close` ボタンで閉じ、 :guilabel:`GAMESS Setup` ウィンドウで :guilabel:`Run` ボタンを押し計算を実行する。"
 msgstr "Close the :guilabel:`Easy Setup` window with the :guilabel:`Close` button and press the:guilabel:`Run` button in the configure window to execute the calculation."
 
 msgid "GAMESSの計算が終了したら :menuselection:`QM --> GAMESS -->` :ref:`qm_gamess_resp` にてRESP電荷を取得する。"
 msgstr "When GAMESS calculation is finished, obtain RESP charge with :menuselection:`QM --> GAMESS -->` :ref:`qm_gamess_resp`."
-
 
 msgid "MOPAC, GAMESS, Gaussian, NWChem, Quantum ESPRESSOのPopulation解析結果の電荷をメインウィンドウに読み込む。"
 msgstr "Read the charge calculated from the population analysis, e.g. Mulliken or Lowdin charge, for into the main window."
@@ -100,7 +93,6 @@ msgstr "In the case of MOPAC, read in the procedure of :ref:`semiempirical_mopac
 
 msgid "Quantum ESPRESSOの場合は :menuselection:`固体 --> Quantum ESPRESSO --> Lowdin電荷` の手順で読み込む。"
 msgstr "For Quantum ESPRESSO, use :menuselection:`Solid --> Quantum ESPRESSO --> Lowdin Charge`."
-
 
 msgid "それ以外の場合は、ログファイルをメインウィンドウで開く。"
 msgstr "Otherwise, open the log file in the main window."
@@ -114,8 +106,8 @@ msgstr "Use :menuselection:`MD --> Assign Charge -->` :ref:`md_charge_manual`."
 msgid "選択した原子に値を入力して割り当てる。"
 msgstr "Enter a value for the selected atom."
 
-msgid "電荷を入力したい原子を :ref:`分子表示エリア <gui_main>` で :ref:`グループ選択 <gui_mouse>` し、 :ref:`edit_atom` :menuselection:`--> 電荷/スピン変更` から電荷を入力する。"
-msgstr ":ref:`Select <gui_mouse>` the atoms for which charge is desired, and go to :ref:`edit_atom` :menuselection:`--> Charge/Spin Density`."
+msgid "電荷を入力したい原子を :ref:`分子表示エリア <gui_main>` で :ref:`グループ選択 <gui_mouse>` し、 :menuselection:`編集 --> 属性を変更 -->` :ref:`edit_property_charge` から電荷を入力する。"
+msgstr ":ref:`Group select <gui_mouse>` atoms for which you want to input a charge in the :ref:`molecule display area <gui_main>`, and then input a charge from :menuselection:`Edit --> Change Atom Property -->` :ref:`edit_property_charge`."
 
 msgid "ポリマーの場合は、直接分子全体のAM1/BCC電荷、RESP電荷などを計算すると時間が掛かるため、 :ref:`md_polymer_top` の方法を使う。"
 msgstr "In the case of polymers, it takes time to directly calculate the AM1/BCC or RESP charge of the whole molecule. So use :ref:`md_polymer_top`."
@@ -147,7 +139,6 @@ msgstr "Procedures 1 to 3 are performed for all molecular species to be calculat
 msgid ":ref:`md_solvate_buildcell` を選択する。"
 msgstr "Select :ref:`md_solvate_buildcell`."
 
-
 msgid "系内にどの分子を何分子入れるか決める。 メインウィンドウに表示された分子は :guilabel:`Add Displayed Molecule` , 水分子の場合は :guilabel:`Add Water` をクリックする。 それ以外の場合は :guilabel:`Add mol2 File` をクリックし1.から4.の手順で保存したmol2ファイルを選択する。"
 msgstr "Determine which molecules to put in the system. For the molecules displayed in the main window, press :guilabel:`Add Displayed Molecule`. For water molecules, press :guilabel:`Add Water`. For the other cases, press :guilabel:`Add mol2 File`."
 
@@ -156,7 +147,6 @@ msgstr "Enter the number of molecules to be inserted into the system."
 
 msgid "6.、7.の手順を計算したい全ての分子種に対して行う。"
 msgstr "Perform 6 and 7 for all molecular species you want to calculate."
-
 
 msgid ":guilabel:`Solvate/Build MD Cell` ウィンドウ下部の :guilabel:`Simulation Cell` にてシステムサイズを設定し、 :guilabel:`Build` ボタンを押す。"
 msgstr "Set the system size at :guilabel:`Simulation Cell` and press :guilabel:`Build` button."

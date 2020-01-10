@@ -82,7 +82,7 @@
    
    - 選択した原子に値を入力して割り当てる。
    
-      - 電荷を入力したい原子を :ref:`分子表示エリア <gui_main>` で :ref:`グループ選択 <gui_mouse>` し、 :ref:`edit_atom` :menuselection:`--> 電荷/スピン変更` から電荷を入力する。
+      - 電荷を入力したい原子を :ref:`分子表示エリア <gui_main>` で :ref:`グループ選択 <gui_mouse>` し、 :menuselection:`編集 --> 属性を変更 -->` :ref:`edit_property_charge` から電荷を入力する。
    
    - ポリマーの場合は、直接分子全体のAM1/BCC電荷、RESP電荷などを計算すると時間が掛かるため、 :ref:`md_polymer_top` の方法を使う。
    

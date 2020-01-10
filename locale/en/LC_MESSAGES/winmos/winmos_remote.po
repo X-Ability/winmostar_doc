@@ -1,14 +1,14 @@
 msgid "リモートジョブ"
 msgstr "Remote job"
 
-msgid "リモートジョブ投入機能を用いると、Winmostarをインストールしたマシンとは別のLinuxマシン（ **リモートサーバ** と呼ぶ）でソルバを実行することが可能になります。"
-msgstr "With the remote job submission function, it is possible to execute a solver on a Linux machine (** remote server **) different from the machine on which Winmostar is installed."
+msgid "リモートジョブ投入機能を用いると、Winmostarをインストールしたマシンとは別のLinuxマシン（ \\*\\*リモートサーバ\\*\\* と呼ぶ）でソルバを実行することが可能になります。"
+msgstr "With the remote job submission function, it is possible to execute a solver on a Linux machine ( \\*\\*remote server\\*\\* ) different from the machine on which Winmostar is installed."
 
 msgid "対応するジョブスケジューラ"
 msgstr "Corresponding job scheduler"
 
-msgid "V9.2.2時点でWinmostarが対応するジョブスケジューラは以下の通りです。カスタマイズサービス `Winmostar for you <https://x-ability.co.jp/wm4u.pdf>`_ においてご希望のジョブスケジューラに追加対応させることも可能です。"
-msgstr "The job scheduler corresponding to Winmostar as of V 9.0.1 is as follows. Customize service `Winmostar for you <https://x-ability.co.jp/wm4u.pdf> It is also possible to add additional support to your desired job scheduler in `_."
+msgid "Winmostarが対応するジョブスケジューラは以下の通りです。カスタマイズサービス `Winmostar for you <https://x-ability.co.jp/wm4u.pdf>`_ においてご希望のジョブスケジューラに追加対応させることも可能です。"
+msgstr "The job scheduler corresponding to Winmostar is as follows. It is also possible to add additional support to your desired job scheduler with customize service `Winmostar for you <https://x-ability.co.jp/wm4u.pdf>`_ ."
 
 msgid "TORQUE (PBS)"
 msgstr "TORQUE (PBS)"
@@ -118,8 +118,8 @@ msgstr "Refet to `https://winmostar.com/jp/manual_en.html <https://winmostar.com
 msgid "入力後、SSH接続をテストするために、 :guilabel:`Edit Profile` ウィンドウ下の :guilabel:`Test Connection` ボタンをクリックします。"
 msgstr "After input, click the :guilabel:`Test Connection` button under the :guilabel:`Edit Profile` window to test the SSH connection."
 
-msgid "黒いターミナルウィンドウが開き、初回接続時は、 ``Store key in cache? (y/n)`` と表示される。その場合は、 :kbd:`y` とキー入力する。"
-msgstr "A black terminal window opens, and when it is connected for the first time, it is displayed as `` Store key in cache? (Y / n) ``. In that case, enter: kbd: `y`."
+msgid "黒いターミナルウィンドウが開いて初回接続時は、 ``Store key in cache? (y/n)`` と表示される場合があります。その場合は、 :kbd:`y` とキー入力します。"
+msgstr "When a black terminal window opens and ``Store key in cache? (y/n)`` may be displayed at the first connection. In that case, enter :kbd:`y`."
 
 msgid "|fig_remote_storekey|"
 msgstr "|fig_remote_storekey|"
@@ -449,7 +449,7 @@ msgid "Force Job Finalization"
 msgstr "Force Job Finalization"
 
 msgid "計算の異常終了により全てのファイルが生成されず、 :guilabel:`Get All Remote Files` が正常動作しない場合、本機能を実行すると強制的に終了処理が実行され、 :guilabel:`Get All Remote Files` を実行できるようになります。"
-msgstr "If all files are not generated due to abnormal termination of calculation, and :guilabel:`Get All Remote Files` does not operate normally, executing this function forcibly terminates the process, and :guilabel:`Get All Remote Files ` can be executed."
+msgstr "If all files are not generated due to abnormal termination of calculation, and :guilabel:`Get All Remote Files` does not operate normally, executing this function forcibly terminates the process, and :guilabel:`Get All Remote Files` can be executed."
 
 msgid "Get Remote File and ..."
 msgstr "Get Remote File and ..."

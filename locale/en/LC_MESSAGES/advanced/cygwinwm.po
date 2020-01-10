@@ -14,7 +14,7 @@ msgid "一部セキュリティ対策ソフトは、cygwin_wm内の正常なモ�
 msgstr "Some security countermeasure software may automatically delete or interfere with normal module in cygwin_wm due to malfunction."
 
 msgid "Winmostar公式HPからcygwin_wmのインストーラをダウンロードしてインストールした場合は、 :menuselection:`ヘルプ -->` :ref:`help_check_cygwin` 機能を使用することで、cygwin_wm内のファイルの欠落の有無を簡易的に確認できます。（ファイルの有無しか確認しません。）"
-msgstr "If you download and install the cygwin_wm installer from the Winmostar official HP, you can easily check for missinf files in cygwin_wm by using :menuselection:`Help -->` :ref:`Check cygwin_wm` function. (Only the existence of the file is checked.)"
+msgstr "If you download and install the cygwin_wm installer from the Winmostar official HP, you can easily check for missing files in cygwin_wm by using :menuselection:`Help -->` :ref:`help_check_cygwin` function. (Only the existence of the file is checked.)"
 
 msgid "cygwin_wmを使用する機能で不具合が起きた場合は、セキュリティ対策ソフトの活動レポートもご確認ください。"
 msgstr "If trouble occurs with the function that uses cygwin_wm, please also check the activity report of security countermeasure software."

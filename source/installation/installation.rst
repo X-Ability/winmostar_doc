@@ -89,7 +89,7 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
 
 6. MD、Solidパックを使用、およびその他の一部の処理を実行する場合は、以下のいずれかの手順でWinmostar向けのCygwinの環境（ :ref:`cygwin_wm <cygwinwm_top>` と呼びます）を構築します。
 
-   - **【推奨】** `ビルド済みのcygwin_wmをインストールする場合 <https://winmostar.com/jp/gmx4wm_jp.html>`_ 
+   - \*\*【推奨】\*\* `ビルド済みのcygwin_wmをインストールする場合 <https://winmostar.com/jp/gmx4wm_jp.html>`_ 
    - `cygwin_wmをビルドする場合 <https://winmostar.com/jp/gmx4wm_jp_win.html>`_ （非推奨、上級者向け）
    - `Cygwinの代わりにWindows Subsystem for Linuxを用いる場合 <https://winmostar.com/jp/WSL_jp.html>`_ （ベータ版）
 

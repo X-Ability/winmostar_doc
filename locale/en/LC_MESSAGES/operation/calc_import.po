@@ -1,5 +1,3 @@
-
-
 msgid "基本的な操作の流れ"
 msgstr "Basic Operation Flow"
 
@@ -24,13 +22,11 @@ msgstr "For some solvers, if you put a pointer over the keyword column, the mean
 msgid "計算の実行"
 msgstr "Run simulation"
 
-msgid "WinmostarをインストールしたWindows PC上で計算を実行する場合（ **ローカルジョブ** ）"
-msgstr "To execute calculations on Windows PC with Winmostar installed (**Local job**)"
-
+msgid "WinmostarをインストールしたWindows PC上で計算を実行する場合（ \\*\\*ローカルジョブ\\*\\* ）"
+msgstr "To execute calculations on Windows PC with Winmostar installed ( \\*\\*Local job\\*\\* )"
 
 msgid "キーワード設定ウィンドウが開いた状態で :guilabel:`Run` ボタンを押します。"
 msgstr "With the configure window open, press the :guilabel:`Run` button."
-
 
 msgid "キーワード設定ウィンドウを :guilabel:`OK` ボタンを押して閉じます。 メインウィンドウの :ref:`キーワード表示エリア <gui_main>` にキーワードが反映されるので、キーワードを直接編集したい場合は、この段階でキーワード表示エリアを編集するか、 :ref:`file_editor` から任意のテキストエディタを用いて入力ファイルを編集します。 その後、ツールバーの :guilabel:`実行` ボタン |toolbar_run| をクリックします。"
 msgstr "Press the :guilabel:`OK` button to close the configure window. So if you want to modify the keywords directly, enter at :ref:`Keyword display area <gui_main>` or edit the input file from the :ref:`file_editor` using any text editor. Then click the :guilabel:`Run` button on the tool bar |toolbar_run|."
@@ -44,10 +40,8 @@ msgstr ":ref:`winmosjm_top` will process the registered jobs in order."
 msgid "WinmostarをインストールしたPCにネットワークで接続されたLinuxマシン上で実行する場合（ **リモートジョブ** ）"
 msgstr "When running on a Linux machine connected to the network on Winmostar installed PC (**Remote job**)"
 
-
 msgid "キーワード設定ウィンドウを :guilabel:`OK` ボタンを押して閉じます。"
 msgstr "Press the :guilabel:`OK` button to close the configure window."
-
 
 msgid "次に、ツールバーの :guilabel:`リモートジョブ投入` ボタン |toolbar_submit| をクリックしサーバへの接続設定を行います。 その後、 :guilabel:`Submit Remoet Job` ウィンドウ上の :guilabel:`Send & Submit` ボタンを押し、入力ファイルの保存、転送（Send）とリモートサーバでのジョブの登録（Submit）を一度に行います。"
 msgstr "Next, click the :guilabel:`Submit Remote Job` button |toolbar_submit| on the tool bar to set up connection to the server. After that, press the :guilabel:`Send & Submit` button on the :guilabel:`Submit Remoet Job` window to save and transfer (send) the input file and register the job at the remote server (submit) at once."
@@ -67,7 +61,6 @@ msgstr "Confirm log"
 msgid "ツールバーの :guilabel:`ログを表示` ボタン |toolbar_openlog| を選択します。"
 msgstr "Press the :guilabel:`Open Log File` button |toolbar_openlog| on the toolbar."
 
-
 msgid "どのファイルを開くか聞かれるが、ログを確認したい計算の入力ファイルがメインウィンドウに表示されている場合は、デフォルトで選択されるファイルを開きます。"
 msgstr "You are asked which file to open. If the input file of the calculation you want to check log is displayed in the main window, open the file selected by default."
 
@@ -80,10 +73,8 @@ msgstr "Display and analyze physical quantities"
 msgid "ジョブが正常終了している場合は、ツールバーの :guilabel:`結果解析` ボタン |toolbar_analysis| を押して、表示したい物理量のメニューを選択します。"
 msgstr "If the job has ended normally, press the :guilabel:`Analysis` button |toolbar_analysis| on the toolbar and select the menu of physical quantities you want to display."
 
-
 msgid "どのファイルを開くか聞かれるため、適宜選択します。 複数ファイル選択する場合もあります。 ログの確認時と同様に、メインウィンドウに表示されているファイルに紐づけられたものがデフォルトで選択されます。"
 msgstr "You will be asked which file to open, so choose as appropriate. As with log checking, the one associated with the file displayed in the main window is selected by default."
-
 
 msgid "ファイルを指定すると、結果表示用のウィンドウが表示されます。"
 msgstr "When you specify a file, a window for the result display is displayed."
@@ -100,18 +91,14 @@ msgstr "For analysis of molecular shape, use functions below :ref:`tools_top`."
 msgid "ジョブの延長、継続"
 msgstr "Extend job"
 
-
 msgid "ジョブの延長や継続が必要な場合は、再度キーワード設定ウィンドウを開き、ジョブを開始します。"
 msgstr "If it is necessary to extend or continue the job, open the configure window again and start the job."
-
 
 msgid "MDについては、キーワード設定ウィンドウで :guilabel:`Extending Simulation` にチェックを入れます。"
 msgstr "For MD, check :guilabel:`Extending Simulation` in the configure window."
 
-
 msgid "Quantum ESPRESSOについては、キーワード設定ウィンドウで :guilabel:`Output Direcotory` に :guilabel:`Continue` を指定しますd。"
 msgstr "For Quantum ESPRESSO, set :guilabel:`Continue` to :guilabel:`Output Direcotory` in the configure window."
-
 
 msgid "その他、例えば半経験QM、QMの構造最適化計算の後に計算を流したい場合は、一旦 ツールバーの :guilabel:`アニメーション` ボタン |toolbar_animation| を押して、最終構造をメインウィンドウに表示したうえで、継続ジョブのキーワード設定を行います。"
 msgstr "If you want to run simulation after the structure optimization for semi-empirical QM or QM solvers, press the :guilabel:`Animation` button |toolbar_animation| on the toolbar, display the final structure on the main window and configure for the next job."

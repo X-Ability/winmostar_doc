@@ -603,7 +603,7 @@ Winmostar(TM)が呼び出したソルバや各種補助プログラムの引用�
          TeeChart Standard manual and help file or everything else contained in this software without receiving
          our written permission.
          You are NOT allowed to distribute the TeeChart design-time package files and/or any of the TeeChart
-         *.DCP or any other file from the source code files.
+         \*.DCP or any other file from the source code files.
          You can freely distribute the TeeChart evaluation version, located at our web site
          http://www.steema.com
          END-USER LICENSE AGREEMENT FOR STEEMA SOFTWARE SL

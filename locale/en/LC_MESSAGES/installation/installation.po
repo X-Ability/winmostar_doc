@@ -1,4 +1,3 @@
-
 msgid "インストール方法"
 msgstr "Installation Guide"
 
@@ -107,7 +106,6 @@ msgstr "`NWChem installation manual for Windows <https://winmostar.com/en/nwchem
 msgid "`Windows版LAMMPSインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/LAMMPS_install_manual_jp_win.pdf>`_"
 msgstr "`LAMMPS installation manual for Windows <https://winmostar.com/jp/manual_jp/installation/LAMMPS_install_manual_jp_win.pdf>`_"
 
-
 msgid "`Windows版NAMDインストールマニュアル             <https://winmostar.com/jp/manual_jp/installation/NAMD_install_manual_jp_win.pdf>`_"
 msgstr "`NAMD installation manual for Windows <https://winmostar.com/jp/manual_jp/installation/NAMD_install_manual_jp_win.pdf>`_"
 
@@ -123,7 +121,7 @@ msgstr "Gromacs, Amber, MODYLAS, OpenMX will be included in the :ref:`cygwin_wm 
 msgid "MD、Solidパックを使用、およびその他の一部の処理を実行する場合は、以下のいずれかの手順でWinmostar向けのCygwinの環境（ :ref:`cygwin_wm <cygwinwm_top>` と呼びます）を構築します。"
 msgstr "To use the MD, Solid Packages, and some other functions, build a Cygwin environment for Winmostar (called :ref:`cygwin_wm <cygwinwm_top>`) by one of the following procedures."
 
-msgid "**【推奨】** `ビルド済みのcygwin_wmをインストールする場合 <https://winmostar.com/jp/gmx4wm_jp.html>`_"
+msgid "\\*\\*【推奨】\\*\\* `ビルド済みのcygwin_wmをインストールする場合 <https://winmostar.com/jp/gmx4wm_jp.html>`_"
 msgstr "(Recommended) `Installing pre-built cygwin_wm <https://winmostar.com/en/gmx4wm_en.html>`_"
 
 msgid "`cygwin_wmをビルドする場合 <https://winmostar.com/jp/gmx4wm_jp_win.html>`_ （非推奨、上級者向け）"
@@ -136,7 +134,7 @@ msgid "必要に応じて、使用しているセキュリティ対策ソフト�
 msgstr "If necessary, exclude the installation folder of Winmostar and cygwin_wm from the monitoring target in the setting of the anti-virus software being used."
 
 msgid "リモートサーバへのジョブ投入（ :ref:`リモートジョブ <remote_top>` と呼ぶ）を行う場合は、投入先のサーバに :ref:`対応しているジョブスケジューラ <remote_scheduler>` がインストールされているか確認する。入っていない場合は以下のリンク先の手順でTORQUEをインストールします。"
-msgstr "When you submit a job to a remote server (called  :ref:`remote job <remote_top>`), check whether `the job scheduling software <remote_scheduler>`_ is installed on that server. If it is not installed, install TORQUE by the following procedure."
+msgstr "When you submit a job to a remote server (called  :ref:`remote job <remote_top>`), check whether :ref:`the job scheduling software <remote_scheduler>` is installed on that server. If it is not installed, install TORQUE by the following procedure."
 
 msgid "`Linux版TORQUEインストールマニュアル <https://winmostar.com/jp/gmx4wm_jp_linux.html#Torque>`_"
 msgstr "`Installation guide for Linux <https://winmostar.com/en/gmx4wm_en_linux.html>`_"

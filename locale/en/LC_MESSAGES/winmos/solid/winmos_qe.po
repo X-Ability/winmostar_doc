@@ -1340,7 +1340,7 @@ msgid ":file:`tmp-*.in`"
 msgstr ":file:`tmp-*.in`"
 
 msgid "header.inとsupercell-\\*.inを結合したファイルです。"
-msgstr "Combines header.in and supercell-\\ *. in."
+msgstr "Combines header.in and supercell-\\*.in."
 
 msgid "confファイル編集"
 msgstr "Edit .conf File"

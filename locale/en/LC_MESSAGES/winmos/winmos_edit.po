@@ -95,7 +95,7 @@ msgid "元素を変更"
 msgstr "Element"
 
 msgid "選択した原子の元素を  :ref:`ツールバー <gui_main>` の :guilabel:`編集操作で適用される元素を選択` プルダウンメニュー |chg| で選択した元素に変更します。グループ選択されている場合はグループ選択された原子全てが対象となります。"
-msgstr "The element of the selected atom is changed to the element selected by the :guilabel:`Select the element to be applied by edit operation` in the :ref:`Toolbar <gui_main>` pull-down menu | chg |. If a group is selected, all atoms selected in the group are targeted."
+msgstr "The element of the selected atom is changed to the element selected by the :guilabel:`Select the element to be applied by edit operation` pull-down menu |chg| in the :ref:`Toolbar <gui_main>`. If a group is selected, all atoms selected in the group are targeted."
 
 msgid ":kbd:`Shift+F5` または :ref:`ツールバー <gui_main>` の :guilabel:`Chg` ボタンでも操作できます。"
 msgstr "You can also operate with :guilabel:`Chg` button of :kbd:`Shift + F5` or :ref:`Toolbar <gui_main>`."
@@ -113,7 +113,7 @@ msgid "OpenMXの場合は、 :ref:`座標表示エリア <gui_main>` 上で ``0`
 msgstr "In the case of OpenMX, if ``0`` is displayed on the :ref:`Coordinate display area <gui_main>`, ``1`` is displayed when saving the file, and conversely ``1`` is displayed, the output is ``0``. In other words, the operation follows the `` Variable`` and `` Fixed`` notation of this function."
 
 msgid "電荷/スピンを変更"
-msgstr "Charge/spin Density (Q)"
+msgstr "Charge/Spin Density"
 
 msgid "選択した原子の電荷（User電荷）またはスピン密度の値を変更します。グループ選択されている場合はグループ選択された原子全てが対象となります。"
 msgstr "Changes the charge (User charge) or spin density value of the selected atom. If a group is selected, all the atoms selected in the group will be covered."
@@ -281,13 +281,13 @@ msgid "グループを回転（数値を指定）"
 msgstr "Rotate (Numerical)"
 
 msgid "グループ選択された構造を、 :ref:`マーカー（赤太丸） <edit_top>` が付いた原子または幾何中心を中心に、スライダー操作まはた数値入力により回転させます。指定するのはオイラー角です。"
-msgstr "The structure selected in the group is rotated around the atom or geometric center marked with :ref: `marker (red circle) <edit_top>` by slider operation or numerical input. Specify the Euler angles."
+msgstr "The structure group selected is rotated around the atom or geometric center marked with :ref:`marker (red circle) <edit_top>` by slider operation or numerical input. Specify the Euler angles."
 
 msgid "グループを回転（配向を指定）"
 msgstr "Rotate Group by Aligning Marked Atoms"
 
 msgid "グループ選択された構造を特定軸または特定面に対し配向するよう回転させます。 マーカーが付けられた2原子（特定軸に配向させる場合）または3原子（特定面に配向させる場合）がグループ選択された構造の中に含まれている必要があります（マーカーが付けられた原子は :ref:`分子表示エリア <gui_main>` 左上の :guilabel:`Marked Order:` で確認することができます）。"
-msgstr "Rotates group selected structures to orient to a specific axis or plane. 2 atoms with markers (if oriented in a specific axis) or 3 atoms (if oriented in a specific plane) must be included in the group selected structure (It can be confirmed by :guilabel:`Marked Order` in the upper left of :ref:`Moleculer display area`)."
+msgstr "Rotates group selected structures to orient to a specific axis or plane. 2 atoms with markers, if oriented in a specific axis, or 3 atoms. if oriented in a specific plane, must be included in the group selected structure (It can be confirmed by :guilabel:`Marked Order:` in the upper left of :ref:`Molecule display area <gui_main>`)."
 
 msgid "グループを並進移動（マウス操作）"
 msgstr "Move Group (Direct)"
@@ -413,7 +413,7 @@ msgid "選択原子間の距離/角度を変更"
 msgstr "Change Distance/Angle Between Marked Atoms"
 
 msgid "マーカー（赤丸）が付けられた2～4原子間の（ :ref:`分子表示エリア <gui_main>` 左上の :guilabel:`Marked Order:` で確認することができます）、距離、角度または二面角を入力して変更します。"
-msgstr "Enter and change the distance, angle, or dihedral angle between 2 and 4 atoms with markers (red circles) (you can check with the :guilabel:`Marked Order` at the top left of :ref:`Moleculer display area`)."
+msgstr "Enter and change the distance, angle, or dihedral angle between 2 and 4 atoms with markers (red circles) (you can check with the :guilabel:`Marked Order:` at the top left of :ref:`Molecule display area <gui_main>`)."
 
 msgid "番号の取り直し/ソート"
 msgstr "Renumber/Sort"

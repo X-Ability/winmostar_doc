@@ -18,7 +18,7 @@ msgid "**青丸のグループ選択を用いる方法** は、主に複数原�
 msgstr "The method using group selection of the blue circle is mainly used for operations on multiple atoms.You can select a group by :kbd:`Ctrl+left drag` ,  :kbd:`Ctrl+left click` or  :kbd:`Shift+left click` in :ref:`Viewport <gui_main>`.You can also select a group by using the function of :menuselection:`Select` menu.In the example of the methanol molecule in the figure below, after :kbd:`Ctrl+left drag` around the CH3 (methyl) group, it can be confirmed that the CH3 group atoms are surrounded by blue circles.You can also select a group by :kbd:`Ctrl+left click` in :ref:`Coordinate Viewer <gui_main>`.On the upper left of :ref:`Viewport <gui_main>`, the number of atoms and composition of the group selected are displayed"
 
 msgid "グループ選択されていない状態で、 :menuselection:`編集 --> グループ編集` などの複数原子に対する操作を実行した場合は、 :ref:`select_separate` が自動で実行されます。具体的には、赤太丸と赤細丸のマーカーが付けられた2原子で分断される部分構造がグループ選択されます。下図のメタノール分子の例では、酸素（赤）、炭素（緑）と順に :kbd:`左クリック` してマーカーを移動させた後、 :menuselection:`編集 --> グループ編集 -->` :ref:`edit_partial_rotate` を選択すると、酸素-炭素の間で分断される構造のうち、最後にマーカーが付けられたCH3基の側が自動でグループ選択されます（画面上ではハイライトされる）。"
-msgstr ":ref:`select_separate` is executed automatically when you execute an operation on multiple atoms such as  :menuselection:`Edit --> Modify Selected Group` in a state where no group is selected.Specifically, the substructures that are divided by two atoms with a red thick circle and a red thin marker attached are selected as a group."
+msgstr ":ref:`select_separate` is executed automatically when you execute an operation on multiple atoms such as  :menuselection:`Edit --> Modify Selected Group` in a state where no group is selected. Specifically, the substructures that are divided by two atoms with a red thick circle and a red thin marker attached are selected as a group. In the example of a methanol molecule shown below, after oxygen (red) and carbon (green) are moved in the order of :kbd:`left click` and the marker is moved, :Menuselection:`Edit --> Modify Selected Group -->` :ref:`edit_partial_rotate` is selected, the group with the last marker on the CH3 group is automatically selected (highlighted on the screen)."
 
 msgid "すべてをグループ選択"
 msgstr "Select All"
@@ -159,7 +159,7 @@ msgid "マーカーで分断される部分構造をグループ選択"
 msgstr "Select Partial Structure Split by 2 Marked Atoms"
 
 msgid "1番目と2番目のマーカーが付いた2個の原子の間で分断される部分構造をグループ選択されます。 詳細は :ref:`select_top` に画像付きで記載しています。"
-msgstr "Substructures that are separated between two atoms with the first and second markers are selected."
+msgstr "Substructures that are separated between two atoms with the first and second markers are selected. Details are described in :ref:`select_top` with pictures."
 
 msgid "グループを登録"
 msgstr "Register Selected Group"
