@@ -38,9 +38,8 @@ msgstr "For example, when you want to allocate LJ parameters to solid phase atom
 msgid "(タンパク質/イオン)"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "タンパク質、単原子の力場を指定します。ここで、PDBやgroフォーマットにおいてアミノ酸残基の名前が割り当てられている原子がタンパク質として認識されます。内部的には :command:`gmx pdb2gmx` が使用されます。"
-msgstr "Specify the force field of the protein. At this point, atoms assigned amino acid residue names in PDB and gro format are recognized as proteins. Internally :command:`gmx pdb 2 gmx` is used."
+msgstr "Specify the force field of the protein. At this point, atoms assigned amino acid residue names in PDB and gro format are recognized as proteins. Internally :command:`gmx pdb2gmx` is used."
 
 msgid "残基名を含まないファイルから分子構造を読み込んだ場合は本機能を使用できません。"
 msgstr "This function can not be used when reading the molecular structure from a file not including residue name."
@@ -51,21 +50,18 @@ msgstr "NOTTRANSLATED"
 msgid "水分子の力場を指定します。 :ref:`md_solvate_buildcell` で選択した水モデルを指定する必要があります。内部的にはCygwinにインストールされたGromacsのトポロジのライブラリからパラメータを取得します。"
 msgstr "Specify the force field of the water molecule. You must specify the selected water model with :ref:`md_solvate_buildcell`. Internally we get the parameters from the library of Gromacs topology installed in Cygwin."
 
-#, fuzzy
 msgid "タンパク質向けに[position_restraints]を追加"
 msgstr "Add [position_restraints] for protein"
 
 msgid "タンパク質が存在する場合は :guilabel:`Advance` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。タンパク質が存在しない場合は無視されます。"
 msgstr "If a protein exists, write information (``[position_restraints]`` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advance` tab. Ignored when protein is absent."
 
-#, fuzzy
 msgid "選択原子向けに[position_restraints]を追加"
-msgstr "Add [position_restraints] for protein"
+msgstr "Add [position_restraints] for selected atoms"
 
 msgid "ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。 例えば固液界面系に於いて固相を固定する場合などに使用します。"
 msgstr "For the molecule specified by the user, write information (``[position_restraints]`` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advance` tab. For example, when fixing solid phase in solid-liquid interface system."
 
-#, fuzzy
 msgid "選択原子向けに[distance/angle/dihedral_restraints]を追加"
 msgstr "Add [distance/angle/dihedral_restraints] for selected atoms"
 
@@ -75,7 +71,6 @@ msgstr "For the molecule specified by the user, write information to constrain d
 msgid "Dump Now"
 msgstr "Dump Now"
 
-#, fuzzy
 msgid "現在の設定に基づき、力場が割り当てられたファイルを生成します。"
 msgstr "Based on the current settings, generate a topology file."
 
@@ -178,16 +173,14 @@ msgstr "Pair Style"
 msgid "相互作用計算の方法を選択します。"
 msgstr "Select the method of interaction calculation."
 
-#, fuzzy
 msgid "Force Field/Potential File"
-msgstr "Potential File"
+msgstr "Force Field/Potential File"
 
 msgid ":guilabel:`Units` がrealの場合には、力場の種類を指定します。special_bonds, bond_style, angle_style, dihedral_style, improper_styleキーワードに影響します。"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid ":guilabel:`Units` がreal以外の場合には、ポテンシャルファイルを選択します。LAMMPS本体をインストールしたフォルダ直下の :file:`Potential` フォルダ内のファイルをリストアップします。選択肢は :guilabel:`Units` および :guilabel:`Pair Style` に応じて変わります。"
-msgstr "Select the potential file. List the files in the :file:`Potential` folder directly under the folder where you installed the LAMMPS main unit. The choices will change according to :guilabel:`Pair Style`."
+msgstr "Select the potential file when :guilabel:`Units` is other than \"real\". List the files in the :file:`Potential` folder directly under the folder where you installed the LAMMPS main unit. The choices will change according to :guilabel:`Pair Style`."
 
 msgid "Time Step"
 msgstr "Time Step"
@@ -294,9 +287,8 @@ msgstr "Pchain"
 msgid "圧力制御の段数を指定します。"
 msgstr "Specify the number of stages of pressure control."
 
-#, fuzzy
 msgid "Constrain hydrogen atoms"
-msgstr "Constrain Hydrogen"
+msgstr "Constrain hydrogen atoms"
 
 msgid "水素原子をSHAKE法で拘束します。"
 msgstr "We restrict hydrogen atoms by SHAKE method."
@@ -313,9 +305,8 @@ msgstr "NOTTRANSLATED"
 msgid "分子を剛体として扱います。"
 msgstr "We treat molecules as rigid bodies."
 
-#, fuzzy
 msgid "Set \"box tilt large\""
-msgstr "box tilt large"
+msgstr "Set \"box tilt large\""
 
 msgid "シミュレーションセルの変形の許容度合を指定します。"
 msgstr "Specify the allowable degree of deformation of the simulation cell."
@@ -353,9 +344,8 @@ msgstr "NOTTRANSLATED"
 msgid "dumpファイル内の粒子の並びをid（通し番号）でソートされた形にします。"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "Calculate Fluctuation Properties"
-msgstr "NOTTRANSLATED"
+msgstr "Calculate Fluctuation Properties"
 
 msgid "熱力学量の揺らぎから比熱と等温圧縮率をon-the-flyで計算し出力します。"
 msgstr "NOTTRANSLATED"
@@ -492,9 +482,8 @@ msgstr "Pulled Atoms"
 msgid "予め :ref:`select_select_registered_group` でPullしたい原子を登録しておいた状態で :guilabel:`Select Group` ボタンを押し、そのグループを選択します。"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "Pull Velocity"
-msgstr "Pulled Velocity"
+msgstr "Pull Velocity"
 
 msgid "Pull計算時の、Pull速度を指定します。"
 msgstr "Specify the pull speed for Pull calculation."
@@ -529,9 +518,8 @@ msgstr "Calculation is performed by constraining the distance between specified 
 msgid "Restrained Atoms"
 msgstr "Restrained Atoms"
 
-#, fuzzy
 msgid ":guilabel:`Set` ボタンをクリックすると、マーカーが付いた2原子が拘束のターゲットとなります。"
-msgstr "At the time of constraint calculation, two atoms are selected as :ref:`group selection <edit_top>`, and click on the :guilabel:`Set` button, then that atom becomes the target of the constraint."
+msgstr "When you click the :guilabel:`Set` button, the two atoms with the markers become the target of the constraint."
 
 msgid "Bond Length"
 msgstr "Bond Length"
@@ -863,13 +851,11 @@ msgstr "See :ref:`md_gromacs_rdf` for details."
 msgid "自由体積"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndx, mdp, topファイルを選択し、自由体積を表示します。"
-msgstr "Select the xtc file output by LAMMPS and the gro, ndx file automatically generated by Winmostar and display the scattering function."
+msgstr "Select the xtc file output by LAMMPS and the gro, ndx, mdp and top files automatically generated by Winmostar and display the free volume."
 
-#, fuzzy
 msgid "詳細は :ref:`md_gromacs_freevolume` を参照してください。"
-msgstr "See :ref:`md_gromacs_rdf` for details."
+msgstr "See :ref:`md_gromacs_freevolume` for details."
 
 msgid "各種自己相関関数"
 msgstr "Autocorrelation Function..."
@@ -1062,7 +1048,6 @@ msgstr "Save the set potential parameters in the potential file and close the wi
 
 msgid "設定内容を破棄してウィンドウを閉じます。"
 msgstr "Discard the settings and close the window."
-
 
 
 

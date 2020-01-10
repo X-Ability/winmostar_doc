@@ -485,9 +485,8 @@ msgstr "tempw"
 msgid "RISM計算の温度を指定します。"
 msgstr "Specify the initial velocity of ion for MD calculation."
 
-#, fuzzy
 msgid "ecutsolv"
-msgstr "solv"
+msgstr "ecutsolv"
 
 msgid "RISM計算のカットオフエネルギーを指定します。"
 msgstr "Specify the cutoff energy of the plane wave when calculating the wave function."
@@ -867,13 +866,11 @@ msgstr "Specify CPMD&#39;s pos and cel files and display animation."
 msgid "pw.xの結果を表示する場合は :ref:`solid_qe_animation` を使用してください。"
 msgstr "To display the result of pw.x, use :ref:`solid_qe_animation`."
 
-#, fuzzy
 msgid "エネルギー変化"
-msgstr "SCF Energy Change..."
+msgstr "Energy Plot"
 
-#, fuzzy
 msgid "SCFエネルギー変化(pwout)"
-msgstr "CPMD Energy Plot (evp)..."
+msgstr "SCF Energy Change (pwout)..."
 
 msgid "ログファイルを選択し、total energyのグラフを表示します。"
 msgstr "Select the log file and display a graph of total energy."
@@ -1082,9 +1079,8 @@ msgstr "Please set in the state that the structure optimization calculation of e
 msgid "neb.xを用いてNEB計算を実行します。"
 msgstr "Perform NEB calculation using neb.x."
 
-#, fuzzy
 msgid "遷移状態"
-msgstr "Transition Path (NEB)..."
+msgstr "Transition Path ..."
 
 msgid "NEB計算後のファイルを指定し、反応座標に沿ったエネルギーと原子構造の変化を表示します。"
 msgstr "Specify the file after NEB calculation and display the change in energy and atomic structure along the reaction coordinates."
@@ -1095,9 +1091,8 @@ msgstr "NOTTRANSLATED"
 msgid "BoltzTraPでは、QuantumESPRESSOでのnscf計算のアウトプットをもとに熱電特性の計算を行います。"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "キーワード設定・実行"
-msgstr "Configure..."
+msgstr "Configure & Run"
 
 msgid "BoltzTraPを用いたプリ・ポスト処理の計算条件を設定し、プリ処理の実行を行います。"
 msgstr "NOTTRANSLATED"
@@ -1120,9 +1115,8 @@ msgstr "NOTTRANSLATED"
 msgid "energy grid"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "設定エネルギーの間隔を指定します。"
-msgstr "Specify tolerance of energy at SCF calculation."
+msgstr "Specify the energy span"
 
 msgid "energy span"
 msgstr "NOTTRANSLATED"
@@ -1133,9 +1127,8 @@ msgstr "NOTTRANSLATED"
 msgid "number of electrons"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "単位格子内の電子の個数を指定します。"
-msgstr "Specify the number of molecular species of the solvent."
+msgstr "Specify the number of electrons in a unit cell."
 
 msgid "lpfac"
 msgstr "NOTTRANSLATED"
@@ -1143,9 +1136,8 @@ msgstr "NOTTRANSLATED"
 msgid "バンドエネルギーをフーリエ展開によって補完する際の因子を指定します。"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "efcut"
-msgstr "ecutwfc"
+msgstr "efcut"
 
 msgid "化学ポテンシャルを変えて計算する範囲を指定します。"
 msgstr "NOTTRANSLATED"
@@ -1153,17 +1145,14 @@ msgstr "NOTTRANSLATED"
 msgid "Tmax"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "設定温度の上限値を指定します。"
-msgstr "Specify the allowable value of temperature during temperature control."
+msgstr "Specify the upper limit of the set temperature."
 
-#, fuzzy
 msgid "temperature grid"
-msgstr "ion_temperature"
+msgstr "temperature grid"
 
-#, fuzzy
 msgid "設定温度の間隔を指定します。"
-msgstr "Specify the electric field."
+msgstr "Specify the interval of the set temperature."
 
 msgid "energy of bands"
 msgstr "NOTTRANSLATED"
@@ -1171,9 +1160,8 @@ msgstr "NOTTRANSLATED"
 msgid "DOSから得られたバンドのエネルギー幅を指定します。"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "Calculate expansion coeff"
-msgstr "calculation"
+msgstr "Calculate expansion coeff"
 
 msgid "チェックが入っている場合、膨張係数を計算を計算します。"
 msgstr "NOTTRANSLATED"
@@ -1190,9 +1178,8 @@ msgstr "NOTTRANSLATED"
 msgid ".intfansファイル"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid ":file:`mg2si_nscf.intrans`"
-msgstr ":file:`pw_bands.in`"
+msgstr ":file:`mg2si_nscf.intrans`"
 
 msgid "BoltzTraPのインプットファイルです。"
 msgstr "NOTTRANSLATED"
@@ -1200,9 +1187,8 @@ msgstr "NOTTRANSLATED"
 msgid ".traceファイル"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid ":file:`mg2si_nscf.trace`"
-msgstr ":file:`si.bat`"
+msgstr ":file:`mg2si_nscf.trace`"
 
 msgid "BoltzTraPで計算された熱電特性のエネルギー、温度依存性に関する情報が出力されたファイルです。 BoltzTraP結果読み込み...メニューではこのファイルを読み込み可視化を行います。"
 msgstr "NOTTRANSLATED"
@@ -1288,13 +1274,11 @@ msgstr "NOTTRANSLATED"
 msgid "Phonopyのプリ処理を実行するためのバッチファイルです。"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "shファイル"
-msgstr "bat file"
+msgstr "sh file"
 
-#, fuzzy
 msgid ":file:`si.sh`"
-msgstr ":file:`si.bat`"
+msgstr ":file:`si.sh`"
 
 msgid "Phonopyのプリ処理を実行するためのシェルスクリプトファイルです。"
 msgstr "NOTTRANSLATED"
@@ -1302,35 +1286,29 @@ msgstr "NOTTRANSLATED"
 msgid "si_ph_dataフォルダ"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid ":file:`si_ph_data`"
-msgstr ":file:`si_qe_data\\\\`"
+msgstr ":file:`si_ph_data`"
 
-#, fuzzy
 msgid "計算の作業ディレクトリです。"
 msgstr "Working directory."
 
-#, fuzzy
 msgid "作業ディレクトリsi_ph_dataには以下のファイルが生成されます。"
-msgstr "The following files are generated in the working directory. Only the main files are shown here."
+msgstr "The following files are generated in the working directory si_ph_data."
 
 msgid "mesh.confファイル"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid ":file:`mesh.conf`"
-msgstr ":file:`ph.in`"
+msgstr ":file:`mesh.conf`"
 
 msgid "Phonopyのポスト処理にて、状態密度や熱物性を計算するときに使用されます。"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "band.confファイル"
-msgstr "bat file"
+msgstr "band.conf file"
 
-#, fuzzy
 msgid ":file:`band.conf`"
-msgstr ":file:`pw_bands.in`"
+msgstr ":file:`band.conf`"
 
 msgid "Phonopyのポスト処理にて、バンド構造を計算するときに使用されます。"
 msgstr "NOTTRANSLATED"
@@ -1338,9 +1316,8 @@ msgstr "NOTTRANSLATED"
 msgid "headerファイル"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid ":file:`header.in`"
-msgstr ":file:`ph.in`"
+msgstr ":file:`header.in`"
 
 msgid "si.pwinで指定された構造情報以外のキーワード情報が記載されています。"
 msgstr "NOTTRANSLATED"
@@ -1348,9 +1325,8 @@ msgstr "NOTTRANSLATED"
 msgid "supercellファイル"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid ":file:`supercell-＊.in`"
-msgstr ":file:`ph.in`"
+msgstr ":file:`supercell-*.in`"
 
 msgid "Phonopyにより生成されたスーパーセルの情報がQuantum ESPRESSOのインプットファイル形式で記載されています。"
 msgstr "NOTTRANSLATED"
@@ -1358,13 +1334,11 @@ msgstr "NOTTRANSLATED"
 msgid "スーパーセルのパターンは複数生成されるため、＊の部分には1, 2, などの数字が入ります。"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "tmpファイル"
-msgstr "bat file"
+msgstr "tmp file"
 
-#, fuzzy
 msgid ":file:`tmp-*.in`"
-msgstr ":file:`ph.in`"
+msgstr ":file:`tmp-*.in`"
 
 msgid "header.inとsupercell-\\*.inを結合したファイルです。"
 msgstr "NOTTRANSLATED"
@@ -1390,31 +1364,26 @@ msgstr "NOTTRANSLATED"
 msgid "この時、作業フォルダ :file: si_ph_data に以下のファイルが生成されます。"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid ":file:`phonopy.sh`"
-msgstr ":file:`ph.in`"
+msgstr ":file:`phonopy.sh`"
 
 msgid "Phonopyのポスト処理を実行するためのシェルスクリプトです"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "band.yamlファイル"
-msgstr "bat file"
+msgstr "band.yaml file"
 
-#, fuzzy
 msgid ":file:`band.yaml`"
-msgstr ":file:`pw_bands.in`"
+msgstr ":file:`band.yaml`"
 
 msgid "Phonopyのポスト処理で計算されたバンド構造の情報が出力されています。"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "dos.datファイル"
-msgstr "bat file"
+msgstr "dos.dat"
 
-#, fuzzy
 msgid ":file:`dos.dat`"
-msgstr ":file:`si.bat`"
+msgstr ":file:`dos.dat`"
 
 msgid "Phonopyのポスト処理で計算された状態密度の情報が出力されています。"
 msgstr "NOTTRANSLATED"
@@ -1428,14 +1397,12 @@ msgstr "NOTTRANSLATED"
 msgid "Phonopyのポスト処理で計算された熱物性の情報が出力されています。"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "バンド構造..."
 msgstr "Band Structure..."
 
 msgid "作業フォルダに含まれるband.csvをもとにバンド構造を表示します。"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "状態密度..."
 msgstr "Density od States..."
 
@@ -1447,4 +1414,3 @@ msgstr "NOTTRANSLATED"
 
 msgid "作業フォルダに含まれるthermal_properties.csvをもとに熱物性を表示します。"
 msgstr "NOTTRANSLATED"
-

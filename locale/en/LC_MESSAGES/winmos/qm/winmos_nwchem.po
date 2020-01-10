@@ -272,7 +272,6 @@ msgstr "It is a batch file for running NWChem."
 msgid "作業ディレクトリ"
 msgstr "Working Directory"
 
-#, fuzzy
 msgid ":file:`water_nw_tmp\\\\`"
 msgstr ":file:`water.nw_temp\\\\`"
 
@@ -288,9 +287,8 @@ msgstr "Open Log File (out)..."
 msgid "outファイルをテキストエディタで開きます。"
 msgstr "Open the out file in a text editor."
 
-#, fuzzy
 msgid "アニメーション"
-msgstr "Animation (Optimize)..."
+msgstr "Animation"
 
 msgid "構造最適化"
 msgstr "NOTTRANSLATED"

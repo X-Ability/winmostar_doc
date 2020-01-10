@@ -371,9 +371,8 @@ msgstr "Contains information used to draw molecular orbits."
 msgid "作業ディレクトリ"
 msgstr "Working Directory"
 
-#, fuzzy
 msgid ":file:`water_mop_tmp\\\\`"
-msgstr ":file:`water_temp\\\\`"
+msgstr ":file:`water_mop_temp\\\\`"
 
 msgid "作業ディレクトリです。"
 msgstr "Working directory."
@@ -387,13 +386,11 @@ msgstr "Open out file in a text editor."
 msgid "arcファイルをテキストエディタで開きます。"
 msgstr "Open arc file with a text editor."
 
-#, fuzzy
 msgid "アニメーション"
-msgstr "Animation (arc)..."
+msgstr "Animation"
 
-#, fuzzy
 msgid "構造最適化 (arc)"
-msgstr "Charges (arc)..."
+msgstr "Optimization (arc)"
 
 msgid "arcファイルを選択し、分子構造のアニメーションを表示します。"
 msgstr "Select the arc file and display the animation of the molecular structure."

@@ -632,9 +632,8 @@ msgstr "Create a new coordinate file (extension: gro) and topology file (extensi
 msgid ":guilabel:`Extending Simulation` にチェックがなく、 :ref:`md_gromacs_forcefield` において :guilabel:`トポロジファイルに書かれたパラメータを使用` を選択した場合"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "メインウィンドウで開かれている座標ファイル(拡張子：gro)と、 :ref:`md_gromacs_forcefield` で指定したトポロジファイル(拡張子：top)を使用してジョブを開始します。"
-msgstr "Start the job using the coordinate file (extension: gro) opened in the main window and the topology file (extension: top) specified at :guilabel:`Load from existing file`."
+msgstr "Start the job using the coordinate file (extension: gro) opened in the main window and the topology file (extension: top) specified at :ref:`md_gromacs_forcefield`."
 
 msgid ":guilabel:`Extending Simulation` にチェックがある場合"
 msgstr ":guilabel: When &#39;Extending Simulation` is checked"
@@ -894,9 +893,8 @@ msgstr "Create Group"
 msgid "groファイルに書かれている原子名から新たなグループを登録します。"
 msgstr "Register a new group from the atom name written in the gro file."
 
-#, fuzzy
 msgid "メインウィンドウでグループ選択されている原子をグループとして定義する場合は :menuselection:`MD --> Gromacs -->` :ref:`select_add_group_ndx` を使用してください。"
-msgstr "To define atoms selected as a group in the main window as a group, use :menuselection:`MD --> Gromacs -->` :ref:`md_gromacs_editndx`."
+msgstr "To define atoms group selected in the main window as a group, use :menuselection:`MD --> Gromacs -->` :ref:`select_add_group_ndx`."
 
 msgid ":guilabel:`Create Group` ウィンドウでは、 :guilabel:`Extracted Atom Names` にチェックを入れて :guilabel:`New group Name` を入力し :guilabel:`Create` ボタンを押すと、ndxファイルにグループが追加されます。 :guilabel:`Close` ボタンを押すと :guilabel:`Target Group` や :guilabel:`Reference Group` に追加したグループが追加されます。"
 msgstr "In the :guilabel:`Create Group` window, check :guilabel:`Extracted Atom Names` and enter :guilabel:`New group Name` and press the :guilabel:`Create` button, the group is added to the ndx file It will be added. When you press the :guilabel:`Close` button, the groups added to :guilabel:`Target Group` and :guilabel:`Reference Group` are added."
@@ -985,9 +983,8 @@ msgstr "The density distribution is output for the components that are checked h
 msgid "自由体積"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、密度分布を表示します。 内部的には :command:`gmx freevolume` コマンドが実行されます。"
-msgstr "Select trr, tpr, ndx files output by Gromacs and display the density distribution. Internally the: command: `gmx density` command is executed."
+msgstr "Select trr, tpr, ndx files output by Gromacs and display the density distribution. Internally the :command:`gmx freevolume` command is executed."
 
 msgid "Radius of probe"
 msgstr "NOTTRANSLATED"
@@ -1001,9 +998,8 @@ msgstr "NOTTRANSLATED"
 msgid "仮想プローブ粒子の挿入回数を指定します。"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "Random seed"
-msgstr "Fix random seed"
+msgstr "Random seed"
 
 msgid "仮想プローブ粒子を挿入する位置を決める乱数の種を指定します。"
 msgstr "NOTTRANSLATED"
@@ -1169,7 +1165,6 @@ msgstr "Import BAR..."
 
 msgid ":ref:`md_gromacs_bar_start` にて処理した結果を表示します。メニュー選択後、:ref:`md_gromacs_bar_start` にて指定した出力先フォルダを指定してください。バックグラウンドで :command:`gmx bar` が実行され、結果が表示されます。 :guilabel:`Unit` にてエネルギーを表示する際の単位を指定できます。 :guilabel:`Log` ボタンを押すと、 :command:`gmx bar` のログファイルが表示されます。表示されるグラフは、溶質が溶媒と相互作用していない状態（λ=0）から相互作用している状態（λ=1）の間で自由エネルギーが変化する様子を示しています。"
 msgstr "The result of processing by :ref:`md_gromacs_bar_start` is displayed. After selecting the menu, please specify the output destination folder specified by :ref:`md_gromacs_bar_start`. In the background :command:`gmx bar` is executed and the result is displayed. You can specify units for displaying energy in :guilabel:`Unit`. When you press the :guilabel:`Log` button, the log file of :command:`gmx bar` is displayed. The displayed graph shows how the free energy varies between the state where the solute is not interacting with the solvent (λ = 0) and the state where the solute interacts (λ = 1)."
-
 
 
 

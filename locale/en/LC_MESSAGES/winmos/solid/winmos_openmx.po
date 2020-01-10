@@ -1,5 +1,3 @@
-#, fuzzy
-
 msgid ":menuselection:`固体 --> OpenMX` メニュー"
 msgstr ":menuselection:`Solid --> OpenMX` menu"
 
@@ -282,9 +280,8 @@ msgstr "Erange"
 msgid "DOS計算におけるエネルギー範囲（下限値と上限値）を半角スペース区切りで指定します。"
 msgstr "Specify the energy range (lower limit and upper limit) for DOS calculation separated by single-byte spaces."
 
-#, fuzzy
 msgid "DOS計算を行う上で、第1ブリルアンゾーンを離散化するために(n1, n2, n3)の格子点を指定します。"
-msgstr "Specify (n1, n2, n3) grid points to discretize the first burlian zone for DOS calculations."
+msgstr "Specify (n1, n2, n3) grid points to discretize the first Brillouin zone for DOS calculations."
 
 msgid "MOタブ"
 msgstr "MO tab"
@@ -301,9 +298,8 @@ msgstr "Specify the number of highest occupied molecular orbitals (HOMO) to outp
 msgid "num_LUMOs"
 msgstr "num_LUMOs"
 
-#, fuzzy
 msgid "出力する最低空分子軌道（LUMO）の数を指定します。"
-msgstr "Specify the number of lowest unoccupied molecular orbitals (LUMOS) to output."
+msgstr "Specify the number of lowest unoccupied molecular orbitals (LUMOs) to output."
 
 msgid "Nkpoint"
 msgstr "Nkpoint"
@@ -341,9 +337,8 @@ msgstr "Specify file name without pseudopotential extension."
 msgid "Atoms.Coord.Unit"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "原子座標の単位を指定します。"
-msgstr "Specify the name of the atomic species."
+msgstr "Specify the unit of the atomic coordinate."
 
 msgid "実行"
 msgstr "Run..."

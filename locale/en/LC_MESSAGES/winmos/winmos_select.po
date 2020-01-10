@@ -14,7 +14,6 @@ msgstr "There are two ways to select an atom: **The method using a red circle ma
 msgid "**赤丸のマーカーを用いる方法** は主に1原子に対する操作で使われます。分子表示エリアで :kbd:`左クリック` した原子にマーカーが移動します。下図のメタノール分子の例では、OH（ヒドロキシ）基の酸素（赤）→水素（黄色）の順に :kbd:`左クリック` しており、最後にマーカーが付けられた原子に太赤丸、1つ前にマーカーを付けられた原子に細赤丸が付いています。また、下図右赤枠内の、 :ref:`座標表示エリア <gui_main>` で :kbd:`左クリック` することでもマーカーが移動します。マーカーが付けられた原子は過去4つ分記憶され、下図左上赤枠内のように表示されます（下図の場合は :guilabel:`Marked Order: 6 - 2 - 1 - 3` ）。各原子の番号は :ref:`座標表示エリア <gui_main>` または :menuselection:`表示 --> ラベル/電荷 --> 番号&元素` を選択することで :ref:`分子表示エリア <gui_main>` 内で確認できます。"
 msgstr "**The method using the red circle marker** is mainly used for operation on one atom.The marker moves to the atom that was left-clicked in Viewport.In the example of the methanol molecule in the figure below, the oxygen (red) and hydrogen (yellow) of the OH (hydroxy) group are left clicked. The red thick circle is drawn to the atom to which the marker is finally attached, and the red thin circle is drawn to the atom attached the marker one before.The marker also moves by left clicking at :ref:`Coordinate Viewer <gui_main>` in the right red frame of the figure below.Last four atoms marked are internally stored and displayed as shown in the upper left red frame of the figure below.The number of each atom can be confirmed in :ref:`Viewport <gui_main>` by selecting  :menuselection:`View --> Labels/Charges --> Number&Element` or :ref:`Coordinate Viewer <gui_main>`."
 
-#, fuzzy
 msgid "**青丸のグループ選択を用いる方法** は、主に複数原子に対する操作で使われます。 :ref:`分子表示エリア <gui_main>` で :kbd:`Ctrl+左ドラッグ` 、 :kbd:`Ctrl+左クリック` 、 :kbd:`Shift+左クリック` することでグループ選択できます。あるいは :menuselection:`選択` メニュー以下の機能を使うことでもグループ選択できます。下図のメタノール分子の例では、CH3（メチル）基の周囲を :kbd:`Ctrl+左ドラッグ` しており、CH3基の原子が青丸で囲まれています。また、 :ref:`座標表示エリア <gui_main>` で :kbd:`Ctrl+左クリック` することでもグループ選択できます。 :ref:`分子表示エリア <gui_main>` 内の数左上にはグループ選択されている原子の個数と組成が表示されます（下図の例では :guilabel:`Group Selection: 4 Atoms (CH3)` ）。"
 msgstr "The method using group selection of the blue circle is mainly used for operations on multiple atoms.You can select a group by :kbd:`Ctrl+left drag` ,  :kbd:`Ctrl+left click` or  :kbd:`Shift+left click` in :ref:`Viewport <gui_main>`.You can also select a group by using the function of :menuselection:`Select` menu.In the example of the methanol molecule in the figure below, after :kbd:`Ctrl+left drag` around the CH3 (methyl) group, it can be confirmed that the CH3 group atoms are surrounded by blue circles.You can also select a group by :kbd:`Ctrl+left click` in :ref:`Coordinate Viewer <gui_main>`.On the upper left of :ref:`Viewport <gui_main>`, the number of atoms and composition of the group selected are displayed"
 
@@ -162,16 +161,14 @@ msgstr "Select Partial Structure Split by 2 Marked Atoms"
 msgid "1番目と2番目のマーカーが付いた2個の原子の間で分断される部分構造をグループ選択されます。 詳細は :ref:`select_top` に画像付きで記載しています。"
 msgstr "Substructures that are separated between two atoms with the first and second markers are selected."
 
-#, fuzzy
 msgid "グループを登録"
-msgstr "Select None"
+msgstr "Register Selected Group"
 
 msgid "グループ選択されたグループに名前を付けて登録し、 :ref:`select_select_registered_group` から呼び出せるようにします。"
-msgstr "NOTTRANSLATED"
+msgstr "Name and register the selected group so that it can be called from :ref:`select_select_registered_group`."
 
-#, fuzzy
 msgid "登録グループを選択"
-msgstr "Select None"
+msgstr "Select Registered Group"
 
 msgid ":ref:`select_register_selected_group` で登録されたグループを呼び出します。LAMMPS実行時には、ここにリストアップされたグループがndxファイル内に出力されます。Winmostarを再起動した後も登録グループを引き継ぎたい場合は、 :ref:`select_export_group_ndx` を用いてndxファイルに書き出した後、 :ref:`select_import_group_ndx` を用いて読み込みます。"
 msgstr "NOTTRANSLATED"

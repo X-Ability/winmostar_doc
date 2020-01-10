@@ -17,9 +17,8 @@ msgstr "Create Group"
 msgid "groファイルに書かれている原子名から新たなグループを登録します。"
 msgstr "Register a new group from the atom name written in the gro file."
 
-#, fuzzy
 msgid "メインウィンドウでグループ選択されている原子をグループとして定義する場合は :menuselection:`MD --> Gromacs -->` :ref:`select_add_group_ndx` を使用してください。"
-msgstr "To define atoms selected as a group in the main window as a group, use :menuselection:`MD --> Gromacs -->` :ref:`md_gromacs_editndx`."
+msgstr "To define atoms group selected in the main window as a group, use :menuselection:`MD --> Gromacs -->` :ref:`select_add_group_ndx`."
 
 msgid ":guilabel:`Create Group` ウィンドウでは、 :guilabel:`Extracted Atom Names` にチェックを入れて :guilabel:`New group Name` を入力し :guilabel:`Create` ボタンを押すと、ndxファイルにグループが追加されます。 :guilabel:`Close` ボタンを押すと :guilabel:`Target Group` や :guilabel:`Reference Group` に追加したグループが追加されます。"
 msgstr "In the :guilabel:`Create Group` window, check :guilabel:`Extracted Atom Names` and enter :guilabel:`New group Name` and press the :guilabel:`Create` button, the group is added to the ndx file It will be added. When you press the :guilabel:`Close` button, the groups added to :guilabel:`Target Group` and :guilabel:`Reference Group` are added."

@@ -32,13 +32,11 @@ msgstr "Molecules preserved in mol 2 format"
 msgid "水分子"
 msgstr "water molecule"
 
-#, fuzzy
 msgid "現在のファイル名の末尾に :file:`_builder_tmp` を付けた作業用フォルダが作成され、その中でPackmolを用いた処理が行われます。"
-msgstr "A working folder will be created with :file:`_builder_tmp` appended to the end of the current file name and will be processed in it. "
+msgstr "A working folder with :file:`_builder_tmp` added to the end of the current file name is created, and processing using Packmol is performed in that folder."
 
-#, fuzzy
 msgid "作業用フォルダ以下の :file:`packmol.bat`、:file:`packmol.log` に詳細が記載されています。 作業用フォルダ以下の :file:`output.pdb` が最終的に生成された分子構造を含むファイルになります。"
-msgstr "If you check :guilabel:`Use Packmol in [MD]-[Place Solvent / Build Cell]` in the Preferences, execute Packmol internally. Details are described in :file:`packmol.bat` and :file:`packmol.log` under the working folder. :file:`output.pdb` in the working folder is the file containing the finally generated molecular structure."
+msgstr "Details are described in :file:`packmol.bat` and :file:`packmol.log` under the working folder. :file:`output.pdb` under the working folder is the file containing the final generated molecular structure."
 
 msgid "Add Displayed Molecule"
 msgstr "Add Displayed Molecule"
@@ -76,7 +74,6 @@ msgstr "Specify the density of the simulation cell to be created. If it is too l
 msgid "Set Distance from Solute"
 msgstr "Set Distance from Solute"
 
-#, fuzzy
 msgid ":guilabel:`Method` に :guilabel:`Solvate` を選んでいる際に、メインウィンドウに表示された分子とシミュレーションセルの間の距離を指定します。"
 msgstr "When choosing :guilabel:`Solvate` for :guilabel:`Method`, specify the distance between the molecule displayed on the main screen and the simulation cell."
 
@@ -113,16 +110,14 @@ msgstr "Specify tolerance parameter of Packmol."
 msgid "Margin"
 msgstr "Margin"
 
-#, fuzzy
 msgid "Packmolを使用する場合のセルの端付近の原子を置かない領域の幅を指定します。"
-msgstr "When using Packmol, specify the width of the area where no atoms are placed near the edge of the cell."
+msgstr "Specify the width of the area where no atoms are placed near the edge of the cell when using Packmol."
 
 msgid "Random seed"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "Packmolを使用する場合の乱数の種を指定します。"
-msgstr "When using Packmol, specify the width of the area where no atoms are placed near the edge of the cell."
+msgstr "Specify the seed of random number when using Packmol."
 
 msgid "Automatically change random seed every time"
 msgstr "NOTTRANSLATED"
@@ -154,16 +149,14 @@ msgstr "If you want to add only one additional molecule without changing the coo
 msgid "内部動作は :ref:`md_solvate_buildcell` と同じです。"
 msgstr "The internal operation is the same as :ref:`md_solvate_buildcell`."
 
-#, fuzzy
 msgid "自動で電荷を割り当て"
-msgstr "Assign Charges..."
+msgstr "Assign Charges Automatically"
 
 msgid "複数分子に対して、自動で電荷を割り当てます。"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "現在のファイル名の末尾に :file:`_charge_tmp` を付けた作業用フォルダが作成され、その中でPackmolを用いた処理が行われます。"
-msgstr "A working folder will be created with :file:`_builder_tmp` appended to the end of the current file name and will be processed in it. "
+msgstr "A working folder will be created with the current file name suffixed with :file:`_charge_tmp`, and processing using Packmol will be performed in it. "
 
 msgid "全てのMethodを...に設定"
 msgstr "NOTTRANSLATED"
@@ -195,9 +188,8 @@ msgstr "NOTTRANSLATED"
 msgid "その分子種の電荷を設定します。中性分子では0、イオンでは+1, -1などその電荷を指定します。"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "手動で電荷を割り当て"
-msgstr "Assign Charges..."
+msgstr "Assign Charges Manually"
 
 msgid "Acpypeを使用"
 msgstr "By Acpype..."

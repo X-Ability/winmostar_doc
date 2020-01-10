@@ -152,7 +152,6 @@ msgstr "Calculation log file."
 msgid "作業ディレクトリ"
 msgstr "Working Directory"
 
-#, fuzzy
 msgid ":file:`water_cnd_tmp\\\\`"
 msgstr ":file:`water.cnd_temp\\\\`"
 

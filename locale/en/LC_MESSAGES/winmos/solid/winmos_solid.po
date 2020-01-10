@@ -384,4 +384,3 @@ msgid ":ref:`solid_fdmnes_top` を参照してください。"
 msgstr "See :ref:`solid_fdmnes_top`."
 
 
-

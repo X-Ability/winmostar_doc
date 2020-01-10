@@ -26,9 +26,8 @@ msgstr "For example, when you want to allocate LJ parameters to solid phase atom
 msgid "(タンパク質/イオン)"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid "タンパク質、単原子の力場を指定します。ここで、PDBやgroフォーマットにおいてアミノ酸残基の名前が割り当てられている原子がタンパク質として認識されます。内部的には :command:`gmx pdb2gmx` が使用されます。"
-msgstr "Specify the force field of the protein. At this point, atoms assigned amino acid residue names in PDB and gro format are recognized as proteins. Internally :command:`gmx pdb 2 gmx` is used."
+msgstr "Specify the force field of the protein and single atoms. At this point, atoms assigned amino acid residue names in PDB and gro format are recognized as proteins. Internally :command:`gmx pdb2gmx` is used."
 
 msgid "残基名を含まないファイルから分子構造を読み込んだ場合は本機能を使用できません。"
 msgstr "This function can not be used when reading the molecular structure from a file not including residue name."
@@ -39,21 +38,18 @@ msgstr "NOTTRANSLATED"
 msgid "水分子の力場を指定します。 :ref:`md_solvate_buildcell` で選択した水モデルを指定する必要があります。内部的にはCygwinにインストールされたGromacsのトポロジのライブラリからパラメータを取得します。"
 msgstr "Specify the force field of the water molecule. You must specify the selected water model with :ref:`md_solvate_buildcell`. Internally we get the parameters from the library of Gromacs topology installed in Cygwin."
 
-#, fuzzy
 msgid "タンパク質向けに[position_restraints]を追加"
 msgstr "Add [position_restraints] for protein"
 
 msgid "タンパク質が存在する場合は :guilabel:`Advance` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。タンパク質が存在しない場合は無視されます。"
 msgstr "If a protein exists, write information (`` [position_restraints] `` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advance` tab. Ignored when protein is absent."
 
-#, fuzzy
 msgid "選択原子向けに[position_restraints]を追加"
-msgstr "Add [position_restraints] for protein"
+msgstr "Add [position_restraints] for selected atoms"
 
 msgid "ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。 例えば固液界面系に於いて固相を固定する場合などに使用します。"
 msgstr "For the molecule specified by the user, write information (`` [position_restraints] `` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advance` tab. For example, when fixing solid phase in solid-liquid interface system."
 
-#, fuzzy
 msgid "選択原子向けに[distance/angle/dihedral_restraints]を追加"
 msgstr "Add [distance/angle/dihedral_restraints] for selected atoms"
 
@@ -63,7 +59,6 @@ msgstr "For the molecule specified by the user, write information to constrain d
 msgid "Dump Now"
 msgstr "Dump Now"
 
-#, fuzzy
 msgid "現在の設定に基づき、力場が割り当てられたファイルを生成します。"
 msgstr "Based on the current settings, generate a topology file."
 
@@ -93,7 +88,6 @@ msgstr "NOTTRANSLATED"
 
 msgid "（LAMMPS向け）既に存在しているdataファイルを用いてMD計算を実行する場合に選択します。メインウィンドウには使用するdataファイルを開いておく必要があります。 :guilabel:`Next >` ボタンを押した後に、使用する力場の種類を指定します。"
 msgstr "NOTTRANSLATED"
-
 
 
 

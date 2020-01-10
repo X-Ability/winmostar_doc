@@ -431,9 +431,8 @@ msgstr "It is a batch file for running Gaussian."
 msgid "作業ディレクトリ"
 msgstr "NOTTRANSLATED"
 
-#, fuzzy
 msgid ":file:`water_gau_tmp\\\\`"
-msgstr ":file:`water.gjf.bat`"
+msgstr ":file:`water_gau_tmp\\\\`"
 
 msgid "作業ディレクトリです。"
 msgstr "NOTTRANSLATED"

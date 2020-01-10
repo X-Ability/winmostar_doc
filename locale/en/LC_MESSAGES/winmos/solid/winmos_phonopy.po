@@ -1,5 +1,3 @@
-#, fuzzy
-
 msgid ":menuselection:`固体 --> Phonopy` メニュー"
 msgstr ":menuselection:`Solid --> Phonopy` menu"
 
