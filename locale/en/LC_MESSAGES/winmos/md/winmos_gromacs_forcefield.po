@@ -42,13 +42,13 @@ msgid "タンパク質向けに[position_restraints]を追加"
 msgstr "Add [position_restraints] for protein"
 
 msgid "タンパク質が存在する場合は :guilabel:`Advance` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。タンパク質が存在しない場合は無視されます。"
-msgstr "If a protein exists, write information (`` [position_restraints] `` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advance` tab. Ignored when protein is absent."
+msgstr "If a protein exists, write information (``[position_restraints]`` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advance` tab. Ignored when protein is absent."
 
 msgid "選択原子向けに[position_restraints]を追加"
 msgstr "Add [position_restraints] for selected atoms"
 
 msgid "ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。 例えば固液界面系に於いて固相を固定する場合などに使用します。"
-msgstr "For the molecule specified by the user, write information (`` [position_restraints] `` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advance` tab. For example, when fixing solid phase in solid-liquid interface system."
+msgstr "For the molecule specified by the user, write information (``[position_restraints]`` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advance` tab. For example, when fixing solid phase in solid-liquid interface system."
 
 msgid "選択原子向けに[distance/angle/dihedral_restraints]を追加"
 msgstr "Add [distance/angle/dihedral_restraints] for selected atoms"
@@ -69,7 +69,7 @@ msgid "次に、Gromacsの場合は、 :guilabel:`トポロジファイルに書
 msgstr "Next, in case of Gromacs, select :guilabel:`Use parameters written in topology file` and click :guilabel:`OK` button. Then you will be asked for the location of the top file, so open the top file you saved and edited earlier."
 
 msgid "LAMMPSの場合は、 :guilabel:`メインウィンドウのファイルに書かれたパラメータを使用` を選択し :guilabel:`Next >` ボタンをクリックしてください。そして、 :guilabel:`力場の種類を選択してください` と出るので、使用する汎用力場の種類を選択して :guilabel:`OK` ボタンをクリックしてください。"
-msgstr "In case of LAMMPS, select :guilabel:`Use parameters written in file in main window` and click :guilabel:`Next >`button. Then, :guilabel:`Select the type of force field` appears. Select the general type of force field to use and click the :guilabel:`OK` button."
+msgstr "In case of LAMMPS, select :guilabel:`Use parameters written in file in main window` and click :guilabel:`Next >` button. Then, :guilabel:`Select the type of force field` appears. Select the general type of force field to use and click the :guilabel:`OK` button."
 
 msgid "パラメータファイルを使用（無機物、ReaxFF、DPD向け）"
 msgstr "Use parameters defined in external parameter file (for inorganic system, ReaxFF or DPD)"

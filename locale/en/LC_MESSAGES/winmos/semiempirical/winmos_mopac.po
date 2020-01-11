@@ -6,7 +6,7 @@ msgid "MOPACに関するメニューです。"
 msgstr "It is a menu related to MOPAC."
 
 msgid "MOPAC6とMOPAC7はWinmostarに同梱されています。 それ以外のMOPACを利用する場合は、別途代理店よりMOPAC本体を購入し、環境設定ウィンドウにてパスを設定してください。"
-msgstr "MOPAC 6 and MOPAC 7 are bundled with Winmostar. When using other MOPAC please purchase MOPAC body separately from distributor and set the path in Preference window."
+msgstr "MOPAC 6 and MOPAC 7 are bundled with Winmostar. When using other MOPAC please purchase MOPAC body separately from distributor and set the path in Preferences window."
 
 msgid "キーワード設定"
 msgstr "Configure"

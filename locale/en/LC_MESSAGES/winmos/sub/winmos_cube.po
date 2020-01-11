@@ -176,11 +176,5 @@ msgstr ":guilabel:`Draw` button"
 msgid "ボリュームデータを :ref:`winmos3d_top` を用いて描画します。"
 msgstr "Draw the volume data using :ref:`winmos3d_top`."
 
-msgid ":guilabel:`Draw (2D)` ボタン"
-msgstr ":guilabel:`Draw (2D)` button"
-
-msgid "ボリュームデータをメインウィンドウで描画します。（deprecated）"
-msgstr "Draw volume data in the main window. (Deprecated)"
-
 msgid ":guilabel:`Close` ボタン"
 msgstr ":guilabel:`Close` button"

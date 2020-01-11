@@ -48,7 +48,7 @@ Analysisメニュー
       自由エネルギー計算でできた出力ファイルを削除します。
       FreeEnergy.sh, FreeEnergy.log, calc_PdP_kai2.out, parameters_feファイル, refs, solnフォルダ等を削除します。
 Toolsメニュー
-   Preference
+   Preferences
       :ref:`fer_pref` を表示します。
 
 Solution

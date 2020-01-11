@@ -1,4 +1,3 @@
-
 msgid "DCDFTBMD"
 msgstr "DCDFTBMD"
 
@@ -413,17 +412,20 @@ msgstr "Open Detailed Data File (dat)"
 msgid "詳細出力ファイルをテキストエディタで開きます。"
 msgstr "Open the detailed output file in a text editor."
 
-msgid "OPTアニメーション(dco)"
-msgstr "OPT Animation (dco)"
+msgid "アニメーション"
+msgstr "Animation"
+
+msgid "構造最適化 (dco)"
+msgstr "OPT (dco)"
 
 msgid "dcoファイルを選択し、構造最適化計算のトラジェクトリをアニメーション表示します。"
-msgstr "Select a dco file and animate the structure optimization trajectory."
+msgstr "Select a dco file and animate optimization calculation trajectory."
 
 msgid "アニメーション表示の操作方法は :ref:`animation_top` を参照してください。"
 msgstr "Please refer to :ref:`animation_top` for how to operate the animation. "
 
-msgid "アニメーション(traject)"
-msgstr "Animation (traject)"
+msgid "MD (traject)"
+msgstr "MD (traject)"
 
 msgid "dciファイルとtrajectファイルを選択し、MD計算のトラジェクトリをアニメーション表示します。"
 msgstr "Select dci and traject files and animate MD calculation trajectory."

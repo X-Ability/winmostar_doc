@@ -60,7 +60,7 @@ msgid "Calc LDOS"
 msgstr "Calc LDOS"
 
 msgid "局所状態密度（LDOS）を、ファイル名末尾が_sd*.txtとなっているファイルの中に出力します。"
-msgstr "The local state density (LDOS) is output into a file whose file name suffix is _sd*.txt."
+msgstr "The local density of states (LDOS) is output into a file whose file name suffix is _sd*.txt."
 
 msgid "Definition for Energy"
 msgstr "Definition for Energy"

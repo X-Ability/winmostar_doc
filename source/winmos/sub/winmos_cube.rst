@@ -69,8 +69,6 @@ MO Plotウィンドウ
       :guilabel:`Draw` ボタンを押したときに、描画と同時にcubeファイルを出力します。
    :guilabel:`Draw` ボタン
       ボリュームデータを :ref:`winmos3d_top` を用いて描画します。
-   :guilabel:`Draw (2D)` ボタン
-      ボリュームデータをメインウィンドウで描画します。（deprecated）
    :guilabel:`Close` ボタン
       このウィンドウを閉じます。 
 

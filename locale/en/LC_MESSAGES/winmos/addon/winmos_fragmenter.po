@@ -120,8 +120,8 @@ msgstr "Delete the output file made by free energy calculation. Delete FreeEnerg
 msgid "Toolsメニュー"
 msgstr "Tools menu"
 
-msgid "Preference"
-msgstr "Preference"
+msgid "Preferences"
+msgstr "Preferences"
 
 msgid ":ref:`fer_pref` を表示します。"
 msgstr ":ref:`fer_pref` is displayed."
@@ -361,7 +361,7 @@ msgid "結果表示画面を閉じます。"
 msgstr "Close the result display window."
 
 msgid "環境設定画面"
-msgstr "Preference window"
+msgstr "Preferences window"
 
 msgid "NAMD Path"
 msgstr "NAMD Path"

@@ -5,16 +5,16 @@ msgid "リモートジョブ投入機能を用いると、Winmostarをインス�
 msgstr "With the remote job submission function, it is possible to execute a solver on a Linux machine ( \\*\\*remote server\\*\\* ) different from the machine on which Winmostar is installed."
 
 msgid "対応するジョブスケジューラ"
-msgstr "Corresponding job scheduler"
+msgstr "Supported job schedulers"
 
 msgid "Winmostarが対応するジョブスケジューラは以下の通りです。カスタマイズサービス `Winmostar for you <https://x-ability.co.jp/wm4u.pdf>`_ においてご希望のジョブスケジューラに追加対応させることも可能です。"
-msgstr "The job scheduler corresponding to Winmostar is as follows. It is also possible to add additional support to your desired job scheduler with customize service `Winmostar for you <https://x-ability.co.jp/wm4u.pdf>`_ ."
+msgstr "Winmostar supports following job schedulers. It is also possible to add additional support to your desired job scheduler with customize service `Winmostar for you <https://x-ability.co.jp/wm4u.pdf>`_ ."
 
 msgid "TORQUE (PBS)"
 msgstr "TORQUE (PBS)"
 
 msgid "SGE, UGE"
-msgstr "SGE, WEEK"
+msgstr "SGE, UGE"
 
 msgid "SLURM"
 msgstr "SLURM"
@@ -56,7 +56,7 @@ msgid ":guilabel:`Queue` の設定で ``Run`` を選択する。"
 msgstr "Select ``Run`` with :guilabel:`Queue` setting."
 
 msgid "リモートジョブの実行手順"
-msgstr "Procedure for executing remote job"
+msgstr "Submitting remote job"
 
 msgid "各機能の詳細は :ref:`remote_submitjob` を参照してください。"
 msgstr "For details of each function, see :ref:`remote_submitjob`."
@@ -113,7 +113,7 @@ msgid "|fig_remote_editconnection|"
 msgstr "|fig_remote_editconnection|"
 
 msgid "TSUBAME、FOCUSなどに多段SSH接続する方法は `https://winmostar.com/jp/manual_jp.html <https://winmostar.com/jp/manual_jp.html>`_ を参照してください。"
-msgstr "Refet to `https://winmostar.com/jp/manual_en.html <https://winmostar.com/jp/manual_jp.html>`_ for the method of multi-stage SSH connection to TSUBAME, FOCUS, etc.."
+msgstr "Refet to `https://winmostar.com/en/manual_en.html <https://winmostar.com/en/manual_en.html>`_ for the method of multi-stage SSH connection to TSUBAME, FOCUS, etc.."
 
 msgid "入力後、SSH接続をテストするために、 :guilabel:`Edit Profile` ウィンドウ下の :guilabel:`Test Connection` ボタンをクリックします。"
 msgstr "After input, click the :guilabel:`Test Connection` button under the :guilabel:`Edit Profile` window to test the SSH connection."
@@ -125,16 +125,16 @@ msgid "|fig_remote_storekey|"
 msgstr "|fig_remote_storekey|"
 
 msgid "接続に成功した場合は、先ほどの :guilabel:`Submit Remote Job` ウィンドウの下部に ``Connection test succeeded.`` と表示されます。"
-msgstr "If the connection is successful, you will see `` Connection test succeeded. `` At the bottom of the previous: guilabel: `Submit Remote Job` window."
+msgstr "If the connection is successful, you will see ``Connection test succeeded.`` At the bottom of the previous: guilabel: `Submit Remote Job` window."
 
 msgid "|fig_remote_testconnection|"
 msgstr "|fig_remote_testconnection|"
 
 msgid "ユーザ設定等が間違っている場合はターミナルウィンドウで ``Access denied ***@***'s password:`` などど表示されます。その場で正しいパスワードを入力した場合も、再度 :guilabel:`Edit Profile` ウィンドウでパスワードを再入力してください。"
-msgstr "If user settings etc. are wrong, you will see `` Access denied *** @ *** &#39;s password: `` in the terminal window. Even if you enter the correct password on the spot, please re-enter the password again in the :guilabel:`Edit Profile` window."
+msgstr "If user settings etc. are wrong, you will see ``Access denied ***@***'s password:`` in the terminal window. Even if you enter the correct password on the spot, please re-enter the password again in the :guilabel:`Edit Profile` window."
 
 msgid "その他、 :guilabel:`Submit Remote Job` ウィンドウの下部に ``ERROR: Connection timed out or an error occurred.`` と表示された場合は、接続設定を見直してください。"
-msgstr "If you see `` ERROR: Connection timed out or an error occurred .`` at the bottom of the :guilabel:`Submit Remote Job` window, please reconsider the connection settings."
+msgstr "If you see ``ERROR: Connection timed out or an error occurred.`` at the bottom of the :guilabel:`Submit Remote Job` window, please reconsider the connection settings."
 
 msgid ":guilabel:`Edit Profile` ウィンドウ下部にて、以下の内容を入力します。"
 msgstr "Enter the following contents at the bottom of the window of :guilabel:`Edit Profile`."
@@ -188,10 +188,10 @@ msgid "ジョブがリモートサーバ上で開始されると、標準出力�
 msgstr "When a job is started on a remote server, standard output is output to the file :file:`winmos.o` and standard error is output to the file :file:`winmos.e`."
 
 msgid "サブミットしたジョブの状況は、 :menuselection:`Queue --> List Submitted Jobs` で確認してください。全てのジョブが完了した場合は ``---`` と表示されます。"
-msgstr "Check the status of the submitted job with :menuselection:`Queue --> List Submitted Jobs`. If all jobs are completed, `` --- `` will be displayed."
+msgstr "Check the status of the submitted job with :menuselection:`Queue --> List Submitted Jobs`. If all jobs are completed, ``---`` will be displayed."
 
 msgid "サブミットしたジョブがあまりに早く終了した場合は、サブミットした直後であっても ``---`` と表示されます。"
-msgstr "If the submitted job ends too soon, `` - - `` will be displayed even if you submit it."
+msgstr "If the submitted job ends too soon, ``---`` will be displayed even if you submit it."
 
 msgid "リモートサーバ上の特定のジョブの状況を確認するときは、以下の操作を行ってください。"
 msgstr "To check the status of a specific job on a remote server, please do the following."
@@ -581,7 +581,7 @@ msgid "リモートジョブの設定ファイル"
 msgstr "Remote job configuration file"
 
 msgid "プロファイルの設定は、Winmostarのインストールフォルダの :file:`UserPref\\\\winmos_profile.ini` に保存されます。 読み込む際には、V8以前の旧バージョンとの互換性維持のため、以下の優先順位で読み込まれます。"
-msgstr "Profile settings are saved in :file:`UserPref \\ \\ winmos_profile.ini` in Winmostar installation folder. When reading, in order to maintain compatibility with old versions of V8 or earlier, it is read in the following order of priority."
+msgstr "Profile settings are saved in :file:`UserPref\\\\winmos_profile.ini` in Winmostar installation folder. When reading, in order to maintain compatibility with old versions of V8 or earlier, it is read in the following order of priority."
 
 msgid ":file:`UserPref\\\\winmos_profile.ini` > :file:`UserPref\\\\winmos_server.ini` > :file:`wm_system\\\\RemoteJob\\default_profile.ini`"
 msgstr ":file:`UserPref\\\\winmos_profile.ini` > :file:`UserPref\\\\winmos_server.ini` > :file:`wm_system\\\\RemoteJob\\default_profile.ini`"
@@ -617,7 +617,7 @@ msgid ":guilabel:`Test Connection` ボタンを押した時にジョブマネー
 msgstr "It also checks whether the job manager is running when the :guilabel:`Test Connection` button is pressed."
 
 msgid ":guilabel:`List Jobs` ボタンで表示される情報はジョブマネージャと同じで左から番号、状態、優先度、コア数、ジョブID、開始日時、終了日時、バッチファイルです。"
-msgstr "The information displayed by the :guilabel:`List Jobs` button is the same as the job manager, from the left: number, status, priority, number of cores, job ID, start date/time, end date/time, and batch file."
+msgstr "The information displayed by the :guilabel:`List Jobs` button is the same as Job Manager, from the left: number, status, priority, number of cores, job ID, start date/time, end date/time, and batch file."
 
 msgid ":guilabel:`Delete Job` ボタンでジョブを取り消す場合はジョブIDを入力します。"
 msgstr "If you want to cancel the job with the `Delete Job` button, enter the job ID."

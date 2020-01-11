@@ -53,13 +53,13 @@ msgid "タンパク質向けに[position_restraints]を追加"
 msgstr "Add [position_restraints] for protein"
 
 msgid "タンパク質が存在する場合は :guilabel:`Advance` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。タンパク質が存在しない場合は無視されます。"
-msgstr "If a protein exists, write information (`` [position_restraints] `` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advance` tab. Ignored if protein is absent."
+msgstr "If a protein exists, write information (``[position_restraints]`` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advance` tab. Ignored if protein is absent."
 
 msgid "選択原子向けに[position_restraints]を追加"
 msgstr "Add [position_restraints] for protein"
 
 msgid "ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。 例えば固液界面系に於いて固相を固定する場合などに使用します。"
-msgstr "For the molecule specified by the user, write information (`` [position_restraints] `` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advance` tab. For example, when fixing solid phase in solid-liquid interface system."
+msgstr "For the molecule specified by the user, write information (``[position_restraints]`` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advance` tab. For example, when fixing solid phase in solid-liquid interface system."
 
 msgid "選択原子向けに[distance/angle/dihedral_restraints]を追加"
 msgstr "Add [distance/angle/dihedral_restraints] for selected atoms"
@@ -1133,7 +1133,7 @@ msgid "自由エネルギー計算をローカル環境で実施する場合は 
 msgstr "To implement free energy calculation in the local environment press the :guilabel:`Start` button. Calculation begins when you specify the folder to output the result. On Cygwin, :command:`ermod` flows."
 
 msgid "リモート環境で実施する場合は一旦 :guilabel:`Close` ボタンを押します。そして :ref:`remote_top` にて :guilabel:`Program` に ``ermod`` を指定し実行します。リモートサーバ上では、 :command:`ermod` および :command:`slvfe` コマンドに :command:`$PATH` が通っている必要があります。（リモートサーバへのERmodのインストールは `こちら <https://winmostar.com/jp/gmx4wm_jp_linux.html>`_ を参照）計算が終わり、 :ref:`remote_top` で :guilabel:`get` ボタンを押すと、 :file:`winmostar.exe` が置かれたフォルダ以下に :file:`ermod_remote_\\*` というフォルダが生成され、結果がリモートサーバから転送されます。"
-msgstr "To implement in the remote environment, press the :guilabel:`Close` button once. And at :ref:`remote_top` execute :guilabel:`Program` with ``ermod``. On the remote server, it is necessary for :command:`ermod` and :command:`slvfe` command to pass :command:`$PATH`. (Installing ERmod on remote server is `here <https://winmostar.com/jp/gmx4wm_jp_linux.html>`) After finishing the calculation, press :guilabel:`get` button in :ref:`remote_top`, you will find :file:`ermod_remote_\\*` under the folder where :file:`winmostar.exe` is placed and the result is transferred from the remote server."
+msgstr "To implement in the remote environment, press the :guilabel:`Close` button once. And at :ref:`remote_top` execute :guilabel:`Program` with ``ermod``. On the remote server, it is necessary for :command:`ermod` and :command:`slvfe` command to pass :command:`$PATH`. (Installing ERmod on remote server is `here <https://winmostar.com/en/gmx4wm_en_linux.html>`) After finishing the calculation, press :guilabel:`get` button in :ref:`remote_top`, you will find :file:`ermod_remote_\\*` under the folder where :file:`winmostar.exe` is placed and the result is transferred from the remote server."
 
 msgid "自由エネルギー計算終了後、結果の表示するには :ref:`md_gromacs_er_result` メニューを選択します。"
 msgstr "After calculating the free energy calculation, to display the result, select the :ref:`md_gromacs_er_result` menu."

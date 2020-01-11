@@ -117,7 +117,7 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
 
 ..
 
-10. インストール手順は以上です。続けて、必要に応じて `ビギナーズガイド <https://winmostar.com/jp/tutorials/V8/BeginnersGuide_V8.pdf>`_ や `各種チュートリアル <https://winmostar.com/jp/manual_jp.html>`_ を確認して下さい。
+10. インストール手順は以上です。続けて、必要に応じて `ビギナーズガイド <https://winmostar.com/jp/tutorials/V9/BeginnersGuide_V9.pdf>`_ や `各種チュートリアル <https://winmostar.com/jp/manual_jp.html>`_ を確認して下さい。
 
 また、必須ではありませんが、エクスプローラ上で各ファイルの拡張子を表示する設定に変更することを推奨します。
 

@@ -1,5 +1,5 @@
 msgid "コマンドプロンプトからの実行方法"
-msgstr "How to execute from the command prompt"
+msgstr "How to launch from the command prompt"
 
 msgid "コマンドプロンプトから各種のオプションを指定して起動することが可能です。"
 msgstr "It is possible to start by specifying various options from the command prompt."
@@ -70,8 +70,8 @@ msgstr "-outfile output_file_name"
 msgid "使用例:"
 msgstr "Use case:"
 
-msgid "\"C:\\winmos10\\winmostar.exe\" \"C:\\winmos10\\samples\\dbt.dat\" -s -mopac1 \"C:\\winmos10\\winmostar.exe\" \"C:\\winmos10\\samples\\dbt.dat\" -s -molsv 1 2.0 0.02 \"C:\\winmos10\\winmostar.exe\" \"C:\\winmos10\\samples\\dbt.dat\" -s -o pdb \"C:\\winmos10\\winmostar.exe\" \"C:\\winmos10\\samples\\dbt.dat\" -s -adjust -hadd -clean -o gjf"
-msgstr "\"C:\\winmos10\\winmostar.exe\" \"C:\\winmos10\\samples\\dbt.dat\" -s -mopac1 \"C:\\winmos10\\winmostar.exe\" \"C:\\winmos10\\samples\\dbt.dat\" -s -molsv 1 2.0 0.02 \"C:\\winmos10\\winmostar.exe\" \"C:\\winmos10\\samples\\dbt.dat\" -s -o pdb \"C:\\winmos10\\winmostar.exe\" \"C:\\winmos10\\samples\\dbt.dat\" -s -adjust -hadd -clean -o gjf"
+msgid "\\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -mopac1 \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -molsv 1 2.0 0.02 \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -o pdb \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -adjust -hadd -clean -o gjf"
+msgstr "\\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -mopac1 \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -molsv 1 2.0 0.02 \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -o pdb \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -adjust -hadd -clean -o gjf"
 
 msgid "初期入力ファイルを第一引数に指定します。"
 msgstr "Specify input file at first argument."

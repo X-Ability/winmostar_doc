@@ -8,7 +8,7 @@ msgid "基本タブ"
 msgstr "Basic Tab"
 
 msgid "言語"
-msgstr "language"
+msgstr "Language"
 
 msgid "言語を選択します。"
 msgstr "Select a language."
@@ -26,13 +26,13 @@ msgid "内部で使用するUNIX環境にcygwinを使用するかWindows Subsyst
 msgstr "Choose whether to use cygwin for internal UNIX environment or Windows Subsystem for Linux (Bash on Ubuntu on Windows)."
 
 msgid "[ファイル]-[テキストエディタで開く]メニューにて旧エディタを使用"
-msgstr "Use the old editor in [File] - [Open with text editor] menu"
+msgstr "Use internal editor at [File]-[Open in Text Editor]"
 
 msgid "チェックが入っていた場合は、 :menuselection:`ファイル -->` :ref:`file_editor` をクリックした際に、V8までの :menuselection:`編集 --> 直接編集` 機能を使用します。入っていない場合は、 :menuselection:`環境設定 --> プログラムパス` でEditorに設定したプログラムを使います。"
-msgstr "If checked, use :menuselection:`Edit-> Direct Editor` function up to V8 when you click :menuselection:`File -->` :ref:`file_editor`. If not, use the program set in Editor with :menuselection:`Preference --> Program Path`."
+msgstr "If checked, use :menuselection:`Edit-> Direct Editor` function up to V8 when you click :menuselection:`File -->` :ref:`file_editor`. If not, use the program set in Editor with :menuselection:`Preferences --> Program Path`."
 
 msgid "Zipの解凍に旧式(V8以前)のコードを使用"
-msgstr "Use old code (pre-V8) code to unzip Zip"
+msgstr "Use old function adopted up to V8 for unzip"
 
 msgid "リモートジョブにおいて、リモートサーバから作業ディレクトリのzipファイルをgetし解凍する際に使うコードを指定します。 旧式のコードは巨大なファイル（数百 MB以上）の解凍時にエラーを出します。"
 msgstr "In the remote job, specify the code used to get and unzip the zip file of the working directory from the remote server. Old-style code generates errors when decompressing huge files (hundreds of MB or more)."
@@ -41,64 +41,58 @@ msgid "編集タブ"
 msgstr "Edit tab"
 
 msgid "結合判定係数"
-msgstr "Bond determination coefficient"
+msgstr "Bonding Factor"
 
 msgid "原子間距離から共有結合の有無を判定する際の閾値を設定します。"
 msgstr "Set the threshold for judging the presence or absence of covalent bond from interatomic distance."
 
 msgid "編集中にZ-Matrixの結合関係を保持"
-msgstr "Maintain Z-Matrix join relationship during editing"
+msgstr "Keep Z-Matrix connectivity while modifying structure"
 
 msgid "チェックされている場合は、分子構造の編集時にZ-Matrixの結合関係が変わらないようにします。"
 msgstr "If checked, make sure that the Z-Matrix join relationship does not change when editing molecular structure."
 
 msgid "MOL保存時に芳香環を単+二重結合に変換"
-msgstr "Convert aromatic ring to single + double bond when storing MOL"
+msgstr "Convert aromatic ring to single + double bond for MOL file "
 
 msgid "MOLファイルの保存時に、芳香環を単結合と二重結合の組み合わせに変更してから出力します。"
 msgstr "When storing the MOL file, change the aromatic ring to a combination of single bond and double bond before outputting."
 
 msgid "結合除外リスト"
-msgstr "Coupled exclusion list"
+msgstr "Bonding exceptions"
 
 msgid "結合を自動生成する機能において、特定元素間の結合を生成したくない場合に本機能を使います。 まず :guilabel:`Add` ボタンを押します。 次に、リストの下にある2つのプルダウンメニューで結合を除外したい2つの元素を選択し、 :guilabel:`Apply` ボタンを押します。 その後、 :ref:`edit_regenerate_bond` などを適用すると指定した元素間の結合が切断されます。 元に戻す場合は、リストの中から設定を解除したい行を選択して :guilabel:`Delete` ボタンを押します。"
 msgstr "Use this function when you do not want to create bonds between specific elements in the function to automatically generate bonds. First press the :guilabel:`Add` button. Then select the two elements you want to exclude the join in the two pull-down menus below the list and press the :guilabel:`Apply` button. After that, applying :ref:`edit_regenerate_bond` etc will break the bond between the specified elements. To restore, select the line you want to unset from the list andpress the :guilabel:`Delete` button."
 
 msgid "ペーストした原子にマーカーを移動する。"
-msgstr "Move the marker to the pasted atom."
+msgstr "Move markers to pasted atoms."
 
 msgid "チェックした場合は、 :ref:`edit_group_paste` を使用した際に、ペーストした原子にマーカーを移動します。"
 msgstr "If checked, move the marker to the pasted atom when using :ref:`edit_group_paste`."
 
 msgid "座標表示エリアに表示する最大原子数"
-msgstr "Maximum number of atoms displayed in the coordinate display area"
+msgstr "Max # of atoms to show atom list"
 
 msgid "座標表示エリアに座標を表示する最大原子数を設定します。"
 msgstr "Set the maximum number of atoms to display coordinates in the coordinate display area."
 
 msgid "Z-Matrixを自動生成する最大原子数"
-msgstr "Maximum number of atoms to automatically generate Z-Matrix"
+msgstr "Max # of atoms to generate Z-Matrix"
 
 msgid "Z-Matrixを自動生成する最大原子数を設定します。"
 msgstr "Set the maximum number of atoms to automatically generate Z-Matrix."
 
-msgid "ボンドを自動生成する最大原子数"
-msgstr "Maximum number of atoms to automatically generate Z-Matrix"
+msgid "結合を自動生成する最大原子数"
+msgstr "Max # of atoms to generate bonds"
 
 msgid "結合を自動生成する処理が動作する最大原子数を設定します。"
 msgstr "Set the maximum number of atoms to automatically generate Z-Matrix."
-
-msgid "[MD]-[溶媒を配置/セルを構築]にてPackmolを使用"
-msgstr "Use Packmol in [MD]-[Solvate/Build Cell]"
-
-msgid "チェックが入っていた場合は、 :ref:`md_solvate_buildcell` においてpackmolを使用します。 入っていない場合は、Gromacsを使用します。"
-msgstr "If it is checked, use packmol in :ref:`md_solvate_buildcell`. If not, use Gromacs."
 
 msgid "計算タブ"
 msgstr "Calculation tab"
 
 msgid "MOPACをジョブマネージャで実行"
-msgstr "Run MOPAC in Job Manager"
+msgstr "Run MOPAC using Job Manager"
 
 msgid "チェックが入っている場合は、MOPACを実行する際に :ref:`winmosjm_top` を使用します。 入っていない場合は、MOPACでの計算が終わるまでWinmostarは待ち状態となり、MOPACの出力結果は自動でメインウィンドウに読み込まれます。"
 msgstr "When checked, use :ref:`winmosjm_top` when executing MOPAC. If it is not entered, Winmostar will be in a wait state until calculation by MOPAC is completed, and the output result of MOPAC will be automatically loaded into the main window."
@@ -107,52 +101,52 @@ msgid ":ref:`mopac_use_jm` からも設定することができます。"
 msgstr "It can also be set from :ref:`mopac_use_jm`."
 
 msgid "その他のプログラムをジョブマネージャで実行"
-msgstr "Run other programs in the job manager"
+msgstr "Run the other solvers using Job Manager"
 
 msgid "MOPAC以外のプログラムの実行に、 :ref:`winmosjm_top` を使用するか指定します。"
 msgstr "Specify whether to use :ref:`winmosjm_top` to execute programs other than MOPAC."
 
 msgid "タイムアウト時間"
-msgstr "Timeout time"
+msgstr "Timeout"
 
 msgid "時間のかかる処理のタイムアウト時間を設定します。"
 msgstr "Set the time-out period of time-consuming processing."
 
 msgid "デフォルト拡張子"
-msgstr "Default extension"
+msgstr "Default extensions"
 
 msgid "それぞれのソルバーの入力ファイルを作成する際にデフォルトで設定される拡張子を設定します。"
 msgstr "Set the extension set by default when creating input files for each solver."
 
 msgid "Gnuplotを使用してグラフを描画"
-msgstr "Draw a graph using Gnuplot"
+msgstr "Use Gnuplot as default plotting tool"
 
 msgid "一部のグラフ描画機能において、チェックした場合はGnuplotを使用します。チェックしていない場合はGraceを使用します。 V9からは、GraceまたはGnuplotを用いるグラフ描画機能がWinmostarネイティブのグラフ描画機能に徐々に置き換わる予定です。 Gnuplotのファイルは、Winmostarネイティブのグラフ描画機能の :guilabel:`Export` ボタンから保存することができます。"
 msgstr "For some graph drawing functions, if you check, use Gnuplot. If not checked, use Grace. From V9, the graph drawing function using Grace or Gnuplot will gradually replace the graph drawing function of Winmostar native. The Gnuplot file can be saved from the :guilabel:`Export` button of the Winmostar native graph drawing function."
 
 msgid "計算を開始する前に確認を表示"
-msgstr "Display confirmation before starting calculation"
+msgstr "Confirm before starting calculation"
 
 msgid "チェックした場合は各ソルバを実行する際に、確認ダイアログを表示します。"
 msgstr "If checked, a confirmation dialog will be displayed when executing each solver."
 
 msgid "GAMESS計算後に強制的にスリープ"
-msgstr "Force sleep after GAMESS calculation"
+msgstr "Forcibly sleep after GAMESS run"
 
 msgid "チェックが入っている場合は、ローカルマシンでGAMESSを実行した後に強制的に指定秒数スリープします。計算直後にログの内容をその場で確認したいときに便利な機能です。"
 msgstr "If this is checked, GAMESS will be forced to sleep for the specified number of seconds after executing GAMESS on the local machine. This function is useful when you want to check the contents of a log immediately after calculation."
 
 msgid "表示タブ"
-msgstr "Display Tab"
+msgstr "View Tab"
 
 msgid "標準色"
-msgstr "Standard color"
+msgstr "Color set"
 
-msgid "配色を、Winmostar、GaussView、Jmol、Rasmol、旧Winmostar、特許出願用モードから選択します。"
-msgstr "Select the color scheme from Winmostar, GaussView, Jmol, Rasmol, Old Winmostar, and Patent Application Mode."
+msgid "配色を、Winmostar、GaussView、Jmol、Rasmol、旧Winmostarから選択します。"
+msgstr "Select the color set from Winmostar, GaussView, Jmol, Rasmol, and Old Winmostar."
 
 msgid "色の設定"
-msgstr "Color setting"
+msgstr "Color"
 
 msgid "選択原子"
 msgstr "Selected atom"
@@ -161,22 +155,22 @@ msgid "選択している粒子の原子種の色を変更します。"
 msgstr "Change the color of the atom type of the selected particle."
 
 msgid "結合"
-msgstr "Combine"
+msgstr "Bond"
 
 msgid "結合の色を変更します。"
-msgstr "Change the color of the join."
+msgstr "Change the color of the bond."
 
 msgid "背景"
-msgstr "background"
+msgstr "Background"
 
 msgid "背景の色を変更します。"
 msgstr "Change the color of the background."
 
-msgid "背景(3D)"
-msgstr "Background (3D)"
+msgid "背景(Viewer)"
+msgstr "Background (Viewer)"
 
-msgid "3D表示の背景の色を変更します。"
-msgstr "Change the background color of the 3D display."
+msgid "Winmostar Viewerの背景の色を変更します。"
+msgstr "Change the background color of Winmostar Viewer."
 
 msgid "文字"
 msgstr "Text"
@@ -188,49 +182,49 @@ msgid "選択原子のVDW半径"
 msgstr "VDW radius of selected atom"
 
 msgid "分子表示エリアでマーカーが付いた原子の元素について、VDW半径を変更します。"
-msgstr "Change the VDW radius for the atomic elements with markers in the molecular display area."
+msgstr "Change the VDW radius for the element of the atom with marker in the molecule display area."
 
 msgid "電荷表示スケール"
-msgstr "Charge indication scale"
+msgstr "Scaling factor of charge"
 
 msgid ":ref:`view_labels_charges` において電荷を表示する際の電荷の表示の大きさを調整します。"
-msgstr "Adjust the magnitude of the charge display when displaying charges in :ref:`view_labels_charges`."
+msgstr "Adjust the size of the charge display when displaying charges in :ref:`view_labels_charges`."
 
 msgid ":menuselection:`表示 -->` :ref:`view_items` からも設定することができます。"
 msgstr "You can also be set from :menuselection:`View -->` :ref:`view_items`."
 
 msgid "キーワード表示エリアの文字サイズ"
-msgstr "Font size of keyword display area"
+msgstr "Keyword font size"
 
 msgid "キーワード表示エリアのフォントの大きさを指定します。"
 msgstr "Specify the font size of the keyword display area."
 
 msgid "マウスのスクロールの速さ"
-msgstr "Mouse scroll speed"
+msgstr "Scrolling speed"
 
 msgid "分子表示エリアにおけるマウスホイールによる拡大・縮小の速度を調整します。"
 msgstr "Adjust the speed of zoom in/out by the mouse wheel in the molecular display area."
 
 msgid "表示項目"
-msgstr "Representation project"
+msgstr "Items to be drawn"
 
 msgid "分子表示エリアに表示する項目にチェックを入れます。"
 msgstr "Check the items to be displayed in the molecular display area."
 
 msgid "ファイルを開いた後にセンタリング"
-msgstr "Centering after opening the file"
+msgstr "View center after opening file"
 
 msgid "ファイルを開く際に自動で :ref:`view_always_view_center` にチェックを入れます。"
-msgstr "When you open the file automatically check :ref:`view_always_view_center`."
+msgstr "Check :ref:`view_always_view_center` autoatically when opening a file."
 
-msgid "3D表示"
-msgstr "3D representation"
+msgid "特許出願用表示"
+msgstr "For patent application"
 
-msgid "チェックが入っている場合（デフォルト）は、OpenGLを用いて分子表示エリアに描画します。入っていない場合は、V7までの描画エンジンを使用します。"
-msgstr "When checked (default), draw in the molecular display area using OpenGL. If it is not included, use the drawing engine up to V7."
+msgid "特許出願の際に使用できるような白黒で階調のない表示にします。"
+msgstr "Display in black and white and no gradation, which can be used when applying for a patent."
 
 msgid "プログラムパスタブ"
-msgstr "Program Pass Tab"
+msgstr "Program Path Tab"
 
 msgid "各種プログラムのインストールパスを指定します。"
 msgstr "Specify the install path of various programs."

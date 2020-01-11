@@ -17,7 +17,7 @@ msgid "生成された全てのスーパーセルに対し、Quantum ESPRESSOを
 msgstr "Run Quantum ESPRESSO on all generated supercells."
 
 msgid "Quantum ESPRESSOのアウトプットファイルから、ForceSetsファイルを作成し、 Phononバンド、DOS、熱物性などの計算を行う。(ポスト処理)"
-msgstr "Create ForceSets file from Quantum ESPRESSO output file and calculate Phonon band, DOS, thermophysical properties, etc. (post processing)"
+msgstr "Create ForceSets file from Quantum ESPRESSO output file and calculate Phonon band, DOS, thermodynamic properties, etc. (post processing)"
 
 msgid "キーワード設定・実行"
 msgstr "Create Supercell"
@@ -41,7 +41,7 @@ msgid "MP"
 msgstr "MP"
 
 msgid "PhonopyでPhonon DOSや熱物性の計算を行う際の逆格子を半角スペース区切りで指定します。"
-msgstr "Specify the reciprocal lattice for calculating Phonon DOS and thermophysical properties with Phonopy, separated by single-byte spaces."
+msgstr "Specify the reciprocal lattice for calculating Phonon DOS and thermodynamic properties with Phonopy, separated by single-byte spaces."
 
 msgid "ATOM_NAME"
 msgstr "ATOM_NAME"
@@ -188,7 +188,7 @@ msgid ":file:`dos.dat`"
 msgstr ":file:`dos.dat`"
 
 msgid "Phonopyのポスト処理で計算された状態密度の情報が出力されています。"
-msgstr "Information of density of state calculated by post processing of Phonopy is output."
+msgstr "Information of density of states calculated by post processing of Phonopy is output."
 
 msgid "thermal_properties.yamlファイル"
 msgstr "thermal_properties.yaml file"

@@ -329,7 +329,7 @@ msgid "Calc Phonon Dispersion"
 msgstr "Calc Phonon Dispersion"
 
 msgid "フォノン分散を計算します。フォノンバンド構造、フォノン状態密度を取得するためにはこれを指定する必要があります。"
-msgstr "Calculate phonon dispersion. In order to acquire phonon band structure, phonon state density you need to specify this."
+msgstr "Calculate phonon dispersion. In order to acquire phonon band structure, phonon density of states you need to specify this."
 
 msgid "K Points (Dispersion)"
 msgstr "K Points (Dispersion)"
@@ -836,13 +836,13 @@ msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
 msgstr "Job is run through :ref:`winmosjm_top`. "
 
 msgid "ログを表示"
-msgstr "Open Log File"
+msgstr "Open Log File (pwout)"
 
 msgid "ログファイルをテキストエディタで開きます。"
 msgstr "Open the log file with a text editor."
 
 msgid "アニメーション"
-msgstr "Animation (pwout, out)"
+msgstr "Animation"
 
 msgid "構造最適化/BOMD(pwout)"
 msgstr "Optimization, BOMD(pwout, out)"
@@ -944,16 +944,16 @@ msgid "状態密度"
 msgstr "Density od States"
 
 msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、状態密度を表示します。"
-msgstr "Specify the working directory (outdir) and the SCF calculation log file and display the state density."
+msgstr "Specify the working directory (outdir) and the SCF calculation log file and display the density of states."
 
 msgid "SCF計算のログファイルからはフェルミエネルギーを取得します。 バックグラウンドでdos.xが流れます。"
 msgstr "Fermi energy is acquired from the log file of SCF calculation. dos.x flows in the background."
 
 msgid "部分状態密度"
-msgstr "Partial DOS"
+msgstr "Projected DOS"
 
 msgid "作業ディレクトリ(outdir)とSCF計算のログファイルを指定し、部分状態密度(PDOS)を表示します。"
-msgstr "Specify the working directory (outdir) and the SCF calculation log file and display partial state density (PDOS)."
+msgstr "Specify the working directory (outdir) and the SCF calculation log file and display projected density of state(PDOS)."
 
 msgid "SCF計算のログからはフェルミエネルギーを取得します。 バックグラウンドでprojwfc.xが流れます。"
 msgstr "Fermi energy is acquired from the log of SCF calculation. Projwfc.x flows in the background."
@@ -1010,13 +1010,13 @@ msgid "フォノン状態密度"
 msgstr "Phonon Density of States"
 
 msgid "フォノン分散計算後の作業ディレクトリを指定し、フォノン状態密度を表示します。"
-msgstr "Phonon Specifies the working directory after distributed calculation and displays the phonon state density."
+msgstr "Phonon Specifies the working directory after distributed calculation and displays the phonon density of states."
 
 msgid "フォノンDOS計算時のK点の分割数を指定します。"
 msgstr "Phonon DOS Specifies the division number of K points during DOS calculation."
 
 msgid "電荷/エネルギー分布 (esm1)"
-msgstr "Charge/Energy Distribution (esm1)"
+msgstr "Charge/Energy Profile (esm1)"
 
 msgid "ESM計算（assume_isolated=esm）で出力されるesm1ファイルを指定し、z軸方向の電荷またはエネルギーの分布を表示します。"
 msgstr "Specify the esm1 file output by ESM calculation (assume_isolated = esm) and display the charge or energy distribution in the z-axis direction."
@@ -1034,7 +1034,7 @@ msgid "グラフを表示します。"
 msgstr "Displays a graph."
 
 msgid "3D/Laue-RISM RMS変化 (pwout)"
-msgstr "3D/Laue-RISM RMS Change (pwout)"
+msgstr "3D/Laue-RISM RMS Change for Last Step"
 
 msgid "RISM計算（trism=.True.）実行時の、最後のSCFステップにおける3D-RISMまたはESM-RISM計算のRMSの変化をプロットします。"
 msgstr "Plot the change of RMS of 3D-RISM or ESM-RISM calculation in the last SCF step when RISM calculation (trism = .True.) is executed."
@@ -1235,7 +1235,7 @@ msgid "生成された全てのスーパーセルに対し、Quantum ESPRESSOを
 msgstr "Execute Quantum ESPRESSO for all generated super cells."
 
 msgid "Quantum ESPRESSOのアウトプットファイルから、ForceSetsファイルを作成し、 Phononバンド、DOS、熱物性などの計算を行う。(ポスト処理)"
-msgstr "Create ForceSets file from Quantum ESPRESSO output file and calculate Phonon band, DOS, thermophysical properties, etc. (Post processing)"
+msgstr "Create ForceSets file from Quantum ESPRESSO output file and calculate Phonon band, DOS, thermodynamic properties, etc. (Post processing)"
 
 msgid "Phonopyを用いたプリ・ポスト処理の計算条件を設定し、プリ処理の実行を行います。"
 msgstr "Set calculation conditions for pre-post processing using Phonopy and execute pre-processing."
@@ -1256,7 +1256,7 @@ msgid "MP"
 msgstr "MP"
 
 msgid "PhonopyでPhonon DOSや熱物性の計算を行う際の逆格子を半角スペース区切りで指定します。"
-msgstr "Specify the reciprocal lattice when calculating Phono DOS and thermophysical properties in Phonopy, separated by a space."
+msgstr "Specify the reciprocal lattice when calculating Phono DOS and thermodynamic properties in Phonopy, separated by a space."
 
 msgid "ATOM_NAME"
 msgstr "ATOM_NAME"
@@ -1301,7 +1301,7 @@ msgid ":file:`mesh.conf`"
 msgstr ":file:`mesh.conf`"
 
 msgid "Phonopyのポスト処理にて、状態密度や熱物性を計算するときに使用されます。"
-msgstr "Used to calculate density of states and thermophysical properties in post processing of Phonopy."
+msgstr "Used to calculate density of states and thermodynamic properties in post processing of Phonopy."
 
 msgid "band.confファイル"
 msgstr "band.conf file"
@@ -1394,7 +1394,7 @@ msgid ":file:`thermal_properties.yaml`"
 msgstr ":file:`thermal_properties.yaml`"
 
 msgid "Phonopyのポスト処理で計算された熱物性の情報が出力されています。"
-msgstr "Information on thermophysical properties calculated by Phonopy post processing is output."
+msgstr "Information on thermodynamic properties calculated by Phonopy post processing is output."
 
 msgid "作業フォルダに含まれるband.csvをもとにバンド構造を表示します。"
 msgstr "Displays the band structure based on band.csv included in the working folder."
@@ -1403,7 +1403,7 @@ msgid "作業フォルダに含まれるtoal_dos.csvをもとに状態密度を�
 msgstr "Displays the density of states based on toal_dos.csv included in the working folder."
 
 msgid "熱物性"
-msgstr "Thermophysical properties"
+msgstr "Thermodynamic properties"
 
 msgid "作業フォルダに含まれるthermal_properties.csvをもとに熱物性を表示します。"
-msgstr "Displays thermophysical properties based on thermal_properties.csv included in the working folder."
+msgstr "Displays thermodynamic properties based on thermal_properties.csv included in the working folder."

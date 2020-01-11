@@ -98,22 +98,22 @@ msgid "WinmostarをインストールしたWindows PC（ローカルマシン）
 msgstr "Install the solver to be used on the Windows PC (local machine) on which Winmostar is installed by the following link destination procedure."
 
 msgid "`Windows版GAMESSインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/GAMESS_install_manual_jp_win.pdf>`_"
-msgstr "`GAMESS installation manual for Windows <https://winmostar.com/jp/manual_jp/installation/GAMESS_install_manual_jp_win.pdf>`_"
+msgstr "`GAMESS installation manual for Windows <https://winmostar.com/en/manual_en/installation/GAMESS_install_manual_en_win.pdf>`_"
 
 msgid "`Windows版NWChemインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/nwchem4wm_jp.html>`_"
 msgstr "`NWChem installation manual for Windows <https://winmostar.com/en/nwchem4wm_en.html>`_"
 
 msgid "`Windows版LAMMPSインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/LAMMPS_install_manual_jp_win.pdf>`_"
-msgstr "`LAMMPS installation manual for Windows <https://winmostar.com/jp/manual_jp/installation/LAMMPS_install_manual_jp_win.pdf>`_"
+msgstr "`LAMMPS installation manual for Windows <https://winmostar.com/en/manual_en/installation/LAMMPS_install_manual_en_win.pdf>`_"
 
 msgid "`Windows版NAMDインストールマニュアル             <https://winmostar.com/jp/manual_jp/installation/NAMD_install_manual_jp_win.pdf>`_"
-msgstr "`NAMD installation manual for Windows <https://winmostar.com/jp/manual_jp/installation/NAMD_install_manual_jp_win.pdf>`_"
+msgstr "NAMD installation manual for Windows (only Japanese)"
 
 msgid "`Windows版Quantum ESPRESSOインストールマニュアル <https://winmostar.com/jp/manual_jp/installation/QE_install_manual_jp_win.pdf>`_"
 msgstr "`Quantum ESPRESSO installation manual for Windows <https://winmostar.com/en/QE_install_manual_en_win.pdf>`_"
 
 msgid "`Windows版FDMNESインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/FDMNES_install_manual_jp_win.pdf>`_"
-msgstr "`FDMNES installation manual for Windows <https://winmostar.com/jp/manual_jp/installation/FDMNES_install_manual_jp_win.pdf>`_"
+msgstr "FDMNES installation manual for Windows (only Japanese)"
 
 msgid "Gromacs, Amber, MODYLAS, OpenMXは次のステップでインストールする :ref:`cygwin_wm <cygwinwm_top>` に含まれます。"
 msgstr "Gromacs, Amber, MODYLAS, OpenMX will be included in the :ref:`cygwin_wm <cygwinwm_top>` to be installed in the next step."
@@ -128,7 +128,7 @@ msgid "`cygwin_wmをビルドする場合 <https://winmostar.com/jp/gmx4wm_jp_wi
 msgstr "(for advanced users) `Building cygwin_wm from scratch <https://winmostar.com/en/gmx4wm_en_win.html>`_ "
 
 msgid "`Cygwinの代わりにWindows Subsystem for Linuxを用いる場合 <https://winmostar.com/jp/WSL_jp.html>`_ （ベータ版）"
-msgstr "`When using Windows Subsystem for Linux instead of Cygwin <https://winmostar.com/jp/WSL_jp.html>`_ (beta version)."
+msgstr "`When using Windows Subsystem for Linux instead of Cygwin <https://winmostar.com/en/WSL_en.html>`_ (beta version)."
 
 msgid "必要に応じて、使用しているセキュリティ対策ソフトの設定において、Winmostarとcygwin_wmのインストールフォルダを監視対象から除外します。"
 msgstr "If necessary, exclude the installation folder of Winmostar and cygwin_wm from the monitoring target in the setting of the anti-virus software being used."
@@ -146,24 +146,24 @@ msgid "`Linux版NWChem, Gromacs, Amberインストールマニュアル <https:/
 msgstr "`Installation guide for Linux <https://winmostar.com/en/gmx4wm_en_linux.html>`_"
 
 msgid "`Linux版GAMESSインストールマニュアル                 <https://winmostar.com/jp/manual_jp/installation/GAMESS_install_manual_jp_linux.pdf>`_"
-msgstr "`GAMESS installation manual for Linux <https://winmostar.com/jp/manual_jp/installation/GAMESS_install_manual_jp_linux.pdf>`_"
+msgstr "GAMESS installation manual for Linux (only Japanese)"
 
 msgid "`Linux版Gromacsインストールマニュアル（詳細版）      <https://winmostar.com/jp/manual_jp/installation/Gromacs_install_manual_jp_linux.pdf>`_"
-msgstr "`Gromacs instllation manual for Linux <https://winmostar.com/jp/manual_jp/installation/Gromacs_install_manual_jp_linux.pdf>`_"
+msgstr "Gromacs instllation manual for Linux (only Japanese)"
 
 msgid "`Linux版LAMMPSインストールマニュアル                 <https://winmostar.com/jp/manual_jp/installation/LAMMPS_install_manual_jp_linux.pdf>`_"
-msgstr "`LAMMPS instllation manual for Linux <https://winmostar.com/jp/manual_jp/installation/LAMMPS_install_manual_jp_linux.pdf>`_"
+msgstr "LAMMPS instllation manual for Linux (only Japanese)"
 
 msgid "`Linux版Quantum ESPRESSOインストールマニュアル       <https://winmostar.com/jp/manual_jp/installation/QE_install_manual_jp_linux.pdf>`_"
-msgstr "`Quantum ESPRESSO installation manual for Linux <https://winmostar.com/jp/manual_jp/installation/QE_install_manual_jp_linux.pdf>`_"
+msgstr "Quantum ESPRESSO installation manual for Linux (only Japanese)"
 
 msgid "`Linux版OpenMXインストールマニュアル                 <https://winmostar.com/jp/manual_jp/installation/OpenMX_install_manual_jp_linux.pdf>`_"
-msgstr "`OpenMX installation manual for Linux <https://winmostar.com/jp/manual_jp/installation/OpenMX_install_manual_jp_linux.pdf>`_"
+msgstr "OpenMX installation manual for Linux (only Japanese)"
 
 msgid "`Linux版DCDFTBMDインストールマニュアル               <https://winmostar.com/jp/manual_jp/installation/DCDFTBMD_install_manual_jp_linux.pdf>`_"
-msgstr "`DCDFTBMD installation manual for Linux <https://winmostar.com/jp/manual_jp/installation/DCDFTBMD_install_manual_jp_linux.pdf>`_"
+msgstr "DCDFTBMD installation manual for Linux (only Japanese)"
 
-msgid "インストール手順は以上です。続けて、必要に応じて `ビギナーズガイド <https://winmostar.com/jp/tutorials/V8/BeginnersGuide_V8.pdf>`_ や `各種チュートリアル <https://winmostar.com/jp/manual_jp.html>`_ を確認して下さい。"
+msgid "インストール手順は以上です。続けて、必要に応じて `ビギナーズガイド <https://winmostar.com/jp/tutorials/V9/BeginnersGuide_V9.pdf>`_ や `各種チュートリアル <https://winmostar.com/jp/manual_jp.html>`_ を確認して下さい。"
 msgstr "Now, you are ready to run Winmostar. Please refer to `Tutorials <https://winmostar.com/en/manual_en.html>`_ if necessary"
 
 msgid "また、必須ではありませんが、エクスプローラ上で各ファイルの拡張子を表示する設定に変更することを推奨します。"

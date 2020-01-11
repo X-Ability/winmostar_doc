@@ -20,6 +20,4 @@ Viewメニュー
       単位格子を表示します。
    Make Replicated Atoms Transparent
       対称操作によって生じた原子を透明表示します。
-   Enable 3D View
-      OpenGLを用いて描画します。
 

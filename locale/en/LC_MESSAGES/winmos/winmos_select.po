@@ -153,7 +153,7 @@ msgid "残基名がGLYで、かつ水素以外の原子を選択します。"
 msgstr "Select the atom whose residue name is GLY and other than hydrogen."
 
 msgid "``and`` 、 ``not`` 以外に ``or`` と ``xor`` を使用可能です。 これらの論理演算子を使用する際には上記の例のように丸括弧 ``()`` を使用してください。"
-msgstr "In addition to `` and``, `` not`` you can use `` or`` and `` xor``. When using these logical operators, use the parentheses `` () `` as in the example above."
+msgstr "In addition to ``and``, ``not`` you can use ``or`` and ``xor``. When using these logical operators, use the parentheses ``()`` as in the example above."
 
 msgid "マーカーで分断される部分構造をグループ選択"
 msgstr "Select Partial Structure Split by 2 Marked Atoms"

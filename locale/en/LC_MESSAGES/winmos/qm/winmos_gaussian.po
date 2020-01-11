@@ -398,7 +398,7 @@ msgid "入力ファイルを保存する際に、 :ref:`file_coordinateformat` �
 msgstr "When saving the input file, output format of coordinates changes according to the selection of :ref:`file_coordinateformat` choice (:guilabel:`Z-Matrix` or :guilabel:`XYZ`) and :guilabel:`Z-Matrix` / :guilabel:`XYZ` tab of :ref:`Coordinate display area <gui_main>`."
 
 msgid "Gaussianのプログラムパスは、 :menuselection:`ツール --> 環境設定 --> プログラムパス` で変更することができます。"
-msgstr "Gaussian&#39;s program path can be changed with:: menuselection: `tools --> preferences --> program path`."
+msgstr "Gaussian&#39;s program path can be changed with:: menuselection: `Tools --> Preferences --> Program Path`."
 
 msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.gjf` の時のファイル/フォルダ名を併記しています。"
 msgstr "Following file will be generated with execution. For example, the file/folder name when the input file is: file: `water.gjf` is shown together."

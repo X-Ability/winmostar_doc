@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 
 msgid "コマンドプロンプトからの実行方法"
-msgstr "How to execute from the command prompt"
+msgstr "How to launch from the command prompt"
 
 msgid "コマンドプロンプトから各種のオプションを指定して起動することが可能です。"
 msgstr "It is possible to start by specifying various options from the command prompt."

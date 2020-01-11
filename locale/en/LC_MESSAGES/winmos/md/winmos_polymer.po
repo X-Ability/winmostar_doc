@@ -19,7 +19,7 @@ msgid "低分子・ポリマー混合系を作成したい場合は、上記手�
 msgstr "If you want to create a low molecular-polymer mixed system, create a polymer system by the above procedure and then add low molecules with :ref:`md_insert_molecules`."
 
 msgid "モノマー登録"
-msgstr "Monomer registration"
+msgstr "Register Monomer"
 
 msgid ":ref:`md_polymer_homo` 、 :ref:`md_polymer_block` 、 :ref:`md_polymer_random` で使用するためのモノマーを登録します。 :ref:`md_polymer_pref` で設定したモノマーファイルの保存先に、 :file:`wmo` という拡張子で保存されます。 :file:`wmo` ファイルはWinmostar独自のコメントが付加したmol2ファイルです。"
 msgstr "register the monomer to use at :ref:`md_polymer_homo`, :ref:`md_polymer_block`, :ref:`md_polymer_random`.The file is saved with the extension :file:`wmo` in the save destination of the monomer file set by :ref:`md_polymer_pref`. The :file:`wmo` file is a mol2 file with Winmostar's own comment added."
@@ -54,13 +54,13 @@ msgid "[Cancel]"
 msgstr "[Cancel]"
 
 msgid "設定を破棄してモノマー登録画面を閉じます。"
-msgstr "Discard the settings and close the monomer registration window."
+msgstr "Discard the settings and close the Register Monomer window."
 
 msgid "ホモポリマービルダ"
-msgstr "Homopolymer builder"
+msgstr "Homo Polymer builder"
 
 msgid ":ref:`md_polymer_cell` で使用するためのホモポリマーを、 :ref:`md_polymer_register` で登録されたモノマーから作成し登録します。 :ref:`md_polymer_pref` で設定したポリマーファイルの保存先に、 :file:`wpo` という拡張子で保存されます。 :file:`wpo` ファイルはWinmostar独自のコメントが付加したmol2ファイルです。 ポリマー全体の電荷は、使用したモノマー（繰り返し単位）の電荷と重合度の積になります。 重合により削除された原子の分の電荷はポリマー全体の原子に均等に割り当てられます。"
-msgstr "Create a homopolymer for use with :ref:`md_polymer_cell` from the monomers registered with :ref:`md_polymer_register` and register. It is stored in the save destination of the polymer file set with :ref:`md_polymer_pref` with :file:`wpo` extension. The :file:`wpo` file is a mol2 file with Winmostar's own comment added. The charge of the whole polymer is the product of the charge of the monomer (repeating unit) used and the degree of polymerization. Charges for atoms deleted by polymerization are equally allocated to the atoms of the whole polymer."
+msgstr "Create a homo polymer for use with :ref:`md_polymer_cell` from the monomers registered with :ref:`md_polymer_register` and register. It is stored in the save destination of the polymer file set with :ref:`md_polymer_pref` with :file:`wpo` extension. The :file:`wpo` file is a mol2 file with Winmostar's own comment added. The charge of the whole polymer is the product of the charge of the monomer (repeating unit) used and the degree of polymerization. Charges for atoms deleted by polymerization are equally allocated to the atoms of the whole polymer."
 
 msgid "[Polymer Name]"
 msgstr "[Polymer Name]"
@@ -149,7 +149,7 @@ msgid "ウィンドウを閉じます。"
 msgstr "Close the window."
 
 msgid "ブロックポリマービルダ"
-msgstr "Block polymer builder"
+msgstr "Block Polymer Builder"
 
 msgid ":ref:`md_polymer_cell` で使用するためのブロックポリマーを、 :ref:`md_polymer_register` で登録されたモノマーから作成し登録します。 :ref:`md_polymer_pref` で設定したポリマーファイルの保存先に、 :file:`wpo` という拡張子で保存されます。 :file:`wpo` ファイルはWinmostar独自のコメントが付加したmol2ファイルです。 電荷の割り当て方は :ref:`md_polymer_homo` と同じです。"
 msgstr "Create a block polymer for use with :ref:`md_polymer_cell` from the monomers registered with :ref:`md_polymer_register` and register it. It is stored in the save destination of the polymer file set with :ref:`md_polymer_pref` with :file:`wpo` extension. The :file:`wpo` file is a mol2 file with Winmostar&#39;s own comment added. The way to assign electric charge is the same as :ref:`md_polymer_homo`."
@@ -201,7 +201,7 @@ msgid "リスト内で選択された中間モノマーをリストから削除�
 msgstr "Remove the selected intermediate monomer from the list in the list."
 
 msgid "ランダムポリマービルダ"
-msgstr "Random polymer builder"
+msgstr "Random Polymer Builder"
 
 msgid ":ref:`md_polymer_cell` で使用するためのランダムポリマーを、 :ref:`md_polymer_register` で登録されたモノマーから作成し登録します。 :ref:`md_polymer_pref` で設定したポリマーファイルの保存先に、 :file:`wpo` という拡張子で保存されます。 :file:`wpo` ファイルはWinmostar独自のコメントが付加したmol2ファイルです。 電荷の割り当て方は :ref:`md_polymer_homo` と同じです。"
 msgstr "Create a random polymer for use with :ref:`md_polymer_cell` from the monomers registered with :ref:`md_polymer_register` and register it. It is stored in the save destination of the polymer file set with :ref:`md_polymer_pref` with :file:`wpo` extension. The :file:`wpo` file is a mol2 file with Winmostar&#39;s own comment added. The way to assign electric charge is the same as :ref:`md_polymer_homo`."
@@ -316,7 +316,7 @@ msgid "DPD粒子に対し登録したモノマーを割り付け、全原子MD�
 msgstr "We allocate registered monomers to DPD particles and acquire the molecular structure of all atoms MD."
 
 msgid "設定"
-msgstr "Configuration"
+msgstr "Settings"
 
 msgid "モノマーおよびポリマーを登録するフォルダを指定します。"
 msgstr "Specify the folder to register the monomer and polymer."

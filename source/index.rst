@@ -11,7 +11,7 @@ Winmostar :sup:`TM` ユーザマニュアル
 本書には、Winmostar(TM)の各機能の動作・操作方法が書かれています。
 本書の最新版は `公式サイト <https://winmostar.com/>`_ から入手可能です。
 
-Winmostar(TM)を初めて使う方は `ビギナーズガイド <https://winmostar.com/jp/tutorials/V8/BeginnersGuide_V8.pdf>`_ を参照してください。
+Winmostar(TM)を初めて使う方は `ビギナーズガイド <https://winmostar.com/jp/tutorials/V9/BeginnersGuide_V9.pdf>`_ を参照してください。
 
 ご不明点がある場合、予想通りに動かない場合は、 随時更新されている :ref:`faq_top` をご確認ください。
 

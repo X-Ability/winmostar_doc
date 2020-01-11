@@ -219,7 +219,7 @@ msgid "各種ログファイルの中で文字列を検索し、ヒットした�
 msgstr "It searches character strings in various log files and outputs the hit line to Excel or text file."
 
 msgid "batファイル連続実行"
-msgstr "Batchj Queue"
+msgstr "Batch Queue"
 
 msgid "GaussianとGAMESSのbatファイルを連続で実行します。"
 msgstr "We run Gaussian and GAMESS bat files in succession."

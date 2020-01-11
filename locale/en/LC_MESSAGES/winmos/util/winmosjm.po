@@ -35,19 +35,19 @@ msgid "JMは二重に起動しないように調整されており、Winmostar�
 msgstr "JM has been adjusted not to start twice, and if you start Winmostar multiple times, the job will be registered for one JM."
 
 msgid "JMが管理可能なジョブの数（キューの数）は最大で200個です。この数を超えると、古いものから順にキューから削除されますが、実行中のジョブがキューから削除されても、ジョブの処理自体は続行されます。"
-msgstr "The maximum number of jobs (number of queues) that JM can manage is 200 pieces. If this number is exceeded, it will be deleted from the queue in descending order, but even if the running job is deleted from the queue, the job processing itself will continue."
+msgstr "JM can manage up to 200 jobs (queues) . If exceeded, old queues are deleted. Even if the running job is deleted from the queue, the job processing itself will continue."
 
 msgid "|JMwindow|"
 msgstr "|JMwindow|"
 
 msgid "MOPACに対しては、Winmostar本体の環境設定でJMの使用の有無を選択できます。JMを使わない場合はMOPAC計算後に自動的に計算結果がWinmostarのメインウィンドウに読み込まれますが、JMを使う場合はジョブの終了後にユーザが明示的に計算結果をWinmostar上で読み込ませる必要があります。"
-msgstr "For MOPAC, you can select whether to use JM in the Preference of Winmostar itself. If you do not use JM, calculation results are automatically loaded into Winmostar&#39;s main window after MOPAC calculation, but if you use JM, the user must explicitly load the calculation result on Winmostar after the job is finished ."
+msgstr "For MOPAC, you can select whether to use JM in the Preferences of Winmostar itself. If you do not use JM, calculation results are automatically loaded into Winmostar&#39;s main window after MOPAC calculation, but if you use JM, the user must explicitly load the calculation result on Winmostar after the job is finished ."
 
 msgid "ジョブを強制終了・キャンセルする方法"
 msgstr "How to forcibly terminate/cancel a job"
 
 msgid ":guilabel:`RUN` 状態（実行中）のジョブを強制終了したい時は、そのジョブのプロンプト（DOS）ウィンドウの ``x`` （閉じる）ボタンを押します。JM上で :guilabel:`RUN` 状態のジョブの行をクリックして :guilabel:`Status` を :guilabel:`END` に変更することでも終了できる場合もありますが、MOPAC2009など一部のソルバではその操作が効きません。"
-msgstr "If you want to forcibly terminate the job in :guilabel:`RUN` state (running), press the``x`` (close) button in the job&#39;s prompt (DOS) window. On JM you can also finish by clicking on the line of the job in the guilabel: `run` state and changing the :guilabel:`Status` to :guilabel:`END`, but in some solvers such as MOPAC 2009 That operation does not work."
+msgstr "If you want to forcibly terminate the job in :guilabel:`RUN` state (running), press the ``x`` (close) button in the job&#39;s prompt (DOS) window. On JM you can also finish by clicking on the line of the job in the guilabel: `run` state and changing the :guilabel:`Status` to :guilabel:`END`, but in some solvers such as MOPAC 2009 That operation does not work."
 
 msgid "JMで :guilabel:`RUN` 状態のジョブの行をクリックすると、そのジョブのDOSウィンドウが前面に表示されます。"
 msgstr "In JM, click on the row of the job in :guilabel:`RUN` state, the DOS window for that job will be displayed in the foreground."

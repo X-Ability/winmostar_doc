@@ -192,17 +192,21 @@ DCDFTBMD
    
 .. _addon_dcdftbmd_optanimation:
 
-OPTアニメーション(dco)
+アニメーション
 -----------------------------
 
+.. _addon_dcdftbmd_animation_opt:
+
+構造最適化 (dco)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
    dcoファイルを選択し、構造最適化計算のトラジェクトリをアニメーション表示します。
    
    アニメーション表示の操作方法は :ref:`animation_top` を参照してください。
    
-.. _addon_dcdftbmd_animation:
+.. _addon_dcdftbmd_animation_md:
 
-アニメーション(traject)
------------------------------
+MD (traject)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    dciファイルとtrajectファイルを選択し、MD計算のトラジェクトリをアニメーション表示します。
    
