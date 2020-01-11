@@ -24,7 +24,7 @@ msgid "Easy Setup"
 msgstr "Easy Setup"
 
 msgid "簡易設定画面を表示します。"
-msgstr "Displays the simple setting screen."
+msgstr "Show the simple setting window."
 
 msgid "Use MPI"
 msgstr "Use MPI"
@@ -45,7 +45,7 @@ msgid "Basis"
 msgstr "Basis"
 
 msgid "基底関数系を指定します。 cartesian/sphericalを選択します。 一部原子の例外をExceptionで指定します。"
-msgstr "Specify the basis function system. Choose cartesian / spherical. Specify exception for some atoms with Exception."
+msgstr "Specify the basis function system. Choose cartesian/spherical. Specify exception for some atoms with Exception."
 
 msgid "Task"
 msgstr "Task"
@@ -114,7 +114,7 @@ msgid "ダイポールモーメントを出力するか選択します。"
 msgstr "Select whether to output dipole moment."
 
 msgid "NEB/String タブ"
-msgstr "NEB / String tab"
+msgstr "NEB/String tab"
 
 msgid "TaskのOperationにnebかstringを指定したときに有効になります。"
 msgstr "It becomes effective when neb or string is specified as Operation of Task."
@@ -165,7 +165,7 @@ msgid "Convergence"
 msgstr "Convergence"
 
 msgid "収束条件をloose/default/tightから選びます。"
-msgstr "Choose the convergence condition from loose / default / tight."
+msgstr "Choose the convergence condition from loose/default/tight."
 
 msgid "XYZ_Path"
 msgstr "XYZ_Path"
@@ -228,13 +228,13 @@ msgid "メインウィンドウでNWChemの入力ファイルが開かれてい�
 msgstr "If NWChem&#39;s input file is open in the main window, use NWChem to execute the file. If it is not open, save the input file of NWChem and run NWChem."
 
 msgid "入力ファイルを保存する際に、 :ref:`file_coordinateformat` の選択肢（ :guilabel:`Z-Matrix` または :guilabel:`XYZ` ）および :ref:`座標表示エリア <gui_main>` の :guilabel:`Z-Matrix` / :guilabel:`XYZ` タブの選択に応じて座標の出力フォーマットが変化します。"
-msgstr "When saving the input file, output format of coordinates changes according to the selection of :ref:`file_coordinateformat` choice (:guilabel:`Z-Matrix` or :guilabel:`XYZ`) and :guilabel:`Z-Matrix` / :guilabel:`XYZ` tab of :ref:`Coordinate display area <gui_main>`."
+msgstr "When saving the input file, output format of coordinates changes according to the selection of :ref:`file_coordinateformat` choice (:guilabel:`Z-Matrix` or :guilabel:`XYZ`) and :guilabel:`Z-Matrix`/:guilabel:`XYZ` tab of :ref:`Coordinate display area <gui_main>`."
 
 msgid "NWChemのプログラムパスは、 :menuselection:`ツール --> 環境設定 --> プログラムパス` で変更することができます。"
-msgstr "The program path of NWChem can be changed with :menuselection:`tools --> environment setting --> program path`."
+msgstr "The program path of NWChem can be changed with :menuselection:`Tools --> Preference --> program path`."
 
 msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.nw` の時のファイル/フォルダ名を併記しています。"
-msgstr "Following file will be generated with execution. For example, the file / folder name when the input file is: file: `water.nw` is shown together."
+msgstr "Following file will be generated with execution. For example, the file/folder name when the input file is: file: `water.nw` is shown together."
 
 msgid "種類"
 msgstr "type"
@@ -315,13 +315,13 @@ msgid "outファイルの情報から分子軌道, UV-Vis, 電荷, NMRの情報�
 msgstr "Obtain information on molecular orbital, UV-Vis, charge, NMR from theout file information and display it."
 
 msgid "読み込まれた電荷の情報は :menuselection:`表示 --> ラベル/電荷 --> Mulliken電荷` などを選択することで分子表示エリアに表示することができます。"
-msgstr "Information on the charge read can be displayed in the molecular display area by selecting :menuselection:`display --> label / charge --> Mulliken charge` and so on."
+msgstr "Information on the charge read can be displayed in the molecular display area by selecting :menuselection:`View --> Labels/Charges --> Show Mulliken Charge` and so on."
 
 msgid "サブウィンドウの操作方法は :ref:`mo_top` , :ref:`cube_top` , :ref:`uvvis_top` , :ref:`nmr_top` を参照してください。"
 msgstr "Refer to :ref:`mo_top`, :ref:`cube_top`, :ref:`uvvis_top`, :ref:`nmr_top` for how to operate the subwindow."
 
 msgid "IR/ラマンスペクトル"
-msgstr "Frequencies/Raman"
+msgstr "IR/Raman"
 
 msgid "outファイルを選択し、振動スペクトル（IRまたはラマンスペクトル）を表示します。"
 msgstr "out Select the file and display the vibration spectrum (IR or Raman spectrum)."

@@ -25,7 +25,7 @@ msgid "右ボタン+上下ドラッグ"
 msgstr "Right button + up and down drag"
 
 msgid "縮小・拡大します。"
-msgstr "Reduce / enlarge."
+msgstr "Zoom In/Out."
 
 msgid "左ボタン+右ボタン+ドラッグ"
 msgstr "Left button + right button + drag"
@@ -264,7 +264,7 @@ msgid "X, Y or Z"
 msgstr "X, Y or Z"
 
 msgid "画面内水平方向、画面内垂直方向、または画面に垂直方向の軸周りで回転させます。"
-msgstr "Rotate around the horizontal direction within the screen, the vertical direction within the screen, or the direction perpendicular to the screen."
+msgstr "Rotate around the horizontal direction within the window, the vertical direction within the screen, or the direction perpendicular to the screen."
 
 msgid "Periodic Boundary Condition"
 msgstr "Periodic Boundary Condition"

@@ -13,7 +13,7 @@ msgid "分子動力学法のソルバーにはNAMDを使います。"
 msgstr "We use NAMD for molecular dynamics solver."
 
 msgid "Fragment ER画面"
-msgstr "Fragment ER screen"
+msgstr "Fragment ER window"
 
 msgid "Fileメニュー"
 msgstr "File menu"
@@ -46,7 +46,7 @@ msgid "Close"
 msgstr "Close"
 
 msgid "Fragment ER画面を閉じます。"
-msgstr "Close the Fragment ER screen."
+msgstr "Close the Fragment ER window."
 
 msgid "MDメニュー"
 msgstr "MD menu"
@@ -67,7 +67,7 @@ msgid "Run NAMD On Remote Server"
 msgstr "Run NAMD On Remote Server"
 
 msgid "NAMDのリモートサーバでの実行のために、リモートジョブ実行画面を開きます。"
-msgstr "Open the remote job execution screen for execution on NAMD&#39;s remote server."
+msgstr "Open Remote Job Submission window for NAMD execution on remote server."
 
 msgid "Edit .log File"
 msgstr "Edit .log File"
@@ -163,7 +163,7 @@ msgid "NAMDの入力ファイル(PDB,PSFファイル)を生成します。"
 msgstr "Generate input file (PDB, PSF file) of NAMD."
 
 msgid "Fragment ER 設定画面"
-msgstr "Fragment ER setting screen"
+msgstr "Fragment ER setting window"
 
 msgid "Fragment ERの計算の設定をします。 設定内容はプロジェクトファイルに記録されます。"
 msgstr "Set up Fragment ER calculation. The setting contents are recorded in the project file."
@@ -250,16 +250,16 @@ msgid "OK"
 msgstr "OK"
 
 msgid "設定を保存して画面を閉じます。"
-msgstr "Save the settings and close the screen."
+msgstr "Save the settings and close the window."
 
 msgid "Cancel"
 msgstr "Cancel"
 
 msgid "設定を保存せず画面を閉じます。"
-msgstr "Close the screen without saving the setting."
+msgstr "Close the window without saving the setting."
 
 msgid "NAMDキーワード設定画面"
-msgstr "NAMD keyword setting screen"
+msgstr "NAMD Configure window"
 
 msgid "NAMDによるMD計算の設定をします。 設定内容はプロジェクトファイルに記録されます。 チェックボックスで計算する系を選択します。"
 msgstr "Set up MD calculation by NAMD. The setting contents are recorded in the project file. Select the system to be calculated with the check box."
@@ -319,7 +319,7 @@ msgid "入力ファイルを出力してNAMDをローカル実行します。"
 msgstr "Output the input file and execute NAMD locally."
 
 msgid "NAMDキーワード設定画面を閉じます。"
-msgstr "Close the NAMD keyword setting screen."
+msgstr "Close the NAMD Configure window."
 
 msgid "Load Default"
 msgstr "Load Default"
@@ -340,7 +340,7 @@ msgid "デフォルト設定条件を初期状態に戻します。"
 msgstr "The default setting condition is reset to the initial state."
 
 msgid "結果表示画面"
-msgstr "Result display screen"
+msgstr "Result display window"
 
 msgid "Summaryに結果の要約が表示されます。 エネルギー分布関数のグラフが表示されます。 どの系を表示するか選択することができます。"
 msgstr "A summary of the results is displayed in Summary. A graph of the energy distribution function is displayed. You can select which system to display."
@@ -358,10 +358,10 @@ msgid "グラフ表示されているデータをCSVファイルに保存し、�
 msgstr "Save the data displayed in the graph as a CSV file and open it with the application."
 
 msgid "結果表示画面を閉じます。"
-msgstr "Close the result display screen."
+msgstr "Close the result display window."
 
 msgid "環境設定画面"
-msgstr "Environment setting screen"
+msgstr "Preference window"
 
 msgid "NAMD Path"
 msgstr "NAMD Path"

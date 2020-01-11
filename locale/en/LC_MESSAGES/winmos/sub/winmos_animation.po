@@ -129,7 +129,7 @@ msgid "メインウィンドウでグループ選択した原子のみを取り�
 msgstr "In the main window, create a trajectory file extracting only the atoms selected from the group."
 
 msgid "上下スライダー"
-msgstr "Up / down slider"
+msgstr "Up/Down slider"
 
 msgid "ドラッグするとフレーム間を移動します。"
 msgstr "Drag to move between frames."

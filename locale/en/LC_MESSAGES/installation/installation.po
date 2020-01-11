@@ -56,7 +56,7 @@ msgid "インストール中に想定しない状況に遭遇した場合は :re
 msgstr "If you encounter an unexpected situation during installation, check :ref:`faq_top` ."
 
 msgid "`ダウンロードページ <https://winmostar.com/jp/download_jp.html>`_ からインストーラ :file:`winmostar0_setup_X.X.X.exe` （ :file:`X.X.X` はバージョンを示す）をダウンロードし、実行します。"
-msgstr "Download the installer :file:`winmostar0_setup_X.XXexe` (where :file:`XXX` indicates the version) from `Download <https://winmostar.com/en/download_en.html>`_, and execute it"
+msgstr "Download the installer :file:`winmostar0_setup_X.X.XXexe` (where :file:`X.X.X` indicates the version) from `Download <https://winmostar.com/en/download_en.html>`_, and execute it"
 
 msgid "インストール先フォルダを指定し（デフォルトは :file:`C:\\\\winmos10` ）インストールを開始すると、スタートメニューとデスクトップにショートカットが作成されます。"
 msgstr "Specify installation folder (the default location is :file:`C:\\\\winmos10`), and start installation, then a shortcut is created on the Start menu and on the desktop."
@@ -179,10 +179,10 @@ msgid ":kbd:`Alt` キーを押す"
 msgstr "Press :kbd:`Alt` key."
 
 msgid ":menuselection:`ツール --> フォルダーオプション` メニューの :guilabel:`表示` タブを開く"
-msgstr "Open the :guilabel:`View` tab of the :menuselection:`Tools  --> Folder options` menu."
+msgstr "Open the :guilabel:`View` tab of the :menuselection:`Tools  --> File Explore Options` menu."
 
 msgid ":guilabel:`登録されている拡張子は表示しない` のチェックが外れた状態にする"
-msgstr "Make sure that :guilabel:`Do not display registered extensions` is unchecked."
+msgstr "Make sure that :guilabel:`Hide extensions for known file types` is unchecked."
 
 msgid "Windows 8, 10の場合"
 msgstr "For Windows 8, 10:"

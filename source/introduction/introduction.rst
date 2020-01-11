@@ -15,7 +15,7 @@ Winmostar(TM)は量子化学計算、第一原理計算、分子動力学計算�
 
 学会発表、論文などでWinmostar(TM)を使用して作成したデータを発表する際、Winmostar(TM)本体については、例えば以下の様に記載してください。
  
-   `Winmostar V9, X-Ability Co. Ltd., Tokyo, Japan, 2019.`
+   `Winmostar V10, X-Ability Co. Ltd., Tokyo, Japan, 2020.`
 
 Winmostar(TM)が呼び出したソルバや各種補助プログラムの引用については、それぞれのソフトウエアの指示に従って下さい。
 

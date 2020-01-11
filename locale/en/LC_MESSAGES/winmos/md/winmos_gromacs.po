@@ -1,4 +1,3 @@
-
 msgid ":menuselection:`MD --> Gromacs` メニュー"
 msgstr ":menuselection:`MD --> Gromacs` menu"
 
@@ -24,7 +23,7 @@ msgid "(一般)"
 msgstr "(General)"
 
 msgid "タンパク質、水分子以外の分子の力場を指定します。 内部では、GAFF, OPLS/AA-Lの場合は :command:`acpype` が、Dreidingの場合は内製プログラムが使用されます。 Dreidingの設定は :file:`polymer/dreiding.lib.txt` に書かれています。"
-msgstr "Specify the force field of molecules other than proteins and water molecules. Internally, command: `acpype` is used for GAFF, OPLS / AA-L, in-house program is used for Dreiding. The setting of Dreiding is written in: file: `polymer / dreiding.lib.txt`."
+msgstr "Specify the force field of molecules other than proteins and water molecules. Internally, command: `acpype` is used for GAFF, OPLS/AA-L, in-house program is used for Dreiding. The setting of Dreiding is written in: file: `polymer/dreiding.lib.txt`."
 
 msgid "Exception"
 msgstr "Exception"
@@ -39,7 +38,7 @@ msgid "(タンパク質/イオン)"
 msgstr "(Protein/Ion)"
 
 msgid "タンパク質、単原子の力場を指定します。ここで、PDBやgroフォーマットにおいてアミノ酸残基の名前が割り当てられている原子がタンパク質として認識されます。内部的には :command:`gmx pdb2gmx` が使用されます。"
-msgstr "Specify the force field of the protein. At this point, atoms assigned amino acid residue names in PDB and gro format are recognized as proteins. Internally :command:`gmx pdb 2 gmx` is used."
+msgstr "Specify the force field of the protein. At this point, atoms assigned amino acid residue names in PDB and gro format are recognized as proteins. Internally :command:`gmx pdb2gmx` is used."
 
 msgid "残基名を含まないファイルから分子構造を読み込んだ場合は本機能を使用できません。"
 msgstr "This function can not be used when reading the molecular structure from a file not including residue name."
@@ -363,7 +362,7 @@ msgid "print-nose-hoover-chain-variables"
 msgstr "print-nose-hoover-chain-variables"
 
 msgid "温度・圧力制御パラメータを子ジョブに引き継ぐ場合に指定します。"
-msgstr "Specify this parameter when transferring temperature / pressure control parameters to a child job."
+msgstr "Specify this parameter when transferring temperature/pressure control parameters to a child job."
 
 msgid "define -DFLEXIBLE"
 msgstr "define -DFLEXIBLE"
@@ -486,7 +485,7 @@ msgid "vdw-modifier"
 msgstr "vdw-change"
 
 msgid "ファンデルワールスポテンシャルのカットオフ時のSwitching/Shiftなどの設定を選択します。"
-msgstr "Select settings such as Switching / Shift when Van der Waals potential cutoff."
+msgstr "Select settings such as Switching/Shift when Van der Waals potential cutoff."
 
 msgid "Electrostatics"
 msgstr "Electrostatics"
@@ -513,7 +512,7 @@ msgid "coulomb-modifier"
 msgstr "Coulomb-change"
 
 msgid "クーロンポテンシャルのカットオフ時のSwitching/Shiftなどの設定を選択します。"
-msgstr "Select the setting such as Switching / Shift at the cutoff of Coulomb potential."
+msgstr "Select the setting such as Switching/Shift at the cutoff of Coulomb potential."
 
 msgid "Ewald"
 msgstr "Ewald"
@@ -642,7 +641,7 @@ msgid "メインウィンドウで開かれている座標ファイル(拡張子
 msgstr "The coordinate file ( :file:`gmx_mdrun_tmp.gro`) and the topology file ( :file:`gmx_tmp.top`) in the working directory linked to the coordinate file (extension: gro) ) To start the job."
 
 msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.gro` の時のファイル/フォルダ名を併記しています。"
-msgstr "Following file will be generated with execution. As an example, the file / folder name when the input file is :file:`water.gro` is also shown."
+msgstr "Following file will be generated with execution. As an example, the file/folder name when the input file is :file:`water.gro` is also shown."
 
 msgid "種類"
 msgstr "type"
@@ -666,7 +665,7 @@ msgid ":file:`water.sh`"
 msgstr ":file:`water.sh`"
 
 msgid "Gromacsとそのプリ・ポスト処理を実行するための"
-msgstr "For running Gromacs and its pre / post processing"
+msgstr "For running Gromacs and its pre/post processing"
 
 msgid "シェルスクリプトです。"
 msgstr "Shell script."
@@ -833,6 +832,18 @@ msgstr ":file:`\\ * _ gmx_tmp \\\\ gmx_tmp_mdrun.gro`."
 msgid "本機能を使うとメインウィンドウのファイル名は変化しません。"
 msgstr "When using this function, the file name of the main window does not change."
 
+msgid "連続ジョブ設定"
+msgstr "Configure Sequential Job"
+
+msgid "Gromacsを連続実行するための設定を行います。プリセット以外の設定で実行したい場合は、あらかじめ実行したい計算条件を :ref:`md_gromacs_keyword` にて入力し :guilabel:`Save` ボタンでgmxset形式で保存してください。"
+msgstr "Configure settings for continuous execution of Gromacs. If you want to run with settings other than the presets, enter the calculation conditions you want to run in advance with :ref:`md_gromacs_keyword` and save it in gmxset format with the :guilabel:`Save` button."
+
+msgid "連続ジョブ実行"
+msgstr "Run Sequential Job"
+
+msgid ":ref:`md_gromacs_seq_setup` の内容に基づきGromacsを連続実行します。"
+msgstr "Run Gromacs sequentially based on the contents of :ref:`md_gromacs_seq_setup`."
+
 msgid "結果解析"
 msgstr "Analyses"
 
@@ -879,7 +890,7 @@ msgid "Target Group"
 msgstr "Target Group"
 
 msgid "ここで選択したグループに属する分子・原子に対して物理量を計算します。開いたndxファイルに書かれているグループがここで選択可能です。"
-msgstr "Calculate the physical quantity for molecules / atoms belonging to the selected group here. A group written in the opened ndx file can be selected here."
+msgstr "Calculate the physical quantity for molecules/atoms belonging to the selected group here. A group written in the opened ndx file can be selected here."
 
 msgid "Reference Group"
 msgstr "Reference Group"
@@ -914,11 +925,11 @@ msgstr "Execute the result analysis program and display the graph."
 msgid "グラフ描画エリアの操作方法は :ref:`chart_top` を参照してください。"
 msgstr "For how to operate the graph drawing area, see :ref:`chart_top`."
 
-msgid "平均二乗変位"
-msgstr "Mean Square Displacement"
+msgid "自己拡散係数/平均二乗変位"
+msgstr "Diffusion Constant/Mean Square Displacement"
 
 msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、平均二乗変位と自己拡散係数を表示します。 内部的には :command:`gmx msd` コマンドが実行されます。"
-msgstr "Select trr, tpr, ndx files output by Gromacs and display mean square displacement and self diffusion coefficient. Internally the :command:`gmx msd` command is executed."
+msgstr "Select trr, tpr, ndx files output by Gromacs and display mean square displacement and diffusion constant. Internally the :command:`gmx msd` command is executed."
 
 msgid "Diffusion Constant"
 msgstr "Diffusion Constant"
@@ -1105,9 +1116,6 @@ msgstr "Solvent system (large number of solvent molecules)"
 
 msgid "Solute system（溶質分子1個）"
 msgstr "Solute system (one solute molecule)"
-
-msgid ":guilabel:`ERmod実行` タブを選択します。"
-msgstr "Select the :guilabel:`ERmod Execution` tab."
 
 msgid ":guilabel:`Solution` タブでA. Solution systemの作業ディレクトリをドラッグアンドドロップします。または、xtc, log, topファイルそれぞれの欄で :guilabel:`...` ボタンを押して個々のファイルを読み込みます。"
 msgstr "Drag and drop the working directory of A. Solution system on the :guilabel:`Solution` tab. Or, in each column of the xtc, log, top file, press :guilabel:`...` button to read individual files."

@@ -23,7 +23,7 @@ msgid "Easy Setup"
 msgstr "Easy Setup"
 
 msgid "簡易設定画面を表示します。"
-msgstr "Displays the simple setting screen."
+msgstr "Shows the simple setting window."
 
 msgid "NCPUS"
 msgstr "NCPUS"
@@ -251,7 +251,7 @@ msgid "OPTTOL"
 msgstr "OPTTOL"
 
 msgid "エネルギー勾配の閾値を指定します。（デフォルト 0.0001 Hartree/Bohr）"
-msgstr "Specify the threshold of the energy gradient. (Default 0.0001 Hartree / Bohr)"
+msgstr "Specify the threshold of the energy gradient. (Default 0.0001 Hartree/Bohr)"
 
 msgid "METHOD"
 msgstr "METHOD"
@@ -317,16 +317,16 @@ msgid "既存のGAMESSの入力ファイルから、キーワード（計算条�
 msgstr "Only keywords (calculation conditions) are read from the existing GAMESS input file."
 
 msgid "punchファイルから読み込み"
-msgstr "Import from punch File"
+msgstr "Import from Punch File"
 
-msgid "$VEC from punch"
-msgstr "$VEC from punch"
+msgid "$VECを読み込み"
+msgstr "Import $VEC"
 
 msgid "$VECをpunchファイルから読み込みます。"
 msgstr "Import $VEC from the punch file."
 
-msgid "$HESS from punch"
-msgstr "$HESS from punch"
+msgid "$HESSを読み込み"
+msgstr "Import $HESS"
 
 msgid "$HESSをpunchファイルから読み込みます。"
 msgstr "Import $HESS from the punch file."
@@ -341,13 +341,13 @@ msgid "入力ファイルを保存する際に、 :ref:`file_coordinateformat` �
 msgstr "When saving the input file, output format of coordinates changes according to the selection of :ref:`file_coordinateformat` choice (:guilabel:`Z-Matrix` or :guilabel:`XYZ`) and :guilabel:`Z-Matrix` / :guilabel:`XYZ` tab of :ref:`Coordinate display area <gui_main>`."
 
 msgid ":guilabel:`(1) GAMESS実行` , :guilabel:`(2) GAMESS実行` の違いは、起動するGAMESSのプログラムパスです。 プログラムパスは、 :menuselection:`ツール --> 環境設定 --> プログラムパス` で変更することができます。 :guilabel:`(1) GAMESS実行` , :guilabel:`(2) GAMESS実行` には、Fireflyやバージョンの異なるGAMESSなどを設定して、両者を場面に応じて使い分けながら使用することを想定しています。"
-msgstr "Difference between :guilabel:`(1) Execution of GAMESS` and :guilabel:`(2) GAMESS execution` is the program path of GAMESS to start. You can change the program path with :menuselection:`Tools --> Preferences --> Program Path`. :guilabel:`(1) GAMESS execution`, :guilabel:`(2) GAMESS execution` is supposed to set Firefly and GAMESS of different versions etc. and use them while using them according to the scene It is."
+msgstr "Difference between :guilabel:`Run (1) GAMESS` and :guilabel:`Run (2) GAMESS` is the program path of GAMESS to start. You can change the program path with :menuselection:`Tools --> Preferences --> Program Path`. :guilabel:`Run (1) GAMESS`, :guilabel:`Run (2) GAMESS` is supposed to set Firefly and GAMESS of different versions etc. and use them while using them according to the scene It is."
 
 msgid "外部基底関数ファイルを使用するには( :command:`$BASIS EXTFIL=.T.` )、 :file:`basis.lib` をGAMESSのEXEファイルと同じディレクトリに置きます。 WinGAMESSの場合は、 :file:`runscript.csh` の中で :command:`setenv EXTBAS ../basis.lib` と指定します。"
 msgstr "To use the external basis function file (: command: `$ BASIS EXTFIL = .T.`), Put :file:`basis.lib` in the same directory as GAMESS&#39;s EXE file. For WinGAMESS, specify :command:`setenv EXTBAS ../ basis.lib` in :file:` runscript.csh`."
 
 msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.inp` の時のファイル/フォルダ名を併記しています。"
-msgstr "Following file will be generated with execution. As an example, the file / folder name when the input file is :file:`water.inp` is also shown."
+msgstr "Following file will be generated with execution. As an example, the file/folder name when the input file is :file:`water.inp` is also shown."
 
 msgid "種類"
 msgstr "type"
@@ -386,13 +386,13 @@ msgid "ジョブは :ref:`winmosjm_top` を通じて実行されます。"
 msgstr "The job is run through :ref:`winmosjm_top`."
 
 msgid "ログを表示 (out,log)"
-msgstr "Open Log File (out, log)"
+msgstr "Open Log File (out/log)"
 
 msgid "outファイルをテキストエディタで開きます。"
-msgstr "out Open the file in a text editor."
+msgstr "Open the out file with a text editor."
 
 msgid "アニメーション"
-msgstr "Animation"
+msgstr "Animation(Optimization)"
 
 msgid "outファイルの情報から構造最適化、スキャン、IRC計算等のアニメーションを作成し表示します。"
 msgstr "Create and display animation such as structure optimization, scanning, IRC calculation, etc. from the out file information."
@@ -410,13 +410,13 @@ msgid "outファイルの情報から分子軌道, UV-Vis, 電荷, NMRの情報�
 msgstr "Obtain information on molecular orbital, UV-Vis, charge, NMR from theout file information and display it."
 
 msgid "読み込まれた電荷の情報は :menuselection:`表示 --> ラベル/電荷 --> Mulliken電荷` などを選択することで分子表示エリアに表示することができます。"
-msgstr "Information on the charge read can be displayed in the molecular display area by selecting :menuselection:`display --> label / charge --> Mulliken charge` and so on."
+msgstr "Information on the charge read can be displayed in the molecular display area by selecting :menuselection:`View --> Labels/Charges --> Show Mulliken Charge` and so on."
 
 msgid "サブウィンドウの操作方法は :ref:`mo_top` , :ref:`cube_top` , :ref:`uvvis_top` , :ref:`nmr_top` を参照してください。"
 msgstr "Refer to :ref:`mo_top`, :ref:`cube_top`, :ref:`uvvis_top`, :ref:`nmr_top` for how to operate the subwindow."
 
-msgid "IR(Hessian)/ラマンスペクトル"
-msgstr "Hessian/Raman"
+msgid "IR/ラマンスペクトル"
+msgstr "IR/Raman"
 
 msgid "outファイルを選択し、振動スペクトル（IRまたはラマンスペクトル）を表示します。"
 msgstr "Select the out file and display the vibration spectrum (IR or Raman spectrum)."
@@ -434,7 +434,7 @@ msgid "RESP法に基づく点電荷をpunchファイルから算出します。"
 msgstr "Calculate point charge based on RESP method from punch file."
 
 msgid "読み込ませるpunchファイルは、 :menuselection:`キーワード設定 --> Easy Setup` において :guilabel:`RESP/ESP` の設定を選んで実行した計算から出力されている必要があります。 スピン多重度は1という前提で処理されます。 内部では、punchファイルの情報からAntechamberで読み込めるファイルを作成し、Antechamberを用いてRESP電荷を算出しています。"
-msgstr "The punch file to load is required to be outputted from the calculation executed by choosing :guilabel:`RESP / ESP` setting in :menuselection:`keyword setting --> Easy Setup`. Spin multiplicity is handled on the premise of 1. Internally, we create a file that can be read by Antechamber from punch file information and calculate RESP charge using Antechamber."
+msgstr "The punch file to load is required to be outputted from the calculation executed by choosing :guilabel:`RESP/ESP` setting in :menuselection:`Configure --> Easy Setup`. Spin multiplicity is handled on the premise of 1. Internally, we create a file that can be read by Antechamber from punch file information and calculate RESP charge using Antechamber."
 
 msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ<install_cygwinwm>` が必要です。"
 msgstr "To use this function, :ref:`cygwin_wm setup<install_cygwinwm>` is required."

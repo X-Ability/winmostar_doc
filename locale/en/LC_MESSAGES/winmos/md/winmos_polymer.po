@@ -54,7 +54,7 @@ msgid "[Cancel]"
 msgstr "[Cancel]"
 
 msgid "設定を破棄してモノマー登録画面を閉じます。"
-msgstr "Discard the settings and close the monomer registration screen."
+msgstr "Discard the settings and close the monomer registration window."
 
 msgid "ホモポリマービルダ"
 msgstr "Homopolymer builder"

@@ -165,13 +165,13 @@ msgid "座標をトラジェクトリファイルに出力する頻度を指定�
 msgstr "Specify how often the coordinates are output to the trajectory file."
 
 msgid "QM/MM"
-msgstr "QM / MM"
+msgstr "QM/MM"
 
 msgid "Use qmmm"
 msgstr "Use qmmm"
 
 msgid "ifqnt=1にし、&qmmm namelistを加え、QM/MM/MD計算のための設定を有効にします。"
-msgstr "Set ifqnt = 1, add &qmmm namelist, and enable the setting for QM / MM / MD calculation."
+msgstr "Set ifqnt = 1, add &qmmm namelist, and enable the setting for QM/MM/MD calculation."
 
 msgid "qm_theory"
 msgstr "qm_theory"
@@ -207,7 +207,7 @@ msgid "qmmask"
 msgstr "qmmask"
 
 msgid "[Set]ボタンを押すと、メイン画面で選択された原子をQM領域として設定します。 メイン画面においてCtrl+ドラッグにより選択された青色の原子が対象となります。"
-msgstr "When you press the [Set] button, the atom selected on the main screen is set as the QM area. Blue atoms selected by Ctrl + drag on the main screen are targeted."
+msgstr "When you press the [Set] button, the atom selected on the main window is set as the QM area. Blue atoms selected by Ctrl + drag on the main window are targeted."
 
 msgid "Misc"
 msgstr "Misc"

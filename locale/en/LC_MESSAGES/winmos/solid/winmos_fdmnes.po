@@ -75,7 +75,7 @@ msgid "FDMNESを実行します。"
 msgstr "Run FDMNES."
 
 msgid "実行に伴い以下のファイルが生成されます。（主要なファイルのみ表示） 例として入力ファイルが :file:`cu.fdmnes` の時のファイル/フォルダ名を併記しています。"
-msgstr "Following file will be generated with execution. (Only major files are shown) As an example, the file / folder name when the input file is :file:`cu.fdmnes` is also shown."
+msgstr "Following file will be generated with execution. (Only major files are shown) As an example, the file/folder name when the input file is :file:`cu.fdmnes` is also shown."
 
 msgid "種類"
 msgstr "type"

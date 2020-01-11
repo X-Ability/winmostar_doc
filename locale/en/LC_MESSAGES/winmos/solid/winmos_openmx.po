@@ -14,7 +14,7 @@ msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`solid_openm
 msgstr "See :ref:`solid_openmx_start` for behavior when clicking :guilabel:`Run`."
 
 msgid ":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 :guilabel:`OK` ボタンで設定内容を反映してメイン画面に戻ります。 :guilabel:`Cancel` ボタンで何もせずにWindowを閉じます。"
-msgstr "The :guilabel:`Reset` button returns to the default state. Click the :guilabel:`OK` button to reflect the settings and return to the main screen. :guilabel:`Cancel` button closes the window without doing anything."
+msgstr "The :guilabel:`Reset` button returns to the default state. Click the :guilabel:`OK` button to reflect the settings and return to the main window. :guilabel:`Cancel` button closes the window without doing anything."
 
 msgid "本機能を呼び出すときに、メインウィンドウに表示された構造がプリミティブセルに変化できる場合は、自動で :ref:`solid_convertcell` が実行されます。"
 msgstr "When calling this function, if the structure displayed in the main window can be changed to a primitive cell, :ref:`solid_convertcell` is automatically executed. "
@@ -206,7 +206,7 @@ msgid "Opt.criterion"
 msgstr "Opt.criterion"
 
 msgid "「Type」キーワードによって構造最適化の方法を選択している場合には、 「Opt.criterion」キーワードでその収束条件（Hartree/Bohr） を設定します。 原子にかかる力の最大絶対値が、ここで指定した値より小さくなった場合に、構造最適化は終了します。"
-msgstr "If you choose a structure optimization method with the\" Type \"keyword, set the convergence condition (Hartree / Bohr) with the keyword\" Opt.criterion \". Structural optimization ends when the maximum absolute value of the force applied to the atom is smaller than the value specified here."
+msgstr "If you choose a structure optimization method with the\" Type \"keyword, set the convergence condition (Hartree/Bohr) with the keyword\" Opt.criterion \". Structural optimization ends when the maximum absolute value of the force applied to the atom is smaller than the value specified here."
 
 msgid "Opt.DIIS.History"
 msgstr "Opt.DIIS.History"
@@ -347,7 +347,7 @@ msgid "OpenMXを実行します。"
 msgstr "Execute OpenMX"
 
 msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`dia.mxin` 、System.Nameがwmのときのファイル/フォルダ名を併記しています。"
-msgstr "The following files are generated upon execution. As an example, the file / folder name when the input file is: file:` dia.mxin` and System.Name is wm is shown. "
+msgstr "The following files are generated upon execution. As an example, the file/folder name when the input file is: file:` dia.mxin` and System.Name is wm is shown. "
 
 msgid "種類"
 msgstr "Type"

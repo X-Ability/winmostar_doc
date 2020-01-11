@@ -6,7 +6,7 @@ msgid "キーワード&座標表示エリアを表示"
 msgstr "Show Keywords & Coordinates Areas"
 
 msgid "メインウィンドウでキーワード表示エリアと座標表示エリアの表示・非表示を切り替えます。"
-msgstr "Switch display / non-display of keyword display area and coordinate display area on the main window."
+msgstr "Switch show or do not show keyword display area and coordinate display area on the main window."
 
 msgid "三面図を表示"
 msgstr "Show Multi-View"
@@ -51,22 +51,22 @@ msgid "メインウィンドウで左ドラッグすると、視線が平行移�
 msgstr "Drag left on the main window to move the line of sight in parallel."
 
 msgid "回転"
-msgstr "Orbit/Roll"
+msgstr "Rotate"
 
 msgid "自由回転"
-msgstr "Orbit"
+msgstr "Around Center"
 
 msgid "メインウィンドウで左ドラッグすると、注視点を中心にカメラが回転します。"
 msgstr "Drag left in the main window to rotate the camera around the point of interest."
 
 msgid "X, Y, Z軸周りで回転"
-msgstr "Roll Around X, Y, Z-Axis"
+msgstr "Around X, Y, Z-Axis"
 
 msgid "メインウィンドウで左ドラッグすると、各軸の周りでカメラが回転します。"
 msgstr "Drag left in the main window to rotate the camera around each axis."
 
 msgid "表示を回転"
-msgstr "Rotate View"
+msgstr "View"
 
 msgid "メインウィンドウで左ドラッグすると、表示が回転します。"
 msgstr "Drag left in the main window to rotate the display."
@@ -129,7 +129,7 @@ msgid "User電荷"
 msgstr "Show User Charge"
 
 msgid ":menuselection:`編集 --> 属性を変更 -->` :ref:`edit_property_charge` や"
-msgstr ":menuselection:`Edit --> Atom Properties -->` :ref:`edit_property_charge` and"
+msgstr ":menuselection:`Edit --> Chnge Atom Property -->` :ref:`edit_property_charge` and"
 
 msgid ":menuselection:`MD --> 電荷を割り当て` などの機能でユーザが割り当てた電荷を表示します。"
 msgstr ":menuselection:`MD --> Assign Charges` and other functions to display the charge assigned by the user."
@@ -141,7 +141,13 @@ msgid "各種ログファイルを開いた際に読み込まれるスピン密�
 msgstr "Spin density read when various log files are opened"
 
 msgid ":menuselection:`編集 --> 属性を変更 -->` :ref:`edit_property_charge` で割り当てたスピン密度を表示します。"
-msgstr "Display the spin density assigned by :menuselection:`Edit --> Atom Properteis -->` :ref:`edit_property_charge`."
+msgstr "Display the spin density assigned by :menuselection:`Edit --> Change Atom Property -->` :ref:`edit_property_charge`."
+
+msgid "差電子密度"
+msgstr "Show Difference Density"
+
+msgid "差電子密度を表示します。"
+msgstr "Show Difference Density"
 
 msgid "双極子/遷移モーメント"
 msgstr "Dipole/Transition Moment"
@@ -162,7 +168,7 @@ msgid "スケールを変更"
 msgstr "Change Scaling Factor"
 
 msgid "双極子/遷移モーメントを表示する際の大きさを指定します。"
-msgstr "Specify the magnitude when displaying dipole / transition moment."
+msgstr "Specify the magnitude when displaying dipole/transition moment."
 
 msgid "分子の表現形式"
 msgstr "Molecular Representation"
@@ -171,10 +177,10 @@ msgid "分子の表現方法（モデル）を選択します。"
 msgstr "Select the expression method (model) of the molecule."
 
 msgid "周期境界条件の表現形式"
-msgstr "Representation format of periodic boundary condition"
+msgstr "Wrap Around Cell BOundary"
 
 msgid "セルが作成されている状態で、原子座標がセルの上端・下端よりも小さい値の場合の表示方法を示します。本機能で座標の値そのものは変化しません。 :menuselection:`編集 -->` :ref:`edit_wrap_pbc` を使うと本機能で表示されている原子の位置に座標の値を設定することができます。"
-msgstr "The display method when the atomic coordinates are smaller than the top and bottom of the cell while the cell is being created is shown below. The coordinate value itself does not change with this function. :menuselection:`edit -->` :ref:`edit_wrap_pbc`, you can set the value of the coordinates to the position of the atom displayed in this function."
+msgstr "The display method when the atomic coordinates are smaller than the top and bottom of the cell while the cell is being created is shown below. The coordinate value itself does not change with this function. :menuselection:`Edit -->` :ref:`edit_wrap_pbc`, you can set the value of the coordinates to the position of the atom displayed in this function."
 
 msgid "Winmostar Viewer"
 msgstr "Winmostar Viewer"

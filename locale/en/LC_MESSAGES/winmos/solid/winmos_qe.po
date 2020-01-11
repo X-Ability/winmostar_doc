@@ -29,7 +29,7 @@ msgid "Output Directory"
 msgstr "Output Directory"
 
 msgid "データの出力先フォルダ(outdir)を指定すると同時に、ジョブの新規・継続実行を指定します。"
-msgstr "Specify the output destination folder (outdir) of the data, and at the same time specify the new / continued execution of the job."
+msgstr "Specify the output destination folder (outdir) of the data, and at the same time specify the new/continued execution of the job."
 
 msgid "Create"
 msgstr "Create"
@@ -41,7 +41,7 @@ msgid "Continue"
 msgstr "Continue"
 
 msgid "メイン画面に読み込まれている、直前に実行されたQEのジョブを継続します。outdirは直前に実行されたジョブのoutdirに設定されます。"
-msgstr "Continue the job of QE that was loaded on the main screen and executed immediately. outdir is set to outdir of the job executed immediately before."
+msgstr "Continue the job of QE that was loaded on the main window and executed immediately. outdir is set to outdir of the job executed immediately before."
 
 msgid "Select"
 msgstr "Select"
@@ -74,19 +74,19 @@ msgid "Use nbnd"
 msgstr "Use nbnd"
 
 msgid "バンド数を指定します。チェックを入れない場合は自動で設定されます。括弧内に選択されたは擬ポテンシャルを使用したときの価電子数が表示される。価電子数の自動計算に失敗した場合はN/Aと表示される。"
-msgstr "Specify the number of bands. If not checked, it will be set automatically. When selected in parentheses, the number of valence electrons when pseudopotential is used is displayed. If the calculation of the number of valence electrons fails, it is displayed as N / A."
+msgstr "Specify the number of bands. If not checked, it will be set automatically. When selected in parentheses, the number of valence electrons when pseudopotential is used is displayed. If the calculation of the number of valence electrons fails, it is displayed as N/A."
 
 msgid "K_POINTS"
 msgstr "K_POINTS"
 
 msgid "K点の指定方法をプルダウンから選び、下のテキストボックスにQEの書式でK点を指定します。 gammaの場合はΓ点のみで計算されます。 automaticの場合は「(kx方向の分割数) (ky方向の分割数) (kz方向の分割数) (kx方向のシフトフラグ) (ky方向のシフトフラグ) (kz方向のシフトフラグ)」（スペース区切り）を入力します。シフトフラグは0のときにシフトなし（k点がΓ点を含む）、1のときにシフトあり（k点がΓ点を跨ぐ）となります。 その他詳細はpw.xのマニュアルまたはQEインストールフォルダ以下のdoc/brillouin_zones.pdfをご参照ください。"
-msgstr "Select the specification method of point K from the pull-down and specify K point in QE format in the text box below. In the case of gamma, it is calculated only with the Γ point. In the automatic case, \"(number of divisions in the kx direction) (division number in the ky direction) (number of divisions in the kz direction) (shift flag in the kx direction) (shift flag in the ky direction) (shift flag in kz direction)\" Enter a delimiter. When the shift flag is 0, there is no shift (the k point includes the Γ point), when it is 1, there is a shift (k point crosses the Γ point). For details, please refer to doc / brillouin_zones.pdf under pw.x manual or QE installation folder."
+msgstr "Select the specification method of point K from the pull-down and specify K point in QE format in the text box below. In the case of gamma, it is calculated only with the Γ point. In the automatic case, \"(number of divisions in the kx direction) (division number in the ky direction) (number of divisions in the kz direction) (shift flag in the kx direction) (shift flag in the ky direction) (shift flag in kz direction)\" Enter a delimiter. When the shift flag is 0, there is no shift (the k point includes the Γ point), when it is 1, there is a shift (k point crosses the Γ point). For details, please refer to doc/brillouin_zones.pdf under pw.x manual or QE installation folder."
 
 msgid "Set default k-path"
 msgstr "Set default k-path"
 
 msgid "メインウィンドウに表示されている結晶について検出されたブラベー格子（ibrav）のデフォルトのk点パスをUserPref/kpath_default.txtから取得して設定します。"
-msgstr "The default k-point path of the Bravo lattice (ibrav) detected for the crystal displayed in the main window is acquired from UserPref / kpath_default.txt and set."
+msgstr "The default k-point path of the Bravo lattice (ibrav) detected for the crystal displayed in the main window is acquired from UserPref/kpath_default.txt and set."
 
 msgid "nosym"
 msgstr "nosym"
@@ -260,7 +260,7 @@ msgid "擬ポテンシャルテーブルの構築パラメータを明示的に�
 msgstr "Explicitly specify the construction parameter of the pseudopotential table. Sometimes it is better to set a larger value for vc - relax (structure optimization calculation with cell size change)."
 
 msgid "Spin/DFT+Uタブ"
-msgstr "Spin / DFT + U tab"
+msgstr "Spin/DFT+U tab"
 
 msgid "nspin"
 msgstr "nspin"
@@ -299,7 +299,7 @@ msgid "Run Phonon Calculation as Postprocess"
 msgstr "Run Phonon Calculation as Postprocess"
 
 msgid "フォノン計算を実行します。 具体的には、pw.xを実行した後にph.xを実行します。 この項目を有効にするためには、CalculationにSCFまたはrelaxを選ぶ必要があります。 ph.xなどの入出力ファイルは作業ディレクトリ内に作成されます。"
-msgstr "Perform phonon calculation. Specifically, execute ph.x after executing pw.x. In order to make this item effective, you need to choose SCF or relax for Calculation. I / O files such as ph.x are created in the working directory."
+msgstr "Perform phonon calculation. Specifically, execute ph.x after executing pw.x. In order to make this item effective, you need to choose SCF or relax for Calculation. I/O files such as ph.x are created in the working directory."
 
 msgid "Threshold"
 msgstr "Threshold"
@@ -710,7 +710,7 @@ msgid ":guilabel:`Output Directory = Select` の時は、選択したフォル�
 msgstr "If the case of :guilabel:`Output Directory = Select`, use the selected folder as the working directory (outdir)."
 
 msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`si.pwin` の時のファイル/フォルダ名を併記しています。"
-msgstr "Following file will be generated with execution. As an example, the file / folder name when the input file is :file:`si.pwin` is also shown."
+msgstr "Following file will be generated with execution. As an example, the file/folder name when the input file is :file:`si.pwin` is also shown."
 
 msgid "種類"
 msgstr "type"
@@ -1004,7 +1004,7 @@ msgid "K Points"
 msgstr "K Points"
 
 msgid "取得する分散曲線のパスを指定します。 各行には、x, y, z成分をそれぞれ2pi/aの単位で記述し、その横に次の点までの間の分割数を記述します。（合計4カラムをスペース区切りで入力）"
-msgstr "Specify the path of the dispersion curve to be acquired. In each line, describe the x, y, z components in units of 2 pi / a, and next to it describe the number of divisions up to the next point. (Enter a total of 4 columns with a space separator)"
+msgstr "Specify the path of the dispersion curve to be acquired. In each line, describe the x, y, z components in units of 2pi/a, and next to it describe the number of divisions up to the next point. (Enter a total of 4 columns with a space separator)"
 
 msgid "フォノン状態密度"
 msgstr "Phonon Density of States"
@@ -1064,7 +1064,7 @@ msgid "RISM計算（trism=.True.）で使用される溶媒のMOLファイルを
 msgstr "Create a MOL file of the solvent used in the RISM calculation (trism = .True.). Please call this function after creating one molecule in the main window. When entering LAMMPS data format, please check :guilabel:`Use parameters in displayed file`."
 
 msgid "作成したファイルはMOLファイルのキーワード設定ウィンドウの :guilabel:`RISM(1)` タブの :guilabel:`Directory for MOL Files` で指定したフォルダに配置してください。"
-msgstr "The created file should be placed in the folder specified by :guilabel:`Directory for MOL Files` on the :guilabel:`RISM (1)` tab of the keyword setting window of the MOL file. "
+msgstr "The created file should be placed in the folder specified by :guilabel:`Directory for MOL Files` on the :guilabel:`RISM (1)` tab of the Configure window of the MOL file. "
 
 msgid "Nudged Elastic Band"
 msgstr "Nudged Elastic Band"
@@ -1244,7 +1244,7 @@ msgid ":guilabel:`Open` ボタン"
 msgstr ":guilabel:`Open` button"
 
 msgid "Quantum ESPRESSOのインプットファイル (\\*.in,\\*.pwin)を読み込みます。 Phonopyでのポスト処理では、応力の情報を必要とします。このため読み込むファイルは tprnfor, tstressキーワードを含んでいる必要があります。 Phonopy用のQuantum ESPRESSOのインプットファイルは、 Quantum ESPRESSOキーワード設定のPreset=Phonopyを使用することで設定できます。"
-msgstr "Read the input file (\\*.in, \\*.pwin) of Quantum ESPRESSO. Post processing in Phonopy requires stress information. Therefore, the file to be read must include the tprnfor and tstress keywords. The input file of Quantum ESPRESSO for Phonopy can be set by using Quantum ESPRESSO keyword setting Preset=Phonopy."
+msgstr "Read the input file (\\*.in, \\*.pwin) of Quantum ESPRESSO. Post processing in Phonopy requires stress information. Therefore, the file to be read must include the tprnfor and tstress keywords. The input file of Quantum ESPRESSO for Phonopy can be set by using Quantum ESPRESSO Configure Preset=Phonopy."
 
 msgid "DIM"
 msgstr "DIM"

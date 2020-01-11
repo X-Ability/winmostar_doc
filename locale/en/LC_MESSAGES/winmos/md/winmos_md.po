@@ -9,7 +9,7 @@ msgid "MDメニューの機能を利用するにはMDパックが必要です。
 msgstr "MD pack is necessary to use the function of MD menu. Also, with almost every feature :ref:`cygwin_wm <cygwinwm_top>` is required."
 
 msgid "溶媒を配置/セルを構築"
-msgstr "Solvent/Build Cell"
+msgstr "Solvate/Build Cell"
 
 msgid "本機能は主に以下の2つの目的で使用されます。"
 msgstr "This function is mainly used for the following two purposes."
@@ -69,13 +69,13 @@ msgid "Set Density"
 msgstr "Set Density"
 
 msgid "作成されるシミュレーションセルの密度を指定します。大きすぎる場合は分子を十分に挿入できないことがあるため、液相の場合は通常0.5～0.8 g/cm :sup:`3` 程度に設定します。"
-msgstr "Specify the density of the simulation cell to be created. If it is too large, you may not be able to insert the molecule sufficiently, so in case of liquid phase it is usually set to about 0.5 ~ 0.8 g / cm :sup:`3`."
+msgstr "Specify the density of the simulation cell to be created. If it is too large, you may not be able to insert the molecule sufficiently, so in case of liquid phase it is usually set to about 0.5~0.8 g/cm :sup:`3`."
 
 msgid "Set Distance from Solute"
 msgstr "Set Distance from Solute"
 
 msgid ":guilabel:`Method` に :guilabel:`Solvate` を選んでいる際に、メインウィンドウに表示された分子とシミュレーションセルの間の距離を指定します。"
-msgstr "When choosing :guilabel:`Solvate` for :guilabel:`Method`, specify the distance between the molecule displayed on the main screen and the simulation cell."
+msgstr "When choosing :guilabel:`Solvate` for :guilabel:`Method`, specify the distance between the molecule displayed on the main window and the simulation cell."
 
 msgid "Set Lattice Constants"
 msgstr "Set Lattice Constants"
@@ -270,10 +270,10 @@ msgid ":ref:`md_amber_top` を参照してください。"
 msgstr "See :ref:`md_amber_top`."
 
 msgid "MODYLAS"
-msgstr "MODYLES"
+msgstr "MODYLAS"
 
 msgid "MODYLASのキーワード設定、計算の実行、アニメーションの表示、エネルギーの表示を行います。"
-msgstr "MODYLAS keyword setting, calculation execution, animation display, energy display."
+msgstr "MODYLAS Configure, calculation execution, animation display, energy display."
 
 msgid "基本的には :ref:`md_gromacs_top` と類似の挙動を示します。"
 msgstr "Basically it behaves similarly to :ref:`md_gromacs_top`."

@@ -1,4 +1,3 @@
-
 msgid ":menuselection:`ツール --> 環境設定` メニュー"
 msgstr ":menuselection:`Tools --> Preferences` menu"
 
@@ -30,7 +29,7 @@ msgid "[ファイル]-[テキストエディタで開く]メニューにて旧�
 msgstr "Use the old editor in [File] - [Open with text editor] menu"
 
 msgid "チェックが入っていた場合は、 :menuselection:`ファイル -->` :ref:`file_editor` をクリックした際に、V8までの :menuselection:`編集 --> 直接編集` 機能を使用します。入っていない場合は、 :menuselection:`環境設定 --> プログラムパス` でEditorに設定したプログラムを使います。"
-msgstr "If checked, use :menuselection:`edit-> direct edit` function up to V8 when you click :menuselection:`File -->` :ref:`file_editor`. If not, use the program set in Editor with :menuselection:`configuration --> program path`."
+msgstr "If checked, use :menuselection:`Edit-> Direct Editor` function up to V8 when you click :menuselection:`File -->` :ref:`file_editor`. If not, use the program set in Editor with :menuselection:`Preference --> Program Path`."
 
 msgid "Zipの解凍に旧式(V8以前)のコードを使用"
 msgstr "Use old code (pre-V8) code to unzip Zip"
@@ -90,7 +89,7 @@ msgid "結合を自動生成する処理が動作する最大原子数を設定�
 msgstr "Set the maximum number of atoms to automatically generate Z-Matrix."
 
 msgid "[MD]-[溶媒を配置/セルを構築]にてPackmolを使用"
-msgstr "Use Packmol in [MD]-[Solvate / Build Cell]"
+msgstr "Use Packmol in [MD]-[Solvate/Build Cell]"
 
 msgid "チェックが入っていた場合は、 :ref:`md_solvate_buildcell` においてpackmolを使用します。 入っていない場合は、Gromacsを使用します。"
 msgstr "If it is checked, use packmol in :ref:`md_solvate_buildcell`. If not, use Gromacs."
@@ -136,12 +135,6 @@ msgstr "Display confirmation before starting calculation"
 
 msgid "チェックした場合は各ソルバを実行する際に、確認ダイアログを表示します。"
 msgstr "If checked, a confirmation dialog will be displayed when executing each solver."
-
-msgid "新しいリモートジョブ投入ウィンドウ(V9)を使用"
-msgstr "Use the new remote job submission window (V9)"
-
-msgid "V9から採用されたリモートジョブ投入ウィンドウを使用します。"
-msgstr "We will use the remote job submission window adopted from V9."
 
 msgid "GAMESS計算後に強制的にスリープ"
 msgstr "Force sleep after GAMESS calculation"
@@ -189,7 +182,7 @@ msgid "文字"
 msgstr "Text"
 
 msgid "分子表示画面の文字の色を変更します。"
-msgstr "Change the color of the character on the molecule display screen."
+msgstr "Change the color of the character on the molecule display window."
 
 msgid "選択原子のVDW半径"
 msgstr "VDW radius of selected atom"
@@ -204,7 +197,7 @@ msgid ":ref:`view_labels_charges` において電荷を表示する際の電荷�
 msgstr "Adjust the magnitude of the charge display when displaying charges in :ref:`view_labels_charges`."
 
 msgid ":menuselection:`表示 -->` :ref:`view_items` からも設定することができます。"
-msgstr "You can also be set from :menuselection:`Display -->` :ref:`view_items`."
+msgstr "You can also be set from :menuselection:`View -->` :ref:`view_items`."
 
 msgid "キーワード表示エリアの文字サイズ"
 msgstr "Font size of keyword display area"
@@ -216,7 +209,7 @@ msgid "マウスのスクロールの速さ"
 msgstr "Mouse scroll speed"
 
 msgid "分子表示エリアにおけるマウスホイールによる拡大・縮小の速度を調整します。"
-msgstr "Adjust the speed of enlargement / reduction by the mouse wheel in the molecular display area."
+msgstr "Adjust the speed of zoom in/out by the mouse wheel in the molecular display area."
 
 msgid "表示項目"
 msgstr "Representation project"

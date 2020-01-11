@@ -24,7 +24,7 @@ msgid "(一般)"
 msgstr "(General)"
 
 msgid "タンパク質、水分子以外の分子の力場を指定します。 内部では、GAFF, OPLS/AA-Lの場合は :command:`acpype` が、Dreidingの場合は内製プログラムが使用されます。 Dreidingの設定は :file:`polymer/dreiding.lib.txt` に書かれています。"
-msgstr "Specify the force field of molecules other than proteins and water molecules. Internally :command:`acpype` is used for GAFF, OPLS / AA-L, in-house program is used for Dreiding. The setting of Dreiding is written in :file:`polymer / dreiding.lib.txt`."
+msgstr "Specify the force field of molecules other than proteins and water molecules. Internally :command:`acpype` is used for GAFF, OPLS/AA-L, in-house program is used for Dreiding. The setting of Dreiding is written in :file:`polymer/dreiding.lib.txt`."
 
 msgid "Exception"
 msgstr "Exception"
@@ -147,7 +147,7 @@ msgid "real"
 msgstr "real"
 
 msgid "主に分子系で指定します(A, fs, Kcal/mol）。"
-msgstr "It is mainly specified by molecular system (A, fs, Kcal / mol)."
+msgstr "It is mainly specified by molecular system (A, fs, Kcal/mol)."
 
 msgid "metal"
 msgstr "metal"
@@ -423,7 +423,7 @@ msgid "Automatically set Nmesh"
 msgstr "Automatically set Nmesh"
 
 msgid ":guilabel:`Pair Style` = ``lj/cut/coul/long`` の際に使用されるPPPM法のメッシュ数をK-space accuracyから自動的に設定します。"
-msgstr "The number of meshes of the PPPM method used when :guilabel:`Pair Style` =` `lj / cut / coul / long`` is automatically set from K-space accuracy."
+msgstr "The number of meshes of the PPPM method used when :guilabel:`Pair Style` =` `lj/cut/coul/long`` is automatically set from K-space accuracy."
 
 msgid "Nmesh for kx, ky, kz"
 msgstr "Nmesh for kx, ky, kz"
@@ -621,7 +621,7 @@ msgid "メインウィンドウで開かれているdataファイルに紐づけ
 msgstr "Start the job using the :file:`lmp_tmp_final.data` located in the working directory associated with the data file opened in the main window."
 
 msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.data` の時のファイル/フォルダ名を併記しています。"
-msgstr "Following file will be generated with execution. As an example, the file / folder name when the input file is :file:`water.data` is also shown."
+msgstr "Following file will be generated with execution. As an example, the file/folder name when the input file is :file:`water.data` is also shown."
 
 msgid "種類"
 msgstr "type"
@@ -645,7 +645,7 @@ msgid ":file:`water.bat`"
 msgstr ":file:`water.bat`"
 
 msgid "LAMMPSとそのプリ・ポスト処理を実行するための"
-msgstr "LAMMPS and its pre / post processing"
+msgstr "LAMMPS and its pre/post processing"
 
 msgid "バッチファイルです。"
 msgstr "It is a batch file."

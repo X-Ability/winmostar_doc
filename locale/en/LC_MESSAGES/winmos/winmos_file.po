@@ -20,7 +20,7 @@ msgid ":kbd:`Ctrl+O` でも操作できます。"
 msgstr "The shortcut is :kbd:`Ctrl+O` ."
 
 msgid "最近使ったファイル"
-msgstr "Open Recent"
+msgstr "Open Recent File"
 
 msgid "最近開かれたファイルを開きます。"
 msgstr "Open a recently opened file."

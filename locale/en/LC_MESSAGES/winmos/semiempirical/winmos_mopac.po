@@ -6,7 +6,7 @@ msgid "MOPACに関するメニューです。"
 msgstr "It is a menu related to MOPAC."
 
 msgid "MOPAC6とMOPAC7はWinmostarに同梱されています。 それ以外のMOPACを利用する場合は、別途代理店よりMOPAC本体を購入し、環境設定ウィンドウにてパスを設定してください。"
-msgstr "MOPAC 6 and MOPAC 7 are bundled with Winmostar. When using other MOPAC please purchase MOPAC body separately from distributor and set the path in environment setting window."
+msgstr "MOPAC 6 and MOPAC 7 are bundled with Winmostar. When using other MOPAC please purchase MOPAC body separately from distributor and set the path in Preference window."
 
 msgid "キーワード設定"
 msgstr "Configure"
@@ -24,7 +24,7 @@ msgid "Easy Setup"
 msgstr "Easy Setup"
 
 msgid "簡易設定画面を表示します。"
-msgstr "The simple setting screen is displayed."
+msgstr "The simple setting window is displayed."
 
 msgid "Hamiltonian"
 msgstr "Hamiltonian"
@@ -189,7 +189,7 @@ msgid "GRAPH"
 msgstr "GRAPH"
 
 msgid "分子軌道をグラフィックス表示するためのファイルを作成します。（GPAGH/GRAPHF)"
-msgstr "Create a file to graphically display molecular orbitals. (GPAGH / GRAPHF)"
+msgstr "Create a file to graphically display molecular orbitals. (GPAGH/GRAPHF)"
 
 msgid "EXTERNAL"
 msgstr "EXTERNAL"
@@ -327,10 +327,10 @@ msgid "入力ファイルを保存する際に、 :ref:`file_coordinateformat` �
 msgstr "When saving the input file, the output format of coordinates changes according to the choice of :ref:`file_coordinateformat` ( :guilabel:`Z-Matrix` or :guilabel:`XYZ` ) and :ref:`coordinate display area <gui_main>` of :guilabel:`Z-Matrix` / :guilabel:`XYZ` tab."
 
 msgid ":guilabel:`(1) MOP6W70実行` , :guilabel:`(2) MOP7W70実行`, :guilabel:`(3) MOPACX実行` の違いは、起動するMOPACのプログラムパスです。 プログラムパスは、 :menuselection:`ツール --> 環境設定 --> プログラムパス` で変更することができます。 デフォルトで設定されている :guilabel:`MOP6W70` はMOPAC6、 :guilabel:`MOP7W70` はMOPAC7で、どちらもWinmostarに内蔵されているものです。 :guilabel:`(3) MOPACX実行` にはMOPAC2012などのプログラムを指定して使うことを想定しています。"
-msgstr "Difference of :guilabel:`(1) Execute MOP 6W70, :guilabel:`(2) Execute MOP7W70`, :guilabel:`(3) MOPACX execution` is the program path to start MOPAC. You can change the program path with :menuselection:`Tools --> Preferences --> Program Path`. Default setting :guilabel:`MOP 6W 70` is MOPAC 6, :guilabel:`MOP 7 W 70` is MOPAC 7, both of which are built in Winmostar. :guilabel:`(3) MOPACX execution` is assumed to be used by specifying a program such as MOPAC 2012."
+msgstr "Difference of :guilabel:`Run (1) MOP6W70`, :guilabel:`Run (2) MOP7W70`, :guilabel:`Run (3) MOPACX` is the program path to start MOPAC. You can change the program path with :menuselection:`Tools --> Preferences --> Program Path`. Default setting :guilabel:`MOP 6W 70` is MOPAC 6, :guilabel:`MOP 7 W 70` is MOPAC 7, both of which are built in Winmostar. :guilabel:`Run (3) MOPACX` is assumed to be used by specifying a program such as MOPAC 2012."
 
 msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.dat` の時のファイル/フォルダ名を併記しています。"
-msgstr "Following file will be generated with execution. For example, the file / folder name when the input file is :file:`water.dat` is shown together."
+msgstr "Following file will be generated with execution. For example, the file/folder name when the input file is :file:`water.dat` is shown together."
 
 msgid "種類"
 msgstr "type"
@@ -383,6 +383,9 @@ msgstr "Open Log File (out)"
 msgid "outファイルをテキストエディタで開きます。"
 msgstr "Open out file in a text editor."
 
+msgid "ログを表示 (arc)"
+msgstr "Open Log File (arc)"
+
 msgid "arcファイルをテキストエディタで開きます。"
 msgstr "Open arc file with a text editor."
 
@@ -423,10 +426,10 @@ msgid "arcファイルを選択し、電荷、ダイポールを表示します�
 msgstr "Select arc file and display charge, dipole."
 
 msgid ":menuselection:`表示 --> ラベル/電荷 --> Mulliken電荷` を選択すると電荷が表示されます。"
-msgstr "Show charges when you select :menuselection:`display --> label/charge --> Mulliken Charge`."
+msgstr "Show charges when you select :menuselection:`View --> Label/Charges --> Show Mulliken Charge`."
 
 msgid "振動スペクトル (out)"
-msgstr "Vibration spectrum (out)"
+msgstr "IR (out)"
 
 msgid "outファイルを選択し、振動スペクトル（IRスペクトル）を表示します。"
 msgstr "Select the out file and display the vibration spectrum (IR spectrum)."
@@ -438,7 +441,7 @@ msgid "ジョブマネージャで実行"
 msgstr "Use Job Manager"
 
 msgid "チェックが入っている場合は、MOPACを実行する際に :ref:`winmosjm_top` を使用します。 入っていない場合は、MOPACでの計算が終わるまでWinmostarは待ち状態となり、MOPACの出力結果は自動でメインウィンドウに読み込まれます。"
-msgstr "When checked, use :ref:`winmosjm_top` when executing MOPAC. If it is not entered, Winmostar will be in a wait state until calculation by MOPAC is completed, and the output result of MOPAC will be automatically loaded into the main window."
+msgstr "When checked, use :ref:`winmosjm_top` when executing MOPAC. Otherwise, Winmostar will be in a wait state until calculation by MOPAC is completed, and the output result of MOPAC will be automatically loaded into the main window."
 
 msgid ":ref:`preferences_top` からも設定することができます。"
 msgstr "It can also be set from :ref:`preferences_top`."

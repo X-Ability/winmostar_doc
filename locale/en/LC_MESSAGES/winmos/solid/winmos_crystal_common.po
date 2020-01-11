@@ -7,7 +7,7 @@ msgid "Show Multi-View"
 msgstr "Show Multi-View"
 
 msgid "三面図による描画を行います。三面図では左上の画面のみが自由回転に対応しており、残りの三方向のカメラは結晶のa, b, c軸に固定されるため回転しません。"
-msgstr "We will draw by triple drawing. In the three view, only the upper left screen corresponds to free rotation, and the remaining three direction cameras are fixed to the a, b, c axes of the crystal and therefore will not rotate."
+msgstr "We will draw by triple drawing. In the three view, only the upper left window corresponds to free rotation, and the remaining three direction cameras are fixed to the a, b, c axes of the crystal and therefore will not rotate."
 
 msgid "Always View Center"
 msgstr "Always View Center"

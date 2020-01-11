@@ -61,7 +61,7 @@ msgid "マウス操作"
 msgstr "Mouse controls"
 
 msgid "メインウィンドウでは下表のようにマウスで操作することができます。 分子・原子を選択する方法の詳細は :ref:`select_top` に記載しています。"
-msgstr "In Viewport, you can operate with the mouse as shown in the table below. Details on how to select molecules / atoms can be found in :ref:`select_top`."
+msgstr "In Viewport, you can operate with the mouse as shown in the table below. Details on how to select molecules/atoms can be found in :ref:`select_top`."
 
 msgid "修飾"
 msgstr "Modifier"
@@ -94,7 +94,7 @@ msgid "視点の回転"
 msgstr "Roll camera"
 
 msgid "原子を置換"
-msgstr "Replace by fragment"
+msgstr "Replace with fragment"
 
 msgid "表示の拡大・縮小"
 msgstr "Zoom in/out"
@@ -199,7 +199,7 @@ msgid "分子構造の構築"
 msgstr "Modelling "
 
 msgid "フラグメントで置換"
-msgstr "Replace by Fragment"
+msgstr "Replace with Fragment"
 
 msgid ":kbd:`F6`"
 msgstr ":kbd:`F6`"
@@ -271,13 +271,13 @@ msgid ":kbd:`Ctrl+M`"
 msgstr ":kbd:`Ctrl+M`"
 
 msgid "グループを軸回転（選択2原子）"
-msgstr "Roll Group Around Axis (2 Marked Atoms)"
+msgstr "Rotate Around Axis (2 Marked Atoms)"
 
 msgid ":kbd:`Ctrl+R`"
 msgstr ":kbd:`Ctrl+R`"
 
 msgid "グループを軸回転（選択3原子）"
-msgstr "Roll Group Around Axis (3 Marked Atoms)"
+msgstr "Rotate Around Axis (3 Marked Atoms)"
 
 msgid ":kbd:`Ctrl+A`"
 msgstr ":kbd:`Ctrl+A`"

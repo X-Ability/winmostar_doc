@@ -22,7 +22,7 @@ msgid "グラフを拡大します。"
 msgstr "Enlarge the graph."
 
 msgid "X/Y Axis"
-msgstr "X / Y Axis"
+msgstr "X/Y Axis"
 
 msgid "Autoscale"
 msgstr "Autoscale"
@@ -31,7 +31,7 @@ msgid "描画範囲を自動で設定します。"
 msgstr "Set the drawing range automatically."
 
 msgid "Min/Max"
-msgstr "Min / Max"
+msgstr "Min/Max"
 
 msgid ":guilabel:`Autoscale` のチェックを外した時に、描画範囲を直接指定します。"
 msgstr "When you uncheck :guilabel:`Autoscale` checkbox, specify the drawing area directly."

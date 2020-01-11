@@ -291,7 +291,7 @@ msgid "メインウィンドウで開かれた入力ファイルに紐づけら�
 msgstr "Create a backup of the existing working directory associated with the input file opened in the main window, save the input file as :file:`dftb.inp` in the newly created working directory, and use it to perform calculations . "
 
 msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.dci` の時のファイル/フォルダ名を併記しています。"
-msgstr "The following files are generated with execution. As an example, the file / folder name when the input file is :file:`water.dci` is also shown. "
+msgstr "The following files are generated with execution. As an example, the file/folder name when the input file is :file:`water.dci` is also shown. "
 
 msgid "種類"
 msgstr "Type"
@@ -318,7 +318,7 @@ msgid ":file:`water.sh`"
 msgstr ":file:`water.sh`"
 
 msgid "DCDFTBMDとそのプリ・ポスト処理を実行するための"
-msgstr "To perform DCDFTBMD and its pre / post processing"
+msgstr "To perform DCDFTBMD and its pre/post processing"
 
 msgid "シェルスクリプトです。"
 msgstr "shell script."
@@ -432,7 +432,7 @@ msgid "メインウィンドウのファイル名は変化しません。"
 msgstr "The main window file name does not change."
 
 msgid "Animationウィンドウの :menuselection:`Tools --> Mean Square Displacement/Diffusion Constant` と :menuselection:`Tools --> Radial Distribution Function` から平均二乗変位、自己拡散係数、動径分布関数を計算することができます。詳細は :ref:`md_gromacs_msd` または :ref:`md_gromacs_rdf` を参照してください。"
-msgstr "You can calculate mean square displacement, self-diffusion coefficient, and radial distribution function from :menuselection:`Tools --> Mean Square Displacement / Diffusion Constant` and :menuselection:`Tools --> Radial Distribution Function` in Animation window.See :ref:`md_gromacs_msd` or :ref:`md_gromacs_rdf` for details. "
+msgstr "You can calculate mean square displacement, self-diffusion coefficient, and radial distribution function from :menuselection:`Tools --> Mean Square Displacement/Diffusion Constant` and :menuselection:`Tools --> Radial Distribution Function` in Animation window.See :ref:`md_gromacs_msd` or :ref:`md_gromacs_rdf` for details. "
 
 msgid "エネルギー変化"
 msgstr "Energy Plot"

@@ -324,6 +324,18 @@ Gromacs実行
    
    本機能を使うとメインウィンドウのファイル名は変化しません。
 
+.. _md_gromacs_seq_setup:
+
+連続ジョブ設定
+---------------------
+
+   Gromacsを連続実行するための設定を行います。プリセット以外の設定で実行したい場合は、あらかじめ実行したい計算条件を :ref:`md_gromacs_keyword` にて入力し :guilabel:`Save` ボタンでgmxset形式で保存してください。
+
+連続ジョブ実行
+-----------------------
+
+   :ref:`md_gromacs_seq_setup` の内容に基づきGromacsを連続実行します。
+
 結果解析
 ----------------
 
@@ -353,7 +365,7 @@ Gromacs実行
 
 .. _md_gromacs_msd:
 
-平均二乗変位
+自己拡散係数/平均二乗変位
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、平均二乗変位と自己拡散係数を表示します。
@@ -518,14 +530,13 @@ ER法実行
       A. Solution system（溶質分子1個＋溶媒分子多数）
       B. Solvent system（溶媒分子多数）
       C. Solute system（溶質分子1個）
-   2. :guilabel:`ERmod実行` タブを選択します。
-   3. :guilabel:`Solution` タブでA. Solution systemの作業ディレクトリをドラッグアンドドロップします。または、xtc, log, topファイルそれぞれの欄で :guilabel:`...` ボタンを押して個々のファイルを読み込みます。
-   4. 同様に :guilabel:`Solvent` タブでB. Solvent systemのファイルを選択します。
-   5. 同様に :guilabel:`Solute` タブでC. Solute systemのファイルを選択します。xtcファイルを指定した場合は、溶質がフレキシブルモデル、pdbまたはgroファイルを指定した場合は、剛体モデルとして扱われます。
-   6. 必要に応じて、 :guilabel:`Options` ボタンから自由エネルギー計算時のMPI並列数など指定します。
-   7. 自由エネルギー計算をローカル環境で実施する場合は :guilabel:`Start` ボタンを押します。結果を出力するフォルダを指定すると計算が始まります。Cygwin上で :command:`ermod` が流れます。
-   8. リモート環境で実施する場合は一旦 :guilabel:`Close` ボタンを押します。そして :ref:`remote_top` にて :guilabel:`Program` に ``ermod`` を指定し実行します。リモートサーバ上では、 :command:`ermod` および :command:`slvfe` コマンドに :command:`$PATH` が通っている必要があります。（リモートサーバへのERmodのインストールは `こちら <https://winmostar.com/jp/gmx4wm_jp_linux.html>`_ を参照）計算が終わり、 :ref:`remote_top` で :guilabel:`get` ボタンを押すと、 :file:`winmostar.exe` が置かれたフォルダ以下に :file:`ermod_remote_\*` というフォルダが生成され、結果がリモートサーバから転送されます。
-   9. 自由エネルギー計算終了後、結果の表示するには :ref:`md_gromacs_er_result` メニューを選択します。
+   2. :guilabel:`Solution` タブでA. Solution systemの作業ディレクトリをドラッグアンドドロップします。または、xtc, log, topファイルそれぞれの欄で :guilabel:`...` ボタンを押して個々のファイルを読み込みます。
+   3. 同様に :guilabel:`Solvent` タブでB. Solvent systemのファイルを選択します。
+   4. 同様に :guilabel:`Solute` タブでC. Solute systemのファイルを選択します。xtcファイルを指定した場合は、溶質がフレキシブルモデル、pdbまたはgroファイルを指定した場合は、剛体モデルとして扱われます。
+   5. 必要に応じて、 :guilabel:`Options` ボタンから自由エネルギー計算時のMPI並列数など指定します。
+   6. 自由エネルギー計算をローカル環境で実施する場合は :guilabel:`Start` ボタンを押します。結果を出力するフォルダを指定すると計算が始まります。Cygwin上で :command:`ermod` が流れます。
+   7. リモート環境で実施する場合は一旦 :guilabel:`Close` ボタンを押します。そして :ref:`remote_top` にて :guilabel:`Program` に ``ermod`` を指定し実行します。リモートサーバ上では、 :command:`ermod` および :command:`slvfe` コマンドに :command:`$PATH` が通っている必要があります。（リモートサーバへのERmodのインストールは `こちら <https://winmostar.com/jp/gmx4wm_jp_linux.html>`_ を参照）計算が終わり、 :ref:`remote_top` で :guilabel:`get` ボタンを押すと、 :file:`winmostar.exe` が置かれたフォルダ以下に :file:`ermod_remote_\*` というフォルダが生成され、結果がリモートサーバから転送されます。
+   8. 自由エネルギー計算終了後、結果の表示するには :ref:`md_gromacs_er_result` メニューを選択します。
 
 .. _md_gromacs_er_result:
 

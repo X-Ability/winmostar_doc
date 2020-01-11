@@ -23,7 +23,7 @@ msgid "Easy Setup"
 msgstr "Easy Setup"
 
 msgid "簡易設定画面を表示します。"
-msgstr "Displays the simple setting screen."
+msgstr "Show the simple setting window."
 
 msgid "%nprocshared"
 msgstr "%nprocshared"
@@ -401,7 +401,7 @@ msgid "Gaussianのプログラムパスは、 :menuselection:`ツール --> 環�
 msgstr "Gaussian&#39;s program path can be changed with:: menuselection: `tools --> preferences --> program path`."
 
 msgid "実行に伴い以下のファイルが生成されます。 例として入力ファイルが :file:`water.gjf` の時のファイル/フォルダ名を併記しています。"
-msgstr "Following file will be generated with execution. For example, the file / folder name when the input file is: file: `water.gjf` is shown together."
+msgstr "Following file will be generated with execution. For example, the file/folder name when the input file is: file: `water.gjf` is shown together."
 
 msgid "種類"
 msgstr "type"
@@ -473,13 +473,13 @@ msgid "logファイルの情報から分子軌道, UV-Vis, 電荷, NMRの情報�
 msgstr "Information on molecular orbital, UV-Vis, charge, NMR from the information of the log file is acquired and displayed."
 
 msgid "読み込まれた電荷の情報は :menuselection:`表示 --> ラベル/電荷 --> Mulliken電荷` などを選択することで分子表示エリアに表示することができます。"
-msgstr "Information on the charge read can be displayed in the molecular display area by selecting :menuselection:`display --> label / charge --> Mulliken charge` and so on."
+msgstr "Information on the charge read can be displayed in the molecular display area by selecting :menuselection:`View --> Labels/Charges --> Show Mulliken Charge` and so on."
 
 msgid "サブウィンドウの操作方法は :ref:`mo_top` , :ref:`cube_top` , :ref:`uvvis_top` , :ref:`nmr_top` を参照してください。"
 msgstr "Refer to :ref:`mo_top`, :ref:`cube_top`, :ref:`uvvis_top`, :ref:`nmr_top` for how to operate the subwindow."
 
 msgid "IR/ラマンスペクトル"
-msgstr "Freq"
+msgstr "IR/Raman"
 
 msgid "logファイルを選択し、振動スペクトル（IRまたはラマンスペクトル）を表示します。"
 msgstr "Select the log file and display the vibration spectrum (IR or Raman spectrum)."

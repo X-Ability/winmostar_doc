@@ -14,8 +14,8 @@ msgstr "About quotation"
 msgid "学会発表、論文などでWinmostar(TM)を使用して作成したデータを発表する際、Winmostar(TM)本体については、例えば以下の様に記載してください。"
 msgstr "When announcing data created using Winmostar (TM) in academic presentations, articles, etc., please describe the Winmostar (TM) main body as follows, for example."
 
-msgid "`Winmostar V9, X-Ability Co. Ltd., Tokyo, Japan, 2019.`"
-msgstr "`Winmostar V9, X-Ability Co. Ltd., Tokyo, Japan, 2019.`"
+msgid "`Winmostar V10, X-Ability Co. Ltd., Tokyo, Japan, 2020.`"
+msgstr "`Winmostar V10, X-Ability Co. Ltd., Tokyo, Japan, 2020.`"
 
 msgid "Winmostar(TM)が呼び出したソルバや各種補助プログラムの引用については、それぞれのソフトウエアの指示に従って下さい。"
 msgstr "Please refer to the instructions of each software for the citation of solvers and various auxiliary programs called by Winmostar (TM)."
@@ -42,7 +42,7 @@ msgid ":menuselection:`ツール --> 環境設定 --> 基本 --> ライセンス
 msgstr ":menuselection:`Tools --> Preferences --> Basic --> License Code`"
 
 msgid "メニュー、タブなどをたどる流れを示します。上記の例は、 メニューから :menuselection:`ツール --> 環境設定` とたどり、 開いたウィンドウの :guilabel:`基本` というタブをクリックし、その中にある :guilabel:`ライセンスコード` というラベルの付いたGUIのことを意味します。"
-msgstr "It shows the flow that follows menu, tab, etc. From the menu, follow the menu :menuselection:`Tools --> Preferences` and click on the tab called :guilabel:`basic` in the opened window and find the label :guilabel:`license code` It means GUI with."
+msgstr "It shows the flow that follows menu, tab, etc. Above example means GUI flow from the menu :menuselection:`Tools --> Preferences` and click on the tab called :guilabel:`basic` in the opened window and find the label :guilabel:`license code`."
 
 msgid ":file:`wmset.ini` , :file:`C\\\\:winmos10\\\\UserPref`"
 msgstr ":file:`wmset.ini`, :file:`C\\\\:winmos10\\\\UserPref`"
@@ -69,7 +69,7 @@ msgid "注意点を示します。"
 msgstr "Indicates notes."
 
 msgid "使用しているライブラリ"
-msgstr "The library you are using"
+msgstr "The libraries used"
 
 msgid "Winmostarは一部の処理に下記のライブラリ・ソフトウェアを使用しています。"
 msgstr "Winmostar uses the following libraries and softwares for some processings."

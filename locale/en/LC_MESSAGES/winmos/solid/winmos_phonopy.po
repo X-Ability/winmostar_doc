@@ -23,13 +23,13 @@ msgid "キーワード設定・実行"
 msgstr "Create Supercell"
 
 msgid "Phonopyを用いたプリ・ポスト処理の計算条件を設定し、プリ処理の実行を行います。"
-msgstr "Set pre / post processing calculation conditions using Phonopy and execute pre processing."
+msgstr "Set pre/post processing calculation conditions using Phonopy and execute pre processing."
 
 msgid ":guilabel:`Open` ボタン"
 msgstr ":guilabel:`Open` button"
 
 msgid "Quantum ESPRESSOのインプットファイル (\\*.in,\\*.pwin)を読み込みます。 Phonopyでのポスト処理では、応力の情報を必要とします。このため読み込むファイルは tprnfor, tstressキーワードを含んでいる必要があります。 Phonopy用のQuantum ESPRESSOのインプットファイルは、 Quantum ESPRESSOキーワード設定のPreset=Phonopyを使用することで設定できます。"
-msgstr "Read Quantum ESPRESSO input files (\\*.in,\\*.pwin). Post processing with Phonopy requires stress information. For this reason, the file to be read must contain the tprnfor and tstress keywords. Quantum ESPRESSO input file for Phonopy can be set by using Preset = Phonopy of Quantum ESPRESSO keyword setting."
+msgstr "Read Quantum ESPRESSO input files (\\*.in,\\*.pwin). Post processing with Phonopy requires stress information. For this reason, the file to be read must contain the tprnfor and tstress keywords. Quantum ESPRESSO input file for Phonopy can be set by using Preset = Phonopy of Quantum ESPRESSO Configure."
 
 msgid "DIM"
 msgstr "DIM"
@@ -143,19 +143,19 @@ msgid ":guilabel:`Cancel` ボタン"
 msgstr ":guilabel:`Cancel` button"
 
 msgid "何もせずにキーワード設定・実行ウィンドウを閉じます。"
-msgstr "Do nothing and close the keyword setting / execution window."
+msgstr "Do nothing and close the Configure & Run window."
 
 msgid "confファイル編集"
 msgstr "Edit .conf File"
 
 msgid "confファイルをテキストエディタで開きます。 キーワード設定画面で設定したキーワードを編集したい場合に用います。"
-msgstr "Open the conf file with a text editor. Used when you want to edit the keywords set in the keyword setting screen."
+msgstr "Open the conf file with a text editor. Used when you want to edit the keywords set in the Configure window."
 
 msgid "Quantum ESPRESSO連続実行"
 msgstr "Run QE for Phonopy"
 
 msgid "キーワード設定・実行画面で生成された、全てのスーパーセルに対し、Quantum ESPRESSOを実行します。 このメニューを用いた場合、Quantum ESPRESSOはローカル環境で実行されます。"
-msgstr "Quantum ESPRESSO is executed for all supercells generated on the keyword setting / execution screen. If you use this menu, Quantum ESPRESSO will run in your local environment."
+msgstr "Quantum ESPRESSO is executed for all supercells generated on Configure & Run window. If you use this menu, Quantum ESPRESSO will run in your local environment."
 
 msgid "Phonopyの実行"
 msgstr "Run Phonopy"

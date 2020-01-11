@@ -14,7 +14,7 @@ msgid "Freq. Scaling"
 msgstr "Freq. Scaling"
 
 msgid "系統的な誤差を補正するための周波数のスケーリングファクターを選択します。プルダウンメニューから、計算に使用した手法・基底関数の値を選択します。 :guilabel:`Edit` ボタンを押すとスケーリングファクターの一覧を編集することができます。"
-msgstr "Select the frequency scaling factor to compensate for systematic errors. From the pull-down menu, select the method / basis function value used for calculation. You can edit the list of scaling factors by pressing the :guilabel:`Edit` button."
+msgstr "Select the frequency scaling factor to compensate for systematic errors. From the pull-down menu, select the method/basis function value used for calculation. You can edit the list of scaling factors by pressing the :guilabel:`Edit` button."
 
 msgid "Raman"
 msgstr "Raman"

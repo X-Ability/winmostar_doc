@@ -44,7 +44,7 @@ msgid "-hadd"
 msgstr "-hadd"
 
 msgid "水素削除"
-msgstr "Delete Hydrogens"
+msgstr "Delete All Hydrogens"
 
 msgid "-hdel"
 msgstr "-hdel"

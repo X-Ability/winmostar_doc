@@ -65,5 +65,5 @@ msgid "samplesフォルダのwmjobs.batに使用例があります。"
 msgstr "There is an example of use in wmjobs.bat in the samples folder."
 
 msgid "GaussianとGAMESSを連続実行する場合は、この方法ではなく :menuselection:`ツール --> 連続実行` を使用します。"
-msgstr "If you want to run Gaussian and GAMESS sequentially, use this :menuselection:`tool --> run continuously` instead."
+msgstr "If you want to run Gaussian and GAMESS sequentially, use this :menuselection:`Tools --> Bat Queue` instead."
 

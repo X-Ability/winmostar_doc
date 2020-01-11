@@ -71,7 +71,7 @@ msgid "ジョブのスケジューリングを使わずにジョブを実行す�
 msgstr "When executing a job without using job scheduling, setup of the job scheduler is unnecessary, and select `` Run`` in the setting of :guilabel:`Queue`."
 
 msgid ":ref:`calc_import_top` の1, 2の手順に従い初期条件の作成とキーワードの設定を行い、キーワード設定ウィンドウを :guilabel:`OK` ボタンを押して閉じます。"
-msgstr "Follow steps 1 and 2 on :ref:`calc_import_top` to create initial conditions and set keywords and close the keyword setting window with the :guilabel:`OK` button."
+msgstr "Follow steps 1 and 2 on :ref:`calc_import_top` to create initial conditions and set keywords and close the Configure window with the :guilabel:`OK` button."
 
 msgid "ツールバーの :guilabel:`リモートジョブ投入` ボタン |toolbar_submit| をクリックします。"
 msgstr "Click :guilabel:`Submit Remote Job` button | toolbar_submit | on the tool bar."
@@ -341,7 +341,7 @@ msgid "Remote Directory"
 msgstr "Remote Directory"
 
 msgid "リモートサーバの作業ディレクトリを指定します。空の場合はホームディレクトリから(Local User ID)/(プログラム名)/(ファイル名)が作業ディレクトリになります。 Local User IDは操作中のWindowsにおけるユーザ名で、Submit Remote Jobウィンドウのタイトルに表示されます。Local User IDに全角文字や半角スペースが含まれている場合は、内部的に半角英数文字に変換されてディレクトリ名が設定されます。 :command:`'/work/dir'` のようにシングルクォーテーションで囲うと、指定したディレクトリから :file:`(Local User ID)/(プログラム名)/(ファイル名)` を作成します。 また、 :command:`''/work/dir''` のようにシングルクォーテーションを2個づつで囲むと、(Local User ID)のディレクトリは作成されません。"
-msgstr "Specify the working directory of the remote server. If it is empty (Local User ID) / (program name) / (file name) is the working directory from the home directory. The Local User ID is the user name under Windows in operation and is displayed in the title of the Submit Remote Job window. If the Local User ID contains double-byte characters or half-width spaces, the directory name is internally converted to single-byte alphanumeric characters. If you enclose it with a single quotation like :command: `'/ work / dir'`, create :file:`(Local User ID) / (program name) / (file name)` from the specified directory. Also, if you enclose two single quotations like :command:`''/ work / dir''`, a directory with (Local User ID) will not be created."
+msgstr "Specify the working directory of the remote server. If it is empty (Local User ID)/(program name)/(file name) is the working directory from the home directory. The Local User ID is the user name under Windows in operation and is displayed in the title of the Submit Remote Job window. If the Local User ID contains double-byte characters or half-width spaces, the directory name is internally converted to single-byte alphanumeric characters. If you enclose it with a single quotation like :command: `'/ work/dir'`, create :file:`(Local User ID)/(program name)/(file name)` from the specified directory. Also, if you enclose two single quotations like :command:`''/work/dir''`, a directory with (Local User ID) will not be created."
 
 msgid "Prefix for Queueing Commands"
 msgstr "Prefix for Queueing Commands"
@@ -602,7 +602,7 @@ msgid "下記のように設定します。"
 msgstr "Set as follows."
 
 msgid "Profile編集画面でQueueにJM(Windows)を選択します。"
-msgstr "In the Profile edit screen, select JM (Windows) for Queue."
+msgstr "In the Profile edit window, select JM (Windows) for Queue."
 
 msgid "Winmostar PathにリモートサーバにインストールされているWinmostarのパスを設定します。"
 msgstr "Set Winmostar Path installed on the remote server to Winmostar Path."
@@ -617,7 +617,7 @@ msgid ":guilabel:`Test Connection` ボタンを押した時にジョブマネー
 msgstr "It also checks whether the job manager is running when the :guilabel:`Test Connection` button is pressed."
 
 msgid ":guilabel:`List Jobs` ボタンで表示される情報はジョブマネージャと同じで左から番号、状態、優先度、コア数、ジョブID、開始日時、終了日時、バッチファイルです。"
-msgstr "The information displayed by the :guilabel:`List Jobs` button is the same as the job manager, from the left: number, status, priority, number of cores, job ID, start date / time, end date / time, and batch file."
+msgstr "The information displayed by the :guilabel:`List Jobs` button is the same as the job manager, from the left: number, status, priority, number of cores, job ID, start date/time, end date/time, and batch file."
 
 msgid ":guilabel:`Delete Job` ボタンでジョブを取り消す場合はジョブIDを入力します。"
 msgstr "If you want to cancel the job with the `Delete Job` button, enter the job ID."

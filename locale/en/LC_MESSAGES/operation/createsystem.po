@@ -41,7 +41,7 @@ msgid "ある程度妥当な原子配置に調整するために :ref:`edit_clea
 msgstr "Execute :ref:`edit_clean` to adjust to a reasonable atomic arrangement. (Only when the number of atoms is small)"
 
 msgid "明示的に部分構造を回転させたい場合は :ref:`edit_partial_edit` :menuselection:`--> 部分回転` を実行する。"
-msgstr "To explicitly rotate the substructure, execute :ref:`edit_partial_edit` :menuselection:`--> Roll Group Around Axis (2 Marked Atoms)`."
+msgstr "To explicitly rotate the substructure, execute :ref:`edit_partial_edit` :menuselection:`--> Rotate Around Axis (2 Marked Atoms)`."
 
 msgid "様々な配座を取りうる分子の場合は :menuselection:`ツール -->` :ref:`tools_balloon` を実行し、エネルギーの低い構造を選択する。"
 msgstr "For molecules that can take various conformations, :menuselection:`Tools -->` :ref:`tools_balloon` and choose a structure with low energy."
@@ -77,7 +77,7 @@ msgid "RESP電荷を割り当てる。"
 msgstr "Assign RESP charge."
 
 msgid ":menuselection:`QM --> GAMESS --> キーワード設定 --> Easy Setup` にて、計算手法、基底関数を選択し、 :guilabel:`Method` に :guilabel:`ESP/RESP` を選択する。イオンの場合は :guilabel:`ICHARG` に電荷を入力する。"
-msgstr "Go to :menuselection:`QM --> GAMESS --> Configure --> Easy Setup`, check :guilabel:`ESP / RESP` and the other settings. In the case of ions, enter the charge into :guilabel:`ICHARG`."
+msgstr "Go to :menuselection:`QM --> GAMESS --> Configure --> Easy Setup`, check :guilabel:`ESP/RESP` and the other settings. In the case of ions, enter the charge into :guilabel:`ICHARG`."
 
 msgid ":guilabel:`Easy Setup` ウィンドウを :guilabel:`Close` ボタンで閉じ、 :guilabel:`GAMESS Setup` ウィンドウで :guilabel:`Run` ボタンを押し計算を実行する。"
 msgstr "Close the :guilabel:`Easy Setup` window with the :guilabel:`Close` button and press the:guilabel:`Run` button in the configure window to execute the calculation."
