@@ -43,7 +43,7 @@ msgid "座標表示エリア"
 msgstr "Coordinate Viewer"
 
 msgid "分子表示エリアに表示されている分子構造の、各原子の座標が表示されます。上部のタブで表示および出力する際の形式を切り替えることができます。デフォルトでは :guilabel:`Z-Matrix` が選択されています。グループ選択されていない状態では、座標表示エリアで選ばれた行とマーカー（赤丸）が付いた原子は一致します。 :kbd:`Ctrl+左クリック` または :kbd:`Shift+左クリック` により複数行を選択することでグループ選択（青丸）することができます。表示されている内容の詳細はポインタを重ねることで確認することができます。"
-msgstr "The coordinates of each atom of the molecular structure displayed in the viewport are displayed.You can switch the display format and output format on the upper tab.By default :guilabel:`Z-Matrix` is selected.In a state where no group is selected, the line selected in Coordinate Viewer matches the atom with the marker (red circle).Group selection (blue circle) can be done by selecting multiple lines by :kbd:`Ctrl+left click` or :kbd:`Shift+left click`."
+msgstr "The coordinates of each atom of the molecular structure displayed in Viewport are displayed.You can switch the display format and output format on the upper tab.By default :guilabel:`Z-Matrix` is selected.In a state where no group is selected, the line selected in Coordinate Viewer matches the atom with the marker (red circle).Group selection (blue circle) can be done by selecting multiple lines by :kbd:`Ctrl+left click` or :kbd:`Shift+left click`."
 
 msgid "座標入力エリア"
 msgstr "Coordinate Editor"

@@ -37,6 +37,12 @@ msgstr "Use old function adopted up to V8 for unzip"
 msgid "リモートジョブにおいて、リモートサーバから作業ディレクトリのzipファイルをgetし解凍する際に使うコードを指定します。 旧式のコードは巨大なファイル（数百 MB以上）の解凍時にエラーを出します。"
 msgstr "In the remote job, specify the code used to get and unzip the zip file of the working directory from the remote server. Old-style code generates errors when decompressing huge files (hundreds of MB or more)."
 
+msgid "Xyzファイルの保存に旧式(V9以前)のフォーマットを使用"
+msgstr "Use old format adopted up to V9 when saving xyz file"
+
+msgid "xyzファイル形式で保存する場合に、V9以前でデフォルトとしていたヘッダのないxyzファイルとして保存します。"
+msgstr "When saving in xyz file format, save as xyz file without header which was the default before V9."
+
 msgid "編集タブ"
 msgstr "Edit tab"
 
@@ -74,7 +80,7 @@ msgid "座標表示エリアに表示する最大原子数"
 msgstr "Max # of atoms to show atom list"
 
 msgid "座標表示エリアに座標を表示する最大原子数を設定します。"
-msgstr "Set the maximum number of atoms to display coordinates in the coordinate display area."
+msgstr "Set the maximum number of atoms to display coordinates in Coordinate Viewer."
 
 msgid "Z-Matrixを自動生成する最大原子数"
 msgstr "Max # of atoms to generate Z-Matrix"
@@ -130,6 +136,12 @@ msgstr "Confirm before starting calculation"
 msgid "チェックした場合は各ソルバを実行する際に、確認ダイアログを表示します。"
 msgstr "If checked, a confirmation dialog will be displayed when executing each solver."
 
+msgid "リモートサーバ上のディレクトリ名に\"wm\\_\"を付ける"
+msgstr "Use old format adopted up to V9 when saving xyz file"
+
+msgid "チェックした場合はリモートジョブ実行の作業ディレクトリにユーザ名に\"wm\\_\"をつけたディレクトリ名を使用します。"
+msgstr "If checked, use the directory name with \"wm\\_\" appended to the user name for the work directory for Remote Job Submission."
+
 msgid "GAMESS計算後に強制的にスリープ"
 msgstr "Forcibly sleep after GAMESS run"
 
@@ -182,7 +194,7 @@ msgid "選択原子のVDW半径"
 msgstr "VDW radius of selected atom"
 
 msgid "分子表示エリアでマーカーが付いた原子の元素について、VDW半径を変更します。"
-msgstr "Change the VDW radius for the element of the atom with marker in the molecule display area."
+msgstr "Change the VDW radius for the element of the atom with marker in Viewport."
 
 msgid "電荷表示スケール"
 msgstr "Scaling factor of charge"
@@ -194,22 +206,28 @@ msgid ":menuselection:`表示 -->` :ref:`view_items` からも設定すること
 msgstr "You can also be set from :menuselection:`View -->` :ref:`view_items`."
 
 msgid "キーワード表示エリアの文字サイズ"
-msgstr "Keyword font size"
+msgstr "Font size on Keyword Editor"
 
 msgid "キーワード表示エリアのフォントの大きさを指定します。"
-msgstr "Specify the font size of the keyword display area."
+msgstr "Specify the font size of the Keyword Editor."
 
 msgid "マウスのスクロールの速さ"
 msgstr "Scrolling speed"
 
 msgid "分子表示エリアにおけるマウスホイールによる拡大・縮小の速度を調整します。"
-msgstr "Adjust the speed of zoom in/out by the mouse wheel in the molecular display area."
+msgstr "Adjust the speed of zoom in/out by the mouse wheel in Viewport."
+
+msgid "奥行き表現の強さ"
+msgstr "Depth cue"
+
+msgid "奥行き表現に使用するフォグの濃さを調整します。"
+msgstr "Adjusts the fog density used for depth expression."
 
 msgid "表示項目"
 msgstr "Items to be drawn"
 
 msgid "分子表示エリアに表示する項目にチェックを入れます。"
-msgstr "Check the items to be displayed in the molecular display area."
+msgstr "Check the items to be displayed in Viewport."
 
 msgid "ファイルを開いた後にセンタリング"
 msgstr "View center after opening file"

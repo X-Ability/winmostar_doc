@@ -338,7 +338,7 @@ msgid "メインウィンドウでGAMESSの入力ファイルが開かれてい�
 msgstr "If the input file of GAMESS is opened in the main window, execute GAMESS using that file. If it is not open, save the input file of GAMESS and execute GAMESS."
 
 msgid "入力ファイルを保存する際に、 :ref:`file_coordinateformat` の選択肢（ :guilabel:`Z-Matrix` または :guilabel:`XYZ` ）および :ref:`座標表示エリア <gui_main>` の :guilabel:`Z-Matrix` / :guilabel:`XYZ` タブの選択に応じて座標の出力フォーマットが変化します。"
-msgstr "When saving the input file, output format of coordinates changes according to the selection of :ref:`file_coordinateformat` choice (:guilabel:`Z-Matrix` or :guilabel:`XYZ`) and :guilabel:`Z-Matrix` / :guilabel:`XYZ` tab of :ref:`Coordinate display area <gui_main>`."
+msgstr "When saving the input file, output format of coordinates changes according to the selection of :ref:`file_coordinateformat` choice (:guilabel:`Z-Matrix` or :guilabel:`XYZ`) and :guilabel:`Z-Matrix` / :guilabel:`XYZ` tab of :ref:`Coordinate Viewer <gui_main>`."
 
 msgid ":guilabel:`(1) GAMESS実行` , :guilabel:`(2) GAMESS実行` の違いは、起動するGAMESSのプログラムパスです。 プログラムパスは、 :menuselection:`ツール --> 環境設定 --> プログラムパス` で変更することができます。 :guilabel:`(1) GAMESS実行` , :guilabel:`(2) GAMESS実行` には、Fireflyやバージョンの異なるGAMESSなどを設定して、両者を場面に応じて使い分けながら使用することを想定しています。"
 msgstr "Difference between :guilabel:`Run (1) GAMESS` and :guilabel:`Run (2) GAMESS` is the program path of GAMESS to start. You can change the program path with :menuselection:`Tools --> Preferences --> Program Path`. :guilabel:`Run (1) GAMESS`, :guilabel:`Run (2) GAMESS` is supposed to set Firefly and GAMESS of different versions etc. and use them while using them according to the scene It is."
@@ -410,7 +410,7 @@ msgid "outファイルの情報から分子軌道, UV-Vis, 電荷, NMRの情報�
 msgstr "Obtain information on molecular orbital, UV-Vis, charge, NMR from theout file information and display it."
 
 msgid "読み込まれた電荷の情報は :menuselection:`表示 --> ラベル/電荷 --> Mulliken電荷` などを選択することで分子表示エリアに表示することができます。"
-msgstr "Information on the charge read can be displayed in the molecular display area by selecting :menuselection:`View --> Labels/Charges --> Show Mulliken Charge` and so on."
+msgstr "Information on the charge read can be displayed in Viewport by selecting :menuselection:`View --> Labels/Charges --> Show Mulliken Charge` and so on."
 
 msgid "サブウィンドウの操作方法は :ref:`mo_top` , :ref:`cube_top` , :ref:`uvvis_top` , :ref:`nmr_top` を参照してください。"
 msgstr "Refer to :ref:`mo_top`, :ref:`cube_top`, :ref:`uvvis_top`, :ref:`nmr_top` for how to operate the subwindow."

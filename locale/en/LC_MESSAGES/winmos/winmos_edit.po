@@ -44,7 +44,7 @@ msgid "座標を指定"
 msgstr "Specifying Position"
 
 msgid ":ref:`分子表示エリア <gui_main>` にてクリックする位置に原子を追加します。追加される原子の種類は :ref:`ツールバー <gui_main>` の :guilabel:`編集操作で適用される元素を選択` プルダウンメニュー |chg| で選択します。"
-msgstr "Add atoms to the position you click in :ref:`Molecular display area <gui_main>`. The types of atoms to be added are selected by :guilabel:`Select element for editing ops` pull-down menu |chg| of :ref:`Toolbar <gui_main>`."
+msgstr "Add atoms to the position you click in :ref:`Viewport <gui_main>`. The types of atoms to be added are selected by :guilabel:`Select element for editing ops` pull-down menu |chg| of :ref:`Toolbar <gui_main>`."
 
 msgid ":kbd:`F4` または :ref:`ツールバー <gui_main>` からも操作できます。"
 msgstr "You can also operate with :kbd:`F4` or from :ref:`Toolbar <gui_main>`."
@@ -71,7 +71,7 @@ msgid "並進移動"
 msgstr "Translate"
 
 msgid ":ref:`マーカー <edit_top>` が付いた原子を :ref:`分子表示エリア <gui_main>` 上でドラッグして移動します。"
-msgstr "Drag and move :ref:`marked <edit_top>` atom on :ref:`Molecular display area <gui_main>`."
+msgstr "Drag and move :ref:`marked <edit_top>` atom on :ref:`Viewport <gui_main>`."
 
 msgid ":kbd:`F5` でも操作できます。"
 msgstr "You can also operate it with :kbd:`F5`."
@@ -80,13 +80,13 @@ msgid "Z-Matrixを保持して並進移動"
 msgstr "Translate While Keeping Z-Matrix"
 
 msgid ":ref:`マーカー <edit_top>` が付いた原子とZ-Matrixで結合関係にある原子を同時に :ref:`分子表示エリア <gui_main>` 上でドラッグして移動します。官能基単位での移動などに向いています。"
-msgstr "Drag and move the atom with :ref:`marker <edit_top>` and the atom connected with Z-Matrix on the :ref:`Molecule display area <gui_main>` at the same time. Suitable for movement by functional group."
+msgstr "Drag and move the atom with :ref:`marker <edit_top>` and the atom connected with Z-Matrix on the :ref:`Viewport <gui_main>` at the same time. Suitable for movement by functional group."
 
 msgid "二面角を変更"
 msgstr "Change Dihedral"
 
 msgid ":ref:`マーカー <edit_top>` が付いた原子を :ref:`分子表示エリア <gui_main>` 上でドラッグして移動します。Z-Matrixの二面角のみが変化します。"
-msgstr "Drag and move the atom with :ref:`marker <edit_top>` on the :ref:`Moleculer display area <gui_main>`. Only the dihedral angle of Z-Matrix changes."
+msgstr "Drag and move the atom with :ref:`marker <edit_top>` on the :ref:`Viewport <gui_main>`. Only the dihedral angle of Z-Matrix changes."
 
 msgid "属性を変更"
 msgstr "Atom Properties"
@@ -110,7 +110,7 @@ msgid "選択した原子の最適化フラグを変更します。グループ�
 msgstr "Changes the optimization flag of the selected atom. If a group is selected, all atoms selected in the group are targeted. If :guilabel:`General` is selected in :guilabel:`Solver`, the selected flag for X, Y, and Z is set as it is. If a specific solver is selected in :guilabel:`Solver`, the corresponding flag will be set for each."
 
 msgid "OpenMXの場合は、 :ref:`座標表示エリア <gui_main>` 上で ``0`` と表示されていたらファイル保存時に ``1``, 逆に ``1`` と表示されていたら ``0`` と出力されます。つまり、本機能の ``Variable`` および ``Fixed`` の表記に従った動作となります。"
-msgstr "In the case of OpenMX, if ``0`` is displayed on the :ref:`Coordinate display area <gui_main>`, ``1`` is displayed when saving the file, and conversely ``1`` is displayed, the output is ``0``. In other words, the operation follows the `` Variable`` and `` Fixed`` notation of this function."
+msgstr "In the case of OpenMX, if ``0`` is displayed on the :ref:`Coordinate Viewer <gui_main>`, ``1`` is displayed when saving the file, and conversely ``1`` is displayed, the output is ``0``. In other words, the operation follows the `` Variable`` and `` Fixed`` notation of this function."
 
 msgid "電荷/スピンを変更"
 msgstr "Charge/Spin Density"
@@ -263,7 +263,7 @@ msgid "グループを軸回転（選択3原子）"
 msgstr "Rotate Around Axis(3 Marked Atoms)"
 
 msgid "マーカーが付けられた3原子（ :ref:`分子表示エリア <gui_main>` 左上の :guilabel:`Marked Order:` で確認することができます）で定義される面の法線ベクトルを軸として、グループ選択された構造を回転させます。"
-msgstr "Rotate the group selected structure around the normal vector of the plane defined by three atoms with a marker (These can be confirmed by top left :guilabel:`Marked Order` on :ref:`Molecular display area <gui_main>`)."
+msgstr "Rotate the group selected structure around the normal vector of the plane defined by three atoms with a marker (These can be confirmed by top left :guilabel:`Marked Order` on :ref:`Viewport <gui_main>`)."
 
 msgid ":kbd:`Ctrl+A` でも操作できます。"
 msgstr "You can also operate with :kbd:`Ctrl + A`."
@@ -287,13 +287,13 @@ msgid "グループを回転（配向を指定）"
 msgstr "Rotate by Aligning Marked Atoms"
 
 msgid "グループ選択された構造を特定軸または特定面に対し配向するよう回転させます。 マーカーが付けられた2原子（特定軸に配向させる場合）または3原子（特定面に配向させる場合）がグループ選択された構造の中に含まれている必要があります（マーカーが付けられた原子は :ref:`分子表示エリア <gui_main>` 左上の :guilabel:`Marked Order:` で確認することができます）。"
-msgstr "Rotates group selected structures to orient to a specific axis or plane. 2 atoms with markers, if oriented in a specific axis, or 3 atoms. if oriented in a specific plane, must be included in the group selected structure (It can be confirmed by :guilabel:`Marked Order:` in the upper left of :ref:`Molecule display area <gui_main>`)."
+msgstr "Rotates group selected structures to orient to a specific axis or plane. 2 atoms with markers, if oriented in a specific axis, or 3 atoms. if oriented in a specific plane, must be included in the group selected structure (It can be confirmed by :guilabel:`Marked Order:` in the upper left of :ref:`Viewport <gui_main>`)."
 
 msgid "グループを並進移動（マウス操作）"
 msgstr "Move (Direct)"
 
 msgid "グループ選択された構造を :ref:`分子表示エリア <gui_main>` 内でドラッグして移動させます。"
-msgstr "Move group-selected structure in :ref:`Molecular display area <gui_main>`."
+msgstr "Move group-selected structure in :ref:`Viewport <gui_main>`."
 
 msgid ":kbd:`Ctrl+M` でも操作できます。"
 msgstr "You can also operate with :kbd:`Ctrl + M`."
@@ -413,7 +413,7 @@ msgid "選択原子間の距離/角度を変更"
 msgstr "Change Distance/Angle Between Marked Atoms"
 
 msgid "マーカー（赤丸）が付けられた2～4原子間の（ :ref:`分子表示エリア <gui_main>` 左上の :guilabel:`Marked Order:` で確認することができます）、距離、角度または二面角を入力して変更します。"
-msgstr "Enter and change the distance, angle, or dihedral angle between 2 and 4 atoms with markers (red circles) (you can check with the :guilabel:`Marked Order:` at the top left of :ref:`Molecule display area <gui_main>`)."
+msgstr "Enter and change the distance, angle, or dihedral angle between 2 and 4 atoms with markers (red circles) (you can check with the :guilabel:`Marked Order:` at the top left of :ref:`Viewport <gui_main>`)."
 
 msgid "番号の取り直し/ソート"
 msgstr "Renumber/Sort"
@@ -503,7 +503,7 @@ msgid ":guilabel:`Create/Edit Cell` ウィンドウが開き、そこでMD計算
 msgstr "The :guilabel:`Create/Edit Cell` window opens, where you can create or edit simulation cells such as MD calculations and plane wave DFT calculations. If the cell does not exist, clicking the :guilabel:`Create` button creates a cell at a distance of` Distance` from the minimum and maximum values in each direction of the molecular structure displayed in the main window. Click the :guilabel:`Expand` button to expand the cell size in the specified direction. On the right side of the :guilabel:`Create/Edit Cell` window, you can edit the cell size value directly. Click :guilabel:`Box Vecors`, :guilabel:`Lattice Constants`, :guilabel:`LAMMPS Tilt Factors` to change the cell size notation."
 
 msgid ":menuselection:`環境設定 --> 表示 --> 表示選択 --> 格子定数` にチェックを入れると :ref:`分子表示エリア <gui_main>` に格子定数を表示することも可能です。"
-msgstr "You can also display the lattice parameters in the :ref:`Molecular display area <gui_main>` by checking :menuselection:`Preferences --> View --> Items to be drawn --> Lattice constant`."
+msgstr "You can also display the lattice parameters in the :ref:`Viewport <gui_main>` by checking :menuselection:`Preferences --> View --> Items to be drawn --> Lattice constant`."
 
 msgid "本機能でセルサイズを変更しても、原子の座標は変化しないため、セルサイズに合わせて原子の座標も相似的に変化させたい場合は :ref:`edit_change_density` を使用します。"
 msgstr "Even if you change the cell size with this function, the coordinates of the atoms do not change, so if you want to change atomic coordinates similarly to the cell size, use :ref:`edit_change_density`."

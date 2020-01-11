@@ -6,13 +6,13 @@ msgid "キーワード&座標表示エリアを表示"
 msgstr "Show Keywords & Coordinates Areas"
 
 msgid "メインウィンドウでキーワード表示エリアと座標表示エリアの表示・非表示を切り替えます。"
-msgstr "Switch show or do not show keyword display area and coordinate display area on the main window."
+msgstr "Switch show or do not show Keyword Editor and Coordinate Viewer on the main window."
 
 msgid "三面図を表示"
 msgstr "Show Multi-View"
 
 msgid "分子表示エリアを三面図表示にします。"
-msgstr "Make the molecule display area three-sided."
+msgstr "Make Viewport three views."
 
 msgid "表示をリセット"
 msgstr "Reset View"
@@ -75,25 +75,25 @@ msgid "遠近法を使用"
 msgstr "Perspective"
 
 msgid "ここにチェックが入っている場合は、分子表示エリアに遠近法が適用されます。"
-msgstr "If checked here, perspective is applied to the molecular display area."
+msgstr "If checked here, perspective is applied to Viewport."
 
 msgid "奥行き表現を使用"
 msgstr "Enable Depth Cueing"
 
 msgid "ここにチェックが入っている場合は、分子表示エリアにフォグが適用されます。手前と奥の原子の区別がつきやすくなります。フォグの強さは :ref:`preferences_top` にて設定できます。"
-msgstr "If this is checked, fog is applied to the molecule display area. This makes it easy to distinguish between atoms in front and back. Fog strength can be set with :ref:`preferences_top`."
+msgstr "If this is checked, fog is applied to Viewport. This makes it easy to distinguish between atoms in front and back. Fog strength can be set with :ref:`preferences_top`."
 
 msgid "表示項目"
 msgstr "Items"
 
 msgid "分子表示エリアに表示する項目にチェックを入れます。"
-msgstr "Check the items to be displayed in the molecular display area."
+msgstr "Check the items to be displayed in Viewport."
 
 msgid "ラベル/電荷"
 msgstr "Label/Charge"
 
 msgid "分子表示エリアにおいて、各原子の脇にラベル（注釈）と、電荷の大きさを示す球を表示します。"
-msgstr "In the molecular display area, a label (annotation) and a sphere showing the magnitude of the charge are displayed beside each atom."
+msgstr "In Viewport, a label (annotation) and a sphere showing the magnitude of the charge are displayed beside each atom."
 
 msgid "(ラベル/電荷を隠す)"
 msgstr "(Hide Label/Charge)"
@@ -186,13 +186,13 @@ msgid "Winmostar Viewer"
 msgstr "Winmostar Viewer"
 
 msgid "分子表示エリアで表示している構造を :ref:`winmos3d_top` を用いて表示します。"
-msgstr "Display the structure displayed in the molecular display area using :ref:`winmos3d_top`."
+msgstr "Display the structure displayed in Viewport using :ref:`winmos3d_top`."
 
 msgid "外部ビューア"
 msgstr "External viewer"
 
 msgid "分子表示エリアで表示している構造を各種の外部プログラムで表示します。"
-msgstr "Displays the structure displayed in the molecular display area with various external programs."
+msgstr "Displays the structure displayed in Viewport with various external programs."
 
 msgid "Jmol"
 msgstr "Jmol"
@@ -234,4 +234,4 @@ msgid "画像をコピー"
 msgstr "Copy Image"
 
 msgid "分子表示エリアの画像をクリップボードにコピーします。"
-msgstr "Copy the image of the molecule display area to the clipboard."
+msgstr "Copy the image of Viewport to the clipboard."

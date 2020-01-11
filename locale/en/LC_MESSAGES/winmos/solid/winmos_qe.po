@@ -20,7 +20,7 @@ msgid ":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 
 msgstr "Return to the default state with :guilabel:`Reset` button. Save the setting except Force Field with :guilabel:`Save` button. Load the setting saved by :guilabel:`Save` with the :guilabel:`Load` button."
 
 msgid ":ref:`キーワード表示エリア <gui_main>` に表示されているQuantum ESPRESSOのキーワードと本機能のウィンドウに設定された内容が異なる場合は、キーワード表示エリアからキーワードを読み込むか尋ねられます。"
-msgstr "If the Quantum ESPRESSO keyword displayed in the :ref:`keyword display area <gui_main>` and the contents set in this function window are different, you will be asked if you want to load the keyword from the keyword display area."
+msgstr "If the Quantum ESPRESSO keyword displayed in the :ref:`Keyword Editor <gui_main>` and the contents set in this function window are different, you will be asked if you want to load the keyword from the Keyword Editor."
 
 msgid "本機能を呼び出すときに、メインウィンドウに表示された構造がプリミティブセルに変化できる場合は、自動で :ref:`solid_convertcell` が実行されます。"
 msgstr "When invoking this function, if the structure displayed in the main window can be changed to a primitive cell, :ref:`solid_convertcell` is executed automatically."

@@ -29,7 +29,7 @@ msgid "キーワード設定ウィンドウが開いた状態で :guilabel:`Run`
 msgstr "With the configure window open, press the :guilabel:`Run` button."
 
 msgid "キーワード設定ウィンドウを :guilabel:`OK` ボタンを押して閉じます。 メインウィンドウの :ref:`キーワード表示エリア <gui_main>` にキーワードが反映されるので、キーワードを直接編集したい場合は、この段階でキーワード表示エリアを編集するか、 :ref:`file_editor` から任意のテキストエディタを用いて入力ファイルを編集します。 その後、ツールバーの :guilabel:`実行` ボタン |toolbar_run| をクリックします。"
-msgstr "Press the :guilabel:`OK` button to close the configure window. So if you want to modify the keywords directly, enter at :ref:`Keyword display area <gui_main>` or edit the input file from the :ref:`file_editor` using any text editor. Then click the :guilabel:`Run` button on the tool bar |toolbar_run|."
+msgstr "Press the :guilabel:`OK` button to close the configure window. So if you want to modify the keywords directly, enter at :ref:`Keyword Editor <gui_main>` or edit the input file from the :ref:`file_editor` using any text editor. Then click the :guilabel:`Run` button on the tool bar |toolbar_run|."
 
 msgid ":guilabel:`Run` または :guilabel:`実行` をクリックした後、入力ファイルが保存されていない場合は入力ファイルの名前を入力すると保存され、続けて :ref:`winmosjm_top` にジョブが登録されます。"
 msgstr "After clicking :guilabel:`Run`, if the input file is not saved, entering the name of the input file will be saved, then the job will be registered in :ref:`winmosjm_top`."

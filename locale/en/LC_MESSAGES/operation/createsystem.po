@@ -107,7 +107,7 @@ msgid "選択した原子に値を入力して割り当てる。"
 msgstr "Enter a value for the selected atom."
 
 msgid "電荷を入力したい原子を :ref:`分子表示エリア <gui_main>` で :ref:`グループ選択 <gui_mouse>` し、 :menuselection:`編集 --> 属性を変更 -->` :ref:`edit_property_charge` から電荷を入力する。"
-msgstr ":ref:`Group select <gui_mouse>` atoms for which you want to input a charge in the :ref:`molecule display area <gui_main>`, and then input a charge from :menuselection:`Edit --> Change Atom Property -->` :ref:`edit_property_charge`."
+msgstr ":ref:`Group select <gui_mouse>` atoms for which you want to input a charge in the :ref:`Viewport <gui_main>`, and then input a charge from :menuselection:`Edit --> Change Atom Property -->` :ref:`edit_property_charge`."
 
 msgid "ポリマーの場合は、直接分子全体のAM1/BCC電荷、RESP電荷などを計算すると時間が掛かるため、 :ref:`md_polymer_top` の方法を使う。"
 msgstr "In the case of polymers, it takes time to directly calculate the AM1/BCC or RESP charge of the whole molecule. So use :ref:`md_polymer_top`."
