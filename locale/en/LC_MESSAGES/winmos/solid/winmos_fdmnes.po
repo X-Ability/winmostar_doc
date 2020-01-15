@@ -23,20 +23,20 @@ msgstr "Return to the default state with :guilabel:`Reset` button."
 msgid "Target Atom"
 msgstr "Target Atom"
 
-msgid "XAFSスペクトルの測定対象の原子(Absorber)を指定します。 :guilabel:`Set Atom` ボタンをクリックすると、メインウィンドウでマーカーが付いた原子が設定されます。。"
-msgstr "Specify the atom (Absorber) of the XAFS spectrum measurement target. Clicking the :guilabel:`Set Atom` button will set the atom with the marker in the main window. ."
+msgid "XANESスペクトルの測定対象の原子(Absorber)を指定します。 :guilabel:`Set Atom` ボタンをクリックすると、メインウィンドウでマーカーが付いた原子が設定されます。。"
+msgstr "Specify the atom (Absorber) of the XANES spectrum measurement target. Clicking the :guilabel:`Set Atom` button will set the atom with the marker in the main window. ."
 
 msgid "Edge"
 msgstr "Edge"
 
-msgid "取得したいXAFSスペクトルの電子殻を選択します。"
-msgstr "Select the electron shell of the XAFS spectrum you want to obtain."
+msgid "取得したいXANESスペクトルの電子殻を選択します。"
+msgstr "Select the electron shell of the XANES spectrum you want to obtain."
 
 msgid "Range"
 msgstr "Range"
 
-msgid "取得したいXAFSスペクトルの範囲を指定します。"
-msgstr "Specify the range of the XAFS spectrum you want to acquire."
+msgid "取得したいXANESスペクトルの範囲を指定します。"
+msgstr "Specify the range of the XANES spectrum you want to acquire."
 
 msgid "Cluster Radius"
 msgstr "Cluster Radius"
@@ -65,8 +65,8 @@ msgstr "The local density of states (LDOS) is output into a file whose file name
 msgid "Definition for Energy"
 msgstr "Definition for Energy"
 
-msgid "XAFSスペクトルを表示する際の横軸（エネルギー）の定義を指定します。"
-msgstr "Specify the horizontal axis (energy) definition when displaying XAFS spectrum."
+msgid "XANESスペクトルを表示する際の横軸（エネルギー）の定義を指定します。"
+msgstr "Specify the horizontal axis (energy) definition when displaying XANES spectrum."
 
 msgid "実行"
 msgstr "Run"
@@ -122,8 +122,8 @@ msgstr "Open the log file with a text editor."
 msgid "結果解析"
 msgstr "Analyses"
 
-msgid "XAFSスペクトル"
-msgstr "XAFS Spectrum"
+msgid "XANESスペクトル"
+msgstr "XANES Spectrum"
 
-msgid "convファイル（ :file:`\\*_conv.txt` ）を選択し、XAFSスペクトルを表示します。"
-msgstr "Select the conv file ( :file:`\\*_conv.txt` ) and display the XAFS spectrum."
+msgid "convファイル（ :file:`\\*_conv.txt` ）を選択し、XANESスペクトルを表示します。"
+msgstr "Select the conv file ( :file:`\\*_conv.txt` ) and display the XANES spectrum."
