@@ -113,7 +113,7 @@ msgid "|fig_remote_editconnection|"
 msgstr "|fig_remote_editconnection|"
 
 msgid "TSUBAME、FOCUSなどに多段SSH接続する方法は `リモートジョブの詳細設定 <https://winmostar.com/jp/manuals/#remote-job>`_ を参照してください。"
-msgstr " "
+msgstr "Please ask us to make multi-stage SSH connection to TSUBAME, FOCUS, etc."
 
 msgid "入力後、SSH接続をテストするために、 :guilabel:`Edit Profile` ウィンドウ下の :guilabel:`Test Connection` ボタンをクリックします。"
 msgstr "After input, click the :guilabel:`Test Connection` button under the :guilabel:`Edit Profile` window to test the SSH connection."
