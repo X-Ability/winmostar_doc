@@ -112,8 +112,8 @@ msgstr "SSH Key (Set as required)"
 msgid "|fig_remote_editconnection|"
 msgstr "|fig_remote_editconnection|"
 
-msgid "TSUBAME、FOCUSなどに多段SSH接続する方法は `https://winmostar.com/jp/manual_jp.html <https://winmostar.com/jp/manual_jp.html>`_ を参照してください。"
-msgstr "Refet to `https://winmostar.com/en/manual_en.html <https://winmostar.com/en/manual_en.html>`_ for the method of multi-stage SSH connection to TSUBAME, FOCUS, etc.."
+msgid "TSUBAME、FOCUSなどに多段SSH接続する方法は `リモートジョブの詳細設定 <https://winmostar.com/jp/manuals/#remote-job>`_ を参照してください。"
+msgstr " "
 
 msgid "入力後、SSH接続をテストするために、 :guilabel:`Edit Profile` ウィンドウ下の :guilabel:`Test Connection` ボタンをクリックします。"
 msgstr "After input, click the :guilabel:`Test Connection` button under the :guilabel:`Edit Profile` window to test the SSH connection."
@@ -589,8 +589,8 @@ msgstr ":file:`UserPref\\\\winmos_profile.ini` > :file:`UserPref\\\\winmos_serve
 msgid "Windowsサーバの利用方法"
 msgstr "How to use Windows server"
 
-msgid "V9.2.2からはリモートサーバでWindows PCを使用することができます。 使用するには下記のような事前準備が必要です。"
-msgstr "From V9.2.2, you can use a Windows PC on a remote server. The following preparations are required to use it."
+msgid "リモートサーバでWindows PCを使用することができます。 使用するには下記のような事前準備が必要です。"
+msgstr "A Windows PC are available as a remote server. The following preparations are required to use it."
 
 msgid "リモートサーバにOpenSSHサーバをインストールしてクライアントからSSHで接続できるようにします。"
 msgstr "Install an OpenSSH server on the remote server so that clients can connect with SSH."

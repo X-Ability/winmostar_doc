@@ -76,7 +76,7 @@ TSUBAME3.0を利用する場合はSGEを選択する。
       
    |fig_remote_editconnection|
       
-   TSUBAME、FOCUSなどに多段SSH接続する方法は `https://winmostar.com/jp/manual_jp.html <https://winmostar.com/jp/manual_jp.html>`_ を参照してください。
+   TSUBAME、FOCUSなどに多段SSH接続する方法は `リモートジョブの詳細設定 <https://winmostar.com/jp/manuals/#remote-job>`_ を参照してください。
       
 .. _remote_procedure_testconnection:
 

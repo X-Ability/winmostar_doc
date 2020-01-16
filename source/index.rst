@@ -15,7 +15,7 @@ Winmostar(TM)を初めて使う方は `ビギナーズガイド <https://winmost
 
 ご不明点がある場合、予想通りに動かない場合は、 随時更新されている :ref:`faq_top` をご確認ください。
 
-化学反応解析や特定の物性の算出など、目的別の具体的な操作手順は、 `各種チュートリアル <https://winmostar.com/jp/manual_jp.html>`_ を参照してください。
+化学反応解析や特定の物性の算出など、目的別の具体的な操作手順は、 `各種チュートリアル <https://winmostar.com/jp/tutorials/>`_ を参照してください。
 
 .. toctree::
    :maxdepth: 1

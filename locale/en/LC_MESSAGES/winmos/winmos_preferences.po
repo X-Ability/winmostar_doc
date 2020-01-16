@@ -127,8 +127,8 @@ msgstr "Set the extension set by default when creating input files for each solv
 msgid "Gnuplotを使用してグラフを描画"
 msgstr "Use Gnuplot as default plotting tool"
 
-msgid "一部のグラフ描画機能において、チェックした場合はGnuplotを使用します。チェックしていない場合はGraceを使用します。 V9からは、GraceまたはGnuplotを用いるグラフ描画機能がWinmostarネイティブのグラフ描画機能に徐々に置き換わる予定です。 Gnuplotのファイルは、Winmostarネイティブのグラフ描画機能の :guilabel:`Export` ボタンから保存することができます。"
-msgstr "For some graph drawing functions, if you check, use Gnuplot. If not checked, use Grace. From V9, the graph drawing function using Grace or Gnuplot will gradually replace the graph drawing function of Winmostar native. The Gnuplot file can be saved from the :guilabel:`Export` button of the Winmostar native graph drawing function."
+msgid "一部のグラフ描画機能において、チェックした場合はGnuplotを使用します。チェックしていない場合はGraceを使用します。 GraceまたはGnuplotを用いるグラフ描画機能がWinmostarネイティブのグラフ描画機能に徐々に置き換わる予定です。 Gnuplotのファイルは、Winmostarネイティブのグラフ描画機能の :guilabel:`Export` ボタンから保存することができます。"
+msgstr "If you check, use Gnuplot for some graph drawing functions. Otherwise, use Grace. From V9, the graph drawing function using Grace or Gnuplot will gradually replace the graph drawing function of Winmostar native. The Gnuplot file can be saved from the :guilabel:`Export` button of the Winmostar native graph drawing function."
 
 msgid "計算を開始する前に確認を表示"
 msgstr "Confirm before starting calculation"

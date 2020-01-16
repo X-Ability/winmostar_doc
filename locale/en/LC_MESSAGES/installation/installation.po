@@ -163,8 +163,8 @@ msgstr "OpenMX installation manual for Linux (only Japanese)"
 msgid "`Linux版DCDFTBMDインストールマニュアル               <https://winmostar.com/jp/manual_jp/installation/DCDFTBMD_install_manual_jp_linux.pdf>`_"
 msgstr "DCDFTBMD installation manual for Linux (only Japanese)"
 
-msgid "インストール手順は以上です。続けて、必要に応じて `ビギナーズガイド <https://winmostar.com/jp/tutorials/V9/BeginnersGuide_V9.pdf>`_ や `各種チュートリアル <https://winmostar.com/jp/manual_jp.html>`_ を確認して下さい。"
-msgstr "Now, you are ready to run Winmostar. Please refer to `Tutorials <https://winmostar.com/en/manual_en.html>`_ if necessary"
+msgid "インストール手順は以上です。続けて、必要に応じて `ビギナーズガイド <https://winmostar.com/jp/tutorials/?pdf=BeginnersGuide_V10.pdf>`_ や `各種チュートリアル <https://winmostar.com/jp/manuals/>`_ を確認して下さい。"
+msgstr "Now, you are ready to use Winmostar. Please refer to `Tutorials <https://winmostar.com/en/manual_en.html>`_ if necessary"
 
 msgid "また、必須ではありませんが、エクスプローラ上で各ファイルの拡張子を表示する設定に変更することを推奨します。"
 msgstr "Although not required, it is recommended to change the setting to display the extension of each file on Explorer."
