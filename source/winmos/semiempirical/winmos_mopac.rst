@@ -25,6 +25,9 @@
 
    Easy Setup
       簡易設定画面を表示します。
+
+.. _semiempirical_mopac_keyword_hamiltonian:
+
    Hamiltonian
       使用するハミルトニアンを指定します。MOPACの各パージョンがサポートするハミルトニアンは以下の通りです。
    
