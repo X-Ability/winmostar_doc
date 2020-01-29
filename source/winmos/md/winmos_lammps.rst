@@ -25,6 +25,9 @@
    
    :guilabel:`Run` をクリックしたときの挙動は :ref:`md_lammps_start` を参照してください。
    
+   電荷が割り当てられていない分子がある場合は、 :ref:`md_charge_auto` が自動で立ち上がります。
+   力場が割り当てられていない場合は、 :ref:`md_lammps_forcefield` が自動で立ち上がります。
+   
    :guilabel:`Reset` ボタンでデフォルトの状態に戻ります。
    :guilabel:`Save` ボタンでForce Fieldを除く設定を保存します。
    :guilabel:`Load` ボタンで :guilabel:`Save` にて保存した設定を読み込みます。
