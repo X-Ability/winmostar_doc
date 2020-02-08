@@ -59,13 +59,18 @@ $ ./autobuild_html_jp.sh
 $ bash rst2po.sh
 とする。
 
-2) locale/en/LC_MESSAGES/*.poを翻訳する。「#, fuzzy」と表示された部分は、元文章において変更された部分で、poファイル内で目で見て確認して「#, fuzzy」の行を削除する必要がある。
+2) locale/en/LC_MESSAGES/*.poを翻訳する。「#, fuzzy」と表示された部分は、元文章において変更された部分で、poファイル内で目で見て確認して「#, fuzzy」の行を削除する必要がある。NOTTRANSLATEDの部分を新たに英訳する。
 
 3) 以下のコマンドで英語版htmlを生成する。
 $ bash po2html.sh
 
-4) 以下のコマンドで英語版pdfを生成する。途中でエラーが出るが、Enterキーを押してスキップする。
+4) 以下のコマンドで英語版pdfを生成する。
 $ bash po2pdf.sh
+
+途中でエラーが出たらpoファイルを修正する。
+全角文字は入らないようにする。
+余計な半角空白も問題になることがある。
+ピリオドも\でエスケープしないといけないこともあるので注意。
 
 - 英語自動翻訳
 https://nwpct1.hatenablog.com/entry/google-translate-sphinx-project

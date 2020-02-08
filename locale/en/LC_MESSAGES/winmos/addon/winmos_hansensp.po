@@ -1,4 +1,3 @@
-
 msgid "Hansen SP & QSPRモデル"
 msgstr "Hansen SP & QSPR model"
 
@@ -143,8 +142,8 @@ msgstr "Thermal conductivity"
 msgid "熱伝導度"
 msgstr "Thermal conductivity"
 
-msgid "計算されるHSPや各種物性は原子団寄与法により算出されています。 算出に対応している原子団（官能基）は `こちら <https://www.pirika.com/NewHP-J/JP2/FunctionalG.html>`_ に記されています。 総原子数は最大250、水素を除く原子数は120まで計算可能です。"
-msgstr "The calculated HSP and various physical properties are calculated by the group contribution method. The atomic group (functional group) corresponding to the calculation is described `here <https://www.pirika.com/NewHP-J/JP2/FunctionalG.html>`_. The total number of atoms can be calculated up to 250, and the number of atoms excluding hydrogen can be calculated up to 120."
+msgid "計算されるHSPや各種物性は原子団寄与法により算出されています。 算出に対応している原子団（官能基）は `こちら <https://www.pirika.com/NewHP-J/JP2/FunctionalG.html>`_ に記されています。 総原子数は最大250、水素を除く原子数は120まで計算可能です。 モノマー用機能とポリマー用機能の違いは、例えばポリエチレンであれば、末端をCH3にするか、CH2にするか、だけの違いとなります。 また、モデリングされた分子の結合の種類（単結合、二重結合など）は計算結果に影響を与えます。"
+msgstr "The calculated HSP and various physical properties are calculated by the group contribution method. The atomic group (functional group) corresponding to the calculation is described `here <https://www.pirika.com/NewHP-J/JP2/FunctionalG.html>`_. The total number of atoms can be calculated up to 250, and the number of atoms excluding hydrogen can be calculated up to 120. The difference between the funcition for monomer and the function for polymer is, for example, in the case of polyethylene, whether the terminal is CH3 or CH2."
 
 msgid "複数の分子構造に対し自動で連続的に処理したい場合は、コマンドラインよりバッチファイルを使用します。 コマンドラインの記法は :ref:`commandline_top` を参照してください。 コマンドラインを使用すると、元ファイルのフォルダにcsvファイルと作業フォルダが作成されます。 コマンドラインからポリマー向けの値を算出したい場合は、元ファイルにおいて隣のリピートユニットと結合する2か所の原子種をAtに変更してください。"
 msgstr "If you want to process multiple molecular structures automatically and continuously, use a batch file from the command line. For command line syntax, see :ref:`commandline_top`. When you use the command line, a csv file and a working folder are created in the original file folder. If you want to calculate the value for the polymer from the command line, change the atomic type of the two locations that bind to the adjacent repeat unit in the original file to At."

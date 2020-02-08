@@ -46,6 +46,9 @@ msgstr "CPU and RAM: According to the hardware requirements of Windows 7/8/10"
 msgid "HDD: 4 GB以上の空き容量"
 msgstr "HDD: 4 GB or more free space"
 
+msgid "一般的な事務作業、ネットサーフィンなどをする程度のパソコンでも動作します。"
+msgstr "It can be used with general office work, PC surfing, etc."
+
 msgid "推奨スペックは、Winmostar本体が比較的低いスペックのPCでも動作するため、一緒に使用するソルバーの推奨スペックに準じます。 ソルバーの推奨スペックが不明な場合は、ひとまず浮動小数点演算機能（コア数x周波数）が高いCPUのマシンを準備して下さい。 HDD、メモリは後から比較的容易に増設できるため、まずは標準的な容量で構いません。"
 msgstr "The recommended specs conform to the recommended specs of the solver used together because the Winmostar main unit operates on a relatively low-spec PC. If the recommended specifications of the solver are unknown, prepare a CPU machine with a high floating point arithmetic function (number of cores x frequency). Since HDD and memory can be expanded relatively easily later, standard capacity is acceptable."
 

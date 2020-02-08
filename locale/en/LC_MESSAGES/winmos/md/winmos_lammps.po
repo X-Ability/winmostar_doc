@@ -1,4 +1,3 @@
-
 msgid ":menuselection:`MD --> LAMMPS` メニュー"
 msgstr ":menuselection:`MD --> LAMMPS` menu"
 
@@ -109,6 +108,9 @@ msgstr "Set calculation condition of LAMMPS. To set up the calculations immediat
 
 msgid ":guilabel:`Run` をクリックしたときの挙動は :ref:`md_lammps_start` を参照してください。"
 msgstr "Behavior when clicking :guilabel:`Run` is see :ref:`md_lammps_start`."
+
+msgid "電荷が割り当てられていない分子がある場合は、 :ref:`md_charge_auto` が自動で立ち上がります。 力場が割り当てられていない場合は、 :ref:`md_lammps_forcefield` が自動で立ち上がります。"
+msgstr ":ref:`md_charge_auto` will be launched automatically if there is a molecule to which no charge is assigned. If no force field is assigned, :ref:`md_lammps_forcefield` will be launched automatically."
 
 msgid ":guilabel:`Reset` ボタンでデフォルトの状態に戻ります。 :guilabel:`Save` ボタンでForce Fieldを除く設定を保存します。 :guilabel:`Load` ボタンで :guilabel:`Save` にて保存した設定を読み込みます。"
 msgstr "Return to the default state with :guilabel:`Reset` button. Save the setting except Force Field with :guilabel:`Save` button. Load the setting saved by :guilabel:`Save` with the :guilabel:`Load` button."
@@ -609,7 +611,7 @@ msgid "dataファイル（座標とトポロジを含むファイル）を新規
 msgstr "Create a new data file (file containing coordinates and topology) and start the job."
 
 msgid ":guilabel:`Extending Simulation` にチェックがなく、 :ref:`md_lammps_forcefield` において :guilabel:`メインウィンドウのファイルに書かれたパラメータを使用` を選択した場合"
-msgstr ":guilabel:`Extending Simulation` is unchecked and :guilabel:`Use parameters written in file opened on main window"` in :ref:`md_lammps_forcefield` is selected"
+msgstr ":guilabel:`Extending Simulation` is unchecked and :guilabel:`Use parameters written in file opened on main window\"` in :ref:`md_lammps_forcefield` is selected"
 
 msgid "メインウィンドウで開かれているdataファイルを使用してジョブを開始します。"
 msgstr "Start the job using the data file opened in the main window."

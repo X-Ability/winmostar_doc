@@ -1,4 +1,3 @@
-
 msgid "MO Plotウィンドウ"
 msgstr "MO Plot window"
 
@@ -47,17 +46,17 @@ msgstr "Surface"
 msgid "VDW半径程度の距離（厳密ではありません）に描画される分子表面です。"
 msgstr "Molecular surface drawn at a distance of VDW radius (not exact)"
 
-msgid "ESP2"
-msgstr "ESP2"
+msgid "ESP(Population Charge)"
+msgstr "ESP(Population Charge)"
 
-msgid ":guilabel:`ESP2` はPopulation解析後の点電荷から算出する静電ポテンシャルの3次元分布です。 :guilabel:`ESP` よりも高速に動作します。"
-msgstr ":guilabel:`ESP2` is a three-dimensional distribution of electrostatic potential calculated from the point charge after Population analysis. It works faster than :guilabel:`ESP`."
+msgid ":guilabel:`ESP(Population Charge)` はPopulation解析後の点電荷から算出する静電ポテンシャルの3次元分布です。 :guilabel:`ESP` よりも高速に動作します。"
+msgstr ":guilabel:`ESP(Population Charge)` is a three-dimensional distribution of electrostatic potential calculated from the point charge after Population analysis. It works faster than :guilabel:`ESP`."
 
-msgid "ESP2/Surface"
-msgstr "ESP2/Surface"
+msgid "ESP(Population Charge)/Surface"
+msgstr "ESP(Population Charge)/Surface"
 
-msgid ":guilabel:`ESP2` の情報を、分子表面上で表示します。"
-msgstr "Display :guilabel:`ESP2` information on the molecular surface."
+msgid ":guilabel:`ESP(Population Charge)` の情報を、分子表面上で表示します。"
+msgstr "Display :guilabel:`ESP(Population Charge)` information on the molecular surface."
 
 msgid "MO/Surface"
 msgstr "MO/Surface"
@@ -178,3 +177,4 @@ msgstr "Draw the volume data using :ref:`winmos3d_top`."
 
 msgid ":guilabel:`Close` ボタン"
 msgstr ":guilabel:`Close` button"
+

@@ -1,4 +1,3 @@
-
 msgid "既知の不具合"
 msgstr "Known problems"
 
@@ -55,3 +54,9 @@ msgstr "When using the RISM compatible version of Quantum ESPRESSO, it may be di
 
 msgid "constant-mu計算時（lfcpopt = .True.）に、fcp_muの値が更新されたと誤判定されます。実際には値が変更されるわけではないため、そのまま使用しても問題ありません。 （2019年6月2日報告）"
 msgstr "During constant-mu calculation (lfcpopt = .True.), it is erroneously determined that the value of fcp_mu has been updated. Since the value is not actually changed, it can be used as is. (Reported on June 2, 2019)"
+
+msgid "アニメーションウィンドウからアニメーションGIFを出力する際に、フレーム数が多いとエラーがでることがある。"
+msgstr "When outputting an animated GIF from the animation window, an error may occur if the number of frames is large."
+
+msgid ":guilabel:`Export JPEG Images` を使用して連番JPEGファイルを出力し、その後各種の動画作成ソフトを利用してアニメーションのファイルを作成してください。 （2020年1月29日報告）"
+msgstr "Use :guilabel:`Export JPEG Images` to output serial JPEG files, and then create animation files using various movie creation software. (Reported on January 29, 2020)"
