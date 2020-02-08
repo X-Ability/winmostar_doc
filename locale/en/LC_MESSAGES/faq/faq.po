@@ -787,7 +787,7 @@ msgstr "Typical QE error handling is described in `official site FAQ <http://www
 msgid "Q. Quantum ESPRESSOを用いてPhonon計算を実行する際に、ph.xの出力(ph.out)に「third order derivatives not implemented with GGA」と表示され計算結果を取得できません。"
 msgstr "Q\. When executing Phonon calculation using Quantum ESPRESSO, \"third order derivatives not implemented with GGA\" is output in the ph.x output (ph.out), and the calculation result cannot be obtained."
 
-msgid "Q. GGAでない擬ポテンシャルを選択することで解消します。"
+msgid "A. GGAでない擬ポテンシャルを選択することで解消します。"
 msgstr "A\. This can be solved by selecting a pseudopotential other than GGA."
 
 msgid "Q. Quantum ESPRESSO, OpenMXのSCF計算または構造最適化計算が収束しません。"

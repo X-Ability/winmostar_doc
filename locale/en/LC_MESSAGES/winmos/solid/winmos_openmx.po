@@ -630,9 +630,3 @@ msgstr "Use `FermiSurfer <http://fermisurfer.osdn.jp/>` to display the Fermi sur
 
 
 
-
-
-
-
-
-
