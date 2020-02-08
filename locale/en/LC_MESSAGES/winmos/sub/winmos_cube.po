@@ -177,4 +177,3 @@ msgstr "Draw the volume data using :ref:`winmos3d_top`."
 
 msgid ":guilabel:`Close` ボタン"
 msgstr ":guilabel:`Close` button"
-

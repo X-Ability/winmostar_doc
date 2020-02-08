@@ -443,22 +443,22 @@ msgid "A. 様々な理由が考えられます。以下にいくつかの例を�
 msgstr "A\. There are various reasons. Here are some examples"
 
 msgid "1. TSUBAME3.0など、SSH接続の回数制限がある場合は、 `TSUBAME3.0でのSSHアクセス数制限について <https://winmostar.com/jp/manual_jp/installation/linux_server_tsubame3_shareSSH.pdf>`_ に記載の方法で、SSH接続を都度実行せずにつなぐ方法で回避することができます。"
-msgstr "1. If there is a limit on the number of SSH connections such as TSUBAME3.0, please consult us to avoid it without executing SSH connection every time."
+msgstr "1\. If there is a limit on the number of SSH connections such as TSUBAME3.0, please consult us to avoid it without executing SSH connection every time."
 
 msgid "2. サーバ側で、秘密鍵認証だけでなく、パスワード認証もアクティブにすることで回避できる場合もあります。"
-msgstr "2. In some cases, this can be avoided by activating password authentication as well as secret key authentication on the server side."
+msgstr "2\. In some cases, this can be avoided by activating password authentication as well as secret key authentication on the server side."
 
 msgid "3. ログインサーバの実体が複数あり、バックグラウンドで自動選択される場合は、特定のログインサーバのみを利用するか、全てのサーバがcache登録されるまで接続しておくことで回避できる場合もあります。"
-msgstr "3. If there are multiple login server entities and they are automatically selected in the background, you may be able to avoid this by using only a specific login server or connecting until all servers are registered in the cache ."
+msgstr "3\. If there are multiple login server entities and they are automatically selected in the background, you may be able to avoid this by using only a specific login server or connecting until all servers are registered in the cache ."
 
 msgid "MOPAC, CNDO/S, GAMESS, NWChem, Gaussianに関して"
 msgstr "MOPAC, CNDO/S, GAMESS, NWChem, Gaussian"
 
 msgid "Q. MOPACで計算できる最大原子数はいくつですか？"
-msgstr "How many atoms can be calculated with MOPAC?"
+msgstr "Q\. How many atoms can be calculated with MOPAC?"
 
 msgid "A. 重原子（水素以外）70、軽原子（水素）90です。"
-msgstr "70 heavy atoms (other than hydrogen) and 90 light atoms (hydrogen)."
+msgstr "A\. 70 heavy atoms (other than hydrogen) and 90 light atoms (hydrogen)."
 
 msgid "`マニュアルページ <https://winmostar.com/jp/manuals/>`_ から大分子対応版MOPAC6の実行バイナリ(最大420原子)をダウンロードして使用することもできます。"
 msgstr "You can also download the executable binary of MOPAC6 for large molecules (up to 420 atoms) from the `here <https://winmostar.com/jp/mop6wxxx.zip>`."
@@ -647,10 +647,10 @@ msgid "解決方法としては、"
 msgstr "The solutions are"
 
 msgid "1. 6-31G*基底関数を使う"
-msgstr "1. Use 6-31G* basis set"
+msgstr "1\. Use 6-31G* basis set"
 
 msgid "2. 6-31+G*を使うのであれば、FireflyではなくGAMESSで計算する"
-msgstr "2. If you use 6-31+G*, use GAMESS instead of Firefly"
+msgstr "2\. If you use 6-31+G*, use GAMESS instead of Firefly"
 
 msgid "が挙げられます。"
 msgstr "."
