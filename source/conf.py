@@ -68,7 +68,15 @@ language = 'ja'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = []
+exclude_patterns = [
+  'common.rst', 
+  'cygwinwm_required.rst', 
+  'winmos/winmos_selection.rst', 
+  'winmos/winmos_workingdir.rst', 
+  'winmos/md/winmos_gromacs_forcefield.rst', 
+  'winmos/md/winmos_gromacs_analysis_common1.rst', 
+  'winmos/solid/winmos_crystal_common.rst']
+
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
