@@ -594,39 +594,3 @@ msgstr "Specify the working directory ( :file:`dia_mx_data\\\\`) and display the
 
 msgid "フェルミ面の表示には `FermiSurfer <http://fermisurfer.osdn.jp/>`_ を使用します。 :guilabel:`# of K Points` にbands計算時のk点分割数を指定し、 :guilabel:`Calc` ボタンを押すとフェルミ面が表示されます。"
 msgstr "Use `FermiSurfer <http://fermisurfer.osdn.jp/>` to display the Fermi surface. In :guilabel:`# of K Points`, specify the number of k-point divisions when calculating bands, and press the :guilabel:`Calc` button to display the Fermi surface."
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

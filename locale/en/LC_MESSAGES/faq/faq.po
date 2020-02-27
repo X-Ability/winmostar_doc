@@ -97,6 +97,12 @@ msgstr "Are there any precautions when asking a question?"
 msgid "A. 計算が上手く流れない等の質問の場合、原則として状況を再現するインプットやアウトプットファイルをお送り下さい。"
 msgstr "If you have a question that the calculation does not work properly, please send us an input or output file that reproduces the situation in principle."
 
+msgid "Q. 「Winmostar」の呼び方は何ですか？"
+msgstr "How to pronounce Winmostar."
+
+msgid "A. 「ウインモスター」です。Wikipedia等では誤情報が掲載されることがありますが、こちらが正式な呼び方です。"
+msgstr "win·mo·str"
+
 msgid "ソフトウェア動作全般"
 msgstr "Software operations"
 
