@@ -29,6 +29,7 @@ Winmostar(TM)を初めて使う方は `ビギナーズガイド <https://winmost
    winmos/winmos_mainmenu
    winmos/winmos_remote
    winmos/winmos_addon
+   cooperation/cooperation
    advanced/advanced
    knownissues/knownissues
    faq/faq
