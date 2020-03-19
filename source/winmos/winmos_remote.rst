@@ -12,7 +12,7 @@
 対応するジョブスケジューラ
 -------------------------------
 
-Winmostarが対応するジョブスケジューラは以下の通りです。カスタマイズサービス `Winmostar for you <https://x-ability.co.jp/wm4u.pdf>`_ においてご希望のジョブスケジューラに追加対応させることも可能です。
+Winmostarが対応するジョブスケジューラは以下の通りです。 `有償サポートにおけるカスタマイズ <https://winmostar.com/jp/paid_supports/#support7>`_ においてご希望のジョブスケジューラに追加対応させることも可能です。
 
    - TORQUE (PBS)
    - SGE, UGE

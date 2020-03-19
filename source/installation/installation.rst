@@ -78,7 +78,7 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
 5. WinmostarをインストールしたWindows PC（ローカルマシン）上で使用するソルバを、以下のリンク先の手順でインストールします。
 
    - `Windows版GAMESSインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/GAMESS_install_manual_jp_win.pdf>`_
-   - `Windows版NWChemインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/nwchem4wm_jp.html>`_
+   - `Windows版NWChemインストールマニュアル           <https://winmostar.com/jp/nwchem4wm_jp.html>`_
    - `Windows版LAMMPSインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/LAMMPS_install_manual_jp_win.pdf>`_
    - `Windows版NAMDインストールマニュアル             <https://winmostar.com/jp/manual_jp/installation/NAMD_install_manual_jp_win.pdf>`_
    - `Windows版Quantum ESPRESSOインストールマニュアル <https://winmostar.com/jp/manual_jp/installation/QE_install_manual_jp_win.pdf>`_
