@@ -78,7 +78,7 @@
          目標圧力を指定します。
       Pdamp
          圧力制御の時定数パラメータを指定します。
-   Advance
+   Advanced
       Boundary X Y Z
          周期境界条件を指定します。 ``p`` （periodic）, ``f`` （non-periodic and fixed）, ``s`` （non-periodic and shrink-wrapped）,  ``m`` （non-periodic and shrink-wrapped with a minimum value）のいずれかを選択します。
       Energy Tolerance

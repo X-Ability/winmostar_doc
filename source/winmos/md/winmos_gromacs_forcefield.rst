@@ -24,14 +24,14 @@
    (水分子)
       水分子の力場を指定します。 :ref:`md_solvate_buildcell` で選択した水モデルを指定する必要があります。内部的にはCygwinにインストールされたGromacsのトポロジのライブラリからパラメータを取得します。
    タンパク質向けに[position_restraints]を追加
-      タンパク質が存在する場合は :guilabel:`Advance` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。タンパク質が存在しない場合は無視されます。
+      タンパク質が存在する場合は :guilabel:`Advanced` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。タンパク質が存在しない場合は無視されます。
       
    選択原子向けに[position_restraints]を追加
-      ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。
+      ユーザが指定する分子に対し、 :guilabel:`Advanced` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。
       例えば固液界面系に於いて固相を固定する場合などに使用します。
       
    選択原子向けに[distance/angle/dihedral_restraints]を追加
-      ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` で距離・角度・二面角を拘束するための情報をトポロジファイルに書き込みます。
+      ユーザが指定する分子に対し、 :guilabel:`Advanced` タブにおける :guilabel:`-POSRES` で距離・角度・二面角を拘束するための情報をトポロジファイルに書き込みます。
       
 Dump Now
    現在の設定に基づき、力場が割り当てられたファイルを生成します。

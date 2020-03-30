@@ -80,7 +80,7 @@
             圧力制御の時定数を指定します。
          compressibility
             系全体の圧縮率を指定します。
-   Advance
+   Advanced
       Boundary Condition
          pbc
             周期境界条件を選択します。
@@ -406,11 +406,18 @@ Gromacs実行
 
 .. _md_gromacs_permittivity:
 
-比誘電率
+比誘電率/双極子モーメント
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-   Gromacsが出力したtrr, tpr, ndxファイルを選択し、比誘電率を表示します。
+   Gromacsが出力したtrr, tpr, ndxファイルを選択し、比誘電率または双極子モーメントの分布・ヒストグラムを表示します。
    内部的には :command:`gmx dipoles` コマンドが実行されます。
+
+   Dielectric constant
+      比誘電率をプロットします。グラフ中の最終時刻におけるepsilonの値が、その計算から得られた比誘電率となります。グラフの下にはその値が出力されます。
+   Histogram of total dipole moment
+      Target Groupに所属する分子の双極子モーメントの分布をプロットします。
+   Autocorrelation functino of dipole moment
+      双極子モーメントの自己相関関数をプロットします。双極子モーメントの定義はDefinitionで選択します。
 
    .. include:: winmos_gromacs_analysis_common1.rst
 
@@ -465,6 +472,21 @@ Hildebrand溶解度パラメータ
 
    Gromacsが出力したedr, groファイルから、χパラメータ・DPD aijパラメータを算出します。2つの成分の気相と液相それぞれの計算結果が必要です。
    内部的には :ref:`md_gromacs_hildebrand` で計算した値を用います。
+
+距離/角度/二面角分布
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   Gromacsが出力したtrr, tpr, ndxファイルを選択し、選択グループ間の距離、角度、または二面角の分布を表示します。
+   内部的には :command:`gmx distance` コマンド（距離）または :command:`gmx angle` コマンド（角度、二面角）が実行されます。
+
+   Type
+      プロットする値の種類（bond, angle, dihedral, improperまたはryckaert-bellmemans）を選択します。
+   Calculate for marked atoms
+      メインウィンドウでマーカーが付いた原子間で距離、角度、または二面角を計算します。
+   Use target group
+      Target Groupで選択したndxファイルを使用して距離、角度、または二面角を計算します。
+
+   .. include:: winmos_gromacs_analysis_common1.rst
 
 RMSD
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

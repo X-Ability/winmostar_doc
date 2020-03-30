@@ -81,7 +81,7 @@
          Loadボタンでファイルを指定して読み込めます。
          Winmostarで読み込めるフォーマットをXYZ形式で読み込みます。
          また、Editボタンで編集することができます。
-   Advance タブ
+   Advanced タブ
       Memory
          メモリ使用量を指定します。
       Set tolguess

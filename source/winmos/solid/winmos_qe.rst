@@ -75,7 +75,7 @@
          力を計算します。
       tstress
          圧力テンソルを計算します。
-   Advanceタブ
+   Advancedタブ
       conv_thr
          SCF計算時のエネルギーの許容誤差を指定します。
       etot_conv_thr

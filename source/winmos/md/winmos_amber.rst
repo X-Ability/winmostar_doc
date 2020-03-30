@@ -59,7 +59,7 @@ sanderキーワード設定
          参照温度を指定します。
       nstlim
          MDステップの数を指定します。
-   Advance
+   Advanced
       maxcyc
          最大サイクル数を指定します。
       ncyc

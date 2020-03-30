@@ -44,7 +44,7 @@ DCDFTBMD
          計算に使用するDCDFTBMDのバイナリを指定します。
          MPIを使用するときは :file:`dftb_mpiomp_mpich.00.x` などのMPI対応版のバイナリを指定する必要があります。
          ここで指定するバイナリへ、リモートサーバ上でPATHを通しておく必要があります。
-   Advance
+   Advanced
       Method
          SCCまたはNCCを選択します。
          

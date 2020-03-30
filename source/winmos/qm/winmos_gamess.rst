@@ -80,7 +80,7 @@
             s-diffuse関数を加えるかどうかの指定
          Others
             その他のキーワードを記入します。
-   Advanceタブ
+   Advancedタブ
       $SYSTEM
          TIMLIM
             計算の制限時間 （デフォルト 600分） 
