@@ -7,7 +7,7 @@ msgstr "With the remote job submission function, it is possible to execute a sol
 msgid "対応するジョブスケジューラ"
 msgstr "Supported job schedulers"
 
-msgid "Winmostarが対応するジョブスケジューラは以下の通りです。カスタマイズサービス `Winmostar for you <https://x-ability.co.jp/wm4u.pdf>`_ においてご希望のジョブスケジューラに追加対応させることも可能です。"
+msgid "Winmostarが対応するジョブスケジューラは以下の通りです。 `有償サポートにおけるカスタマイズ <https://winmostar.com/jp/paid_supports/#support7>`_ においてご希望のジョブスケジューラに追加対応させることも可能です。"
 msgstr "Winmostar supports following job schedulers. It is also possible to add additional support to your desired job scheduler with customize service `Winmostar for you <https://x-ability.co.jp/wm4u.pdf>`_ ."
 
 msgid "TORQUE (PBS)"

@@ -52,20 +52,20 @@ msgstr "Specify the force field of the water molecule. You must specify the sele
 msgid "タンパク質向けに[position_restraints]を追加"
 msgstr "Add [position_restraints] for protein"
 
-msgid "タンパク質が存在する場合は :guilabel:`Advance` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。タンパク質が存在しない場合は無視されます。"
-msgstr "If a protein exists, write information (``[position_restraints]`` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advance` tab. Ignored if protein is absent."
+msgid "タンパク質が存在する場合は :guilabel:`Advanced` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。タンパク質が存在しない場合は無視されます。"
+msgstr "If a protein exists, write information (``[position_restraints]`` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advanced` tab. Ignored if protein is absent."
 
 msgid "選択原子向けに[position_restraints]を追加"
 msgstr "Add [position_restraints] for protein"
 
-msgid "ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。 例えば固液界面系に於いて固相を固定する場合などに使用します。"
-msgstr "For the molecule specified by the user, write information (``[position_restraints]`` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advance` tab. For example, when fixing solid phase in solid-liquid interface system."
+msgid "ユーザが指定する分子に対し、 :guilabel:`Advanced` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。 例えば固液界面系に於いて固相を固定する場合などに使用します。"
+msgstr "For the molecule specified by the user, write information (``[position_restraints]`` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advanced` tab. For example, when fixing solid phase in solid-liquid interface system."
 
 msgid "選択原子向けに[distance/angle/dihedral_restraints]を追加"
 msgstr "Add [distance/angle/dihedral_restraints] for selected atoms"
 
-msgid "ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` で距離・角度・二面角を拘束するための情報をトポロジファイルに書き込みます。"
-msgstr "For the molecule specified by the user, write information to constrain distance, angle, dihedral angle to topology file by :guilabel:`-POSRES` on the :guilabel:`Advance` tab."
+msgid "ユーザが指定する分子に対し、 :guilabel:`Advanced` タブにおける :guilabel:`-POSRES` で距離・角度・二面角を拘束するための情報をトポロジファイルに書き込みます。"
+msgstr "For the molecule specified by the user, write information to constrain distance, angle, dihedral angle to topology file by :guilabel:`-POSRES` on the :guilabel:`Advanced` tab."
 
 msgid "Dump Now"
 msgstr "Dump Now"
@@ -253,8 +253,8 @@ msgstr "compressibility"
 msgid "系全体の圧縮率を指定します。"
 msgstr "Specify the compression ratio of the whole system."
 
-msgid "Advance"
-msgstr "Advance"
+msgid "Advanced"
+msgstr "Advanced"
 
 msgid "Boundary Condition"
 msgstr "Boundary Condition"
@@ -967,11 +967,29 @@ msgstr "Vibration Spectrum"
 msgid "振動スペクトルを出力します。"
 msgstr "Output vibration spectrum."
 
-msgid "比誘電率"
+msgid "比誘電率/双極子モーメント"
 msgstr "Static Dielectric Constant"
 
-msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、比誘電率を表示します。 内部的には :command:`gmx dipoles` コマンドが実行されます。"
-msgstr "Select trr, tpr, ndx file output by Gromacs and display relative dielectric constant. Internally the :command:`gmx dipoles` command is executed."
+msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、比誘電率または双極子モーメントの分布・ヒストグラムを表示します。 内部的には :command:`gmx dipoles` コマンドが実行されます。"
+msgstr "Select trr, tpr, ndx file output by Gromacs and display distribution and histogram of relative  dielectric constant or dipole moments. Internally the :command:`gmx dipoles` command is executed."
+
+msgid "Dielectric constant"
+msgstr "Dielectric constant"
+
+msgid "比誘電率をプロットします。グラフ中の最終時刻におけるepsilonの値が、その計算から得られた比誘電率となります。グラフの下にはその値が出力されます。"
+msgstr "Plot the relative dielectric constant. The value of epsilon at the last time in the graph is the relative dielectric constant obtained from that calculation. The value is output below the graph."
+
+msgid "Histogram of total dipole moment"
+msgstr "Histogram of total dipole momen"
+
+msgid "Target Groupに所属する分子の双極子モーメントの分布をプロットします。"
+msgstr "Plot the distribution of dipole moments for molecules belonging to the Target Group."
+
+msgid "Autocorrelation functino of dipole moment"
+msgstr "Autocorrelation functino of dipole moment"
+
+msgid "双極子モーメントの自己相関関数をプロットします。双極子モーメントの定義はDefinitionで選択します。"
+msgstr "Plot the autocorrelation function of the dipole moments. The definition of a dipole moment is selected in Definition."
 
 msgid "粘度"
 msgstr "Share Viscosity"
@@ -1026,6 +1044,30 @@ msgstr "Chi/DPD parameter"
 
 msgid "Gromacsが出力したedr, groファイルから、χパラメータ・DPD aijパラメータを算出します。2つの成分の気相と液相それぞれの計算結果が必要です。 内部的には :ref:`md_gromacs_hildebrand` で計算した値を用います。"
 msgstr "Calculate the χ parameter · DPD aij parameter from the edr, gro file output by Gromacs. It is necessary to calculate the gas phase and liquid phase of each of the two components. Internally use the value calculated by :ref:`md_gromacs_hildebrand`."
+
+msgid "距離/角度/二面角分布"
+msgstr "Bond/Angle/Dihedral distribution"
+
+msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、選択グループ間の距離、角度、または二面角の分布を表示します。 内部的には :command:`gmx distance` コマンド（距離）または :command:`gmx angle` コマンド（角度、二面角）が実行されます。"
+msgstr "Select trr, tpr, ndx files output by Gromacs and display the density distribution. Internally the: command: `gmx density` command is executed."
+
+msgid "Type"
+msgstr "vdwtype"
+
+msgid "プロットする値の種類（bond, angle, dihedral, improperまたはryckaert-bellmemans）を選択します。"
+msgstr "Select the type of value to plot (bond, angle, dihedral, improper or ryckaert-bellmemans)."
+
+msgid "Calculate for marked atoms"
+msgstr "Calculate for marked atoms"
+
+msgid "メインウィンドウでマーカーが付いた原子間で距離、角度、または二面角を計算します。"
+msgstr "Calculates the distance, angle, or dihedral angle between atoms marked with a marker in the main window."
+
+msgid "Use target group"
+msgstr "Target group"
+
+msgid "Target Groupで選択したndxファイルを使用して距離、角度、または二面角を計算します。"
+msgstr "Calculate the distance, angle, or dihedral angle using the NDX file selected in the Target Group."
 
 msgid "RMSD"
 msgstr "Root Mean Square Deviation"

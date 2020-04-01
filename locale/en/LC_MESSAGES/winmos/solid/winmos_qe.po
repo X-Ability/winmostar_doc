@@ -154,8 +154,8 @@ msgstr "tstress"
 msgid "圧力テンソルを計算します。"
 msgstr "Calculate the pressure tensor."
 
-msgid "Advanceタブ"
-msgstr "Advance tab"
+msgid "Advancedタブ"
+msgstr "Advanced tab"
 
 msgid "conv_thr"
 msgstr "conv_thr"

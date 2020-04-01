@@ -52,20 +52,20 @@ msgstr "Specify the force field of the water molecule. You must specify the sele
 msgid "タンパク質向けに[position_restraints]を追加"
 msgstr "Add [position_restraints] for protein"
 
-msgid "タンパク質が存在する場合は :guilabel:`Advance` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。タンパク質が存在しない場合は無視されます。"
-msgstr "If a protein exists, write information (``[position_restraints]`` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advance` tab. Ignored when protein is absent."
+msgid "タンパク質が存在する場合は :guilabel:`Advanced` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。タンパク質が存在しない場合は無視されます。"
+msgstr "If a protein exists, write information (``[position_restraints]`` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advanced` tab. Ignored when protein is absent."
 
 msgid "選択原子向けに[position_restraints]を追加"
 msgstr "Add [position_restraints] for selected atoms"
 
-msgid "ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。 例えば固液界面系に於いて固相を固定する場合などに使用します。"
-msgstr "For the molecule specified by the user, write information (``[position_restraints]`` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advance` tab. For example, when fixing solid phase in solid-liquid interface system."
+msgid "ユーザが指定する分子に対し、 :guilabel:`Advanced` タブにおける :guilabel:`-POSRES` で位置を拘束するための情報（ ``[position_restraints]`` セクション）をトポロジファイルに書き込みます。 例えば固液界面系に於いて固相を固定する場合などに使用します。"
+msgstr "For the molecule specified by the user, write information (``[position_restraints]`` section) to constrain the position in the topology file with :guilabel:`-POSRES` on the :guilabel:`Advanced` tab. For example, when fixing solid phase in solid-liquid interface system."
 
 msgid "選択原子向けに[distance/angle/dihedral_restraints]を追加"
 msgstr "Add [distance/angle/dihedral_restraints] for selected atoms"
 
-msgid "ユーザが指定する分子に対し、 :guilabel:`Advance` タブにおける :guilabel:`-POSRES` で距離・角度・二面角を拘束するための情報をトポロジファイルに書き込みます。"
-msgstr "For the molecule specified by the user, write information to constrain distance, angle, dihedral angle to topology file by :guilabel:`-POSRES` on the :guilabel:`Advance` tab."
+msgid "ユーザが指定する分子に対し、 :guilabel:`Advanced` タブにおける :guilabel:`-POSRES` で距離・角度・二面角を拘束するための情報をトポロジファイルに書き込みます。"
+msgstr "For the molecule specified by the user, write information to constrain distance, angle, dihedral angle to topology file by :guilabel:`-POSRES` on the :guilabel:`Advanced` tab."
 
 msgid "Dump Now"
 msgstr "Dump Now"
@@ -244,8 +244,8 @@ msgstr "Pdamp"
 msgid "圧力制御の時定数パラメータを指定します。"
 msgstr "Specify the time constant parameter of pressure control."
 
-msgid "Advance"
-msgstr "Advance"
+msgid "Advanced"
+msgstr "Advanced"
 
 msgid "Boundary X Y Z"
 msgstr "Boundary X Y Z"

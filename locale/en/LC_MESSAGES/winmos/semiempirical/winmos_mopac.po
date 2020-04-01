@@ -428,11 +428,11 @@ msgstr "Select arc file and display charge, dipole."
 msgid ":menuselection:`表示 --> ラベル/電荷 --> Mulliken電荷` を選択すると電荷が表示されます。"
 msgstr "Show charges when you select :menuselection:`View --> Label/Charges --> Show Mulliken Charge`."
 
-msgid "振動スペクトル (out)"
+msgid "IRスペクトル (out)"
 msgstr "IR (out)"
 
-msgid "outファイルを選択し、振動スペクトル（IRスペクトル）を表示します。"
-msgstr "Select the out file and display the vibration spectrum (IR spectrum)."
+msgid "outファイルを選択し、IRスペクトルを表示します。"
+msgstr "Select the out file and display the IR spectrum."
 
 msgid ":ref:`キーワード <semiempirical_mopac_keyword>` で振動計算が設定されている必要があります。 サブウィンドウの操作方法は :ref:`ir_top` を参照してください。"
 msgstr "Vibration calculation must be set with :ref:`keyword <semiempirical_mopac_keyword>`. Refer to :ref:`ir_top` for how to operate the subwindow."

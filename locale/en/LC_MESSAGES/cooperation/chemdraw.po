@@ -1,0 +1,29 @@
+msgid "ChemDrawとの連携"
+msgstr "Integration with ChemDraw"
+
+msgid "ChemDrawでモデリングされた分子をWinmostarに読み込むことができます。"
+msgstr "Molecules modeled in ChemDraw can be loaded into Winmostar."
+
+msgid "SMILES形式で読み込む場合"
+msgstr "When reading in SMILES format"
+
+msgid "操作手順は以下の通りです。"
+msgstr "The operating procedure is as follows."
+
+msgid "ChemDrawで分子をモデリングした後、 :menuselection:`Edit --> Copy As --> SMILES` をクリックします。"
+msgstr "After modeling the molecule in ChemDraw, click :menuselection:`Edit --> Copy As --> SMILES`."
+
+msgid "Winmostarで :menuselection:`ファイル --> インポート --> SMILES` をクリックし、 :guilabel:`Enter SMILES` の欄に先ほどコピーした文字列をペーストします。"
+msgstr "In Winmostar, click on :menuselection:`file --> import --> SMILES` and paste the string into the :guilabel:`Enter SMILES` field."
+
+msgid ":guilabel:`Import` ボタンをクリックすると、メインウィンドウに分子がモデリングされます。"
+msgstr "Click the :guilabel:`Import` button to model the molecule in the main window."
+
+msgid "mol形式で読み込む場合"
+msgstr "When reading in mol format"
+
+msgid "ChemDrawで分子をモデリングした後、 :menuselection:`File --> Save As` をクリックし、MDL MolFile形式を選択しファイルを保存します。"
+msgstr "After modeling the molecule in ChemDraw, click on :menuselection:`File --> Save As` and select the MDL MolFile format to save the file."
+
+msgid "Winmostarで先ほど保存したファイルを開きます。ChemDrawで出力したmolファイルには水素が含まれず、結合長も適切でないため、Winmostar上で自動的に結合長の調整と水素の付加が行われます。"
+msgstr "Winmostar will automatically adjust the bond length and add hydrogen to the mol file because the mol file in ChemDraw does not contain hydrogen and the bond length is not appropriate."

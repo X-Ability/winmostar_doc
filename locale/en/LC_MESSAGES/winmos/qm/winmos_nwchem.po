@@ -179,8 +179,8 @@ msgstr "EndGeom"
 msgid "最後のビーズの座標を指定します。 Loadボタンでファイルを指定して読み込めます。 Winmostarで読み込めるフォーマットをXYZ形式で読み込みます。 また、Editボタンで編集することができます。"
 msgstr "Specify the coordinates of the last bead. You can specify a file by loading it with the Load button. Load format that can be read with Winmostar in XYZ format. You can also edit with the Edit button."
 
-msgid "Advance タブ"
-msgstr "Advance tab"
+msgid "Advanced タブ"
+msgstr "Advanced tab"
 
 msgid "Memory"
 msgstr "Memory"

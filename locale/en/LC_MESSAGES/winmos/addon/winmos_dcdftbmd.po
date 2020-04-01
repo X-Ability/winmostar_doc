@@ -79,8 +79,8 @@ msgstr "Executable"
 msgid "計算に使用するDCDFTBMDのバイナリを指定します。 MPIを使用するときは :file:`dftb_mpiomp_mpich.00.x` などのMPI対応版のバイナリを指定する必要があります。 ここで指定するバイナリへ、リモートサーバ上でPATHを通しておく必要があります。"
 msgstr "Specifies the binary of DCDFTBMD used for the calculation. When using MPI, it is necessary to specify an MPI compatible binary such as :file:`dftb_mpiomp_mpich.00.x`. The binary specified here must be passed through PATH on the remote server."
 
-msgid "Advance"
-msgstr "Advance"
+msgid "Advanced"
+msgstr "Advanced"
 
 msgid "Method"
 msgstr "Method"

@@ -190,8 +190,8 @@ msgstr "DIFFS"
 msgid "s-diffuse関数を加えるかどうかの指定"
 msgstr "Specify whether to add s-diffuse function"
 
-msgid "Advanceタブ"
-msgstr "Advance tab"
+msgid "Advancedタブ"
+msgstr "Advanced tab"
 
 msgid "$SYSTEM"
 msgstr "$SYSTEM"

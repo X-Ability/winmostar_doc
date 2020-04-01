@@ -103,7 +103,7 @@ msgstr "Install the solver to be used on the Windows PC (local machine) on which
 msgid "`Windows版GAMESSインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/GAMESS_install_manual_jp_win.pdf>`_"
 msgstr "`GAMESS installation manual for Windows <https://winmostar.com/en/manual_en/installation/GAMESS_install_manual_en_win.pdf>`_"
 
-msgid "`Windows版NWChemインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/nwchem4wm_jp.html>`_"
+msgid "`Windows版NWChemインストールマニュアル           <https://winmostar.com/jp/nwchem4wm_jp.html>`_"
 msgstr "`NWChem installation manual for Windows <https://winmostar.com/en/nwchem4wm_en.html>`_"
 
 msgid "`Windows版LAMMPSインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/LAMMPS_install_manual_jp_win.pdf>`_"

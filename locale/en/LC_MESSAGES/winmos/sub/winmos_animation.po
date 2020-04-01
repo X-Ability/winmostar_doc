@@ -92,6 +92,18 @@ msgstr "Skip Frames"
 msgid "トラジェクトリを一定間隔で間引きます。長大なトラジェクトリのサイズを小さくして解析の処理速度を軽くしたい場合などに便利な機能です。"
 msgstr "Thin trajectories are thinned at regular intervals. This is useful when you want to reduce the size of long trajectories and reduce the processing speed of the analysis."
 
+msgid "Translate All Atoms"
+msgstr "Translate All Atoms"
+
+msgid "全てのフレームの全ての原子を並進移動させます。計算済みのデータを可視化する際、原子位置を微調整したい時に便利な機能です。"
+msgstr "Translate every atom in every frame. This function is useful when you want to fine-tune the position of an atom when visualizing calculated data."
+
+msgid "Set Origin as Lower Bound Edge of Cell"
+msgstr "Set Origin as Lower Bound Edge of Cell"
+
+msgid "各フレームのシミュレーションセルの各方向の始点を、原点に設定します。 :guilabel:`Translate All Atoms` 機能と組み合わせて使用すると便利な機能です。"
+msgstr "Set the starting point in each direction of the simulation cell for each frame to the origin. This feature is useful in combination with the :guilabel:`Translate All Atoms` feature."
+
 msgid "Distance/Angle Change"
 msgstr "Distance/Angle Change"
 

@@ -119,8 +119,8 @@ msgstr "I NSTL"
 msgid "MDステップの数を指定します。"
 msgstr "Specify the number of MD steps."
 
-msgid "Advance"
-msgstr "Advance"
+msgid "Advanced"
+msgstr "Advanced"
 
 msgid "maxcyc"
 msgstr "maxcyc"

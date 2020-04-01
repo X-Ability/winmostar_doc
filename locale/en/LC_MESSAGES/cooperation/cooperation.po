@@ -1,0 +1,2 @@
+msgid "他のソフトウェアとの連携"
+msgstr "Integration with other software"

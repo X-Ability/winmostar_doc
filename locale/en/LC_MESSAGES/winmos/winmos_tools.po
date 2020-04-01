@@ -26,8 +26,8 @@ msgstr "Delete the registation of the parts selected by :guilabel:`select a frag
 msgid "配座探索(Balloon)"
 msgstr "Conformation Search (Balloon)"
 
-msgid "Balloonを用いて配座探索を行います。 :guilabel:`Search` ボタンをクリックすると処理が開始されます。"
-msgstr "We will search for conformation using Balloon. Click :guilabel:`Search` button to start processing."
+msgid "Balloonを用いて配座探索を行います。 :guilabel:`Search` ボタンをクリックすると処理が開始されます。 :file:`*_balloon_tmp` という作業フォルダに中間ファイルが生成されます。"
+msgstr "We will search for conformation using Balloon. Click :guilabel:`Search` button to start processing.An intermediate file is created in the working folder :file:`*_balloon_tmp`."
 
 msgid "点群解析"
 msgstr "Point Group Analysis"

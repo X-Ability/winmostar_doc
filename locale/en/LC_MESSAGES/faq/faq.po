@@ -31,11 +31,11 @@ msgstr "Pay with credit card at PayPal."
 msgid "Q. 当社から発行される書類の種類を教えてください。"
 msgstr "Q\. Please tell me the types of documents issued by the company."
 
-msgid "法人の場合は、請求書・納品書・見積書を発行いたします。"
-msgstr "In the case of a corporation, a invoice, a delivery note and a quotation will be issued."
+msgid "請求書・納品書・見積書を発行いたします。"
+msgstr "An invoice, a delivery note and a quotation will be issued."
 
-msgid "個人の場合は、PayPal にて領収書を取得してください。"
-msgstr "In the case of individuals, please obtain a receipt with PayPal."
+msgid "ただしPayPalの場合のみ、PayPalから領収書を取得してください。"
+msgstr "In the case of PayPal, please obtain a receipt from PayPal."
 
 msgid "その他の書類を発行希望の際はご相談ください。ただし、内容によりお断りする場合もありますのでご了承ください。"
 msgstr "Please consult us when you wish other documents. However, please understand that it may be refused depending on the matter."
@@ -43,20 +43,11 @@ msgstr "Please consult us when you wish other documents. However, please underst
 msgid "Q. 代理店などエンドユーザ以外が注文する方法を教えてください。"
 msgstr "Q\. How do I place an order other than an end user, such as an agency?"
 
-msgid "代理店等、エンドユーザ以外の方が見積を依頼する場合はコメント欄(自由記入欄)に以下の情報をご記入ください。"
-msgstr "Please fill out the following information in the free entry column when a person other than the end user, such as an agency, requests an quotation."
+msgid "指定代理店をご利用ください。詳細は `価格・購入 <https://winmostar.com/jp/purchase_jp.html>`_ をご確認ください。"
+msgstr "Please use a designated agent. For more information, please visit `Pricing <https://winmostar.com/en/purchase_en.html>`_."
 
-msgid "・エンドユーザの所属"
-msgstr "· End user&#39;s affiliation "
-
-msgid "・エンドユーザの氏名"
-msgstr "· End user&#39;s name"
-
-msgid "なお、エンドユーザに直接納品いたしますので、ご注文の際はエンドユーザの送付先情報をお知らせいただきます。"
-msgstr "Since we will send it directly to the end user, when ordering we will inform you of the end user&#39;s shipping address information."
-
-msgid "ライセンスに関して"
-msgstr "License"
+msgid "各ライセンスの利用条件等に関して"
+msgstr "Terms and conditions of use of each license"
 
 msgid "Q. 講義での使用方法を教えてください。講義用ライセンスの使用条件を教えてください。"
 msgstr "Q\. Please tell me how to use it in the lecture. Please tell me the terms of use of lecture license."
@@ -79,6 +70,21 @@ msgstr "· I am pleased to share the lesson materials later."
 msgid "講義用ライセンスは `こちら <https://winmostar.com/jp/support_jp.php>`_ から申請することができます。"
 msgstr "You can apply for lecture a license `here <https://winmostar.com/en/support_en.php>`_."
 
+msgid "Q. 特定ユーザライセンスの登録ユーザ変更は可能ですか？"
+msgstr "Q. Is it possible to change the registered user of a specific user license?"
+
+msgid "民間企業・官公庁の場合は不可能です。教育機関の場合は、前回のユーザ変更（初回の変更の場合は購入）から1年以上経過していたら変更可能です。"
+msgstr "This is not possible in the case of private companies and public offices. For educational institutions, it is possible to change if more than one year has passed since the last user change (or purchase if it is the first time)."
+
+msgid "Q. 教育機関向けライセンスを購入した時の所属機関から他の機関に移った場合、そのライセンスを使い続けることは可能ですか？"
+msgstr "Q. If I move from the institution where I purchased my educational license to another institution, can I continue to use that license?"
+
+msgid "購入時の機関の所属から外れた場合、永久使用権であっても使用できません。"
+msgstr "If you move from your institutional affiliation at the time of purchase, you cannot use it, even if it is a permanent right."
+
+msgid "ライセンスコードに関して"
+msgstr "License Code"
+
 msgid "Q. すでに入力したライセンスコードを変更する方法を教えてください。"
 msgstr "How do I change an already entered license code?"
 
@@ -88,8 +94,17 @@ msgstr "Enter the license code you want to use from now on into :guilabel:`licen
 msgid "学生の方で、無償版から学生版に切り替えたい場合は、`ライセンス登録ページ <https://winmostar.com/jp/dlFreeForm.php>`_ で学生版にチェックを入れて再度ライセンス登録をしてください。"
 msgstr "If you are a student and want to switch from the free version to the student version, check the student version on the `License registration page <https://winmostar.com/en/index.php>`_ and register the license again."
 
-msgid "サポート"
-msgstr "Support"
+msgid "Q. MACアドレスを表示する方法を教えてください。"
+msgstr "Q\. Please tell me how to display the MAC address."
+
+msgid "A. Windows10の場合は、まず :menuselection:`スタートメニュー --> Windowsシステムツール --> コマンドプロンプト` をクリックしてコマンドプロンプトを起動します。次に、コマンドプロンプトのウィンドウで :command:`ipconfig /all` と入力しEnterキーを押します。様々な情報が出力されるので、その中から「物理アドレス」の行を探してください。その内容がMACアドレスです。"
+msgstr "A\. In Windows 10, start the command prompt by clicking on :menuselection:`Start menu --> Windows System Tools --> Command Prompt`. Then, in a command prompt window, type :command:`ipconfig /all` and press the Enter key. Look for the "Physical Address" line among the various information that will be output. That content is the MAC address."
+
+msgid "「物理アドレス」行が複数ある場合、Winmostarのノードロックライセンス購入時に申請するMACアドレスは、基本的にどの「物理アドレス」でも大丈夫です。"
+msgstr "If there is more than one \"physical address\" line, basically any \"physical address\" can be used as the MAC address for Winmostar's node-locked license purchase."
+
+msgid "サポート・保守に関して"
+msgstr "Support and Maintenance"
 
 msgid "Q. 質問するときの注意事項はありますか？"
 msgstr "Are there any precautions when asking a question?"
@@ -103,7 +118,25 @@ msgstr "How to pronounce Winmostar."
 msgid "A. 「ウインモスター」です。Wikipedia等では誤情報が掲載されることがありますが、こちらが正式な呼び方です。"
 msgstr "win·mo·str"
 
-msgid "ソフトウェア動作全般"
+msgid "Q. 旧バージョンのサポート・保守はどこまで行われますか?"
+msgstr "Q. How long do you plan to support and maintain the previous version?"
+
+msgid "ご使用中のバージョンのWinmostarに関する、有効な使用規約に記載の内容に基づきます。また、操作方法の簡単な案内は、可能な範囲で対応します。"
+msgstr "Based on the terms of use in effect for your version of Winmostar. In addition, simple instructions on how to operate the system will be provided to the extent possible."
+
+msgid "Q. 使用しているWinmostarのアップデート・バージョンアップ・アップグレードは可能ですか?"
+msgstr "Q\. Is it possible to update/upgrade version  of the Winmostar I am using?"
+
+msgid "A. マイナーバージョン（およびリビジョン）の更新については、利用可能期間内であれば何回でも実施可能です。メジャーバージョンの更新については、永久使用権の場合はライセンスの更新が必要で、年間使用権の場合は実施可能です。"
+msgstr "A\. Minor version (and revision) updates can be done as many times as you like during the availability period. Renewal of a major version requires renewal of the license for a permanent license, and is enforceable for an annual license."
+
+msgid "例として、「V8.039」については、「8」がメジャーバージョン、「039」がマイナーバージョンを指します。「V9.1.0」については「9」がメジャーバージョン、「1」がマイナーバージョン、「0」がリビジョンを指します。"
+msgstr "As an example, for \"V8.039\", \"8\" refers to the major version and \"039\" to the minor version. For V9.1.0, \"9\" refers to the major version, \"1\" to the minor version, and \"0\" to the revision."
+
+msgid "例えば、Winmostar V9の永久使用権のライセンス取得者は、V9.1.0からV9.1.5やV9.4.4に更新することは可能ですが、V10.0.0に更新することは不可能です。"
+msgstr "For example, a perpetual licensee of Winmostar V9 can update from V9.1.0 to V9.1.5 or V9.4.4, but it is not possible to update to V10.0.0."
+
+msgid "ソフトウェア動作全般に関して"
 msgstr "Software operations"
 
 msgid "Q. 思ったようにモデルを作成できません。計算できません。動作しません。"
@@ -186,6 +219,12 @@ msgstr "Q\. Please tell me the minimum and recommended specifications of PC for 
 
 msgid "A. :ref:`install_recommend_spec` をご確認下さい。"
 msgstr "A\. See :ref:`install_recommend_spec`."
+
+msgid "Q. Winmostarをネットワークに接続していないPCにインストールすることは可能ですか?"
+msgstr "Q\. Is it possible to install Winmostar on a PC that is not connected to the network?"
+
+msgid "A. 可能です。 :ref:`install_install` の手順で登場する各種ソフトウェアを予め他のPCでダウンロードし、ネットワーク接続していないPCにUSBメモリなどでコピーしたうえで、 :ref:`install_install` の手順に従いインストールを行ってください。"
+msgstr "A\. Yes, it is possible. Download the software described in :ref:`install_install` and copy it to a PC not connected to the network. Then, follow the procedure in :ref:`install_install` to install the software."
 
 msgid "Q. 「ERROR: I/O error 32」と表示され処理に失敗します。"
 msgstr "Q\. \"ERROR: I/O error 32\" is displayed and the processing fails."
@@ -768,6 +807,12 @@ msgstr "It is necessary to plan the calculation considering how to obtain the ex
 
 msgid "なお、弊社の有償サポートでプランニングのお手伝いをすることが可能です。"
 msgstr "In addition, it is possible to help with planning with our paid support."
+
+msgid "Q. Gromacsにおいて最終構造やアニメーションを読み込むと分子がバラバラに表示されることがありますがなぜですか？。"
+msgstr "Q\. When loading the final structure or animation in Gromacs, the molecules are sometimes displayed in pieces."
+
+msgid "A. Gromacsの軽微な不具合による症状です。周期境界条件を考慮すると、分子の形状は保たれており、分子動力学計算としては適切に処理されているため、結果解析等には問題ありません。見た目を修正したい場合は、 :menuselection:`表示 --> 周期境界条件の表現形式` から :guilabel:`セルの内側に原子単位で再配置` を選択してください。"
+msgstr "A\. This problem is caused by a minor bug in Gromacs. Considering the periodic boundary condition, the shape of the molecule is maintained, and it is properly processed as a molecular dynamics calculation, so there is no problem in analyzing the results. To modify the appearance, select :menuselection:`display --> periodic boundary condition format` to :guilabel:`relocate atomically inside the cell`."
 
 msgid "Quantum ESPRESSO, OpenMXに関して"
 msgstr "About Quantum ESPRESSO, OpenMX"
