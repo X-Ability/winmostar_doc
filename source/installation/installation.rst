@@ -45,7 +45,7 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
 インストール
 ==================================
 
-下記の方法でうまくインストールできない場合は、 :ref:`faq_top` を確認してください。
+下記の方法で想定通りにインストールできない場合は、 :ref:`faq_top` を確認してください。
 
 1. `安定版最新バージョン <https://winmostar.com/jp/download#latest_stable>`_ または `開発版最新バージョン <https://winmostar.com/jp/download#latest_devel>`_ のWinmostarインストーラをダウンロードします。
 
