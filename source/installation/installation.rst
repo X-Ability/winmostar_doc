@@ -45,37 +45,59 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
 インストール
 ==================================
 
-インストール中に想定しない状況に遭遇した場合は :ref:`faq_top` を確認してください。
+下記の方法でうまくインストールできない場合は、 :ref:`faq_top` を確認してください。
 
-1. `ダウンロードページ <https://winmostar.com/jp/download_jp.html>`_ からインストーラ :file:`winmostar0_setup_X.X.X.exe` （ :file:`X.X.X` はバージョンを示す）をダウンロードし、実行します。
+1. `安定版最新バージョン <https://winmostar.com/jp/download#latest_stable>`_ または `開発版最新バージョン <https://winmostar.com/jp/download#latest_devel>`_ のWinmostarインストーラをダウンロードします。
+
+   .. note::
+      - 動作環境は :ref:`install_recommend_spec` でご確認ください。
+      - USBメモリ・DVD・ユーザポータルでインストーラを入手済みの方は、この操作が不要です。
 
 .. _intall_installwm:
 
-2. インストール先フォルダを指定し（デフォルトは :file:`C:\\winmos10` ）インストールを開始すると、スタートメニューとデスクトップにショートカットが作成されます。
+2. インストーラをダブルクリックして起動します。64bit版Windowsの場合は、インストールするWinmostarの種類（64bit版または32bit版）を選択します。
+
+   .. warning::
+      - Winmostarが起動している場合は、あらかじめ終了しておきます。
+
+3. インストール先フォルダを指定し（デフォルトはC:\\winmos10）、インストールを開始します。
 
    .. warning::
       - インストール先フォルダおよびその上位階層の名前に日本語、全角文字などのマルチバイト文字や特殊記号が含まれている場合は、一部のモジュールが不具合を起こす場合があります。
-      - ディスプレイ設定でテキストやその他の項目を拡大・縮小している場合は、一部表示が崩れる場合があります。
+      - ディスプレイ設定でテキストやその他の項目を拡大・縮小している場合は、一部表示が崩れる場合があります。詳細は `こちら <https://winmostar.com/jp/manual_jp/html/knownissues/knownissues.html#animationui>`_ 。
+      - C:\\Program Files以下へのインストールは不可です。
 
    .. note::
+      - インストール完了後、スタートメニューとデスクトップにショートカットが作成されます。
       - セキュリティ対策ソフトの警告が出た場合は、無視してインストールを継続してください（以下、同様）。
       - 既に過去のバージョンのWinmostarがインストールされている場合は、上書きインストールするか、インストール先フォルダを変更して過去のバージョンと共存させることが可能です。
-      - 既にインストールされている他のWinmostarの設定を引き継ぐ場合は、インストール先フォルダの :file:`UserPref` フォルダの下のファイルをコピーしてください。
+      - バージョンアップの方は :ref:`install_update` または :ref:`install_upgrade` を確認してください。
 
 ..
 
-3. ライセンスコードを取得していない場合は、 `機能表 <https://winmostar.com/jp/function_jp.html>`_ にて使用する版を検討し、以下のリンク先からライセンスコードを登録または購入してください。
+4. ライセンスコードを取得していない場合は、 `機能一覧 <https://winmostar.com/jp/function_jp.html>`_ をご確認の上、以下のリンク先にてライセンスを登録し取得します。
 
-   - `無償版 <https://winmostar.com/jp/index.php>`_
-   - `学生版 <https://winmostar.com/jp/index.php>`_
+   - `無償版 <https://winmostar.com/jp/dlFreeForm.php>`_
+   - `学生版 <https://winmostar.com/jp/dlFreeForm.php>`_
    - `プロフェッショナル版 <https://winmostar.com/jp/purchase_jp.html>`_
    - `プロフェッショナル版（トライアル） <https://winmostar.com/jp/dlTrialFormJP.php>`_
 
 ..
 
-4. 新規インストールの場合は、Winmostarを起動し、初回起動時に出現するダイアログでライセンスコードを設定します。
+5. 新規インストールの場合は、Winmostarを起動し、初回起動時に出現するダイアログでライセンスコードを設定します。
 
-5. WinmostarをインストールしたWindows PC（ローカルマシン）上で使用するソルバを、以下のリンク先の手順でインストールします。
+   .. note::
+      - 納品したライセンス入りインストーラを使用した場合は、この操作が不要です。
+
+.. _install_cygwinwm:
+
+6. 以下のいずれかの手順でWinmostar向けのCygwinの環境（ :ref:`cygwin_wm <cygwinwm_top>` と呼びます）を構築します。
+
+   - \*\*【推奨】\*\* `ビルド済みのcygwin_wmをインストールする場合 <https://winmostar.com/jp/gmx4wm_jp.html>`_ 
+   - `cygwin_wmをビルドする場合 <https://winmostar.com/jp/gmx4wm_jp_win.html>`_ （非推奨、上級者向け）
+   - `Cygwinの代わりにWindows Subsystem for Linuxを用いる場合 <https://winmostar.com/jp/WSL_jp.html>`_ （ベータ版）
+
+7. WinmostarをインストールしたWindows PC（ローカルマシン）上で使用するソルバを、以下のリンク先の手順でインストールします。
 
    - `Windows版GAMESSインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/GAMESS_install_manual_jp_win.pdf>`_
    - `Windows版NWChemインストールマニュアル           <https://winmostar.com/jp/nwchem4wm_jp.html>`_
@@ -85,29 +107,26 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
    - `Windows版FDMNESインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/FDMNES_install_manual_jp_win.pdf>`_
 
    .. note::
-      - Gromacs, Amber, MODYLAS, OpenMXは次のステップでインストールする :ref:`cygwin_wm <cygwinwm_top>` に含まれます。
+      - Gromacs, Amber, MODYLAS, OpenMXは前の手順でインストールする :ref:`cygwin_wm <cygwinwm_top>` に含まれます。
 
-.. _install_cygwinwm:
-
-6. MD、Solidパックを使用、およびその他の一部の処理を実行する場合は、以下のいずれかの手順でWinmostar向けのCygwinの環境（ :ref:`cygwin_wm <cygwinwm_top>` と呼びます）を構築します。
-
-   - \*\*【推奨】\*\* `ビルド済みのcygwin_wmをインストールする場合 <https://winmostar.com/jp/gmx4wm_jp.html>`_ 
-   - `cygwin_wmをビルドする場合 <https://winmostar.com/jp/gmx4wm_jp_win.html>`_ （非推奨、上級者向け）
-   - `Cygwinの代わりにWindows Subsystem for Linuxを用いる場合 <https://winmostar.com/jp/WSL_jp.html>`_ （ベータ版）
+8. 必要に応じて、使用しているセキュリティ対策ソフトの設定において、Winmostar、cygwin_wm、ソルバのインストールフォルダを監視対象から除外します。
 
 ..
 
-7. 必要に応じて、使用しているセキュリティ対策ソフトの設定において、Winmostarとcygwin_wmのインストールフォルダを監視対象から除外します。
+9. エクスプローラ上で各ファイルの拡張子を表示する設定に変更します。（必須ではありません）設定方法は :ref:`faq_showextension` で確認してください。
 
 .. _install_scheduler:
 
-8. リモートサーバへのジョブ投入（ :ref:`リモートジョブ <remote_top>` と呼ぶ）を行う場合は、投入先のサーバに :ref:`対応しているジョブスケジューラ <remote_scheduler>` がインストールされているか確認する。入っていない場合は以下のリンク先の手順でTORQUEをインストールします。
+10. リモートサーバへのジョブ投入と、リモートサーバ上でのジョブのスケジューリングを行いたい場合は、サーバに :ref:`対応しているジョブスケジューラ <remote_scheduler>` がインストールされているか確認します。入っていない場合は以下のリンク先の手順でTORQUEをインストールします。
 
    - `Linux版TORQUEインストールマニュアル <https://winmostar.com/jp/gmx4wm_jp_linux.html#Torque>`_
 
+   .. note::
+      - ジョブのスケジューリングが不要な場合は、リモートサーバ上にジョブスケジューラをインストールする必要がありません。
+
 ..
 
-9. リモートジョブを行う場合は、投入先のサーバに使用するソルバを、以下のリンク先の手順でインストールします。
+11. リモートサーバへのジョブ投入を行う場合は、投入先のサーバに使用するソルバを、以下のリンク先の手順でインストールします。
 
    - `Linux版NWChem, Gromacs, Amberインストールマニュアル <https://winmostar.com/jp/gmx4wm_jp_linux.html>`_
    - `Linux版GAMESSインストールマニュアル                 <https://winmostar.com/jp/manual_jp/installation/GAMESS_install_manual_jp_linux.pdf>`_
@@ -119,28 +138,38 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
 
 ..
 
-10. インストール手順は以上です。続けて、必要に応じて `ビギナーズガイド <https://winmostar.com/jp/tutorials/?pdf=BeginnersGuide_V10.pdf>`_ や `各種チュートリアル <https://winmostar.com/jp/manuals/>`_ を確認して下さい。
+12. インストール手順は以上です。続けて、必要に応じて `ビギナーズガイド <https://winmostar.com/jp/tutorials/?pdf=BeginnersGuide_V10.pdf>`_ や `各種チュートリアル <https://winmostar.com/jp/manuals/>`_ を確認して下さい。
 
-また、必須ではありませんが、エクスプローラ上で各ファイルの拡張子を表示する設定に変更することを推奨します。
-
-   Windows 7の場合:
-      - エクスプローラを開く
-      - :kbd:`Alt` キーを押す
-      - :menuselection:`ツール --> フォルダーオプション` メニューの :guilabel:`表示` タブを開く
-      - :guilabel:`登録されている拡張子は表示しない` のチェックが外れた状態にする
-   
-   Windows 8, 10の場合
-      - エクスプローラを開く
-      - :guilabel:`表示` タブを開く
-      - :guilabel:`ファイル名拡張子` のチェックが付いた状態にする
-
-アップデート
-==================================
-
-インストールと同じ方法でアップデート、バージョンアップ可能です。上書きインストールする場合は、上書き前のWinmostarを終了してからインストールしてください。
+.. _install_uninstall:
 
 アンインストール
 ==================================
 
 Winmostarのインストール先フォルダとショートカットの削除することでアンインストールできます。
+
+.. _install_update:
+
+アップデート
+==================================
+
+アップデート（マイナーバージョン・リビジョンの更新）はインストールと同じ方法で実施できます。
+
+例：V10.0.0→V10.1.0、V9.4.0→V9.4.5
+
+- 古いバージョンを残してインストールする場合は、古いバージョンのUserPrefフォルダ以下のファイルを、新しいバージョンのUserPrefフォルダの以下にコピーすることで、設定を引き継ぐことができます。
+- UserPrefフォルダはWinmostarのインストールフォルダ以下にあります。
+
+.. _install_upgrade:
+
+アップグレード
+==================================
+
+アップグレード（メジャーバージョンの更新）はインストールと同じ方法で実施できます。
+
+例：V8.000→V9.0.0、V9.0.0→V10.0.0
+
+- V3～V6からアップグレードする場合、古いバージョンのインストールフォルダ以下の設定ファイルatoms1.wmx、winmos_server.ini、wm_nmr.ref、wm_irscale.refをV10のUserPrefフォルダ以下にコピーすることで、設定を引き継ぐことができます。
+- V7～V9からアップグレードする場合、古いバージョンのUserPrefフォルダ以下のwmset.ini、atoms1.wmx、winmos_server.ini、wm_nmr.ref、wm_irscale.refをV10のUserPrefフォルダ以下にコピーすることで、設定を引き継ぐことができます。
+- UserPrefフォルダはWinmostarのインストールフォルダ以下にあります。
+- 詳細は `V10移行ガイド <https://winmostar.com/jp/manual_jp/V10/MigrationGuide_V10.pdf>`_ 、 `V9移行ガイド <https://winmostar.com/jp/manual_jp/V9/MigrationGuide_V9.pdf>`_ を参照してください。
 
