@@ -88,8 +88,8 @@ msgstr "`FREE edition <https://winmostar.com/en/index.php>`_"
 msgid "`学生版 <https://winmostar.com/jp/index.php>`_"
 msgstr "`STUDENT edition <https://winmostar.com/en/index.php>`_"
 
-msgid "`プロフェッショナル版 <https://winmostar.com/jp/purchase_jp.html>`_"
-msgstr "`PROFESSIONAL edition <https://winmostar.com/en/purchase_en.html>`_"
+msgid "`プロフェッショナル版 <https://winmostar.com/jp/purchase>`_"
+msgstr "`PROFESSIONAL edition <https://winmostar.com/en/purchase>`_"
 
 msgid "`プロフェッショナル版（トライアル） <https://winmostar.com/jp/dlTrialFormJP.php>`_"
 msgstr "`PROFESSIONAL edition (trial) <https://winmostar.com/en/dlTrialFormEN.php>`_"

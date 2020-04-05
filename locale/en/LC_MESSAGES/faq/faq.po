@@ -43,8 +43,8 @@ msgstr "Please consult us when you wish other documents. However, please underst
 msgid "Q. 代理店などエンドユーザ以外が注文する方法を教えてください。"
 msgstr "Q\. How do I place an order other than an end user, such as an agency?"
 
-msgid "指定代理店をご利用ください。詳細は `価格・購入 <https://winmostar.com/jp/purchase_jp.html>`_ をご確認ください。"
-msgstr "Please use a designated agent. For more information, please visit `Pricing <https://winmostar.com/en/purchase_en.html>`_."
+msgid "指定代理店をご利用ください。詳細は `価格・購入 <https://winmostar.com/jp/purchase>`_ をご確認ください。"
+msgstr "Please use a designated agent. For more information, please visit `Pricing <https://winmostar.com/en/purchase>`_."
 
 msgid "各ライセンスの利用条件等に関して"
 msgstr "Terms and conditions of use of each license"

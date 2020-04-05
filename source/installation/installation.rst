@@ -79,7 +79,7 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
 
    - `無償版 <https://winmostar.com/jp/dlFreeForm.php>`_
    - `学生版 <https://winmostar.com/jp/dlFreeForm.php>`_
-   - `プロフェッショナル版 <https://winmostar.com/jp/purchase_jp.html>`_
+   - `プロフェッショナル版 <https://winmostar.com/jp/purchase>`_
    - `プロフェッショナル版（トライアル） <https://winmostar.com/jp/dlTrialFormJP.php>`_
 
 ..
