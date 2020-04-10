@@ -127,6 +127,8 @@ Acpypeを使用
 ------------------------
    :ref:`md_polymer_top` を参照してください。
 
+.. _md_interface:
+
 界面ビルダ
 ------------------------
    :ref:`md_interface_top` を参照してください。

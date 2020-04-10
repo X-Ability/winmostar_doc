@@ -106,7 +106,7 @@
    
    2. MD計算の場合は :ref:`create_charge` の方法で電荷を割り当てる。
    
-   3. mol2形式で保存する。
+   3. :menuselection:`ファイル -->` :ref:`file_saveas` からmol2形式で保存する。
    
    4. 1.から3.の手順を計算したい全ての分子種に対して行う。
    
@@ -157,8 +157,39 @@
       .. note::
          - 液相の構造をMD計算で緩和した後にExpandする場合は、MD計算後の構造においてシミュレーションセルの外の座標を持つ原子が多く存在するため、Expandする前に :menuselection:`編集 -->` :ref:`edit_wrap_pbc` を選択する。分子系の場合は :guilabel:`セルの内側に分子単位で再配置` 、無機系では :guilabel:`セルの内側に原子単位で再配置` を選択する。
 
-タンパク質（リガンドなし）
-----------------------------
+液液界面の作成
+------------------------------------------------------
+
+   1. :ref:`create_liquid` の方法で片方の液相を作成する。この時、予め2つの相に含まれる全ての種類の分子についてmol2ファイルを作成しておく。
+   
+   2. :menuselection:`ファイル -->` :ref:`file_saveas` からmol2形式で保存する。
+
+   3. :menuselection:`MD -->` :ref:`md_solvate_buildcell` を選択する。
+   
+   4. もう片方の相にどの分子を何分子入れるか決める。
+      水分子の場合は :guilabel:`Add Water` をクリックする。
+      それ以外の場合は :guilabel:`Add mol2 File` をクリックしmol2ファイルを選択する。
+   
+   5. 系内に投入する個数を入力する。
+   
+   6. 4.、5.の手順を計算したい全ての分子種に対して行う。
+   
+   7. :guilabel:`Simulatoin Cell` タブで :guilabel:`Set Lattice Constants` にチェックを入れ、 :guilabel:`Same as main window` ボタンをクリックする。 :guilabel:`Set Lattice Constants` の右に、最初に作成した相のセルサイズが表示される。そのうち、一番右の欄（z方向）の値を変更する。その際、その上の :guilabel:`Set Density` の右に表示される密度を参考にする。
+   
+   8. :guilabel:`Build` ボタンを押す。
+   
+   9. :menuselection:`ファイル -->` :ref:`file_saveas` からmol2形式で保存する。
+
+   10. :menuselection:`MD -->` :ref:`md_interface` をクリックする。
+   
+   11. :guilabel:`Cell` タブの :guilabel:`Cell 1` の :guilabel:`Browse` ボタンをクリックし、2.で保存したファイルを選択する。同様に、 :guilabel:`Cell 2` においては、9.で保存したファイルを選択する。
+   
+   12. :guilabel:`Direction` タブの :guilabel:Interval` に液相間の距離を入力する。
+   
+   13. :guilabel:`Build` ボタンをクリックし、保存するファイル名を入力してから :guilabel:`保存` ボタンをクリックする。
+
+タンパク質の作成（リガンドなし）
+---------------------------------
 
    1. 計算したいタンパク質のpdbファイルをWinmostarで開く。
    
@@ -172,8 +203,8 @@
    
    なお、この後MD計算を実行する場合は、上記手順を実行した後ファイルを保存すると、残基情報などが適切に保存されないことがあるため、上記手順を実行後続けてMD計算を実行することが望ましい。
    
-タンパク質（リガンドあり）
-----------------------------
+タンパク質の作成（リガンドあり）
+---------------------------------
 
    1. 計算したいタンパク質-リガンド複合体のpdbファイルをWinmostarで開く。
    
@@ -195,3 +226,96 @@
    
    なお、この後MD計算を実行する場合は、上記手順を実行した後ファイルを保存すると、残基情報などが適切に保存されないことがあるため、上記手順を実行後続けてMD計算を実行することが望ましい。
    
+.. _create_inorganic_crystal:
+
+無機結晶の作成
+----------------------------
+
+   CIFファイルなどで計算したい結晶のデータを既に持っている場合は、Winmostarでそのファイルを開く。そのようなファイルがない場合は、以下の操作を行う。
+   
+   1. :menuselection:`固体 -->` :ref:`solid_crystalbuilder` をクリックする。
+   
+   2. :guilabel:`Crystal Builder` ウィンドウ右上の以下の項目を選択する。
+      
+      - :guilabel:`Lattice` の :guilabel:`Crystal System` から計算したい結晶の分類を選択する。
+      - :guilabel:`Lattice` の :guilabel:`Space Group` から計算したい結晶の空間群を選択する。 :guilabel:`Space Group` の選択肢は :guilabel:`Crystal System` によって変化する。
+      - :guilabel:`Lattice Constants` に計算したい結晶の格子定数を入力する。
+   
+   3. :guilabel:`Crystal Builder` ウィンドウ右下のリストに、非対称要素の原子を入力する。
+   
+      - :guilabel:`Atom` の欄をダブルクリックし元素の種類を入力する。
+      - :guilabel:`X` , :guilabel:`Y` , :guilabel:`Z` の欄をダブルクリックし座標を記入する。
+      - :guilabel:`Add` ボタンで原子を追加する。
+      - :guilabel:`Remove` ボタンでリスト中で選択された原子を削除する。
+      
+   4. :guilabel:`OK` ボタンをクリックして、結晶ビルダで指定した構造をメインウィンドウに反映する。
+   
+無機結晶の作成（点欠陥または元素置換あり）
+------------------------------------------------------
+
+   1. 欠陥がない状態の結晶のCIFファイルを開くか、 :ref:`create_inorganic_crystal` の方法で結晶構造を作成する。
+   
+   2. :menuselection:`固体 -->` :ref:`solid_supercell` をクリックする。 :guilabel:`a` , :guilabel:`b` , :guilabel:`c` の値を大きくし、スーパーセルのサイズを指定する（まずは各方向2程度）。最後に :guilabel:`OK` ボタンをクリックする。
+   
+   3. メインウィンドウにおいて、点欠陥を作りたい箇所の原子または、元素を置換したい原子を左クリックし赤いマーカーが付いた状態にする。
+   
+   4. 点欠陥を作りたい場合は、 :menuselection:`編集 -->` :ref:`edit_partial_delete` をクリックする。
+   
+   5. 元素を置換したい場合は、 :menuselection:`編集 -->` :ref:`edit_element` から変更後の元素を選択し、その後 :menuselection:`編集 --> 属性を変更 -->` :ref:`edit_attribute_element` をクリックする。
+   
+.. _create_slab:
+   
+無機スラブ（表面）の作成
+------------------------------------------------------
+
+   1. バルクの状態の結晶のCIFファイルを開くか、 :ref:`create_inorganic_crystal` の方法で結晶構造を作成する。
+   
+   2. :menuselection:`固体 -->` :ref:`solid_cleaveplane` をクリックする。
+   
+   3. :guilabel:`Cleave Plane (h k l)` の欄にミラー指数を入力し、 :guilabel:`Next >>` ボタンをクリックする。
+   
+   4. 直方セルを検索したい場合は :guilabel:`Definition of Lattice` で :guilabel:`Auto(Ortho)` 、直方セル以外も検索したい場合は :guilabel:`Auto(All)` 、手動でセルを定義したい場合は :guilabel:`Manual` を選択し、 :guilabel:`OK` ボタンをクリックする。「Transform unit cell?」と聞かれたら :guilabel:`はい` をクリックする。
+   
+   5. :menuselection:`固体 -->` :ref:`solid_insertvacuum` をクリックする。 
+   
+   6. :guilabel:`Vacuum` の欄に挿入する真空層の厚みを入力する。Quantum ESPRESSOのESM法で計算する場合は、 :guilabel:`Automatically shift to center` のチェックを外し、 :guilabel:`Reference plane` を :guilabel:`Base` に変更する。最後に、 :guilabel:`OK` ボタンをクリックする。
+
+分子吸着表面の作成
+------------------------------------------------------
+
+   1. :ref:`create_mole` の方法で吸着させる分子を作成する。
+   
+   2. :menuselection:`ファイル -->` :ref:`file_saveas` からmol2形式で保存する。
+   
+   3. :ref:`create_slab` の方法で表面を作成する。
+   
+   4. :menuselection:`固体 -->` :ref:`solid_supercell` をクリックする。 :guilabel:`a` , :guilabel:`b` の値を大きくし、スーパーセルのサイズを指定する。最後に :guilabel:`OK` ボタンをクリックする。
+   
+   5. :menuselection:`ファイル -->` :ref:`file_append` をクリックし、先ほど保存した吸着分子のmol2ファイルを選択する。その後、 :menuselection:`編集 --> グループ編集 -->` :ref:`edit_group_rotate_mouse` , :ref:`edit_group_rotate_slider` , :ref:`edit_group_rotate_orien` , :ref:`edit_group_move_mouse` , :ref:`edit_group_move_slider` などの機能を用いて、吸着分子の配向、位置を変更する。
+
+固固界面（粒界）の作成
+------------------------------------------------------
+
+   1. :ref:`create_inorganic_crystal` の方法で片方の固体を作成する。
+   
+   2. シミュレーションセル直上の原子を、接合方向両方に残しておきたい場合は、 :menuselection:`固体 -->` :ref:`solid_insertvacuum` において :guilabel:`Vacuum` に0より少し大きい値（0.001など）を入力し :guilabel:`OK` ボタンをクリックする。
+      
+   3. :menuselection:`ファイル -->` :ref:`file_saveas` からcif形式で保存する。
+   
+   4. :ref:`create_slab` の方法でもう片方の固体を作成する。また、必要に応じて2.と同様の操作を行う。
+   
+   5. :menuselection:`ファイル -->` :ref:`file_saveas` からcif形式で保存する。
+   
+   6. :menuselection:`MD -->` :ref:`md_interface` をクリックする。
+   
+   7. :guilabel:`Cell` タブの :guilabel:`Cell 1` の :guilabel:`Browse` ボタンをクリックし、3.で保存したファイルを選択する。同様に、 :guilabel:`Cell 2` においては、5.で保存したファイルを選択する。
+   
+   8. :guilabel:`Direction` タブの :guilabel:Interval` に固体間の距離を入力する。ただし、2.において真空層を挿入している場合は、そこで挿入した真空層の厚みを考慮して :guilabel:`Interval` に値を入力する。
+   
+   9. :guilabel:`Repeat` タブに移動すると、3つの :guilabel:`Suggest` ボタンのうち、上ふたつ（a-axisとb-axis）が押せる状態になっている。この :guilabel:`Suggest` ボタンをクリックし、 :guilabel:`Ratio` の値（Cell1とCell2のセルサイズ比率）が1に近く、かつシステムサイズが大きすぎない行を選択し、 :guilabel:`Set` ボタンをクリックする。
+   
+   10. :guilabel:`Build` ボタンをクリックし、保存するファイル名を入力してから :guilabel:`保存` ボタンをクリックする。
+
+   11. Ctrl+左ドラッグなどにより、片方の固体をグループ選択する。詳細は :ref:`select_top` を参照する。
+   
+   12. :menuselection:`編集 --> グループ編集 -->` :ref:`edit_group_move_slider` をクリックし、X, Y方向にグループを並進移動させる。 :menuselection:`表示 -->` :ref:`view_three` を有効にすると位置の確認をしやすくなる。
