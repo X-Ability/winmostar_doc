@@ -200,8 +200,6 @@
       Generate gro & ndx files every time
          チェックが入っていない場合は、継続ジョブの時にgroとndxファイルを生成しません。
 
-   .. include:: winmos_gromacs_forcefield.rst
-
 .. _md_lammps_start:
 
 LAMMPS実行

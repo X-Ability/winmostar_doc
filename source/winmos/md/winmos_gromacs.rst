@@ -313,7 +313,7 @@ Gromacs実行
 エネルギー変化
 ---------------------
 
-   Gromacsが出力したedrファイルを選択し、エネルギー、温度、圧力などの各種熱力学量のグラフを表示します。内部的には :command:`gmx energy` コマンドが実行されます。
+   Gromacsが出力したedrファイルを選択し、エネルギー、温度、圧力などの各種熱力学量のグラフを表示します。内部的には :command:`gmx energy` コマンドが実行されます。詳細な挙動は `gmx energy <http://manual.gromacs.org/archive/5.0.7/programs/gmx-energy.html>`_ のマニュアルをご確認ください。
    
    サブウィンドウの操作方法は :ref:`energyplot_top` を参照してください。
    
@@ -345,7 +345,7 @@ Gromacs実行
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、動径分布関数を表示します。
-   内部的には :command:`gmx rdf` コマンドが実行されます。
+   内部的には :command:`gmx rdf` コマンドが実行されます。詳細な挙動は `gmx rdf <http://manual.gromacs.org/archive/5.0.7/programs/gmx-rdf.html>`_ のマニュアルをご確認ください。
    動径分布関数は :guilabel:`Reference Group` と :guilabel:`Target Group` の間でを計算されます。
 
    Definition
@@ -369,7 +369,7 @@ Gromacs実行
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、平均二乗変位と自己拡散係数を表示します。
-   内部的には :command:`gmx msd` コマンドが実行されます。
+   内部的には :command:`gmx msd` コマンドが実行されます。詳細な挙動は `gmx msd <http://manual.gromacs.org/archive/5.0.7/programs/gmx-msd.html>`_ のマニュアルをご確認ください。
 
    Diffusion Constant
       :command:`gmx msd` コマンドを使用して時間-平均二乗変位のグラフの傾きから計算された自己拡散係数を表示します。
@@ -382,7 +382,7 @@ Gromacs実行
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、散乱関数を表示します。
-   内部的には :command:`gmx saxs` コマンドが実行されます。
+   内部的には :command:`gmx saxs` コマンドが実行されます。詳細な挙動は `gmx saxs <http://manual.gromacs.org/archive/5.0.7/programs/gmx-saxs.html>`_ のマニュアルをご確認ください。
 
    Interval
       散乱関数の計算に用いるスナップショットを取得する間隔を指定します。
@@ -395,7 +395,7 @@ Gromacs実行
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、速度相関関数および振動スペクトルを表示します。
-   内部的には :command:`gmx velacc` コマンドが実行されます。
+   内部的には :command:`gmx velacc` コマンドが実行されます。詳細な挙動は `gmx velacc <http://manual.gromacs.org/archive/5.0.7/programs/gmx-velacc.html>`_ のマニュアルをご確認ください。
    
    Velocity Autocorrelation
       速度相関関数を出力します。
@@ -410,7 +410,7 @@ Gromacs実行
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、比誘電率または双極子モーメントの分布・ヒストグラムを表示します。
-   内部的には :command:`gmx dipoles` コマンドが実行されます。
+   内部的には :command:`gmx dipoles` コマンドが実行されます。詳細な挙動は `gmx dipoles <http://manual.gromacs.org/archive/5.0.7/programs/gmx-dipoles.html>`_ のマニュアルをご確認ください。
 
    Dielectric constant
       比誘電率をプロットします。グラフ中の最終時刻におけるepsilonの値が、その計算から得られた比誘電率となります。グラフの下にはその値が出力されます。
@@ -425,7 +425,7 @@ Gromacs実行
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、粘度を表示します。
-   内部的には :command:`gmx tcaf` コマンドが実行されます。
+   内部的には :command:`gmx tcaf` コマンドが実行されます。詳細な挙動は `gmx tcaf <http://manual.gromacs.org/archive/5.0.7/programs/gmx-tcaf.html>`_ のマニュアルをご確認ください。
 
    .. include:: winmos_gromacs_analysis_common1.rst
 
@@ -435,7 +435,7 @@ Gromacs実行
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、密度分布を表示します。
-   内部的には :command:`gmx density` コマンドが実行されます。
+   内部的には :command:`gmx density` コマンドが実行されます。詳細な挙動は `gmx density <http://manual.gromacs.org/archive/5.0.7/programs/gmx-density.html>`_ のマニュアルをご確認ください。
 
    Group
       ここでチェックを入れた成分について密度分布が出力されます。
@@ -448,7 +448,7 @@ Gromacs実行
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、密度分布を表示します。
-   内部的には :command:`gmx freevolume` コマンドが実行されます。
+   内部的には :command:`gmx freevolume` コマンドが実行されます。詳細な挙動は `gmx freevolume <http://manual.gromacs.org/archive/5.0.7/programs/gmx-freevolume.html>`_ のマニュアルをご確認ください。
 
    Radius of probe
       自由体積算出時に系にランダムに挿入される仮想プローブ粒子の半径を指定します。
@@ -477,7 +477,7 @@ Hildebrand溶解度パラメータ
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、選択グループ間の距離、角度、または二面角の分布を表示します。
-   内部的には :command:`gmx distance` コマンド（距離）または :command:`gmx angle` コマンド（角度、二面角）が実行されます。
+   内部的には :command:`gmx distance` コマンド（距離）または :command:`gmx angle` コマンド（角度、二面角）が実行されます。詳細な挙動は `gmx distance <http://manual.gromacs.org/archive/5.0.7/programs/gmx-distance.html>`_ 、 `gmx angle <http://manual.gromacs.org/archive/5.0.7/programs/gmx-angle.html>`_ のマニュアルをご確認ください。
 
    Type
       プロットする値の種類（bond, angle, dihedral, improperまたはryckaert-bellmemans）を選択します。
@@ -492,7 +492,7 @@ RMSD
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、RMSD（主にタンパク向け）を表示します。
-   内部的には :command:`gmx rms` コマンドが実行されます。
+   内部的には :command:`gmx rms` コマンドが実行されます。詳細な挙動は `gmx rms <http://manual.gromacs.org/archive/5.0.7/programs/gmx-rms.html>`_ のマニュアルをご確認ください。
 
    Group
       ここでチェックを入れた成分について結果が出力されます。通常は :guilabel:`Backbone` を選択します。
@@ -503,7 +503,7 @@ RMSD
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、回転半径（主にタンパク向け）を表示します。
-   内部的には :command:`gmx gyrate` コマンドが実行されます。
+   内部的には :command:`gmx gyrate` コマンドが実行されます。詳細な挙動は `gmx gyrate <http://manual.gromacs.org/archive/5.0.7/programs/gmx-gyrate.html>`_ のマニュアルをご確認ください。
 
    Group
       ここでチェックを入れた成分について結果が出力されます。通常はBackboneを選択します。
@@ -514,7 +514,7 @@ Ramachandoranプロット
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    Gromacsが出力したtrr, tpr, ndxファイルを選択し、各アミノ酸残基のRamachandoranプロットを表示します。
-   内部的には :command:`gmx rama` コマンドが実行されます。
+   内部的には :command:`gmx rama` コマンドが実行されます。詳細な挙動は `gmx rama <http://manual.gromacs.org/archive/5.0.7/programs/gmx-rama.html>`_ のマニュアルをご確認ください。
 
    Residue
       ここで選択した残基のRamachandoranプロットが出力されます。
@@ -525,7 +525,8 @@ Ramachandoranプロット
 ------------------------
 
    Gromacsが出力したtrrまたはxtcファイルのトラジェクトリデータについて、間引き、回転、空間分布関数の算出などの操作を行います。
-   内部的には :command:`gmx trjconv` コマンドが実行されます。 :guilabel:`Execute` ボタンで処理を開始します。
+   内部的には :command:`gmx trjconv` コマンドが実行されます。詳細な挙動は `gmx trjconv <http://manual.gromacs.org/archive/5.0.7/programs/gmx-trjconv.html>`_ のマニュアルをご確認ください。 
+   :guilabel:`Execute` ボタンで処理を開始します。
 
    Output interval
       トラジェクトリを間引いて何フレームごとに出力するか指定します。
@@ -555,10 +556,11 @@ ER法実行
    2. :guilabel:`Solution` タブでA. Solution systemの作業ディレクトリをドラッグアンドドロップします。または、xtc, log, topファイルそれぞれの欄で :guilabel:`...` ボタンを押して個々のファイルを読み込みます。
    3. 同様に :guilabel:`Solvent` タブでB. Solvent systemのファイルを選択します。
    4. 同様に :guilabel:`Solute` タブでC. Solute systemのファイルを選択します。xtcファイルを指定した場合は、溶質がフレキシブルモデル、pdbまたはgroファイルを指定した場合は、剛体モデルとして扱われます。
-   5. 必要に応じて、 :guilabel:`Options` ボタンから自由エネルギー計算時のMPI並列数など指定します。
-   6. 自由エネルギー計算をローカル環境で実施する場合は :guilabel:`Start` ボタンを押します。結果を出力するフォルダを指定すると計算が始まります。Cygwin上で :command:`ermod` が流れます。
-   7. リモート環境で実施する場合は一旦 :guilabel:`Close` ボタンを押します。そして :ref:`remote_top` にて :guilabel:`Program` に ``ermod`` を指定し実行します。リモートサーバ上では、 :command:`ermod` および :command:`slvfe` コマンドに :command:`$PATH` が通っている必要があります。（リモートサーバへのERmodのインストールは `こちら <https://winmostar.com/jp/gmx4wm_jp_linux.html>`_ を参照）計算が終わり、 :ref:`remote_top` で :guilabel:`get` ボタンを押すと、 :file:`winmostar.exe` が置かれたフォルダ以下に :file:`ermod_remote_\*` というフォルダが生成され、結果がリモートサーバから転送されます。
-   8. 自由エネルギー計算終了後、結果の表示するには :ref:`md_gromacs_er_result` メニューを選択します。
+   5. :guilabel:`Solute Name` において溶質の分子名を選択します。
+   6. 必要に応じて、 :guilabel:`Options` ボタンから自由エネルギー計算時のMPI並列数など指定します。
+   7. 自由エネルギー計算をローカル環境で実施する場合は :guilabel:`Start` ボタンを押します。結果を出力するフォルダを指定すると計算が始まります。Cygwin上で :command:`ermod` が流れます。
+   8. リモート環境で実施する場合は一旦 :guilabel:`Close` ボタンを押します。そして :ref:`remote_top` にて :guilabel:`Program` に ``ermod`` を指定し実行します。リモートサーバ上では、 :command:`ermod` および :command:`slvfe` コマンドに :command:`$PATH` が通っている必要があります。（リモートサーバへのERmodのインストールは `こちら <https://winmostar.com/jp/gmx4wm_jp_linux.html>`_ を参照）計算が終わり、 :ref:`remote_top` で :guilabel:`get` ボタンを押すと、 :file:`winmostar.exe` が置かれたフォルダ以下に :file:`ermod_remote_\*` というフォルダが生成され、結果がリモートサーバから転送されます。
+   9. 自由エネルギー計算終了後、結果の表示するには :ref:`md_gromacs_er_result` メニューを選択します。
 
 .. _md_gromacs_er_result:
 
@@ -586,5 +588,9 @@ BAR法実行
 BAR法結果読み込み
 --------------------------
 
-    :ref:`md_gromacs_bar_start` にて処理した結果を表示します。メニュー選択後、:ref:`md_gromacs_bar_start` にて指定した出力先フォルダを指定してください。バックグラウンドで :command:`gmx bar` が実行され、結果が表示されます。 :guilabel:`Unit` にてエネルギーを表示する際の単位を指定できます。 :guilabel:`Log` ボタンを押すと、 :command:`gmx bar` のログファイルが表示されます。表示されるグラフは、溶質が溶媒と相互作用していない状態（λ=0）から相互作用している状態（λ=1）の間で自由エネルギーが変化する様子を示しています。
+    :ref:`md_gromacs_bar_start` にて処理した結果を表示します。メニュー選択後、:ref:`md_gromacs_bar_start` にて指定した出力先フォルダを指定してください。
+    
+    バックグラウンドで :command:`gmx bar` が実行され、結果が表示されます。詳細な挙動は `gmx bar <http://manual.gromacs.org/archive/5.0.7/programs/gmx-bar.html>`_ のマニュアルをご確認ください。
+    
+     :guilabel:`Unit` にてエネルギーを表示する際の単位を指定できます。 :guilabel:`Log` ボタンを押すと、 :command:`gmx bar` のログファイルが表示されます。表示されるグラフは、溶質が溶媒と相互作用していない状態（λ=0）から相互作用している状態（λ=1）の間で自由エネルギーが変化する様子を示しています。
 
