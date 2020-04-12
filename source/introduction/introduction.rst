@@ -1097,3 +1097,85 @@ Winmostar(TM)が呼び出したソルバや各種補助プログラムの引用�
          WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
          OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+
+   Balloon
+      .. code-block:: text
+
+         IMPORTANT: THIS SOFTWARE END USER LICENSE AGREEMENT (EULA) IS A LEGAL
+         AGREEMENT BETWEEN THE LICENSEE (HEREINAFTER "YOU", EITHER AN INDIVIDUAL
+         OR ANY OTHER LEGAL ENTITY) AND THE COPYRIGHT OWNER(S) OF THE BALLOON 
+         SOFTWARE (HEREINAFTER "SOFTWARE"). READ IT CAREFULLY BEFORE DOWNLOADING 
+         AND USING THE SOFTWARE. IT PROVIDES A LICENSE TO USE THE SOFTWARE AND 
+         CONTAINS WARRANTY INFORMATION AND LIABILITY DISCLAIMERS. BY DOWNLOADING 
+         AND/OR USING THE PROGRAM, YOU AGREE TO BECOME BOUND BY THE TERMS OF THIS 
+         AGREEMENT. IF YOU DO NOT AGREE TO BE BOUND BY THESE TERMS, THEN DO NOT 
+         DOWNLOAD OR USE THE SOFTWARE AND DELETE THE SOFTWARE FILES FROM YOUR 
+         COMPUTER SYSTEM.
+
+         1. Through any use of the Software You acknowledge your acceptance of the 
+         conditions of this license.
+         2. You acknowledge and agree that the Software is proprietary to the Copyright 
+         owner(s), and is protected under Finnish copyright law and international 
+         copyright treaties. You further acknowledge and agree that all right, title 
+         and interest in and to the Software, including all intellectual property 
+         rights, are and shall remain with the Copyright owner(s).
+         3. There is no fee for the use of the Software, which is provided to you 
+         "free of charge" as a public service.
+         4. As is common courtesy, you agree to acknowledge your use of the Software 
+         in any reports or publications that include any results obtained with the 
+         Software.
+         5. License Grants
+            1. The licensee is granted a non-exclusive license to use the Software in 
+            accordance with the terms of this EULA.
+            2. You may redistribute unmodified copies of the Software to third parties. 
+            The receiver of the Software will have same rights and responsibilities as 
+            if the Software would have been obtained directly from the original 
+            distribution site, i.e. the receiver is bound by the terms of this EULA.
+         6. License Restrictions
+            1. You may not alter, merge, modify, adapt or translate the Software, 
+            or decompile, reverse engineer, disassemble, or otherwise reduce the 
+            Software to a human-perceivable form.
+            2. You may not sell, rent, lease, or sublicense the Software.
+            3. You may not modify the Software or create derivative works based upon the Software.
+         7. License Termination
+            In the event that you fail to comply with this EULA, the Copyright owner(s) 
+            may terminate the license. Upon any termination of this EULA, you shall 
+            immediately discontinue the use and destroy all copies of the Software.
+
+         8. Governing Law
+            This EULA shall be governed by the laws of Sweden without reference to its 
+            conflict of law provisions.
+            The court of Stockholm, Sweden, shall be the first instance forum for 
+            settlement of any disputes arising under this EULA.
+
+         9. WARRANTY DISCLAIMER
+            THE COPYRIGHT OWNER(S) PROVIDE(S) NO TECHNICAL SUPPORT, WARRANTIES OR 
+            REMEDIES FOR THE SOFTWARE. THE PROGRAM IS PROVIDED "AS IS" AND MAY CONTAIN 
+            ERRORS ("BUGS"), BE BASED ON ERRONEOUS ASSUMPTIONS, OR HAVE OTHER DEFECTS, 
+            KNOWN AND UNKNOWN. CONSEQUENTLY, THERE IS NO WARRANTY WHATSOEVER FOR THE 
+            PROGRAM, WHETHER EXPRESSED OR IMPLIED, INCLUDING THE SUITABILITY OF THE 
+            PROGRAM FOR ANY PARTICULAR PURPOSE OR INFRINGEMENT; THUS YOU ACCEPT ALL 
+            RESPONSIBILITY WITH REGARD TO THE PERFORMANCE OF THE PROGRAM, THE RESULTS 
+            OBTAINED, AND THE USE AND INTERPRETATION OF SUCH RESULTS, AND ANY FUTURE 
+            CONSEQUENCES ARISING FROM YOUR USE OF THE PROGRAM OR RESULTS DERIVED 
+            THEREOF.
+         10. LIMITATION OF LIABILITY
+            YOU AGREE NOT TO HOLD LIABLE FOR DAMAGES, IN ANY WAY, SHAPE OR FORM, 
+            ANY COPYRIGHT HOLDER OR OTHER PARTY HAVING THE RIGHT TO REDISTRIBUTE OR 
+            MODIFY THE PROGRAM. SUCH DAMAGES INCLUDE BUT ARE NOT LIMITED TO GENERAL, 
+            SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR 
+            INABILITY TO USE THE PROGRAM, 
+            LOSS OF DATA, INACCURATE MODIFICATION OF DATA, OR ANY OTHER LOSSES 
+            INCURRED BY YOU OR BY A THIRD PARTY AS A RESULT OF THE USE OF THE PROGRAM 
+            OR INABILITY TO USE THE PROGRAM, OR INABILITY OF THE PROGRAM TO WORK 
+            TOGETHER WITH OTHER PROGRAMS. YOU AGREE THAT THE COPYRIGHT HOLDERS AND 
+            OTHER RESPONSIBLE PARTIES MAY HAVE KNOWLEDGE OF SUCH DEFECTS, INACCURACIES, 
+            LACK OF OPERATIONAL COMPATIBILITY WITH OTHER PROGRAMS, OR THE POSSIBILITY 
+            OF SUCH DAMAGES, AMONG OTHER DEFECTS, AND THAT YOU WILL NOT HOLD THESE 
+            PARTIES LIABLE FOR ANY DAMAGES RESULTING TO YOU OR TO A THIRD PARTY 
+            ARISING FROM YOUR USE OF THE PROGRAM.
+         
+         BALLOON Copyright © 2006-2018 Mikko Vainio.
+         BALLOON Copyright © 2008-2014 J. Santeri Puranen.
+         BALLOON Copyright © 2010 Visipoint Ltd.
+         All rights reserved.
