@@ -47,7 +47,16 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
 
 下記の方法で想定通りにインストールできない場合は、 :ref:`faq_top` を確認してください。
 
-1. `安定版最新バージョン <https://winmostar.com/jp/download#latest_stable>`_ または `開発版最新バージョン <https://winmostar.com/jp/download#latest_devel>`_ のWinmostarインストーラをダウンロードします。
+..
+
+1. ライセンスコードを取得していない場合は、 `機能一覧 <https://winmostar.com/jp/function_jp.html>`_ をご確認の上、以下のリンク先にてライセンスを登録し取得します。
+
+   - `無償版 <https://winmostar.com/jp/dlFreeForm.php>`_
+   - `学生版 <https://winmostar.com/jp/dlFreeForm.php>`_
+   - `プロフェッショナル版 <https://winmostar.com/jp/purchase>`_
+   - `プロフェッショナル版（トライアル） <https://winmostar.com/jp/dlTrialFormJP.php>`_
+
+2. `安定版最新バージョン <https://winmostar.com/jp/download#latest_stable>`_ または `開発版最新バージョン <https://winmostar.com/jp/download#latest_devel>`_ のWinmostarインストーラをダウンロードします。
 
    .. note::
       - 動作環境は :ref:`install_recommend_spec` でご確認ください。
@@ -55,12 +64,12 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
 
 .. _intall_installwm:
 
-2. インストーラをダブルクリックして起動します。64bit版Windowsの場合は、インストールするWinmostarの種類（64bit版または32bit版）を選択します。
+3. インストーラをダブルクリックして起動します。64bit版Windowsの場合は、インストールするWinmostarの種類（64bit版または32bit版）を選択します。
 
    .. warning::
       - Winmostarが起動している場合は、あらかじめ終了しておきます。
 
-3. インストール先フォルダを指定し（デフォルトはC:\\winmos10）、インストールを開始します。
+4. インストール先フォルダを指定し（デフォルトはC:\\winmos10）、インストールを開始します。
 
    .. warning::
       - インストール先フォルダおよびその上位階層の名前に日本語、全角文字などのマルチバイト文字や特殊記号が含まれている場合は、一部のモジュールが不具合を起こす場合があります。
@@ -72,15 +81,6 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
       - セキュリティ対策ソフトの警告が出た場合は、無視してインストールを継続してください（以下、同様）。
       - 既に過去のバージョンのWinmostarがインストールされている場合は、上書きインストールするか、インストール先フォルダを変更して過去のバージョンと共存させることが可能です。
       - バージョンアップの方は :ref:`install_update` または :ref:`install_upgrade` を確認してください。
-
-..
-
-4. ライセンスコードを取得していない場合は、 `機能一覧 <https://winmostar.com/jp/function_jp.html>`_ をご確認の上、以下のリンク先にてライセンスを登録し取得します。
-
-   - `無償版 <https://winmostar.com/jp/dlFreeForm.php>`_
-   - `学生版 <https://winmostar.com/jp/dlFreeForm.php>`_
-   - `プロフェッショナル版 <https://winmostar.com/jp/purchase>`_
-   - `プロフェッショナル版（トライアル） <https://winmostar.com/jp/dlTrialFormJP.php>`_
 
 ..
 
