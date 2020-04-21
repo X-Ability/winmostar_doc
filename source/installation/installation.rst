@@ -97,7 +97,7 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
    - `cygwin_wmをビルドする場合 <https://winmostar.com/jp/gmx4wm_jp_win.html>`_ （非推奨、上級者向け）
    - `Cygwinの代わりにWindows Subsystem for Linuxを用いる場合 <https://winmostar.com/jp/WSL_jp.html>`_ （ベータ版）
 
-7. WinmostarをインストールしたWindows PC（ローカルマシン）上で使用するソルバを、以下のリンク先の手順でインストールします。
+7. WinmostarをインストールしたWindows PC（ローカルマシン）上で使用するソルバを、以下のリンク先の手順でインストールします。リモートサーバでのみ計算を行う場合もインストールしてください。
 
    - `Windows版GAMESSインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/GAMESS_install_manual_jp_win.pdf>`_
    - `Windows版NWChemインストールマニュアル           <https://winmostar.com/jp/nwchem4wm_jp.html>`_
