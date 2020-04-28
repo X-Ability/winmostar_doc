@@ -91,11 +91,7 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
 
 .. _install_cygwinwm:
 
-6. 以下のいずれかの手順でWinmostar向けのCygwinの環境（ :ref:`cygwin_wm <cygwinwm_top>` と呼びます）を構築します。
-
-   - \*\*【推奨】\*\* `ビルド済みのcygwin_wmをインストールする場合 <https://winmostar.com/jp/gmx4wm_jp.html>`_ 
-   - `cygwin_wmをビルドする場合 <https://winmostar.com/jp/gmx4wm_jp_win.html>`_ （非推奨、上級者向け）
-   - `Cygwinの代わりにWindows Subsystem for Linuxを用いる場合 <https://winmostar.com/jp/WSL_jp.html>`_ （ベータ版）
+6. `こちらの手順 <https://winmostar.com/jp/download/cygwinwm>`_ に従いWinmostar用のCygwin環境を構築します。
 
 7. WinmostarをインストールしたWindows PC（ローカルマシン）上で使用するソルバを、以下のリンク先の手順でインストールします。リモートサーバでのみ計算を行う場合もインストールしてください。
 
