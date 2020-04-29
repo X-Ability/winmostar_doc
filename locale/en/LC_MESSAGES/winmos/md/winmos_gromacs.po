@@ -817,8 +817,8 @@ msgstr "For the animation display operation method, see :ref:`animation_top`."
 msgid "エネルギー変化"
 msgstr "Energy Plot"
 
-msgid "Gromacsが出力したedrファイルを選択し、エネルギー、温度、圧力などの各種熱力学量のグラフを表示します。内部的には :command:`gmx energy` コマンドが実行されます。"
-msgstr "Select the edr file output by Gromacs and display a graph of various thermodynamic quantities such as energy, temperature and pressure. Internally the :command:`gmx energy` command is executed."
+msgid "Gromacsが出力したedrファイルを選択し、エネルギー、温度、圧力などの各種熱力学量のグラフを表示します。内部的には :command:`gmx energy` コマンドが実行されます。詳細な挙動は `gmx energy <http://manual.gromacs.org/archive/5.0.7/programs/gmx-energy.html>`_ のマニュアルをご確認ください。"
+msgstr "Selects the Gromacs output edr file and displays graphs of various thermodynamic quantities, such as energy, temperature, and pressure. Internally, the command :command:`gmx energy` is executed. Please refer to the manual of `gmx energy <http://manual.gromacs.org/archive/5.0.7/programs/gmx-energy.html>`_ for more detailed behavior."
 
 msgid "サブウィンドウの操作方法は :ref:`energyplot_top` を参照してください。"
 msgstr "Please see :ref:`energyplot_top` for how to operate subwindow."
@@ -850,8 +850,8 @@ msgstr "Analyses"
 msgid "動径分布関数"
 msgstr "Radial Distribution Function"
 
-msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、動径分布関数を表示します。 内部的には :command:`gmx rdf` コマンドが実行されます。 動径分布関数は :guilabel:`Reference Group` と :guilabel:`Target Group` の間でを計算されます。"
-msgstr "Select the trr, tpr, ndx file output by Gromacs and display the radial distribution function. Internally the :command:`gmx rdf` command is executed. The radial distribution function is calculated between :guilabel:`Reference Group` and :guilabel:`Target Group`."
+msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、動径分布関数を表示します。 内部的には :command:`gmx rdf` コマンドが実行されます。詳細な挙動は `gmx rdf <http://manual.gromacs.org/archive/5.0.7/programs/gmx-rdf.html>`_ のマニュアルをご確認ください。 動径分布関数は :guilabel:`Reference Group` と :guilabel:`Target Group` の間でを計算されます。"
+msgstr "Select a trr, tpr or ndx file output by Gromacs and display the radial distribution function. Internally, the command :command:`gmx rdf` is executed. Please check the manual of `gmx rdf <http://manual.gromacs.org/archive/5.0.7/programs/gmx-rdf.html>`_ for more detailed behavior. Radial distribution functions are computed between :guilabel:`Reference Group` and :guilabel:`Target Group`."
 
 msgid "Definition"
 msgstr "Definition"
@@ -928,8 +928,8 @@ msgstr "For how to operate the graph drawing area, see :ref:`chart_top`."
 msgid "自己拡散係数/平均二乗変位"
 msgstr "Diffusion Constant/Mean Square Displacement"
 
-msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、平均二乗変位と自己拡散係数を表示します。 内部的には :command:`gmx msd` コマンドが実行されます。"
-msgstr "Select trr, tpr, ndx files output by Gromacs and display mean square displacement and diffusion constant. Internally the :command:`gmx msd` command is executed."
+msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、平均二乗変位と自己拡散係数を表示します。 内部的には :command:`gmx msd` コマンドが実行されます。詳細な挙動は `gmx msd <http://manual.gromacs.org/archive/5.0.7/programs/gmx-msd.html>`_ のマニュアルをご確認ください。"
+msgstr "Select the trr, tpr, and ndx files output by Gromacs and display the mean square displacement and self-diffusion coefficient. Internally, the :command :command:`gmx msd` is executed. Please refer to the manual of `gmx msd <http://manual.gromacs.org/archive/5.0.7/programs/gmx-msd.html>`_ for more detailed behavior."
 
 msgid "Diffusion Constant"
 msgstr "Diffusion Constant"
@@ -940,8 +940,8 @@ msgstr "Use the :command:`gmx msd` command to display the self-diffusion coeffic
 msgid "散乱関数"
 msgstr "Scattering Function"
 
-msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、散乱関数を表示します。 内部的には :command:`gmx saxs` コマンドが実行されます。"
-msgstr "Select the trr, tpr, ndx file output by Gromacs and display the scattering function. Internally the :command:`gmx saxs` command is executed."
+msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、散乱関数を表示します。 内部的には :command:`gmx saxs` コマンドが実行されます。詳細な挙動は `gmx saxs <http://manual.gromacs.org/archive/5.0.7/programs/gmx-saxs.html>`_ のマニュアルをご確認ください。"
+msgstr "Select a trr, tpr or ndx file output by Gromacs and display the scattering function. Internally, the :command :command:`gmx saxs` is executed. Please refer to the manual of `gmx saxs <http://manual.gromacs.org/archive/5.0.7/programs/gmx-saxs.html>`_ for more detailed behavior."
 
 msgid "Interval"
 msgstr "Interval"
@@ -952,8 +952,8 @@ msgstr "Specify the interval at which to acquire the snapshot used to calculate 
 msgid "速度相関/振動スペクトル"
 msgstr "Velocity Autocorr/Vibration Spectrum"
 
-msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、速度相関関数および振動スペクトルを表示します。 内部的には :command:`gmx velacc` コマンドが実行されます。"
-msgstr "Select trr, tpr, ndx files output by Gromacs, and display speed correlation function and vibration spectrum. Internally the :command:`gmx velacc` command is executed."
+msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、速度相関関数および振動スペクトルを表示します。 内部的には :command:`gmx velacc` コマンドが実行されます。詳細な挙動は `gmx velacc <http://manual.gromacs.org/archive/5.0.7/programs/gmx-velacc.html>`_ のマニュアルをご確認ください。"
+msgstr "Select the trr, tpr, and ndx files output by Gromacs to display the velocity correlation function and the vibration spectrum. Internally, the :command :command:`gmx velacc` is executed. Please refer to the manual of `gmx velacc <http://manual.gromacs.org/archive/5.0.7/programs/gmx-velacc.html>`_ for more detailed behavior."
 
 msgid "Velocity Autocorrelation"
 msgstr "Velocity Autocorrelation"
@@ -970,8 +970,8 @@ msgstr "Output vibration spectrum."
 msgid "比誘電率/双極子モーメント"
 msgstr "Static Dielectric Constant"
 
-msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、比誘電率または双極子モーメントの分布・ヒストグラムを表示します。 内部的には :command:`gmx dipoles` コマンドが実行されます。"
-msgstr "Select trr, tpr, ndx file output by Gromacs and display distribution and histogram of relative  dielectric constant or dipole moments. Internally the :command:`gmx dipoles` command is executed."
+msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、比誘電率または双極子モーメントの分布・ヒストグラムを表示します。 内部的には :command:`gmx dipoles` コマンドが実行されます。詳細な挙動は `gmx dipoles <http://manual.gromacs.org/archive/5.0.7/programs/gmx-dipoles.html>`_ のマニュアルをご確認ください。"
+msgstr "Select a trr, tpr or ndx file output by Gromacs to display the distribution and histogram of the relative permittivity or dipole moments. Internally, the :command :command:`gmx dipoles` is executed. Please refer to the manual of `gmx dipoles <http://manual.gromacs.org/archive/5.0.7/programs/gmx-dipoles.html>`_ for more detailed behavior."
 
 msgid "Dielectric constant"
 msgstr "Dielectric constant"
@@ -994,14 +994,14 @@ msgstr "Plot the autocorrelation function of the dipole moments. The definition 
 msgid "粘度"
 msgstr "Share Viscosity"
 
-msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、粘度を表示します。 内部的には :command:`gmx tcaf` コマンドが実行されます。"
-msgstr "Select the trr, tpr, ndx file output by Gromacs and display the viscosity. Internally the: command: `gmx tcaf` command is executed."
+msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、粘度を表示します。 内部的には :command:`gmx tcaf` コマンドが実行されます。詳細な挙動は `gmx tcaf <http://manual.gromacs.org/archive/5.0.7/programs/gmx-tcaf.html>`_ のマニュアルをご確認ください。"
+msgstr "Select the trr, tpr, ndx file output by Gromacs and display the viscosity. Internally, the :command :command:`gmx tcaf` is executed. Please refer to the manual of `gmx tcaf <http://manual.gromacs.org/archive/5.0.7/programs/gmx-tcaf.html>`_ for more detailed behavior."
 
 msgid "密度分布"
 msgstr "Density Profile"
 
-msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、密度分布を表示します。 内部的には :command:`gmx density` コマンドが実行されます。"
-msgstr "Select trr, tpr, ndx files output by Gromacs and display the density distribution. Internally the: command: `gmx density` command is executed."
+msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、密度分布を表示します。 内部的には :command:`gmx density` コマンドが実行されます。詳細な挙動は `gmx density <http://manual.gromacs.org/archive/5.0.7/programs/gmx-density.html>`_ のマニュアルをご確認ください。"
+msgstr "Select a trr, tpr or ndx file output by Gromacs to display the density distribution. Internally, the :command :command:`gmx density` is executed. Please refer to the manual of `gmx density <http://manual.gromacs.org/archive/5.0.7/programs/gmx-density.html>`_ for more detailed behavior."
 
 msgid "Group"
 msgstr "Group"
@@ -1012,8 +1012,8 @@ msgstr "The density distribution is output for the components that are checked h
 msgid "自由体積"
 msgstr "Free Volume"
 
-msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、密度分布を表示します。 内部的には :command:`gmx freevolume` コマンドが実行されます。"
-msgstr "Select trr, tpr, ndx files output by Gromacs and display the density distribution. Internally the :command:`gmx freevolume` command is executed."
+msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、密度分布を表示します。 内部的には :command:`gmx freevolume` コマンドが実行されます。詳細な挙動は `gmx freevolume <http://manual.gromacs.org/archive/5.0.7/programs/gmx-freevolume.html>`_ のマニュアルをご確認ください。"
+msgstr "Select a trr, tpr or ndx file output by Gromacs to display the density distribution. Internally, the :command :command:`gmx freevolume` is executed. Please refer to the manual of `gmx freevolume <http://manual.gromacs.org/archive/5.0.7/programs/gmx-freevolume.html>`_ for more detailed behavior."
 
 msgid "Radius of probe"
 msgstr "Radius of probe"
@@ -1048,8 +1048,8 @@ msgstr "Calculate the χ parameter · DPD aij parameter from the edr, gro file o
 msgid "距離/角度/二面角分布"
 msgstr "Bond/Angle/Dihedral distribution"
 
-msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、選択グループ間の距離、角度、または二面角の分布を表示します。 内部的には :command:`gmx distance` コマンド（距離）または :command:`gmx angle` コマンド（角度、二面角）が実行されます。"
-msgstr "Select trr, tpr, ndx files output by Gromacs and display the density distribution. Internally the: command: `gmx density` command is executed."
+msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、選択グループ間の距離、角度、または二面角の分布を表示します。 内部的には :command:`gmx distance` コマンド（距離）または :command:`gmx angle` コマンド（角度、二面角）が実行されます。詳細な挙動は `gmx distance <http://manual.gromacs.org/archive/5.0.7/programs/gmx-distance.html>`_ 、 `gmx angle <http://manual.gromacs.org/archive/5.0.7/programs/gmx-angle.html>`_ のマニュアルをご確認ください。"
+msgstr "Select a trr, tpr, or ndx file output by Gromacs to display the distribution of distances, angles, or two-plane angles between the selected groups. Internally, the :command:`gmx distance` command (distance) or the :command:`gmx angle` command (angle, two plane angle) is executed. Please refer to the manuals of `gmx distance <http://manual.gromacs.org/archive/5.0.7/programs/gmx-distance.html>`_ and `gmx angle <http://manual.gromacs.org/archive/5.0.7/programs/gmx-angle.html>`_ for more detailed behavior."
 
 msgid "Type"
 msgstr "vdwtype"
@@ -1072,8 +1072,8 @@ msgstr "Calculate the distance, angle, or dihedral angle using the NDX file sele
 msgid "RMSD"
 msgstr "Root Mean Square Deviation"
 
-msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、RMSD（主にタンパク向け）を表示します。 内部的には :command:`gmx rms` コマンドが実行されます。"
-msgstr "Select trr, tpr, ndx files output by Gromacs and display RMSD (mainly for proteins). Internally the :command:`gmx rms` command is executed."
+msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、RMSD（主にタンパク向け）を表示します。 内部的には :command:`gmx rms` コマンドが実行されます。詳細な挙動は `gmx rms <http://manual.gromacs.org/archive/5.0.7/programs/gmx-rms.html>`_ のマニュアルをご確認ください。"
+msgstr "Select the trr, tpr, and ndx files output by Gromacs and display the RMSD (mainly for proteins). Internally, the :command :command:`gmx rms` is executed. Please refer to the manual of `gmx rms <http://manual.gromacs.org/archive/5.0.7/programs/gmx-rms.html>`_ for more detailed behavior."
 
 msgid "ここでチェックを入れた成分について結果が出力されます。通常は :guilabel:`Backbone` を選択します。"
 msgstr "Results are output for the components checked here. Normally select :guilabel:`Backbone`."
@@ -1081,8 +1081,8 @@ msgstr "Results are output for the components checked here. Normally select :gui
 msgid "慣性半径"
 msgstr "Radius of Gyration"
 
-msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、回転半径（主にタンパク向け）を表示します。 内部的には :command:`gmx gyrate` コマンドが実行されます。"
-msgstr "Select the trr, tpr, ndx file output by Gromacs and display the turning radius (mainly for proteins). Internally the :command:`gmx gyrate` command is executed."
+msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、回転半径（主にタンパク向け）を表示します。 内部的には :command:`gmx gyrate` コマンドが実行されます。詳細な挙動は `gmx gyrate <http://manual.gromacs.org/archive/5.0.7/programs/gmx-gyrate.html>`_ のマニュアルをご確認ください。"
+msgstr "Select a trr, tpr or ndx file output by Gromacs and display the rotation radius (mainly for the protein). Internally, the :command :command:`gmx gyrate` is executed. Please refer to the manual of `gmx gyrate <http://manual.gromacs.org/archive/5.0.7/programs/gmx-gyrate.html>`_ for more detailed behavior."
 
 msgid "ここでチェックを入れた成分について結果が出力されます。通常はBackboneを選択します。"
 msgstr "Results are output for the components checked here. Normally you will select Backbone."
@@ -1090,8 +1090,8 @@ msgstr "Results are output for the components checked here. Normally you will se
 msgid "Ramachandoranプロット"
 msgstr "Ramachandoran Plot"
 
-msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、各アミノ酸残基のRamachandoranプロットを表示します。 内部的には :command:`gmx rama` コマンドが実行されます。"
-msgstr "Select the trr, tpr, ndx file output by Gromacs and display the Ramachandoran plot of each amino acid residue. Internally the :command:`gmx rama` command is executed."
+msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、各アミノ酸残基のRamachandoranプロットを表示します。 内部的には :command:`gmx rama` コマンドが実行されます。詳細な挙動は `gmx rama <http://manual.gromacs.org/archive/5.0.7/programs/gmx-rama.html>`_ のマニュアルをご確認ください。"
+msgstr "Select the trr, tpr, and ndx files output by Gromacs to display the Ramachandoran plots for each amino acid residue. Internally, the :command :command:`gmx rama` is executed. Please refer to the manual of `gmx rama <http://manual.gromacs.org/archive/5.0.7/programs/gmx-rama.html>`_ for more detailed behavior."
 
 msgid "Residue"
 msgstr "Residue"
@@ -1102,8 +1102,8 @@ msgstr "Here a Ramachandoran plot of the selected residue is output."
 msgid "トラジェクトリを編集"
 msgstr "Modify Trajectory File"
 
-msgid "Gromacsが出力したtrrまたはxtcファイルのトラジェクトリデータについて、間引き、回転、空間分布関数の算出などの操作を行います。 内部的には :command:`gmx trjconv` コマンドが実行されます。 :guilabel:`Execute` ボタンで処理を開始します。"
-msgstr "For trajectory data of trr or xtc file output by Gromacs, perform operations such as thinning, rotation, calculation of spatial distribution function, etc. Internally the :command:`gmx trjconv` command is executed. Start processing with :guilabel:`Execute` button."
+msgid "Gromacsが出力したtrrまたはxtcファイルのトラジェクトリデータについて、間引き、回転、空間分布関数の算出などの操作を行います。 内部的には :command:`gmx trjconv` コマンドが実行されます。詳細な挙動は `gmx trjconv <http://manual.gromacs.org/archive/5.0.7/programs/gmx-trjconv.html>`_ のマニュアルをご確認ください。 :guilabel:`Execute` ボタンで処理を開始します。"
+msgstr "You can perform operations such as thinning, rotation, and calculation of spatial distribution functions on the trajectory data in the trr or xtc file output from Gromacs. Internally, the :command :command:`gmx trjconv` is executed. Please refer to the manual of `gmx trjconv <http://manual.gromacs.org/archive/5.0.7/programs/gmx-trjconv.html>`_ for more detailed behavior. Click :guilabel:`Execute` button to start the process."
 
 msgid "Output interval"
 msgstr "Output interval"
@@ -1168,6 +1168,9 @@ msgstr "Likewise select the B. Solvent system file on the :guilabel:`Solvent` ta
 msgid "同様に :guilabel:`Solute` タブでC. Solute systemのファイルを選択します。xtcファイルを指定した場合は、溶質がフレキシブルモデル、pdbまたはgroファイルを指定した場合は、剛体モデルとして扱われます。"
 msgstr "Similarly select the C. Solute system file in the :guilabel:`Solute` tab. If an xtc file is specified, if the solute specifies a flexible model, pdb or gro file, it is treated as a rigid body model."
 
+msgid ":guilabel:`Solute Name` において溶質の分子名を選択します。"
+msgstr "Select the molecular name of the solute in :guilabel:`Solute Name`."
+
 msgid "必要に応じて、 :guilabel:`Options` ボタンから自由エネルギー計算時のMPI並列数など指定します。"
 msgstr "If necessary, specify MPI parallel number at free energy calculation from :guilabel:`Options` button."
 
@@ -1213,5 +1216,11 @@ msgstr "After finishing MD calculation of each λ, to display the result, choose
 msgid "BAR法結果読み込み"
 msgstr "Import BAR"
 
-msgid ":ref:`md_gromacs_bar_start` にて処理した結果を表示します。メニュー選択後、:ref:`md_gromacs_bar_start` にて指定した出力先フォルダを指定してください。バックグラウンドで :command:`gmx bar` が実行され、結果が表示されます。 :guilabel:`Unit` にてエネルギーを表示する際の単位を指定できます。 :guilabel:`Log` ボタンを押すと、 :command:`gmx bar` のログファイルが表示されます。表示されるグラフは、溶質が溶媒と相互作用していない状態（λ=0）から相互作用している状態（λ=1）の間で自由エネルギーが変化する様子を示しています。"
-msgstr "The result of processing by :ref:`md_gromacs_bar_start` is displayed. After selecting the menu, please specify the output destination folder specified by :ref:`md_gromacs_bar_start`. In the background :command:`gmx bar` is executed and the result is displayed. You can specify units for displaying energy in :guilabel:`Unit`. When you press the :guilabel:`Log` button, the log file of :command:`gmx bar` is displayed. The displayed graph shows how the free energy varies between the state where the solute is not interacting with the solvent (λ = 0) and the state where the solute interacts (λ = 1)."
+msgid ":ref:`md_gromacs_bar_start` にて処理した結果を表示します。メニュー選択後、:ref:`md_gromacs_bar_start` にて指定した出力先フォルダを指定してください。"
+msgstr "Display the result of processing with :ref:`md_gromacs_bar_start`. After selecting the menu, specify the destination folder with :ref:`md_gromacs_bar_start`."
+
+msgid "バックグラウンドで :command:`gmx bar` が実行され、結果が表示されます。詳細な挙動は `gmx bar <http://manual.gromacs.org/archive/5.0.7/programs/gmx-bar.html>`_ のマニュアルをご確認ください。"
+msgstr "The :command:`gmx bar` is executed in the background and the result is displayed. Please refer to the manual of `gmx bar <http://manual.gromacs.org/archive/5.0.7/programs/gmx-bar.html>`_ for more detailed behavior."
+
+msgid ":guilabel:`Unit` にてエネルギーを表示する際の単位を指定できます。 :guilabel:`Log` ボタンを押すと、 :command:`gmx bar` のログファイルが表示されます。表示されるグラフは、溶質が溶媒と相互作用していない状態（λ=0）から相互作用している状態（λ=1）の間で自由エネルギーが変化する様子を示しています。"
+msgstr ":guilabel:`Unit` allows you to specify the unit in which the energy is displayed. If you press :guilabel:`Log` button, the log file of :command:`gmx bar` will be displayed. The displayed graph shows the change in free energy between the state in which the solute is not interacting with the solvent (λ=0) and the state in which it is interacting (λ=1)."

@@ -100,3 +100,9 @@ msgstr "Delphi/Pascal Wrapper around the library \"libssh2\""
 
 msgid "Putty"
 msgstr "Putty"
+
+msgid "Balloon"
+msgstr "Balloon"
+
+msgid "Spglib"
+msgstr "Spglib"

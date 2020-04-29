@@ -46,8 +46,8 @@ msgstr "To explicitly rotate the substructure, execute :ref:`edit_partial_edit` 
 msgid "様々な配座を取りうる分子の場合は :menuselection:`ツール -->` :ref:`tools_balloon` を実行し、エネルギーの低い構造を選択する。"
 msgstr "For molecules that can take various conformations, :menuselection:`Tools -->` :ref:`tools_balloon` and choose a structure with low energy."
 
-msgid "ポリマーの場合は、直接分子全体をモデリングしても良いが、 :ref:`md_polymer_top` の方法を使った方が効率が良い。"
-msgstr "For polymers, the entire molecule can be modeled directly, but it is more efficient to use :ref:`md_polymer_top`."
+msgid "ポリマーの場合は、直接分子全体をモデリングしても良いが、 :ref:`create_polymer` の方法を使う方が効率が良い。"
+msgstr "In the case of a polymer, you can model a whole molecule directly, but it is more efficient to use the method of :ref:`create_polymer`."
 
 msgid "結晶構造、スラブモデル、クラスターモデルの作成には、それぞれ :ref:`solid_crystalbuilder` , :ref:`solid_cleaveplane` , :ref:`solid_insertvacuum` , :ref:`solid_buildcluster` を実行する。"
 msgstr "To create the crystal structure, slab model or cluster model, execute :ref:`solid_crystalbuilder`, :ref:`solid_cleaveplane`, :ref:`solid_insertvacuum` or :ref:`solid_buildcluster`."
@@ -55,35 +55,32 @@ msgstr "To create the crystal structure, slab model or cluster model, execute :r
 msgid "点電荷の割り当て"
 msgstr "Assigning point charges"
 
-msgid "MD計算の場合は、多くの力場において点電荷を必要とするため、Winmostar上で設定する方法を紹介する。"
-msgstr "For MD simulation of organic compounds, point charge must be set by the following methods."
+msgid "MD計算で必要な点電荷をWinmostar上で設定する方法を紹介する。"
+msgstr "I will show you how to set the point charge on Winmostar, which is necessary for MD calculation."
 
 msgid "デフォルトのAM1/BCC電荷を用いる場合は明示的に電荷を設定する必要がない。 また、水分子には選択した水モデルの電荷の値が無条件で適用される。"
 msgstr "When using the default AM1/BCC charge, it is not necessary to explicitly set charge. Also, for water molecules, the charge value of the selected water model is automatically applied."
 
-msgid "AM1/BCC以外の電荷を使用する場合は、 :ref:`create_mole` の方法で1分子を作成した後、以下の方法で電荷を割り当てたうえで、各種キーワード設定ウィンドウの :guilabel:`Force Field` タブで :guilabel:`Use user-defined charge` を選択する。割り当てた電荷は :menuselection:`表示 -->` :ref:`view_labels_charges` を変更することで表示し確認することができる。"
-msgstr "When using charges other than AM1/BCC, create one molecule by the procedures in :ref:`create_mole`, assign electric charge in the following way, and then check :guilabel:`Use user-defined charge` at :guilabel:`Force Field` tab of configure window. The assigned charge can be displayed and confirmed by changing :menuselection:`View -->` :ref:`view_labels_charges`."
+msgid "AM1/BCC以外の電荷を使用する場合は、 :ref:`create_mole` の方法で1分子を作成した後、以下の方法で電荷を割り当てる。割り当てた電荷は :menuselection:`表示 -->` :ref:`view_labels_charges` を変更することで表示し確認することができる。"
+msgstr "If you want to use a charge other than AM1/BCC, create one molecule by the method :ref:`create_mole` and then assign a charge by the following method. The allocated charges can be displayed and checked by modifying :menuselection:`display -->` :ref:`view_labels_charges`."
 
-msgid "Gasteiger電荷を割り当てる。"
+msgid "AM1/BCC電荷またはGasteiger電荷を割り当てる。"
 msgstr "Assign Gasteiger charge."
 
-msgid ":menuselection:`MD --> 電荷を割り当て -->` :ref:`md_charge_acpype` の手順で割り当てる。イオンの場合は :guilabel:`Total charge [e]` に電荷を入力する。"
-msgstr "Go to :menuselection:`MD --> Assign Charges -->` :ref:`md_charge_acpype`. For ions, enter the charge into :guilabel:`Total charge [e]`."
-
-msgid "AM1/BCC電荷も同様の手順で明示的に割り当てられる。"
-msgstr "The AM1/BCC charge is also explicitly assigned in a similar procedure."
+msgid ":menuselection:`MD --> 手動で電荷を割り当て -->` :ref:`md_charge_acpype` の手順で割り当てる。イオンの場合は :guilabel:`Total charge [e]` に電荷を入力する。"
+msgstr "Assigning a charge manually --> using the procedure :menuselection:`MD --> :ref:`md_charge_acpype`. For ions, input the charge in :guilabel:`Total charge [e]`. If it is an ion, input the charge in :guilabel:`Total charge [e]`."
 
 msgid "RESP電荷を割り当てる。"
 msgstr "Assign RESP charge."
 
-msgid ":menuselection:`QM --> GAMESS --> キーワード設定 --> Easy Setup` にて、計算手法、基底関数を選択し、 :guilabel:`Method` に :guilabel:`ESP/RESP` を選択する。イオンの場合は :guilabel:`ICHARG` に電荷を入力する。"
-msgstr "Go to :menuselection:`QM --> GAMESS --> Configure --> Easy Setup`, check :guilabel:`ESP/RESP` and the other settings. In the case of ions, enter the charge into :guilabel:`ICHARG`."
+msgid ":menuselection:`QM --> GAMESS --> キーワード設定 --> Easy Setup` にて、計算手法、基底関数を「HF/6-31G*」に設定し、 :guilabel:`Method` に :guilabel:`ESP/RESP` を選択する。イオンの場合は :guilabel:`Charge` に電荷を入力する。"
+msgstr "In :menuselection:`QM --> GAMESS --> Preference --> Easy Setup`, set the calculation method and the base function to "HF/6-31G*" and select :guilabel:`ESP/RESP` for :guilabel:`Method`. For ions, input the charge to :guilabel:`Charge`."
 
-msgid ":guilabel:`Easy Setup` ウィンドウを :guilabel:`Close` ボタンで閉じ、 :guilabel:`GAMESS Setup` ウィンドウで :guilabel:`Run` ボタンを押し計算を実行する。"
-msgstr "Close the :guilabel:`Easy Setup` window with the :guilabel:`Close` button and press the:guilabel:`Run` button in the configure window to execute the calculation."
+msgid ":guilabel:`Easy Setup` ウィンドウを :guilabel:`OK` ボタンで閉じ、 :guilabel:`GAMESS Setup` ウィンドウで :guilabel:`Run` ボタンを押し計算を実行する。"
+msgstr "Close the :guilabel:`Easy Setup` window with the :guilabel:`OK` button and press the:guilabel:`Run` button in the configure window to execute the calculation."
 
-msgid "GAMESSの計算が終了したら :menuselection:`QM --> GAMESS -->` :ref:`qm_gamess_resp` にてRESP電荷を取得する。"
-msgstr "When GAMESS calculation is finished, obtain RESP charge with :menuselection:`QM --> GAMESS -->` :ref:`qm_gamess_resp`."
+msgid "GAMESSの計算が終了したら :menuselection:`QM --> GAMESS --> 結果解析 -->` :ref:`qm_gamess_resp` にてRESP電荷を取得する。"
+msgstr "When the GAMESS calculation is finished, retrieve the RESP charge at :menuselection:`QM --> GAMESS --> result analysis -->` :ref:`qm_gamess_resp`."
 
 msgid "MOPAC, GAMESS, Gaussian, NWChem, Quantum ESPRESSOのPopulation解析結果の電荷をメインウィンドウに読み込む。"
 msgstr "Read the charge calculated from the population analysis, e.g. Mulliken or Lowdin charge, for into the main window."
@@ -100,8 +97,8 @@ msgstr "Otherwise, open the log file in the main window."
 msgid "元素ごとに値を指定して割り当てる。"
 msgstr "Enter values for each element."
 
-msgid ":menuselection:`MD --> 電荷を割り当て -->` :ref:`md_charge_manual` の手順で割り当てる。"
-msgstr "Use :menuselection:`MD --> Assign Charge -->` :ref:`md_charge_manual`."
+msgid ":menuselection:`MD --> 手動で電荷を割り当て -->` :ref:`md_charge_manual` の手順で割り当てる。"
+msgstr "Assigning a charge manually :menuselection:`MD -->Assign Charges Manually -->  :ref:`md_charge_manual`."
 
 msgid "選択した原子に値を入力して割り当てる。"
 msgstr "Enter a value for the selected atom."
@@ -109,8 +106,14 @@ msgstr "Enter a value for the selected atom."
 msgid "電荷を入力したい原子を :ref:`分子表示エリア <gui_main>` で :ref:`グループ選択 <gui_mouse>` し、 :menuselection:`編集 --> 属性を変更 -->` :ref:`edit_property_charge` から電荷を入力する。"
 msgstr ":ref:`Group select <gui_mouse>` atoms for which you want to input a charge in the :ref:`Viewport <gui_main>`, and then input a charge from :menuselection:`Edit --> Change Atom Property -->` :ref:`edit_property_charge`."
 
-msgid "ポリマーの場合は、直接分子全体のAM1/BCC電荷、RESP電荷などを計算すると時間が掛かるため、 :ref:`md_polymer_top` の方法を使う。"
-msgstr "In the case of polymers, it takes time to directly calculate the AM1/BCC or RESP charge of the whole molecule. So use :ref:`md_polymer_top`."
+msgid "テキストファイル上で直接編集して割り当てる。"
+msgstr "Edit and assign directly on the text file."
+
+msgid "一旦分子構造を :menuselection:`ファイル -->` :ref:`file_saveas` においてmol2形式で保存し、保存したmol2ファイルを任意のテキストエディタで開き、 :command:`@<TRIPOS>ATOM` から始まるセクションの9列目の値を編集する。編集後、 :menuselection:`ファイル -->` :ref:`file_reload_file` をクリックし、編集後の構造を読み込む。"
+msgstr "Once the molecular structure is saved in :menuselection:`File -->` :ref:`file_saveas` in mol2 format, open the mol2 file with any text editor and edit the values in the ninth column of the section starting with :command:`@<TRIPOS>ATOM`. After editing, click on :menuselection:`file -->` :ref:`file_reload_file` to load the edited structure."
+
+msgid "ポリマーの場合は、直接分子全体のAM1/BCC電荷、RESP電荷などを計算すると時間が掛かるため、 :ref:`create_polymer` の方法を使う。"
+msgstr "In the case of polymers, the method of :ref:`create_polymer` is used because it takes time to calculate AM1/BCC and RESP charges of the whole molecule directly."
 
 msgid "孤立系（気体）の作成"
 msgstr "Creating an isolated system (gas phase)"
@@ -121,8 +124,8 @@ msgstr "Create a structure of one molecule (See :ref:`create_mole`). In the case
 msgid "MD計算の場合は :ref:`create_charge` の方法で電荷を割り当てる。"
 msgstr "In the case of MD simulation, assign point charges (See :ref:`create_charge`)."
 
-msgid ":ref:`edit_createcell` にて :menuselection:`Create --> Distance` の値を設定し :guilabel:`Create` ボタンを押す。適宜セルのサイズを微調整した上で、 :guilabel:`OK` ボタンを押す。"
-msgstr "At :ref:`edit_createcell` set :menuselection:`Create --> Distance` and press :guilabel:`Create` button. After fine-tuning the size of the cell, press :guilabel:`OK` button."
+msgid ":menuselection:`MD -->` :ref:`edit_createcell` にて :menuselection:`Create --> Distance` の値を設定し :guilabel:`Create` ボタンを押す。適宜セルのサイズを微調整した上で、 :guilabel:`OK` ボタンを押す。"
+msgstr "In :menuselection:`MD -->` :ref:`edit_createcell`, set the value of :menuselection:`Create --> Distance` and press the :guilabel:`Create` button. Adjust the size of the cell and press the :guilabel:`OK` button."
 
 msgid "低分子液体の作成"
 msgstr "Creating a small molecule liquid system"
@@ -130,14 +133,14 @@ msgstr "Creating a small molecule liquid system"
 msgid ":ref:`create_mole` の方法で1分子の構造を作成する。"
 msgstr "Create a structure of one molecule (See :ref:`create_mole`). "
 
-msgid "mol2形式で保存する。"
-msgstr "Save in mol2 format."
+msgid ":menuselection:`ファイル -->` :ref:`file_saveas` からmol2形式で保存する。"
+msgstr "Save a file by :menuselection:`File -->` :ref:`file_saveas` in mol2 format."
 
 msgid "1.から3.の手順を計算したい全ての分子種に対して行う。"
 msgstr "Procedures 1 to 3 are performed for all molecular species to be calculated."
 
-msgid ":ref:`md_solvate_buildcell` を選択する。"
-msgstr "Select :ref:`md_solvate_buildcell`."
+msgid ":menuselection:`MD -->` :ref:`md_solvate_buildcell` を選択する。"
+msgstr "Select :menuselection:`MD -->` :ref:`md_solvate_buildcell`."
 
 msgid "系内にどの分子を何分子入れるか決める。 メインウィンドウに表示された分子は :guilabel:`Add Displayed Molecule` , 水分子の場合は :guilabel:`Add Water` をクリックする。 それ以外の場合は :guilabel:`Add mol2 File` をクリックし1.から4.の手順で保存したmol2ファイルを選択する。"
 msgstr "Determine which molecules to put in the system. For the molecules displayed in the main window, press :guilabel:`Add Displayed Molecule`. For water molecules, press :guilabel:`Add Water`. For the other cases, press :guilabel:`Add mol2 File`."
@@ -151,8 +154,8 @@ msgstr "Perform 6 and 7 for all molecular species you want to calculate."
 msgid ":guilabel:`Solvate/Build MD Cell` ウィンドウ下部の :guilabel:`Simulation Cell` にてシステムサイズを設定し、 :guilabel:`Build` ボタンを押す。"
 msgstr "Set the system size at :guilabel:`Simulation Cell` and press :guilabel:`Build` button."
 
-msgid "密度が高いと系の作成に失敗することがあるので、少し低い密度から始め、圧力一定計算で目的の密度、圧力まで徐々に圧縮してください。"
-msgstr "If the density is high, it may fail to create the system. Start with a slightly lower density and gradually compress to the desired density and pressure with constant pressure calculation."
+msgid "密度が高いと系の作成に失敗することがあるので、低い密度（実験値が分かっている場合は実験値の40 %程度）から始め、圧力一定計算で目的の密度、圧力まで徐々に圧縮してください。"
+msgstr "Since the system may fail at higher densities, start at a lower density (about 40 % of the experimental value if the experimental value is known) and gradually compress it to the desired density and pressure using constant pressure calculations."
 
 msgid ":ref:`cygwinwm_top` がインストールされていない、または :ref:`md_solvate_buildcell` 機能で配置するのが困難な場合は、 :ref:`edit_partial_edit` :menuselection:`--> 部分複製` 、 :ref:`edit_createcell` 、 :ref:`file_append` を組み合わせることでも作成可能です。"
 msgstr "Use :ref:`edit_partial_edit` :menuselection:`--> Replicate Group`, :ref:`edit_createcell` and :ref:`file_append` when :ref:`cygwinwm_top` is not installed or it is difficult to arrange with :ref:`md_solvate_buildcell`."
@@ -160,23 +163,26 @@ msgstr "Use :ref:`edit_partial_edit` :menuselection:`--> Replicate Group`, :ref:
 msgid "ポリマーの作成"
 msgstr "Creating polymer melt system"
 
-msgid ":ref:`create_mole` の方法で計算したいポリマーの繰り返し単位（ここではモノマーと呼ぶ）を作成する。"
-msgstr "Create repeating units (called monomers here) of the polymer you want to calculate (See :ref:`create_mole`)."
+msgid ":ref:`create_mole` の方法で計算したいポリマーの繰り返し単位（ここではモノマーと呼ぶ）を作成する。例えば、ポリエチレンの場合はエチレン分子ではなくエタン分子を作成する。"
+msgstr "Create a polymer repetition unit (here we will call it a monomer) to be calculated by the method :ref:`create_mole`. For example, in the case of polyethylene, create an ethane molecule instead of an ethylene molecule."
 
-msgid ":ref:`分子表示エリア <gui_main>` にて、隣のモノマーと接続する原子を2か所左クリックし、 :ref:`md_polymer_register` の方法でモノマーとして登録する。"
-msgstr "In :ref:`Viewport <gui_main>`, left click on the two atoms to be connected with the next monomers and register it as a monomer at :ref:`md_polymer_register`."
+msgid "MD計算の場合は、モノマーの状態で :ref:`create_charge` の方法で電荷を割り当てる。"
+msgstr "In the case of MD calculation, the charge is assigned by the method :ref:`create_charge` in the state of the monomer."
 
-msgid "作成したいポリマーの構造に応じて、 :ref:`md_polymer_homo` 、 :ref:`md_polymer_block` 、 :ref:`md_polymer_random` の操作を実行する。"
-msgstr "Depending on the structure of the polymer you want to create, execute :ref:`md_polymer_homo`, :ref:`md_polymer_block` or :ref:`md_polymer_random`."
+msgid ":ref:`分子表示エリア <gui_main>` にて、隣のモノマーと接続する原子を2か所左クリックし、 :menuselection:`MD --> ポリマー -->` :ref:`md_polymer_register` の方法でモノマーとして登録する。"
+msgstr "In :ref:`Molecule Display Area <gui_main>`, left-click two atoms connected with the neighboring monomer and register them as monomers by :menuselection:`MD --> Polymer -->` :ref:`md_polymer_register`."
+
+msgid "作成したいポリマーの構造に応じて、:menuselection:`MD --> ポリマー -->` :ref:`md_polymer_homo` 、 :ref:`md_polymer_block` 、 :ref:`md_polymer_random` の操作を実行する。"
+msgstr "Depending on the structure of the polymer to be created, perform operations :menuselection:`MD --> Polymer -->` :ref:`md_polymer_homo`, :ref:`md_polymer_block` and :ref:`md_polymer_random`."
 
 msgid "例えば `-[AAABBB]-` のような構造の場合は、一旦 :ref:`md_polymer_block` を使用して `AAABBB` を作成し、 :file:`wpo` フォルダに作成されたwpoファイル（実態はmol2形式）を再度 :ref:`md_polymer_register` にてモノマーとして登録し :ref:`md_polymer_homo` を使用する。"
 msgstr "For example, in the case of a structure like `-[AAABBB]-`, create `AAABBB` using :ref:`md_polymer_block` first, then open a wpo file generated in the :file:`wpo` folder, register  as a new monomer at :ref:`md_polymer_register` and execute :ref:`md_polymer_homo`."
 
-msgid ":ref:`md_polymer_cell` の操作を実行し、シミュレーションセルを作成する。"
-msgstr "Execute the operation of :ref:`md_polymer_cell` to create a simulation cell."
+msgid ":menuselection:`MD --> ポリマー -->` :ref:`md_polymer_cell` の操作を実行し、シミュレーションセルを作成する。"
+msgstr "Create a simulation cell by performing the operation :menuselection:`MD --> Polymer -->` :ref:`md_polymer_cell`."
 
-msgid "ポリマー中に低分子成分が溶解している場合は、5.の手順で密度を小さめに設定し、 :ref:`create_mole` と :ref:`create_charge` の手順であらかじめ作成しmol2形式で保存した低分子成分を :ref:`md_insert_molecules` にて選択し挿入する。"
-msgstr "If the small molecules are dissolved in the polymer, set the density to a smaller value at procedure 5. Next, prepare a structure of the small molecule (see :ref:`create_mole` and :ref:`create_charge`) and save it in mol2 format. Then, execute :ref:`md_insert_molecules` and select the mol2 file for the small molecule."
+msgid "ポリマー中に低分子成分が溶解している場合は、 :ref:`create_mole` と :ref:`create_charge` の手順で溶解している低分子を作成しあらかじめmol2形式で保存しておく。そして、5.の手順の後で保存した低分子成分のmol2ファイルを :menuselection:`MD -->` :ref:`md_insert_molecules` にて選択し挿入する。5.の手順において密度を低めに設定しないと低分子成分の挿入に失敗することがある。"
+msgstr "NOTTRANSLATED"
 
 msgid "気液界面の作成"
 msgstr "Creating gas-liquid interface"
@@ -184,8 +190,219 @@ msgstr "Creating gas-liquid interface"
 msgid ":ref:`create_liquid` の方法で液相を作成する。"
 msgstr "Create a liquid phase (see :ref:`create_liquid`)."
 
-msgid ":ref:`edit_createcell` にて :menuselection:`Expand --> Width` の値と :guilabel:`Axis` を設定し :guilabel:`Expand` ボタンを押す。Expandするサイズは、気相のサイズにする。その後、 :guilabel:`OK` ボタンを押す。"
+#, fuzzy
+msgid ":menuselection:`編集 -->` :ref:`edit_createcell` にて :menuselection:`Expand --> Width` の値と :guilabel:`Axis` を設定し :guilabel:`Expand` ボタンを押す。Expandするサイズは、気相のサイズにする。その後、 :guilabel:`OK` ボタンを押す。"
 msgstr "At :ref:`edit_createcell`, set :menuselection:`Expand --> Width` and :guilabel:`Axis` and press :guilabel:`Expand` button. The size to be expanded is equivalent to the size of the gas phase. Then press the :guilabel:`OK` button."
 
-msgid "液相の構造をMD計算で緩和した後にExpandする場合は、MD計算後の構造においてシミュレーションセルの外の座標を持つ原子が多く存在するため、Expandする前に :ref:`edit_wrap_pbc` を選択する。分子系の場合は :guilabel:`セルの内側に分子単位で再配置` 、無機系では :guilabel:`セルの内側に原子単位で再配置` を選択する。"
+#, fuzzy
+msgid "液相の構造をMD計算で緩和した後にExpandする場合は、MD計算後の構造においてシミュレーションセルの外の座標を持つ原子が多く存在するため、Expandする前に :menuselection:`編集 -->` :ref:`edit_wrap_pbc` を選択する。分子系の場合は :guilabel:`セルの内側に分子単位で再配置` 、無機系では :guilabel:`セルの内側に原子単位で再配置` を選択する。"
 msgstr "When expanding the structure of liquid phase after relaxation by MD calculation, there are many atoms with coordinates outside the simulation cell. So select :ref:`edit_wrap_pbc` before expanding. Select :guilabel:`Wrap for each molecules` or :guilabel:`Wrap for each atoms` for organic (molecular) or inorganic systems, respectively."
+
+#, fuzzy
+msgid "液液界面の作成"
+msgstr "Creating gas-liquid interface"
+
+msgid ":ref:`create_liquid` の方法で片方の液相を作成する。この時、予め2つの相に含まれる全ての種類の分子についてmol2ファイルを作成しておく。"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid "もう片方の相にどの分子を何分子入れるか決める。 水分子の場合は :guilabel:`Add Water` をクリックする。 それ以外の場合は :guilabel:`Add mol2 File` をクリックしmol2ファイルを選択する。"
+msgstr "Determine which molecules to put in the system. For the molecules displayed in the main window, press :guilabel:`Add Displayed Molecule`. For water molecules, press :guilabel:`Add Water`. For the other cases, press :guilabel:`Add mol2 File`."
+
+#, fuzzy
+msgid "4.、5.の手順を計算したい全ての分子種に対して行う。"
+msgstr "Perform 6 and 7 for all molecular species you want to calculate."
+
+msgid ":guilabel:`Simulatoin Cell` タブで :guilabel:`Set Lattice Constants` にチェックを入れ、 :guilabel:`Same as main window` ボタンをクリックする。次に、 :guilabel:`Box Type` で「triclinic」を選択する。 :guilabel:`Set Lattice Constants` の右に、最初に作成した相のセルサイズが表示される。そのうち、一番右の欄（z方向）の値を変更する。その際、その上の :guilabel:`Set Density` の右に表示される密度を参考にする。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Build` ボタンを押す。"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid ":menuselection:`MD -->` :ref:`md_interface` をクリックする。"
+msgstr "Use :menuselection:`MD --> Assign Charge -->` :ref:`md_charge_manual`."
+
+msgid ":guilabel:`Cell` タブの :guilabel:`Cell 1` の :guilabel:`Browse` ボタンをクリックし、2.で保存したファイルを選択する。同様に、 :guilabel:`Cell 2` においては、9.で保存したファイルを選択する。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Direction` タブの :guilabel:Interval` に液相間の距離を入力する。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Build` ボタンをクリックし、保存するファイル名を入力してから :guilabel:`保存` ボタンをクリックする。"
+msgstr "NOTTRANSLATED"
+
+msgid "タンパク質の作成（リガンドなし）"
+msgstr "NOTTRANSLATED"
+
+msgid "計算したいタンパク質のpdbファイルをWinmostarで開く。"
+msgstr "NOTTRANSLATED"
+
+msgid ":menuselection:`選択 -->` :ref:`select_mole` の手順でタンパク以外の成分（結合水、緩衝剤、リガンドなど）をグループ選択してから、 :menuselection:`編集 --> グループ編集 -->` :ref:`edit_partial_delete` の手順で選択グループを削除する。"
+msgstr "NOTTRANSLATED"
+
+msgid ":menuselection:`編集 --> 水素を付加 -->` :ref:`edit_addh_pdb2gmx` を実行する。実行前の状態で水素が付加されているように見える場合も、この処理を省略すると後ほど計算に失敗することがある。"
+msgstr "NOTTRANSLATED"
+
+msgid ":menuselection:`MD -->` :ref:`md_solvate_buildcell` をクリックする。 :guilabel:`Add Displayed Molecule` をクリックし、 :guilabel:`Enter # of molecules` で「1」と入力し :guilabel:`OK` ボタンをクリックする。 次に :guilabel:`Add Water` ボタンをクリックし、 :guilabel:`Enter # of molecules` で適当な分子数（5000～10000程度）を入力し、 :guilabel:`OK` ボタンをクリックする。その後、 :guilabel:`Build` ボタンをクリックする。"
+msgstr "NOTTRANSLATED"
+
+msgid "系を中性化するために :menuselection:`MD -->` :ref:`md_replace_ion` の手順でイオンを配置する。「WARNING: The charges defined on the main window will be discarded. Are you sure you want to continue?」と表示されたら :guilabel:`はい` をクリックする。"
+msgstr "NOTTRANSLATED"
+
+msgid "なお、この後MD計算を実行する場合は、上記手順を実行した後ファイルを保存すると、残基情報などが適切に保存されないことがあるため、上記手順を実行後続けてMD計算を実行することが望ましい。"
+msgstr "NOTTRANSLATED"
+
+msgid "タンパク質の作成（リガンドあり）"
+msgstr "NOTTRANSLATED"
+
+msgid "計算したいタンパク質-リガンド複合体のpdbファイルをWinmostarで開く。"
+msgstr "NOTTRANSLATED"
+
+msgid ":menuselection:`選択 -->` :ref:`select_mole` の手順でリガンド以外の成分（タンパク、結合水、緩衝剤など）をグループ選択してから、:menuselection:`編集 -->` :ref:`edit_partial_delete` の手順で選択グループを削除する。"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid ":menuselection:`編集 --> 水素を付加 -->` :ref:`edit_addh_openbabel` を実行する。"
+msgstr "Use :menuselection:`MD --> Assign Charge -->` :ref:`md_charge_manual`."
+
+msgid ":menuselection:`ファイル -->` :ref:`file_saveas` にてリガンドの構造をmol2形式で保存する。"
+msgstr "NOTTRANSLATED"
+
+msgid "再び計算したいタンパク質-リガンド複合体のpdbファイルをWinmostarで開く。"
+msgstr "NOTTRANSLATED"
+
+msgid ":ref:`md_solvate_buildcell` をクリックする。 :guilabel:`Add Displayed Molecule` をクリックし、 :guilabel:`Enter # of molecules` で「1」と入力し :guilabel:`OK` ボタンをクリックする。 次に :guilabel:`Add Water` ボタンをクリックし、:guilabel:`Enter # of molecules` で適当な分子数（5000～10000程度）を入力し、 :guilabel:`OK` ボタンをクリックする。そして、 :guilabel:`Add mol2 File` ボタンをクリックし、4.で保存したmol2ファイルを開き、 :guilabel:`Enter # of molecules` で「1」と入力し、 :guilabel:`OK` ボタンをクリックする。「この分子を乱数的に配置しますか？」と聞かれたら :guilabel:`いいえ` をクリックする。その後、 :guilabel:`Build` ボタンをクリックする。"
+msgstr "NOTTRANSLATED"
+
+msgid "無機結晶の作成"
+msgstr "NOTTRANSLATED"
+
+msgid "CIFファイルなどで計算したい結晶のデータを既に持っている場合は、Winmostarでそのファイルを開く。そのようなファイルがない場合は、以下の操作を行う。"
+msgstr "NOTTRANSLATED"
+
+msgid ":menuselection:`固体 -->` :ref:`solid_crystalbuilder` をクリックする。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Crystal Builder` ウィンドウ右上の以下の項目を選択する。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Lattice` の :guilabel:`Crystal System` から計算したい結晶の分類を選択する。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Lattice` の :guilabel:`Space Group` から計算したい結晶の空間群を選択する。 :guilabel:`Space Group` の選択肢は :guilabel:`Crystal System` によって変化する。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Lattice Constants` に計算したい結晶の格子定数を入力する。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Crystal Builder` ウィンドウ右下のリストに、非対称要素の原子を入力する。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Atom` の欄をダブルクリックし元素の種類を入力する。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`X` , :guilabel:`Y` , :guilabel:`Z` の欄をダブルクリックし座標を記入する。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Add` ボタンで原子を追加する。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Remove` ボタンでリスト中で選択された原子を削除する。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`OK` ボタンをクリックして、結晶ビルダで指定した構造をメインウィンドウに反映する。"
+msgstr "NOTTRANSLATED"
+
+msgid "無機結晶の作成（点欠陥または元素置換あり）"
+msgstr "NOTTRANSLATED"
+
+msgid "欠陥がない状態の結晶のCIFファイルを開くか、 :ref:`create_inorganic_crystal` の方法で結晶構造を作成する。"
+msgstr "NOTTRANSLATED"
+
+msgid ":menuselection:`固体 -->` :ref:`solid_supercell` をクリックする。 :guilabel:`a` , :guilabel:`b` , :guilabel:`c` の値を大きくし、スーパーセルのサイズを指定する（まずは各方向2程度）。最後に :guilabel:`OK` ボタンをクリックする。"
+msgstr "NOTTRANSLATED"
+
+msgid "メインウィンドウにおいて、点欠陥を作りたい箇所の原子または、元素を置換したい原子を左クリックし赤いマーカーが付いた状態にする。"
+msgstr "NOTTRANSLATED"
+
+msgid "点欠陥を作りたい場合は、 :menuselection:`編集 -->` :ref:`edit_partial_delete` をクリックする。"
+msgstr "NOTTRANSLATED"
+
+msgid "元素を置換したい場合は、 :menuselection:`編集 -->` :ref:`edit_element` から変更後の元素を選択し、その後 :menuselection:`編集 --> 属性を変更 -->` :ref:`edit_attribute_element` をクリックする。"
+msgstr "NOTTRANSLATED"
+
+msgid "無機スラブ（表面）の作成"
+msgstr "NOTTRANSLATED"
+
+msgid "バルクの状態の結晶のCIFファイルを開くか、 :ref:`create_inorganic_crystal` の方法で結晶構造を作成する。"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid ":menuselection:`固体 -->` :ref:`solid_cleaveplane` をクリックする。"
+msgstr "Use :menuselection:`MD --> Assign Charge -->` :ref:`md_charge_manual`."
+
+msgid ":guilabel:`Cleave Plane (h k l)` の欄にミラー指数を入力し、 :guilabel:`Next >>` ボタンをクリックする。"
+msgstr "NOTTRANSLATED"
+
+msgid "直方セルを検索したい場合は :guilabel:`Definition of Lattice` で :guilabel:`Auto(Ortho)` 、直方セル以外も検索したい場合は :guilabel:`Auto(All)` 、手動でセルを定義したい場合は :guilabel:`Manual` を選択し、 :guilabel:`OK` ボタンをクリックする。「Transform unit cell?」と聞かれたら :guilabel:`はい` をクリックする。"
+msgstr "NOTTRANSLATED"
+
+msgid ":menuselection:`固体 -->` :ref:`solid_insertvacuum` をクリックする。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Vacuum` の欄に挿入する真空層の厚みを入力する。Quantum ESPRESSOのESM法で計算する場合は、 :guilabel:`Automatically shift to center` のチェックを外し、 :guilabel:`Reference plane` を :guilabel:`Base` に変更する。最後に、 :guilabel:`OK` ボタンをクリックする。"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid "分子吸着表面の作成"
+msgstr "Modelling a single molecule"
+
+#, fuzzy
+msgid ":ref:`create_mole` の方法で吸着させる分子を作成する。"
+msgstr "Create a structure of one molecule (See :ref:`create_mole`). "
+
+#, fuzzy
+msgid ":ref:`create_slab` の方法で表面を作成する。"
+msgstr "Create a liquid phase (see :ref:`create_liquid`)."
+
+msgid ":menuselection:`固体 -->` :ref:`solid_supercell` をクリックする。 :guilabel:`a` , :guilabel:`b` の値を大きくし、スーパーセルのサイズを指定する。最後に :guilabel:`OK` ボタンをクリックする。"
+msgstr "NOTTRANSLATED"
+
+msgid ":menuselection:`ファイル -->` :ref:`file_append` をクリックし、先ほど保存した吸着分子のmol2ファイルを選択する。その後、 :menuselection:`編集 --> グループ編集 -->` :ref:`edit_group_rotate_mouse` , :ref:`edit_group_rotate_slider` , :ref:`edit_group_rotate_orien` , :ref:`edit_group_move_mouse` , :ref:`edit_group_move_slider` などの機能を用いて、吸着分子の配向、位置を変更する。"
+msgstr "NOTTRANSLATED"
+
+msgid "固固界面（粒界）の作成"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid ":ref:`create_inorganic_crystal` の方法で片方の固体を作成する。"
+msgstr "Create a structure of one molecule (See :ref:`create_mole`). "
+
+msgid "シミュレーションセル直上の原子を、接合方向両方に残しておきたい場合は、 :menuselection:`固体 -->` :ref:`solid_insertvacuum` において :guilabel:`Vacuum` に0より少し大きい値（0.001など）を入力し :guilabel:`OK` ボタンをクリックする。"
+msgstr "NOTTRANSLATED"
+
+#, fuzzy
+msgid ":menuselection:`ファイル -->` :ref:`file_saveas` からcif形式で保存する。"
+msgstr "Read SMILES format string from :menuselection:`File --> Import -->` :ref:`file_import_smiles`."
+
+msgid ":ref:`create_slab` の方法でもう片方の固体を作成する。また、必要に応じて2.と同様の操作を行う。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Cell` タブの :guilabel:`Cell 1` の :guilabel:`Browse` ボタンをクリックし、3.で保存したファイルを選択する。同様に、 :guilabel:`Cell 2` においては、5.で保存したファイルを選択する。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Direction` タブの :guilabel:Interval` に固体間の距離を入力する。ただし、2.において真空層を挿入している場合は、そこで挿入した真空層の厚みを考慮して :guilabel:`Interval` に値を入力する。"
+msgstr "NOTTRANSLATED"
+
+msgid ":guilabel:`Repeat` タブに移動すると、3つの :guilabel:`Suggest` ボタンのうち、上ふたつ（a-axisとb-axis）が押せる状態になっている。この :guilabel:`Suggest` ボタンをクリックし、 :guilabel:`Ratio` の値（Cell1とCell2のセルサイズ比率）が1に近く、かつシステムサイズが大きすぎない行を選択し、 :guilabel:`Set` ボタンをクリックする。"
+msgstr "NOTTRANSLATED"
+
+msgid "Ctrl+左ドラッグなどにより、片方の固体をグループ選択する。詳細は :ref:`select_top` を参照する。"
+msgstr "NOTTRANSLATED"
+
+msgid ":menuselection:`編集 --> グループ編集 -->` :ref:`edit_group_move_slider` をクリックし、X, Y方向にグループを並進移動させる。 :menuselection:`表示 -->` :ref:`view_three` を有効にすると位置の確認をしやすくなる。"
+msgstr "NOTTRANSLATED"
+
+
+

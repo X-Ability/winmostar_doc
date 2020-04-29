@@ -286,6 +286,9 @@ msgstr "Insert Vacuum"
 msgid "結晶構造の上下に真空層を挿入し、スラブモデルの構築します。"
 msgstr "Insert a vacuum layer above and below the crystal structure and construct a slab model."
 
+msgid "本機能を使って真空層を挿入すると、真空層に接する面の両側に原子がコピーされるが、 :menuselection:`編集 -->` :ref:`edit_createcell` を使って真空層を挿入してもそのようにならず原子数は変化しない。"
+msgstr "When a vacuum layer is inserted using this function, atoms are copied on both sides of the surface touching the layer, but the number of atoms does not change when the layer is inserted using :menuselection:`edit -->` :ref:`edit_createcell`."
+
 msgid "Axis"
 msgstr "Axis"
 
