@@ -80,28 +80,28 @@ msgid "「物理アドレス」行が複数ある場合、Winmostarのノード�
 msgstr "If there is more than one \"physical address\" line, basically any \"physical address\" can be used as the MAC address for Winmostar's node-locked license purchase."
 
 msgid "Q. Winmostarのライセンス料に、Gaussianのライセンス料は含まれていますか？Gaussianのライセンスが付属したWinmostarのラインナップはありますか？"
-msgstr "Q. Does Winmostar license fee include Gaussian license fee, and is there a Winmostar lineup with Gaussian license?"
+msgstr "Q\. Does Winmostar license fee include Gaussian license fee, and is there a Winmostar lineup with Gaussian license?"
 
 msgid "A. Winmostarのライセンス料に、Gaussianのライセンス料は含まれていません。Gaussianのライセンスが付属したWinmostarのラインナップはありません。Gaussianの代理店から別途ご購入ください。"
-msgstr "A. Winmostar license fee does not include Gaussian license fee; there is no Winmostar lineup with Gaussian license; please purchase it separately from Gaussian distributor."
+msgstr "A\. Winmostar license fee does not include Gaussian license fee. There is no Winmostar lineup with Gaussian license. Please purchase it separately from Gaussian distributor."
 
 msgid "サポート・保守に関して"
 msgstr "Support and Maintenance"
 
 msgid "Q. 不具合サポートやパッチ提供は受けられますか?"
-msgstr "Q. Can I get support for bugs or patches?"
+msgstr "Q\. Can I get support for bugs or patches?"
 
 msgid "使用規約の内容に基づき実施されます。最新の使用規約はこちら（ `Winmostar V10 使用規約 <https://winmostar.com/pdf/Winmostar_Terms_of_use.pdf>`_ ）です。"
 msgstr "This will be done in accordance with the terms of use. The latest terms of use are here ( `Winmostar V10 Terms of Use <https://winmostar.com/pdf/Winmostar_Terms_of_use.pdf>`_ )."
 
 msgid "Q. 旧バージョンのサポート・保守はどこまで行われますか?"
-msgstr "Q. How long do you plan to support and maintain the previous version?"
+msgstr "Q\. How long do you plan to support and maintain the previous version?"
 
 msgid "ご使用中のバージョンのWinmostarに関する、有効な使用規約に記載の内容に基づきます。また、操作方法の簡単な案内は、可能な範囲で対応します。"
 msgstr "Based on the terms of use in effect for your version of Winmostar. In addition, simple instructions on how to operate the system will be provided to the extent possible."
 
 msgid "Q. 製造元と直接連絡取ることはできますか?"
-msgstr "Q. Can I get in touch with the manufacturer directly?"
+msgstr "Q\. Can I get in touch with the manufacturer directly?"
 
 msgid "`問い合わせフォーム <https://winmostar.com/jp/support_jp.php>`_ から連絡を取ることができますが、対応の可否は利用規約に基づきます。最新の使用規約はこちら（ `Winmostar V10 使用規約 <https://winmostar.com/pdf/Winmostar_Terms_of_use.pdf>`_ ）です。 `有償サポート <https://winmostar.com/jp/paid_supports/#support2>`_ を利用することで、より進んだメールでのサポートが可能となります。"
 msgstr "You can contact us through the `contact form <https://winmostar.com/jp/support_jp.php>`_, but our availability is subject to our terms and conditions. The latest terms of use are here ( `Winmostar V10 Terms of Use <https://winmostar.com/pdf/Winmostar_Terms_of_use.pdf>`_ ). You can use `paid support <https://winmostar.com/jp/paid_supports/#support2>`_ for more advanced email support."
@@ -110,7 +110,7 @@ msgid "Q. 「Winmostar」の呼び方は何ですか？"
 msgstr "How to pronounce Winmostar."
 
 msgid "A. 「ウインモスター」です。Wikipedia等では誤情報が掲載されることがありますが、こちらが正式な呼び方です。"
-msgstr "win·mo·str"
+msgstr "A\. win·mo·str"
 
 msgid "Q. 使用しているWinmostarのアップデート・バージョンアップ・アップグレードは可能ですか?"
 msgstr "Q\. Is it possible to update/upgrade version  of the Winmostar I am using?"
@@ -125,16 +125,16 @@ msgid "例えば、Winmostar V9の永久使用権のライセンス取得者は�
 msgstr "For example, a perpetual licensee of Winmostar V9 can update from V9.1.0 to V9.1.5 or V9.4.4, but it is not possible to update to V10.0.0."
 
 msgid "Q. 質問するときの注意事項はありますか？"
-msgstr "Are there any precautions when asking a question?"
+msgstr "Q\. Are there any precautions when asking a question?"
 
 msgid "A. 計算が上手く流れない等の質問の場合、原則として状況を再現するインプットやアウトプットファイルをお送り下さい。"
-msgstr "If you have a question that the calculation does not work properly, please send us an input or output file that reproduces the situation in principle."
+msgstr "A\. If you have a question that the calculation does not work properly, please send us an input or output file that reproduces the situation in principle."
 
 msgid "ソフトウェアの機能・利用について"
 msgstr "Functions and use of the software"
 
 msgid "Q. Winmostarは社内外のサーバやクラウドに接続しますか?LAN接続していない状態でも利用可能ですか?"
-msgstr "Q. Does Winmostar connect to internal and external servers or the cloud, or can it be used without a LAN connection?"
+msgstr "Q\. Does Winmostar connect to internal and external servers or the cloud, or can it be used without a LAN connection?"
 
 msgid "A. リモートジョブを使う場合のみ接続します。デフォルトの操作方法では、一切外部ネットワークに接続することはありません。Winmostarの動作に、ネットワーク接続は必須ではないため、オフライン環境でも使用することができます。ネットワークに接続していないPCにインストールする場合は、 :ref:`install_install` の手順で登場する各種ソフトウェアを予め他のPCでダウンロードし、ネットワーク接続していないPCにUSBメモリなどでコピーしたうえで、 :ref:`install_install` の手順に従いインストールを行ってください。"
 msgstr "A\. Yes, it is possible. Download the software described in :ref:`install_install` and copy it to a PC not connected to the network. Then, follow the procedure in :ref:`install_install` to install the software."
@@ -146,40 +146,40 @@ msgid "A. :ref:`install_recommend_spec` をご確認下さい。"
 msgstr "A\. See :ref:`install_recommend_spec`."
 
 msgid "Q. 作製した分子モデル等を学会発表や論文に用いることは可能ですか？学会発表、論文投稿の際にどのように引用したらいいですか？"
-msgstr "Q\\. Is it possible to use the created molecular model etc for academic presentations and papers? How should I quote at conference presentations and paper submissions?"
+msgstr "Q\. Is it possible to use the created molecular model etc for academic presentations and papers? How should I quote at conference presentations and paper submissions?"
 
 msgid "A. 使用いただいて問題ありません。発表される際には :ref:`intro_citation` の通りに引用してください。"
 msgstr "A\. No problem with using it. When presenting it please quote as :ref:`intro_citation`."
 
 msgid "Q. Winmostarそのものに各種計算用ソフトがインストールされていますか？"
-msgstr "Q. Do you have any calculation software installed on Winmostar itself?"
+msgstr "Q\. Do you have any calculation software installed on Winmostar itself?"
 
 msgid "A. MOPAC、CNDO/SのみWinmostarにインストールされています。それ以外のソフトは、ライセンスの関係上Winmostarには同梱されておらず、別途インストールする必要があります。多くのソフトは無料でインストール可能で、その手順は :ref:`install_install` で紹介されています。"
-msgstr "A. Only MOPAC and CNDO/S are installed in Winmostar. Other software is not bundled with Winmostar due to licensing issues and must be installed separately. Many software can be installed for free, and the instructions are described in :ref:`install_install`."
+msgstr "A\. Only MOPAC and CNDO/S are installed in Winmostar. Other software is not bundled with Winmostar due to licensing issues and must be installed separately. Many software can be installed for free, and the instructions are described in :ref:`install_install`."
 
 msgid "Q. Winmostarはクラウド上で計算させていますか？"
-msgstr "Q. Do you let Winmostar run calculations in the cloud?"
+msgstr "Q\. Do you let Winmostar run calculations in the cloud?"
 
 msgid "A. クラウド上で計算させることも可能ですが、させないことも可能です。デフォルトではクラウドを利用せず、WinmostarをインストールしたWindows PC上で計算をさせます。"
-msgstr "A. It is possible to have it calculated in the cloud, or not. By default, we don't use the cloud, but let you run the calculations on a Windows PC with Winmostar installed."
+msgstr "A\. It is possible to have it calculated in the cloud, or not. By default, we don't use the cloud, but let you run the calculations on a Windows PC with Winmostar installed."
 
 msgid "Q. WinmostarはGPU計算に対応していますか？"
-msgstr "Q. Does Winmostar support GPU computation?"
+msgstr "Q\. Does Winmostar support GPU computation?"
 
 msgid "A. GPU計算に対応していますが、デフォルトではGPUを使わない設定になっています。GAMESS, Gaussian, Gromacs, LAMMPS, Quantum ESPRESSOがGPUに対応していますが、動作確認および設定作業は有償での対応となります。"
-msgstr "A. GPU computation is supported, but the default configuration is not to use GPU; GAMESS, Gaussian, Gromacs, LAMMPS, and Quantum ESPRESSO support GPU, but you will have to pay to check and configure them."
+msgstr "A\. GPU computation is supported, but the default configuration is not to use GPU; GAMESS, Gaussian, Gromacs, LAMMPS, and Quantum ESPRESSO support GPU, but you will have to pay to check and configure them."
 
 msgid "Q. IntelとAMDのどちらのCPUの方が動作に適していますか？どちらがお勧めですか？"
-msgstr "Q. Which CPU is more suitable for operation, Intel or AMD? Which one would you recommend?"
+msgstr "Q\. Which CPU is more suitable for operation, Intel or AMD? Which one would you recommend?"
 
 msgid "A. 一般に、シミュレーションにおいてどちらが優れているということはありません。"
-msgstr "A. In general, there is no such thing as a better simulation."
+msgstr "A\. In general, there is no such thing as a better simulation."
 
 msgid "Q. Winmostarを使って並列計算は可能ですか？"
-msgstr "Q. Is it possible to do parallel computation using Winmostar?"
+msgstr "Q\. Is it possible to do parallel computation using Winmostar?"
 
 msgid "A. 可能です。詳細は、各ソルバのキーワード設定ウィンドウのページをご確認ください。"
-msgstr "A. Yes, it is possible. For details, please refer to the keyword setting window page for each solver."
+msgstr "A\. Yes, it is possible. For details, please refer to the keyword setting window page for each solver."
 
 msgid "ソフトウェア動作全般に関して"
 msgstr "Software operations"
@@ -503,7 +503,7 @@ msgid "3. ログインサーバの実体が複数あり、バックグラウン�
 msgstr "3\. If there are multiple login server entities and they are automatically selected in the background, you may be able to avoid this by using only a specific login server or connecting until all servers are registered in the cache ."
 
 msgid "4. ローカルマシンからWinmostarがジョブ投入コマンド（ :command:`qsub` など）を投げても、リモートサーバ上でコマンドが見つからない場合があります。 :guilabel:`Submit Remote Job` ウィンドウの :guilabel:`Profile --> Edit Profile...` の :guilabel:`Prefix for queueing commands` に、 :command:`qsub` 等の実行ファイルのパスを記入することで回避できます。例えば、 :command:`qsub` のフルパスが :command:`/usr/local/bin/qsub` の場合は、 :guilabel:`Prefix for queueing commands` に「/usr/local/bin/」と入力してください。"
-msgstr "4. Even if Winmostar submits a job submission command (such as :command:`qsub`) from the local machine, the command may not be found on the remote server. This can be avoided by filling :guilabel:`Profile --> Edit Profile...' in the :guilabel:`Submit Remote Job` window with the path of an executable such as :command:`qsub`. To avoid this problem, add the path of an executable such as :command:`qsub` to :guilabel:`Prefix for queueing commands` of :guilabel:`Profile --> Edit Profile...` in the :guilabel:`Edit Profile. For example, if the full path of :command:`qsub` is :command:`/usr/local/bin/qsub`, type "/usr/local/bin/" in :guilabel:`Prefix for queueing commands`."
+msgstr "4\. Even if Winmostar submits a job submission command (such as :command:`qsub`) from the local machine, the command may not be found on the remote server. This can be avoided by filling :guilabel:`Profile --> Edit Profile...' in the :guilabel:`Submit Remote Job` window with the path of an executable such as :command:`qsub`. To avoid this problem, add the path of an executable such as :command:`qsub` to :guilabel:`Prefix for queueing commands` of :guilabel:`Profile --> Edit Profile...` in the :guilabel:`Edit Profile. For example, if the full path of :command:`qsub` is :command:`/usr/local/bin/qsub`, type "/usr/local/bin/" in :guilabel:`Prefix for queueing commands`."
 
 msgid "Q. :guilabel:`Test Connection` での接続テストは成功するが、WARNINGが表示され各種の操作に失敗します。"
 msgstr "Q\. The connection test with :guilabel:`Test Connection` succeeds, but the job submission fails."
@@ -866,19 +866,19 @@ msgid "A. Gromacsの軽微な不具合による症状です。周期境界条件
 msgstr "A\. This problem is caused by a minor bug in Gromacs. Considering the periodic boundary condition, the shape of the molecule is maintained, and it is properly processed as a molecular dynamics calculation, so there is no problem in analyzing the results. To modify the appearance, select :menuselection:`display --> periodic boundary condition format` to :guilabel:`relocate atomically inside the cell`."
 
 msgid "Q. 圧力制御（NPT一定またはNPH一定）を行うと、計算が途中で破綻します。解決方法はありますか？"
-msgstr "Q. When pressure control (constant NPT or NPH) is used, the calculation fails in the middle of the process. Is there a solution?"
+msgstr "Q\. When pressure control (constant NPT or NPH) is used, the calculation fails in the middle of the process. Is there a solution?"
 
 msgid "A. まず、気相や気相中に他の相が分散しているような、分子間の相互作用が極めて弱い状況では、圧力制御は安定しにくいため、圧力制御を使わない方法も試してください。次に、破綻した計算において密度の時間変化を確認し、何が起こっているか確認してください。また、圧力制御を行う前に、密度一定で十分エネルギー・温度・圧力が平衡化している必要があります。密度一定での平衡化が終わった時点で、圧力（の平均値）は0またはマイナスである方が望ましいです。密度一定での平衡化終了時点で圧力の値が大きいと、圧力制御を開始した直後にシステムサイズが急激に変化します。密度一定での平衡化終了時点での圧力を小さくしたい場合は、初期密度を小さくしてください。それでもなお解決しない場合は、(1) 圧力制御をParrinello-Rahman(Nose-Hoover)法ではなくBerendsen法に切り替える、(2) 圧力制御の時定数を大きくする、(3) 圧力制御を入れた計算を短く何回かに分割する、ということで改善するかと思われます。"
-msgstr "A. First of all, in a situation where the interaction between molecules is extremely weak, such as in the gas phase or when other phases are dispersed in the gas phase, the pressure control is not stable, so try a method without pressure control. Next, look at the change in density over time in the broken calculation to see what's going on. Also, the energy, temperature, and pressure must be sufficiently equilibrated at a constant density before pressure control can be performed. At the end of equilibration at constant density, the pressure (the mean value of) is preferably 0 or negative. If the pressure value is large at the end of equilibration at a constant density, the system size will change drastically immediately after starting pressure control. If you want to reduce the pressure at the end of equilibration at a constant density, reduce the initial density. If this does not solve the problem, (1) change the pressure control to Berendsen method instead of Parrinello-Rahman (Nose-Hoover) method, (2) increase the time constant of the pressure control, and (3) divide the calculation with the pressure control into several short calculations."
+msgstr "A\. First of all, in a situation where the interaction between molecules is extremely weak, such as in the gas phase or when other phases are dispersed in the gas phase, the pressure control is not stable, so try a method without pressure control. Next, look at the change in density over time in the broken calculation to see what's going on. Also, the energy, temperature, and pressure must be sufficiently equilibrated at a constant density before pressure control can be performed. At the end of equilibration at constant density, the pressure (the mean value of) is preferably 0 or negative. If the pressure value is large at the end of equilibration at a constant density, the system size will change drastically immediately after starting pressure control. If you want to reduce the pressure at the end of equilibration at a constant density, reduce the initial density. If this does not solve the problem, (1) change the pressure control to Berendsen method instead of Parrinello-Rahman (Nose-Hoover) method, (2) increase the time constant of the pressure control, and (3) divide the calculation with the pressure control into several short calculations."
 
 msgid "Quantum ESPRESSO, OpenMXに関して"
 msgstr "About Quantum ESPRESSO, OpenMX"
 
 msgid "Q. Quantum ESPRESSOの擬ポテンシャルファイルの探し方が分かりません。どのように探したらいいですか？"
-msgstr "Q. I don't know how to find a pseudopotential file for Quantum ESPRESSO. How do I find them?"
+msgstr "Q\. I don't know how to find a pseudopotential file for Quantum ESPRESSO. How do I find them?"
 
 msgid "A. `Windows版Quantum ESPRESSOインストールマニュアル <https://winmostar.com/jp/manual_jp/installation/QE_install_manual_jp_win.pdf>`_ にて紹介しています。"
-msgstr "A. It is described in `Quantum ESPRESSO for Windows Installation Manual <https://winmostar.com/jp/manual_jp/installation/QE_install_manual_jp_win.pdf>`_."
+msgstr "A\. It is described in `Quantum ESPRESSO for Windows Installation Manual <https://winmostar.com/jp/manual_jp/installation/QE_install_manual_jp_win.pdf>`_."
 
 msgid "Q. Quantum ESPRESSOを用いた計算が失敗します。計算結果の表示でエラーが出ます。"
 msgstr "Q\. Calculation using Quantum ESPRESSO fails. An error appears in displaying the calculation result."
@@ -1040,16 +1040,16 @@ msgid "A. :ref:`faq_dielectric_md` を参照してください。"
 msgstr "A\. See :ref:`faq_dielectric_md`."
 
 msgid "Q. OpenMXでMPIを有効にしてローカルマシンで計算を実行すると、 tcp_peer_send_blocking\\: send() to socket 12 failed\\: Transport endpoint is not connected というエラーが表示されます。"
-msgstr "Q. When I run a calculation on a local machine with MPI enabled in OpenMX, I get the error tcp_peer_send_blocking\fr_to-socket 12 failed to send(): Transport endpoint is not connected."
+msgstr "Q\. When I run a calculation on a local machine with MPI enabled in OpenMX, I get the error tcp_peer_send_blocking\fr_to-socket 12 failed to send(): Transport endpoint is not connected."
 
 msgid "A. CygwinのOpenMPI特有の問題で、Windowsの[設定]-[ネットワークとインターネット]-[アダプターのオプションを変更する]において使用していないネットワークアダプタを無効にしてください。また、OpenMXはローカルマシンにおいてはOpenMPで計算することを推奨します。"
-msgstr "A. For issues specific to Cygwin's OpenMPI, go to Windows Settings - Network and Internet - Change Adapter Options and disable the network adapter you are not using. Also, OpenMX recommends that you use OpenMP on the local machine."
+msgstr "A\. For issues specific to Cygwin's OpenMPI, go to Windows Settings - Network and Internet - Change Adapter Options and disable the network adapter you are not using. Also, OpenMX recommends that you use OpenMP on the local machine."
 
 msgid "Q. Quantum ESPRESSOで汎関数の種類はどのように設定しますか？"
-msgstr "Q. How do you set up the type of functionalities in Quantum ESPRESSO?"
+msgstr "Q\. How do you set up the type of functionalities in Quantum ESPRESSO?"
 
 msgid "A. Quantum ESPRESSOでは、汎関数ごとに擬ポテンシャルファイルが作られるので、基本的には擬ポテンシャルファイルを選んだ時点で汎関数が決定されます。一部の汎関数（HSE、vdw汎関数など）は、ベースとなる汎関数（例えばHSEの場合はPBE）で作られた擬ポテンシャルファイルを選択した上で、input_dftキーワードを使用して汎関数の設定を上書きします。"
-msgstr "A. In Quantum ESPRESSO, since a pseudopotential file is created for each function, the function is basically determined when the pseudopotential file is selected. Some functions (e.g., HSE, vdw functions) select the pseudopotential file created by the base function (e.g., PBE in the case of HSE) and then use the input_dft keyword to override the function's settings."
+msgstr "A\. In Quantum ESPRESSO, since a pseudopotential file is created for each function, the function is basically determined when the pseudopotential file is selected. Some functions (e.g., HSE, vdw functions) select the pseudopotential file created by the base function (e.g., PBE in the case of HSE) and then use the input_dft keyword to override the function's settings."
 
 msgid "アドオンに関して"
 msgstr "Addons"

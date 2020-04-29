@@ -68,7 +68,7 @@ msgid "AM1/BCC電荷またはGasteiger電荷を割り当てる。"
 msgstr "Assign Gasteiger charge."
 
 msgid ":menuselection:`MD --> 手動で電荷を割り当て -->` :ref:`md_charge_acpype` の手順で割り当てる。イオンの場合は :guilabel:`Total charge [e]` に電荷を入力する。"
-msgstr "Assigning a charge manually --> using the procedure :menuselection:`MD --> :ref:`md_charge_acpype`. For ions, input the charge in :guilabel:`Total charge [e]`. If it is an ion, input the charge in :guilabel:`Total charge [e]`."
+msgstr "Assigning a charge manually by :menuselection:`MD --> Assign Charges Manually -->` :ref:`md_charge_acpype`. For ions, input the charge in :guilabel:`Total charge [e]`. If it is an ion, input the charge in :guilabel:`Total charge [e]`."
 
 msgid "RESP電荷を割り当てる。"
 msgstr "Assign RESP charge."
@@ -98,7 +98,7 @@ msgid "元素ごとに値を指定して割り当てる。"
 msgstr "Enter values for each element."
 
 msgid ":menuselection:`MD --> 手動で電荷を割り当て -->` :ref:`md_charge_manual` の手順で割り当てる。"
-msgstr "Assigning a charge manually :menuselection:`MD -->Assign Charges Manually -->  :ref:`md_charge_manual`."
+msgstr "Assigning a charge manually by :menuselection:`MD --> Assign Charges Manually -->`  :ref:`md_charge_manual`."
 
 msgid "選択した原子に値を入力して割り当てる。"
 msgstr "Enter a value for the selected atom."
@@ -138,7 +138,7 @@ msgstr "Save a file by :menuselection:`File -->` :ref:`file_saveas` in mol2 form
 
 msgid "1.から3.の手順を計算したい全ての分子種に対して行う。"
 msgstr "Procedures 1 to 3 are performed for all molecular species to be calculated."
-
+	
 msgid ":menuselection:`MD -->` :ref:`md_solvate_buildcell` を選択する。"
 msgstr "Select :menuselection:`MD -->` :ref:`md_solvate_buildcell`."
 
@@ -182,7 +182,7 @@ msgid ":menuselection:`MD --> ポリマー -->` :ref:`md_polymer_cell` の操作
 msgstr "Create a simulation cell by performing the operation :menuselection:`MD --> Polymer -->` :ref:`md_polymer_cell`."
 
 msgid "ポリマー中に低分子成分が溶解している場合は、 :ref:`create_mole` と :ref:`create_charge` の手順で溶解している低分子を作成しあらかじめmol2形式で保存しておく。そして、5.の手順の後で保存した低分子成分のmol2ファイルを :menuselection:`MD -->` :ref:`md_insert_molecules` にて選択し挿入する。5.の手順において密度を低めに設定しないと低分子成分の挿入に失敗することがある。"
-msgstr "If a small molecule component is dissolved in the polymer, create the dissolved small molecule by the procedure of :ref:`create_mole` and :ref:`create_charge` and save it in mol2 format beforehand. If the density is not set low in step 5, the insertion of the small molecule may fail."
+msgstr "If a small molecule component is dissolved in the polymer, create the dissolved small molecule by the procedure of :ref:`create_mole` and :ref:`create_charge` and save it in mol2 format beforehand. Then, select and insert the mol2 file of small molecule at :menuselection:`MD -->` :ref:`md_insert_molecules`, which was saved after step 5. If the density is not set low in step 5, the insertion of small molecule components may fail."
 
 msgid "気液界面の作成"
 msgstr "Creating gas-liquid interface"
@@ -191,7 +191,7 @@ msgid ":ref:`create_liquid` の方法で液相を作成する。"
 msgstr "Create a liquid phase (see :ref:`create_liquid`)."
 
 msgid ":menuselection:`編集 -->` :ref:`edit_createcell` にて :menuselection:`Expand --> Width` の値と :guilabel:`Axis` を設定し :guilabel:`Expand` ボタンを押す。Expandするサイズは、気相のサイズにする。その後、 :guilabel:`OK` ボタンを押す。"
-msgstr "Set the value of :menuselection:`Expand --> Width` and :guilabel:`Axis` at :menuselection:`edit --> :ref:`edit_createcell` and press the :guilabel:`Expand` button. Then, press the :guilabel:`OK` button."
+msgstr "Set the value of :menuselection:`Expand --> Width` and :guilabel:`Axis` at :menuselection:`Edit -->` :ref:`edit_createcell` and press the :guilabel:`Expand` button. Then, press the :guilabel:`OK` button."
 
 msgid "液相の構造をMD計算で緩和した後にExpandする場合は、MD計算後の構造においてシミュレーションセルの外の座標を持つ原子が多く存在するため、Expandする前に :menuselection:`編集 -->` :ref:`edit_wrap_pbc` を選択する。分子系の場合は :guilabel:`セルの内側に分子単位で再配置` 、無機系では :guilabel:`セルの内側に原子単位で再配置` を選択する。"
 msgstr "Select :menuselection:`edit -->` :ref:`edit_wrap_pbc` before expanding the structure of the liquid phase because there are many atoms with coordinates outside the simulation cell in the structure after MD calculation. For molecular systems, select :guilabel:`relocate molecular units inside the cell`; for inorganic systems, select :guilabel:`relocate atomic units inside the cell`."
@@ -215,7 +215,7 @@ msgid ":guilabel:`Build` ボタンを押す。"
 msgstr "Press the :guilabel:`Build` button."
 
 msgid ":menuselection:`MD -->` :ref:`md_interface` をクリックする。"
-msgstr "Use :menuselection:`MD --> Assign Charge -->` :ref:`md_charge_manual`."
+msgstr "Click :menuselection:`MD -->` :ref:`md_interface`."
 
 msgid ":guilabel:`Cell` タブの :guilabel:`Cell 1` の :guilabel:`Browse` ボタンをクリックし、2.で保存したファイルを選択する。同様に、 :guilabel:`Cell 2` においては、9.で保存したファイルを選択する。"
 msgstr "Click :guilabel:`Browse` button of :guilabel:`Cell 1` in the :guilabel:`Cell` tab, and select the file saved in step 2. Similarly, in :guilabel:`Cell 2`, select the file which was saved in 9."
@@ -233,7 +233,7 @@ msgid "計算したいタンパク質のpdbファイルをWinmostarで開く。"
 msgstr "Open the pdb file of the protein you want to calculate with Winmostar."
 
 msgid ":menuselection:`選択 -->` :ref:`select_mole` の手順でタンパク以外の成分（結合水、緩衝剤、リガンドなど）をグループ選択してから、 :menuselection:`編集 --> グループ編集 -->` :ref:`edit_partial_delete` の手順で選択グループを削除する。"
-msgstr "Use :menuselection:`select --> :ref:`select_mole` to select a group of non-protein components (e.g., binding water, buffers, ligands, etc.), and then use :menuselection:`edit --> group edit --> :ref:`edit_partial_delete` to delete the selected group."
+msgstr "Use :menuselection:`Select -->` :ref:`select_mole` to select a group of non-protein components (e.g., binding water, buffers, ligands, etc.), and then use :menuselection:`Edit --> Modigy Selected Group -->` :ref:`edit_partial_delete` to delete the selected group."
 
 msgid ":menuselection:`編集 --> 水素を付加 -->` :ref:`edit_addh_pdb2gmx` を実行する。実行前の状態で水素が付加されているように見える場合も、この処理を省略すると後ほど計算に失敗することがある。"
 msgstr ":menuselection:`Edit --> Add Hydrogen -->` :ref:`edit_addh_pdb2gmx`. Even if hydrogen appears to be added before the execution, the calculation may fail later if this process is omitted."
@@ -257,7 +257,7 @@ msgid ":menuselection:`選択 -->` :ref:`select_mole` の手順でリガンド�
 msgstr "Use :menuselection:`Select -->` :ref:`select_mole` to select a group of non-ligand components (proteins, bound water, buffers, etc.), and then use :menuselection:`edit -->` :ref:`edit_partial_delete` to delete the selected group."
 
 msgid ":menuselection:`編集 --> 水素を付加 -->` :ref:`edit_addh_openbabel` を実行する。"
-msgstr "Use :menuselection:`MD --> Assign Charge -->` :ref:`md_charge_manual`."
+msgstr "Execute :menuselection:`Edit --> Add Hydrogens -->` :ref:`edit_addh_openbabel`."
 
 msgid ":menuselection:`ファイル -->` :ref:`file_saveas` にてリガンドの構造をmol2形式で保存する。"
 msgstr "Save the structure of the ligand in mol2 format with :menuselection:`file -->` :ref:`file_saveas`."
@@ -323,7 +323,7 @@ msgid "点欠陥を作りたい場合は、 :menuselection:`編集 -->` :ref:`ed
 msgstr "To create a point defect, click :menuselection:`Edit -->` :ref:`edit_partial_delete`."
 
 msgid "元素を置換したい場合は、 :menuselection:`編集 -->` :ref:`edit_element` から変更後の元素を選択し、その後 :menuselection:`編集 --> 属性を変更 -->` :ref:`edit_attribute_element` をクリックする。"
-msgstr "To replace an element, select the element from :menuselection:`edit --> :ref:`edit_element` and then click on :menuselection:`edit --> change attribute -->` :ref:`edit_attribute_element`."
+msgstr "To replace an element, select the element from :menuselection:`Edit -->` :ref:`edit_element` and then click on :menuselection:`Edit --> Change Atom Property -->` :ref:`edit_attribute_element`."
 
 msgid "無機スラブ（表面）の作成"
 msgstr "Creation of inorganic slabs (surfaces)"
