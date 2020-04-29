@@ -182,7 +182,7 @@ msgid ":menuselection:`MD --> ポリマー -->` :ref:`md_polymer_cell` の操作
 msgstr "Create a simulation cell by performing the operation :menuselection:`MD --> Polymer -->` :ref:`md_polymer_cell`."
 
 msgid "ポリマー中に低分子成分が溶解している場合は、 :ref:`create_mole` と :ref:`create_charge` の手順で溶解している低分子を作成しあらかじめmol2形式で保存しておく。そして、5.の手順の後で保存した低分子成分のmol2ファイルを :menuselection:`MD -->` :ref:`md_insert_molecules` にて選択し挿入する。5.の手順において密度を低めに設定しないと低分子成分の挿入に失敗することがある。"
-msgstr "NOTTRANSLATED"
+msgstr "If a small molecule component is dissolved in the polymer, create the dissolved small molecule by the procedure of :ref:`create_mole` and :ref:`create_charge` and save it in mol2 format beforehand. If the density is not set low in step 5, the insertion of the small molecule may fail."
 
 msgid "気液界面の作成"
 msgstr "Creating gas-liquid interface"
@@ -190,219 +190,203 @@ msgstr "Creating gas-liquid interface"
 msgid ":ref:`create_liquid` の方法で液相を作成する。"
 msgstr "Create a liquid phase (see :ref:`create_liquid`)."
 
-#, fuzzy
 msgid ":menuselection:`編集 -->` :ref:`edit_createcell` にて :menuselection:`Expand --> Width` の値と :guilabel:`Axis` を設定し :guilabel:`Expand` ボタンを押す。Expandするサイズは、気相のサイズにする。その後、 :guilabel:`OK` ボタンを押す。"
-msgstr "At :ref:`edit_createcell`, set :menuselection:`Expand --> Width` and :guilabel:`Axis` and press :guilabel:`Expand` button. The size to be expanded is equivalent to the size of the gas phase. Then press the :guilabel:`OK` button."
+msgstr "Set the value of :menuselection:`Expand --> Width` and :guilabel:`Axis` at :menuselection:`edit --> :ref:`edit_createcell` and press the :guilabel:`Expand` button. Then, press the :guilabel:`OK` button."
 
-#, fuzzy
 msgid "液相の構造をMD計算で緩和した後にExpandする場合は、MD計算後の構造においてシミュレーションセルの外の座標を持つ原子が多く存在するため、Expandする前に :menuselection:`編集 -->` :ref:`edit_wrap_pbc` を選択する。分子系の場合は :guilabel:`セルの内側に分子単位で再配置` 、無機系では :guilabel:`セルの内側に原子単位で再配置` を選択する。"
-msgstr "When expanding the structure of liquid phase after relaxation by MD calculation, there are many atoms with coordinates outside the simulation cell. So select :ref:`edit_wrap_pbc` before expanding. Select :guilabel:`Wrap for each molecules` or :guilabel:`Wrap for each atoms` for organic (molecular) or inorganic systems, respectively."
+msgstr "Select :menuselection:`edit -->` :ref:`edit_wrap_pbc` before expanding the structure of the liquid phase because there are many atoms with coordinates outside the simulation cell in the structure after MD calculation. For molecular systems, select :guilabel:`relocate molecular units inside the cell`; for inorganic systems, select :guilabel:`relocate atomic units inside the cell`."
 
-#, fuzzy
 msgid "液液界面の作成"
 msgstr "Creating gas-liquid interface"
 
 msgid ":ref:`create_liquid` の方法で片方の液相を作成する。この時、予め2つの相に含まれる全ての種類の分子についてmol2ファイルを作成しておく。"
-msgstr "NOTTRANSLATED"
+msgstr "Create one of the liquid phases using :ref:`create_liquid`. At this time, a mol2 file should be created in advance for all types of molecules contained in the two phases."
 
-#, fuzzy
 msgid "もう片方の相にどの分子を何分子入れるか決める。 水分子の場合は :guilabel:`Add Water` をクリックする。 それ以外の場合は :guilabel:`Add mol2 File` をクリックしmol2ファイルを選択する。"
-msgstr "Determine which molecules to put in the system. For the molecules displayed in the main window, press :guilabel:`Add Displayed Molecule`. For water molecules, press :guilabel:`Add Water`. For the other cases, press :guilabel:`Add mol2 File`."
+msgstr "Decide which molecule and how many molecules to put in the other phase. In the case of a water molecule, click :guilabel:`Add Water`. Otherwise, click :guilabel:`Add mol2 File` to select a mol2 file."
 
-#, fuzzy
 msgid "4.、5.の手順を計算したい全ての分子種に対して行う。"
-msgstr "Perform 6 and 7 for all molecular species you want to calculate."
+msgstr "Perform the steps in 4 and 5 for all the molecular species you want to calculate."
 
 msgid ":guilabel:`Simulatoin Cell` タブで :guilabel:`Set Lattice Constants` にチェックを入れ、 :guilabel:`Same as main window` ボタンをクリックする。次に、 :guilabel:`Box Type` で「triclinic」を選択する。 :guilabel:`Set Lattice Constants` の右に、最初に作成した相のセルサイズが表示される。そのうち、一番右の欄（z方向）の値を変更する。その際、その上の :guilabel:`Set Density` の右に表示される密度を参考にする。"
-msgstr "NOTTRANSLATED"
+msgstr "Check :guilabel:`Set Lattice Constants` in :guilabel:`Simulatoin Cell` tab and click :guilabel:`Same as main window` button. Next, select "triclinic" at :guilabel:`Box Type`. The cell size of the first phase is shown to the right of :guilabel:`Set Lattice Constants`. In this case, change the value of the rightmost column (z-direction). In this case, refer to the density displayed on the right of :guilabel:`Set Density` above it."
 
 msgid ":guilabel:`Build` ボタンを押す。"
-msgstr "NOTTRANSLATED"
+msgstr "Press the :guilabel:`Build` button."
 
-#, fuzzy
 msgid ":menuselection:`MD -->` :ref:`md_interface` をクリックする。"
 msgstr "Use :menuselection:`MD --> Assign Charge -->` :ref:`md_charge_manual`."
 
 msgid ":guilabel:`Cell` タブの :guilabel:`Cell 1` の :guilabel:`Browse` ボタンをクリックし、2.で保存したファイルを選択する。同様に、 :guilabel:`Cell 2` においては、9.で保存したファイルを選択する。"
-msgstr "NOTTRANSLATED"
+msgstr "Click :guilabel:`Browse` button of :guilabel:`Cell 1` in the :guilabel:`Cell` tab, and select the file saved in step 2. Similarly, in :guilabel:`Cell 2`, select the file which was saved in 9."
 
 msgid ":guilabel:`Direction` タブの :guilabel:Interval` に液相間の距離を入力する。"
-msgstr "NOTTRANSLATED"
+msgstr "Input the distance between liquid phases in :guilabel:`Direction` tab of :guilabel:Interval`."
 
 msgid ":guilabel:`Build` ボタンをクリックし、保存するファイル名を入力してから :guilabel:`保存` ボタンをクリックする。"
-msgstr "NOTTRANSLATED"
+msgstr "Click :guilabel:`Build` button, type the name of the file to save, and then click :guilabel:`Save` button."
 
 msgid "タンパク質の作成（リガンドなし）"
-msgstr "NOTTRANSLATED"
+msgstr "Protein creation (no ligand)"
 
 msgid "計算したいタンパク質のpdbファイルをWinmostarで開く。"
-msgstr "NOTTRANSLATED"
+msgstr "Open the pdb file of the protein you want to calculate with Winmostar."
 
 msgid ":menuselection:`選択 -->` :ref:`select_mole` の手順でタンパク以外の成分（結合水、緩衝剤、リガンドなど）をグループ選択してから、 :menuselection:`編集 --> グループ編集 -->` :ref:`edit_partial_delete` の手順で選択グループを削除する。"
-msgstr "NOTTRANSLATED"
+msgstr "Use :menuselection:`select --> :ref:`select_mole` to select a group of non-protein components (e.g., binding water, buffers, ligands, etc.), and then use :menuselection:`edit --> group edit --> :ref:`edit_partial_delete` to delete the selected group."
 
 msgid ":menuselection:`編集 --> 水素を付加 -->` :ref:`edit_addh_pdb2gmx` を実行する。実行前の状態で水素が付加されているように見える場合も、この処理を省略すると後ほど計算に失敗することがある。"
-msgstr "NOTTRANSLATED"
+msgstr ":menuselection:`Edit --> Add Hydrogen -->` :ref:`edit_addh_pdb2gmx`. Even if hydrogen appears to be added before the execution, the calculation may fail later if this process is omitted."
 
 msgid ":menuselection:`MD -->` :ref:`md_solvate_buildcell` をクリックする。 :guilabel:`Add Displayed Molecule` をクリックし、 :guilabel:`Enter # of molecules` で「1」と入力し :guilabel:`OK` ボタンをクリックする。 次に :guilabel:`Add Water` ボタンをクリックし、 :guilabel:`Enter # of molecules` で適当な分子数（5000～10000程度）を入力し、 :guilabel:`OK` ボタンをクリックする。その後、 :guilabel:`Build` ボタンをクリックする。"
-msgstr "NOTTRANSLATED"
+msgstr "Click :menuselection:`MD -->` :ref:`md_solvate_buildcell`. Click :guilabel:`Add Displayed Molecule`, type "1" in :guilabel:`Enter # of molecules` and click the :guilabel:`OK` button. Next, click :guilabel:`Add Water` button, input the number of molecules (about 5000 to 10000) at :guilabel:`Enter # of molecules` and click :guilabel:`OK` button. Then, click the :guilabel:`Build` button."
 
 msgid "系を中性化するために :menuselection:`MD -->` :ref:`md_replace_ion` の手順でイオンを配置する。「WARNING: The charges defined on the main window will be discarded. Are you sure you want to continue?」と表示されたら :guilabel:`はい` をクリックする。"
-msgstr "NOTTRANSLATED"
+msgstr "To neutralize the system, place ions with the procedure :menuselection:`MD -->` :ref:`md_replace_ion`. If the message \"WARNING: The charges defined on the main window will be discarded. Are you sure you want to continue?\" is displayed, click :guilabel:`Yes`."
 
 msgid "なお、この後MD計算を実行する場合は、上記手順を実行した後ファイルを保存すると、残基情報などが適切に保存されないことがあるため、上記手順を実行後続けてMD計算を実行することが望ましい。"
-msgstr "NOTTRANSLATED"
+msgstr "If the MD calculation is executed after the above procedure, it is desirable to continue the MD calculation after the above procedure because if the file is saved after the above procedure is executed, the residue information may not be saved properly."
 
 msgid "タンパク質の作成（リガンドあり）"
-msgstr "NOTTRANSLATED"
+msgstr "Protein creation (with ligands)"
 
 msgid "計算したいタンパク質-リガンド複合体のpdbファイルをWinmostarで開く。"
-msgstr "NOTTRANSLATED"
+msgstr "Open the pdb file of the protein-ligand complex you want to calculate with Winmostar."
 
 msgid ":menuselection:`選択 -->` :ref:`select_mole` の手順でリガンド以外の成分（タンパク、結合水、緩衝剤など）をグループ選択してから、:menuselection:`編集 -->` :ref:`edit_partial_delete` の手順で選択グループを削除する。"
-msgstr "NOTTRANSLATED"
+msgstr "Use :menuselection:`Select -->` :ref:`select_mole` to select a group of non-ligand components (proteins, bound water, buffers, etc.), and then use :menuselection:`edit -->` :ref:`edit_partial_delete` to delete the selected group."
 
-#, fuzzy
 msgid ":menuselection:`編集 --> 水素を付加 -->` :ref:`edit_addh_openbabel` を実行する。"
 msgstr "Use :menuselection:`MD --> Assign Charge -->` :ref:`md_charge_manual`."
 
 msgid ":menuselection:`ファイル -->` :ref:`file_saveas` にてリガンドの構造をmol2形式で保存する。"
-msgstr "NOTTRANSLATED"
+msgstr "Save the structure of the ligand in mol2 format with :menuselection:`file -->` :ref:`file_saveas`."
 
 msgid "再び計算したいタンパク質-リガンド複合体のpdbファイルをWinmostarで開く。"
-msgstr "NOTTRANSLATED"
+msgstr "Open the pdb file of the protein-ligand complex you want to calculate again with Winmostar."
 
 msgid ":ref:`md_solvate_buildcell` をクリックする。 :guilabel:`Add Displayed Molecule` をクリックし、 :guilabel:`Enter # of molecules` で「1」と入力し :guilabel:`OK` ボタンをクリックする。 次に :guilabel:`Add Water` ボタンをクリックし、:guilabel:`Enter # of molecules` で適当な分子数（5000～10000程度）を入力し、 :guilabel:`OK` ボタンをクリックする。そして、 :guilabel:`Add mol2 File` ボタンをクリックし、4.で保存したmol2ファイルを開き、 :guilabel:`Enter # of molecules` で「1」と入力し、 :guilabel:`OK` ボタンをクリックする。「この分子を乱数的に配置しますか？」と聞かれたら :guilabel:`いいえ` をクリックする。その後、 :guilabel:`Build` ボタンをクリックする。"
-msgstr "NOTTRANSLATED"
+msgstr "Click :ref:`md_solvate_buildcell`. Click :guilabel:`Add Displayed Molecule`, type "1" in :guilabel:`Enter # of molecules` and click the :guilabel:`OK` button. Next, click :guilabel:`Add Water` button, input an appropriate number of molecules at :guilabel:`Enter # of molecules` and click :guilabel:`OK` button. Then, click :guilabel:`Add mol2 File` button, open the mol2 file saved in step 4, type "1" in :guilabel:`Enter # of molecules`, and click :guilabel:`OK` button. Do you want to arrange these molecules in a random manner? If asked, click :guilabel:`No`. Then, click the :guilabel:`Build` button."
 
 msgid "無機結晶の作成"
-msgstr "NOTTRANSLATED"
+msgstr "Preparation of inorganic crystals"
 
 msgid "CIFファイルなどで計算したい結晶のデータを既に持っている場合は、Winmostarでそのファイルを開く。そのようなファイルがない場合は、以下の操作を行う。"
-msgstr "NOTTRANSLATED"
+msgstr "If you already have the crystal data you want to calculate, such as a CIF file, open the file with Winmostar. If such a file does not exist, perform the following operations."
 
 msgid ":menuselection:`固体 -->` :ref:`solid_crystalbuilder` をクリックする。"
-msgstr "NOTTRANSLATED"
+msgstr "Click on :menuselection:`solid -->` :ref:`solid_crystalbuilder`."
 
 msgid ":guilabel:`Crystal Builder` ウィンドウ右上の以下の項目を選択する。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the following item at the top right of :guilabel:`Crystal Builder` window."
 
 msgid ":guilabel:`Lattice` の :guilabel:`Crystal System` から計算したい結晶の分類を選択する。"
-msgstr "NOTTRANSLATED"
+msgstr "Select the classification of a crystal from :guilabel:`Crystal System` of :guilabel:`Lattice`."
 
 msgid ":guilabel:`Lattice` の :guilabel:`Space Group` から計算したい結晶の空間群を選択する。 :guilabel:`Space Group` の選択肢は :guilabel:`Crystal System` によって変化する。"
-msgstr "NOTTRANSLATED"
+msgstr "Select a space group of a crystal from :guilabel:`Space Group` of :guilabel:`Lattice`. The choices of :guilabel:`Space Group` are changed by :guilabel:`Crystal System`."
 
 msgid ":guilabel:`Lattice Constants` に計算したい結晶の格子定数を入力する。"
-msgstr "NOTTRANSLATED"
+msgstr "In :guilabel:`Lattice Constants`, input the lattice constants of the crystal to be computed."
 
 msgid ":guilabel:`Crystal Builder` ウィンドウ右下のリストに、非対称要素の原子を入力する。"
-msgstr "NOTTRANSLATED"
+msgstr ":guilabel:`Crystal Builder` Input an atom of an asymmetric element in the list at the bottom right of the window."
 
 msgid ":guilabel:`Atom` の欄をダブルクリックし元素の種類を入力する。"
-msgstr "NOTTRANSLATED"
+msgstr "Double-click on the :guilabel:`Atom` field and enter the type of element."
 
 msgid ":guilabel:`X` , :guilabel:`Y` , :guilabel:`Z` の欄をダブルクリックし座標を記入する。"
-msgstr "NOTTRANSLATED"
+msgstr "Double-click the fields of :guilabel:`X` , :guilabel:`Y` , :guilabel:`Z` to fill in the coordinates."
 
 msgid ":guilabel:`Add` ボタンで原子を追加する。"
-msgstr "NOTTRANSLATED"
+msgstr "Add an atom by :guilabel:`Add` button."
 
 msgid ":guilabel:`Remove` ボタンでリスト中で選択された原子を削除する。"
-msgstr "NOTTRANSLATED"
+msgstr "Removes a selected atom by clicking :guilabel:`Remove` button."
 
 msgid ":guilabel:`OK` ボタンをクリックして、結晶ビルダで指定した構造をメインウィンドウに反映する。"
-msgstr "NOTTRANSLATED"
+msgstr "Click the :guilabel:`OK` button to apply the structure specified by the crystal builder to the main window."
 
 msgid "無機結晶の作成（点欠陥または元素置換あり）"
-msgstr "NOTTRANSLATED"
+msgstr "Preparation of inorganic crystals (with point defects or elemental substitutions)"
 
 msgid "欠陥がない状態の結晶のCIFファイルを開くか、 :ref:`create_inorganic_crystal` の方法で結晶構造を作成する。"
-msgstr "NOTTRANSLATED"
+msgstr "Open a CIF file of the crystal with no defects or create a crystal structure with the method :ref:`create_inorganic_crystal`."
 
 msgid ":menuselection:`固体 -->` :ref:`solid_supercell` をクリックする。 :guilabel:`a` , :guilabel:`b` , :guilabel:`c` の値を大きくし、スーパーセルのサイズを指定する（まずは各方向2程度）。最後に :guilabel:`OK` ボタンをクリックする。"
-msgstr "NOTTRANSLATED"
+msgstr "Click on :menuselection:`Solid -->` :ref:`solid_supercell`. Increase the value of :guilabel:`a` , :guilabel:`b` , :guilabel:`c` and specify the size of the supercell (first, about 2 in each direction). Finally, click the :guilabel:`OK` button."
 
 msgid "メインウィンドウにおいて、点欠陥を作りたい箇所の原子または、元素を置換したい原子を左クリックし赤いマーカーが付いた状態にする。"
-msgstr "NOTTRANSLATED"
+msgstr "In the main window, left-click on the atom you want to create a point defect, or the atom you want to replace the element with, and a red marker will appear."
 
 msgid "点欠陥を作りたい場合は、 :menuselection:`編集 -->` :ref:`edit_partial_delete` をクリックする。"
-msgstr "NOTTRANSLATED"
+msgstr "To create a point defect, click :menuselection:`Edit -->` :ref:`edit_partial_delete`."
 
 msgid "元素を置換したい場合は、 :menuselection:`編集 -->` :ref:`edit_element` から変更後の元素を選択し、その後 :menuselection:`編集 --> 属性を変更 -->` :ref:`edit_attribute_element` をクリックする。"
-msgstr "NOTTRANSLATED"
+msgstr "To replace an element, select the element from :menuselection:`edit --> :ref:`edit_element` and then click on :menuselection:`edit --> change attribute -->` :ref:`edit_attribute_element`."
 
 msgid "無機スラブ（表面）の作成"
-msgstr "NOTTRANSLATED"
+msgstr "Creation of inorganic slabs (surfaces)"
 
 msgid "バルクの状態の結晶のCIFファイルを開くか、 :ref:`create_inorganic_crystal` の方法で結晶構造を作成する。"
-msgstr "NOTTRANSLATED"
+msgstr "Open a CIF file of the crystal in bulk, or create a crystal structure with :ref:`create_inorganic_crystal`."
 
-#, fuzzy
 msgid ":menuselection:`固体 -->` :ref:`solid_cleaveplane` をクリックする。"
-msgstr "Use :menuselection:`MD --> Assign Charge -->` :ref:`md_charge_manual`."
+msgstr "Click on :menuselection:`solid -->` :ref:`solid_cleaveplane`."
 
 msgid ":guilabel:`Cleave Plane (h k l)` の欄にミラー指数を入力し、 :guilabel:`Next >>` ボタンをクリックする。"
-msgstr "NOTTRANSLATED"
+msgstr "Enter a mirror index in :guilabel:`Cleave Plane (h k l)` and click the :guilabel:`Next >>` button."
 
 msgid "直方セルを検索したい場合は :guilabel:`Definition of Lattice` で :guilabel:`Auto(Ortho)` 、直方セル以外も検索したい場合は :guilabel:`Auto(All)` 、手動でセルを定義したい場合は :guilabel:`Manual` を選択し、 :guilabel:`OK` ボタンをクリックする。「Transform unit cell?」と聞かれたら :guilabel:`はい` をクリックする。"
-msgstr "NOTTRANSLATED"
+msgstr "Select :guilabel:`Auto(Ortho)` in :guilabel:`Definition of Lattice` to search for rectangular cells, :guilabel:`Auto(All)` to search for other rectangular cells, or :guilabel:`Manual` to define cells manually, and click :guilabel:`OK` button. If you are asked "Transform unit cell?", click :guilabel:`Yes`."
 
 msgid ":menuselection:`固体 -->` :ref:`solid_insertvacuum` をクリックする。"
-msgstr "NOTTRANSLATED"
+msgstr "Click :menuselection:`solid -->` :ref:`solid_insertvacuum`."
 
 msgid ":guilabel:`Vacuum` の欄に挿入する真空層の厚みを入力する。Quantum ESPRESSOのESM法で計算する場合は、 :guilabel:`Automatically shift to center` のチェックを外し、 :guilabel:`Reference plane` を :guilabel:`Base` に変更する。最後に、 :guilabel:`OK` ボタンをクリックする。"
-msgstr "NOTTRANSLATED"
+msgstr "If you use the ESM method of Quantum ESPRESSO, uncheck :guilabel:`Automatically shift to center` and change :guilabel:`Reference plane` to :guilabel:`Base`. Finally, click the :guilabel:`OK` button."
 
-#, fuzzy
 msgid "分子吸着表面の作成"
-msgstr "Modelling a single molecule"
+msgstr "Creation of molecular adsorption surfaces"
 
-#, fuzzy
 msgid ":ref:`create_mole` の方法で吸着させる分子を作成する。"
-msgstr "Create a structure of one molecule (See :ref:`create_mole`). "
+msgstr "Create a molecule to be adsorbed by the method :ref:`create_mole`. "
 
-#, fuzzy
 msgid ":ref:`create_slab` の方法で表面を作成する。"
-msgstr "Create a liquid phase (see :ref:`create_liquid`)."
+msgstr "Create a surface with the method :ref:`create_slab`."
 
 msgid ":menuselection:`固体 -->` :ref:`solid_supercell` をクリックする。 :guilabel:`a` , :guilabel:`b` の値を大きくし、スーパーセルのサイズを指定する。最後に :guilabel:`OK` ボタンをクリックする。"
-msgstr "NOTTRANSLATED"
+msgstr "Click on :menuselection:`solid -->` :ref:`solid_supercell`. Increase the value of :guilabel:`a` , :guilabel:`b` and specify the size of the supercell. Finally, click the :guilabel:`OK` button."
 
 msgid ":menuselection:`ファイル -->` :ref:`file_append` をクリックし、先ほど保存した吸着分子のmol2ファイルを選択する。その後、 :menuselection:`編集 --> グループ編集 -->` :ref:`edit_group_rotate_mouse` , :ref:`edit_group_rotate_slider` , :ref:`edit_group_rotate_orien` , :ref:`edit_group_move_mouse` , :ref:`edit_group_move_slider` などの機能を用いて、吸着分子の配向、位置を変更する。"
-msgstr "NOTTRANSLATED"
+msgstr "Click on :menuselection:`File -->` :ref:`file_append` and select the mol2 file of the adsorbed molecule you just saved. Then, change the orientation and position of the adsorbed molecule using functions such as :menuselection:`edit --> group edit -->` :ref:`edit_group_rotate_mouse` , :ref:`edit_group_rotate_slider` , :ref:`edit_group_rotate_orien` , :ref:`edit_group_move_mouse` , :ref:`edit_group_move_slider` and so on."
 
 msgid "固固界面（粒界）の作成"
-msgstr "NOTTRANSLATED"
+msgstr "Creation of solid interfaces (grain boundaries)"
 
-#, fuzzy
 msgid ":ref:`create_inorganic_crystal` の方法で片方の固体を作成する。"
-msgstr "Create a structure of one molecule (See :ref:`create_mole`). "
+msgstr "Create one of the solids using :ref:`create_inorganic_crystal`."
 
 msgid "シミュレーションセル直上の原子を、接合方向両方に残しておきたい場合は、 :menuselection:`固体 -->` :ref:`solid_insertvacuum` において :guilabel:`Vacuum` に0より少し大きい値（0.001など）を入力し :guilabel:`OK` ボタンをクリックする。"
-msgstr "NOTTRANSLATED"
+msgstr "If you want the atoms on the simulation cell to remain in both junction directions, enter a value slightly greater than 0 (e.g., 0.001) in the :menuselection:`solid -->` :ref:`solid_insertvacuum` and click the :guilabel:`OK` button."
 
-#, fuzzy
 msgid ":menuselection:`ファイル -->` :ref:`file_saveas` からcif形式で保存する。"
-msgstr "Read SMILES format string from :menuselection:`File --> Import -->` :ref:`file_import_smiles`."
+msgstr "Save the file as a cif from :menuselection:`file -->` :ref:`file_saveas`."
 
 msgid ":ref:`create_slab` の方法でもう片方の固体を作成する。また、必要に応じて2.と同様の操作を行う。"
-msgstr "NOTTRANSLATED"
+msgstr "Create the other solid using the method :ref:`create_slab`. Also, if necessary, perform the same operation as in 2."
 
 msgid ":guilabel:`Cell` タブの :guilabel:`Cell 1` の :guilabel:`Browse` ボタンをクリックし、3.で保存したファイルを選択する。同様に、 :guilabel:`Cell 2` においては、5.で保存したファイルを選択する。"
-msgstr "NOTTRANSLATED"
+msgstr "Click :guilabel:`Browse` button of :guilabel:`Cell 1` in the :guilabel:`Cell` tab, and select the file saved in step 3. Similarly, in :guilabel:`Cell 2`, select a file which was saved in step 5."
 
 msgid ":guilabel:`Direction` タブの :guilabel:Interval` に固体間の距離を入力する。ただし、2.において真空層を挿入している場合は、そこで挿入した真空層の厚みを考慮して :guilabel:`Interval` に値を入力する。"
-msgstr "NOTTRANSLATED"
+msgstr "Input the distance between solids in :guilabel:`Interval` of :guilabel:`Direction` tab. However, if a vacuum layer is inserted in 2, input the value of :guilabel:`Interval` taking into account the thickness of the vacuum layer inserted there."
 
 msgid ":guilabel:`Repeat` タブに移動すると、3つの :guilabel:`Suggest` ボタンのうち、上ふたつ（a-axisとb-axis）が押せる状態になっている。この :guilabel:`Suggest` ボタンをクリックし、 :guilabel:`Ratio` の値（Cell1とCell2のセルサイズ比率）が1に近く、かつシステムサイズが大きすぎない行を選択し、 :guilabel:`Set` ボタンをクリックする。"
-msgstr "NOTTRANSLATED"
+msgstr "If you move to the :guilabel:`Repeat` tab, the top two (a-axis and b-axis) of the three :guilabel:`Suggest` buttons can be pressed. Click the :guilabel:`Suggest` button, select a row whose value of :guilabel:`Ratio` is close to 1 and the system size is not too large, and click the :guilabel:`Set` button."
 
 msgid "Ctrl+左ドラッグなどにより、片方の固体をグループ選択する。詳細は :ref:`select_top` を参照する。"
-msgstr "NOTTRANSLATED"
+msgstr "Select one of the solids as a group by Ctrl+Left dragging. See :ref:`select_top` for details."
 
 msgid ":menuselection:`編集 --> グループ編集 -->` :ref:`edit_group_move_slider` をクリックし、X, Y方向にグループを並進移動させる。 :menuselection:`表示 -->` :ref:`view_three` を有効にすると位置の確認をしやすくなる。"
-msgstr "NOTTRANSLATED"
-
-
-
+msgstr "Click :menuselection:`edit --> group editing -->` :ref:`edit_group_move_slider` to move the group in the X and Y direction. If you enable :menuselection:`view -->` :ref:`view_three`, it is easier to see the position."

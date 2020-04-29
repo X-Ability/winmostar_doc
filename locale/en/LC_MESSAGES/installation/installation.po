@@ -228,15 +228,3 @@ msgstr "If you are upgrading from V7, V8 or V9, you can take over the settings b
 
 msgid "詳細は `V10移行ガイド <https://winmostar.com/jp/manual_jp/V10/MigrationGuide_V10.pdf>`_ 、 `V9移行ガイド <https://winmostar.com/jp/manual_jp/V9/MigrationGuide_V9.pdf>`_ を参照してください。"
 msgstr "For more information, see `V10 Migration Guide <https://winmostar.com/jp/manual_jp/V10/MigrationGuide_V10.pdf>`_ and `V9 Migration Guide <https://winmostar.com/jp/manual_jp/V9/MigrationGuide_V9.pdf>`_."
-
-
-
-
-
-
-
-
-
-
-
-
