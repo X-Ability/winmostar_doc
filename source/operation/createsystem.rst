@@ -298,24 +298,22 @@
 
    1. :ref:`create_inorganic_crystal` の方法で片方の固体を作成する。
    
-   2. シミュレーションセル直上の原子を、接合方向両方に残しておきたい場合は、 :menuselection:`固体 -->` :ref:`solid_insertvacuum` において :guilabel:`Vacuum` に0より少し大きい値（0.001など）を入力し :guilabel:`OK` ボタンをクリックする。
-      
-   3. :menuselection:`ファイル -->` :ref:`file_saveas` からcif形式で保存する。
+   2. :menuselection:`ファイル -->` :ref:`file_saveas` からcif形式で保存する。
    
-   4. :ref:`create_slab` の方法でもう片方の固体を作成する。また、必要に応じて2.と同様の操作を行う。
+   3. :ref:`create_slab` の方法でもう片方の固体を作成する。
    
-   5. :menuselection:`ファイル -->` :ref:`file_saveas` からcif形式で保存する。
+   4. :menuselection:`ファイル -->` :ref:`file_saveas` からcif形式で保存する。
    
-   6. :menuselection:`MD -->` :ref:`md_interface` をクリックする。
+   5. :menuselection:`MD -->` :ref:`md_interface` をクリックする。
    
-   7. :guilabel:`Cell` タブの :guilabel:`Cell 1` の :guilabel:`Browse` ボタンをクリックし、3.で保存したファイルを選択する。同様に、 :guilabel:`Cell 2` においては、5.で保存したファイルを選択する。
+   6. :guilabel:`Cell` タブの :guilabel:`Cell 1` の :guilabel:`Browse` ボタンをクリックし、3.で保存したファイルを選択する。同様に、 :guilabel:`Cell 2` においては、5.で保存したファイルを選択する。
    
-   8. :guilabel:`Direction` タブの :guilabel:Interval` に固体間の距離を入力する。ただし、2.において真空層を挿入している場合は、そこで挿入した真空層の厚みを考慮して :guilabel:`Interval` に値を入力する。
+   7. :guilabel:`Direction` タブの :guilabel:Interval` に固体間の距離を入力する。また、 :guilabel:`Place atoms located on cell boundaries on both sides of interface` にチェックを入れる。
    
-   9. :guilabel:`Repeat` タブに移動すると、3つの :guilabel:`Suggest` ボタンのうち、上ふたつ（a-axisとb-axis）が押せる状態になっている。この :guilabel:`Suggest` ボタンをクリックし、 :guilabel:`Ratio` の値（Cell1とCell2のセルサイズ比率）が1に近く、かつシステムサイズが大きすぎない行を選択し、 :guilabel:`Set` ボタンをクリックする。
+   8. :guilabel:`Repeat` タブに移動すると、3つの :guilabel:`Suggest` ボタンのうち、上ふたつ（a-axisとb-axis）が押せる状態になっている。この :guilabel:`Suggest` ボタンをクリックし、 :guilabel:`Ratio` の値（Cell1とCell2のセルサイズ比率）が1に近く、かつシステムサイズが大きすぎない行を選択し、 :guilabel:`Set` ボタンをクリックする。
    
-   10. :guilabel:`Build` ボタンをクリックし、保存するファイル名を入力してから :guilabel:`保存` ボタンをクリックする。
+   9. :guilabel:`Build` ボタンをクリックし、保存するファイル名を入力してから :guilabel:`保存` ボタンをクリックする。
 
-   11. Ctrl+左ドラッグなどにより、片方の固体をグループ選択する。詳細は :ref:`select_top` を参照する。
+   10. Ctrl+左ドラッグなどにより、片方の固体をグループ選択する。詳細は :ref:`select_top` を参照する。
    
-   12. :menuselection:`編集 --> グループ編集 -->` :ref:`edit_group_move_slider` をクリックし、X, Y方向にグループを並進移動させる。 :menuselection:`表示 -->` :ref:`view_three` を有効にすると位置の確認をしやすくなる。
+   11. :menuselection:`編集 --> グループ編集 -->` :ref:`edit_group_move_slider` をクリックし、X, Y方向にグループを並進移動させる。 :menuselection:`表示 -->` :ref:`view_three` を有効にすると位置の確認をしやすくなる。
