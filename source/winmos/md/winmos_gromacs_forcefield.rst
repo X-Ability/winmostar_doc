@@ -5,8 +5,9 @@
    
    (一般)
       タンパク質、水分子以外の分子の力場を指定します。
-      内部では、GAFF, OPLS/AA-Lの場合は :command:`acpype` が、Dreidingの場合は内製プログラムが使用されます。
+      内部では、GAFF, OPLS/AA-Lの場合は :command:`acpype` 、Dreidingの場合は内製プログラム、UFFの場合はOpenBabelを独自に拡張したプログラムが使用されます。
       Dreidingの設定は :file:`polymer/dreiding.lib.txt` に書かれています。
+      UFFの詳細は :ref:`forcefield_uff` を確認してください。
 
       Exception
          特定の分子に対し、(General)にて選択した力場を使わず、ユーザが指定するLJパラメータを割り当てます。
