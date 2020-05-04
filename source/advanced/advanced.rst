@@ -7,4 +7,5 @@
    
    commandline
    cygwinwm
+   forcefield
    
