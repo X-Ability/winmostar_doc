@@ -74,7 +74,7 @@ msgid "RESP電荷を割り当てる。"
 msgstr "Assign RESP charge."
 
 msgid ":menuselection:`QM --> GAMESS --> キーワード設定 --> Easy Setup` にて、計算手法、基底関数を「HF/6-31G*」に設定し、 :guilabel:`Method` に :guilabel:`ESP/RESP` を選択する。イオンの場合は :guilabel:`Charge` に電荷を入力する。"
-msgstr "In :menuselection:`QM --> GAMESS --> Preference --> Easy Setup`, set the calculation method and the base function to "HF/6-31G*" and select :guilabel:`ESP/RESP` for :guilabel:`Method`. For ions, input the charge to :guilabel:`Charge`."
+msgstr "In :menuselection:`QM --> GAMESS --> Preference --> Easy Setup`, set the calculation method and the base function to \"HF/6-31G*\" and select :guilabel:`ESP/RESP` for :guilabel:`Method`. For ions, input the charge to :guilabel:`Charge`."
 
 msgid ":guilabel:`Easy Setup` ウィンドウを :guilabel:`OK` ボタンで閉じ、 :guilabel:`GAMESS Setup` ウィンドウで :guilabel:`Run` ボタンを押し計算を実行する。"
 msgstr "Close the :guilabel:`Easy Setup` window with the :guilabel:`OK` button and press the:guilabel:`Run` button in the configure window to execute the calculation."
@@ -138,7 +138,7 @@ msgstr "Save a file by :menuselection:`File -->` :ref:`file_saveas` in mol2 form
 
 msgid "1.から3.の手順を計算したい全ての分子種に対して行う。"
 msgstr "Procedures 1 to 3 are performed for all molecular species to be calculated."
-	
+
 msgid ":menuselection:`MD -->` :ref:`md_solvate_buildcell` を選択する。"
 msgstr "Select :menuselection:`MD -->` :ref:`md_solvate_buildcell`."
 
@@ -209,7 +209,7 @@ msgid "4.、5.の手順を計算したい全ての分子種に対して行う。
 msgstr "Perform the steps in 4 and 5 for all the molecular species you want to calculate."
 
 msgid ":guilabel:`Simulatoin Cell` タブで :guilabel:`Set Lattice Constants` にチェックを入れ、 :guilabel:`Same as main window` ボタンをクリックする。次に、 :guilabel:`Box Type` で「triclinic」を選択する。 :guilabel:`Set Lattice Constants` の右に、最初に作成した相のセルサイズが表示される。そのうち、一番右の欄（z方向）の値を変更する。その際、その上の :guilabel:`Set Density` の右に表示される密度を参考にする。"
-msgstr "Check :guilabel:`Set Lattice Constants` in :guilabel:`Simulatoin Cell` tab and click :guilabel:`Same as main window` button. Next, select "triclinic" at :guilabel:`Box Type`. The cell size of the first phase is shown to the right of :guilabel:`Set Lattice Constants`. In this case, change the value of the rightmost column (z-direction). In this case, refer to the density displayed on the right of :guilabel:`Set Density` above it."
+msgstr "Check :guilabel:`Set Lattice Constants` in :guilabel:`Simulatoin Cell` tab and click :guilabel:`Same as main window` button. Next, select \"triclinic\" at :guilabel:`Box Type`. The cell size of the first phase is shown to the right of :guilabel:`Set Lattice Constants`. In this case, change the value of the rightmost column (z-direction). In this case, refer to the density displayed on the right of :guilabel:`Set Density` above it."
 
 msgid ":guilabel:`Build` ボタンを押す。"
 msgstr "Press the :guilabel:`Build` button."
@@ -220,8 +220,8 @@ msgstr "Click :menuselection:`MD -->` :ref:`md_interface`."
 msgid ":guilabel:`Cell` タブの :guilabel:`Cell 1` の :guilabel:`Browse` ボタンをクリックし、2.で保存したファイルを選択する。同様に、 :guilabel:`Cell 2` においては、9.で保存したファイルを選択する。"
 msgstr "Click :guilabel:`Browse` button of :guilabel:`Cell 1` in the :guilabel:`Cell` tab, and select the file saved in step 2. Similarly, in :guilabel:`Cell 2`, select the file which was saved in 9."
 
-msgid ":guilabel:`Direction` タブの :guilabel:Interval` に液相間の距離を入力する。"
-msgstr "Input the distance between liquid phases in :guilabel:`Direction` tab of :guilabel:Interval`."
+msgid ":guilabel:`Direction` タブの :guilabel:`Interval` に液相間の距離を入力する。"
+msgstr "Input the distance between liquid phases in :guilabel:`Direction` tab of :guilabel:`Interval`."
 
 msgid ":guilabel:`Build` ボタンをクリックし、保存するファイル名を入力してから :guilabel:`保存` ボタンをクリックする。"
 msgstr "Click :guilabel:`Build` button, type the name of the file to save, and then click :guilabel:`Save` button."
@@ -239,7 +239,7 @@ msgid ":menuselection:`編集 --> 水素を付加 -->` :ref:`edit_addh_pdb2gmx` 
 msgstr ":menuselection:`Edit --> Add Hydrogen -->` :ref:`edit_addh_pdb2gmx`. Even if hydrogen appears to be added before the execution, the calculation may fail later if this process is omitted."
 
 msgid ":menuselection:`MD -->` :ref:`md_solvate_buildcell` をクリックする。 :guilabel:`Add Displayed Molecule` をクリックし、 :guilabel:`Enter # of molecules` で「1」と入力し :guilabel:`OK` ボタンをクリックする。 次に :guilabel:`Add Water` ボタンをクリックし、 :guilabel:`Enter # of molecules` で適当な分子数（5000～10000程度）を入力し、 :guilabel:`OK` ボタンをクリックする。その後、 :guilabel:`Build` ボタンをクリックする。"
-msgstr "Click :menuselection:`MD -->` :ref:`md_solvate_buildcell`. Click :guilabel:`Add Displayed Molecule`, type "1" in :guilabel:`Enter # of molecules` and click the :guilabel:`OK` button. Next, click :guilabel:`Add Water` button, input the number of molecules (about 5000 to 10000) at :guilabel:`Enter # of molecules` and click :guilabel:`OK` button. Then, click the :guilabel:`Build` button."
+msgstr "Click :menuselection:`MD -->` :ref:`md_solvate_buildcell`. Click :guilabel:`Add Displayed Molecule`, type \"1\" in :guilabel:`Enter # of molecules` and click the :guilabel:`OK` button. Next, click :guilabel:`Add Water` button, input the number of molecules (about 5000 to 10000) at :guilabel:`Enter # of molecules` and click :guilabel:`OK` button. Then, click the :guilabel:`Build` button."
 
 msgid "系を中性化するために :menuselection:`MD -->` :ref:`md_replace_ion` の手順でイオンを配置する。「WARNING: The charges defined on the main window will be discarded. Are you sure you want to continue?」と表示されたら :guilabel:`はい` をクリックする。"
 msgstr "To neutralize the system, place ions with the procedure :menuselection:`MD -->` :ref:`md_replace_ion`. If the message \"WARNING: The charges defined on the main window will be discarded. Are you sure you want to continue?\" is displayed, click :guilabel:`Yes`."
@@ -266,7 +266,7 @@ msgid "再び計算したいタンパク質-リガンド複合体のpdbファイ
 msgstr "Open the pdb file of the protein-ligand complex you want to calculate again with Winmostar."
 
 msgid ":ref:`md_solvate_buildcell` をクリックする。 :guilabel:`Add Displayed Molecule` をクリックし、 :guilabel:`Enter # of molecules` で「1」と入力し :guilabel:`OK` ボタンをクリックする。 次に :guilabel:`Add Water` ボタンをクリックし、:guilabel:`Enter # of molecules` で適当な分子数（5000～10000程度）を入力し、 :guilabel:`OK` ボタンをクリックする。そして、 :guilabel:`Add mol2 File` ボタンをクリックし、4.で保存したmol2ファイルを開き、 :guilabel:`Enter # of molecules` で「1」と入力し、 :guilabel:`OK` ボタンをクリックする。「この分子を乱数的に配置しますか？」と聞かれたら :guilabel:`いいえ` をクリックする。その後、 :guilabel:`Build` ボタンをクリックする。"
-msgstr "Click :ref:`md_solvate_buildcell`. Click :guilabel:`Add Displayed Molecule`, type "1" in :guilabel:`Enter # of molecules` and click the :guilabel:`OK` button. Next, click :guilabel:`Add Water` button, input an appropriate number of molecules at :guilabel:`Enter # of molecules` and click :guilabel:`OK` button. Then, click :guilabel:`Add mol2 File` button, open the mol2 file saved in step 4, type "1" in :guilabel:`Enter # of molecules`, and click :guilabel:`OK` button. Do you want to arrange these molecules in a random manner? If asked, click :guilabel:`No`. Then, click the :guilabel:`Build` button."
+msgstr "Click :ref:`md_solvate_buildcell`. Click :guilabel:`Add Displayed Molecule`, type \"1\" in :guilabel:`Enter # of molecules` and click the :guilabel:`OK` button. Next, click :guilabel:`Add Water` button, input an appropriate number of molecules at :guilabel:`Enter # of molecules` and click :guilabel:`OK` button. Then, click :guilabel:`Add mol2 File` button, open the mol2 file saved in step 4, type \"1\" in :guilabel:`Enter # of molecules`, and click :guilabel:`OK` button. Do you want to arrange these molecules in a random manner? If asked, click :guilabel:`No`. Then, click the :guilabel:`Build` button."
 
 msgid "無機結晶の作成"
 msgstr "Preparation of inorganic crystals"
@@ -338,7 +338,7 @@ msgid ":guilabel:`Cleave Plane (h k l)` の欄にミラー指数を入力し、 
 msgstr "Enter a mirror index in :guilabel:`Cleave Plane (h k l)` and click the :guilabel:`Next >>` button."
 
 msgid "直方セルを検索したい場合は :guilabel:`Definition of Lattice` で :guilabel:`Auto(Ortho)` 、直方セル以外も検索したい場合は :guilabel:`Auto(All)` 、手動でセルを定義したい場合は :guilabel:`Manual` を選択し、 :guilabel:`OK` ボタンをクリックする。「Transform unit cell?」と聞かれたら :guilabel:`はい` をクリックする。"
-msgstr "Select :guilabel:`Auto(Ortho)` in :guilabel:`Definition of Lattice` to search for rectangular cells, :guilabel:`Auto(All)` to search for other rectangular cells, or :guilabel:`Manual` to define cells manually, and click :guilabel:`OK` button. If you are asked "Transform unit cell?", click :guilabel:`Yes`."
+msgstr "Select :guilabel:`Auto(Ortho)` in :guilabel:`Definition of Lattice` to search for rectangular cells, :guilabel:`Auto(All)` to search for other rectangular cells, or :guilabel:`Manual` to define cells manually, and click :guilabel:`OK` button. If you are asked \"Transform unit cell?\", click :guilabel:`Yes`."
 
 msgid ":menuselection:`固体 -->` :ref:`solid_insertvacuum` をクリックする。"
 msgstr "Click :menuselection:`solid -->` :ref:`solid_insertvacuum`."
@@ -367,20 +367,17 @@ msgstr "Creation of solid interfaces (grain boundaries)"
 msgid ":ref:`create_inorganic_crystal` の方法で片方の固体を作成する。"
 msgstr "Create one of the solids using :ref:`create_inorganic_crystal`."
 
-msgid "シミュレーションセル直上の原子を、接合方向両方に残しておきたい場合は、 :menuselection:`固体 -->` :ref:`solid_insertvacuum` において :guilabel:`Vacuum` に0より少し大きい値（0.001など）を入力し :guilabel:`OK` ボタンをクリックする。"
-msgstr "If you want the atoms on the simulation cell to remain in both junction directions, enter a value slightly greater than 0 (e.g., 0.001) in the :menuselection:`solid -->` :ref:`solid_insertvacuum` and click the :guilabel:`OK` button."
-
 msgid ":menuselection:`ファイル -->` :ref:`file_saveas` からcif形式で保存する。"
 msgstr "Save the file as a cif from :menuselection:`file -->` :ref:`file_saveas`."
 
-msgid ":ref:`create_slab` の方法でもう片方の固体を作成する。また、必要に応じて2.と同様の操作を行う。"
-msgstr "Create the other solid using the method :ref:`create_slab`. Also, if necessary, perform the same operation as in 2."
+msgid ":ref:`create_slab` の方法でもう片方の固体を作成する。"
+msgstr "Create the other solid using the method :ref:`create_slab`."
 
 msgid ":guilabel:`Cell` タブの :guilabel:`Cell 1` の :guilabel:`Browse` ボタンをクリックし、3.で保存したファイルを選択する。同様に、 :guilabel:`Cell 2` においては、5.で保存したファイルを選択する。"
 msgstr "Click :guilabel:`Browse` button of :guilabel:`Cell 1` in the :guilabel:`Cell` tab, and select the file saved in step 3. Similarly, in :guilabel:`Cell 2`, select a file which was saved in step 5."
 
-msgid ":guilabel:`Direction` タブの :guilabel:Interval` に固体間の距離を入力する。ただし、2.において真空層を挿入している場合は、そこで挿入した真空層の厚みを考慮して :guilabel:`Interval` に値を入力する。"
-msgstr "Input the distance between solids in :guilabel:`Interval` of :guilabel:`Direction` tab. However, if a vacuum layer is inserted in 2, input the value of :guilabel:`Interval` taking into account the thickness of the vacuum layer inserted there."
+msgid ":guilabel:`Direction` タブの :guilabel:`Interval` に固体間の距離を入力する。また、 :guilabel:`Place atoms located on cell boundaries on both sides of interface` にチェックを入れる。"
+msgstr "Input the distance between solids in :guilabel:`Interval` of :guilabel:`Direction` tab. And check :guilabel:`Place atoms located on cell boundaries on both sides of interface`."
 
 msgid ":guilabel:`Repeat` タブに移動すると、3つの :guilabel:`Suggest` ボタンのうち、上ふたつ（a-axisとb-axis）が押せる状態になっている。この :guilabel:`Suggest` ボタンをクリックし、 :guilabel:`Ratio` の値（Cell1とCell2のセルサイズ比率）が1に近く、かつシステムサイズが大きすぎない行を選択し、 :guilabel:`Set` ボタンをクリックする。"
 msgstr "If you move to the :guilabel:`Repeat` tab, the top two (a-axis and b-axis) of the three :guilabel:`Suggest` buttons can be pressed. Click the :guilabel:`Suggest` button, select a row whose value of :guilabel:`Ratio` is close to 1 and the system size is not too large, and click the :guilabel:`Set` button."

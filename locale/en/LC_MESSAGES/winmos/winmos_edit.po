@@ -172,8 +172,8 @@ msgstr "Make up for missing hydrogen atoms. If you import a file whose bond dist
 msgid "すべての原子に付加"
 msgstr "To all atoms"
 
-msgid "全ての原子に水素を自動的に付加します。"
-msgstr "We will automatically add hydrogen to all atoms."
+msgid "全ての原子に水素を自動的に付加します。 グループ選択されている場合はその原子のみ水素を付加します。"
+msgstr "Automatically adds hydrogen to all atoms.  If atoms are group selected, hydrogens are added only to  the atoms."
 
 msgid ":kbd:`Ctrl+H` でも操作できます。"
 msgstr "You can also operate with :kbd:`Ctrl + H`."
@@ -181,8 +181,8 @@ msgstr "You can also operate with :kbd:`Ctrl + H`."
 msgid "選択原子に付加（自動）"
 msgstr "To marked atoms (Auto)"
 
-msgid "マーカーが付いた原子に水素原子を1つ付加します。"
-msgstr "Add one hydrogen atom to the atom with the marker."
+msgid "マーカーが付いた原子に水素原子を付加します。 グループ選択されている場合はその原子に水素を付加します。"
+msgstr "Add hydrogens to the markered atom. If atoms are group selected, hydrogens are added to the atoms."
 
 msgid ":ref:`ツールバー <gui_main>` の :guilabel:`+H` ボタンでも操作できます。"
 msgstr "You can also operate with :guilabel:`+ H` button of :ref:`Toolbar <gui_main>`."
@@ -190,8 +190,8 @@ msgstr "You can also operate with :guilabel:`+ H` button of :ref:`Toolbar <gui_m
 msgid "選択原子に付加（1原子）、（2原子）、（3原子）"
 msgstr "To marked atoms (Single), (Double), (Triple)"
 
-msgid "マーカーが付いた原子に水素が1～3つ付加した状態にします。"
-msgstr "Make 1 to 3 hydrogen added to the atom with the marker."
+msgid "マーカーが付いた原子に水素が1～3つ付加した状態にします。 グループ選択されている場合はその原子に水素を付加します。"
+msgstr "Add one to three hydrogens with markers to the atoms.  If atoms are group selected, hydrogens are added to the atoms."
 
 msgid "pdb2gmxを使用"
 msgstr "Using pdb2gmx"

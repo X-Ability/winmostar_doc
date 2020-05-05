@@ -184,7 +184,7 @@
    
    11. :guilabel:`Cell` タブの :guilabel:`Cell 1` の :guilabel:`Browse` ボタンをクリックし、2.で保存したファイルを選択する。同様に、 :guilabel:`Cell 2` においては、9.で保存したファイルを選択する。
    
-   12. :guilabel:`Direction` タブの :guilabel:Interval` に液相間の距離を入力する。
+   12. :guilabel:`Direction` タブの :guilabel:`Interval` に液相間の距離を入力する。
    
    13. :guilabel:`Build` ボタンをクリックし、保存するファイル名を入力してから :guilabel:`保存` ボタンをクリックする。
 
@@ -308,7 +308,7 @@
    
    6. :guilabel:`Cell` タブの :guilabel:`Cell 1` の :guilabel:`Browse` ボタンをクリックし、3.で保存したファイルを選択する。同様に、 :guilabel:`Cell 2` においては、5.で保存したファイルを選択する。
    
-   7. :guilabel:`Direction` タブの :guilabel:Interval` に固体間の距離を入力する。また、 :guilabel:`Place atoms located on cell boundaries on both sides of interface` にチェックを入れる。
+   7. :guilabel:`Direction` タブの :guilabel:`Interval` に固体間の距離を入力する。また、 :guilabel:`Place atoms located on cell boundaries on both sides of interface` にチェックを入れる。
    
    8. :guilabel:`Repeat` タブに移動すると、3つの :guilabel:`Suggest` ボタンのうち、上ふたつ（a-axisとb-axis）が押せる状態になっている。この :guilabel:`Suggest` ボタンをクリックし、 :guilabel:`Ratio` の値（Cell1とCell2のセルサイズ比率）が1に近く、かつシステムサイズが大きすぎない行を選択し、 :guilabel:`Set` ボタンをクリックする。
    
