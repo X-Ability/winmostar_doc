@@ -1,0 +1,41 @@
+msgid "力場に関して"
+msgstr "Force Field"
+
+msgid "Universal Force Field"
+msgstr "Universal Force Field"
+
+msgid "Winmostarの分子動力学計算（Gromacs, LAMMPS）で利用できるUniversal Force Field（以下、UFF）は次のように実装されています。"
+msgstr "The Universal Force Field (UFF) available in Winmostar's molecular dynamics calculations (Gromacs, LAMMPS) is implemented as follows."
+
+msgid "まず、OpenBabelのUFFパラメータアサイン機能を利用して、対象となる分子にパラメータをアサインします。その際に、UFFの原著論文 [Rappe1992]_ に書かれたatom typeに相当しない原子については、Coordinationを自動で変更して近いatom typeがアサインされます。詳細は、OpenBabelのソースコードを参照してください。"
+msgstr "First, use OpenBabel's UFF parameter assignment function to assign parameters to the molecule of interest. Then, for atoms that do not correspond to the atom type described in the original UFF paper [Rappe1992]_, the Coordination is automatically changed and a closer atom type is assigned. See the OpenBabel source code for more information."
+
+msgid "UFFの関数形はGromacs、LAMMPSで使用可能な関数で完全に再現することができません。そのため、OBGMX [Garberoglio2012]_ の方法でGromacsおよびLAMMPSで使用可能な関数向けに係数を変換しています。"
+msgstr "The functional form of UFF cannot be fully reproduced by the functions available in Gromacs and LAMMPS. Therefore, we have converted the coefficients for the functions available in Gromacs and LAMMPS by way of OBGMX [Garberoglio2012]_."
+
+msgid "また、OBGMXの方法では、square planar、octahedral構造におけるAngleポテンシャルで、極小点が1か所しかないために適切な安定構造を与えないため、Winmostarでは4次関数を使用しています。4次関数の係数は、以下の方針で決定しました。"
+msgstr "In addition, fourth-order function is used in Winmostar because the Angle potential in the square planar and octahedral structures does not give a proper stable structure due to the fact that there is only one minuscule point int OBGMX method. The coefficients of the quadratic function were determined by the following policy."
+
+msgid "2か所のポテンシャル極小点の位置（角度、エネルギー）を再現する"
+msgstr "Reproducing the position (angle, energy) of two potential minimum points"
+
+msgid "2か所のポテンシャル極小点の間にある極大点のエネルギーを再現する"
+msgstr "Reproducing the energy of a maximum point between two potential minima"
+
+msgid "ただし、LAMMPSの場合は0次の係数を設定できないため、エネルギーのみ定数分シフトする（エネルギーの微分である力はGromacsとLAMMPSで一致するので、実用上の影響はないと思われる）"
+msgstr "In the case of LAMMPS, however, the coefficient of zero order cannot be set, so only the energy is shifted by a constant amount (the force, which is a derivative of the energy, is the same for Gromacs and LAMMPS, so there is no practical effect)."
+
+msgid "上記の方針のため、得られる平衡構造と分布はUFF原著のポテンシャルを使った場合から大きく変化しないと期待されます。なお、広く使われているOpenBabelにおいても、Angleポテンシャルに独自のペナルティ関数を追加しており、厳密にはUFF原著のポテンシャルからずれがあります。"
+msgstr "Because of the above policy, the resulting equilibrium structure and distribution is expected to remain largely unchanged from the case using the UFF original potential. Note that the widely used OpenBabel also adds its own penalty function to the Angle potential, which strictly deviates from the UFF original potential."
+
+msgid "Winmostarではsquare planer, octahedralのAngleの係数を以下のようにしました。 :math:`C_{i, \\mathrm{gro}}` はGromacsの4次関数の係数、 :math:`k_{a,\\mathrm{uff}}` はUFFの係数です。LAMMPSの場合は :math:`C_{2, \\mathrm{gro}}` と :math:`C_{4, \\mathrm{gro}}` だけが使われます。"
+msgstr "In Winmostar, the coefficients of Angle for square planer and octahedral are as follows. :math:`C_{i, \\mathrm{gro}}` is the coefficient of Gromacs' fourth-order function, :math:`k_{a, \mathrm{uff}}` is the coefficient of UFF; in LAMMPS, only :math:`C_{2, \mathrm{gro}}` and :math:`C_{4, \mathrm{gro}}` are used."
+
+msgid "C_{\\mathrm{0,gro}} &= \\frac{1}{4}(2-\\sqrt{2})k_{a,\\mathrm{uff}} \\\\ C_{\\mathrm{1,gro}} &= 0\\\\ C_{\\mathrm{2,gro}} &= - \\frac{8 }{\\pi^2} (2-\\sqrt{2})k_{a,\\mathrm{uff}}\\\\ C_{\\mathrm{3,gro}} &= 0\\\\ C_{\\mathrm{4,gro}} &= \\frac{64 }{\\pi^4}(2-\\sqrt{2})k_{a,\\mathrm{uff}} \\\\ \\theta_{0,\\mathrm{gro}} &= \\frac{3}{4}\\pi\\\\"
+msgstr "C_{\\mathrm{0,gro}} &= \\frac{1}{4}(2-\\sqrt{2})k_{a,\\mathrm{uff}} \\\\ C_{\\mathrm{1,gro}} &= 0\\\\ C_{\\mathrm{2,gro}} &= - \\frac{8 }{\\pi^2} (2-\\sqrt{2})k_{a,\\mathrm{uff}}\\\\ C_{\\mathrm{3,gro}} &= 0\\\\ C_{\\mathrm{4,gro}} &= \\frac{64 }{\\pi^4}(2-\\sqrt{2})k_{a,\\mathrm{uff}} \\\\ \\theta_{0,\\mathrm{gro}} &= \\frac{3}{4}\\pi\\\\"
+
+msgid "A.K. Rappe, C.J. Casewit, K.S. Colwell, W.A. Goddard III and W.M. Skiff, J. Am. Chem. Soc., 114 (1992), 10024–10035."
+msgstr "A.K. Rappe, C.J. Casewit, K.S. Colwell, W.A. Goddard III and W.M. Skiff, J. Am. Chem. Soc., 114 (1992), 10024–10035."
+
+msgid "Garberoglio, J. Comp. Chem., 33 (2012), 2204-8."
+msgstr "Garberoglio, J. Comp. Chem., 33 (2012), 2204-8."
