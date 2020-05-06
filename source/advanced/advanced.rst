@@ -8,4 +8,5 @@
    commandline
    cygwinwm
    forcefield
+   sdfformat
    

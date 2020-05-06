@@ -14,6 +14,13 @@ Animationウィンドウ
          アニメーションを再度元ファイルから読み込みます。
          
          :guilabel:`Reload` ボタンからも操作できます。
+      Export Current Frame
+         現在のフレームを別名で保存します。
+      Export All Frames Separately
+         全てのフレームをそれぞれ個別のファイルに出力します。
+         
+         例えば、SDFファイルの各分子構造を個々のファイルに分割し保存・編集したいときに便利です。
+         分割したファイルを再びSDFファイルに集約する場合は :ref:`tools_composesdf` を使います。
       Export GIF Animation
          GIFアニメーションファイルを書き出します。
          
