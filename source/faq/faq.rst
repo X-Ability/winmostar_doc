@@ -642,6 +642,11 @@ Q. Quantum ESPRESSOのSCF計算が出力ファイル（.pwoutまたは.out）に
 | nbndを増やしたい場合は、nbndを使わずに実行したときにpwoutまたはoutファイルに出力される"number of Kohn-Sham states"の値よりも大きい値をnbndに設定してください。
 | また、Winmostarのキーワード設定画面の「Use nbnd」のところに表示される「# valence bands: 」の値も参考にしてください（詳細は :ref:`solid_qe_top` を参照）。
 
+Q. Quantum ESPRESSOのSCF計算が出力ファイル（.pwoutまたは.out）に「fixed occupations and lsda need tot_magnetization」と表示され異常終了します。どのように解決したらいいですか？
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+| A. occupationsにsmearingを指定するか、starting_magnetizationではなくtot_magnetizationを指定してください。
+
 Q. Quantum ESPRESSOを用いて誘電関数を計算する際に、epsilon.xの出力(eps.out)に「bad band number」と表示され誘電関数を取得できません。
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 | A. SCF計算でバンド数（nbnd）を増やすことで解消します。
