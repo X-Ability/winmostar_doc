@@ -160,7 +160,7 @@ $HESSを読み込み
    
    :guilabel:`(1) GAMESS実行` , :guilabel:`(2) GAMESS実行` の違いは、起動するGAMESSのプログラムパスです。
    プログラムパスは、 :menuselection:`ツール --> 環境設定 --> プログラムパス` で変更することができます。
-   :guilabel:`(1) GAMESS実行` , :guilabel:`(2) GAMESS実行` には、Fireflyやバージョンの異なるGAMESSなどを設定して、両者を場面に応じて使い分けながら使用することを想定しています。
+   :guilabel:`(1) GAMESS実行` , :guilabel:`(2) GAMESS実行` には、バージョンの異なるGAMESSなどを設定して、両者を場面に応じて使い分けながら使用することを想定しています。
    
    外部基底関数ファイルを使用するには( :command:`$BASIS EXTFIL=.T.` )、 :file:`basis.lib` をGAMESSのEXEファイルと同じディレクトリに置きます。
    WinGAMESSの場合は、 :file:`runscript.csh` の中で :command:`setenv EXTBAS ../basis.lib` と指定します。

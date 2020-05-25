@@ -31,12 +31,6 @@ msgstr "If you select a range of text in the console window where the job of the
 msgid "Windows10のコンソールウィンドウ上で、実行中のジョブのログのテキストを範囲選択すると、ジョブが終了したと認識されます。これにより不具合が生じる場合は、出力されるログファイルを直接テキストエディタで開き、そこでテキストを範囲選択、コピーなどしてください。範囲選択後、処理が中断する場合は、Enterキーを押すと処理が再開します。Windows10以降で発生します。 （2018年7月20日報告）"
 msgstr "In the Windows 10 console window, selecting the range of the log text of the job being executed will recognize that the job has ended. If this causes a problem, open the log file to be output directly with a text editor, and select and copy the range of the text there. If processing is interrupted after selecting the range, processing will resume by pressing the Enter key. It occurs in Windows 10 or later. (Reported on July 20, 2018)"
 
-msgid "Fireflyを使った時にRESP電荷を計算できない。"
-msgstr "I can not calculate the RESP charge when using Firefly."
-
-msgid "WinmostarのRESP電荷算出はGAMESS(US)対象として開発されているため、現状ではFireflyなどを使って構造最適化をした後に、RESP電荷算出時の計算のみGAMESS(US)をお使いください。将来的にはFireflyを使ったRESP電荷計算にも対応予定です。 （2018年7月31日報告）"
-msgstr "As Winmostar&#39;s RESP charge calculation has been developed as a target for GAMESS (US), at present, please use GAMESS (US) only for calculation at RESP charge calculation after structure optimization using Firefly etc. In the future we plan to calculate RESP charge using Firefly. (Reported on July 31, 2018)"
-
 msgid "ローカルマシンでGromacsを実行中にGromacsがフリーズする。"
 msgstr "Gromacs freezes while running Gromacs on local machine."
 
