@@ -116,7 +116,8 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
 
 10. リモートサーバへのジョブ投入と、リモートサーバ上でのジョブのスケジューリングを行いたい場合は、サーバに :ref:`対応しているジョブスケジューラ <remote_scheduler>` がインストールされているか確認します。入っていない場合は以下のリンク先の手順でTORQUEをインストールします。
 
-   - `Linux版TORQUEインストールマニュアル <https://winmostar.com/jp/gmx4wm_jp_linux.html#Torque>`_
+   - `Torqueインストール方法（CentOS 7向け） <https://qiita.com/yf_xa/items/6042619a5d1a3decf8eb>`_
+   - `Torqueインストール方法（CentOS 6向け） <https://qiita.com/xa_member/items/f98f2737eccd79f58281>`_
 
    .. note::
       - ジョブのスケジューリングが不要な場合は、リモートサーバ上にジョブスケジューラをインストールする必要がありません。
@@ -125,9 +126,9 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
 
 11. リモートサーバへのジョブ投入を行う場合は、投入先のサーバに使用するソルバを、以下のリンク先の手順でインストールします。
 
-   - `Linux版NWChem, Gromacs, Amberインストールマニュアル <https://winmostar.com/jp/gmx4wm_jp_linux.html>`_
    - `Linux版GAMESSインストールマニュアル                 <https://winmostar.com/jp/manual_jp/installation/GAMESS_install_manual_jp_linux.pdf>`_
-   - `Linux版Gromacsインストールマニュアル（詳細版）      <https://winmostar.com/jp/manual_jp/installation/Gromacs_install_manual_jp_linux.pdf>`_
+   - `Linux版NWChemインストールマニュアル                 <https://winmostar.com/jp/gmx4wm_jp_linux.html>`_
+   - `Linux版Gromacsインストールマニュアル                <https://winmostar.com/jp/manual_jp/installation/Gromacs_install_manual_jp_linux.pdf>`_
    - `Linux版LAMMPSインストールマニュアル                 <https://winmostar.com/jp/manual_jp/installation/LAMMPS_install_manual_jp_linux.pdf>`_
    - `Linux版Quantum ESPRESSOインストールマニュアル       <https://winmostar.com/jp/manual_jp/installation/QE_install_manual_jp_linux.pdf>`_
    - `Linux版OpenMXインストールマニュアル                 <https://winmostar.com/jp/manual_jp/installation/OpenMX_install_manual_jp_linux.pdf>`_
