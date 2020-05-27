@@ -505,8 +505,8 @@ msgstr "The esp file to be read must have been output from a calculation perform
 msgid "本機能を利用する際は、G09.C.01以降のバージョンを利用する必要があります。G09.C.01よりも前のバージョンを使う場合は、IOPの変更が必要です。"
 msgstr "To use this function, you need to use G09.C.01 or later version; if you use the version before G09.C.01, you need to change the IOP."
 
-msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ<install_cygwinwm>` が必要です。"
-msgstr "To use this function, :ref:`cygwin_wm setup<install_cygwinwm>` is required."
+msgid "本機能を利用するためには :ref:`CygwinWMのセットアップ<install_cygwinwm>` が必要です。"
+msgstr "To use this function, :ref:`CygwinWM setup<install_cygwinwm>` is required."
 
 msgid "FormChk"
 msgstr "FormChk"

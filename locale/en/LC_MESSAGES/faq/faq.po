@@ -196,8 +196,8 @@ msgstr "Check the :ref:`Installation precautions <intall_installwm>`."
 msgid "使用中のWinmostarが無償版、学生版、プロフェッショナル版、プロフェッショナル版（トライアル）のいずれに該当するか確認し、問題を起こしている機能がその版で使用可能か `機能表 <https://winmostar.com/jp/feature_list/>`_ を見て確認する。"
 msgstr "Check whether Winmostar in use is a free version, a student version, a professional version, or a professional version (trial), and whether the function causing the problem is available in that version with `function table <https://winmostar.com/en/function_en.html>`_."
 
-msgid "使用中のセキュリティ対策ソフトの活動記録を確認し、Winmostarおよびcygwin_wmのインストールフォルダの下のアプリケーションの活動が妨害された記録がないか確認する。"
-msgstr "Check the activity record of the security software in use and check whether there is any record in which the activities of the application under Winmostar and cygwin_wm installation folder are disturbed."
+msgid "使用中のセキュリティ対策ソフトの活動記録を確認し、WinmostarおよびCygwinWMのインストールフォルダの下のアプリケーションの活動が妨害された記録がないか確認する。"
+msgstr "Check the activity record of the security software in use and check whether there is any record in which the activities of the application under Winmostar and CygwinWM installation folder are disturbed."
 
 msgid "Winmostarを最新版にアップデートし（使用中のバージョンと共存させることが可能）、 :ref:`knownissues_top` 、 :ref:`faq_top` に類似する状況がないか確認する。"
 msgstr "Update Winmostar to the latest version (it is possible to coexist with the version you are using), check if there is a situation similar to :ref:`knownissues_top` and :ref:`faq_top`."
@@ -235,14 +235,14 @@ msgstr "Restart Winmostar."
 msgid "OSを再起動する。"
 msgstr "Restart the OS."
 
-msgid "セキュリティ対策ソフトで、Winmostar、cygwin_wmのインストールフォルダ、およびソルバ（MPIを含む）が監視対象外に設定する。"
-msgstr "With security software, Exclude Winmostar, installation folder of cygwin_wm, and solvers including MPI from monitoring."
+msgid "セキュリティ対策ソフトで、Winmostar、CygwinWMのインストールフォルダ、およびソルバ（MPIを含む）が監視対象外に設定する。"
+msgstr "With security software, Exclude Winmostar, installation folder of CygwinWM, and solvers including MPI from monitoring."
 
-msgid "cygwin_wmを使用している場合は、 :menuselection:`ヘルプ --> cygwin_wmを診断` でcygwin_wmの簡易的な診断を実行する。"
-msgstr "If you are using cygwin_wm, run :menuselection:`Help --> Check cygwin_wm` and perform a simple diagnosis of cygwin_wm."
+msgid "CygwinWMを使用している場合は、 :menuselection:`ヘルプ --> cygwin_wmを診断` でCygwinWMの簡易的な診断を実行する。"
+msgstr "If you are using CygwinWM, run :menuselection:`Help --> Check cygwin_wm` and perform a simple diagnosis of CygwinWM."
 
-msgid "Winmostar, cygwin_wmおよび使用したソルバを再インストールする。"
-msgstr "Reinstall Winmostar, cygwin_wm and the solver you are using."
+msgid "Winmostar, CygwinWMおよび使用したソルバを再インストールする。"
+msgstr "Reinstall Winmostar, CygwinWM and the solver you are using."
 
 msgid "他のPCで試す。"
 msgstr "Try with another PC."
@@ -280,17 +280,17 @@ msgstr "Perform general :ref:`dealing with common problems <faq_general_error>`.
 msgid "マシンを再起動する"
 msgstr "Restart your PC"
 
-msgid "使用しているcygwin_wmの :file:`cygwin1.dll` 以外を検索して削除し、マシンを再起動する"
+msgid "使用しているCygwinWMの :file:`cygwin1.dll` 以外を検索して削除し、マシンを再起動する"
 msgstr "Search and delete anything other than :file:`cygwin1.dll` and restart the machine"
 
-msgid "同一マシン上にcygwin_wm以外に :file:`cygwin1.dll` が存在して場合の一部のケースでこの操作が必要です。"
-msgstr "This operation is necessary in some cases if :file:`cygwin1.dll` exists in addition to cygwin_wm on the same machine."
+msgid "同一マシン上にCygwinWM以外に :file:`cygwin1.dll` が存在して場合の一部のケースでこの操作が必要です。"
+msgstr "This operation is necessary in some cases if :file:`cygwin1.dll` exists in addition to CygwinWM on the same machine."
 
 msgid ":file:`cygwin1.dll` は他にCygwinをインストールしていなくても、各種フリーウエアなどに同梱されていることがあります。"
 msgstr ":file:`cygwin1.dll` may be included in various freeware etc even if you do not install Cygwin in other location."
 
-msgid "使用しているマシン上の全てのCygwinが終了している状態で、Windowsの[ファイル名を指定して実行]にて :file:`C:\\\\cygwin_wm\\\\bin\\\\ash.exe` （cygwin_wmを :file:`C:\\\\cygwin_wm` にインストールした場合）を実行し、 :command:`/bin/rebaseall -v` というコマンドを実行しマシンを再起動する。"
-msgstr "With all Cygwins on the machine being used terminated, at the [Run] of Windows :file:`C:\\\\cygwin_wm\\\\bin\\\\ash.exe` (when cygwin_wm is installed in :file:`C:\\\\cygwin_wm` ), execute the :command:`/bin/rebaseall -v`, and restart the machine."
+msgid "使用しているマシン上の全てのCygwinが終了している状態で、Windowsの[ファイル名を指定して実行]にて :file:`C:\\\\cygwin_wm\\\\bin\\\\ash.exe` （CygwinWMを :file:`C:\\\\cygwin_wm` にインストールした場合）を実行し、 :command:`/bin/rebaseall -v` というコマンドを実行しマシンを再起動する。"
+msgstr "With all Cygwins on the machine being used terminated, at the [Run] of Windows :file:`C:\\\\cygwin_wm\\\\bin\\\\ash.exe` (when CygwinWM is installed in :file:`C:\\\\cygwin_wm` ), execute the :command:`/bin/rebaseall -v`, and restart the machine."
 
 msgid "Windowsセキュリティ開き :guilabel:`アプリとブラウザーコントロール` から :guilabel:`Exploit Protectionの設定` クリックする。そして、 :guilabel:`イメージのランダム化を強制する` の値を :guilabel:`既定でオフにする` か :guilabel:`既定値を使用する（オフ）` に変更する。"
 msgstr "Open Windows Security and go to :guilabel:`App & browser control` and click :guilabel:`Exploit protection`. Then change the value of :guilabel:`Force randomization for images` to :guilabel:`Off by default` or :guilabel:`Use default (Off)`."
@@ -310,8 +310,8 @@ msgstr "Install a new version of Cygwin from the `Cygwin official site <http://c
 msgid "Q. :menuselection:`ツール --> cygwin_wmを診断` 機能で `WARNING ... some files are missing` と表示されます。"
 msgstr "Q\. :menuselection:`Tools --> Check cygwin_wm` function will display `WARNING ... some files are missing`."
 
-msgid "A. cygwin_wmを再インストールしてください。"
-msgstr "A\. Please reinstall cygwin_wm."
+msgid "A. CygwinWMを再インストールしてください。"
+msgstr "A\. Please reinstall CygwinWM."
 
 msgid "再インストールしても表示される場合は、セキュリティ対策ソフトを一時的に無効にするか、インストール先・インストーラを監視対象外に指定してください。"
 msgstr "If it is displayed even after the reinstallation, temporarily disable the security software, or exclude installation destination and installer from monitoring."
@@ -406,14 +406,14 @@ msgstr "When executing :menuselection:`MD --> Solvate/Build Cell`, the following
 msgid "A. :ref:`一般的な不具合 <faq_general_error>` の対処と、:ref:`Cygwinの一般的な不具合 <faq_cygwin_error>` の対処に加え、分子数を減らすか、密度を減らして実行してください。 また、それでも実行できない場合は、内部的に使用しているGromacsの再インストールを、以下の手順で実施してください。"
 msgstr "A\. Try :ref:`general errors <faq_general_error>` and :ref:`Cygwin general errors <faq_cygwin_error>` and execute after reducing the number of molecules or reducing the density. If you still can not do it, reinstall internally used Gromacs in the following procedure."
 
-msgid "cygwin_wmのインストールフォルダの下の :file:`/etc/profile.d/winmostar.sh` の中の"
+msgid "CygwinWMのインストールフォルダの下の :file:`/etc/profile.d/winmostar.sh` の中の"
 msgstr "Comment out or delete the line of"
 
 msgid "または"
 msgstr "Or"
 
 msgid "の行をコメントアウトまたは削除する"
-msgstr "in :file:`/etc/profile.d/winmostar.sh` under cygwin_wm installation folder."
+msgstr "in :file:`/etc/profile.d/winmostar.sh` under CygwinWM installation folder."
 
 msgid "Winmostarの :menuselection:`ツール --> cygwin_wm起動` をクリックし、起動したcygwin上で `Winmostar(TM) 用Cygwinインストールマニュアル <https://winmostar.com/jp/gmx4wm_jp_win.html>`_ の「1-2. Gromacs」のインストール手順を試みる"
 msgstr "Click :menuselection:`Tools --> Cygwin` of Winmostar and try ``1-2. Gromacs`` of `Installation procedure of solvers for Winmostar <https://winmostar.com/en/gmx4wm_en_win.html>`_ on the installed cygwin."

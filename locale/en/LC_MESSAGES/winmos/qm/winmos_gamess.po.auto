@@ -473,8 +473,8 @@ msgid ""
 "内部では、punchファイルの情報からAntechamberで読み込めるファイルを作成し、Antechamberを用いてRESP電荷を算出しています。"
 msgstr "The punch file to load is required to be outputted from the calculation executed by choosing: guilabel: `RESP / ESP` setting in: menuselection:` keyword setting -&gt; Easy Setup`. Spin multiplicity is handled on the premise of 1. Internally, we create a file that can be read by Antechamber from punch file information and calculate RESP charge using Antechamber."
 
-msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ <install_cygwinwm>` が必要です。"
-msgstr "To use this function: set up: ref: `cygwin_wm <install_cygwinwm> `Is required."
+msgid "本機能を利用するためには :ref:`CygwinWMのセットアップ <install_cygwinwm>` が必要です。"
+msgstr "To use this function: set up: ref: `CygwinWM <install_cygwinwm> `Is required."
 
 msgid "PDB"
 msgstr "PDB"

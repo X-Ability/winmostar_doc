@@ -248,7 +248,7 @@
            - 説明
          * - | batファイル
              | :file:`dia.bat`
-           - OpenMXを実行するためのバッチファイルです。cygwin_wm経由でdia.shを実行します。
+           - OpenMXを実行するためのバッチファイルです。CygwinWM経由でdia.shを実行します。
          * - | shファイル
              | :file:`dia.sh`
            - OpenMXを実行するためのシェルスクリプトファイルです。

@@ -15,9 +15,9 @@ msgid "Gromacsに関するメニューです。"
 msgstr "It is a menu about Gromacs."
 
 msgid ""
-"WinmostarではGromacsをCygwin環境上で実行するため、本機能を利用するためには :ref:`cygwin_wmのセットアップ "
+"WinmostarではGromacsをCygwin環境上で実行するため、本機能を利用するためには :ref:`CygwinWMのセットアップ "
 "<install_cygwinwm>` が必要です。"
-msgstr "Because Winmostar runs Gromacs on the Cygwin environment, in order to use this function, please set up: ref: `cygwin_wm <install_cygwinwm> `Is required."
+msgstr "Because Winmostar runs Gromacs on the Cygwin environment, in order to use this function, please set up: ref: `CygwinWM <install_cygwinwm> `Is required."
 
 msgid "キーワード設定"
 msgstr "Keyword setting"

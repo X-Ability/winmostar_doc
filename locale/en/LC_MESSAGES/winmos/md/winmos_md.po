@@ -5,8 +5,8 @@ msgstr "MD menu"
 msgid "分子動力学法に関するメニューです。"
 msgstr "It is a menu on the molecular dynamics method."
 
-msgid "MDメニューの機能を利用するにはMDパックが必要です。 また、ほぼ全ての機能で :ref:`cygwin_wm <cygwinwm_top>` が必要です。"
-msgstr "MD pack is necessary to use the function of MD menu. Also, with almost every feature :ref:`cygwin_wm <cygwinwm_top>` is required."
+msgid "MDメニューの機能を利用するにはMDパックが必要です。 また、ほぼ全ての機能で :ref:`CygwinWM <cygwinwm_top>` が必要です。"
+msgstr "MD pack is necessary to use the function of MD menu. Also, with almost every feature :ref:`CygwinWM <cygwinwm_top>` is required."
 
 msgid "溶媒を配置/セルを構築"
 msgstr "Solvate/Build Cell"

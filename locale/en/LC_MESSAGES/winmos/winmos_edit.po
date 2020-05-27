@@ -202,8 +202,8 @@ msgstr "Use the Gromacs :command:`gmx pdb2gmx` command to automatically add hydr
 msgid "メインウィンドウに表示されている構造にリガンド、溶媒などのタンパク質以外の分子が含まれている場合、:menuselection:`選択 --> 分子種によるグループ選択` および :menuselection:`編集 --> グループ編集 -->` :ref:`edit_partial_delete` 機能を用いて事前に削除してください。"
 msgstr "If the structure displayed in the main window contains molecules other than proteins such as ligands and solvents, delete them with :menuselection:`Select --> Select by Molecular Species` and :menuselection:`Edit --> Modify Selected Group -->` :ref:`edit_partial_delete` in advance."
 
-msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ<install_cygwinwm>` が必要です。"
-msgstr "To use this function, :ref:`cygwin_wm setup<install_cygwinwm>` is required."
+msgid "本機能を利用するためには :ref:`CygwinWMのセットアップ<install_cygwinwm>` が必要です。"
+msgstr "To use this function, :ref:`CygwinWM setup<install_cygwinwm>` is required."
 
 msgid "OpenBabelを使用"
 msgstr "Using OpenBabel"

@@ -361,8 +361,8 @@ msgstr "bat file"
 msgid ":file:`dia.bat`"
 msgstr ":file:`dia.bat`"
 
-msgid "OpenMXを実行するためのバッチファイルです。cygwin_wm経由でdia.shを実行します。"
-msgstr "A batch file for running OpenMX. Run dia.sh via cygwin_wm."
+msgid "OpenMXを実行するためのバッチファイルです。CygwinWM経由でdia.shを実行します。"
+msgstr "A batch file for running OpenMX. Run dia.sh via CygwinWM."
 
 msgid "shファイル"
 msgstr "sh file"

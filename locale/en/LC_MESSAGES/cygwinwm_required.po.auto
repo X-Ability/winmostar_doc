@@ -8,6 +8,6 @@
 msgid ""
 msgstr ""
 
-msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ <install_cygwinwm>` が必要です。"
-msgstr "To use this function: set up: ref: `cygwin_wm <install_cygwinwm> `Is required."
+msgid "本機能を利用するためには :ref:`CygwinWMのセットアップ <install_cygwinwm>` が必要です。"
+msgstr "To use this function: set up: ref: `CygwinWM <install_cygwinwm> `Is required."
 

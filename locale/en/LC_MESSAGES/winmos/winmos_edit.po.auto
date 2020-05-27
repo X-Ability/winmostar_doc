@@ -247,8 +247,8 @@ msgid ""
 ":ref:`edit_partial_delete` 機能を用いて事前に削除してください。"
 msgstr "When the structure displayed in the main window contains molecules other than proteins such as ligands and solvents: menuselection: `selection -&gt; group selection by molecular species` and: menuselection: `edit -&gt; group editing -&gt; Delete in advance using the `: ref:` edit_partial_delete` function."
 
-msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ <install_cygwinwm>` が必要です。"
-msgstr "To use this function: set up: ref: `cygwin_wm <install_cygwinwm> `Is required."
+msgid "本機能を利用するためには :ref:`CygwinWMのセットアップ <install_cygwinwm>` が必要です。"
+msgstr "To use this function: set up: ref: `CygwinWM <install_cygwinwm> `Is required."
 
 msgid "OpenBabelを使用"
 msgstr "Use OpenBabel"

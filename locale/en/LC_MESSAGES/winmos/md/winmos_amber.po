@@ -5,8 +5,8 @@ msgstr ":menuselection:`MD --> Amber` menu"
 msgid "Amberに関するメニューです。"
 msgstr "It is a menu related to Amber."
 
-msgid "WinmostarではAmberをCygwin環境上で実行するため、本機能を利用するためには :ref:`cygwin_wmのセットアップ <install_cygwinwm>` が必要です。"
-msgstr "Since Winmostar runs Amber on the Cygwin environment, in order to use this function, you need to set up :ref:`cygwin_wm <install_cygwinwm>` is required."
+msgid "WinmostarではAmberをCygwin環境上で実行するため、本機能を利用するためには :ref:`CygwinWMのセットアップ <install_cygwinwm>` が必要です。"
+msgstr "Since Winmostar runs Amber on the Cygwin environment, in order to use this function, you need to set up :ref:`CygwinWM <install_cygwinwm>` is required."
 
 msgid "LEaPキーワード設定"
 msgstr "Configure LEaP"

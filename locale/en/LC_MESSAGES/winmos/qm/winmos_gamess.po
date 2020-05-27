@@ -439,8 +439,8 @@ msgstr "The punch file to be loaded must be output from a calculation performed 
 msgid "「分子構造的に等価な原子に同じ電荷を割り当てますか？」と聞かれ、 :guilabel:`はい` をクリックすると内部的にはacpypeを、 :guilabel:`いいえ` をクリックすると内部的にはAmberToolsを直接使ってRESP電荷を算出しています。基本的には :guilabel:`はい` をクリックする方を推奨しますが、大きい分子の場合などに処理が正常終了しない場合があり、そのような場合は :guilabel:`いいえ` をクリックしてください。両者の計算結果は、大きくは変化しないことが期待されます。"
 msgstr "After being asked \"Do you assign the same charge to an atom that is structurally equivalent to a molecule?\", when you click :guilabel:`Yes`, it internally uses acpype, and when you click :guilabel:`No`, it internally uses AmberTools directly to calculate the RESP charge. Basically, it is recommended to click :guilabel:`Yes`, but in such cases, click :guilabel:`No`. It is expected that the results of both calculations will not change significantly."
 
-msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ<install_cygwinwm>` が必要です。"
-msgstr "To use this function, :ref:`cygwin_wm setup<install_cygwinwm>` is required."
+msgid "本機能を利用するためには :ref:`CygwinWMのセットアップ<install_cygwinwm>` が必要です。"
+msgstr "To use this function, :ref:`CygwinWM setup<install_cygwinwm>` is required."
 
 msgid "PDB"
 msgstr "PDB"

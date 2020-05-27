@@ -1,2 +1,2 @@
-msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ<install_cygwinwm>` が必要です。"
-msgstr "To use this function, :ref:`cygwin_wm setup<install_cygwinwm>` is required."
+msgid "本機能を利用するためには :ref:`CygwinWMのセットアップ<install_cygwinwm>` が必要です。"
+msgstr "To use this function, :ref:`CygwinWM setup<install_cygwinwm>` is required."

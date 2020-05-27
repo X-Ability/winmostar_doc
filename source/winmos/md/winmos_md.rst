@@ -8,7 +8,7 @@ MDメニュー
 分子動力学法に関するメニューです。
 
 MDメニューの機能を利用するにはMDパックが必要です。
-また、ほぼ全ての機能で :ref:`cygwin_wm <cygwinwm_top>` が必要です。
+また、ほぼ全ての機能で :ref:`CygwinWM <cygwinwm_top>` が必要です。
 
 .. _md_solvate_buildcell:
 

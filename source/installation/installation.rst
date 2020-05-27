@@ -103,10 +103,10 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
    - `Windows版FDMNESインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/FDMNES_install_manual_jp_win.pdf>`_
 
    .. note::
-      - Gromacs, Amber, MODYLAS, OpenMXは前の手順でインストールする :ref:`cygwin_wm <cygwinwm_top>` に含まれます。
+      - Gromacs, Amber, MODYLAS, OpenMXは前の手順でインストールする :ref:`CygwinWM <cygwinwm_top>` に含まれます。
       - 最大原子数を拡張したMOPAC6を使う場合は `独自拡張版MOPAC6 <https://winmostar.com/jp/mop6wxxx.zip>`_ から入手してください（動作未保障）。重原子・軽原子の最大数を200・220、150・170、100・120に拡張しています。
 
-8. 必要に応じて、使用しているセキュリティ対策ソフトの設定において、Winmostar、cygwin_wm、ソルバのインストールフォルダを監視対象から除外します。
+8. 必要に応じて、使用しているセキュリティ対策ソフトの設定において、Winmostar、CygwinWM、ソルバのインストールフォルダを監視対象から除外します。
 
 ..
 

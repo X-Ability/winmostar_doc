@@ -44,8 +44,8 @@ msgid ""
 "finished. Close this window.`` と表示されます。"
 msgstr ": guilabel: Click `Check Now` button to check the installation of: ref:` cygwinwm_top`. In this function, check only existence of file. If you clear the check, you will see &quot;Successfully finished. Close this window.&quot;"
 
-msgid "一部のセキュリティ対策ソフトの動作環境下では、cygwin_wmをインストールする際に、cygwin_wmの中の一部のファイルのインストールが阻害されることがあり、本機能で簡易的にチェックすることができます。"
-msgstr "Under the operating environment of some security countermeasure software, installation of some files in cygwin_wm may be obstructed when installing cygwin_wm, so you can check it easily with this function."
+msgid "一部のセキュリティ対策ソフトの動作環境下では、CygwinWMをインストールする際に、CygwinWMの中の一部のファイルのインストールが阻害されることがあり、本機能で簡易的にチェックすることができます。"
+msgstr "Under the operating environment of some security countermeasure software, installation of some files in CygwinWM may be obstructed when installing CygwinWM, so you can check it easily with this function."
 
 msgid "ユーザ設定フォルダを開く"
 msgstr "Open user setting folder"

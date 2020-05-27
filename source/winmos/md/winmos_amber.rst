@@ -7,7 +7,7 @@
 
    Amberに関するメニューです。
    
-   WinmostarではAmberをCygwin環境上で実行するため、本機能を利用するためには :ref:`cygwin_wmのセットアップ <install_cygwinwm>` が必要です。
+   WinmostarではAmberをCygwin環境上で実行するため、本機能を利用するためには :ref:`CygwinWMのセットアップ <install_cygwinwm>` が必要です。
 
 LEaPキーワード設定
 -----------------------------------

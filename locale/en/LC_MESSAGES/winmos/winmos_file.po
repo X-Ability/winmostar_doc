@@ -118,8 +118,8 @@ msgstr "Outputs the contents displayed in the main window in the selected format
 msgid "メインウィンドウに表示されている分子構造をSMILES形式の文字列で出力します。メインウィンドウに複数分子表示されている場合は使用できません。Cygwin上でOpenBabelを使用します。"
 msgstr "It outputs the molecular structure displayed in the main window as SMILES formatted character string. It can not be used when multiple molecules are displayed in the main window. I use OpenBabel on Cygwin."
 
-msgid "本機能を利用するためには :ref:`cygwin_wmのセットアップ<install_cygwinwm>` が必要です。"
-msgstr "To use this function, :ref:`cygwin_wm setup<install_cygwinwm>` is required."
+msgid "本機能を利用するためには :ref:`CygwinWMのセットアップ<install_cygwinwm>` が必要です。"
+msgstr "To use this function, :ref:`CygwinWM setup<install_cygwinwm>` is required."
 
 msgid "構造式"
 msgstr "Structural Formula"
