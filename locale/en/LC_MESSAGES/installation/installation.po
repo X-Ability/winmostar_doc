@@ -137,7 +137,7 @@ msgid "`Windows版NAMDインストールマニュアル             <https://win
 msgstr "NAMD installation manual for Windows (only Japanese)"
 
 msgid "`Windows版Quantum ESPRESSOインストールマニュアル <https://winmostar.com/jp/manual_jp/installation/QE_install_manual_jp_win.pdf>`_"
-msgstr "`Quantum ESPRESSO installation manual for Windows <https://winmostar.com/en/QE_install_manual_en_win.pdf>`_"
+msgstr "`Quantum ESPRESSO installation manual for Windows <https://winmostar.com/en/manual_en/installation/QE_install_manual_en_win.pdf>`_"
 
 msgid "`Windows版FDMNESインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/FDMNES_install_manual_jp_win.pdf>`_"
 msgstr "FDMNES installation manual for Windows (only Japanese)"
