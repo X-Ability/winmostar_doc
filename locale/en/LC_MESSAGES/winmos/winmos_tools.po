@@ -262,3 +262,9 @@ msgstr "If the structure of the molecule is close, press :guilabel:`X`,:guilabel
 
 msgid ":guilabel:`Open Viewer` ボタンを押すと、:ref:`winmos3d_top` で表示することができます。"
 msgstr "You can display it with :ref:`winmos3d_top` by pressing :guilabel:`Open Viewer` button."
+
+msgid "複数ファイルをSDF形式に集約"
+msgstr "Aggregate multiple files into SDF format"
+
+msgid "複数のファイルを1つのSDF形式のファイルに集約して保存します。 選択されたフォルダの中に含まれる全てのファイルについて集約します。 :ref:`file_open` で開くことができるファイルの以外は読み込まれません。（拡張子で判断されます）"
+msgstr "Aggregate and save multiple files into a single SDF file. Aggregate all files contained within the selected folder. Only files that can be opened with :ref:`file_open` are read. (Judged by the extension.)"

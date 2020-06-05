@@ -104,5 +104,5 @@ msgstr "Putty"
 msgid "Balloon"
 msgstr "Balloon"
 
-msgid "Spglib"
-msgstr "Spglib"
+msgid "JSME"
+msgstr "JSME"

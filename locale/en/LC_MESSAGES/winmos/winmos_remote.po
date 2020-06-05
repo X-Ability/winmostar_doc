@@ -616,8 +616,8 @@ msgstr "There are operational differences from other job schedulers as follows."
 msgid ":guilabel:`Test Connection` ボタンを押した時にジョブマネージャが起動しているかのチェックも行います。"
 msgstr "It also checks whether the job manager is running when the :guilabel:`Test Connection` button is pressed."
 
-msgid ":guilabel:`List Jobs` ボタンで表示される情報はジョブマネージャと同じで左から番号、状態、優先度、コア数、ジョブID、開始日時、終了日時、バッチファイルです。"
-msgstr "The information displayed by the :guilabel:`List Jobs` button is the same as Job Manager, from the left: number, status, priority, number of cores, job ID, start date/time, end date/time, and batch file."
+msgid ":guilabel:`List Jobs` ボタンで表示される情報はジョブマネージャと同じで左から番号、状態、優先度、コア数、ジョブ名、開始日時、終了日時、バッチファイルです。"
+msgstr "The information displayed by the :guilabel:`List Jobs` button is the same as Job Manager, from the left: number, status, priority, number of cores, job name, start date/time, end date/time, and batch file."
 
-msgid ":guilabel:`Delete Job` ボタンでジョブを取り消す場合はジョブIDを入力します。"
-msgstr "If you want to cancel the job with the `Delete Job` button, enter the job ID."
+msgid ":guilabel:`Delete Job` ボタンでジョブを取り消す場合はジョブ名を入力します。"
+msgstr "If you want to cancel the job with the `Delete Job` button, enter the job name."

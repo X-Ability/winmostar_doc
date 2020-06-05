@@ -157,8 +157,11 @@ msgstr "Change the setting to display the extension of each file on the Explorer
 msgid "リモートサーバへのジョブ投入と、リモートサーバ上でのジョブのスケジューリングを行いたい場合は、サーバに :ref:`対応しているジョブスケジューラ <remote_scheduler>` がインストールされているか確認します。入っていない場合は以下のリンク先の手順でTORQUEをインストールします。"
 msgstr "If you want to submit jobs to the remote server and schedule jobs on the remote server, make sure that the :ref:`supported job scheduler <remote_scheduler>` is installed on the server. If you do not have TORQUE, follow the steps in the link below to install TORQUE."
 
-msgid "`Linux版TORQUEインストールマニュアル <https://winmostar.com/jp/gmx4wm_jp_linux.html#Torque>`_"
-msgstr "`Installation guide for Linux <https://winmostar.com/en/gmx4wm_en_linux.html>`_"
+msgid "`Torqueインストール方法（CentOS 7向け） <https://qiita.com/yf_xa/items/6042619a5d1a3decf8eb>`_"
+msgstr "`Torque installation method (for CentOS 7) <https://qiita.com/yf_xa/items/6042619a5d1a3decf8eb>`_."
+
+msgid "`Torqueインストール方法（CentOS 6向け） <https://qiita.com/xa_member/items/f98f2737eccd79f58281>`_"
+msgstr "`Torque installation method (for CentOS 6) <https://qiita.com/yf_xa/items/6042619a5d1a3decf8eb>`_."
 
 msgid "ジョブのスケジューリングが不要な場合は、リモートサーバ上にジョブスケジューラをインストールする必要がありません。"
 msgstr "If you don't need to schedule jobs, you don't need to install a job scheduler on a remote server."
@@ -166,14 +169,14 @@ msgstr "If you don't need to schedule jobs, you don't need to install a job sche
 msgid "リモートサーバへのジョブ投入を行う場合は、投入先のサーバに使用するソルバを、以下のリンク先の手順でインストールします。"
 msgstr "When submitting a job to a remote server, install the solver used in the destination server according to the following procedure."
 
-msgid "`Linux版NWChem, Gromacs, Amberインストールマニュアル <https://winmostar.com/jp/gmx4wm_jp_linux.html>`_"
-msgstr "`Installation guide for Linux <https://winmostar.com/en/gmx4wm_en_linux.html>`_"
-
 msgid "`Linux版GAMESSインストールマニュアル                 <https://winmostar.com/jp/manual_jp/installation/GAMESS_install_manual_jp_linux.pdf>`_"
 msgstr "GAMESS installation manual for Linux (only Japanese)"
 
-msgid "`Linux版Gromacsインストールマニュアル（詳細版）      <https://winmostar.com/jp/manual_jp/installation/Gromacs_install_manual_jp_linux.pdf>`_"
-msgstr "Gromacs instllation manual for Linux (only Japanese)"
+msgid "`Linux版NWChemインストールマニュアル                 <https://winmostar.com/jp/gmx4wm_jp_linux.html>`_"
+msgstr "`NWChem for Linux Installation Manual <https://winmostar.com/jp/gmx4wm_jp_linux.html>`_ (only Japanese)"
+
+msgid "`Linux版Gromacsインストールマニュアル                <https://winmostar.com/jp/manual_jp/installation/Gromacs_install_manual_jp_linux.pdf>`_"
+msgstr "`Gromacs for Linux Installation Manual <https://winmostar.com/jp/manual_jp/installation/Gromacs_install_manual_jp_linux.pdf>`_ (only Japanese)"
 
 msgid "`Linux版LAMMPSインストールマニュアル                 <https://winmostar.com/jp/manual_jp/installation/LAMMPS_install_manual_jp_linux.pdf>`_"
 msgstr "LAMMPS instllation manual for Linux (only Japanese)"

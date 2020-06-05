@@ -1,0 +1,20 @@
+msgid "SDFファイルの編集"
+msgstr "Editing an SDF file"
+
+msgid "SDFファイルはマテリアルインフォマティクス、機械学習などに広く用いられているフォーマットです。"
+msgstr "SDF files are widely used in material informatics and machine learning."
+
+msgid "SDFファイルの可視化"
+msgstr "Visualization of SDF file"
+
+msgid ":ref:`file_open` からSDFファイルを選択して開くと :ref:`animation_top` が開き、SDFファイル内の各構造を順番に確認することができます。"
+msgstr "If you select a SDF file from :ref:`file_open` and open it, :ref:`animation_top` will be displayed and you can check each structure in the SDF file in turn."
+
+msgid "上記の方法でSDFを開いた後、 :ref:`animation_top` の :menuselection:`File --> Export All Frames Separately` を選択すると、各構造を選択したフォルダの中に個別のファイルとして出力することができます。"
+msgstr "After opening the SDF as described above, you can choose :menuselection:`File --> Export All Frames Separately` in :ref:`animation_top` to output each structure as a separate file in the selected folder."
+
+msgid "その後、各構造に対応するファイルを :ref:`file_open` またはWinmostarにドラッグアンドドロップして開き、編集し、 :ref:`file_save` から上書き保存します。"
+msgstr "Then drag and drop a file corresponding to each structure into :ref:`file_open` or Winmostar to open it, edit it, and save it from :ref:`file_save` to overwrite it."
+
+msgid ":ref:`tools_composesdf` から先ほど出力したフォルダを選択すると、再びSDFファイルを作成することができます。"
+msgstr "If you select the folder you just output from :ref:`tools_composesdf`, you can create the SDF file again."

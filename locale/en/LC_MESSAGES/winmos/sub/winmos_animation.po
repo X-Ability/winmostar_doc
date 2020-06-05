@@ -23,6 +23,21 @@ msgstr "Read the animation from the original file again."
 msgid ":guilabel:`Reload` ボタンからも操作できます。"
 msgstr "You can also operate from the :guilabel:`Reload` button."
 
+msgid "Export Current Frame"
+msgstr "Export Current Frame"
+
+msgid "現在のフレームを別名で保存します。"
+msgstr "Saves the current frame as a different name."
+
+msgid "Export All Frames Separately"
+msgstr "Export All Frames Separately"
+
+msgid "全てのフレームをそれぞれ個別のファイルに出力します。"
+msgstr "Outputs all the frames to a separate file."
+
+msgid "例えば、SDFファイルの各分子構造を個々のファイルに分割し保存・編集したいときに便利です。 分割したファイルを再びSDFファイルに集約する場合は :ref:`tools_composesdf` を使います。"
+msgstr "For example, it is useful when you want to divide the molecular structure of an SDF file into individual files and save and edit them. To re-aggregate split files into SDF files, use :ref:`tools_composesdf`."
+
 msgid "Export GIF Animation"
 msgstr "Export GIF Animation"
 
