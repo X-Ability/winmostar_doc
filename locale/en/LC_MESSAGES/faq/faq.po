@@ -182,10 +182,10 @@ msgid "A. 可能です。詳細は、各ソルバのキーワード設定ウィ�
 msgstr "A\. Yes, it is possible. For details, please refer to the keyword setting window page for each solver."
 
 msgid "Q. Winmostarを使って並列計算する際、利用できるコア数の上限はありますか？利用できるコア数に応じて費用は変わりますか？"
-msgstr "Q. Is there an upper limit to the number of cores that can be used for parallel computing using Winmostar? Does the cost vary depending on the number of cores available?"
+msgstr "Q\. Is there an upper limit to the number of cores that can be used for parallel computing using Winmostar? Does the cost vary depending on the number of cores available?"
 
 msgid "A. ユーザが用意したハードウエアの範囲内で、制限なく並列数を指定して頂けます。並列数に応じて、Winmostarのライセンス料は費用は変化しません。ローカルジョブの場合は、 :ref:`winmosjm_top` で設定した最大コア数を上回るとジョブが流れないため、最大コア数の設定を変更してください。"
-msgstr "A. You can specify an unlimited number of parallels within the range of user-provided hardware. Winmostar's price does not change depending on the number of parallels. In the case of a local job, change the maximum number of cores because the job will not run if it exceeds the maximum number of cores set by :ref:`winmosjm_top`."
+msgstr "A\. You can specify an unlimited number of parallels within the range of user-provided hardware. Winmostar's price does not change depending on the number of parallels. In the case of a local job, change the maximum number of cores because the job will not run if it exceeds the maximum number of cores set by :ref:`winmosjm_top`."
 
 msgid "ソフトウェア動作全般に関して"
 msgstr "Software operations"
@@ -944,10 +944,10 @@ msgid "・スピン分極状態・電荷が妥当か調べる。"
 msgstr "· Spin Polarization State · Determine whether electric charge is appropriate."
 
 msgid "・Hexagonal結晶でK_POINTSのシフトを行っていたらシフトを外す。"
-msgstr "・If you shift K_POINTS in Hexagonal crystal, remove the shift."
+msgstr "· If you shift K_POINTS in Hexagonal crystal, remove the shift."
 
 msgid "・up/downスピンの並び方を与える。"
-msgstr "· Up / down gives the arrangement of spins."
+msgstr "· Gives the order of up/down spins."
 
 msgid "・系全体の磁気モーメントを拘束する。"
 msgstr "· Constrain the magnetic moment of the whole system."
@@ -1031,13 +1031,13 @@ msgid "Q. Quantum ESPRESSOのSCF計算が出力ファイル（.pwoutまたは.ou
 msgstr "Q. The SCF calculation of Quantum ESPRESSO terminates abnormally with "fixed occupations and lsda need tot_magnetization" displayed in the output file (.pwout or .out). How do I resolve this?"
 
 msgid "A. occupationsにsmearingを指定するか、starting_magnetizationではなくtot_magnetizationを指定してください。"
-msgstr "A. Select smearing in the occupations section, or use tot_magnetization instead of starting_magnetization."
+msgstr "A\. Select smearing in the occupations section, or use tot_magnetization instead of starting_magnetization."
 
 msgid "Q. 金属のQuantum ESPRESSOのSCF計算が出力ファイル（.pwoutまたは.out）に「charge is wrong」と表示され異常終了します。どのように解決したらいいですか？"
-msgstr "Q. The SCF calculation of Quantum ESPRESSO on metal is terminated abnormally with "charge is wrong" displayed in the output file (.pwout or .out). How do I resolve this?"
+msgstr "Q\. The SCF calculation of Quantum ESPRESSO on metal is terminated abnormally with "charge is wrong" displayed in the output file (.pwout or .out). How do I resolve this?"
 
 msgid "A. まずoccupationsがsmearingになっていることを確認し、次にecutrhoを大きめ（400 Ryなど）に設定してください。"
-msgstr "A. First, make sure that the occupations are set to smearing, and then set the ectrho to a larger value (such as 400 Ry)."
+msgstr "A\. First, make sure that the occupations are set to smearing, and then set the ectrho to a larger value (such as 400 Ry)."
 
 msgid "Q. Quantum ESPRESSOを用いて誘電関数を計算する際に、epsilon.xの出力(eps.out)に「bad band number」と表示され誘電関数を取得できません。"
 msgstr "Q\. When calculating the dielectric function using Quantum ESPRESSO, \"bad band number\" is displayed in the epsilon.x output (eps.out) and it is not possible to acquire the dielectric function."
