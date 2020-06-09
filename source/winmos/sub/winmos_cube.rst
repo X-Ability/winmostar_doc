@@ -32,7 +32,7 @@ MO Plotウィンドウ
          電子状態計算で直接計算された静電ポテンシャルの3次元分布です。
 
       .. hint::
-         以下の手順で、 :guilabel:`ESP/Surface` に相当する、分子表面上でのESPを表示できます。
+         以下の手順で、 :guilabel:`ESP/Surface` に相当する、分子表面上でのESPを表示できます。（ただし、MOPACでは未対応）
          
             1. :guilabel:`Dump cube file` にチェックを入れ、 :guilabel:`Quantity` で :guilabel:`Density` を選択する。
             2. :guilabel:`Draw` ボタンを押と、 :file:`*_den.cube` というファイルが生成される。
