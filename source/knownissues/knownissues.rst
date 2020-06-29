@@ -63,3 +63,9 @@ constant-mu計算時（lfcpopt = .True.）に、fcp_muの値が更新された�
 :guilabel:`Export JPEG Images` を使用して連番JPEGファイルを出力し、その後各種の動画作成ソフトを利用してアニメーションのファイルを作成してください。
 （2020年1月29日報告）
 
+Gromacsが出力するIsothermal Compressibility（等温圧縮率）、Adiabatic Bulk Modulus（断熱体積弾性率）の単位が間違っている。
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+gmx energyのログに、Isothermal Compressibilityの単位が「J/m^3」と書かれていますが、正しくは「m^3/J」です。同様に、Adiabatic Bulk Modulusの単位は正しくは「J/m^3」です。
+（2020年6月29日報告）
+
