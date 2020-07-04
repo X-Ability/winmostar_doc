@@ -388,8 +388,8 @@ msgstr "A\. Check if the line feed code or encoding has changed."
 msgid "Q. MOL形式またはSDF形式のファイルを開くと、結合長が不自然になります。水素が出現しません。"
 msgstr "Q. When opening a file in MOL or SDF format, the bond length becomes unnatural. Hydrogen does not appear."
 
-msgid "A. 次の手順で分子構造を修正してください。(1)  :ref:`edit_auto_bondlength` (2) :ref:`edit_regenerate_zmat` (3) :ref:`edit_addh_auto`"
-msgstr "Follow the steps below to modify the molecular structure. (1) :ref:`edit_auto_bondlength` (2) :ref:`edit_regenerate_zmat` (3) :ref:`edit_addh_auto`."
+msgid "A. 次の手順で分子構造を修正してください。(1)  :ref:`edit_auto_bondlength` (2) :ref:`edit_regenerate_zmat` (3) :ref:`edit_addh_auto` SDFファイルの場合は :ref:`sdfformat_edit` の手順を参考に操作してください。"
+msgstr "Follow the steps below to modify the molecular structure. (1) :ref:`edit_auto_bondlength` (2) :ref:`edit_regenerate_zmat` (3) :ref:`edit_addh_auto` In the case of SDF files, refer to :ref:`sdfformat_edit` procedure."
 
 msgid "分子のモデリング・系の作成に関して"
 msgstr "On the modeling of molecules and creation of systems"
@@ -775,6 +775,30 @@ msgstr "Firefly and GAMESS may have slightly different energy values."
 msgid "FireflyかGAMESSどちらかで統一して、一連の計算を行ってください。"
 msgstr "execute a series of calculations with either Firefly or GAMESS."
 
+msgid "Q. GAMESSでNMR計算を実行しようとする（RUNTYP=NMRで計算をする）とエラーが出ます。"
+msgstr "Q\. When I try to run NMR calculation in GAMESS (using RUNTYP=NMR), I get an error."
+
+msgid "A. GAMESSのNMR計算は閉殻のHartree-Fock法のみ対応しており、その他DFT法等では実行できません。"
+msgstr "A\. GAMESS NMR calculations are only compatible with the closed-shell Hartree-Fock method, and other DFT methods cannot be used."
+
+msgid "また、GAMESSのNMR計算の実行速度は遅いこともあるので、代わりにNWChemやGaussianを使うことをお勧めします。"
+msgstr "Also, the execution of NMR calculations in GAMESS can be slow, so we recommend using NWChem or Gaussian instead."
+
+msgid "どうしてもWinmostarからGAMESSで計算したい場合は、SetupウインドウのAdvancedタブの$SCF欄のDIRSCFのチェックを全て外してください。"
+msgstr "If you really want to calculate with GAMESS from Winmostar, uncheck the DIRSCF checkbox in the $SCF of the Advanced tab in the Setup window."
+
+msgid "また並列計算に対応していないので並列数は1にしてください。"
+msgstr "In addition, parallel computing is not supported, so please set the parallel number to 1."
+
+msgid "エラーで止まった際のログに詳細な指示が書かれているので、そちらも参考にしてください。"
+msgstr "You can find detailed instructions in the log file with an error, so please refer to that as well."
+
+msgid "Q. GAMESSでDiffuse関数を使うとSCF計算が収束しません。"
+msgstr "Q\. When I use Diffuse functions in GAMESS, the SCF calculation does not converge."
+
+msgid "GAMESS SetupのBasicタブの$CONTRL枠にあるOthers欄にICUT=11を追記して、2電子積分のカットオフ値を小さく(厳しく)してください。"
+msgstr "In the GAMESS Setup, in the Basic tab, add ICUT=11 in the Others field in the $CONTRL box to make the cutoff value of the two-electron integral smaller (more severe)."
+
 msgid "Gromacs, LAMMPSに関して"
 msgstr "Gromacs, LAMMPS"
 
@@ -883,8 +907,44 @@ msgstr "A\. This problem is caused by a minor bug in Gromacs. Considering the pe
 msgid "Q. 圧力制御（NPT一定またはNPH一定）を行うと、計算が途中で破綻します。解決方法はありますか？"
 msgstr "Q\. When pressure control (constant NPT or NPH) is used, the calculation fails in the middle of the process. Is there a solution?"
 
-msgid "A. まず、気相や気相中に他の相が分散しているような、分子間の相互作用が極めて弱い状況では、圧力制御は安定しにくいため、圧力制御を使わない方法も試してください。次に、破綻した計算において密度の時間変化を確認し、何が起こっているか確認してください。また、圧力制御を行う前に、密度一定で十分エネルギー・温度・圧力が平衡化している必要があります。密度一定での平衡化が終わった時点で、圧力（の平均値）は0またはマイナスである方が望ましいです。密度一定での平衡化終了時点で圧力の値が大きいと、圧力制御を開始した直後にシステムサイズが急激に変化します。密度一定での平衡化終了時点での圧力を小さくしたい場合は、初期密度を小さくしてください。それでもなお解決しない場合は、(1) 圧力制御をParrinello-Rahman(Nose-Hoover)法ではなくBerendsen法に切り替える、(2) 圧力制御の時定数を大きくする、(3) 圧力制御を入れた計算を短く何回かに分割する、ということで改善するかと思われます。"
-msgstr "A\. First of all, in a situation where the interaction between molecules is extremely weak, such as in the gas phase or when other phases are dispersed in the gas phase, the pressure control is not stable, so try a method without pressure control. Next, look at the change in density over time in the broken calculation to see what's going on. Also, the energy, temperature, and pressure must be sufficiently equilibrated at a constant density before pressure control can be performed. At the end of equilibration at constant density, the pressure (the mean value of) is preferably 0 or negative. If the pressure value is large at the end of equilibration at a constant density, the system size will change drastically immediately after starting pressure control. If you want to reduce the pressure at the end of equilibration at a constant density, reduce the initial density. If this does not solve the problem, (1) change the pressure control to Berendsen method instead of Parrinello-Rahman (Nose-Hoover) method, (2) increase the time constant of the pressure control, and (3) divide the calculation with the pressure control into several short calculations."
+msgid "A. まず、気相や気相中に他の相が分散しているような、分子間の相互作用が極めて弱い状況では、圧力制御は安定しにくいため、圧力制御を使わない方法も試してください。次に、破綻した計算において密度の時間変化を確認し、何が起こっているか確認してください。また、圧力制御を行う前に、密度一定で十分エネルギー・温度・圧力が平衡化している必要があります。密度一定での平衡化が終わった時点で、圧力（の平均値）は0またはマイナスである方が望ましいです。密度一定での平衡化終了時点で圧力の値が大きいと、圧力制御を開始した直後にシステムサイズが急激に変化します。密度一定での平衡化終了時点での圧力を小さくしたい場合は、初期密度を小さくしてください（最終的な密度のおおよそ50％程度）。それでもなお解決しない場合は、(1) 圧力制御をParrinello-Rahman(Nose-Hoover)法ではなくBerendsen法に切り替える、(2) 圧力制御の時定数を大きくする、(3) 圧力制御を入れた計算を短く何回かに分割する、ということで改善するかと思われます。"
+msgstr "A\. First of all, in a situation where the interaction between molecules is extremely weak, such as in the gas phase or when other phases are dispersed in the gas phase, the pressure control is not stable, so try a method without pressure control. Next, look at the change in density over time in the broken calculation to see what's going on. Also, the energy, temperature, and pressure must be sufficiently equilibrated at a constant density before pressure control can be performed. At the end of equilibration at constant density, the pressure (the mean value of) is preferably 0 or negative. If the pressure value is large at the end of equilibration at a constant density, the system size will change drastically immediately after starting pressure control. If you want to reduce the pressure at the end of equilibration at a constant density, reduce the initial density (about 50% of final density). If this does not solve the problem, (1) change the pressure control to Berendsen method instead of Parrinello-Rahman (Nose-Hoover) method, (2) increase the time constant of the pressure control, and (3) divide the calculation with the pressure control into several short calculations."
+
+msgid "Q. LAMMPS, Gromacsで液体（有機物）-固体（無機物）間の相互作用パラメータをどのように決めたらいいですか？"
+msgstr "Q\.  How do I decide interaction parameters between liquid (organic) and solid (inorganic) in LAMMPS and Gromacs?"
+
+msgid "A. まず、着目している液体-固体界面について分かっている実験事実や関連研究について可能な限り情報収集します。特に、表面の原子レベルの構造（ミラー指数、官能基など）や化学的性質（濡れ性や、疎水的か親水的かといった大雑把なもの）が分かることが望ましいです。"
+msgstr "A\. First, collect as much information as possible what experimental facts are known and related research about the liquid-solid interface. In particular, it is desirable to know the atomic structure of the surface (e.g., Miller's index, functional groups, etc.) and the chemical properties of the surface (rough things such as wettability, hydrophobic or hydrophilic)."
+
+msgid "LJパラメータと電荷の値が適切な関連研究の文献に載っている場合は、その値を使うのがベストです。Winmostarでは次のように値を設定します。"
+msgstr "If the LJ parameter and charge values are listed in the appropriate relevant research literature, it is best to use those values. In Winmostar, Set values as follows."
+
+msgid "- 電荷については、一度mol2形式で保存し、電荷の値を論文の値に書き換える。"
+msgstr "- For the charges, save them once in mol2 format and rewrite the values of the charges to the values in the paper."
+
+msgid "- LJパラメータについては、[力場を割り当て]機能で[Exception]から各元素の値を入力します。"
+msgstr "- For LJ parameters, use the [Assign Force Field] function to enter the values for each element from [Exception]."
+
+msgid "適切な値が載っている文献はなかったが、ある程度化学的性質が分かっている場合は、電荷、LJパラメータを何通りか変えてシミュレーションを実行し、計算結果を比較して妥当と思われるパラメータを採用します。"
+msgstr "If the appropriate values were not listed in the literature, but some chemical properties are known, run simulations with several different charge and LJ parameters, compare the results of the calculations and adopt the parameters that seem reasonable."
+
+msgid "表面の原子レベルの構造しか分かっていない場合は、第一原理計算（Quantum ESPRESSO）を併用してパラメータを決めます。"
+msgstr "If only the atomic structure of the surface is known, the parameters are determined with ab initio calculations (Quantum ESPRESSO)."
+
+msgid "電荷の決定には、Quantum ESPRESSOのLowdin電荷機能を流用する場合もあります。ただし、Lowdin電荷を使う場合は電荷の合計値が0とならないため値の微調整（全体的にシフトさせるなど）が必要です。また、Lowdin電荷では分極が過大評価されることもあり注意が必要です。"
+msgstr "In some cases, the Lowdin charge function of Quantum ESPRESSO can be used to determine the charge. However, when using lowdin charges, the total value of the charges does not equal zero, so adjustment of the values (e.g., shifting charges of all atoms) is necessary. It is also important to note that the polarization may be overestimated in Lowdin charges."
+
+msgid "LJパラメータについては、既知のパラメータ（Dreiding, UFF, CLAYFFなど）を使うか、第一原理計算からForce Matchingなどのアルゴリズムを用いて算出します。"
+msgstr "For LJ parameters, use known parameters (e.g., Dreiding, UFF, CLAYFF, etc.) or calculate them from ab initio calculations and algorithms such as Force Matching."
+
+msgid "このように液体（有機物）-固体（無機物）間の相互作用パラメータが複雑となっているのは、以下の事実に由来します。"
+msgstr "This complexity of the liquid (organic) - solid (inorganic) interaction parameters stems from the following facts."
+
+msgid "1. 古典MDでは原子位置に相互作用パラメータ（epsilon, sigma, 電荷）が依存しないという仮定を置くが、有機物-無機物界面系では有機物-有機物系に比べ、その近似が大きな誤差を生じる。"
+msgstr "1\. The interaction parameters (epsilon, sigma, and charge) depend on the atomic position in classical MD, however, The approximation error is larger in the organic-inorganic interface system than in the organic-organic system."
+
+msgid "2. 現実のデバイス中の無機物表面は酸化膜などに覆われているが、実験観察も容易ではなく、原子解像度で正確にモデリングすることが難しい。"
+msgstr "2\. Although the surface of inorganic materials in real devices is covered with oxide films, it is not easy to observe them experimentally and it is difficult to model accurately at atomic resolution."
 
 msgid "Quantum ESPRESSO, OpenMXに関して"
 msgstr "About Quantum ESPRESSO, OpenMX"
@@ -1028,13 +1088,13 @@ msgid "また、Winmostarのキーワード設定画面の「Use nbnd」のと�
 msgstr "Also please refer to the value of \"# valence bands:\" displayed at \"Use nbnd\" on Configure window of Winmostar (See :ref:`solid_qe_top` for detail)."
 
 msgid "Q. Quantum ESPRESSOのSCF計算が出力ファイル（.pwoutまたは.out）に「fixed occupations and lsda need tot_magnetization」と表示され異常終了します。どのように解決したらいいですか？"
-msgstr "Q. The SCF calculation of Quantum ESPRESSO terminates abnormally with "fixed occupations and lsda need tot_magnetization" displayed in the output file (.pwout or .out). How do I resolve this?"
+msgstr "Q\. The SCF calculation of Quantum ESPRESSO terminates abnormally with \"fixed occupations and lsda need tot_magnetization\" displayed in the output file (.pwout or .out). How do I resolve this?"
 
 msgid "A. occupationsにsmearingを指定するか、starting_magnetizationではなくtot_magnetizationを指定してください。"
 msgstr "A\. Select smearing in the occupations section, or use tot_magnetization instead of starting_magnetization."
 
 msgid "Q. 金属のQuantum ESPRESSOのSCF計算が出力ファイル（.pwoutまたは.out）に「charge is wrong」と表示され異常終了します。どのように解決したらいいですか？"
-msgstr "Q\. The SCF calculation of Quantum ESPRESSO on metal is terminated abnormally with "charge is wrong" displayed in the output file (.pwout or .out). How do I resolve this?"
+msgstr "Q\. The SCF calculation of Quantum ESPRESSO on metal is terminated abnormally with \"charge is wrong\" displayed in the output file (.pwout or .out). How do I resolve this?"
 
 msgid "A. まずoccupationsがsmearingになっていることを確認し、次にecutrhoを大きめ（400 Ryなど）に設定してください。"
 msgstr "A\. First, make sure that the occupations are set to smearing, and then set the ectrho to a larger value (such as 400 Ry)."
@@ -1070,7 +1130,7 @@ msgid "A. :ref:`faq_dielectric_md` を参照してください。"
 msgstr "A\. See :ref:`faq_dielectric_md`."
 
 msgid "Q. OpenMXでMPIを有効にしてローカルマシンで計算を実行すると、 tcp_peer_send_blocking\\: send() to socket 12 failed\\: Transport endpoint is not connected というエラーが表示されます。"
-msgstr "Q\. When I run a calculation on a local machine with MPI enabled in OpenMX, I get the error tcp_peer_send_blocking\fr_to-socket 12 failed to send(): Transport endpoint is not connected."
+msgstr "Q\. When I run a calculation on a local machine with MPI enabled in OpenMX, I get the error tcp_peer_send_blocking\\: send() to socket 12 failed\\: Transport endpoint is not connected."
 
 msgid "A. CygwinのOpenMPI特有の問題で、Windowsの[設定]-[ネットワークとインターネット]-[アダプターのオプションを変更する]において使用していないネットワークアダプタを無効にしてください。また、OpenMXはローカルマシンにおいてはOpenMPで計算することを推奨します。"
 msgstr "A\. For issues specific to Cygwin's OpenMPI, go to Windows Settings - Network and Internet - Change Adapter Options and disable the network adapter you are not using. Also, OpenMX recommends that you use OpenMP on the local machine."

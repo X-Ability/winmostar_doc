@@ -76,8 +76,8 @@ msgstr "ESP"
 msgid "電子状態計算で直接計算された静電ポテンシャルの3次元分布です。"
 msgstr "Three-dimensional distribution of electrostatic potential calculated directly by electronic state calculation."
 
-msgid "以下の手順で、 :guilabel:`ESP/Surface` に相当する、分子表面上でのESPを表示できます。"
-msgstr "You can display the ESP on the surface of the molecule corresponding to :guilabel:`ESP/Surface` by following the steps below. "
+msgid "以下の手順で、 :guilabel:`ESP/Surface` に相当する、分子表面上でのESPを表示できます。（ただし、MOPACでは未対応）"
+msgstr "You can display the ESP on the surface of the molecule corresponding to :guilabel:`ESP/Surface` by following the steps below. (Not supported for MOPAC.)"
 
 msgid ":guilabel:`Dump cube file` にチェックを入れ、 :guilabel:`Quantity` で :guilabel:`Density` を選択する。"
 msgstr "Check :guilabel:`Dump cube file` and select :guilabel:`Density` with :guilabel:`Quantity`."

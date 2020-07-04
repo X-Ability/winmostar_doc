@@ -54,3 +54,9 @@ msgstr "When outputting an animated GIF from the animation window, an error may 
 
 msgid ":guilabel:`Export JPEG Images` を使用して連番JPEGファイルを出力し、その後各種の動画作成ソフトを利用してアニメーションのファイルを作成してください。 （2020年1月29日報告）"
 msgstr "Use :guilabel:`Export JPEG Images` to output serial JPEG files, and then create animation files using various movie creation software. (Reported on January 29, 2020)"
+
+msgid "Gromacsが出力するIsothermal Compressibility（等温圧縮率）、Adiabatic Bulk Modulus（断熱体積弾性率）の単位が間違っている。"
+msgstr "The units of Isothermal Compressibility and Adiabatic Bulk Modulus output by Gromacs are wrong."
+
+msgid "gmx energyのログに、Isothermal Compressibilityの単位が「J/m^3」と書かれていますが、正しくは「m^3/J」です。同様に、Adiabatic Bulk Modulusの単位は正しくは「J/m^3」です。 （2020年6月29日報告）"
+msgstr "In the gmx energy log, the units for Isothermal Compressibility is \"J/m^3\", but the correct unit is \"m^3/J\". Similarly, the Adiabatic Bulk Modulus unit is correctly \"J/m^3\". (Reported on June 29, 2020)"
