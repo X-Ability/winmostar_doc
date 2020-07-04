@@ -920,10 +920,10 @@ msgid "LJパラメータと電荷の値が適切な関連研究の文献に載�
 msgstr "If the LJ parameter and charge values are listed in the appropriate relevant research literature, it is best to use those values. In Winmostar, Set values as follows."
 
 msgid "- 電荷については、一度mol2形式で保存し、電荷の値を論文の値に書き換える。"
-msgstr "- For the charges, save them once in mol2 format and rewrite the values of the charges to the values in the paper."
+msgstr "\- For the charges, save them once in mol2 format and rewrite the values of the charges to the values in the paper."
 
 msgid "- LJパラメータについては、[力場を割り当て]機能で[Exception]から各元素の値を入力します。"
-msgstr "- For LJ parameters, use the [Assign Force Field] function to enter the values for each element from [Exception]."
+msgstr "\- For LJ parameters, use the [Assign Force Field] function to enter the values for each element from [Exception]."
 
 msgid "適切な値が載っている文献はなかったが、ある程度化学的性質が分かっている場合は、電荷、LJパラメータを何通りか変えてシミュレーションを実行し、計算結果を比較して妥当と思われるパラメータを採用します。"
 msgstr "If the appropriate values were not listed in the literature, but some chemical properties are known, run simulations with several different charge and LJ parameters, compare the results of the calculations and adopt the parameters that seem reasonable."
@@ -938,7 +938,7 @@ msgid "LJパラメータについては、既知のパラメータ（Dreiding, U
 msgstr "For LJ parameters, use known parameters (e.g., Dreiding, UFF, CLAYFF, etc.) or calculate them from ab initio calculations and algorithms such as Force Matching."
 
 msgid "このように液体（有機物）-固体（無機物）間の相互作用パラメータが複雑となっているのは、以下の事実に由来します。"
-msgstr "This complexity of the liquid (organic) - solid (inorganic) interaction parameters stems from the following facts."
+msgstr "This complexity of the liquid (organic) \- solid (inorganic) interaction parameters stems from the following facts."
 
 msgid "1. 古典MDでは原子位置に相互作用パラメータ（epsilon, sigma, 電荷）が依存しないという仮定を置くが、有機物-無機物界面系では有機物-有機物系に比べ、その近似が大きな誤差を生じる。"
 msgstr "1\. The interaction parameters (epsilon, sigma, and charge) depend on the atomic position in classical MD, however, The approximation error is larger in the organic-inorganic interface system than in the organic-organic system."
@@ -1133,7 +1133,7 @@ msgid "Q. OpenMXでMPIを有効にしてローカルマシンで計算を実行�
 msgstr "Q\. When I run a calculation on a local machine with MPI enabled in OpenMX, I get the error tcp_peer_send_blocking\\: send() to socket 12 failed\\: Transport endpoint is not connected."
 
 msgid "A. CygwinのOpenMPI特有の問題で、Windowsの[設定]-[ネットワークとインターネット]-[アダプターのオプションを変更する]において使用していないネットワークアダプタを無効にしてください。また、OpenMXはローカルマシンにおいてはOpenMPで計算することを推奨します。"
-msgstr "A\. For issues specific to Cygwin's OpenMPI, go to Windows Settings - Network and Internet - Change Adapter Options and disable the network adapter you are not using. Also, OpenMX recommends that you use OpenMP on the local machine."
+msgstr "A\. For issues specific to Cygwin's OpenMPI, go to Windows Settings \- Network and Internet \- Change Adapter Options and disable the network adapter you are not using. Also, OpenMX recommends that you use OpenMP on the local machine."
 
 msgid "Q. Quantum ESPRESSOで汎関数の種類はどのように設定しますか？"
 msgstr "Q\. How do you set up the type of functionalities in Quantum ESPRESSO?"
