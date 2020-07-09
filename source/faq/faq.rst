@@ -36,7 +36,7 @@ Q. 代理店などエンドユーザ以外が注文する方法を教えてく�
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 | A.
-| 指定代理店をご利用ください。詳細は `価格・購入 <https://winmostar.com/jp/purchase>`_ をご確認ください。
+| 指定代理店をご利用ください。詳細は `価格・購入 <https://winmostar.com/jp/purchase>`_ をご確認ください。指定代理店を介したくない場合は、弊社（株式会社クロスアビリティ）からの直販のみ可能です。指定代理店を設けているのは、Winmostarの価格とサービスを、エンドユーザに適切な形で提供するためです。
 
 ライセンス・ライセンスコードに関して
 -----------------------------------------------------
@@ -152,6 +152,17 @@ Q. Winmostarを使って並列計算する際、利用できるコア数の上�
 
 | A. ユーザが用意したハードウエアの範囲内で、制限なく並列数を指定して頂けます。並列数に応じて、Winmostarのライセンス料は費用は変化しません。ローカルジョブの場合は、 :ref:`winmosjm_top` で設定した最大コア数を上回るとジョブが流れないため、最大コア数の設定を変更してください。
 
+Q. WinmostarはmacOS、Linuxで動作しますか？
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+| A. Winmostarのアプリケーション本体はWindows OSのみサポートされています。サポートされているWindows OSの確認は `動作環境 <https://winmostar.com/jp/requirements/>`_ で可能です。macOS、LinuxでWinmostarのアプリケーション本体を動かす場合は、VirtualBoxなどの仮想環境上にWindows OSをインストールした上でご使用ください。
+| リモートジョブを実行するコンピュータには、Linux・macOSを使用できます。
+
+Q. Gaussianのインストール方法を教えてください。
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A. Gaussianのインストール方法は、Gaussianの販売代理店より入手してください。Gaussianをインストールした後は、 :menuselection:`ツール --> 環境設定 --> プログラムパス` において、Gaussianのプログラムパス（g03.exe, g09.exe, g16.exeなど）を選択してください。
+
 ソフトウェア動作全般に関して
 --------------------------------
 
@@ -180,7 +191,7 @@ A. まず、以下の基礎的なチェックを行ってください。
 - Winmostarを再起動する。
 - OSを再起動する。
 - セキュリティ対策ソフトで、Winmostar、CygwinWMのインストールフォルダ、およびソルバ（MPIを含む）が監視対象外に設定する。
-- CygwinWMを使用している場合は、 :menuselection:`ヘルプ --> cygwin_wmを診断` でCygwinWMの簡易的な診断を実行する。
+- CygwinWMを使用している場合は、 :menuselection:`ヘルプ --> CygwinWMを診断` でCygwinWMの簡易的な診断を実行する。
 - Winmostar, CygwinWMおよび使用したソルバを再インストールする。
 - 他のPCで試す。
 
@@ -199,7 +210,7 @@ Q. 「ERROR: I/O error 32」と表示され処理に失敗します。
 
 .. _faq_cygwin_error:
 
-Q. Cygwinを使う処理が異常終了します。／ :menuselection:`ツール --> cygwin_wmを診断` 機能で `... ERROR ...` と表示されます。／Cygwinの黒いウィンドウに `child_info_fork::abort: ... Loaded to different address: parent ... != child ...` などと表示されます。
+Q. Cygwinを使う処理が異常終了します。／ :menuselection:`ツール --> CygwinWMを診断` 機能で `... ERROR ...` と表示されます。／Cygwinの黒いウィンドウに `child_info_fork::abort: ... Loaded to different address: parent ... != child ...` などと表示されます。
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A. 
@@ -221,7 +232,7 @@ A.
    8) その他、 `Cygwinのfork()関連の失敗に関するFAQ <https://cygwin.com/faq.html#faq.using.fixing-fork-failures>`_ に記載された方法を試す。
    9) `Cygwin公式サイト <http://cygwin.com/>`_ のCygwinを新規にインストールし、そこからターミナル（端末）を起動できるか確認する。
 
-Q. :menuselection:`ツール --> cygwin_wmを診断` 機能で `WARNING ... some files are missing` と表示されます。
+Q. :menuselection:`ツール --> CygwinWMを診断` 機能で `WARNING ... some files are missing` と表示されます。
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 | A. CygwinWMを再インストールしてください。
@@ -314,9 +325,9 @@ A. :ref:`一般的な不具合 <faq_general_error>` の対処と、:ref:`Cygwin�
       
    の行をコメントアウトまたは削除する
    
-   2) Winmostarの :menuselection:`ツール --> cygwin_wm起動` をクリックし、起動したcygwin上で `Winmostar(TM) 用Cygwinインストールマニュアル <https://winmostar.com/jp/gmx4wm_jp_win.html>`_ の「1-2. Gromacs」のインストール手順を試みる
+   2) Winmostarの :menuselection:`ツール --> Cygwin` をクリックし、起動したcygwin上で `Winmostar(TM) 用Cygwinインストールマニュアル <https://winmostar.com/jp/gmx4wm_jp_win.html>`_ の「1-2. Gromacs」のインストール手順を試みる
    
-   3) :menuselection:`ツール --> cygwin_wm起動` で :command:`gmx` と実行し `GROMACS: gmx, VERSION ...` などとGromacsの起動を示すメッセージが表示されたら再ビルドは成功である
+   3) :menuselection:`ツール --> CygwinWM` で :command:`gmx` と実行し `GROMACS: gmx, VERSION ...` などとGromacsの起動を示すメッセージが表示されたら再ビルドは成功である
 
 分子数が大きい場合（ケースにもよるが10,000程度）は、現在内部処理で使用している :command:`gmx solvate` の処理の限界となるケースもあるので、 :menuselection:`編集 --> :menuselection:`編集 --> グループ編集 --> グループを複製` で分子を並べてください。
 
@@ -387,6 +398,12 @@ Q. :guilabel:`Test Connection` での接続テストは成功するが、WARNING
 | この文字列を削除してDefault Settingsを選択した状態でSaveすると、この問題を解消できます。
 | (なお、Port欄の入力内容は特に影響しません。)
 
+Q. リモートサーバではどの種類のMPI（MPICH、OpenMPIなど）を使用できますか？
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+| A. 基本的にどの種類のMPIも利用可能です。MPICH、OpenMPI、MVAPICHなどで動作実績があります。
+| テンプレートスクリプトを編集することで、source、module、exportといったコマンドを自由に実行し、任意のMPIを実行する環境を設定できます。
+| 使用するソルバは、使用するMPI（mpicc, mpif90）でコンパイルされている必要があります。
 
 MOPAC, CNDO/S, GAMESS, NWChem, Gaussianに関して
 ------------------------------------------------
