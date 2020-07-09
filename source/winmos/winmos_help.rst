@@ -19,7 +19,7 @@ Winmostarホームページ
    
 .. _help_check_cygwin:
    
-cygwin_wmを診断
+CygwinWMを診断
 -----------------
    :guilabel:`Check Now` ボタンをクリックすると、 :ref:`cygwinwm_top` のインストールチェックを行います。本機能ではファイルの有無のみを調べます。チェックをクリアした場合は ``Successfully finished. Close this window.`` と表示されます。
    

@@ -29,9 +29,13 @@ Animationウィンドウ
          連番JPEGファイルを書き出します。
          
          :guilabel:`Export` ボタンからも操作できます。
+      Export SDF File
+         全てのフレームを含むSDFファイルを書き出します。
       Export Animated GRO File
          アニメーションgroファイルを出力します。VMD等との連携に使用できます          
          :guilabel:`Export` ボタンからも操作できます。
+      Export CSV File
+         リストの表示されている数字をcsv形式で出力します。
       Close
          このウィンドウを閉じます。
          再度開く場合は :ref:`window_top` :menuselection:`--> Animation` を選択します。
@@ -73,19 +77,40 @@ Animationウィンドウ
          動径分布関数を算出します。詳細は :ref:`md_gromacs_rdf` を参照してください。Gromacsなど一部のソルバでは本メニューが有効になりませんが、ソルバのメニューに同等機能が用意されている場合があります。
       Extract Trajectory for Selected Group
          メインウィンドウでグループ選択した原子のみを取り出したトラジェクトリファイルを作成します。
+   Automationメニュー
+      :menuselection:`File --> Export All Frames Separately` などのファイル出力機能の実行時に、各フレームの構造に対し操作を行います。操作はメニューの順に実行されます。
+      
+      Check All/Uncheck All
+         :guilabel:`Deleting Hydrogen` から :guilabel:`Quick Optimization` までの全ての項目のチェックします/チェックを外します。
+      Deleting Hydrogen
+         各フレームの構造に対し、水素原子を削除します。 :ref:`edit_delh` と同じ操作が実行されます。
+      Extracting One Molecule
+         各フレームの構造に対し、1分子だけ構造を残します。
+      Adjusting Coordinate
+         各フレームの構造に対し、結合長を自動で調整します。 :ref:`edit_auto_bondlength` と同じ操作が実行されます。
+      Adding Hydrogen
+         各フレームの構造に対し、水素を自動で付加します。 :ref:`edit_addh_all` と同じ操作が実行されます。
+      Quick Optimization
+         各フレームの構造に対し、簡易構造最適化を実行します。 :ref:`edit_clean` と同じ操作が実行されます。
+      Running MOPAC
+         各フレームの構造に対し、MOPACを実行します。
    上下スライダー
       ドラッグするとフレーム間を移動します。
    :guilabel:`Speed` スライダー
       再生速度を調整します。
    :guilabel:`Loop` チェックボックス
       チェックされている場合はループ再生されます。
-   :guilabel:`Dynamics Bond` チェックボックス
+   :guilabel:`Dynamic Bond` チェックボックス
       スナップショットごとに結合を毎回自動生成します。
       
       化学結合が組み変わるMD計算（第一原理MD、CPMD、ReaxFF、DCDFTBMDなど）の際に有用です。
    :guilabel:`Open Viewer` ボタン
       現在開いているアニメーションを :ref:`winmos3d_top` を用いて表示します。
-   :guilabel:`Excel` ボタン
-      リストの内容をcsv形式で出力し、Excelを起動して読み込みます。
+   :guilabel:`Export` ボタン
+      :guilabel:`File` メニュー以下の機能のショートカットです。
+   :guilabel:`Close` ボタン
+      このウィンドウを閉じます。
+   :guilabel:`Plot Column`
+      リストの中で、このウィンドウ下部のグラフ表示部に表示する列を指定します。直接値を入力することも可能です。
    :guilabel:`Custom Plot` ボタン
       リストの内容、原子間距離、角度、格子定数などを柔軟にプロットできるウィンドウを開きます。

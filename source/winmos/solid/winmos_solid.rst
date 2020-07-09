@@ -59,6 +59,36 @@
    Cancel
       結晶ビルダで入力した構造を破棄しメインウィンドウに戻ります。
 
+スラブを作成
+------------------------
+（バルクの）結晶のCIFファイルを読み込んだ状態で本機能を呼び出すと、スラブを作成することができます。内部的にはpymatgenを利用しています。
+
+まず、 :guilabel:`Generate Slab` ボタンをクリックした後、 :guilabel:`OK` ボタンをクリックします。
+
+   Miller indices
+      スラブ表面のミラー指数を入力します。
+   Minimum slab size
+      表面垂直方向(c-axis)のセルサイズを入力します。
+   Supercell
+      表面水平方向(aまたはb-axis)のスーパーセルの個数を入力します。
+   Force c-axis to be perpendicular to a and b axes
+      c軸がaおよびb軸に垂直になるようにします。
+   Convert hexagonal to orthorhombic
+      HexagonalをOrthorhombicに変換します。
+   Generate Slabボタン
+      本ボタンより上の項目に基づき表面構造の候補を作成します。
+   
+   Surface configurations
+      表面構造を候補の中から選択します。
+   Slab, Vacuum, Total width
+      表面垂直方向のサイズを入力します。 :guilabel:`Vacuum` あるいは :guilabel:`Total width` のどちらかを入力したら、他方が自動で決定されます。
+   Position
+      表面垂直方向のスラブの位置を指定します。
+   OKボタン
+      スラブモデルを作成しメインウィンドウに表示します。
+   
+   .. include:: ../../cygwinwm_required.rst
+
 .. _solid_supercell:
 
 スーパーセルを作成
@@ -162,6 +192,8 @@
 ------------------------
 メインウィンドウで表示されているセルについて、プリミティブセル-コンベンショナルセル間の変換を行います。
 
+   .. include:: ../../cygwinwm_required.rst
+   
 Quantum ESPRESSO
 ------------------------
    :ref:`solid_qe_top` を参照してください。

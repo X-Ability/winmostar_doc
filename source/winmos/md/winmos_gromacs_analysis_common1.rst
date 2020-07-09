@@ -12,6 +12,8 @@ Create Group
    :guilabel:`Close` ボタンを押すと :guilabel:`Target Group` や :guilabel:`Reference Group` に追加したグループが追加されます。
 First Frame
    トラジェクトリを読み込む際の開始時間をps単位で指定します。
+Last Frame
+   トラジェクトリを読み込む際の終端時間をps単位で指定します。 :guilabel:`Maximum` にチェックが入った場合は、最終フレームが指定されます。
 Draw
    結果解析用プログラムを実行してグラフを表示します。
 

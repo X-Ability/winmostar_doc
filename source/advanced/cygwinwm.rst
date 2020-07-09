@@ -16,5 +16,5 @@ CygwinWM
       
       - CygwinWMを使用する機能で不具合が起きた場合は、セキュリティ対策ソフトの活動レポートもご確認ください。
    
-   :menuselection:`ツール --> cygwin_wm起動` を選択すると、CygwinWMのコンソールを直接起動することが可能です。
+   :menuselection:`ツール --> Cygwin` を選択すると、CygwinWMのコンソールを直接起動することが可能です。
    

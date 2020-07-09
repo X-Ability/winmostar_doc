@@ -473,6 +473,8 @@ Hildebrand溶解度パラメータ
    Gromacsが出力したedr, groファイルから、χパラメータ・DPD aijパラメータを算出します。2つの成分の気相と液相それぞれの計算結果が必要です。
    内部的には :ref:`md_gromacs_hildebrand` で計算した値を用います。
 
+.. _md_gromacs_distance_angle:
+
 距離/角度/二面角分布
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

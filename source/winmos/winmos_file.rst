@@ -96,7 +96,7 @@
 
 SMILES
 ^^^^^^^^^^^^^^^^
-   SMILES形式の文字列から分子構造を生成し、メインウィンドウに読み込みます。 :guilabel:`Import SMILES` ウィンドウが開いたら、 :guilabel:`Enter SMILES` の欄にSMILES形式の文字列を入力し、 :guilabel:`Import` を押してください。内部的には同時にBolloonによる配座探索も実行されます。
+   SMILES形式の文字列から分子構造を生成し、メインウィンドウに読み込みます。 :guilabel:`Import SMILES` ウィンドウが開いたら、 :guilabel:`Enter SMILES` の欄にSMILES形式の文字列を入力し、 :guilabel:`Import` を押してください。内部的にはBalloonまたはOpenBabelが使用されます。
    :file:`*_smiles_tmp` という作業フォルダに中間ファイルが生成されます。
 
 エクスポート

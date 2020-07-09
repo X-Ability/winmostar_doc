@@ -168,6 +168,10 @@
          アニーリング計算時の終状態の温度を指定します。
       Annealing Rate
          アニーリング計算時の加熱または冷却速度が表示されます。
+      Enable pressurization
+         圧縮計算（圧力を一定速度で変化させる計算）を有効にします。 :guilabel:`Ensemble` が ``npt`` , ``nph`` の時に指定できます。 :guilabel:`Pressure` の値が始状態の圧力、 :guilabel:`Final Pressure` の値が終状態の圧力となります。
+      Final Pressure
+         圧縮計算時の終状態の圧力を指定します。
    Restraint
       Enable Restraint
          指定した2原子間の距離を拘束した計算を実施します。:guilabel:`Ensemble` が ``minimize`` 以外の時に指定できます。
@@ -332,7 +336,7 @@ LAMMPS実行
    
    詳細は :ref:`md_gromacs_saxs` を参照してください。
    
-比誘電率
+比誘電率/双極子モーメント
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
    LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndx, mdp, topファイルを選択し、散乱関数を表示します。
    
@@ -354,6 +358,14 @@ LAMMPS実行
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
    Green-Kubo式を用いた熱伝導率、粘度算出時に出力される自己相関関数を表示します。
    
+距離/角度/二面角分布
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   LAMMPSが出力したxtcファイルとWinmostarが自動生成したgro, ndx, mdp, topファイルを選択し、選択グループ間の距離、角度、または二面角の分布を表示します。
+
+   詳細は :ref:`md_gromacs_distance_angle` を参照してください。
+   
+
 散逸粒子動力学
 ------------------------
 
