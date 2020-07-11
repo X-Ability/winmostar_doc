@@ -260,7 +260,7 @@ msgid "スラブモデルを作成しメインウィンドウに表示します�
 msgstr "Load the created crystal structure into the main window."
 
 msgid "本機能を利用するためには :ref:`CygwinWMのセットアップ<install_cygwinwm>` が必要です。"
-msgstr "In order to use this feature, you need :ref:`CygwinWM setup <install_ cygwinwm>`."
+msgstr "In order to use this feature, you need :ref:`CygwinWM setup <install_cygwinwm>`."
 
 msgid "スーパーセルを作成"
 msgstr "Generate Supercell"

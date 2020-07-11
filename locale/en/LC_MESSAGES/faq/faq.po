@@ -44,7 +44,7 @@ msgid "Q. 代理店などエンドユーザ以外が注文する方法を教え�
 msgstr "Q\. How do I place an order other than an end user, such as an agency?"
 
 msgid "指定代理店をご利用ください。詳細は `価格・購入 <https://winmostar.com/jp/purchase>`_ をご確認ください。指定代理店を介したくない場合は、弊社（株式会社クロスアビリティ）からの直販のみ可能です。指定代理店を設けているのは、Winmostarの価格とサービスを、エンドユーザに適切な形で提供するためです。"
-msgstr "Please use a designated agent. For more information, see `Pricing <https://winmostar.com/en/purchase >`_. If you don't want to go through a designated agent, you can only sell directly from us (X-Ability Co. Ltd.) . The purpose of having a designated agent is to provide Winmostar's prices and services to the end user in an appropriate manner."
+msgstr "Please use a designated agent. For more information, see `Pricing <https://winmostar.com/en/purchase>`_. If you don't want to go through a designated agent, you can only sell directly from us (X-Ability Co. Ltd.) . The purpose of having a designated agent is to provide Winmostar's prices and services to the end user in an appropriate manner."
 
 msgid "ライセンス・ライセンスコードに関して"
 msgstr "License Code"
@@ -191,7 +191,7 @@ msgid "Q. WinmostarはmacOS、Linuxで動作しますか？"
 msgstr "Q\. Does Winmostar work on macOS and Linux?"
 
 msgid "A. Winmostarのアプリケーション本体はWindows OSのみサポートされています。サポートされているWindows OSの確認は `動作環境 <https://winmostar.com/jp/requirements/>`_ で可能です。macOS、LinuxでWinmostarのアプリケーション本体を動かす場合は、VirtualBoxなどの仮想環境上にWindows OSをインストールした上でご使用ください。"
-msgstr "A. Winmostar only supports Windows OS. You can check the supported Windows operating systems at `System Requirements <https://winmostar.com/en/requirements/>`_. If you want to run the Winmostar application on macOS or Linux, please install Windows OS in a virtual environment such as VirtualBox."
+msgstr "A\. Winmostar only supports Windows OS. You can check the supported Windows operating systems at `System Requirements <https://winmostar.com/en/requirements/>`_. If you want to run the Winmostar application on macOS or Linux, please install Windows OS in a virtual environment such as VirtualBox."
 
 msgid "リモートジョブを実行するコンピュータには、Linux・macOSを使用できます。"
 msgstr "Linux and macOS can be used as the computer to run the remote job."
