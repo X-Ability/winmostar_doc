@@ -127,8 +127,182 @@ msgstr "For details, see :ref:`md_lammps_start`."
 msgid "Preset"
 msgstr "Preset"
 
-msgid "計算条件のプリセットを指定します。プリセットの内容は、各キーワードから確認できます。"
-msgstr "Specify the preset of the calculation condition. The preset contents can be confirmed from each keyword."
+msgid "計算条件のプリセットを指定します。各プリセットは以下のキーワードを変更します。"
+msgstr "Specify the preset of the calculation condition. Each preset changes the following keywords."
+
+msgid "Minimize"
+msgstr "Minimize"
+
+msgid "(fast)"
+msgstr "(fast)"
+
+msgid "NVT"
+msgstr "NVT"
+
+msgid "NPT"
+msgstr "NPT"
+
+msgid "NVE"
+msgstr "NVE"
+
+msgid "Pair style"
+msgstr "Pair style"
+
+msgid "lj/cut/coul/long"
+msgstr "lj/cut/coul/long"
+
+msgid "Time step"
+msgstr "Time step"
+
+msgid "2.0"
+msgstr "2.0"
+
+msgid "# of time steps"
+msgstr "# of time steps"
+
+msgid "5000"
+msgstr "5000"
+
+msgid "Ensemble"
+msgstr "Ensemble"
+
+msgid "minimize"
+msgstr "minimize"
+
+msgid "nvt"
+msgstr "nvt"
+
+msgid "npt"
+msgstr "npt"
+
+msgid "nve"
+msgstr "nve"
+
+msgid "Generate"
+msgstr "Generate"
+
+msgid "initial velocity"
+msgstr "initial velocity"
+
+msgid "True"
+msgstr "True"
+
+msgid "False"
+msgstr "False"
+
+msgid "Temperature"
+msgstr "Temperature"
+
+msgid "300"
+msgstr "300"
+
+msgid "Pressure"
+msgstr "Pressure"
+
+msgid "1.0"
+msgstr "1.0"
+
+msgid "Boundary Condition"
+msgstr "Boundary Condition"
+
+msgid "p p p"
+msgstr "p p p"
+
+msgid "Reset COM motion"
+msgstr "Reset COM motion"
+
+msgid "linear"
+msgstr "linear"
+
+msgid "Tchain"
+msgstr "Tchain"
+
+msgid "3"
+msgstr "3"
+
+msgid "Pchain"
+msgstr "Pchain"
+
+msgid "Shake tolerance"
+msgstr "Shake tolerance"
+
+msgid "1e-5"
+msgstr "1e-5"
+
+msgid "Dump interval"
+msgstr "Dump interval"
+
+msgid "(dump)"
+msgstr "(dump)"
+
+msgid "100"
+msgstr "100"
+
+msgid "(xtc)"
+msgstr "(xtc)"
+
+msgid "Log interval"
+msgstr "Log interval"
+
+msgid "10"
+msgstr "10"
+
+msgid "Cutoff (vdW)"
+msgstr "Cutoff (vdW)"
+
+msgid "Cutoff (Coulomb)"
+msgstr "Cutoff (Coulomb)"
+
+msgid "PPPM order"
+msgstr "PPPM order"
+
+msgid "4"
+msgstr "4"
+
+msgid "K-space accuracy"
+msgstr "K-space accuracy"
+
+msgid "0.5"
+msgstr "0.5"
+
+msgid "20000"
+msgstr "20000"
+
+msgid "1"
+msgstr "1"
+
+msgid "1e-9"
+msgstr "1e-9"
+
+msgid "400"
+msgstr "400"
+
+msgid "40"
+msgstr "40"
+
+msgid "(vapor,fast)"
+msgstr "(vapor,fast)"
+
+msgid "lj/cut/coul/cut"
+msgstr "lj/cut/coul/cut"
+
+msgid "f f f"
+msgstr "f f f"
+
+msgid "angular"
+msgstr "angular"
+
+msgid "(vapor)"
+msgstr "(vapor)"
+
+msgid "6"
+msgstr "6"
+
+msgid "(ReaxFF)"
+msgstr "(ReaxFF)"
+
+msgid "reax/c"
+msgstr "reax/c"
 
 msgid "MPI"
 msgstr "MPI"
@@ -196,9 +370,6 @@ msgstr "# of Time Steps"
 msgid "時間積分ステップの最大数を指定します。"
 msgstr "Specify the maximum number of time integration steps."
 
-msgid "Ensemble"
-msgstr "Together"
-
 msgid "時間積分の種類を指定します。 ``nvt`` （温度一定のカノニカルアンサンブル）,  ``npt`` （温度、圧力一定のアンサンブル）,  ``nve`` （体積とエネルギー一定のミクロカノニカルアンサンブル）,  ``minimize`` （CG法によるエネルギー最小化）のいずれかを選択します。"
 msgstr "Specify the type of time integration. ``nvt`` (canonical ensemble with constant temperature), ``npt`` (temperature, constant pressure ensemble), ``nve`` (micro and canonical ensemble with constant volume and energy), ``minimize`` (CG Energy minimization by law)."
 
@@ -214,9 +385,6 @@ msgstr "Random Seed"
 msgid "初速度発生時の擬似乱数の種を指定します。"
 msgstr "Specify the seed of the pseudorandom number at the time of initial velocity occurrence."
 
-msgid "Temperature"
-msgstr "Temperature"
-
 msgid "目標温度を指定します。アニーリング計算時には始状態の温度を指定します。"
 msgstr "Specify the target temperature. At the time of annealing calculation, specify the temperature of the start condition."
 
@@ -231,9 +399,6 @@ msgstr "Pressure Control"
 
 msgid "圧力制御の際のセルの動かし方を指定します。"
 msgstr "Specify how cells are moved during pressure control."
-
-msgid "Pressure"
-msgstr "Pressure"
 
 msgid "目標圧力を指定します。"
 msgstr "Specify the target pressure."
@@ -277,14 +442,8 @@ msgstr "Reset Interval"
 msgid ":guilabel:`Reset COM Motion` の頻度をタイムステップで指定します"
 msgstr "Specify :guilabel:`Reset COM Motion` frequency in time step"
 
-msgid "Tchain"
-msgstr "Tchain"
-
 msgid "Nose-Hoover chainの段数を指定します。"
 msgstr "Specify the number of stages of Nose-Hoover chain."
-
-msgid "Pchain"
-msgstr "Pchain"
 
 msgid "圧力制御の段数を指定します。"
 msgstr "Specify the number of stages of pressure control."
@@ -438,9 +597,6 @@ msgstr "PPPM Order"
 
 msgid "PPPM法のSpline補間次数を指定します。"
 msgstr "Specify Spline interpolation order of PPPM method."
-
-msgid "K-space accuracy"
-msgstr "K-space accuracy"
 
 msgid "PPPM法の許容相対誤差を指定します。"
 msgstr "Specify the allowable relative error of PPPM method."
