@@ -916,6 +916,12 @@ msgstr "First Frame"
 msgid "トラジェクトリを読み込む際の開始時間をps単位で指定します。"
 msgstr "Specify the start time when trajectory is read in ps units."
 
+msgid "Last Frame"
+msgstr "Last Frame"
+
+msgid "トラジェクトリを読み込む際の終端時間をps単位で指定します。 :guilabel:`Maximum` にチェックが入った場合は、最終フレームが指定されます。"
+msgstr "Specify the end time, in ps, to read trajectories. If :guilabel:`Maximum` is checked, the last frame is specified."
+
 msgid "Draw"
 msgstr "Draw"
 

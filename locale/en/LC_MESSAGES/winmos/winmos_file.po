@@ -106,8 +106,8 @@ msgstr "It reads a specific type of molecular structure."
 msgid "SMILES"
 msgstr "SMILES"
 
-msgid "SMILES形式の文字列から分子構造を生成し、メインウィンドウに読み込みます。 :guilabel:`Import SMILES` ウィンドウが開いたら、 :guilabel:`Enter SMILES` の欄にSMILES形式の文字列を入力し、 :guilabel:`Import` を押してください。内部的には同時にBolloonによる配座探索も実行されます。 :file:`*_smiles_tmp` という作業フォルダに中間ファイルが生成されます。"
-msgstr "Molecular structure is generated from SMILES format string and read into the main window. When :guilabel:`Import SMILES` window opens, enter the SMILES format string in the text box and press :guilabel:`Import` button. Internally, conformational search by Bolloon is also executed at the same time. A working folder named :file:`*_smiles_tmp` will be created as an intermediate file."
+msgid "SMILES形式の文字列から分子構造を生成し、メインウィンドウに読み込みます。 :guilabel:`Import SMILES` ウィンドウが開いたら、 :guilabel:`Enter SMILES` の欄にSMILES形式の文字列を入力し、 :guilabel:`Import` を押してください。内部的にはBalloonまたはOpenBabelが使用されます。 :file:`*_smiles_tmp` という作業フォルダに中間ファイルが生成されます。"
+msgstr "Molecular structure is generated from SMILES format string and read into the main window. When :guilabel:`Import SMILES` window opens, enter the SMILES format string in the text box and press :guilabel:`Import` button. Internally, conformational search by Bolloon or OpenBabel is also executed at the same time. A working folder named :file:`*_smiles_tmp` will be created as an intermediate file."
 
 msgid "エクスポート"
 msgstr "Export"

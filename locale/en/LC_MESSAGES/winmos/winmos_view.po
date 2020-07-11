@@ -71,6 +71,12 @@ msgstr "View"
 msgid "メインウィンドウで左ドラッグすると、表示が回転します。"
 msgstr "Drag left in the main window to rotate the display."
 
+msgid "表示プリセット"
+msgstr "View Preset"
+
+msgid "表示の設定を一括で保存・読み込みします。"
+msgstr "Save and load display settings at once."
+
 msgid "遠近法を使用"
 msgstr "Perspective"
 
@@ -82,6 +88,12 @@ msgstr "Enable Depth Cueing"
 
 msgid "ここにチェックが入っている場合は、分子表示エリアにフォグが適用されます。手前と奥の原子の区別がつきやすくなります。フォグの強さは :ref:`preferences_top` にて設定できます。"
 msgstr "If this is checked, fog is applied to Viewport. This makes it easy to distinguish between atoms in front and back. Fog strength can be set with :ref:`preferences_top`."
+
+msgid "光沢表現を使用"
+msgstr "Enable Specular Lighting"
+
+msgid "ここにチェックが入っている場合は、分子表示エリアで原子に光沢が掛かります。"
+msgstr "If this is checked, the atoms will be glossed over in the molecular display area."
 
 msgid "表示項目"
 msgstr "Items"
@@ -102,27 +114,45 @@ msgid "ラベルと電荷の表示を隠します。（初期状態）"
 msgstr "Hides the label and charge display. (initial state)"
 
 msgid "番号&元素"
-msgstr "Show Number&Element"
+msgstr "Number&Element"
 
 msgid "原子の通し番号と元素名を表示します。"
-msgstr "It displays the serial number of the atom and the element name."
+msgstr "Displays the serial numbers of the atoms and the element names."
+
+msgid "番号"
+msgstr "Number"
+
+msgid "原子の通し番号を表示します。"
+msgstr "Displays the serial numbers of the atoms."
+
+msgid "元素"
+msgstr "Element"
+
+msgid "元素名を表示します。"
+msgstr "Displays the the element names."
 
 msgid "Mulliken電荷"
-msgstr "Show Mulliken Charge"
+msgstr "Mulliken Charge"
 
 msgid "各種ログファイルを開いた際に読み込まれるMulliken電荷を表示します。"
 msgstr "Displays the Mulliken charge read when various log files are opened."
 
 msgid "ESP電荷"
-msgstr "Show ESP Charge"
+msgstr "ESP Charge"
 
 msgid "各種ログファイルを開いた際に読み込まれるESPまたはRESP電荷を表示します。"
 msgstr "Displays ESP or RESP charge read when various log files are opened."
 
 msgid "Lowdin電荷"
-msgstr "Show Lowdin Charge"
+msgstr "Lowdin Charge"
 
 msgid "各種ログファイルを開いた際に読み込まれるLowdin電荷を表示します。"
+msgstr "Displays Lowdin charge read when various log files are opened."
+
+msgid "NBO電荷"
+msgstr "NBO Charge"
+
+msgid "各種ログファイルを開いた際に読み込まれるNBO(Natural Bond Orbital)電荷を表示します。"
 msgstr "Displays Lowdin charge read when various log files are opened."
 
 msgid "User電荷"

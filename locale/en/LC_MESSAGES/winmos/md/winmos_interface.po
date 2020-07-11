@@ -3,8 +3,131 @@
 msgid ":menuselection:`MD --> 界面ビルダ` メニュー"
 msgstr ":menuselection:`MD --> Interface Builder` menu"
 
-msgid "あらかじめ用意された二つのシミュレーションセルのファイル（mol2またはcif形式）を接合して界面モデルを作成します。"
-msgstr "Join the two simulation cell files (mol2 or cif format) prepared in advance to create an interface model."
+msgid "あらかじめ用意された二つのシミュレーションセルのファイル（mol2またはcif形式）を接合して界面モデルを作成します。 :ref:`preferences_top` で新仕様と旧仕様の機能を切り替えられます。新仕様の機能は次の通りです。"
+msgstr "Join the two simulation cell files (mol2 or cif format) prepared in advance to create an interface model. :ref:`preferences_top` allows you to switch between the new and old features. The features of the new spec are as follows"
+
+msgid "Cellタブ"
+msgstr "Cell Tab"
+
+msgid "界面を挟む2相（Cell1とCell2）を指定します。"
+msgstr "Specify the two phases (Cell1 and Cell2) across the interface."
+
+msgid "Use displayed cell"
+msgstr "Use displayed cell"
+
+msgid "メインウィンドウに表示されているモデルを相に指定します。"
+msgstr "Specify the model displayed in the main window as a phase."
+
+msgid "Load from file"
+msgstr "Load from file"
+
+msgid "CIFまたはmol2形式で保存されたモデルを相に指定します。"
+msgstr "Specify the phase as a model saved in CIF or mol2 format."
+
+msgid "Directionタブ"
+msgstr "Direction Tab"
+
+msgid "Axis perpendicular to interface"
+msgstr "Axis perpendicular to interface"
+
+msgid "界面垂直方向の軸を指定します。"
+msgstr "Specifies the axis in the vertical direction of the interface."
+
+msgid "Order"
+msgstr "Order"
+
+msgid "Cell1とCell2を接合する順番を指定します。"
+msgstr "Specify the order of Cell1 and Cell2 joined."
+
+msgid "Interval"
+msgstr "Interval"
+
+msgid "Cell1とCell2の間隔を指定します。"
+msgstr "Specify the interval between Cell1 and Cell2."
+
+msgid "Specify interval between cell boundaries"
+msgstr "Specify interval between cell boundaries"
+
+msgid "入力した値は、セル境界間の距離となります。"
+msgstr "The entered value is the distance between cell boundaries."
+
+msgid "Place atoms on cell boundaries on both sides"
+msgstr "Place atoms on cell boundaries on both sides"
+
+msgid "チェックを入れると、セル境界直上に置かれた原子を、界面垂直方向の両サイドにコピーして配置します。 :guilabel:`Axis perpendicular to interface` がc-axisの場合、c軸上（直方体セルの場合はz軸）の分率座標が0または1の原子は、分率座標がそれぞれ1または0の位置にコピーされます。"
+msgstr "If checked, the atoms placed just above the cell boundary are copied and placed on both sides of the interface vertical. If :guilabel:`Axis perpendicular to interface` is c-axis, atoms with a fractional coordinate of 0 or 1 on the c-axis (or z-axis in the case of a rectangular cell) are copied to position 1 or 0 respectively."
+
+msgid "Specify interval on selected axis between outermost atoms"
+msgstr "Specify interval on selected axis between outermost atoms"
+
+msgid "入力した値は、 :guilabel:`Axis perpendicular to interface` で選択した軸上のもっとも外側の原子間の距離となります。"
+msgstr "The specified value is the :guilabel:`Axis perpendicular to interface` is the distance between the outermost atoms on the selected axis."
+
+msgid "Adjusting cell size parallel to interface"
+msgstr "Adjusting cell size parallel to interface"
+
+msgid "界面水平方向のセルサイズの調整方法を指定します。"
+msgstr "Specifying how to adjust the horizontal cell size of the interface"
+
+msgid "Scale both cells to average size"
+msgstr "Scaling cells to average size"
+
+msgid "作成される界面モデルの界面水平方向のセルサイズが、Cell1とCell2のセルサイズの平均値となるよう、原子位置をアフィン変形します。"
+msgstr "Doing Affine deformation so that the horizontal cell size of the created interface model is the average of the cell sizes of Cell 1 and Cell 2."
+
+msgid "Scale to size of..."
+msgstr "Scale to size of..."
+
+msgid "選択したセルサイズに、他方のセルサイズを合わせるよう、原子位置をアフィン変形します。"
+msgstr "Doing Affine deformation of the atomic positions to match the selected cell size to the other cell size."
+
+msgid "Extend size of smaller cell while keeping atomic positions"
+msgstr "Extend size of smaller cell while keeping atomic positions"
+
+msgid "原子位置は変更せず、小さい方のセルサイズを大きい方のセルサイズに変更します。"
+msgstr "The atomic positions are not changed, but the smaller cell size is changed to the larger cell size."
+
+msgid "Repeatタブ"
+msgstr "Repeat Tab"
+
+msgid "Number of cells"
+msgstr "Number of cells"
+
+msgid "界面モデルの作成時に、Cell1およびCell2のスーパーセルの個数を指定します。 :guilabel:`Suggest` ボタンをクリックすると、Cell1、Cell2それぞれどの個数にするとセルサイズの比がいくつになるかを表示します。 :guilabel:`Ratio` が1に近い組み合わせを選ぶことが推奨されます。"
+msgstr "Specify the number of supercells in Cell 1 and Cell 2 when creating the interface model. Clicking the :guilabel:`Suggest` button and the ratio of the cell size is shown for the numbers of Cell1 and Cell2. It is recommended to choose a combination for which :guilabel:`Ratio` close to 1."
+
+msgid "Operation for atoms outside each cell"
+msgstr "NOTTRANSLATED"
+
+msgid "セルの外側に位置する原子があった場合の扱いを指定します。"
+msgstr "Specify how to handle atoms that are located outside the cell."
+
+msgid "Wrap for each molecule"
+msgstr "Wrap for each molecule"
+
+msgid "周期境界を考慮して、分子単位でセルの内側に位置を移動させます。"
+msgstr "Molecules are moved inside the cell taking into account the periodic boundary."
+
+msgid "Wrap for each atom"
+msgstr "Wrap for each atom"
+
+msgid "周期境界を考慮して、原子単位でセルの内側に位置を移動させます。"
+msgstr "Atoms are moved inside the cell taking into account the periodic boundary."
+
+msgid "Do nothing"
+msgstr "Do nothing"
+
+msgid "何もしません。"
+msgstr "Do nothing"
+
+msgid "Buildボタン"
+msgstr "Build button"
+
+msgid "設定された内容に基づき界面モデルを作成します。"
+msgstr "The interface model is created based on the settings."
+
+msgid "旧仕様の機能は次の通りです。"
+msgstr "The features of the previous version are as follows"
 
 msgid "Cell Files"
 msgstr "Cell Files"
@@ -53,9 +176,6 @@ msgstr "[C-axis]"
 
 msgid "c軸方向に沿って２つのセルを結合します。"
 msgstr "Combine two cells along the c-axis direction."
-
-msgid "Order"
-msgstr "Order"
 
 msgid "[Normal]"
 msgstr "[Normal]"

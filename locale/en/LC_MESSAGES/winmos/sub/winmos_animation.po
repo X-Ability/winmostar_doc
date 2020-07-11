@@ -53,11 +53,23 @@ msgstr "Export JPEG Images"
 msgid "連番JPEGファイルを書き出します。"
 msgstr "Export serial number JPEG file."
 
+msgid "Export SDF File"
+msgstr "Export SDF File"
+
+msgid "全てのフレームを含むSDFファイルを書き出します。"
+msgstr "Outputs all the frames to a separate file."
+
 msgid "Export Animated GRO File"
 msgstr "Export Animated GRO File"
 
 msgid "アニメーションgroファイルを出力します。VMD等との連携に使用できます :guilabel:`Export` ボタンからも操作できます。"
 msgstr "Output animation gro file. It can be used for linking with VMD etc. You can also operate from the :guilabel:`Export` button."
+
+msgid "Export CSV File"
+msgstr "Export CSV File"
+
+msgid "リストの表示されている数字をcsv形式で出力します。"
+msgstr "Outputs the numbers displayed in the list in csv format."
 
 msgid "Close"
 msgstr "Close"
@@ -155,6 +167,54 @@ msgstr "Extract Trajectory for Selected Group"
 msgid "メインウィンドウでグループ選択した原子のみを取り出したトラジェクトリファイルを作成します。"
 msgstr "In the main window, create a trajectory file extracting only the atoms selected from the group."
 
+msgid "Automationメニュー"
+msgstr "Automation menu"
+
+msgid ":menuselection:`File --> Export All Frames Separately` などのファイル出力機能の実行時に、各フレームの構造に対し操作を行います。操作はメニューの順に実行されます。"
+msgstr "Operates on the structure of each frame when executing file output functions such as :menuselection:`File --> Export All Frames Separately`. The operations are performed in the menu sequence."
+
+msgid "Check All/Uncheck All"
+msgstr "Check All/Uncheck All"
+
+msgid ":guilabel:`Deleting Hydrogen` から :guilabel:`Quick Optimization` までの全ての項目のチェックします/チェックを外します。"
+msgstr "Check/Uncheck all items from :guilabel:`Deleting Hydrogen` to :guilabel:`Quick Optimization`."
+
+msgid "Deleting Hydrogen"
+msgstr "Deleting Hydrogen"
+
+msgid "各フレームの構造に対し、水素原子を削除します。 :ref:`edit_delh` と同じ操作が実行されます。"
+msgstr "Removes a hydrogen atom from the structure of each frame. This is equivalent to :ref:`edit_delh`."
+
+msgid "Extracting One Molecule"
+msgstr "Extracting One Molecule"
+
+msgid "各フレームの構造に対し、1分子だけ構造を残します。"
+msgstr "For each frame structure, only one molecule is left in the structure."
+
+msgid "Adjusting Coordinate"
+msgstr "Adjusting Coordinate"
+
+msgid "各フレームの構造に対し、結合長を自動で調整します。 :ref:`edit_auto_bondlength` と同じ操作が実行されます。"
+msgstr "Automatically adjusts the bond length for each frame structure. The same operation is performed as :ref:`edit_auto_bondlength`."
+
+msgid "Adding Hydrogen"
+msgstr "Adding Hydrogen"
+
+msgid "各フレームの構造に対し、水素を自動で付加します。 :ref:`edit_addh_all` と同じ操作が実行されます。"
+msgstr "Hydrogen is automatically added to each frame structure. This is equivalent to :ref:`edit_addh_all`."
+
+msgid "Quick Optimization"
+msgstr "Quick Optimization"
+
+msgid "各フレームの構造に対し、簡易構造最適化を実行します。 :ref:`edit_clean` と同じ操作が実行されます。"
+msgstr "Performs a simple structural optimization for each frame structure. This is equivalent to :ref:`edit_clean`"
+
+msgid "Running MOPAC"
+msgstr "Running MOPAC"
+
+msgid "各フレームの構造に対し、MOPACを実行します。"
+msgstr "Execute MOPAC for each frame structure."
+
 msgid "上下スライダー"
 msgstr "Up/Down slider"
 
@@ -173,7 +233,7 @@ msgstr ":guilabel:`Loop` check box"
 msgid "チェックされている場合はループ再生されます。"
 msgstr "If it is checked, the loop will be played."
 
-msgid ":guilabel:`Dynamics Bond` チェックボックス"
+msgid ":guilabel:`Dynamic Bond` チェックボックス"
 msgstr ":guilabel:`Dynamics Bond` check box"
 
 msgid "スナップショットごとに結合を毎回自動生成します。"
@@ -188,11 +248,23 @@ msgstr ":guilabel:`Open Viewer` button"
 msgid "現在開いているアニメーションを :ref:`winmos3d_top` を用いて表示します。"
 msgstr "Display the currently open animation using :ref:`winmos3d_top`."
 
-msgid ":guilabel:`Excel` ボタン"
-msgstr ":guilabel:`Excel` button"
+msgid ":guilabel:`Export` ボタン"
+msgstr ":guilabel:`Export` button"
 
-msgid "リストの内容をcsv形式で出力し、Excelを起動して読み込みます。"
-msgstr "Output the contents of the list in csv format, start Excel and load it."
+msgid ":guilabel:`File` メニュー以下の機能のショートカットです。"
+msgstr "This is a shortcut for the menus under :guilabel:`File`."
+
+msgid ":guilabel:`Close` ボタン"
+msgstr ":guilabel:`Close` button"
+
+msgid "このウィンドウを閉じます。"
+msgstr "Close this window."
+
+msgid ":guilabel:`Plot Column`"
+msgstr ":guilabel:`Plot Column`"
+
+msgid "リストの中で、このウィンドウ下部のグラフ表示部に表示する列を指定します。直接値を入力することも可能です。"
+msgstr "Specify the columns to be displayed in the graph display section at the bottom of this window. You can also enter a value directly."
 
 msgid ":guilabel:`Custom Plot` ボタン"
 msgstr ":guilabel:`Excel` button"

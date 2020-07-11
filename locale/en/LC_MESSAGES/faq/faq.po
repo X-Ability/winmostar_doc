@@ -43,8 +43,8 @@ msgstr "Please consult us when you wish other documents. However, please underst
 msgid "Q. 代理店などエンドユーザ以外が注文する方法を教えてください。"
 msgstr "Q\. How do I place an order other than an end user, such as an agency?"
 
-msgid "指定代理店をご利用ください。詳細は `価格・購入 <https://winmostar.com/jp/purchase>`_ をご確認ください。"
-msgstr "Please use a designated agent. For more information, please visit `Pricing <https://winmostar.com/en/purchase>`_."
+msgid "指定代理店をご利用ください。詳細は `価格・購入 <https://winmostar.com/jp/purchase>`_ をご確認ください。指定代理店を介したくない場合は、弊社（株式会社クロスアビリティ）からの直販のみ可能です。指定代理店を設けているのは、Winmostarの価格とサービスを、エンドユーザに適切な形で提供するためです。"
+msgstr "Please use a designated agent. For more information, see `Pricing <https://winmostar.com/en/purchase >`_. If you don't want to go through a designated agent, you can only sell directly from us (X-Ability Co. Ltd.) . The purpose of having a designated agent is to provide Winmostar's prices and services to the end user in an appropriate manner."
 
 msgid "ライセンス・ライセンスコードに関して"
 msgstr "License Code"
@@ -74,7 +74,7 @@ msgid "Q. MACアドレスを表示する方法を教えてください。"
 msgstr "Q\. Please tell me how to display the MAC address."
 
 msgid "A. Windows10の場合は、まず :menuselection:`スタートメニュー --> Windowsシステムツール --> コマンドプロンプト` をクリックしてコマンドプロンプトを起動します。次に、コマンドプロンプトのウィンドウで :command:`ipconfig /all` と入力しEnterキーを押します。様々な情報が出力されるので、その中から「物理アドレス」の行を探してください。その内容がMACアドレスです。"
-msgstr "A\. In Windows 10, start the command prompt by clicking on :menuselection:`Start menu --> Windows System Tools --> Command Prompt`. Then, in a command prompt window, type :command:`ipconfig /all` and press the Enter key. Look for the "Physical Address" line among the various information that will be output. That content is the MAC address."
+msgstr "A\. In Windows 10, start the command prompt by clicking on :menuselection:`Start menu --> Windows System Tools --> Command Prompt`. Then, in a command prompt window, type :command:`ipconfig /all` and press the Enter key. Look for the \"Physical Address\" line among the various information that will be output. That content is the MAC address."
 
 msgid "「物理アドレス」行が複数ある場合、Winmostarのノードロックライセンス購入時に申請するMACアドレスは、基本的にどの「物理アドレス」でも大丈夫です。"
 msgstr "If there is more than one \"physical address\" line, basically any \"physical address\" can be used as the MAC address for Winmostar's node-locked license purchase."
@@ -104,7 +104,7 @@ msgid "Q. 製造元と直接連絡取ることはできますか?"
 msgstr "Q\. Can I get in touch with the manufacturer directly?"
 
 msgid "`問い合わせフォーム <https://winmostar.com/jp/support_jp.php>`_ から連絡を取ることができますが、対応の可否は利用規約に基づきます。最新の使用規約はこちら（ `Winmostar V10 使用規約 <https://winmostar.com/pdf/Winmostar_Terms_of_use.pdf>`_ ）です。 `有償サポート <https://winmostar.com/jp/paid_supports/#support2>`_ を利用することで、より進んだメールでのサポートが可能となります。"
-msgstr "You can contact us through the `contact form <https://winmostar.com/jp/support_jp.php>`_, but our availability is subject to our terms and conditions. The latest terms of use are here ( `Winmostar V10 Terms of Use <https://winmostar.com/pdf/Winmostar_Terms_of_use.pdf>`_ ). You can use `paid support <https://winmostar.com/jp/paid_supports/#support2>`_ for more advanced email support."
+msgstr "You can contact us through the `contact form <https://winmostar.com/en/support_en.php>`_, but our availability is subject to our terms and conditions. The latest terms of use are here ( `Winmostar V10 Terms of Use <https://winmostar.com/pdf/Winmostar_Terms_of_use.pdf>`_ ). You can use `paid support <https://winmostar.com/en/paid_supports/#support2>`_ for more advanced email support."
 
 msgid "Q. 「Winmostar」の呼び方は何ですか？"
 msgstr "How to pronounce Winmostar."
@@ -187,6 +187,21 @@ msgstr "Q\. Is there an upper limit to the number of cores that can be used for 
 msgid "A. ユーザが用意したハードウエアの範囲内で、制限なく並列数を指定して頂けます。並列数に応じて、Winmostarのライセンス料は費用は変化しません。ローカルジョブの場合は、 :ref:`winmosjm_top` で設定した最大コア数を上回るとジョブが流れないため、最大コア数の設定を変更してください。"
 msgstr "A\. You can specify an unlimited number of parallels within the range of user-provided hardware. Winmostar's price does not change depending on the number of parallels. In the case of a local job, change the maximum number of cores because the job will not run if it exceeds the maximum number of cores set by :ref:`winmosjm_top`."
 
+msgid "Q. WinmostarはmacOS、Linuxで動作しますか？"
+msgstr "Q\. Does Winmostar work on macOS and Linux?"
+
+msgid "A. Winmostarのアプリケーション本体はWindows OSのみサポートされています。サポートされているWindows OSの確認は `動作環境 <https://winmostar.com/jp/requirements/>`_ で可能です。macOS、LinuxでWinmostarのアプリケーション本体を動かす場合は、VirtualBoxなどの仮想環境上にWindows OSをインストールした上でご使用ください。"
+msgstr "A. Winmostar only supports Windows OS. You can check the supported Windows operating systems at `System Requirements <https://winmostar.com/en/requirements/>`_. If you want to run the Winmostar application on macOS or Linux, please install Windows OS in a virtual environment such as VirtualBox."
+
+msgid "リモートジョブを実行するコンピュータには、Linux・macOSを使用できます。"
+msgstr "Linux and macOS can be used as the computer to run the remote job."
+
+msgid "Q. Gaussianのインストール方法を教えてください。"
+msgstr "Q\. How can I install Gaussian?"
+
+msgid "Gaussianのインストール方法は、Gaussianの販売代理店より入手してください。Gaussianをインストールした後は、 :menuselection:`ツール --> 環境設定 --> プログラムパス` において、Gaussianのプログラムパス（g03.exe, g09.exe, g16.exeなど）を選択してください。"
+msgstr "For instructions on installing Gaussian, get them from your Gaussian distributor. After installing Gaussian, In the :menuselection:`Tools --> Preference --> Program Path`, select the Gaussian program path(g03.exe, g09.exe, g16.exe etc.)."
+
 msgid "ソフトウェア動作全般に関して"
 msgstr "Software operations"
 
@@ -244,8 +259,8 @@ msgstr "Restart the OS."
 msgid "セキュリティ対策ソフトで、Winmostar、CygwinWMのインストールフォルダ、およびソルバ（MPIを含む）が監視対象外に設定する。"
 msgstr "With security software, Exclude Winmostar, installation folder of CygwinWM, and solvers including MPI from monitoring."
 
-msgid "CygwinWMを使用している場合は、 :menuselection:`ヘルプ --> cygwin_wmを診断` でCygwinWMの簡易的な診断を実行する。"
-msgstr "If you are using CygwinWM, run :menuselection:`Help --> Check cygwin_wm` and perform a simple diagnosis of CygwinWM."
+msgid "CygwinWMを使用している場合は、 :menuselection:`ヘルプ --> CygwinWMを診断` でCygwinWMの簡易的な診断を実行する。"
+msgstr "If you are using CygwinWM, run :menuselection:`Help --> Check CygwinWM` and perform a simple diagnosis of CygwinWM."
 
 msgid "Winmostar, CygwinWMおよび使用したソルバを再インストールする。"
 msgstr "Reinstall Winmostar, CygwinWM and the solver you are using."
@@ -274,8 +289,8 @@ msgstr "A\. The file related to processing may be opened by an application or pr
 msgid "OSを再起動し他のアプリケーションが開いていない状況でお試しください。"
 msgstr "Restart OS and try again in the situation other applications are not open."
 
-msgid "Q. Cygwinを使う処理が異常終了します。／ :menuselection:`ツール --> cygwin_wmを診断` 機能で `... ERROR ...` と表示されます。／Cygwinの黒いウィンドウに `child_info_fork::abort: ... Loaded to different address: parent ... != child ...` などと表示されます。"
-msgstr "Q\. Process using Cygwin will end abnormally. / :menuselection:`tools --> diagnose cygwin_wm` function will display `... ERROR ...`. / Cygwin's black window shows `child_info_fork :: abort: ... Loaded to different address: parent ...! = Child ...`."
+msgid "Q. Cygwinを使う処理が異常終了します。／ :menuselection:`ツール --> CygwinWMを診断` 機能で `... ERROR ...` と表示されます。／Cygwinの黒いウィンドウに `child_info_fork::abort: ... Loaded to different address: parent ... != child ...` などと表示されます。"
+msgstr "Q\. Process using Cygwin will end abnormally. / :menuselection:`Help --> Check CygwinWM` function will display `... ERROR ...`. / Cygwin's black window shows `child_info_fork :: abort: ... Loaded to different address: parent ...! = Child ...`."
 
 msgid "A. 以下の手順を上から順に一つずつ実行し、その都度、エラーが起きた処理を再実施してください。"
 msgstr "A\. Please do the following procedure one by one from the top, and re-do the process where the error occurred each time."
@@ -313,8 +328,8 @@ msgstr "In addition, try the method described in `Cygwin FAQ fork() related fail
 msgid "`Cygwin公式サイト <http://cygwin.com/>`_ のCygwinを新規にインストールし、そこからターミナル（端末）を起動できるか確認する。"
 msgstr "Install a new version of Cygwin from the `Cygwin official site <http://cygwin.com/>`_ and check if you can start a terminal."
 
-msgid "Q. :menuselection:`ツール --> cygwin_wmを診断` 機能で `WARNING ... some files are missing` と表示されます。"
-msgstr "Q\. :menuselection:`Tools --> Check cygwin_wm` function will display `WARNING ... some files are missing`."
+msgid "Q. :menuselection:`ツール --> CygwinWMを診断` 機能で `WARNING ... some files are missing` と表示されます。"
+msgstr "Q\. :menuselection:`Help --> Check CygwinWM` function will display `WARNING ... some files are missing`."
 
 msgid "A. CygwinWMを再インストールしてください。"
 msgstr "A\. Please reinstall CygwinWM."
@@ -359,7 +374,7 @@ msgid "エクスプローラを開く"
 msgstr "Open Explorer"
 
 msgid ":kbd:`Alt` キーを押す"
-msgstr "Press the ":kbd:`Alt` key."
+msgstr "Press the :kbd:`Alt` key."
 
 msgid ":menuselection:`ツール --> フォルダーオプション` メニューの :guilabel:`表示` タブを開く"
 msgstr "Open  :guilabel:`View` tab in :menuselection:`Tools --> Folder Options` menu"
@@ -430,10 +445,10 @@ msgstr "Or"
 msgid "の行をコメントアウトまたは削除する"
 msgstr "in :file:`/etc/profile.d/winmostar.sh` under CygwinWM installation folder."
 
-msgid "Winmostarの :menuselection:`ツール --> cygwin_wm起動` をクリックし、起動したcygwin上で `Winmostar(TM) 用Cygwinインストールマニュアル <https://winmostar.com/jp/gmx4wm_jp_win.html>`_ の「1-2. Gromacs」のインストール手順を試みる"
+msgid "Winmostarの :menuselection:`ツール --> Cygwin` をクリックし、起動したcygwin上で `Winmostar(TM) 用Cygwinインストールマニュアル <https://winmostar.com/jp/gmx4wm_jp_win.html>`_ の「1-2. Gromacs」のインストール手順を試みる"
 msgstr "Click :menuselection:`Tools --> Cygwin` of Winmostar and try ``1-2. Gromacs`` of `Installation procedure of solvers for Winmostar <https://winmostar.com/en/gmx4wm_en_win.html>`_ on the installed cygwin."
 
-msgid ":menuselection:`ツール --> cygwin_wm起動` で :command:`gmx` と実行し `GROMACS: gmx, VERSION ...` などとGromacsの起動を示すメッセージが表示されたら再ビルドは成功である"
+msgid ":menuselection:`ツール --> CygwinWM` で :command:`gmx` と実行し `GROMACS: gmx, VERSION ...` などとGromacsの起動を示すメッセージが表示されたら再ビルドは成功である"
 msgstr "Click :menuselection:`Tools --> Cygwin` and run :command:`gmx`. Rebuild will be successful if a message indicating `GROMACS: gmx, VERSION ...`, etc. is displayed."
 
 msgid "分子数が大きい場合（ケースにもよるが10,000程度）は、現在内部処理で使用している :command:`gmx solvate` の処理の限界となるケースもあるので、 :menuselection:`編集 --> :menuselection:`編集 --> グループ編集 --> グループを複製` で分子を並べてください。"
@@ -518,7 +533,7 @@ msgid "3. ログインサーバの実体が複数あり、バックグラウン�
 msgstr "3\. If there are multiple login server entities and they are automatically selected in the background, you may be able to avoid this by using only a specific login server or connecting until all servers are registered in the cache ."
 
 msgid "4. ローカルマシンからWinmostarがジョブ投入コマンド（ :command:`qsub` など）を投げても、リモートサーバ上でコマンドが見つからない場合があります。 :guilabel:`Submit Remote Job` ウィンドウの :guilabel:`Profile --> Edit Profile...` の :guilabel:`Prefix for queueing commands` に、 :command:`qsub` 等の実行ファイルのパスを記入することで回避できます。例えば、 :command:`qsub` のフルパスが :command:`/usr/local/bin/qsub` の場合は、 :guilabel:`Prefix for queueing commands` に「/usr/local/bin/」と入力してください。"
-msgstr "4\. Even if Winmostar submits a job submission command (such as :command:`qsub`) from the local machine, the command may not be found on the remote server. This can be avoided by filling :guilabel:`Profile --> Edit Profile...' in the :guilabel:`Submit Remote Job` window with the path of an executable such as :command:`qsub`. To avoid this problem, add the path of an executable such as :command:`qsub` to :guilabel:`Prefix for queueing commands` of :guilabel:`Profile --> Edit Profile...` in the :guilabel:`Edit Profile. For example, if the full path of :command:`qsub` is :command:`/usr/local/bin/qsub`, type "/usr/local/bin/" in :guilabel:`Prefix for queueing commands`."
+msgstr "4\. Even if Winmostar submits a job submission command (such as :command:`qsub`) from the local machine, the command may not be found on the remote server. This can be avoided by filling :guilabel:`Profile --> Edit Profile...' in the :guilabel:`Submit Remote Job` window with the path of an executable such as :command:`qsub`. To avoid this problem, add the path of an executable such as :command:`qsub` to :guilabel:`Prefix for queueing commands` of :guilabel:`Profile --> Edit Profile...` in the :guilabel:`Edit Profile. For example, if the full path of :command:`qsub` is :command:`/usr/local/bin/qsub`, type \"/usr/local/bin/\" in :guilabel:`Prefix for queueing commands`."
 
 msgid "Q. :guilabel:`Test Connection` での接続テストは成功するが、WARNINGが表示され各種の操作に失敗します。"
 msgstr "Q\. The connection test with :guilabel:`Test Connection` succeeds, but the job submission fails."
@@ -561,6 +576,18 @@ msgstr "You can solve this problem by deleting this string and saving it with De
 
 msgid "(なお、Port欄の入力内容は特に影響しません。)"
 msgstr "(The input contents in the Port column are not particularly affected.)"
+
+msgid "Q. リモートサーバではどの種類のMPI（MPICH、OpenMPIなど）を使用できますか？"
+msgstr "Q\. What type of MPI (MPICH, OpenMPI, etc.) can I use on the remote server?"
+
+msgid "A. 基本的にどの種類のMPIも利用可能です。MPICH、OpenMPI、MVAPICHなどで動作実績があります。"
+msgstr "A\. Basically any type of MPI is available. We have experience with MPICH, OpenMPI and MVAPICH."
+
+msgid "テンプレートスクリプトを編集することで、source、module、exportといったコマンドを自由に実行し、任意のMPIを実行する環境を設定できます。"
+msgstr "By editing the template script, you can freely execute commands such as source, module, and export, and set up the environment for executing any MPI."
+
+msgid "使用するソルバは、使用するMPI（mpicc, mpif90）でコンパイルされている必要があります。"
+msgstr "The solver used must be compiled with the MPI (mpicc, mpif90) used."
 
 msgid "MOPAC, CNDO/S, GAMESS, NWChem, Gaussianに関して"
 msgstr "MOPAC, CNDO/S, GAMESS, NWChem, Gaussian"
@@ -953,7 +980,7 @@ msgid "Q. Quantum ESPRESSOの擬ポテンシャルファイルの探し方が分
 msgstr "Q\. I don't know how to find a pseudopotential file for Quantum ESPRESSO. How do I find them?"
 
 msgid "A. `Windows版Quantum ESPRESSOインストールマニュアル <https://winmostar.com/jp/manual_jp/installation/QE_install_manual_jp_win.pdf>`_ にて紹介しています。"
-msgstr "A\. It is described in `Quantum ESPRESSO for Windows Installation Manual <https://winmostar.com/jp/manual_jp/installation/QE_install_manual_jp_win.pdf>`_."
+msgstr "A\. It is described in `Quantum ESPRESSO for Windows Installation Manual <https://winmostar.com/en/manual_en/installation/QE_install_manual_en_win.pdf>`_."
 
 msgid "Q. Quantum ESPRESSOを用いた計算が失敗します。計算結果の表示でエラーが出ます。"
 msgstr "Q\. Calculation using Quantum ESPRESSO fails. An error appears in displaying the calculation result."

@@ -190,6 +190,78 @@ msgstr "Cancel"
 msgid "結晶ビルダで入力した構造を破棄しメインウィンドウに戻ります。"
 msgstr "Discard the structure entered in the crystal builder and return to the main window."
 
+msgid "スラブを作成"
+msgstr "Build Cluster Model"
+
+msgid "（バルクの）結晶のCIFファイルを読み込んだ状態で本機能を呼び出すと、スラブを作成することができます。内部的にはpymatgenを利用しています。"
+msgstr "You can create a slab by calling this function while loading the CIF file of the (bulk) crystal. pymatgen is used internally."
+
+msgid "まず、 :guilabel:`Generate Slab` ボタンをクリックした後、 :guilabel:`OK` ボタンをクリックします。"
+msgstr "First, click the :guilabel:`Generate Slab` button, and then click the :guilabel:`OK` button."
+
+msgid "Miller indices"
+msgstr "Miller indices"
+
+msgid "スラブ表面のミラー指数を入力します。"
+msgstr "Define the Miller index (hkl) of the surface."
+
+msgid "Minimum slab size"
+msgstr "Minimum slab size"
+
+msgid "表面垂直方向(c-axis)のセルサイズを入力します。"
+msgstr "Enter the cell size in the face vertical (c-axis) direction."
+
+msgid "Supercell"
+msgstr "Supercell"
+
+msgid "表面水平方向(aまたはb-axis)のスーパーセルの個数を入力します。"
+msgstr "Enter the number of supercells in the surface horizontal direction (a or b-axis)."
+
+msgid "Force c-axis to be perpendicular to a and b axes"
+msgstr "Force c-axis to be perpendicular to a and b axes"
+
+msgid "c軸がaおよびb軸に垂直になるようにします。"
+msgstr "Ensure that the c-axis is perpendicular to the a and b axes."
+
+msgid "Convert hexagonal to orthorhombic"
+msgstr "Convert hexagonal to orthorhombic"
+
+msgid "HexagonalをOrthorhombicに変換します。"
+msgstr "Convert Hexagonal to Orthorhombic."
+
+msgid "Generate Slabボタン"
+msgstr "Generate Slab button"
+
+msgid "本ボタンより上の項目に基づき表面構造の候補を作成します。"
+msgstr "This button creates a candidate surface structure based on the items above."
+
+msgid "Surface configurations"
+msgstr "Surface configurations"
+
+msgid "表面構造を候補の中から選択します。"
+msgstr "Select a surface structure from among the candidates."
+
+msgid "Slab, Vacuum, Total width"
+msgstr "Slab, Vacuum, Total width"
+
+msgid "表面垂直方向のサイズを入力します。 :guilabel:`Vacuum` あるいは :guilabel:`Total width` のどちらかを入力したら、他方が自動で決定されます。"
+msgstr "Enter the size of the surface vertical. If you enter ont of :guilabel:`Vacuum` or :guilabel:`Total width`, the other will be determined automatically."
+
+msgid "Position"
+msgstr "Position"
+
+msgid "表面垂直方向のスラブの位置を指定します。"
+msgstr "Specify the position of the slab perpendicular to the surface."
+
+msgid "OKボタン"
+msgstr "OK button"
+
+msgid "スラブモデルを作成しメインウィンドウに表示します。"
+msgstr "Load the created crystal structure into the main window."
+
+msgid "本機能を利用するためには :ref:`CygwinWMのセットアップ<install_cygwinwm>` が必要です。"
+msgstr "In order to use this feature, you need :ref:`CygwinWM setup <install_ cygwinwm>`."
+
 msgid "スーパーセルを作成"
 msgstr "Generate Supercell"
 
