@@ -36,7 +36,202 @@
       Select
          開いたダイアログで指定したフォルダを出力先に指定し、そのフォルダのデータからジョブを継続します。outdirはここで指定したものに設定されます。
    Preset
-      設定のプリセットを選択します。
+      設定のプリセットを選択します。各プリセットは以下のキーワードを変更します。
+      
+      .. list-table::
+         :header-rows: 1
+         
+         * - 
+           - | SCF
+           - | SCF+Bands
+             | +DOS
+           - | SCF+Bands
+             | (Fermi surf)
+           - | Relax
+           - | Relax
+             | (variable cell)
+           - | BOMD
+           - | CPMD
+           - | Phonopy
+         * - | calculation
+           - scf
+           - scf
+           - scf
+           - relax
+           - vc-relax
+           - md
+           - cp
+           - scf
+         * - | Use nbnd
+           - False
+           - True
+           - True
+           - False
+           - False
+           - False
+           - False
+           - False
+         * - | K_POINTS
+           - gamma
+           - | automatic
+             | 4 4 4 1 1 1
+           - | automatic
+             | 4 4 4 1 1 1
+           - gamma
+           - | automatic
+             | 4 4 4 1 1 1
+           - gamma
+           - gamma
+           - gamma
+         * - | tstress
+           - False
+           - False
+           - False
+           - False
+           - False
+           - True
+           - False
+           - False
+         * - | Set ibrav 
+             | and celldm
+           - False
+           - True
+           - True
+           - False
+           - False
+           - False
+           - False
+           - False
+         * - | occupations
+           - 
+           - 
+           - smearing
+           - 
+           - 
+           - 
+           - 
+           - 
+         * - | ion_dynamics
+           - 
+           - 
+           - 
+           - bfgs
+           - bfgs
+           - verlet
+           - none
+           - 
+         * - | cell_dynamics
+           - 
+           - 
+           - 
+           - 
+           - bfgs
+           - 
+           - 
+           - 
+         * - | tprnfor
+           - False
+           - False
+           - False
+           - True
+           - True
+           - True
+           - True
+           - True
+         * - | tstress
+           - False
+           - False
+           - False
+           - False
+           - True
+           - False
+           - False
+           - True
+         * - | Use cell_factor
+           - False
+           - False
+           - False
+           - False
+           - True
+           - False
+           - False
+           - False
+         * - | pot_extrapolation
+           - 
+           - 
+           - 
+           - 
+           - 
+           - second_order
+           - 
+           - 
+         * - | wfc_extrapolation
+           - 
+           - 
+           - 
+           - 
+           - 
+           - second_order
+           - 
+           - 
+         * - | electron_dynamics
+           - 
+           - 
+           - 
+           - 
+           - 
+           - 
+           - sd
+           - 
+         * - | Unit for
+             | atomic_position
+           - angstrom
+           - 
+           - 
+           - angstrom
+           - angstrom
+           - angstrom
+           - angstrom
+           - crystal
+         * - | Band structure
+             | plot
+           - False
+           - True
+           - True
+           - False
+           - False
+           - False
+           - False
+           - False
+         * - | DOS plot
+           - False
+           - True
+           - True
+           - False
+           - False
+           - False
+           - False
+           - False
+         * - | PDOS plot
+           - False
+           - True
+           - False
+           - False
+           - False
+           - False
+           - False
+           - False
+         * - | Fermi surface
+           - False
+           - False
+           - True
+           - False
+           - False
+           - False
+           - False
+           - False
+         
+             
    Use MPI
       QEの実行時にMPIを用いて並列計算を実行するか指定します。横の欄にはMPIプロセス数を入力します。
    Basicタブ

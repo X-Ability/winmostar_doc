@@ -37,7 +37,680 @@
       
       詳細は :ref:`md_gromacs_start` を参照してください。
    Preset
-      計算条件のプリセットを指定します。プリセットの内容は、各キーワードから確認できます。
+      計算条件のプリセットを指定します。各プリセットは以下のキーワードを変更します。
+      
+      .. list-table::
+         :header-rows: 1
+         
+         * - 
+           - | Minimize
+             | (fast)
+           - | NVT
+             | (fast)
+           - | NPT
+             | (fast)
+           - | NVE
+             | (fast)
+         * - dt
+           - 
+           - 0.002
+           - 0.002
+           - 0.002
+         * - nsteps
+           - 5000
+           - 5000
+           - 5000
+           - 5000
+         * - integrator
+           - steep
+           - md
+           - md
+           - md
+         * - gen-vel
+           - 
+           - yes
+           - no
+           - no
+         * - tcoupl
+           - 
+           - berendsen
+           - berendsen
+           - 
+         * - ref-t
+           - 
+           - 300
+           - 300
+           - 
+         * - pcoupl
+           - 
+           - no
+           - parrinello-rahman
+           - 
+         * - ref-p
+           - 
+           - 
+           - 1.0
+           - 
+         * - pbc
+           - yes
+           - yes
+           - yes
+           - yes
+         * - comm-mode
+           - linear
+           - linear
+           - linear
+           - linear
+         * - nstcomm
+           - 
+           - 50
+           - 50
+           - 50
+         * - nh-chain-length
+           - 
+           - 10
+           - 10
+           - 
+         * - nsttcouple
+           - 
+           - -1
+           - -1
+           - 
+         * - nstpcouple
+           - 
+           - 
+           - -1
+           - 
+         * - constraints
+           - 
+           - all-bonds
+           - all-bonds
+           - all-bonds
+         * - lincs-order
+           - 
+           - 4
+           - 4
+           - 4
+         * - lincs-iter
+           - 
+           - 1
+           - 1
+           - 1
+         * - shake-tol
+           - 
+           - 1e-5
+           - 1e-5
+           - 1e-5
+         * - nstxout
+           - 100
+           - 100
+           - 100
+           - 100
+         * - nstvout
+           - 100
+           - 100
+           - 100
+           - 100
+         * - nstenergy
+           - 10
+           - 10
+           - 10
+           - 10
+         * - buffer-tolerance
+           - 5e-3
+           - 5e-3
+           - 5e-3
+           - 5e-3
+         * - rvdw
+           - 1.0
+           - 1.0
+           - 1.0
+           - 1.0
+         * - rvdw-switch
+           - 0.9
+           - 0.9
+           - 0.9
+           - 0.9
+         * - coulombtype
+           - pme
+           - pme
+           - pme
+           - pme
+         * - rcoulomb
+           - 1.0
+           - 1.0
+           - 1.0
+           - 1.0
+         * - rcoulomb-switch
+           - 0.9
+           - 0.9
+           - 0.9
+           - 0.9
+         * - fourier-spacing
+           - 0.12
+           - 0.12
+           - 0.12
+           - 0.12
+         * - pme-order
+           - 4
+           - 4
+           - 4
+           - 4
+         * - ewald-rtol
+           - 1e-5
+           - 1e-5
+           - 1e-5
+           - 1e-5
+         * - | Enable 
+             | double precision
+           - False
+           - False
+           - False
+           - False
+           
+      .. list-table::
+         :header-rows: 1
+         
+         * - 
+           - | Minimize
+           - | NVT
+           - | NPT
+           - | NVE
+         * - dt
+           - 
+           - 0.0005
+           - 0.0005
+           - 0.0005
+         * - nsteps
+           - 20000
+           - 20000
+           - 20000
+           - 20000
+         * - integrator
+           - steep
+           - md
+           - md
+           - md
+         * - gen-vel
+           - 
+           - yes
+           - no
+           - no
+         * - tcoupl
+           - 
+           - nose-hoover
+           - nose-hoover
+           - 
+         * - ref-t
+           - 
+           - 300
+           - 300
+           - 
+         * - pcoupl
+           - 
+           - no
+           - parrinello-rahman
+           - 
+         * - ref-p
+           - 
+           - 
+           - 1.0
+           - 
+         * - pbc
+           - yes
+           - yes
+           - yes
+           - yes
+         * - comm-mode
+           - linear
+           - linear
+           - linear
+           - linear
+         * - nstcomm
+           - 
+           - 1
+           - 1
+           - 1
+         * - nh-chain-length
+           - 
+           - 1
+           - 1
+           - 
+         * - nsttcouple
+           - 
+           - 1
+           - 1
+           - 
+         * - nstpcouple
+           - 
+           - 
+           - 1
+           - 
+         * - constraints
+           - 
+           - hbonds
+           - hbonds
+           - hbonds
+         * - lincs-order
+           - 
+           - 8
+           - 8
+           - 8
+         * - lincs-iter
+           - 
+           - 2
+           - 2
+           - 2
+         * - shake-tol
+           - 
+           - 1e-9
+           - 1e-9
+           - 1e-9
+         * - nstxout
+           - 400
+           - 400
+           - 400
+           - 400
+         * - nstvout
+           - 400
+           - 400
+           - 400
+           - 400
+         * - nstenergy
+           - 40
+           - 40
+           - 40
+           - 40
+         * - buffer-tolerance
+           - 1e-9
+           - 1e-9
+           - 1e-9
+           - 1e-9
+         * - rvdw
+           - 1.5
+           - 1.5
+           - 1.5
+           - 1.5
+         * - rvdw-switch
+           - 1.4
+           - 1.4
+           - 1.4
+           - 1.4
+         * - coulombtype
+           - pme
+           - pme
+           - pme
+           - pme
+         * - rcoulomb
+           - 1.5
+           - 1.5
+           - 1.5
+           - 1.5
+         * - rcoulomb-switch
+           - 1.4
+           - 1.4
+           - 1.4
+           - 1.4
+         * - fourier-spacing
+           - 0.10
+           - 0.10
+           - 0.10
+           - 0.10
+         * - pme-order
+           - 6
+           - 6
+           - 6
+           - 6
+         * - ewald-rtol
+           - 1e-9
+           - 1e-9
+           - 1e-9
+           - 1e-9
+         * - | Enable 
+             | double precision
+           - True
+           - True
+           - True
+           - True
+
+      .. list-table::
+         :header-rows: 1
+         
+         * - 
+           - | Minimize
+             | (vapor,fast)
+           - | NVT
+             | (vapor,fast)
+           - | NPT
+             | (vapor,fast)
+           - | NVE
+             | (vapor,fast)
+         * - dt
+           - 
+           - 0.002
+           - 0.002
+           - 0.002
+         * - nsteps
+           - 5000
+           - 5000
+           - 5000
+           - 5000
+         * - integrator
+           - steep
+           - md
+           - md
+           - md
+         * - gen-vel
+           - 
+           - yes
+           - no
+           - no
+         * - tcoupl
+           - 
+           - berendsen
+           - berendsen
+           - 
+         * - ref-t
+           - 
+           - 300
+           - 300
+           - 
+         * - pcoupl
+           - 
+           - no
+           - parrinello-rahman
+           - 
+         * - ref-p
+           - 
+           - 
+           - 1.0
+           - 
+         * - pbc
+           - no
+           - no
+           - no
+           - no
+         * - comm-mode
+           - angular
+           - angular
+           - angular
+           - angular
+         * - nstcomm
+           - 
+           - 50
+           - 50
+           - 50
+         * - nh-chain-length
+           - 
+           - 10
+           - 10
+           - 
+         * - nsttcouple
+           - 
+           - -1
+           - -1
+           - 
+         * - nstpcouple
+           - 
+           - 
+           - -1
+           - 
+         * - constraints
+           - 
+           - all-bonds
+           - all-bonds
+           - all-bonds
+         * - lincs-order
+           - 
+           - 4
+           - 4
+           - 4
+         * - lincs-iter
+           - 
+           - 1
+           - 1
+           - 1
+         * - shake-tol
+           - 
+           - 1e-5
+           - 1e-5
+           - 1e-5
+         * - nstxout
+           - 100
+           - 100
+           - 100
+           - 100
+         * - nstvout
+           - 100
+           - 100
+           - 100
+           - 100
+         * - nstenergy
+           - 10
+           - 10
+           - 10
+           - 10
+         * - buffer-tolerance
+           - 5e-3
+           - 5e-3
+           - 5e-3
+           - 5e-3
+         * - rvdw
+           - 1.0
+           - 1.0
+           - 1.0
+           - 1.0
+         * - rvdw-switch
+           - 0.9
+           - 0.9
+           - 0.9
+           - 0.9
+         * - coulombtype
+           - cut-off
+           - cut-off
+           - cut-off
+           - cut-off
+         * - rcoulomb
+           - 1.0
+           - 1.0
+           - 1.0
+           - 1.0
+         * - rcoulomb-switch
+           - 0.9
+           - 0.9
+           - 0.9
+           - 0.9
+         * - fourier-spacing
+           - 
+           - 
+           - 
+           - 
+         * - pme-order
+           - 
+           - 
+           - 
+           - 
+         * - ewald-rtol
+           - 
+           - 
+           - 
+           - 
+         * - | Enable 
+             | double precision
+           - False
+           - False
+           - False
+           - False
+           
+      .. list-table::
+         :header-rows: 1
+         
+         * - 
+           - | Minimize
+             | (vapor)
+           - | NVT
+             | (vapor)
+           - | NPT
+             | (vapor)
+           - | NVE
+             | (vapor)
+         * - dt
+           - 
+           - 0.0005
+           - 0.0005
+           - 0.0005
+         * - nsteps
+           - 20000
+           - 20000
+           - 20000
+           - 20000
+         * - integrator
+           - steep
+           - md
+           - md
+           - md
+         * - gen-vel
+           - 
+           - yes
+           - no
+           - no
+         * - tcoupl
+           - 
+           - nose-hoover
+           - nose-hoover
+           - 
+         * - ref-t
+           - 
+           - 300
+           - 300
+           - 
+         * - pcoupl
+           - 
+           - no
+           - parrinello-rahman
+           - 
+         * - ref-p
+           - 
+           - 
+           - 1.0
+           - 
+         * - pbc
+           - no
+           - no
+           - no
+           - no
+         * - comm-mode
+           - angular
+           - angular
+           - angular
+           - angular
+         * - nstcomm
+           - 
+           - 1
+           - 1
+           - 1
+         * - nh-chain-length
+           - 
+           - 1
+           - 1
+           - 
+         * - nsttcouple
+           - 
+           - 1
+           - 1
+           - 
+         * - nstpcouple
+           - 
+           - 
+           - 1
+           - 
+         * - constraints
+           - 
+           - hbonds
+           - hbonds
+           - hbonds
+         * - lincs-order
+           - 
+           - 8
+           - 8
+           - 8
+         * - lincs-iter
+           - 
+           - 2
+           - 2
+           - 2
+         * - shake-tol
+           - 
+           - 1e-9
+           - 1e-9
+           - 1e-9
+         * - nstxout
+           - 400
+           - 400
+           - 400
+           - 400
+         * - nstvout
+           - 400
+           - 400
+           - 400
+           - 400
+         * - nstenergy
+           - 40
+           - 40
+           - 40
+           - 40
+         * - buffer-tolerance
+           - 1e-9
+           - 1e-9
+           - 1e-9
+           - 1e-9
+         * - rvdw
+           - 1.5
+           - 1.5
+           - 1.5
+           - 1.5
+         * - rvdw-switch
+           - 1.4
+           - 1.4
+           - 1.4
+           - 1.4
+         * - coulombtype
+           - cut-off
+           - cut-off
+           - cut-off
+           - cut-off
+         * - rcoulomb
+           - 1.5
+           - 1.5
+           - 1.5
+           - 1.5
+         * - rcoulomb-switch
+           - 1.4
+           - 1.4
+           - 1.4
+           - 1.4
+         * - fourier-spacing
+           - 
+           - 
+           - 
+           - 
+         * - pme-order
+           - 
+           - 
+           - 
+           - 
+         * - ewald-rtol
+           - 
+           - 
+           - 
+           - 
+         * - | Enable 
+             | double precision
+           - True
+           - True
+           - True
+           - True
+
    # of Threads
       スレッド並列数を指定します。
    MPI (for Remote Job)
