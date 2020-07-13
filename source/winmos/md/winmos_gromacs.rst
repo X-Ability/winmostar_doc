@@ -122,7 +122,7 @@
            - -1
            - 
          * - constraints
-           - 
+           - hbonds
            - all-bonds
            - all-bonds
            - all-bonds
@@ -287,7 +287,7 @@
            - 1
            - 
          * - constraints
-           - 
+           - hbonds
            - hbonds
            - hbonds
            - hbonds
@@ -456,7 +456,7 @@
            - -1
            - 
          * - constraints
-           - 
+           - hbonds
            - all-bonds
            - all-bonds
            - all-bonds
@@ -625,7 +625,7 @@
            - 1
            - 
          * - constraints
-           - 
+           - hbonds
            - hbonds
            - hbonds
            - hbonds
