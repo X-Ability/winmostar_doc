@@ -11,11 +11,13 @@
 
    以下のいずれかの方法を選択する。
 
-   - 各種形式のファイルを :ref:`file_open` またはメインウィンドウへのドラッグアンドドロップで開く。
+   - 各種形式（PDB、mol、mol2、SDF、CIF、xyzなど）のファイルを :ref:`file_open` またはメインウィンドウへのドラッグアンドドロップで開く。
    
    - SMILES形式の文字列を :menuselection:`ファイル --> インポート -->` :ref:`file_import_smiles` から読み込む。
    
-   - 分子構造をメインウィンドウ上で構築する。
+   - 構造式を :menuselection:`ツール -->` :ref:`tools_draw2d` で直接描画する。
+   
+   - 3次元の分子構造をメインウィンドウ上で構築する。
    
       適宜 :ref:`edit_top` から必要な操作を選択する。
    
@@ -38,8 +40,6 @@
       9. 様々な配座を取りうる分子の場合は :menuselection:`ツール -->` :ref:`tools_balloon` を実行し、エネルギーの低い構造を選択する。
       
    - ポリマーの場合は、直接分子全体をモデリングしても良いが、 :ref:`create_polymer` の方法を使う方が効率が良い。
-   
-   - 結晶構造、スラブモデル、クラスターモデルの作成には、それぞれ :ref:`solid_crystalbuilder` , :ref:`solid_cleaveplane` , :ref:`solid_insertvacuum` , :ref:`solid_buildcluster` を実行する。
    
 .. _create_charge:
 
@@ -270,15 +270,11 @@
 
    1. バルクの状態の結晶のCIFファイルを開くか、 :ref:`create_inorganic_crystal` の方法で結晶構造を作成する。
    
-   2. :menuselection:`固体 -->` :ref:`solid_cleaveplane` をクリックする。
+   2. :menuselection:`固体 -->` :ref:`solid_buildslab` をクリックする。
    
-   3. :guilabel:`Cleave Plane (h k l)` の欄にミラー指数を入力し、 :guilabel:`Next >>` ボタンをクリックする。
+   3. :guilabel:`Miller indices (h k l)` など :guilabel:`Generate Slab` ボタンより上の項目を入力してから :guilabel:`Generate Slab` ボタンをクリックする。
    
-   4. 直方セルを検索したい場合は :guilabel:`Definition of Lattice` で :guilabel:`Auto(Ortho)` 、直方セル以外も検索したい場合は :guilabel:`Auto(All)` 、手動でセルを定義したい場合は :guilabel:`Manual` を選択し、 :guilabel:`OK` ボタンをクリックする。「Transform unit cell?」と聞かれたら :guilabel:`はい` をクリックする。
-   
-   5. :menuselection:`固体 -->` :ref:`solid_insertvacuum` をクリックする。 
-   
-   6. :guilabel:`Vacuum` の欄に挿入する真空層の厚みを入力する。Quantum ESPRESSOのESM法で計算する場合は、 :guilabel:`Automatically shift to center` のチェックを外し、 :guilabel:`Reference plane` を :guilabel:`Base` に変更する。最後に、 :guilabel:`OK` ボタンをクリックする。
+   4. :guilabel:`Generate Slab` ボタン以下の項目を入力してから :guilabel:`OK` をクリックする。作成したいスラブ構造の表裏両方の原子配置が、 :guilabel:`Surface configurations` の選択肢の中にない場合は、少なくとも片方の面の原子配置が望みの構造となるようにし :guilabel:`OK` ボタンをクリックした後、メインウィンドウで :ref:`edit_partial_delete` 機能を使って不要な原子層を削除する。原子層を予め厚めに作るときは、 :guilabel:`Generate Slab` ボタン上の :guilabel:`Minimum slab size` の値を大きくする。
 
 分子吸着表面の作成
 ------------------------------------------------------
@@ -289,14 +285,14 @@
    
    3. :ref:`create_slab` の方法で表面を作成する。
    
-   4. :menuselection:`固体 -->` :ref:`solid_supercell` をクリックする。 :guilabel:`a` , :guilabel:`b` の値を大きくし、スーパーセルのサイズを指定する。最後に :guilabel:`OK` ボタンをクリックする。
+   4. 必要に応じて、 :menuselection:`固体 -->` :ref:`solid_supercell` をクリックする。 :guilabel:`a` , :guilabel:`b` の値を大きくし、スーパーセルのサイズを指定する。最後に :guilabel:`OK` ボタンをクリックする。
    
    5. :menuselection:`ファイル -->` :ref:`file_append` をクリックし、先ほど保存した吸着分子のmol2ファイルを選択する。その後、 :menuselection:`編集 --> グループ編集 -->` :ref:`edit_group_rotate_mouse` , :ref:`edit_group_rotate_slider` , :ref:`edit_group_rotate_orien` , :ref:`edit_group_move_mouse` , :ref:`edit_group_move_slider` などの機能を用いて、吸着分子の配向、位置を変更する。
 
 固固界面（粒界）の作成
 ------------------------------------------------------
 
-   1. :ref:`create_inorganic_crystal` の方法で片方の固体を作成する。
+   1. :ref:`create_slab` の方法で片方の固体を作成する。スラブの両面に
    
    2. :menuselection:`ファイル -->` :ref:`file_saveas` からcif形式で保存する。
    
@@ -308,7 +304,7 @@
    
    6. :guilabel:`Cell` タブの :guilabel:`Cell 1` の :guilabel:`Browse` ボタンをクリックし、3.で保存したファイルを選択する。同様に、 :guilabel:`Cell 2` においては、5.で保存したファイルを選択する。
    
-   7. :guilabel:`Direction` タブの :guilabel:`Interval` に固体間の距離を入力する。また、 :guilabel:`Place atoms located on cell boundaries on both sides of interface` にチェックを入れる。
+   7. :guilabel:`Direction` タブの :guilabel:`Interval` に固体間の距離を入力する。また、 :guilabel:`Interval` の :guilabel:`Specify interval on selected axis between outermost atoms` にチェックを入れる。
    
    8. :guilabel:`Repeat` タブに移動すると、3つの :guilabel:`Suggest` ボタンのうち、上ふたつ（a-axisとb-axis）が押せる状態になっている。この :guilabel:`Suggest` ボタンをクリックし、 :guilabel:`Ratio` の値（Cell1とCell2のセルサイズ比率）が1に近く、かつシステムサイズが大きすぎない行を選択し、 :guilabel:`Set` ボタンをクリックする。
    
