@@ -309,25 +309,6 @@ Q. :menuselection:`MD --> 溶媒を配置/系を構築` 機能を実行すると
    Error : Failed to solvate.
 
 A. :ref:`一般的な不具合 <faq_general_error>` の対処と、:ref:`Cygwinの一般的な不具合 <faq_cygwin_error>` の対処に加え、分子数を減らすか、密度を減らして実行してください。
-また、それでも実行できない場合は、内部的に使用しているGromacsの再インストールを、以下の手順で実施してください。
-
-   1) CygwinWMのインストールフォルダの下の :file:`/etc/profile.d/winmostar.sh` の中の
-
-   ::
-
-      source /usr/local/gromacs_sse/bin/GMXRC
-      
-   または
-
-   ::
-
-      source /usr/local/gromacs_avx/bin/GMXRC
-      
-   の行をコメントアウトまたは削除する
-   
-   2) Winmostarの :menuselection:`ツール --> Cygwin` をクリックし、起動したcygwin上で `Winmostar(TM) 用Cygwinインストールマニュアル <https://winmostar.com/jp/gmx4wm_jp_win.html>`_ の「1-2. Gromacs」のインストール手順を試みる
-   
-   3) :menuselection:`ツール --> CygwinWM` で :command:`gmx` と実行し `GROMACS: gmx, VERSION ...` などとGromacsの起動を示すメッセージが表示されたら再ビルドは成功である
 
 分子数が大きい場合（ケースにもよるが10,000程度）は、現在内部処理で使用している :command:`gmx solvate` の処理の限界となるケースもあるので、 :menuselection:`編集 --> :menuselection:`編集 --> グループ編集 --> グループを複製` で分子を並べてください。
 
