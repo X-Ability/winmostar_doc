@@ -127,8 +127,245 @@ msgstr "For details, see :ref:`md_gromacs_start`."
 msgid "Preset"
 msgstr "Preset"
 
-msgid "計算条件のプリセットを指定します。プリセットの内容は、各キーワードから確認できます。"
-msgstr "Specify the preset of the calculation condition. The preset contents can be confirmed from each keyword."
+msgid "計算条件のプリセットを指定します。各プリセットは以下のキーワードを変更します。"
+msgstr "Specify the preset of the calculation condition. Each preset changes the following keywords."
+
+msgid "Minimize"
+msgstr "Minimize"
+
+msgid "(fast)"
+msgstr "(fast)"
+
+msgid "NVT"
+msgstr "NVT"
+
+msgid "NPT"
+msgstr "NPT"
+
+msgid "NVE"
+msgstr "NVE"
+
+msgid "dt"
+msgstr "dt"
+
+msgid "0.002"
+msgstr "0.002"
+
+msgid "nsteps"
+msgstr "nsteps"
+
+msgid "5000"
+msgstr "5000"
+
+msgid "integrator"
+msgstr "integrator"
+
+msgid "steep"
+msgstr "steep"
+
+msgid "md"
+msgstr "md"
+
+msgid "gen-vel"
+msgstr "gen-vel"
+
+msgid "yes"
+msgstr "yes"
+
+msgid "no"
+msgstr "no"
+
+msgid "tcoupl"
+msgstr "tcoupl"
+
+msgid "berendsen"
+msgstr "berendsen"
+
+msgid "ref-t"
+msgstr "ref-t"
+
+msgid "300"
+msgstr "300"
+
+msgid "pcoupl"
+msgstr "pcoupl"
+
+msgid "parrinello-rahman"
+msgstr "parrinello-rahman"
+
+msgid "ref-p"
+msgstr "ref-p"
+
+msgid "1.0"
+msgstr "1,0"
+
+msgid "pbc"
+msgstr "pbc"
+
+msgid "comm-mode"
+msgstr "comm-mode"
+
+msgid "linear"
+msgstr "linear"
+
+msgid "nstcomm"
+msgstr "nstcomm"
+
+msgid "50"
+msgstr "50"
+
+msgid "nh-chain-length"
+msgstr "nh-chain-length"
+
+msgid "10"
+msgstr "10"
+
+msgid "nsttcouple"
+msgstr "nsttcouple"
+
+msgid "-1"
+msgstr "-1"
+
+msgid "nstpcouple"
+msgstr "nstpcouple"
+
+msgid "constraints"
+msgstr "constraints"
+
+msgid "all-bonds"
+msgstr "all-bonds"
+
+msgid "lincs-order"
+msgstr "lincs-order"
+
+msgid "4"
+msgstr "4"
+
+msgid "lincs-iter"
+msgstr "lincs-iter"
+
+msgid "1"
+msgstr "1"
+
+msgid "shake-tol"
+msgstr "shake-tol"
+
+msgid "1e-5"
+msgstr "1e-5"
+
+msgid "nstxout"
+msgstr "nstxout"
+
+msgid "100"
+msgstr "100"
+
+msgid "nstvout"
+msgstr "nstvout"
+
+msgid "nstenergy"
+msgstr "nstenergy"
+
+msgid "buffer-tolerance"
+msgstr "buffer-tolerance"
+
+msgid "5e-3"
+msgstr "5e-3"
+
+msgid "rvdw"
+msgstr "rvdw"
+
+msgid "rvdw-switch"
+msgstr "rvdw-switch"
+
+msgid "0.9"
+msgstr "0.9"
+
+msgid "coulombtype"
+msgstr "coulombtype"
+
+msgid "pme"
+msgstr "pme"
+
+msgid "rcoulomb"
+msgstr "rcoulomb"
+
+msgid "rcoulomb-switch"
+msgstr "rcoulomb-switch"
+
+msgid "fourier-spacing"
+msgstr "fourier-spacing"
+
+msgid "0.12"
+msgstr "0.12"
+
+msgid "pme-order"
+msgstr "pme-order"
+
+msgid "ewald-rtol"
+msgstr "ewald-rtol"
+
+msgid "Enable"
+msgstr "Enable"
+
+msgid "double precision"
+msgstr "double precision"
+
+msgid "False"
+msgstr "False"
+
+msgid "0.0005"
+msgstr "0.0005"
+
+msgid "20000"
+msgstr "20000"
+
+msgid "nose-hoover"
+msgstr "nose-hoover"
+
+msgid "hbonds"
+msgstr "hbonds"
+
+msgid "8"
+msgstr "8"
+
+msgid "2"
+msgstr "2"
+
+msgid "1e-9"
+msgstr "1e-9"
+
+msgid "400"
+msgstr "400"
+
+msgid "40"
+msgstr "40"
+
+msgid "1.5"
+msgstr "1.5"
+
+msgid "1.4"
+msgstr "1.4"
+
+msgid "0.10"
+msgstr "0.10"
+
+msgid "6"
+msgstr "6"
+
+msgid "True"
+msgstr "True"
+
+msgid "(vapor,fast)"
+msgstr "(vapor,fast)"
+
+msgid "angular"
+msgstr "angular"
+
+msgid "cut-off"
+msgstr "cut-off"
+
+msgid "(vapor)"
+msgstr "(vapor)"
 
 msgid "# of Threads"
 msgstr "# of Threads"
@@ -148,29 +385,17 @@ msgstr "Basic"
 msgid "Run Control"
 msgstr "Run Control"
 
-msgid "dt"
-msgstr "DT"
-
 msgid "数値積分における1ステップの時間刻みを指定します。"
 msgstr "Specify one step increment in numerical integration."
 
-msgid "nsteps"
-msgstr "nsteps"
-
 msgid "計算するステップ数の最大値を指定します。"
 msgstr "Specify the maximum number of steps to calculate."
-
-msgid "integrator"
-msgstr "integrator"
 
 msgid "計算アルゴリズムを指定します。"
 msgstr "Specify the calculation algorithm."
 
 msgid "Velocity Generation"
 msgstr "Velocity Generation"
-
-msgid "gen-vel"
-msgstr "gene-well"
 
 msgid "初速度を生成するか指定します。"
 msgstr "Specify whether to generate the initial speed."
@@ -196,9 +421,6 @@ msgstr "If checked, I will do the initial speed temperature here. If you do not 
 msgid "Temperature Coupling"
 msgstr "Temperature Coupling"
 
-msgid "tcoupl"
-msgstr "tcoupl"
-
 msgid "温度制御のアルゴリズムを選択します。"
 msgstr "Select the temperature control algorithm."
 
@@ -207,9 +429,6 @@ msgstr "tc-grps"
 
 msgid "温度制御対象のグループを指定します（スペース区切りで複数設定可）。"
 msgstr "Specify the group to be temperature controlled (more than one can be set with a space delimiter)."
-
-msgid "ref-t"
-msgstr "ref-t"
 
 msgid "設定温度を指定します（スペース区切りで複数設定可）。"
 msgstr "Specify the set temperature (Multiple settings can be set with a space delimiter)."
@@ -223,9 +442,6 @@ msgstr "Specify the time constant for temperature control (more than one can be 
 msgid "Pressure Coupling"
 msgstr "Pressure Coupling"
 
-msgid "pcoupl"
-msgstr "pcoupl"
-
 msgid "圧力制御のアルゴリズムを選択します。"
 msgstr "Select pressure control algorithm."
 
@@ -234,9 +450,6 @@ msgstr "pcoupltype"
 
 msgid "圧力制御におけるセルの動かし方を示します。"
 msgstr "It shows how to move cells in pressure control."
-
-msgid "ref-p"
-msgstr "ref-p"
 
 msgid "設定圧力を指定します。"
 msgstr "Specify set pressure."
@@ -259,9 +472,6 @@ msgstr "Advanced"
 msgid "Boundary Condition"
 msgstr "Boundary Condition"
 
-msgid "pbc"
-msgstr "pbc"
-
 msgid "周期境界条件を選択します。"
 msgstr "Select the periodic boundary condition."
 
@@ -280,14 +490,8 @@ msgstr "emstep"
 msgid "エネルギー最小化計算における粒子を動かすステップ幅の初期値を指定します。"
 msgstr "Specify the initial value of step width to move particles in energy minimization calculation."
 
-msgid "comm-mode"
-msgstr "comm-mode"
-
 msgid "系全体の運動量の除去方法を指定します。"
 msgstr "Specify how to remove the momentum of the whole system."
-
-msgid "nstcomm"
-msgstr "nstcomm"
 
 msgid "系全体の運動量を除去する頻度を指定します。"
 msgstr "Specify the frequency of removing the momentum of the whole system."
@@ -295,20 +499,11 @@ msgstr "Specify the frequency of removing the momentum of the whole system."
 msgid "Temperature/Pressure Coupling"
 msgstr "Temperature/Pressure Coupling"
 
-msgid "nh-chain-length"
-msgstr "nh-chain-length"
-
 msgid "Nose-Hoover法で温度制御した際のNose-Hoover chainの段数を指定します。"
 msgstr "Specify the number of stages of Nose-Hoover chain when temperature is controlled by the Nose-Hoover method."
 
-msgid "nsttcouple"
-msgstr "nsttcouple"
-
 msgid "温度制御の頻度を指定します。"
 msgstr "Specify the frequency of temperature control."
-
-msgid "nstpcouple"
-msgstr "nstpcouple"
 
 msgid "refcoord-scaling"
 msgstr "refcoord-scaling"
@@ -318,9 +513,6 @@ msgstr "Specify the scaling of the reference coordinates of position restraint d
 
 msgid "Constraints"
 msgstr "Constraints"
-
-msgid "constraints"
-msgstr "constraints"
 
 msgid "拘束条件を選択します。"
 msgstr "Select the constraint condition."
@@ -337,20 +529,11 @@ msgstr "continuation"
 msgid "親ジョブから拘束距離を引き継ぐか指定します。"
 msgstr "Specify whether to inherit the constraint distance from the parent job."
 
-msgid "lincs-order"
-msgstr "lincs-order"
-
 msgid "LINCS法の次数を指定します。"
 msgstr "Specify the order of the LINCS method."
 
-msgid "lincs-iter"
-msgstr "Lines-way"
-
 msgid "LINCS法における反復回数を指定します。"
 msgstr "Specify the number of iterations in the LINCS method."
-
-msgid "shake-tol"
-msgstr "shake-tol"
 
 msgid "SHAKE法の収束判定に用いる打ち切り誤差パラメータを指定します。"
 msgstr "Specify the truncation error parameter used for the convergence judgment of the SHAKE method."
@@ -382,20 +565,11 @@ msgstr "Output"
 msgid "Output Control"
 msgstr "Output Control"
 
-msgid "nstxout"
-msgstr "nstxout"
-
 msgid "原子の座標を出力する頻度をステップ数で指定します。"
 msgstr "Specify the frequency of atomic coordinates output in steps."
 
-msgid "nstvout"
-msgstr "nstvout"
-
 msgid "原子の速度を出力する頻度をステップ数で指定します。"
 msgstr "Specify the frequency of atomic velocity output in steps."
-
-msgid "nstenergy"
-msgstr "nstenergy"
 
 msgid "エネルギーなどの系全体の統計量をedrファイル（エネルギーファイル）に出力する頻度をステップ数で指定します。"
 msgstr "Specify the frequency of outputting system-wide statistics such as energy to edr file (energy file) in steps."
@@ -463,14 +637,8 @@ msgstr "vdwtype"
 msgid "ファンデルワールスポテンシャルの計算手法を指定します。"
 msgstr "Specify the calculation method of van der Waals potential."
 
-msgid "rvdw-switch"
-msgstr "rvdw switch"
-
 msgid "ファンデルワールスポテンシャル計算にSwitchingを選択した際に、Switchingが始まる距離を指定します。"
 msgstr "When Switching is selected for Van der Waals potential calculation, specify the distance at which Switching starts."
-
-msgid "rvdw"
-msgstr "rvdw"
 
 msgid "ファンデルワールスポテンシャル計算のカットオフ距離を指定します。"
 msgstr "Specify the cutoff distance of van der Waals potential calculation."
@@ -490,20 +658,11 @@ msgstr "Select settings such as Switching/Shift when Van der Waals potential cut
 msgid "Electrostatics"
 msgstr "Electrostatics"
 
-msgid "coulombtype"
-msgstr "coulombtype"
-
 msgid "クーロンポテンシャルの計算手法を指定します。"
 msgstr "Specify the calculation method of coulomb potential."
 
-msgid "rcoulomb-switch"
-msgstr "rcoulomb-switch"
-
 msgid "クーロンポテンシャル計算にSwitchingを選択した際に、Switchingが始まる距離を指定します。"
 msgstr "When Switching is selected for Coulomb Potential Calculation, specify the distance at which Switching starts."
-
-msgid "rcoulomb"
-msgstr "rcoulomb"
 
 msgid "クーロンポテンシャル計算の実空間カットオフ距離を指定します。"
 msgstr "Specify the real space cutoff distance of Coulomb potential calculation."
@@ -523,9 +682,6 @@ msgstr "Set # of grids for fourier space"
 msgid "チェックを入れた場合はfourier-spacingを使用します。入れない場合はfourier-nx, ny, nzを使用します。"
 msgstr "If checked, use fourier-spacing. If you do not want to use it, use fourier-nx, ny, nz."
 
-msgid "fourier-spacing"
-msgstr "fourier-spacing"
-
 msgid "Ewald, PMEまたはPPPM法における波数空間のメッシュサイズを指定します。"
 msgstr "Ewald, PME or PPPM method in wave number space mesh size."
 
@@ -535,14 +691,8 @@ msgstr "fourier-nx, ny, nz"
 msgid "Ewald, PMEまたはPPPM法における波数空間のカットオフ距離またはメッシュ数（それぞれx, y, z成分）を指定します。"
 msgstr "Ewald, PME or PPPM method to specify the cutoff distance or mesh number (x, y, z component, respectively) of wave number space."
 
-msgid "pme-order"
-msgstr "pme-order"
-
 msgid "PME法における外挿関数の次数を指定します。"
 msgstr "Specifies the order of the extrapolation function in the PME method."
-
-msgid "ewald-rtol"
-msgstr "ewald-rtol"
 
 msgid "Ewald, PMEまたはPPPM法の精度パラメータを指定します。"
 msgstr "Ewald, PME or PPPM method accuracy parameters."
@@ -915,6 +1065,12 @@ msgstr "First Frame"
 
 msgid "トラジェクトリを読み込む際の開始時間をps単位で指定します。"
 msgstr "Specify the start time when trajectory is read in ps units."
+
+msgid "Last Frame"
+msgstr "Last Frame"
+
+msgid "トラジェクトリを読み込む際の終端時間をps単位で指定します。 :guilabel:`Maximum` にチェックが入った場合は、最終フレームが指定されます。"
+msgstr "Specify the end time, in ps, to read trajectories. If :guilabel:`Maximum` is checked, the last frame is specified."
 
 msgid "Draw"
 msgstr "Draw"

@@ -409,6 +409,15 @@ msgstr "Convert Aromatic Rings to Single and Double Bonds"
 msgid "芳香環結合を単結合と二重結合の組み合わせに変更します。"
 msgstr "Change the aromatic ring bond to a combination of a single bond and a double bond."
 
+msgid "不明な元素を水素に変更"
+msgstr "Change unknown elements to hydrogen."
+
+msgid "Lpやダミー原子として認識された原子を水素に変更します。"
+msgstr "Change the atoms recognized as Lp or dummy atoms to hydrogen."
+
+msgid "CIFファイル中の重水素を水素に変更する際などに有用です。"
+msgstr "This is useful, for example, for converting deuterium to hydrogen in a CIF file."
+
 msgid "選択原子間の距離/角度を変更"
 msgstr "Change Distance/Angle Between Marked Atoms"
 

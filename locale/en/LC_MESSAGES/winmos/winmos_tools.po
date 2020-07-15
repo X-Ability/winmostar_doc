@@ -23,11 +23,44 @@ msgstr "Delete Fragment"
 msgid ":ref:`ツールバー <gui_main>` の :guilabel:`フラグメントを選択` プルダウンメニュー |repl| で選ばれた部品の登録を削除します。"
 msgstr "Delete the registation of the parts selected by :guilabel:`select a fragment` by pull down menu | repl | of :ref:`toolbar <gui_main>`."
 
+msgid "構造式を入力"
+msgstr "Enter a structural formula"
+
+msgid "構造式を入力することにより分子を作成します。内部ではJSMEが使用されます。"
+msgstr "Create a molecule by entering a structural formula. JSME is used internally."
+
 msgid "配座探索(Balloon)"
 msgstr "Conformation Search (Balloon)"
 
 msgid "Balloonを用いて配座探索を行います。 :guilabel:`Search` ボタンをクリックすると処理が開始されます。 :file:`*_balloon_tmp` という作業フォルダに中間ファイルが生成されます。"
 msgstr "We will search for conformation using Balloon. Click :guilabel:`Search` button to start processing.An intermediate file is created in the working folder :file:`*_balloon_tmp`."
+
+msgid "本機能は以下のように動作しています。"
+msgstr "This feature works as follows"
+
+msgid "初期構造に対し、GAを使わず配座探索"
+msgstr "Conformation search without GA for the initial structure"
+
+msgid "Ballonオプション: -v 1 -c 10 --noGA -i 300 --randomSeed 51277"
+msgstr "Ballon options: -v 1 -c 10 --noGA -i 300 --randomSeed 51277"
+
+msgid "1の最もエネルギーが低い構造に対し、GAを使い配座探索"
+msgstr "For the lowest energy structure of 1, a conformation search using GA"
+
+msgid "Ballonオプション: -v 1 -b -k -c 400 --full -R 0.25 --nGene 20 --random 51277"
+msgstr "Ballon options: -v 1 -b -k -c 400 --full -R 0.25 --nGene 20 --random 51277"
+
+msgid "2のエネルギーが低い構造から4個に対し、GAを使わず配座探索"
+msgstr "Conformation search without GA for 4 structures with low energy of 2"
+
+msgid "Ballonオプション: -v 1 -c 25 --noGA -i 300 --randomSeed 51277"
+msgstr "Ballon options: -v 1 -c 25 --noGA -i 300 --randomSeed 51277"
+
+msgid "3のエネルギーが低い構造から100個を抽出"
+msgstr "Select 100 from the low energy structures of 3"
+
+msgid ":guilabel:`Cluster similar structures` にチェックが入っていた場合は、100個の構造をクラスタリングし、RMSD tolerance以下の類似構造を集約してWinmostarで表示（ただし、簡易的なクラスタリングのため、候補が効率よく削減できない場合があります）"
+msgstr "If :guilabel:`Cluster similar structures` is checked, cluster 100 structures and aggregate similar structures below RMSD tolerance and display them in Winmostar (However, due to the simplicity of clustering, the candidates may not be reduced efficiently)"
 
 msgid "本機能は、結合次数に影響を受けます。"
 msgstr "This function is affected by the join order."
@@ -184,6 +217,27 @@ msgstr "Sterimol Parameters"
 
 msgid "メインウィンドウ上でグループ選択した部分構造に対して、Sterimolパラメータを計算します。 :guilabel:`Calculate` ボタンをクリックすると計算が開始されます。"
 msgstr "Calculate the Sterimol parameter for the substructure selected for the group on the main window.Click :guilabel:`Calculate` button to start the calculation."
+
+msgid "環構造の単位法線ベクトル"
+msgstr "Unit Normal Vector of Ring Structure"
+
+msgid "NICS計算などにおいて必要な、環構造の単位法線ベクトルを表示します。対象となる環構造をグループ選択した上で本機能を呼び出してください。"
+msgstr "This function displays unit normal vectors of ring structures, which are necessary for NICS calculations, etc. Please group-select a target ring structure then call this function."
+
+msgid "例えばベンゼン環の場合は、ベンゼン環を構成する炭素6つをグループ選択します。"
+msgstr "For example, in the case of a benzene ring, the six carbons that make up the benzene ring are group-selected."
+
+msgid "出力されるベクトルは以下のように計算されます。"
+msgstr "The output vector is calculated as follows"
+
+msgid "グループされた原子のうち、共有結合する2原子のリストを作成します。"
+msgstr "Creates a list of two atoms with covalent bond among the grouped atoms."
+
+msgid "1で作成されたリストの各2原子について、その2原子とグループ選択の幾何中心の3点で張られる平面に垂直なベクトルを算出します。"
+msgstr "For each two atoms in the list created in 1, compute a vector perpendicular to the plane stretched by those two atoms and the three points of the geometric center of the group selection."
+
+msgid "2で算出したベクトルの平均を本機能で最終的に表示します。"
+msgstr "The average of the vectors calculated in 2 is finally displayed in this function."
 
 msgid "プロジェクトブラウザ"
 msgstr "Project Browser"

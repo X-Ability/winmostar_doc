@@ -37,7 +37,559 @@
       
       詳細は :ref:`md_lammps_start` を参照してください。
    Preset
-      計算条件のプリセットを指定します。プリセットの内容は、各キーワードから確認できます。
+      計算条件のプリセットを指定します。各プリセットは以下のキーワードを変更します。
+      
+      .. list-table::
+         :header-rows: 1
+         
+         * - 
+           - | Minimize
+             | (fast)
+           - | NVT
+             | (fast)
+           - | NPT
+             | (fast)
+           - | NVE
+             | (fast)
+         * - Pair style
+           - lj/cut/coul/long
+           - lj/cut/coul/long
+           - lj/cut/coul/long
+           - lj/cut/coul/long
+         * - Time step
+           - 
+           - 2.0
+           - 2.0
+           - 2.0
+         * - # of time steps
+           - 5000
+           - 5000
+           - 5000
+           - 5000
+         * - Ensemble
+           - minimize
+           - nvt
+           - npt
+           - nve
+         * - | Generate 
+             | initial velocity
+           - 
+           - True
+           - False
+           - False
+         * - Temperature
+           - 
+           - 300
+           - 300
+           - 
+         * - Pressure
+           - 
+           - 
+           - 1.0
+           - 
+         * - Boundary Condition
+           - p p p
+           - p p p
+           - p p p
+           - p p p
+         * - Reset COM motion
+           - linear
+           - linear
+           - linear
+           - linear
+         * - Tchain
+           - 
+           - 3
+           - 3
+           - 
+         * - Pchain
+           - 
+           - 
+           - 3
+           - 
+         * - Shake tolerance
+           - 
+           - 1e-5
+           - 1e-5
+           - 1e-5
+         * - | Dump interval
+             | (dump)
+           - 100
+           - 100
+           - 100
+           - 100
+         * - | Dump interval
+             | (xtc)
+           - 100
+           - 100
+           - 100
+           - 100
+         * - Log interval
+           - 10
+           - 10
+           - 10
+           - 10
+         * - Cutoff (vdW)
+           - 10.
+           - 10.
+           - 10.
+           - 10.
+         * - Cutoff (Coulomb)
+           - 10.
+           - 10.
+           - 10.
+           - 10.
+         * - PPPM order
+           - 4
+           - 4
+           - 4
+           - 4
+         * - K-space accuracy
+           - 1e-5
+           - 1e-5
+           - 1e-5
+           - 1e-5
+           
+      .. list-table::
+         :header-rows: 1
+         
+         * - 
+           - | Minimize
+           - | NVT
+           - | NPT
+           - | NVE
+         * - Pair style
+           - lj/cut/coul/long
+           - lj/cut/coul/long
+           - lj/cut/coul/long
+           - lj/cut/coul/long
+         * - Time step
+           - 
+           - 0.5
+           - 0.5
+           - 0.5
+         * - # of time steps
+           - 20000
+           - 20000
+           - 20000
+           - 20000
+         * - Ensemble
+           - minimize
+           - nvt
+           - npt
+           - nve
+         * - | Generate 
+             | initial velocity
+           - 
+           - True
+           - False
+           - False
+         * - Temperature
+           - 
+           - 300
+           - 300
+           - 
+         * - Pressure
+           - 
+           - 
+           - 1.0
+           - 
+         * - Boundary Condition
+           - p p p
+           - p p p
+           - p p p
+           - p p p
+         * - Reset COM motion
+           - linear
+           - linear
+           - linear
+           - linear
+         * - Tchain
+           - 
+           - 1
+           - 1
+           - 
+         * - Pchain
+           - 
+           - 
+           - 1
+           - 
+         * - Shake tolerance
+           - 
+           - 1e-9
+           - 1e-9
+           - 1e-9
+         * - | Dump interval
+             | (dump)
+           - 400
+           - 400
+           - 400
+           - 400
+         * - | Dump interval
+             | (xtc)
+           - 400
+           - 400
+           - 400
+           - 400
+         * - Log interval
+           - 40
+           - 40
+           - 40
+           - 40
+         * - Cutoff (vdW)
+           - 15.
+           - 15.
+           - 15.
+           - 15.
+         * - Cutoff (Coulomb)
+           - 15.
+           - 15.
+           - 15.
+           - 15.
+         * - PPPM order
+           - 
+           - 
+           - 
+           - 
+         * - K-space accuracy
+           - 
+           - 
+           - 
+           - 
+           
+      .. list-table::
+         :header-rows: 1
+         
+         * - 
+           - | Minimize
+             | (vapor,fast)
+           - | NVT
+             | (vapor,fast)
+           - | NPT
+             | (vapor,fast)
+           - | NVE
+             | (vapor,fast)
+         * - Pair style
+           - lj/cut/coul/cut
+           - lj/cut/coul/cut
+           - lj/cut/coul/cut
+           - lj/cut/coul/cut
+         * - Time step
+           - 
+           - 2.0
+           - 2.0
+           - 2.0
+         * - # of time steps
+           - 5000
+           - 5000
+           - 5000
+           - 5000
+         * - Ensemble
+           - minimize
+           - nvt
+           - npt
+           - nve
+         * - | Generate 
+             | initial velocity
+           - 
+           - True
+           - False
+           - False
+         * - Temperature
+           - 
+           - 300
+           - 300
+           - 
+         * - Pressure
+           - 
+           - 
+           - 1.0
+           - 
+         * - Boundary Condition
+           - f f f
+           - f f f
+           - f f f
+           - f f f
+         * - Reset COM motion
+           - angular
+           - angular
+           - angular
+           - angular
+         * - Tchain
+           - 
+           - 3
+           - 3
+           - 
+         * - Pchain
+           - 
+           - 
+           - 3
+           - 
+         * - Shake tolerance
+           - 
+           - 1e-5
+           - 1e-5
+           - 1e-5
+         * - | Dump interval
+             | (dump)
+           - 100
+           - 100
+           - 100
+           - 100
+         * - | Dump interval
+             | (xtc)
+           - 100
+           - 100
+           - 100
+           - 100
+         * - Log interval
+           - 10
+           - 10
+           - 10
+           - 10
+         * - Cutoff (vdW)
+           - 10.
+           - 10.
+           - 10.
+           - 10.
+         * - Cutoff (Coulomb)
+           - 10.
+           - 10.
+           - 10.
+           - 10.
+         * - PPPM order
+           - 
+           - 
+           - 
+           - 
+         * - K-space accuracy
+           - 
+           - 
+           - 
+           - 
+           
+      .. list-table::
+         :header-rows: 1
+         
+         * - 
+           - | Minimize
+             | (vapor)
+           - | NVT
+             | (vapor)
+           - | NPT
+             | (vapor)
+           - | NVE
+             | (vapor)
+         * - Pair style
+           - lj/cut/coul/cut
+           - lj/cut/coul/cut
+           - lj/cut/coul/cut
+           - lj/cut/coul/cut
+         * - Time step
+           - 
+           - 0.5
+           - 0.5
+           - 0.5
+         * - # of time steps
+           - 20000
+           - 20000
+           - 20000
+           - 20000
+         * - Ensemble
+           - minimize
+           - nvt
+           - npt
+           - nve
+         * - | Generate 
+             | initial velocity
+           - 
+           - True
+           - False
+           - False
+         * - Temperature
+           - 
+           - 300
+           - 300
+           - 
+         * - Pressure
+           - 
+           - 
+           - 1.0
+           - 
+         * - Boundary Condition
+           - f f f
+           - f f f
+           - f f f
+           - f f f
+         * - Reset COM motion
+           - angular
+           - angular
+           - angular
+           - angular
+         * - Tchain
+           - 
+           - 1
+           - 1
+           - 
+         * - Pchain
+           - 
+           - 
+           - 1
+           - 
+         * - Shake tolerance
+           - 
+           - 1e-9
+           - 1e-9
+           - 1e-9
+         * - | Dump interval
+             | (dump)
+           - 400
+           - 400
+           - 400
+           - 400
+         * - | Dump interval
+             | (xtc)
+           - 400
+           - 400
+           - 400
+           - 400
+         * - Log interval
+           - 40
+           - 40
+           - 40
+           - 40
+         * - Cutoff (vdW)
+           - 15.
+           - 15.
+           - 15.
+           - 15.
+         * - Cutoff (Coulomb)
+           - 15.
+           - 15.
+           - 15.
+           - 15.
+         * - PPPM order
+           - 6
+           - 6
+           - 6
+           - 6
+         * - K-space accuracy
+           - 1e-9
+           - 1e-9
+           - 1e-9
+           - 1e-9
+           
+      .. list-table::
+         :header-rows: 1
+         
+         * - 
+           - | Minimize
+             | (ReaxFF)
+           - | NVT
+             | (ReaxFF)
+           - | NPT
+             | (ReaxFF)
+           - | NVE
+             | (ReaxFF)
+         * - Pair style
+           - reax/c
+           - reax/c
+           - reax/c
+           - reax/c
+         * - Time step
+           - 
+           - 0.5
+           - 0.5
+           - 0.5
+         * - # of time steps
+           - 20000
+           - 20000
+           - 20000
+           - 20000
+         * - Ensemble
+           - minimize
+           - nvt
+           - npt
+           - nve
+         * - | Generate 
+             | initial velocity
+           - 
+           - True
+           - False
+           - False
+         * - Temperature
+           - 
+           - 300
+           - 300
+           - 
+         * - Pressure
+           - 
+           - 
+           - 1.0
+           - 
+         * - Boundary Condition
+           - p p p
+           - p p p
+           - p p p
+           - p p p
+         * - Reset COM motion
+           - linear
+           - linear
+           - linear
+           - linear
+         * - Tchain
+           - 
+           - 1
+           - 1
+           - 
+         * - Pchain
+           - 
+           - 
+           - 1
+           - 
+         * - Shake tolerance
+           - 
+           - 1e-9
+           - 1e-9
+           - 1e-9
+         * - | Dump interval
+             | (dump)
+           - 400
+           - 400
+           - 400
+           - 400
+         * - | Dump interval
+             | (xtc)
+           - 400
+           - 400
+           - 400
+           - 400
+         * - Log interval
+           - 40
+           - 40
+           - 40
+           - 40
+         * - Cutoff (vdW)
+           - 15.
+           - 15.
+           - 15.
+           - 15.
+         * - Cutoff (Coulomb)
+           - 15.
+           - 15.
+           - 15.
+           - 15.
+         * - PPPM order
+           - 
+           - 
+           - 
+           - 
+         * - K-space accuracy
+           - 
+           - 
+           - 
+           - 
+           
    MPI
       MPI並列数を指定します。
    Basic

@@ -19,5 +19,5 @@ msgstr "If you download and install the CygwinWM installer from the Winmostar of
 msgid "CygwinWMを使用する機能で不具合が起きた場合は、セキュリティ対策ソフトの活動レポートもご確認ください。"
 msgstr "If trouble occurs with the function that uses CygwinWM, please also check the activity report of security countermeasure software."
 
-msgid ":menuselection:`ツール --> cygwin_wm起動` を選択すると、CygwinWMのコンソールを直接起動することが可能です。"
+msgid ":menuselection:`ツール --> Cygwin` を選択すると、CygwinWMのコンソールを直接起動することが可能です。"
 msgstr "If you select :menuselection:`Tools --> Cygwin`, you can start the console of CygwinWM directly."

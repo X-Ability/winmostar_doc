@@ -52,8 +52,181 @@ msgstr "Specify the folder specified in the opened dialog as the output destinat
 msgid "Preset"
 msgstr "Preset"
 
-msgid "設定のプリセットを選択します。"
-msgstr "Select preset for setting."
+msgid "設定のプリセットを選択します。各プリセットは以下のキーワードを変更します。"
+msgstr "Select preset for setting. Each preset changes the following keywords"
+
+msgid "SCF"
+msgstr "SCF"
+
+msgid "SCF+Bands"
+msgstr "SCF+Bands"
+
+
+msgid "+DOS"
+msgstr "+DOS"
+
+
+msgid "(Fermi surf)"
+msgstr "(Fermi surf)"
+
+
+msgid "Relax"
+msgstr "Relax"
+
+
+msgid "(variable cell)"
+msgstr "(variable cell)"
+
+
+msgid "BOMD"
+msgstr "BOMD"
+
+
+msgid "CPMD"
+msgstr "CPMD"
+
+msgid "Phonopy"
+msgstr "Phonopy"
+
+msgid "calculation"
+msgstr "calculation"
+
+msgid "scf"
+msgstr "scf"
+
+
+msgid "relax"
+msgstr "relax"
+
+
+msgid "vc-relax"
+msgstr "vc-relax"
+
+
+msgid "md"
+msgstr "md"
+
+
+msgid "cp"
+msgstr "cp"
+
+
+msgid "Use nbnd"
+msgstr "Use nbnd"
+
+msgid "False"
+msgstr "False"
+
+msgid "True"
+msgstr "True"
+
+
+msgid "K_POINTS"
+msgstr "K_POINTS"
+
+msgid "gamma"
+msgstr "gamma"
+
+
+msgid "automatic"
+msgstr "automatic"
+
+
+
+msgid "4 4 4 1 1 1"
+msgstr "4 4 4 1 1 1"
+
+
+msgid "tstress"
+msgstr "tstress"
+
+msgid "Set ibrav"
+msgstr "Set ibrav"
+
+
+msgid "and celldm"
+msgstr "and celldm"
+
+
+msgid "occupations"
+msgstr "occupations"
+
+msgid "smearing"
+msgstr "smearing"
+
+msgid "ion_dynamics"
+msgstr "ion_dynamics"
+
+msgid "bfgs"
+msgstr "bfgs"
+
+
+msgid "verlet"
+msgstr "verlet"
+
+msgid "none"
+msgstr "none"
+
+msgid "cell_dynamics"
+msgstr "cell_dynamics"
+
+msgid "tprnfor"
+msgstr "tprnfor"
+
+msgid "Use cell_factor"
+msgstr "Use cell_factor"
+
+msgid "pot_extrapolation"
+msgstr "pot_extrapolation"
+
+msgid "second_order"
+msgstr "second_order"
+
+
+msgid "wfc_extrapolation"
+msgstr "wfc_extrapolation"
+
+msgid "electron_dynamics"
+msgstr "electron_dynamics"
+
+msgid "sd"
+msgstr "sd"
+
+
+msgid "Unit for"
+msgstr "Unit for"
+
+
+msgid "atomic_position"
+msgstr "atomic_position"
+
+msgid "angstrom"
+msgstr "angstrom"
+
+
+msgid "crystal"
+msgstr "crystal"
+
+
+msgid "Band structure"
+msgstr "Band structure"
+
+
+msgid "plot"
+msgstr "plot"
+
+
+msgid "DOS plot"
+msgstr "DOS plot"
+
+
+msgid "PDOS plot"
+msgstr "PDOS plot"
+
+
+msgid "Fermi surface"
+msgstr "Fermi surface"
+
 
 msgid "Use MPI"
 msgstr "Use MPI"
@@ -64,20 +237,11 @@ msgstr "Specify whether to execute parallel calculation using MPI when executing
 msgid "Basicタブ"
 msgstr "Basic Tab"
 
-msgid "calculation"
-msgstr "calculation"
-
 msgid "計算の種類を選択します。"
 msgstr "Select the type of calculation."
 
-msgid "Use nbnd"
-msgstr "Use nbnd"
-
 msgid "バンド数を指定します。チェックを入れない場合は自動で設定されます。括弧内に選択されたは擬ポテンシャルを使用したときの価電子数が表示される。価電子数の自動計算に失敗した場合はN/Aと表示される。"
 msgstr "Specify the number of bands. If not checked, it will be set automatically. When selected in parentheses, the number of valence electrons when pseudopotential is used is displayed. If the calculation of the number of valence electrons fails, it is displayed as N/A."
-
-msgid "K_POINTS"
-msgstr "K_POINTS"
 
 msgid "K点の指定方法をプルダウンから選び、下のテキストボックスにQEの書式でK点を指定します。 gammaの場合はΓ点のみで計算されます。 automaticの場合は「(kx方向の分割数) (ky方向の分割数) (kz方向の分割数) (kx方向のシフトフラグ) (ky方向のシフトフラグ) (kz方向のシフトフラグ)」（スペース区切り）を入力します。シフトフラグは0のときにシフトなし（k点がΓ点を含む）、1のときにシフトあり（k点がΓ点を跨ぐ）となります。 その他詳細はpw.xのマニュアルまたはQEインストールフォルダ以下のdoc/brillouin_zones.pdfをご参照ください。"
 msgstr "Select the specification method of point K from the pull-down and specify K point in QE format in the text box below. In the case of gamma, it is calculated only with the Γ point. In the automatic case, \"(number of divisions in the kx direction) (division number in the ky direction) (number of divisions in the kz direction) (shift flag in the kx direction) (shift flag in the ky direction) (shift flag in kz direction)\" Enter a delimiter. When the shift flag is 0, there is no shift (the k point includes the Γ point), when it is 1, there is a shift (k point crosses the Γ point). For details, please refer to doc/brillouin_zones.pdf under pw.x manual or QE installation folder."
@@ -124,32 +288,17 @@ msgstr "tot_charge"
 msgid "シミュレーションセル内の系全体の電荷を指定します。"
 msgstr "Specify the charge of the entire system in the simulation cell."
 
-msgid "occupations"
-msgstr "occupations"
-
 msgid "金属の場合はsmearing, DOS計算の場合はtetrahedronを指定します。"
 msgstr "Specify smearing for metals and tetrahedron for DOS calculations."
-
-msgid "ion_dynamics"
-msgstr "ion_dynamics"
 
 msgid "イオン（原子核）位置を変化させるアルゴリズムを指定します。"
 msgstr "Specify the algorithm to change ion (nucleus) position."
 
-msgid "cell_dynamics"
-msgstr "cell_dynamics"
-
 msgid "シミュレーションセルを変化させるアルゴリズムを指定します。"
 msgstr "Specify algorithm to change simulation cell."
 
-msgid "tprnfor"
-msgstr "tprnfor"
-
 msgid "力を計算します。"
 msgstr "I will calculate the force."
-
-msgid "tstress"
-msgstr "tstress"
 
 msgid "圧力テンソルを計算します。"
 msgstr "Calculate the pressure tensor."
@@ -211,9 +360,6 @@ msgstr "lspinorb"
 msgid "ノンコリニア計算時にスピン軌道相互作用付きの擬ポテンシャルファイルを使えるようにします。"
 msgstr "Pseudopotential file with spin orbit interaction can be used during calculation of non-colinear."
 
-msgid "smearing"
-msgstr "smearing"
-
 msgid "占有平滑化(smearing)の方法を指定します。"
 msgstr "Specify the method of occupancy smoothing (smearing)."
 
@@ -252,9 +398,6 @@ msgstr "cell_dofree"
 
 msgid "シミュレーションセルを動かす際の自由度（方向）を指定します。"
 msgstr "Specify the degree of freedom (direction) for moving the simulation cell."
-
-msgid "Use cell_factor"
-msgstr "Use cell_factor"
 
 msgid "擬ポテンシャルテーブルの構築パラメータを明示的に指定します。vc-relax（セルサイズの変化を伴う構造最適化計算）の際に大きい値を設定した方がいい場合があります。"
 msgstr "Explicitly specify the construction parameter of the pseudopotential table. Sometimes it is better to set a larger value for vc - relax (structure optimization calculation with cell size change)."
@@ -382,20 +525,11 @@ msgstr "gangbang"
 msgid "温度制御時の温度の許容値を指定します。"
 msgstr "Specify the allowable value of temperature during temperature control."
 
-msgid "pot_extrapolation"
-msgstr "pot_extrapolation"
-
 msgid "Born-Oppenheimer MD使用時のポテンシャルの外挿方法を指定します。"
 msgstr "Born-Oppenheimer Specify the extrapolation method of the potential when using MD."
 
-msgid "wfc_extrapolation"
-msgstr "wfc_extrapolation"
-
 msgid "Born-Oppenheimer MD使用時の波動関数の外挿方法を指定します。"
 msgstr "Specify the extrapolation method of wave function when Born-Oppenheimer MD is used."
-
-msgid "electron_dynamics"
-msgstr "electron_dynamics"
 
 msgid "Car-Parrinello MD使用時のKS軌道を変化させるアルゴリズムを指定します。"
 msgstr "Specify the algorithm to change the KS trajectory when Car - Parrinello MD is used."
@@ -1221,9 +1355,6 @@ msgstr "Figure of merit"
 
 msgid "各温度における特性値のエネルギー依存性を表示したい場合はコンボボックスからT [K]を選択し、リストから目的の温度を選択します。 各エネルギーにおける特性値の温度依存性を表示したい場合はコンボボックスからE-Ef [eV]を選択し、リストから目的のエネルギーを選択します。"
 msgstr "To display the energy dependence of the characteristic value at each temperature, select T [K] from the combo box and select the target temperature from the list. If you want to display the temperature dependence of the characteristic value for each energy, select E-Ef [eV] from the combo box and select the target energy from the list."
-
-msgid "Phonopy"
-msgstr "Phonopy"
 
 msgid "Phonopyでは、以下の3つの工程で計算を行います。"
 msgstr "Phonopy calculates in the following three steps."

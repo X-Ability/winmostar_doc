@@ -203,6 +203,12 @@ msgstr "By Manual Entry"
 msgid "メインウィンドウに表示されている分子（結晶）構造に対し、原子種毎に点電荷の値を直接指定することができます。主に固体系向けの機能です。"
 msgstr "You can directly specify the point charge value for each atom type for the molecular (crystal) structure displayed in the main window. It is mainly for solid system."
 
+msgid "GAMESSを使用(RESP電荷)"
+msgstr "By GAMESS (RESP)"
+
+msgid "GAMESSを使用してRESP電荷を算出します。詳細は :ref:`qm_gamess_resp` を参照してください。"
+msgstr "Calculates the RESP charge using GAMESS. See :ref:`qm_gamess_resp` for details."
+
 msgid "ポリマー"
 msgstr "Polymer"
 
