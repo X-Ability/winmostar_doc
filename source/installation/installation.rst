@@ -56,7 +56,7 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
    - `プロフェッショナル版 <https://winmostar.com/jp/purchase>`_
    - `プロフェッショナル版（トライアル） <https://winmostar.com/jp/dlTrialFormJP.php>`_
 
-2. `安定版最新バージョン <https://winmostar.com/jp/download#latest_stable>`_ または `開発版最新バージョン <https://winmostar.com/jp/download#latest_devel>`_ のWinmostarインストーラをダウンロードします。
+2. `安定版最新バージョンのWinmostarインストーラ <https://winmostar.com/jp/download#latest_stable>`_ をダウンロードします。
 
    .. note::
       - 動作環境は :ref:`install_recommend_spec` でご確認ください。

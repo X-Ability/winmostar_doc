@@ -73,8 +73,8 @@ msgstr "`PROFESSIONAL edition <https://winmostar.com/en/purchase>`_"
 msgid "`プロフェッショナル版（トライアル） <https://winmostar.com/jp/dlTrialFormJP.php>`_"
 msgstr "`PROFESSIONAL edition (trial) <https://winmostar.com/en/dlTrialFormEN.php>`_"
 
-msgid "`安定版最新バージョン <https://winmostar.com/jp/download#latest_stable>`_ または `開発版最新バージョン <https://winmostar.com/jp/download#latest_devel>`_ のWinmostarインストーラをダウンロードします。"
-msgstr "Download the Winmostar installer for the latest stable version <https://winmostar.com/jp/download#latest_stable>`_ or the latest development version <https://winmostar.com/jp/download#latest_devel>`_."
+msgid "`安定版最新バージョンのWinmostarインストーラ <https://winmostar.com/jp/download#latest_stable>`_ をダウンロードします。"
+msgstr "Download the Winmostar installer for the latest stable version <https://winmostar.com/jp/download#latest_stable>`_ ."
 
 msgid "動作環境は :ref:`install_recommend_spec` でご確認ください。"
 msgstr "Please check the system requirements with :ref:`install_recommend_spec`."
