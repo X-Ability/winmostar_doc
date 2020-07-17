@@ -104,7 +104,7 @@ msgid "Q. 製造元と直接連絡取ることはできますか?"
 msgstr "Q\. Can I get in touch with the manufacturer directly?"
 
 msgid "`問い合わせフォーム <https://winmostar.com/jp/support_jp.php>`_ から連絡を取ることができますが、対応の可否は利用規約に基づきます。最新の使用規約はこちら（ `Winmostar V10 使用規約 <https://winmostar.com/pdf/Winmostar_Terms_of_use.pdf>`_ ）です。 `有償サポート <https://winmostar.com/jp/paid_supports/#support2>`_ を利用することで、より進んだメールでのサポートが可能となります。"
-msgstr "You can contact us through the `contact form <https://winmostar.com/en/support_en.php>`_, but our availability is subject to our terms and conditions. The latest terms of use are here ( `Winmostar V10 Terms of Use <https://winmostar.com/pdf/Winmostar_Terms_of_use.pdf>`_ ). You can use `paid support <https://winmostar.com/en/paid_supports/#support2>`_ for more advanced email support."
+msgstr "You can contact us through the `contact form <https://winmostar.com/en/support_en.php>`_, but our availability is subject to our terms and conditions. The latest terms of use are here ( `Winmostar V10 Terms of Use <https://winmostar.com/pdf/Winmostar_Terms_of_use.pdf>`_ )."
 
 msgid "Q. 「Winmostar」の呼び方は何ですか？"
 msgstr "How to pronounce Winmostar."
