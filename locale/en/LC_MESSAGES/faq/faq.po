@@ -419,10 +419,10 @@ msgid "1) :menuselection:`編集 --> 結合を付加/変更` またはメイン�
 msgstr "1\) :menuselection:`Edit --> Automatically Adjust Atoms/Bonds --> Add/Change Bond` or by pressing the :guilabel:`Add/Change Bond` button at the top of the main window multiple times."
 
 msgid "2) :menuselection:`編集 --> 原子/結合の自動調整 --> 結合を再生成` を選択すると原子間距離から判定された結合次数で自動的に化学結合の種類が変更されます。予め :menuselection:`編集 --> 原子/結合の自動調整 --> 簡易構造最適化` により構造最適化しておくと、より妥当に自動変更されることがあります。"
-msgstr "2\\) :menuselection:`Edit --> Automatically Adjust Atoms/Bonds --> Regenerate All Bonds` is selected, the type of chemical bond is automatically changed by the bond degree determined from the interatomic distance. If you optimize the structure with :menuselection:`Edit --> Automatically Adjust Atoms/Bonds --> Quick Optimization` in advance, it may be changed automatically more reasonably."
+msgstr "2\) :menuselection:`Edit --> Automatically Adjust Atoms/Bonds --> Regenerate All Bonds` is selected, the type of chemical bond is automatically changed by the bond degree determined from the interatomic distance. If you optimize the structure with :menuselection:`Edit --> Automatically Adjust Atoms/Bonds --> Quick Optimization` in advance, it may be changed automatically more reasonably."
 
 msgid "3) 小さい分子が一つだけしか表示されていない場合は、MOPAC計算を実行することで、Population解析結果を用いて自動的に結合次数が変更されます。"
-msgstr "3\\) If only one small molecule is displayed, execution of MOPAC calculation will automatically change the coupling order using the population analysis result."
+msgstr "3\) If only one small molecule is displayed, execution of MOPAC calculation will automatically change the coupling order using the population analysis result."
 
 msgid "Q. :menuselection:`MD --> 溶媒を配置/系を構築` 機能を実行すると `Error : Failed to solvate.` などと表示され処理に失敗します。"
 msgstr "Q\. :menuselection:`MD --> Solvate/Build Cell` function will display `Error: Failed to solvate.` and processing will fail."
@@ -433,23 +433,8 @@ msgstr "--------- Question details ---------"
 msgid ":menuselection:`MD --> 溶媒を配置/系を構築` を実行した際に :file:`generate.log` に下記のように出力され処理が正常終了しません。 ::"
 msgstr "When executing :menuselection:`MD --> Solvate/Build Cell`, the following is output to :file:`generate.log` and processing does not end normally. ::"
 
-msgid "A. :ref:`一般的な不具合 <faq_general_error>` の対処と、:ref:`Cygwinの一般的な不具合 <faq_cygwin_error>` の対処に加え、分子数を減らすか、密度を減らして実行してください。 また、それでも実行できない場合は、内部的に使用しているGromacsの再インストールを、以下の手順で実施してください。"
-msgstr "A\. Try :ref:`general errors <faq_general_error>` and :ref:`Cygwin general errors <faq_cygwin_error>` and execute after reducing the number of molecules or reducing the density. If you still can not do it, reinstall internally used Gromacs in the following procedure."
-
-msgid "CygwinWMのインストールフォルダの下の :file:`/etc/profile.d/winmostar.sh` の中の"
-msgstr "Comment out or delete the line of"
-
-msgid "または"
-msgstr "Or"
-
-msgid "の行をコメントアウトまたは削除する"
-msgstr "in :file:`/etc/profile.d/winmostar.sh` under CygwinWM installation folder."
-
-msgid "Winmostarの :menuselection:`ツール --> Cygwin` をクリックし、起動したcygwin上で `Winmostar(TM) 用Cygwinインストールマニュアル <https://winmostar.com/jp/gmx4wm_jp_win.html>`_ の「1-2. Gromacs」のインストール手順を試みる"
-msgstr "Click :menuselection:`Tools --> Cygwin` of Winmostar and try ``1-2. Gromacs`` of `Installation procedure of solvers for Winmostar <https://winmostar.com/en/gmx4wm_en_win.html>`_ on the installed cygwin."
-
-msgid ":menuselection:`ツール --> CygwinWM` で :command:`gmx` と実行し `GROMACS: gmx, VERSION ...` などとGromacsの起動を示すメッセージが表示されたら再ビルドは成功である"
-msgstr "Click :menuselection:`Tools --> Cygwin` and run :command:`gmx`. Rebuild will be successful if a message indicating `GROMACS: gmx, VERSION ...`, etc. is displayed."
+msgid ":ref:`一般的な不具合 <faq_general_error>` の対処と、:ref:`Cygwinの一般的な不具合 <faq_cygwin_error>` の対処に加え、分子数を減らすか、密度を減らして実行してください。"
+msgstr "Try :ref:`general errors <faq_general_error>` and :ref:`Cygwin general errors <faq_cygwin_error>` and execute after reducing the number of molecules or reducing the density."
 
 msgid "分子数が大きい場合（ケースにもよるが10,000程度）は、現在内部処理で使用している :command:`gmx solvate` の処理の限界となるケースもあるので、 :menuselection:`編集 --> :menuselection:`編集 --> グループ編集 --> グループを複製` で分子を並べてください。"
 msgstr "There are cases where the number of molecules is large (depending on the case, but it is about 10,000), since it is currently the limit of processing of :command:`gmx solvate`, which is used in internal processing, :menuselection:`Edit --> Modify Selected Group --> Replicate`."
@@ -825,6 +810,18 @@ msgstr "Q\. When I use Diffuse functions in GAMESS, the SCF calculation does not
 
 msgid "GAMESS SetupのBasicタブの$CONTRL枠にあるOthers欄にICUT=11を追記して、2電子積分のカットオフ値を小さく(厳しく)してください。"
 msgstr "In the GAMESS Setup, in the Basic tab, add ICUT=11 in the Others field in the $CONTRL box to make the cutoff value of the two-electron integral smaller (more severe)."
+
+msgid "Q. Winmostarに付属のMOPACで溶媒効果（COSMO法）を使用するにはどうしたらいいでしょうか。"
+msgstr "Q\. How do I use the solvent effect (COSMO method) in the MOPAC attached with Winmostar?"
+
+msgid "Winmostarに付属のMOPACは溶媒効果（COSMO法）に対応していません。MOPACより計算時間が掛かりますがより精度の高いGAMESSを用いた計算をご検討ください。"
+msgstr "MOPAC which is included in Winmostar does not support the solvent effect (COSMO method). Please consider using GAMESS which is more accurate than MOPAC, although it takes more time to calculate."
+
+msgid "Q. MOPAC、GAMESS、Gaussian、NWChemのキーワード設定ウィンドウやEasy Setupウィンドウで、使用したい計算手法（Hamiltonian）、基底関数（Basis Set）が選択肢の中に見つかりません。どのように設定したらいいですか？"
+msgstr "The Hamiltonian calculation method (Hamiltonian) or basis function (Basis Set) that I want to use is not found in the Configure window or the Easy Setup window for MOPAC, GAMESS, Gaussian and NWChem. How do I set it up?"
+
+msgid "計算手法、基底関数の設定欄に直接キーボードで入力できる場合は、直接入力することができます。分極関数（「*」や「p」「d」「f」で表現されるもの）の指定方法はソルバごとに記述が異なることがあるので、それぞれのソルバのマニュアルを確認してください。"
+msgstr "If you can enter directly into the calculation method and basis function setting fields, you can do so directly with the keyboard. Different solvers may have different descriptions of polarization functions (represented by "*", "p", "d", and "f"), so please check the manual for each solver."
 
 msgid "Gromacs, LAMMPSに関して"
 msgstr "Gromacs, LAMMPS"
