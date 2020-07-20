@@ -14,7 +14,7 @@ msgid "SMILES形式の文字列を :menuselection:`ファイル --> インポー
 msgstr "Read SMILES format string from :menuselection:`File --> Import -->` :ref:`file_import_smiles`."
 
 msgid "構造式を :menuselection:`ツール -->` :ref:`tools_draw2d` で直接描画する。"
-msgstr "Draw a structural expression directly with :menuselection:`ツール -->` :ref:`tools_draw2d`."
+msgstr "Draw a structural expression directly with :menuselection:`Tools -->` :ref:`tools_draw2d`."
 
 msgid "3次元の分子構造をメインウィンドウ上で構築する。"
 msgstr "Build 3D molecular structure from scratch on the main window."
