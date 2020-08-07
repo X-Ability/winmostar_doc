@@ -217,11 +217,23 @@ msgstr "Scrolling speed"
 msgid "分子表示エリアにおけるマウスホイールによる拡大・縮小の速度を調整します。"
 msgstr "Adjust the speed of zoom in/out by the mouse wheel in Viewport."
 
-msgid "奥行き表現の強さ"
+msgid "奥行き表現"
 msgstr "Depth cue"
+
+msgid "奥行き表現を使用するか設定します。"
+msgstr "Adjusts the fog density used for depth expression."
+
+msgid "奥行き表現の強さ"
+msgstr "Depth cue density"
 
 msgid "奥行き表現に使用するフォグの濃さを調整します。"
 msgstr "Adjusts the fog density used for depth expression."
+
+msgid "奥行き表現を有効にする最小原子数"
+msgstr "Maximum # of atoms for depth cue"
+
+msgid "設定した原子数以上の場合に奥行き表現を有効にします。"
+msgstr "Enable depth cue if the number of atoms is greater than the specified value."
 
 msgid "表示項目"
 msgstr "Items to be drawn"
