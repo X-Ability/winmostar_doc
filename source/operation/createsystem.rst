@@ -95,7 +95,7 @@
    
    2. MD計算の場合は :ref:`create_charge` の方法で電荷を割り当てる。
    
-   3. :menuselection:`MD -->` :ref:`edit_createcell` にて :menuselection:`Create --> Distance` の値を設定し :guilabel:`Create` ボタンを押す。適宜セルのサイズを微調整した上で、 :guilabel:`OK` ボタンを押す。
+   3. :menuselection:`編集 --> セルを作成/編集 --> ` :ref:`edit_createcell_create` にて :guilabel:`OK` ボタンを押す。
    
 .. _create_liquid:
    
@@ -123,8 +123,8 @@
    9. :guilabel:`Solvate/Build MD Cell` ウィンドウ下部の :guilabel:`Simulation Cell` にてシステムサイズを設定し、 :guilabel:`Build` ボタンを押す。
    
    .. note::
-      - 密度が高いと系の作成に失敗することがあるので、低い密度（実験値が分かっている場合は実験値の40 %程度）から始め、圧力一定計算で目的の密度、圧力まで徐々に圧縮してください。
-      - :ref:`cygwinwm_top` がインストールされていない、または :ref:`md_solvate_buildcell` 機能で配置するのが困難な場合は、 :ref:`edit_partial_edit` :menuselection:`--> 部分複製` 、 :ref:`edit_createcell` 、 :ref:`file_append` を組み合わせることでも作成可能です。
+      - 密度が高いと系の作成に失敗することがあるので、低い密度（目的の物質あるいは目的の物質に類似する物質の実験値が分かっている場合は、その値の40 %程度）から始め、 :menuselection:`編集 --> セルを作成/編集 --> ` :ref:`edit_createcell_transform` で密度を調整するか、MD計算を実行し圧力一定計算で目的の密度、圧力まで徐々に圧縮してください。
+      - :ref:`cygwinwm_top` がインストールされていない、または :ref:`md_solvate_buildcell` 機能で配置するのが困難な場合は、 :ref:`edit_partial_edit` :menuselection:`--> 部分複製` 、 :ref:`edit_createcell_create` 、 :ref:`file_append` を組み合わせることでも作成可能です。
    
 
 .. _create_polymer:
@@ -152,7 +152,7 @@
 
    1. :ref:`create_liquid` の方法で液相を作成する。
    
-   2. :menuselection:`編集 -->` :ref:`edit_createcell` にて :menuselection:`Expand --> Width` の値と :guilabel:`Axis` を設定し :guilabel:`Expand` ボタンを押す。Expandするサイズは、気相のサイズにする。その後、 :guilabel:`OK` ボタンを押す。
+   2. :menuselection:`編集 -->` :ref:`edit_createcell_transform` にて :guilabel:`Transform only along the selected axis` と :guilabel:`Do not change` にチェックを入れ、 :guilabel:`Set incremental length` または :guilabel:`Set total length` にチェックを入れ、値を入力した後 :guilabel:`OK` ボタンを押す。
    
       .. note::
          - 液相の構造をMD計算で緩和した後にExpandする場合は、MD計算後の構造においてシミュレーションセルの外の座標を持つ原子が多く存在するため、Expandする前に :menuselection:`編集 -->` :ref:`edit_wrap_pbc` を選択する。分子系の場合は :guilabel:`セルの内側に分子単位で再配置` 、無機系では :guilabel:`セルの内側に原子単位で再配置` を選択する。
@@ -249,6 +249,8 @@
       - :guilabel:`Remove` ボタンでリスト中で選択された原子を削除する。
       
    4. :guilabel:`OK` ボタンをクリックして、結晶ビルダで指定した構造をメインウィンドウに反映する。
+   
+   5. 結晶にひずみを与える場合は、 :menuselection:`編集 --> セルを作成/編集 --> ` :ref:`edit_createcell_transform` 機能を使用してください。
    
 無機結晶の作成（点欠陥または元素置換あり）
 ------------------------------------------------------

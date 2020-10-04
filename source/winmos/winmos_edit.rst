@@ -465,6 +465,8 @@ x方向に座標を反転
 セルを作成/編集
 -------------------------------------
 
+.. _edit_createcell_create:
+
 セルを作成
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -473,6 +475,8 @@ x方向に座標を反転
    - :guilabel:`Set Distance` にチェックを入れた場合は、メインウィンドウに表示されている分子構造の各方向の最小・最大値から指定した距離だけ離れた場所にセルの境界を作成します。
      :guilabel:`Use Cubic Cell` にチェックを入れた場合は、立方体のセルが作成されます。
    - :guilabel:`Set Dimension` にチェックを入れた場合は、指定した大きさの立方体のセルが作成されます。
+
+.. _edit_createcell_transform:
 
 セルを変形
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -491,6 +495,7 @@ x方向に座標を反転
 
    - セルの変形に伴い原子位置も変更する場合は :guilabel:`Move with keeping fractional coordinate` にチェックを入れます。分子系では、 :guilabel:`Keep intramolecular coordinates` にチェックを入れ、分子内座標は固定します。
 
+.. _edit_createcell_manual:
 
 手動でセルを編集
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
