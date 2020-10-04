@@ -207,6 +207,19 @@
            - False
            - False
            - False
+         * - | -DFLEXIBLE
+           - False
+           - False
+           - False
+           - False
+         * - | Extend simulation
+             | from full-
+             | precision
+             | trajectory
+           - False
+           - False
+           - False
+           - False
            
       .. list-table::
          :header-rows: 1
@@ -372,6 +385,19 @@
            - True
            - True
            - True
+         * - | -DFLEXIBLE
+           - False
+           - False
+           - False
+           - False
+         * - | Extend simulation
+             | from full-
+             | precision
+             | trajectory
+           - False
+           - False
+           - False
+           - False
 
       .. list-table::
          :header-rows: 1
@@ -541,6 +567,19 @@
            - False
            - False
            - False
+         * - | -DFLEXIBLE
+           - False
+           - False
+           - False
+           - False
+         * - | Extend simulation
+             | from full-
+             | precision
+             | trajectory
+           - False
+           - False
+           - False
+           - False
            
       .. list-table::
          :header-rows: 1
@@ -709,6 +748,134 @@
            - True
            - True
            - True
+           - True
+         * - | -DFLEXIBLE
+           - False
+           - False
+           - False
+           - False
+         * - | Extend simulation
+             | from full-
+             | precision
+             | trajectory
+           - False
+           - False
+           - False
+           - False
+
+      .. list-table::
+         :header-rows: 1
+         
+         * - 
+           - | Minimize
+             | (NMA)
+           - | NMA
+             | 
+         * - dt
+           - 
+           - 
+         * - nsteps
+           - 20000
+           - 20000
+         * - integrator
+           - l-bfgs
+           - nm
+         * - gen-vel
+           - 
+           - 
+         * - tcoupl
+           - 
+           - 
+         * - ref-t
+           - 
+           - 
+         * - pcoupl
+           - 
+           - 
+         * - ref-p
+           - 
+           - 
+         * - pbc
+           - yes
+           - yes
+         * - comm-mode
+           - 
+           - 
+         * - nstcomm
+           - 
+           - 
+         * - nh-chain-length
+           - 
+           - 
+         * - nsttcouple
+           - 
+           - 
+         * - nstpcouple
+           - 
+           - 
+         * - constraints
+           - none
+           - none
+         * - lincs-order
+           - 
+           - 
+         * - lincs-iter
+           - 
+           - 
+         * - shake-tol
+           - 
+           - 
+         * - nstxout
+           - 400
+           - 400
+         * - nstvout
+           - 400
+           - 400
+         * - nstenergy
+           - 40
+           - 40
+         * - buffer-tolerance
+           - 1e-9
+           - 1e-9
+         * - rvdw
+           - 1.5
+           - 1.5
+         * - rvdw-switch
+           - 1.4
+           - 1.4
+         * - coulombtype
+           - pme
+           - pme
+         * - rcoulomb
+           - 1.5
+           - 1.5
+         * - rcoulomb-switch
+           - 1.4
+           - 1.4
+         * - fourier-spacing
+           - 0.10
+           - 0.10
+         * - pme-order
+           - 6
+           - 6
+         * - ewald-rtol
+           - 1e-9
+           - 1e-9
+         * - | Enable 
+             | double precision
+           - True
+           - True
+         * - | emtol
+           - 0.01
+           - 
+         * - | -DFLEXIBLE
+           - True
+           - True
+         * - | Extend simulation
+             | from full-
+             | precision
+             | trajectory
+           - False
            - True
 
    # of Threads
@@ -796,6 +963,8 @@
             水分子をflexibleにする場合に選択します。
          define -DPOSRES
             特定分子の位置を拘束する場合に選択します。（posres.itpをincludeする）
+         Extend simulation from full-precision trajectory
+            :guilabel:`Extending Simulation` にチェックを入れ継続ジョブを流す際に、この項目にチェックが入っていた場合、前のジョブのtrrファイルからジョブを継続します。この項目にチェックが入っていなかった場合、前のジョブの最終状態のgroファイルからジョブを継続します。例えば、エネルギー極小化計算の後に基準振動解析を実行する場合には、チェックを入れる必要があります。
    Output
       Output Control
          nstxout

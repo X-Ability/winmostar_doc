@@ -464,6 +464,36 @@ x方向に座標を反転
 
 セルを作成/編集
 -------------------------------------
+
+セルを作成
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   シミュレーションセルを作成します。
+
+   - :guilabel:`Set Distance` にチェックを入れた場合は、メインウィンドウに表示されている分子構造の各方向の最小・最大値から指定した距離だけ離れた場所にセルの境界を作成します。
+     :guilabel:`Use Cubic Cell` にチェックを入れた場合は、立方体のセルが作成されます。
+   - :guilabel:`Set Dimension` にチェックを入れた場合は、指定した大きさの立方体のセルが作成されます。
+
+セルを変形
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   :guilabel:`1. How to transform cell` においてセルの変形方法を指定します。
+   
+   - 選択した軸方向にのみセルを変形する場合は :guilabel:`Transform only along the selected axis` にチェックを入れます。変形量（長さ）で指定する場合は :guilabel:`Set incremental length` 、変形後のサイズで指定する場合は :guilabel:`Set total length` 、垂直ひずみで指定する場合は :guilabel:`Set normal strain` 、変形後の密度で指定する場合は :guilabel:`Set density` をそれぞれ選びます。
+
+   - 相似的にセルを変形する場合は :guilabel:`Transform similarly` にチェックを入れます。変形後の密度を :guilabel:`Target Density` に入力します。
+
+   - せん断ひずみを与える場合は :guilabel:`Transform by shear strain` にチェックを入れます。変形する方向と与えるひずみを指定します。
+
+   :guilabel:`2. Atomic positions` において原子の動かし方を指定します。
+   
+   - 原子位置は固定でセルのみ変更する場合は :guilabel:`Do not change` にチェックを入れます。
+
+   - セルの変形に伴い原子位置も変更する場合は :guilabel:`Move with keeping fractional coordinate` にチェックを入れます。分子系では、 :guilabel:`Keep intramolecular coordinates` にチェックを入れ、分子内座標は固定します。
+
+
+手動でセルを編集
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
    :guilabel:`Create/Edit Cell` ウィンドウが開き、そこでMD計算や平面波DFT計算などのシミュレーションセルを作成または編集します。
    セルが存在しない場合は、 :guilabel:`Create` ボタンをクリックすると、メインウィンドウに表示されている分子構造の各方向の最小・最大値から :guilabel:`Distance` の距離だけ離れた場所にセルを作成します。
    :guilabel:`Expand` ボタンクリックすると、指定方向にセルサイズを拡張することができます。

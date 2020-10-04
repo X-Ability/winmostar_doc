@@ -99,9 +99,6 @@
 
 :guilabel:`a` , :guilabel:`b` , :guilabel:`c` に繰り返し数を入力し、 :guilabel:`OK` ボタンをクリックします。
 
-   Viewメニュー
-      :ref:`solid_crystalbuilder` と同じです。
-
 .. _solid_cleaveplane:
 
 表面を切り出し
