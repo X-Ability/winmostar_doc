@@ -125,7 +125,7 @@ msgid "MD計算の場合は :ref:`create_charge` の方法で電荷を割り当�
 msgstr "In the case of MD simulation, assign point charges (See :ref:`create_charge`)."
 
 msgid ":menuselection:`編集 --> セルを作成/編集 --> ` :ref:`edit_createcell_create` にて :guilabel:`OK` ボタンを押す。"
-msgstr "Execute :menuselection:`Edit --> Create/Build Cell -->` :ref:`edit_createcell_create` and Click OK"
+msgstr "Execute :menuselection:`Edit --> Create/Build Cell --> ` :ref:`edit_createcell_create` and Click OK."
 
 msgid "低分子液体の作成"
 msgstr "Creating a small molecule liquid system"
