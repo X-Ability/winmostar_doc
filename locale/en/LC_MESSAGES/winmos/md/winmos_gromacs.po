@@ -232,6 +232,9 @@ msgstr "nstpcouple"
 msgid "constraints"
 msgstr "constraints"
 
+msgid "hbonds"
+msgstr "hbonds"
+
 msgid "all-bonds"
 msgstr "all-bonds"
 
@@ -313,6 +316,21 @@ msgstr "double precision"
 msgid "False"
 msgstr "False"
 
+msgid "-DFLEXIBLE"
+msgstr "-DFLEXIBLE"
+
+msgid "Extend simulation"
+msgstr "Extend simulation"
+
+msgid "from full-"
+msgstr "from full-"
+
+msgid "precision"
+msgstr "precision"
+
+msgid "trajectory"
+msgstr "trajectory"
+
 msgid "0.0005"
 msgstr "0.0005"
 
@@ -321,9 +339,6 @@ msgstr "20000"
 
 msgid "nose-hoover"
 msgstr "nose-hoover"
-
-msgid "hbonds"
-msgstr "hbonds"
 
 msgid "8"
 msgstr "8"
@@ -366,6 +381,27 @@ msgstr "cut-off"
 
 msgid "(vapor)"
 msgstr "(vapor)"
+
+msgid "(NMA)"
+msgstr "(NMA)"
+
+msgid "NMA"
+msgstr "NMA"
+
+msgid "l-bfgs"
+msgstr "l-bfgs"
+
+msgid "nm"
+msgstr "nm"
+
+msgid "none"
+msgstr "none"
+
+msgid "emtol"
+msgstr "emtol"
+
+msgid "0.01"
+msgstr "0.01"
 
 msgid "# of Threads"
 msgstr "# of Threads"
@@ -478,9 +514,6 @@ msgstr "Select the periodic boundary condition."
 msgid "Energy Minimization"
 msgstr "Energy Minimization"
 
-msgid "emtol"
-msgstr "emtol"
-
 msgid "エネルギー最小化計算の収束条件であるforceの最大値を指定します。"
 msgstr "Specify the maximum force which is the convergence condition of energy minimization calculation."
 
@@ -558,6 +591,12 @@ msgstr "define -DPOSRES"
 
 msgid "特定分子の位置を拘束する場合に選択します。（posres.itpをincludeする）"
 msgstr "Select this to constrain the position of a specific molecule. (Include posres.itp)"
+
+msgid "Extend simulation from full-precision trajectory"
+msgstr "Extend simulation from full-precision trajectory"
+
+msgid ":guilabel:`Extending Simulation` にチェックを入れ継続ジョブを流す際に、この項目にチェックが入っていた場合、前のジョブのtrrファイルからジョブを継続します。この項目にチェックが入っていなかった場合、前のジョブの最終状態のgroファイルからジョブを継続します。例えば、エネルギー極小化計算の後に基準振動解析を実行する場合には、チェックを入れる必要があります。"
+msgstr "If this item is checked and :guilabel:`Extending Simulation` is checked, the job is continued from the trr file of the previous job. If this item is not checked, the job is continued from the gro file in the final state of the previous job. For example, if you want to run normal mode analysis after the energy minimization calculation, you need to check the box."
 
 msgid "Output"
 msgstr "Output"

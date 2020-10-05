@@ -140,8 +140,8 @@ msgstr "Create a simulation cell according to the contents set in this window."
 msgid "分子を挿入"
 msgstr "Insert Molecules"
 
-msgid "mol2形式で保存された分子を複数個、メインウィンドウに表示されている構造に追加することができます。 シミュレーションセルが作成されていない場合は、事前に :ref:`edit_createcell` または :ref:`md_solvate_buildcell` を使用して作成してください。"
-msgstr "You can add multiple molecules stored in mol 2 format to the structure displayed in the main window. If no simulation cell has been created, create it with :ref:`edit_createcell` or :ref:`md_solvate_buildcell` beforehand."
+msgid "mol2形式で保存された分子を複数個、メインウィンドウに表示されている構造に追加することができます。 シミュレーションセルが作成されていない場合は、事前に :ref:`edit_createcell_create` または :ref:`md_solvate_buildcell` を使用して作成してください。"
+msgstr "You can add multiple molecules stored in mol 2 format to the structure displayed in the main window. If no simulation cell has been created, create it with :ref:`edit_createcell_create` or :ref:`md_solvate_buildcell` beforehand."
 
 msgid "追加する分子について、座標を変えずに1つだけ追加したい場合は、 :ref:`file_append` を選択してください。"
 msgstr "If you want to add only one additional molecule without changing the coordinates, please select :ref:`file_append`."

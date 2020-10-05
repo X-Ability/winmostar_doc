@@ -1,5 +1,3 @@
-
-
 msgid ":menuselection:`MD --> ポリマー` メニュー"
 msgstr ":menuselection:`MD --> Polymer` Menu"
 
@@ -24,7 +22,6 @@ msgstr "Register Monomer"
 msgid ":ref:`md_polymer_homo` 、 :ref:`md_polymer_block` 、 :ref:`md_polymer_random` で使用するためのモノマーを登録します。 :ref:`md_polymer_pref` で設定したモノマーファイルの保存先に、 :file:`wmo` という拡張子で保存されます。 :file:`wmo` ファイルはWinmostar独自のコメントが付加したmol2ファイルです。"
 msgstr "register the monomer to use at :ref:`md_polymer_homo`, :ref:`md_polymer_block`, :ref:`md_polymer_random`.The file is saved with the extension :file:`wmo` in the save destination of the monomer file set by :ref:`md_polymer_pref`. The :file:`wmo` file is a mol2 file with Winmostar's own comment added."
 
-
 msgid "メインウィンドウにおいて登録したいモノマー（繰り返し単位）の構造を作成します。"
 msgstr "Create the structure of the monomer (repeating unit) you want to register in the main window."
 
@@ -45,7 +42,6 @@ msgstr "Enter the name of the monomer to be registered."
 
 msgid "[OK]"
 msgstr "[OK]"
-
 
 msgid "モノマーを登録しウィンドウを閉じます。モノマーファイルが作成されます。"
 msgstr "Register the monomer and close the window. A monomer file is created."
@@ -82,7 +78,6 @@ msgstr "Select the monomer to use."
 
 msgid "[Display]"
 msgstr "[Display]"
-
 
 msgid "選択したモノマーをメインウィンドウに表示します。"
 msgstr "The selected monomers are displayed in the main window."
@@ -144,7 +139,6 @@ msgstr "Register the polymer. A polymer file is created."
 msgid "[Close]"
 msgstr "[Close]"
 
-
 msgid "ウィンドウを閉じます。"
 msgstr "Close the window."
 
@@ -183,7 +177,6 @@ msgstr "[Add]"
 
 msgid "設定した中間モノマー名と数をInternal Monomer Listに反映させます。"
 msgstr "Reflect the set intermediate monomer name and number in the Internal Monomer List."
-
 
 msgid "設定した中間モノマーをメインウィンドウに表示します。"
 msgstr "Display the set intermediate monomer on the main window."
@@ -293,7 +286,6 @@ msgstr "[Polymer Available]"
 msgid "選択したポリマーの本数を指定します。"
 msgstr "Specify the number of selected polymers."
 
-
 msgid "選択したポリマーをメインウィンドウに表示します。"
 msgstr "The selected polymer is displayed on the main window."
 
@@ -305,6 +297,24 @@ msgstr "The selected polymer is reflected in the Polymers Used list."
 
 msgid "選択したポリマーをPolymers Usedリストから削除します。"
 msgstr "Remove the selected polymer from the Polymers Used list."
+
+msgid "[MPI]"
+msgstr "[MPI]"
+
+msgid "作成時の最適化に使用するLAMMPSをMPI並列で計算します。"
+msgstr "LAMMPS used for optimization at creation runs in MPI parallel."
+
+msgid "[Processes]"
+msgstr "[Processes]"
+
+msgid "MPI並列数を指定します。"
+msgstr "Specify number of MPI ranks."
+
+msgid "[non-bonded inter-atomic distance tolerance]"
+msgstr "[non-bonded inter-atomic distance tolerance]"
+
+msgid "非結合原子間距離の最小値の許容値を指定します。 指定した許容値で作成できなかった場合は、徐々に許容値を小さくして作成するので、必ず許容値に収まっているとは限りません。 許容値の変化はログに出力されます。"
+msgstr "Specifies the minimum allowable distance between unbonded atoms. If it cannot be created with the specified tolerance, it will gradually reduce the tolerance, so it may not always be within the tolerance. Changes of the tolerance are output to the log."
 
 msgid "シミュレーションセルを作成します。"
 msgstr "Create a simulation cell."
@@ -333,10 +343,20 @@ msgstr "[Polymer(\\*.wpo)Folder]"
 msgid "ポリマーファイルの保存先フォルダを指定します。"
 msgstr "Specify the folder to save the polymer file."
 
+msgid "[Dihedral Angle]"
+msgstr "[Dihedral Angle]"
+
+msgid "ポリマーを重合する際の二面角を指定します。"
+msgstr "Specify the dihedral angle of polymerization."
+
+msgid "[Random]"
+msgstr "[Random]"
+
+msgid "二面角をランダムに設定します。"
+msgstr "Set the dihedral angle at random."
 
 msgid "設定内容を保存してウィンドウを閉じます。"
 msgstr "Save the settings and close the window."
-
 
 msgid "設定内容を破棄してウィンドウを閉じます。"
 msgstr "Discard the settings and close the window."

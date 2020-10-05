@@ -124,8 +124,8 @@ msgstr "Create a structure of one molecule (See :ref:`create_mole`). In the case
 msgid "MD計算の場合は :ref:`create_charge` の方法で電荷を割り当てる。"
 msgstr "In the case of MD simulation, assign point charges (See :ref:`create_charge`)."
 
-msgid ":menuselection:`MD -->` :ref:`edit_createcell` にて :menuselection:`Create --> Distance` の値を設定し :guilabel:`Create` ボタンを押す。適宜セルのサイズを微調整した上で、 :guilabel:`OK` ボタンを押す。"
-msgstr "In :menuselection:`MD -->` :ref:`edit_createcell`, set the value of :menuselection:`Create --> Distance` and press the :guilabel:`Create` button. Adjust the size of the cell and press the :guilabel:`OK` button."
+msgid ":menuselection:`編集 --> セルを作成/編集 --> ` :ref:`edit_createcell_create` にて :guilabel:`OK` ボタンを押す。"
+msgstr "Execute :menuselection:`Edit --> Create/Build Cell -->` :ref:`edit_createcell_create` and Click OK"
 
 msgid "低分子液体の作成"
 msgstr "Creating a small molecule liquid system"
@@ -154,11 +154,11 @@ msgstr "Perform 6 and 7 for all molecular species you want to calculate."
 msgid ":guilabel:`Solvate/Build MD Cell` ウィンドウ下部の :guilabel:`Simulation Cell` にてシステムサイズを設定し、 :guilabel:`Build` ボタンを押す。"
 msgstr "Set the system size at :guilabel:`Simulation Cell` and press :guilabel:`Build` button."
 
-msgid "密度が高いと系の作成に失敗することがあるので、低い密度（実験値が分かっている場合は実験値の40 %程度）から始め、圧力一定計算で目的の密度、圧力まで徐々に圧縮してください。"
-msgstr "Since the system may fail at higher densities, start at a lower density (about 40 % of the experimental value if the experimental value is known) and gradually compress it to the desired density and pressure using constant pressure calculations."
+msgid "密度が高いと系の作成に失敗することがあるので、低い密度（目的の物質あるいは目的の物質に類似する物質の実験値が分かっている場合は、その値の40 %程度）から始め、 :menuselection:`編集 --> セルを作成/編集 --> ` :ref:`edit_createcell_transform` で密度を調整するか、MD計算を実行し圧力一定計算で目的の密度、圧力まで徐々に圧縮してください。"
+msgstr "Since the system may fail at higher densities, start at a lower density (about 40 % of the experimental value of the substance of interest or substances similar to the substance of interest is known) and gradually compress it to the desired density and pressure using constant pressure calculations."
 
-msgid ":ref:`cygwinwm_top` がインストールされていない、または :ref:`md_solvate_buildcell` 機能で配置するのが困難な場合は、 :ref:`edit_partial_edit` :menuselection:`--> 部分複製` 、 :ref:`edit_createcell` 、 :ref:`file_append` を組み合わせることでも作成可能です。"
-msgstr "Use :ref:`edit_partial_edit` :menuselection:`--> Replicate Group`, :ref:`edit_createcell` and :ref:`file_append` when :ref:`cygwinwm_top` is not installed or it is difficult to arrange with :ref:`md_solvate_buildcell`."
+msgid ":ref:`cygwinwm_top` がインストールされていない、または :ref:`md_solvate_buildcell` 機能で配置するのが困難な場合は、 :ref:`edit_partial_edit` :menuselection:`--> 部分複製` 、 :ref:`edit_createcell_create` 、 :ref:`file_append` を組み合わせることでも作成可能です。"
+msgstr "Use :ref:`edit_partial_edit` :menuselection:`--> Replicate Group`, :ref:`edit_createcell_create` and :ref:`file_append` when :ref:`cygwinwm_top` is not installed or it is difficult to arrange with :ref:`md_solvate_buildcell`."
 
 msgid "ポリマーの作成"
 msgstr "Creating polymer melt system"
@@ -190,8 +190,8 @@ msgstr "Creating gas-liquid interface"
 msgid ":ref:`create_liquid` の方法で液相を作成する。"
 msgstr "Create a liquid phase (see :ref:`create_liquid`)."
 
-msgid ":menuselection:`編集 -->` :ref:`edit_createcell` にて :menuselection:`Expand --> Width` の値と :guilabel:`Axis` を設定し :guilabel:`Expand` ボタンを押す。Expandするサイズは、気相のサイズにする。その後、 :guilabel:`OK` ボタンを押す。"
-msgstr "Set the value of :menuselection:`Expand --> Width` and :guilabel:`Axis` at :menuselection:`Edit -->` :ref:`edit_createcell` and press the :guilabel:`Expand` button. Then, press the :guilabel:`OK` button."
+msgid ":menuselection:`編集 -->` :ref:`edit_createcell_transform` にて :guilabel:`Transform only along the selected axis` と :guilabel:`Do not change` にチェックを入れ、 :guilabel:`Set incremental length` または :guilabel:`Set total length` にチェックを入れ、値を入力した後 :guilabel:`OK` ボタンを押す。"
+msgstr "In :menuselection:`Edit -->` :ref:`edit_createcell_transform`, check :guilabel:`Transform only along the selected axis` and :guilabel:`Do not change`, then check :guilabel:`Set incremental length` or :guilabel:`Set total length`, enter a value and press the :guilabel:`OK` button."
 
 msgid "液相の構造をMD計算で緩和した後にExpandする場合は、MD計算後の構造においてシミュレーションセルの外の座標を持つ原子が多く存在するため、Expandする前に :menuselection:`編集 -->` :ref:`edit_wrap_pbc` を選択する。分子系の場合は :guilabel:`セルの内側に分子単位で再配置` 、無機系では :guilabel:`セルの内側に原子単位で再配置` を選択する。"
 msgstr "Select :menuselection:`edit -->` :ref:`edit_wrap_pbc` before expanding the structure of the liquid phase because there are many atoms with coordinates outside the simulation cell in the structure after MD calculation. For molecular systems, select :guilabel:`relocate molecular units inside the cell`; for inorganic systems, select :guilabel:`relocate atomic units inside the cell`."
@@ -306,6 +306,9 @@ msgstr "Removes a selected atom by clicking :guilabel:`Remove` button."
 
 msgid ":guilabel:`OK` ボタンをクリックして、結晶ビルダで指定した構造をメインウィンドウに反映する。"
 msgstr "Click the :guilabel:`OK` button to apply the structure specified by the crystal builder to the main window."
+
+msgid "結晶にひずみを与える場合は、 :menuselection:`編集 --> セルを作成/編集 --> ` :ref:`edit_createcell_transform` 機能を使用してください。"
+msgstr "Use :menuselection:`Edit --> Create/Edit Cell --> ` :ref:`edit_createcell_transform` if you want to apply a strain to a crystal."
 
 msgid "無機結晶の作成（点欠陥または元素置換あり）"
 msgstr "Preparation of inorganic crystals (with point defects or elemental substitutions)"

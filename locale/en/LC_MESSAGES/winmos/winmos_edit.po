@@ -508,6 +508,45 @@ msgstr "Generate an enantiomer of the molecular structure displayed in the main 
 msgid "セルを作成/編集"
 msgstr "Create/Edit Cell"
 
+msgid "セルを作成"
+msgstr "Create/Edit Cell"
+
+msgid "シミュレーションセルを作成します。"
+msgstr "Create the simulation cell"
+
+msgid ":guilabel:`Set Distance` にチェックを入れた場合は、メインウィンドウに表示されている分子構造の各方向の最小・最大値から指定した距離だけ離れた場所にセルの境界を作成します。 :guilabel:`Use Cubic Cell` にチェックを入れた場合は、立方体のセルが作成されます。"
+msgstr ":guilabel:`Set Distance` is checked, it creates cell borders at a specified distance from the minimum and maximum values for each direction of the molecular structure shown in the main window. If :guilabel:`Use Cubic Cell` is checked, a cubic cell will be created."
+
+msgid ":guilabel:`Set Dimension` にチェックを入れた場合は、指定した大きさの立方体のセルが作成されます。"
+msgstr ":guilabel:If `Set Dimension` is checked, a cell with the specified size cube will be created."
+
+msgid "セルを変形"
+msgstr "Transform Cell"
+
+msgid ":guilabel:`1. How to transform cell` においてセルの変形方法を指定します。"
+msgstr ":guilabel:`1. How to transform cell` specifies how to transform the cell.
+
+msgid "選択した軸方向にのみセルを変形する場合は :guilabel:`Transform only along the selected axis` にチェックを入れます。変形量（長さ）で指定する場合は :guilabel:`Set incremental length` 、変形後のサイズで指定する場合は :guilabel:`Set total length` 、垂直ひずみで指定する場合は :guilabel:`Set normal strain` 、変形後の密度で指定する場合は :guilabel:`Set density` をそれぞれ選びます。"
+msgstr "Check the :guilabel:`Transform only along the selected axis` if you want to deform the cell only along the selected axis. Check :guilabel:`Set incremental length` for length, :guilabel:`Set total length` for size after deformation, or :guilabel:`Set normal strain` for vertical strain. or :guilabel:`Set density` to specify the deformed density.
+
+msgid "相似的にセルを変形する場合は :guilabel:`Transform similarly` にチェックを入れます。変形後の密度を :guilabel:`Target Density` に入力します。"
+msgstr "If you want to transform a cell similarly, check :guilabel:`Transform similarly`. Enter the target density after the transformation in :guilabel:`Target Density`."
+
+msgid "せん断ひずみを与える場合は :guilabel:`Transform by shear strain` にチェックを入れます。変形する方向と与えるひずみを指定します。"
+msgstr "Check :guilabel:`Transform by shear strain` if you want to apply a shear strain. Specify the direction to be deformed and the strain to be applied.
+
+msgid ":guilabel:`2. Atomic positions` において原子の動かし方を指定します。"
+msgstr ":guilabel:`2. Atomic positions` specifies how to move atoms."
+
+msgid "原子位置は固定でセルのみ変更する場合は :guilabel:`Do not change` にチェックを入れます。"
+msgstr "Check :guilabel:`Do not change` if you want to keep the position of the atoms and only change the cells."
+
+msgid "セルの変形に伴い原子位置も変更する場合は :guilabel:`Move with keeping fractional coordinate` にチェックを入れます。分子系では、 :guilabel:`Keep intramolecular coordinates` にチェックを入れ、分子内座標は固定します。"
+msgstr "If you want to change the position of the atoms fixed as the cell is deformed, check the :guilabel:`Move with keeping fractional coordinates` checkbox. For molecular systems, check :guilabel:`Keep intramolecular coordinates`, then intramolecular coordinates are kept fixed."
+
+msgid "手動でセルを編集"
+msgstr "Edit Cell Manually"
+
 msgid ":guilabel:`Create/Edit Cell` ウィンドウが開き、そこでMD計算や平面波DFT計算などのシミュレーションセルを作成または編集します。 セルが存在しない場合は、 :guilabel:`Create` ボタンをクリックすると、メインウィンドウに表示されている分子構造の各方向の最小・最大値から :guilabel:`Distance` の距離だけ離れた場所にセルを作成します。 :guilabel:`Expand` ボタンクリックすると、指定方向にセルサイズを拡張することができます。 :guilabel:`Create/Edit Cell` ウィンドウの右側では直接セルサイズの値を編集することができます。 :guilabel:`Box Vecors` , :guilabel:`Lattice Constants` , :guilabel:`LAMMPS Tilt Factors` をクリックし、セルサイズの表記方法を変えることができます。"
 msgstr "The :guilabel:`Create/Edit Cell` window opens, where you can create or edit simulation cells such as MD calculations and plane wave DFT calculations. If the cell does not exist, clicking the :guilabel:`Create` button creates a cell at a distance of` Distance` from the minimum and maximum values in each direction of the molecular structure displayed in the main window. Click the :guilabel:`Expand` button to expand the cell size in the specified direction. On the right side of the :guilabel:`Create/Edit Cell` window, you can edit the cell size value directly. Click :guilabel:`Box Vecors`, :guilabel:`Lattice Constants`, :guilabel:`LAMMPS Tilt Factors` to change the cell size notation."
 
