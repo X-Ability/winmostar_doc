@@ -524,16 +524,16 @@ msgid "セルを変形"
 msgstr "Transform Cell"
 
 msgid ":guilabel:`1. How to transform cell` においてセルの変形方法を指定します。"
-msgstr ":guilabel:`1. How to transform cell` specifies how to transform the cell.
+msgstr ":guilabel:`1. How to transform cell` specifies how to transform the cell."
 
 msgid "選択した軸方向にのみセルを変形する場合は :guilabel:`Transform only along the selected axis` にチェックを入れます。変形量（長さ）で指定する場合は :guilabel:`Set incremental length` 、変形後のサイズで指定する場合は :guilabel:`Set total length` 、垂直ひずみで指定する場合は :guilabel:`Set normal strain` 、変形後の密度で指定する場合は :guilabel:`Set density` をそれぞれ選びます。"
-msgstr "Check the :guilabel:`Transform only along the selected axis` if you want to deform the cell only along the selected axis. Check :guilabel:`Set incremental length` for length, :guilabel:`Set total length` for size after deformation, or :guilabel:`Set normal strain` for vertical strain. or :guilabel:`Set density` to specify the deformed density.
+msgstr "Check the :guilabel:`Transform only along the selected axis` if you want to deform the cell only along the selected axis. Check :guilabel:`Set incremental length` for length, :guilabel:`Set total length` for size after deformation, or :guilabel:`Set normal strain` for vertical strain. or :guilabel:`Set density` to specify the deformed density."
 
 msgid "相似的にセルを変形する場合は :guilabel:`Transform similarly` にチェックを入れます。変形後の密度を :guilabel:`Target Density` に入力します。"
 msgstr "If you want to transform a cell similarly, check :guilabel:`Transform similarly`. Enter the target density after the transformation in :guilabel:`Target Density`."
 
 msgid "せん断ひずみを与える場合は :guilabel:`Transform by shear strain` にチェックを入れます。変形する方向と与えるひずみを指定します。"
-msgstr "Check :guilabel:`Transform by shear strain` if you want to apply a shear strain. Specify the direction to be deformed and the strain to be applied.
+msgstr "Check :guilabel:`Transform by shear strain` if you want to apply a shear strain. Specify the direction to be deformed and the strain to be applied."
 
 msgid ":guilabel:`2. Atomic positions` において原子の動かし方を指定します。"
 msgstr ":guilabel:`2. Atomic positions` specifies how to move atoms."
