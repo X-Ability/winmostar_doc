@@ -190,6 +190,7 @@
       選択したポリマーをPolymers Usedリストから削除します。
    [MPI]
       作成時の最適化に使用するLAMMPSをMPI並列で計算します。
+
       [Processes]
          MPI並列数を指定します。
    [non-bonded inter-atomic distance tolerance]
@@ -217,6 +218,7 @@
       ポリマーファイルの保存先フォルダを指定します。
    [Dihedral Angle]
       ポリマーを重合する際の二面角を指定します。
+
       [Random]
          二面角をランダムに設定します。
    [OK]
