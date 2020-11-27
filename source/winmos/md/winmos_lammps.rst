@@ -724,6 +724,14 @@
          圧縮計算（圧力を一定速度で変化させる計算）を有効にします。 :guilabel:`Ensemble` が ``npt`` , ``nph`` の時に指定できます。 :guilabel:`Pressure` の値が始状態の圧力、 :guilabel:`Final Pressure` の値が終状態の圧力となります。
       Final Pressure
          圧縮計算時の終状態の圧力を指定します。
+      Enable electric field
+         外部電場を与えます。 :guilabel:`Sine wave` を選ぶと、正弦波的に電場を与えます。 :guilabel:`Constant` を選ぶと、定常的に電場を与えます。
+      Amp & Freq
+         各方向の強度（Amp）と周波数（Freq）を与えます。 :guilabel:`Enable electric field` で :guilabel:`Sine wave` を選んだ時は下式で電場が与えられ、Aが強度、fが周波数となります。 :guilabel:`Constant` を選んだ時は強度のみが使われます。
+         
+         .. math::
+            A \sin ( 2 \pi f t)
+            
    Restraint
       Enable Restraint
          指定した2原子間の距離を拘束した計算を実施します。:guilabel:`Ensemble` が ``minimize`` 以外の時に指定できます。

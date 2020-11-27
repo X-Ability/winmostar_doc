@@ -489,6 +489,8 @@ x方向に座標を反転
 
    - せん断ひずみを与える場合は :guilabel:`Transform by shear strain` にチェックを入れます。変形する方向と与えるひずみを指定します。
 
+   - セルの角度を変更する場合は :guilabel:`Transform by angle` にチェックを入れます。変形する角度の種類と値を指定します。
+
    :guilabel:`2. Atomic positions` において原子の動かし方を指定します。
    
    - 原子位置は固定でセルのみ変更する場合は :guilabel:`Do not change` にチェックを入れます。
