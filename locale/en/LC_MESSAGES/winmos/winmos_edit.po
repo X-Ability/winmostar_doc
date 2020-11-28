@@ -535,6 +535,9 @@ msgstr "If you want to transform a cell similarly, check :guilabel:`Transform si
 msgid "せん断ひずみを与える場合は :guilabel:`Transform by shear strain` にチェックを入れます。変形する方向と与えるひずみを指定します。"
 msgstr "Check :guilabel:`Transform by shear strain` if you want to apply a shear strain. Specify the direction to be deformed and the strain to be applied."
 
+msgid "セルの角度を変更する場合は :guilabel:`Transform by angle` にチェックを入れます。変形する角度の種類と値を指定します。"
+msgstr "Check :guilabel:`Transform by angle` if you want to change the angle of a cell. Specify the type and value of the angle to be transformed."
+
 msgid ":guilabel:`2. Atomic positions` において原子の動かし方を指定します。"
 msgstr ":guilabel:`2. Atomic positions` specifies how to move atoms."
 

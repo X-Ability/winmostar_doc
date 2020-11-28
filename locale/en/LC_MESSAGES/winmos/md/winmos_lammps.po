@@ -676,6 +676,21 @@ msgstr "Final Pressure"
 msgid "圧縮計算時の終状態の圧力を指定します。"
 msgstr "Specify the temperature of the final state at the time of annealing calculation."
 
+msgid "Enable electric field"
+msgstr "Enable electric field"
+
+msgid "外部電場を与えます。 :guilabel:`Sine wave` を選ぶと、正弦波的に電場を与えます。 :guilabel:`Constant` を選ぶと、定常的に電場を与えます。"
+msgstr "Gives an external electric field. If you select :guilabel:`Sine wave`, the electric field is given sine wave. When :guilabel:`Constant` is selected, the electric field is given in static."
+
+msgid "Amp & Freq"
+msgstr "Amp & Freq"
+
+msgid "各方向の強度（Amp）と周波数（Freq）を与えます。 :guilabel:`Enable electric field` で :guilabel:`Sine wave` を選んだ時は下式で電場が与えられ、Aが強度、fが周波数となります。 :guilabel:`Constant` を選んだ時は強度のみが使われます。"
+msgstr "Gives the intensity (Amp) and frequency (Freq) of each direction. If :guilabel:`Sine wave` in  :guilabel:`Enable electric field` is selected, the following formula is used to give the electric field, where A is the intensity and f is the frequency. If you choose :guilabel:`Constant`, only the intensity is used."
+
+msgid "A \\sin ( 2 \\pi f t)"
+msgstr "A \\sin ( 2 \\pi f t)"
+
 msgid "Restraint"
 msgstr "Restraint"
 

@@ -223,8 +223,8 @@ msgstr "Check the activity record of the security software in use and check whet
 msgid "Winmostarを最新版にアップデートし（使用中のバージョンと共存させることが可能）、 :ref:`knownissues_top` 、 :ref:`faq_top` に類似する状況がないか確認する。"
 msgstr "Update Winmostar to the latest version (it is possible to coexist with the version you are using), check if there is a situation similar to :ref:`knownissues_top` and :ref:`faq_top`."
 
-msgid "保存するファイルやそれを含むディレクトリ（上位階層全てを含む）の名前に、日本語、全角文字などのマルチバイト文字や特殊記号が含まれている場合は、一部ソルバで不具合が出ることがあるため半角英数のみとなるようにする。"
-msgstr "If the names of files to be saved and directories containing them (including all upper layers) contain multibyte characters such as Japanese and special symbols, some solvers may cause problems. Therefore, use only single-byte alphanumeric characters."
+msgid "保存するファイルやそれを含むディレクトリ（上位階層全てを含む）の名前に、日本語、全角文字などのマルチバイト文字や特殊記号（スペースも不具合の原因となります）が含まれている場合は、一部ソルバで不具合が出ることがあるため半角英数のみとなるようにする。"
+msgstr "If the names of files to be saved and directories containing them (including all upper layers) contain multibyte characters such as Japanese and special symbols including sapces, some solvers may cause problems. Therefore, use only single-byte alphanumeric characters."
 
 msgid "実行した処理で何かしらログが出力されているか作業フォルダを確認し、ログの内容を確認する。"
 msgstr "Check the working folder to see if the log is being output by the executed process and check the contents of the log."
@@ -821,7 +821,7 @@ msgid "Q. MOPAC、GAMESS、Gaussian、NWChemのキーワード設定ウィンド
 msgstr "The Hamiltonian calculation method (Hamiltonian) or basis function (Basis Set) that I want to use is not found in the Configure window or the Easy Setup window for MOPAC, GAMESS, Gaussian and NWChem. How do I set it up?"
 
 msgid "計算手法、基底関数の設定欄に直接キーボードで入力できる場合は、直接入力することができます。分極関数（「*」や「p」「d」「f」で表現されるもの）の指定方法はソルバごとに記述が異なることがあるので、それぞれのソルバのマニュアルを確認してください。"
-msgstr "If you can enter directly into the calculation method and basis function setting fields, you can do so directly with the keyboard. Different solvers may have different descriptions of polarization functions (represented by "*", "p", "d", and "f"), so please check the manual for each solver."
+msgstr "If you can enter directly into the calculation method and basis function setting fields, you can do so directly with the keyboard. Different solvers may have different descriptions of polarization functions (represented by \"*\", \"p\", \"d\", and \"f\"), so please check the manual for each solver."
 
 msgid "Gromacs, LAMMPSに関して"
 msgstr "Gromacs, LAMMPS"

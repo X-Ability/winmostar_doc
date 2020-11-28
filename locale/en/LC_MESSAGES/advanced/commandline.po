@@ -19,41 +19,59 @@ msgstr "-mopac1, -mopac2, -mopac3"
 msgid "(それぞれ :ref:`preferences_top` :menuselection:`--> プログラムパス` において選択した3種のMOPACバイナリに対応)"
 msgstr "These correspond to the three MOPAC binaries selected in :ref:`preferences_top` :menuselection:`--> Program Path`."
 
-msgid "分子表面積・体積の計算"
-msgstr "Calculation of molecular surface area and volume"
+msgid ":ref:`tools_molesurf`"
+msgstr ":ref:`tools_molesurf`"
 
 msgid "-molsv"
 msgstr "-molsv"
 
-msgid "アスペクト比の計算"
-msgstr "Calculation of aspect ratio"
+msgid ":ref:`tools_aspect`"
+msgstrd ":ref:`tools_aspect`"
 
 msgid "-aspect"
 msgstr "-aspect"
 
-msgid "座標調整"
-msgstr "Coordinate Adjustment"
+msgid ":ref:`edit_auto_bondlength`"
+msgstr ":ref:`edit_auto_bondlength`"
 
 msgid "-adjust"
 msgstr "-adjust"
 
-msgid "水素付加"
-msgstr "Add Hydrogens"
+msgid ":ref:`edit_addh_all`"
+msgstr ":ref:`edit_addh_all`"
 
 msgid "-hadd"
 msgstr "-hadd"
 
-msgid "水素削除"
-msgstr "Delete All Hydrogens"
+msgid ":ref:`edit_delh`"
+msgstr ":ref:`edit_delh`"
 
 msgid "-hdel"
 msgstr "-hdel"
 
-msgid "簡易構造最適化"
-msgstr "Quick Optimization"
+msgid ":ref:`edit_clean`"
+msgstr ":ref:`edit_clean`"
 
 msgid "-clean"
 msgstr "-clean"
+
+msgid ":ref:`md_charge_resp` （1分子のみ対応）"
+msgstr ":ref:`md_charge_resp` （only for one molecule）"
+
+msgid "-resp"
+msgstr "-resp"
+
+msgid ":ref:`md_solvate_buildcell` （第一引数は無視されます）"
+msgstr ":ref:`md_solvate_buildcell` （the first argument is ignored）"
+
+msgid "-pack (分子種1のファイル名):(分子種1の個数):(分子種2のファイル名):(分子種2の個数)(以降、同様に列挙) (密度[g/cm^3])"
+msgstr "-pack (file name of 1st molecule ):(number of 1st molecule ):(file name of 2nd molecule ):(number of 2nd molecule ) ... (density [g/cm^3])"
+
+msgid "LAMMPSの計算（ローカルジョブ）"
+msgstr "Calculation of LAMMPS(Local Job)"
+
+msgid "-lammps (力場の種類) (1つ目のジョブのプリセット名または設定ファイル名):(2つ目のジョブのプリセット名または設定ファイル名):(以降、同様に列挙) (並列数)"
+msgstr "-lammps "
 
 msgid "ファイル形式を変更して保存"
 msgstr "Change file type and save"
@@ -70,8 +88,8 @@ msgstr "-outfile output_file_name"
 msgid "使用例:"
 msgstr "Use case:"
 
-msgid "\\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -mopac1 \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -molsv 1 2.0 0.02 \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -o pdb \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -adjust -hadd -clean -o gjf"
-msgstr "\\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -mopac1 \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -molsv 1 2.0 0.02 \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -o pdb \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -adjust -hadd -clean -o gjf"
+msgid "\\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -mopac1 \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -molsv 1 2.0 0.02 \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -o pdb \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -adjust -hadd -clean -o gjf \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\ch4.mol2\\\" -s -pack ch4.mol2:100:ethanol_am1.mol2:2 0.6 -outfile ch4_100_etoh_2.mol2 \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\ch4_100_etoh_2.mol2\\\" -s -lammps \"Dreiding\" \"Minimize (fast):NVT (fast):NPT (fast)\" 2"
+msgstr "\\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -mopac1 \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -molsv 1 2.0 0.02 \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -o pdb \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\dbt.dat\\\" -s -adjust -hadd -clean -o gjf \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\ch4.mol2\\\" -s -pack ch4.mol2:100:ethanol_am1.mol2:2 0.6 -outfile ch4_100_etoh_2.mol2 \\\"C:\\\\winmos10\\\\winmostar.exe\\\" \\\"C:\\\\winmos10\\\\samples\\\\ch4_100_etoh_2.mol2\\\" -s -lammps \"Dreiding\" \"Minimize (fast):NVT (fast):NPT (fast)\" 2"
 
 msgid "初期入力ファイルを第一引数に指定します。"
 msgstr "Specify input file at first argument."
