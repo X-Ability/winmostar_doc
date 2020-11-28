@@ -56,22 +56,22 @@ msgid "-clean"
 msgstr "-clean"
 
 msgid ":ref:`md_charge_resp` （1分子のみ対応）"
-msgstr ":ref:`md_charge_resp` （only for one molecule）"
+msgstr ":ref:`md_charge_resp` (only for one molecule)"
 
 msgid "-resp"
 msgstr "-resp"
 
 msgid ":ref:`md_solvate_buildcell` （第一引数は無視されます）"
-msgstr ":ref:`md_solvate_buildcell` （the first argument is ignored）"
+msgstr ":ref:`md_solvate_buildcell` (the first argument is ignored)"
 
 msgid "-pack (分子種1のファイル名):(分子種1の個数):(分子種2のファイル名):(分子種2の個数)(以降、同様に列挙) (密度[g/cm^3])"
-msgstr "-pack (file name of 1st molecule ):(number of 1st molecule ):(file name of 2nd molecule ):(number of 2nd molecule ) ... (density [g/cm^3])"
+msgstr "-pack (file name of 1st molecule type):(number of 1st molecule type):(file name of 2nd molecule type):(number of 2nd molecule type) ... (density [g/cm^3])"
 
 msgid "LAMMPSの計算（ローカルジョブ）"
-msgstr "Calculation of LAMMPS(Local Job)"
+msgstr "Calculation of LAMMPS (Local Job)"
 
 msgid "-lammps (力場の種類) (1つ目のジョブのプリセット名または設定ファイル名):(2つ目のジョブのプリセット名または設定ファイル名):(以降、同様に列挙) (並列数)"
-msgstr "-lammps "
+msgstr "-lammps (type of forcefield) (preset name od setting file name of the 1st job):(preset name od setting file name of the 2nd job) ... (parralel number)"
 
 msgid "ファイル形式を変更して保存"
 msgstr "Change file type and save"
