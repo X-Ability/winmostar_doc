@@ -83,6 +83,12 @@ msgstr "Set Lattice Constants"
 msgid "シミュレーションセルのサイズを直接指定します。 :guilabel:`Same as main window` ボタンを押すと、メインウィンドウに設定されたセルと同じ値が入力されます。"
 msgstr "Specify the size of the simulation cell directly. When you press : guilabel:`Same as main window` button, the same value as the cell set in the main window is entered."
 
+msgid "Change only one direction"
+msgstr "Change only one direction"
+
+msgid "2つの格子定数を固定しながら、指定密度になるよう1つの格子定数を動かすときに使用します。 :guilabel:`Box Type` でtriclinicを選択すると使えるようになります。特に、界面構造を作成する際に有効な機能です。"
+msgstr "Used to move one lattice constant to the specified density while keeping two lattice constants fixed. It can be used by selecting triclinic in :guilabel:`Box Type`. This is especially useful when creating interface structures."
+
 msgid "Box Type"
 msgstr "Box Type"
 

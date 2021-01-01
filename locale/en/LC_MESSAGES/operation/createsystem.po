@@ -208,8 +208,8 @@ msgstr "Decide which molecule and how many molecules to put in the other phase. 
 msgid "4.、5.の手順を計算したい全ての分子種に対して行う。"
 msgstr "Perform the steps in 4 and 5 for all the molecular species you want to calculate."
 
-msgid ":guilabel:`Simulatoin Cell` タブで :guilabel:`Set Lattice Constants` にチェックを入れ、 :guilabel:`Same as main window` ボタンをクリックする。次に、 :guilabel:`Box Type` で「triclinic」を選択する。 :guilabel:`Set Lattice Constants` の右に、最初に作成した相のセルサイズが表示される。そのうち、一番右の欄（z方向）の値を変更する。その際、その上の :guilabel:`Set Density` の右に表示される密度を参考にする。"
-msgstr "Check :guilabel:`Set Lattice Constants` in :guilabel:`Simulatoin Cell` tab and click :guilabel:`Same as main window` button. Next, select \"triclinic\" at :guilabel:`Box Type`. The cell size of the first phase is shown to the right of :guilabel:`Set Lattice Constants`. In this case, change the value of the rightmost column (z-direction). In this case, refer to the density displayed on the right of :guilabel:`Set Density` above it."
+msgid ":guilabel:`Simulatoin Cell` タブで :guilabel:`Set Lattice Constants` にチェックを入れ、 :guilabel:`Same as main window` ボタンをクリックする。次に、 :guilabel:`Box Type` で「triclinic」を選択する。 :guilabel:`Set Lattice Constants` の右に、最初に作成した相のセルサイズが表示される。 :guilabel:`Change only one direction` をクリックし、 :guilabel:`Select direction` でZを選択し、 :guilabel:`Enter density` で指定密度を入力すると、x, y方向の格子定数は固定したままz方向の格子定数が自動で設定される。"
+msgstr "On the :guilabel:`Simulatoin Cell` tab, check the :guilabel:`Set Lattice Constants` and click the :guilabel:`Same as main window` button. Next, select \"triclinic\" for the :guilabel:`Box Type`. To the right of the :guilabel:`Set Lattice Constants`, the cell size of the first phase you created is displayed. Click the :guilabel:`Change only one direction`, select Z with the :guilabel:`Select direction`, and enter the specified density with the :guilabel:`Enter density` to automatically set the lattice constants in the z and y directions while keeping the x and y constants fixed."
 
 msgid ":guilabel:`Build` ボタンを押す。"
 msgstr "Press the :guilabel:`Build` button."

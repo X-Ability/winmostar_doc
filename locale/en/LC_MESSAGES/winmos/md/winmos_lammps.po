@@ -22,8 +22,8 @@ msgstr "Assign a new force field parameter."
 msgid "(一般)"
 msgstr "(General)"
 
-msgid "タンパク質、水分子以外の分子の力場を指定します。 内部では、GAFF, OPLS/AA-Lの場合は :command:`acpype` 、Dreidingの場合は内製プログラム、UFFの場合はOpenBabelを独自に拡張したプログラムが使用されます。 Dreidingの設定は :file:`polymer/dreiding.lib.txt` に書かれています。 UFFの詳細は :ref:`forcefield_uff` を確認してください。"
-msgstr "Specify the force field for molecules other than proteins and water molecules. In the case of GAFF or OPLS/AA-L, :command:`acpype` is used, in the case of Dreiding, an in-house program is used, and in the case of UFF, a program that extends OpenBabel is used.  The setting of Dreiding is written in :file:`polymer/dreiding.lib.txt`. See :ref:`forcefield_uff` for more information about UFF."
+msgid "タンパク質、水分子以外の分子の力場を指定します。 内部では、GAFF, GAFF2, OPLS/AA-Lの場合は :command:`acpype` 、Dreidingの場合は内製プログラム、UFFの場合はOpenBabelを独自に拡張したプログラムが使用されます。 Dreidingの設定は :file:`polymer/dreiding.lib.txt` に書かれています。 UFFの詳細は :ref:`forcefield_uff` を確認してください。"
+msgstr "Specify the force field for molecules other than proteins and water molecules. In the case of GAFF, GAFF2 or OPLS/AA-L, :command:`acpype` is used, in the case of Dreiding, an in-house program is used, and in the case of UFF, a program that extends OpenBabel is used.  The setting of Dreiding is written in :file:`polymer/dreiding.lib.txt`. See :ref:`forcefield_uff` for more information about UFF."
 
 msgid "Exception"
 msgstr "Exception"

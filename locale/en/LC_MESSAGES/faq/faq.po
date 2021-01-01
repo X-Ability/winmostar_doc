@@ -922,11 +922,24 @@ msgstr "It is necessary to plan the calculation considering how to obtain the ex
 msgid "なお、弊社の有償サポートでプランニングのお手伝いをすることが可能です。"
 msgstr "In addition, it is possible to help with planning with our paid support."
 
-msgid "Q. Gromacsにおいて最終構造やアニメーションを読み込むと分子がバラバラに表示されることがありますがなぜですか？。"
+msgid "Q. 界面ビルダで作成した構造からMD計算を実行しようとすると、力場の割り当てが失敗したりMD計算破綻します。解決方法はありますか？"
+msgstr "Q. When I try to run an MD calculation from a structure created with the interface builder, the force field assignment fails or the MD calculation fails. Is there a solution?"
+
+msgid "A. 接合箇所の間隔が短いと、両層の分子が衝突し、望まない共有結合が原子間距離から判定され生成されてしまったり、MD計算開始時に大きな力が働きMD計算が破綻することになります。平衡化に時間が掛かってしまいますが、界面ビルダの[Direction]-[Interval]の値を大きくし、長い時間を掛けて平衡化をするのが一番良い方法となります。"
+msgstr "A. If the distance between the layers is too short, the molecules of the two layers will collide, and unwanted covalent bonds will be created based on the interatomic distance, or a large force will be applied at the start of the MD calculation, causing the MD calculation to fail. The best way is to increase the value of [Direction]-[Interval] in the interface builder and take a long time to equilibrate"
+
+
+msgid "Q. Gromacsの最終構造やアニメーションを読み込んで取得した構造や、それに何かしらの編集を行ってから再びMD計算を実行すると力場の割り当てが失敗したりMD計算が破綻します。解決方法はありますか？"
+msgstr "Q. When I load the final structure or animation from Gromacs, or when I edit it in some way and then run the MD calculation again, the force field assignment fails or the MD calculation breaks down. Is there a solution?"
+
+msgid "A. Gromacsの不具合により分子が分離している可能性があります。分子が分離しているか否かは、[選択]-[分子種によるグループ選択]を表示し、想定していない成分が含まれているかを確認することで判断できます。分離していた場合は :ref:`knownissues_gro_break` をご参照ください。"
+msgstr "A. There is a possibility that the molecules are separated due to a bug in Gromacs. To determine if a molecule is separated or not, go to [Select]-[Select by molecular species] and see if there are any unexpected components. If it is separated, please refer to :ref:`knownissues_gro_break`."
+
+msgid "Q. Gromacsにおいて最終構造やアニメーションを読み込むと分子がバラバラに表示されることがありますがなぜですか？"
 msgstr "Q\. When loading the final structure or animation in Gromacs, the molecules are sometimes displayed in pieces."
 
-msgid "A. Gromacsの軽微な不具合による症状です。周期境界条件を考慮すると、分子の形状は保たれており、分子動力学計算としては適切に処理されているため、結果解析等には問題ありません。見た目を修正したい場合は、 :menuselection:`表示 --> 周期境界条件の表現形式` から :guilabel:`セルの内側に原子単位で再配置` を選択してください。"
-msgstr "A\. This problem is caused by a minor bug in Gromacs. Considering the periodic boundary condition, the shape of the molecule is maintained, and it is properly processed as a molecular dynamics calculation, so there is no problem in analyzing the results. To modify the appearance, select :menuselection:`display --> periodic boundary condition format` to :guilabel:`relocate atomically inside the cell`."
+msgid "A. :ref:`knownissues_gro_break` をご参照ください。"
+msgstr "A. Please refer to :ref:`knownissues_gro_break`."
 
 msgid "Q. 圧力制御（NPT一定またはNPH一定）を行うと、計算が途中で破綻します。解決方法はありますか？"
 msgstr "Q\. When pressure control (constant NPT or NPH) is used, the calculation fails in the middle of the process. Is there a solution?"

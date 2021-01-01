@@ -34,8 +34,8 @@ msgstr "In the Windows 10 console window, selecting the range of the log text of
 msgid "ローカルマシンでGromacsを実行中にGromacsがフリーズする。"
 msgstr "Gromacs freezes while running Gromacs on local machine."
 
-msgid "ごく一部のマシン上で、ローカルマシンでGromacsを実行中にGromacsがフリーズします。MD計算の最中に発生し、標準出力の内容が変化しなくなります。フリーズする箇所に再現性がありません。このような場合は、Gromacsキーワード設定の「# of Threads」を1にすると回避できます。無論処理は遅くなるので、本格的な計算を流したい場合はリモートサーバを利用したリモートジョブ投入機能をお使いください。 （2018年7月31日報告）"
-msgstr "On some machines, Gromacs freezes while running Gromacs on the local machine. It occurs during MD calculation and the contents of standard output do not change. There is no reproducibility in the place where it freezes. In such cases, you can avoid by setting \"# of Threads\" of Gromacs Configure to 1. As a matter of course, processing becomes slower, please use remote job submission function using remote server if you want to run full-scale calculation. (Reported on July 31, 2018)"
+msgid "ごく一部のマシン上で、ローカルマシンでGromacsを実行中にGromacsがフリーズします。MD計算の最中に発生し、標準出力の内容が変化しなくなります。フリーズする箇所に再現性がありません。このような場合は、Gromacsキーワード設定の「# of Threads」を1にすると回避できます。無論処理は遅くなるので、本格的な計算を流したい場合はリモートサーバを利用したリモートジョブ投入機能をお使いください。また、WinmostarではGromacsと似た操作方法でLAMMPSを使用できますので、LAMMPSをお使い頂くという選択肢もございます。 （2020年12月4日報告）"
+msgstr "On some machines, Gromacs freezes while running Gromacs on the local machine. It occurs during MD calculation and the contents of standard output do not change. There is no reproducibility in the place where it freezes. In such cases, you can avoid by setting \"# of Threads\" of Gromacs Configure to 1. As a matter of course, processing becomes slower, please use remote job submission function using remote server if you want to run full-scale calculation. LAMMPS can be used with Winmostar in a similar way to Gromacs, so you can also choose to use LAMMPS. (Reported on December 4, 2020)"
 
 msgid "GromacsのChiまたはDPDパラメータ計算機能において本来の定義の0.5倍の値が出力される。"
 msgstr "Gromacs Chi or DPD parameter calculation function outputs 0.5 times the original definition."
@@ -60,3 +60,9 @@ msgstr "The units of Isothermal Compressibility and Adiabatic Bulk Modulus outpu
 
 msgid "gmx energyのログに、Isothermal Compressibilityの単位が「J/m^3」と書かれていますが、正しくは「m^3/J」です。同様に、Adiabatic Bulk Modulusの単位は正しくは「J/m^3」です。 （2020年6月29日報告）"
 msgstr "In the gmx energy log, the units for Isothermal Compressibility is \"J/m^3\", but the correct unit is \"m^3/J\". Similarly, the Adiabatic Bulk Modulus unit is correctly \"J/m^3\". (Reported on June 29, 2020)"
+
+msgid "Gromacsのトラジェクトリを読み込んだ構造または、最終構造において、本来繋がっているべき分子がバラバラに表示される。"
+msgstr "Molecules that should be connected to each other are displayed separately in the structure or the final structure after loading the Gromacs trajectory."
+
+msgid "Gromacs本体の不具合に由来しています。長時間の計算ほど発生する可能性が高くなります。ただし、周期境界を考慮すると正しい原子配置となっているため、そのMD計算自体に問題はありません。特に界面ビルダで2つの系を接合するときなどに問題が生じます。バラバラになった分子を元に戻す場合は、[編集]-[周期境界条件に基づき原子を再配置]において、[セルの内側に原子単位で再配置]をクリック→[適用]ボタンをクリック→[原子単位で再配置された構造を元に戻す]をクリック→[適用]ボタンをクリック→[OK]ボタンをクリックとしてください。ただし、計算した時と同じセルでこの操作を行う必要があるため、界面ビルダなどを使用する前に実行してください。 （2020年12月25日報告）"
+msgstr "This is due to a bug in Gromacs itself. The longer the calculation, the more likely it is to occur. However, there is no problem in the MD calculation itself, because the atomic configuration is correct when the periodic boundary is taken into account. The problem occurs especially when two systems are joined by an interface builder. If you want to restore the disassembled molecules, click [Edit]-[Wrap Around Cell Boundary], click [Wrap for each atom], click [Apply], click [Unwrap all molecules], click [Apply], and then click [OK]. However, since this operation must be performed in the same cell as when the calculation was made, please perform it before using the interface builder. (Reported on December 25, 2020)"

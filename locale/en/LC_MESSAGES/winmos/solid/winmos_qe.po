@@ -61,26 +61,20 @@ msgstr "SCF"
 msgid "SCF+Bands"
 msgstr "SCF+Bands"
 
-
 msgid "+DOS"
 msgstr "+DOS"
-
 
 msgid "(Fermi surf)"
 msgstr "(Fermi surf)"
 
-
 msgid "Relax"
 msgstr "Relax"
-
 
 msgid "(variable cell)"
 msgstr "(variable cell)"
 
-
 msgid "BOMD"
 msgstr "BOMD"
-
 
 msgid "CPMD"
 msgstr "CPMD"
@@ -94,22 +88,17 @@ msgstr "calculation"
 msgid "scf"
 msgstr "scf"
 
-
 msgid "relax"
 msgstr "relax"
-
 
 msgid "vc-relax"
 msgstr "vc-relax"
 
-
 msgid "md"
 msgstr "md"
 
-
 msgid "cp"
 msgstr "cp"
-
 
 msgid "Use nbnd"
 msgstr "Use nbnd"
@@ -120,22 +109,17 @@ msgstr "False"
 msgid "True"
 msgstr "True"
 
-
 msgid "K_POINTS"
 msgstr "K_POINTS"
 
 msgid "gamma"
 msgstr "gamma"
 
-
 msgid "automatic"
 msgstr "automatic"
 
-
-
 msgid "4 4 4 1 1 1"
 msgstr "4 4 4 1 1 1"
-
 
 msgid "tstress"
 msgstr "tstress"
@@ -143,10 +127,8 @@ msgstr "tstress"
 msgid "Set ibrav"
 msgstr "Set ibrav"
 
-
 msgid "and celldm"
 msgstr "and celldm"
-
 
 msgid "occupations"
 msgstr "occupations"
@@ -159,7 +141,6 @@ msgstr "ion_dynamics"
 
 msgid "bfgs"
 msgstr "bfgs"
-
 
 msgid "verlet"
 msgstr "verlet"
@@ -182,7 +163,6 @@ msgstr "pot_extrapolation"
 msgid "second_order"
 msgstr "second_order"
 
-
 msgid "wfc_extrapolation"
 msgstr "wfc_extrapolation"
 
@@ -192,10 +172,8 @@ msgstr "electron_dynamics"
 msgid "sd"
 msgstr "sd"
 
-
 msgid "Unit for"
 msgstr "Unit for"
-
 
 msgid "atomic_position"
 msgstr "atomic_position"
@@ -203,30 +181,23 @@ msgstr "atomic_position"
 msgid "angstrom"
 msgstr "angstrom"
 
-
 msgid "crystal"
 msgstr "crystal"
-
 
 msgid "Band structure"
 msgstr "Band structure"
 
-
 msgid "plot"
 msgstr "plot"
-
 
 msgid "DOS plot"
 msgstr "DOS plot"
 
-
 msgid "PDOS plot"
 msgstr "PDOS plot"
 
-
 msgid "Fermi surface"
 msgstr "Fermi surface"
-
 
 msgid "Use MPI"
 msgstr "Use MPI"
@@ -557,6 +528,45 @@ msgstr "orthogonalization"
 
 msgid "行列計算（正規直交化）の方法を指定します。"
 msgstr "Specify the method of matrix calculation (orthonormalization)."
+
+msgid "Dipole Corrタブ"
+msgstr "Dipole Corr tab"
+
+msgid "tefield"
+msgstr "tefield"
+
+msgid "ノコギリ型の外部電場を印加します。"
+msgstr "A sawtooth type external electric field is applied."
+
+msgid "dipfield"
+msgstr "dipfield"
+
+msgid "ダイポール補正を使用します。"
+msgstr "Use dipole correction."
+
+msgid "edir"
+msgstr "edit"
+
+msgid "tefieldとdipfieldが適用される方向を設定します。"
+msgstr "Sets the direction in which the tefield and dipfield are applied."
+
+msgid "emaxpos"
+msgstr "emaxpos"
+
+msgid "tefieldとdipfieldを適用する際の、外部電場が最大値となる場所を分率座標（0から1の範囲）で与えます。"
+msgstr "The location where the external electric field is at its maximum value when applying tefield and dipfield is given in fractional coordinates (in the range of 0 to 1)."
+
+msgid "eopreg"
+msgstr "eopreg"
+
+msgid "tefieldとdipfieldを適用する際の、外部電場が減衰する領域のサイズを分率座標で与えます。"
+msgstr "The size of the region where the external electric field decays when applying tefield and dipfield is given in fractional coordinates."
+
+msgid "eamp"
+msgstr "eamp"
+
+msgid "tefieldとdipfieldを適用する際の、外部電場の大きさを与えます。"
+msgstr "Gives the magnitude of the external electric field when applying the tefield and dipfield."
 
 msgid "ESMタブ"
 msgstr "ESM tab"
