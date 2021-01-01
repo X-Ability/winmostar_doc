@@ -47,6 +47,8 @@ MDメニューの機能を利用するにはMDパックが必要です。
             :guilabel:`Method` に :guilabel:`Solvate` を選んでいる際に、メインウィンドウに表示された分子とシミュレーションセルの間の距離を指定します。
          Set Lattice Constants
             シミュレーションセルのサイズを直接指定します。 :guilabel:`Same as main window` ボタンを押すと、メインウィンドウに設定されたセルと同じ値が入力されます。
+         Change only one direction
+            2つの格子定数を固定しながら、指定密度になるよう1つの格子定数を動かすときに使用します。 :guilabel:`Box Type` でtriclinicを選択すると使えるようになります。特に、界面構造を作成する際に有効な機能です。
          Box Type
             シミュレーションセルの形状を指定します。
       Option

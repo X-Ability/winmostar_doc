@@ -363,6 +363,19 @@
          Car-Parrinello MD計算時の電子の仮想質量のカットオフ値を指定します。
       orthogonalization
          行列計算（正規直交化）の方法を指定します。
+   Dipole Corrタブ
+      tefield
+         ノコギリ型の外部電場を印加します。
+      dipfield
+         ダイポール補正を使用します。
+      edir
+         tefieldとdipfieldが適用される方向を設定します。
+      emaxpos
+         tefieldとdipfieldを適用する際の、外部電場が最大値となる場所を分率座標（0から1の範囲）で与えます。
+      eopreg
+         tefieldとdipfieldを適用する際の、外部電場が減衰する領域のサイズを分率座標で与えます。
+      eamp
+         tefieldとdipfieldを適用する際の、外部電場の大きさを与えます。
    ESMタブ
       assume_isolated=esm
          ESM(Effective Screening Medium, 有効遮蔽媒質)法を使用する場合はチェックを入れます。

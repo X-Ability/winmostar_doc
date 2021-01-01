@@ -174,7 +174,7 @@
    
    6. 4.、5.の手順を計算したい全ての分子種に対して行う。
    
-   7. :guilabel:`Simulatoin Cell` タブで :guilabel:`Set Lattice Constants` にチェックを入れ、 :guilabel:`Same as main window` ボタンをクリックする。次に、 :guilabel:`Box Type` で「triclinic」を選択する。 :guilabel:`Set Lattice Constants` の右に、最初に作成した相のセルサイズが表示される。そのうち、一番右の欄（z方向）の値を変更する。その際、その上の :guilabel:`Set Density` の右に表示される密度を参考にする。
+   7. :guilabel:`Simulatoin Cell` タブで :guilabel:`Set Lattice Constants` にチェックを入れ、 :guilabel:`Same as main window` ボタンをクリックする。次に、 :guilabel:`Box Type` で「triclinic」を選択する。 :guilabel:`Set Lattice Constants` の右に、最初に作成した相のセルサイズが表示される。 :guilabel:`Change only one direction` をクリックし、 :guilabel:`Select direction` でZを選択し、 :guilabel:`Enter density` で指定密度を入力すると、x, y方向の格子定数は固定したままz方向の格子定数が自動で設定される。
    
    8. :guilabel:`Build` ボタンを押す。
    
