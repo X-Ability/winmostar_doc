@@ -97,6 +97,7 @@ HDD、メモリは後から比較的容易に増設できるため、まずは�
 
    - `Windows版GAMESSインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/GAMESS_install_manual_jp_win.pdf>`_
    - `Windows版NWChemインストールマニュアル           <https://winmostar.com/jp/nwchem4wm_jp.html>`_
+   - `Windows版Gaussianインストールマニュアル         <https://winmostar.com/jp/manual_jp/installation/Gaussian_setup_manual_jp_win.pdf>`_
    - `Windows版LAMMPSインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/LAMMPS_install_manual_jp_win.pdf>`_
    - `Windows版NAMDインストールマニュアル             <https://winmostar.com/jp/manual_jp/installation/NAMD_install_manual_jp_win.pdf>`_
    - `Windows版Quantum ESPRESSOインストールマニュアル <https://winmostar.com/jp/manual_jp/installation/QE_install_manual_jp_win.pdf>`_
