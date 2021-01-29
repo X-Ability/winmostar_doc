@@ -1354,14 +1354,14 @@ RMSD
 
    .. include:: winmos_gromacs_analysis_common1.rst
 
-Ramachandoranプロット
+Ramachandranプロット
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-   Gromacsが出力したtrr, tpr, ndxファイルを選択し、各アミノ酸残基のRamachandoranプロットを表示します。
+   Gromacsが出力したtrr, tpr, ndxファイルを選択し、各アミノ酸残基のRamachandranプロットを表示します。
    内部的には :command:`gmx rama` コマンドが実行されます。詳細な挙動は `gmx rama <http://manual.gromacs.org/archive/5.0.7/programs/gmx-rama.html>`_ のマニュアルをご確認ください。
 
    Residue
-      ここで選択した残基のRamachandoranプロットが出力されます。
+      ここで選択した残基のRamachandranプロットが出力されます。
       
    .. include:: winmos_gromacs_analysis_common1.rst
 
