@@ -14,3 +14,6 @@ find locale/en/LC_MESSAGES -name '*.po' -print0 | \
 
 find locale/en/LC_MESSAGES -name '*.po' -print0 | \
     while read -r -d '' file; do rm "$file".bak; done
+
+sed -i s/Q\\./Q\./g locale/en/LC_MESSAGES/en/faq/faq.po
+sed -i s/A\\./A\./g locale/en/LC_MESSAGES/en/faq/faq.po
