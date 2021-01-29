@@ -130,6 +130,9 @@ msgstr "`GAMESS installation manual for Windows <https://winmostar.com/en/manual
 msgid "`Windows版NWChemインストールマニュアル           <https://winmostar.com/jp/nwchem4wm_jp.html>`_"
 msgstr "`NWChem installation manual for Windows <https://winmostar.com/en/nwchem4wm_en.html>`_"
 
+msgid "`Windows版Gaussianインストールマニュアル         <https://winmostar.com/jp/manual_jp/installation/Gaussian_setup_manual_jp_win.pdf>`_"
+msgstr "Gauusian installation manual for Windows (only Japanese)           <https://winmostar.com/jp/manual_jp/installation/Gaussian_setup_manual_jp_win.pdf>`_"
+
 msgid "`Windows版LAMMPSインストールマニュアル           <https://winmostar.com/jp/manual_jp/installation/LAMMPS_install_manual_jp_win.pdf>`_"
 msgstr "`LAMMPS installation manual for Windows <https://winmostar.com/en/manual_en/installation/LAMMPS_install_manual_en_win.pdf>`_"
 

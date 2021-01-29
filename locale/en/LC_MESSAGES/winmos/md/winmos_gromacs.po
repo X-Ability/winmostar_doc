@@ -1282,17 +1282,17 @@ msgstr "Select a trr, tpr or ndx file output by Gromacs and display the rotation
 msgid "ここでチェックを入れた成分について結果が出力されます。通常はBackboneを選択します。"
 msgstr "Results are output for the components checked here. Normally you will select Backbone."
 
-msgid "Ramachandoranプロット"
-msgstr "Ramachandoran Plot"
+msgid "Ramachandranプロット"
+msgstr "Ramachandran Plot"
 
-msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、各アミノ酸残基のRamachandoranプロットを表示します。 内部的には :command:`gmx rama` コマンドが実行されます。詳細な挙動は `gmx rama <http://manual.gromacs.org/archive/5.0.7/programs/gmx-rama.html>`_ のマニュアルをご確認ください。"
-msgstr "Select the trr, tpr, and ndx files output by Gromacs to display the Ramachandoran plots for each amino acid residue. Internally, the :command :command:`gmx rama` is executed. Please refer to the manual of `gmx rama <http://manual.gromacs.org/archive/5.0.7/programs/gmx-rama.html>`_ for more detailed behavior."
+msgid "Gromacsが出力したtrr, tpr, ndxファイルを選択し、各アミノ酸残基のRamachandranプロットを表示します。 内部的には :command:`gmx rama` コマンドが実行されます。詳細な挙動は `gmx rama <http://manual.gromacs.org/archive/5.0.7/programs/gmx-rama.html>`_ のマニュアルをご確認ください。"
+msgstr "Select the trr, tpr, and ndx files output by Gromacs to display the Ramachandran plots for each amino acid residue. Internally, the :command :command:`gmx rama` is executed. Please refer to the manual of `gmx rama <http://manual.gromacs.org/archive/5.0.7/programs/gmx-rama.html>`_ for more detailed behavior."
 
 msgid "Residue"
 msgstr "Residue"
 
-msgid "ここで選択した残基のRamachandoranプロットが出力されます。"
-msgstr "Here a Ramachandoran plot of the selected residue is output."
+msgid "ここで選択した残基のRamachandranプロットが出力されます。"
+msgstr "Here a Ramachandran plot of the selected residue is output."
 
 msgid "トラジェクトリを編集"
 msgstr "Modify Trajectory File"
